@@ -1,0 +1,25 @@
+name: Promote approved GPT candidates
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+permissions:
+  contents: write
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/promote_gpt_candidates.py
+      - name: Commit watchlist changes
+        run: |
+          if ! git diff --quiet -- watchlist.json radar_notes.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add watchlist.json radar_notes.json
+            git commit -m "Sync approved GPT radar candidates"
+            git push
+          fi
