@@ -15,9 +15,10 @@ def get(ticker):
     rows=[(ts,float(v)) for ts,v in zip(stamps,q["volume"])
           if v is not None and v>=0 and ts+300<=now-60]
     if len(rows)<15: raise ValueError("insufficient completed bars")
-    ts,vol=rows[-1]
-    if vol<=0: raise ValueError("latest completed bar has zero volume")
-    prior=[v for _,v in rows[-13:-1] if v>0]
+    positive=[(i,ts,v) for i,(ts,v) in enumerate(rows) if v>0]
+    if not positive: raise ValueError("no traded bars")
+    idx,ts,vol=positive[-1]
+    prior=[v for _,v in rows[max(0,idx-12):idx] if v>0]
     if len(prior)<6: raise ValueError("insufficient positive-volume baseline")
     baseline=sum(prior)/len(prior)
     if baseline<=0: raise ValueError("zero baseline")
