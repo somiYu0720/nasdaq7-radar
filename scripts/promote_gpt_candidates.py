@@ -14,5 +14,5 @@ for x in e:
     if t not in w["categories"][cat]: w["categories"][cat].append(t)
     if not any(z.get("ticker")==t for z in n["notes"]):
         n["notes"].append({"ticker":t,"radar":cat,"category":x.get("category","GPT 감시"),"memo":x.get("summary","")[:200],"status":"자동 관찰"})
-save("watchlist.json",w)
-save("radar_notes.json",n)
+if w!=load("watchlist.json"): save("watchlist.json",w)
+if n!=load("radar_notes.json"): save("radar_notes.json",n)
