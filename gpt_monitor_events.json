@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T20:13:16Z",
+  "updated_utc": "2026-10-26T20:15:42Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -253,6 +253,28 @@
       "summary": "10/23 16:10:18 EDT SEC 8-K 검증: 10/22 MACI 주주가 Everli Global 사업결합 승인(찬성 9,425,113, 반대 23,978); 3,852,564 Class A주 환매 신청, 환매 완료 후 신탁 약 $0.8m 예상. 종결은 아직 조건부, 완료 미확인. 10/23 정규장 거래량 445,924주, 직전 5거래일(10/16~22) 평균 약 27,696주 대비 16.10배. 10/26 일봉 시가 $13.50, 고가 $16.48, 저가 $8.58, 종가 $9.50(-13.64%), 거래량 151,457주; 10/26 가속은 직전 5일 대비 1.47배. 1차 분류는 급락 후 반등 관찰(저점 방어·반등 확정 아님), M&A 이벤트 병행. 10/23 8-K는 장마감 후 접수되어 당일 거래량의 원인으로 단정 불가. 2차 S-4 효력, 합병 대가 주식·기존 워런트 잠재 공급 확인, 실제 즉시 매도 가능 공급·최신 float/O/S·ATM/ELOC/PIPE/Resale 잔량 미확인, A/B/C/D 전체 유형 보류. 2차 위험은 1차 포착 순위에 미반영. 기존 발표 지연 발견.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2016221/000121390026112110/ea0309426-8k_melar1.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-RCT-debt-retirement-volume-20261026T132100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "RCT",
+      "category": "거래량 50배 가속·재점화·전환사채 상환 뉴스",
+      "detected_utc": "2026-10-26T20:15:42Z",
+      "summary": "10/26 15:45 EDT 이전 지연 일봉 데이터: RCT 약 474,230,922주 거래, 직전 5거래일(10/19~23) 평균 9,238,504주 대비 약 51.33배, 주가 약 +6.44%(15:45 EDT 관측). 장중 고가 약 $0.15, 저가 약 $0.08로 큰 변동; 급등 전 확정 아닌 재점화 관찰. 10/26 09:21 EDT 회사 발표: 2026년 2월 발행 선순위 전환사채 전액 상환, 미매각 재판매 주식 등록철회 계획(완료 미확인), 비희석 주주대출 활용. 신규 SEC 6-K 미확인으로 PROVISIONAL. 2차 10/16 424B3에서 ELOC 재판매 최대 5,000만주와 별도 워런트 관련 재판매 구조 확인; 실제 즉시 매도 가능 잔량·float/O/S 최신치 미확인, D형 잠정. 1차 포착에 위험 감점 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/26/3388183/0/en/redcloud-repays-all-convertible-notes-in-full.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-XXII-labt-crash-product-20261026T113700Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "XXII",
+      "category": "급락·대량거래 LABT형·제품 확대 발표",
+      "detected_utc": "2026-10-26T20:15:42Z",
+      "summary": "10/26 15:51 EDT 지연 모멘텀 보드: XXII 약 -54%, 누적 약 3,140만주. 직전 5거래일(10/19~23) 평균 약 6,710만주 대비 당일 약 0.47배이므로 2배 가속은 아님; 다만 대규모 절대 거래와 급락 동반으로 LABT형 급락 후 반등 관찰(저점 방어·반등 확정 아님). 10/26 07:37 EDT 회사는 Pinnacle Pure 제품을 6 SKU로 확대·12월 배송 예상 발표, 급락 원인 단정 불가. 2차 10/23 SEC 8-K/424B5: 10월 ATM 15,785,757주 매각·총 약 $4.7m, 10/23 O/S 19,202,198주, 추가 ATM 최대 $18.8m 명시(실제 미매각 잔량/즉시 공급 미확인), C형 잠정. 1차 위험 감점 없음. 뉴스 발표와 가격 신호의 인과 미확인.",
+      "source_url": "https://www.stocktitan.net/news/XXII/22nd-century-expands-the-pinnacle-pure-portfolio-to-6-sku-s-with-3po56mnywt79.html",
+      "verification": "PROVISIONAL"
     }
   ]
 }
