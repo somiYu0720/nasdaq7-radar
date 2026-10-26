@@ -689,10 +689,20 @@ async function renderOversoldAuto(){
   const r=await fetch('./oversold_latest.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('not published');
   const d=await r.json(),rows=Array.isArray(d.top10)?d.top10:[];
   const stamp=d.updated_utc?new Date(d.updated_utc):null;
-  status.textContent='미국장 마감 50분 전 기술적 과매도 · '+(stamp&&!isNaN(stamp)?stamp.toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' KST':'시각 미확인')+' · '+(d.scanned||0)+'종목 검사 · 원인/희석 미검증';
+  status.textContent='미국장 마감 50분 전 기술적 과매도 · '+(stamp&&!isNaN(stamp)?stamp.toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' KST':'시각 미확인')+' · '+(d.scanned||0)+'종목 검사 · 원인/희석은 개별 검증 필요';
   body.replaceChildren();
   if(!rows.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=6;td.textContent='이번 스캔에서 과매도 후보 없음';tr.append(td);body.append(tr);return}
-  rows.forEach((x,i)=>{const tr=document.createElement('tr');const pct=x.change_pct==null?'—':Number(x.change_pct).toFixed(1)+'%';const vol=x.volume_ratio==null?'—':Number(x.volume_ratio).toFixed(1)+'배';[String(i+1)+'. '+x.ticker,String(x.score)+'/100',pct,x.rsi14==null?'—':String(x.rsi14),vol,'미확인'].forEach(v=>textCell(tr,v));tr.title='급락 원인, SEC, 희석 및 이벤트는 별도 검증 필요';body.append(tr)})
+  rows.forEach((x,i)=>{const tr=document.createElement('tr');const pct=x.change_pct==null?'—':Number(x.change_pct).toFixed(1)+'%';const vol=x.volume_ratio==null?'—':Number(x.volume_ratio).toFixed(1)+'배';
+   const cause=typeof x.cause==='string'?x.cause.trim():typeof x.drop_reason==='string'?x.drop_reason.trim():'';
+   const verification=String(x.cause_verification||x.reason_status||'').toUpperCase();
+   const verified=['VERIFIED','CONFIRMED','확인'].includes(verification);
+   const causeLabel=cause?(verified?'확인: ':'검증 필요: ')+cause:'원인 미확인';
+   [String(i+1)+'. '+x.ticker,String(x.score)+'/100',pct,x.rsi14==null?'—':String(x.rsi14),vol].forEach(v=>textCell(tr,v));
+   const td=document.createElement('td');const label=document.createElement('div');label.textContent=causeLabel;td.append(label);
+   const news=document.createElement('a');news.href='https://www.google.com/search?tbm=nws&q='+encodeURIComponent(x.ticker+' stock news');news.target='_blank';news.rel='noopener noreferrer';news.textContent='관련 뉴스 확인';td.append(news);
+   const sec=document.createElement('a');sec.href='https://www.sec.gov/edgar/search/#/q='+encodeURIComponent(x.ticker);sec.target='_blank';sec.rel='noopener noreferrer';sec.textContent=' · SEC 검색';td.append(sec);
+   if(x.dilution_status){const dil=document.createElement('div');dil.textContent='희석: '+String(x.dilution_status);td.append(dil)}
+   tr.append(td);tr.title='원인 표시는 출처와 검증 상태를 확인해야 합니다';body.append(tr)})
  }catch(e){status.textContent='마감 50분 전 자동 스캔 결과 대기 · GitHub Actions 첫 실행 필요'}
 }
 renderOversoldAuto();setInterval(renderOversoldAuto,60000);
