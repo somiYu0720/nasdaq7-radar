@@ -1,0 +1,50 @@
+name: Preclose Oversold TOP10
+on:
+  workflow_dispatch:
+  schedule:
+    # 15:10 America/New_York = 19:10 UTC (EDT), 20:10 UTC (EST)
+    - cron: '10 19,20 * * 1-5'
+permissions:
+  contents: write
+concurrency:
+  group: preclose-oversold
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check US pre-close time
+        id: gate
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import os
+          t=datetime.now(ZoneInfo('America/New_York'))
+          ok=os.environ['EVENT_NAME']=='workflow_dispatch' or (t.weekday()<5 and t.hour==15 and 8<=t.minute<=30)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('run='+str(ok).lower()+'\n')
+          print('New York:',t,'run:',ok)
+          PY
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: '3.11'
+      - if: steps.gate.outputs.run == 'true'
+        run: pip install pandas numpy yfinance
+      - if: steps.gate.outputs.run == 'true'
+        run: python scripts/oversold_preclose.py
+      - name: Publish latest results
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add oversold_latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish preclose oversold TOP10"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
