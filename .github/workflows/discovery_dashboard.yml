@@ -56,11 +56,13 @@ jobs:
           payload={'updated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':'public-discovery-workflow','scanned':len(batch),'result_count':len(rows),'early_count':len(verified),'stale_count':sum(r.get('signal')=='STALE' for r in rows),'top10':top,'disclaimer':'Free delayed market data. Signals unverified; not buy recommendations.'}
           Path('discovery_latest.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           PY
+      - name: Rank exploratory pre-rise candidates
+        run: python scripts/prerise_rank.py
       - name: Publish dashboard result
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add discovery_latest.json
+          git add discovery_latest.json prerise_latest.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish latest independent discovery results"
             git pull --rebase origin main
@@ -74,5 +76,6 @@ jobs:
             NASDAQ7_DISCOVERY_BATCH.csv
             NASDAQ7_EARLY_RESULT.csv
             discovery_latest.json
+            prerise_latest.json
           if-no-files-found: warn
           retention-days: 7
