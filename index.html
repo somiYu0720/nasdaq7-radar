@@ -97,8 +97,60 @@ html body .cat-oversold{color:#c2a4ff!important}
 html body .cat-reignite{color:#ffb27b!important}
 html body .cat-volume{color:#79ffb3!important}
 html body .cat-funding{color:#ff9999!important}
+
+/* RADAR STUDIO — refined premium dark design */
+:root{--ink:#050811;--surface:#0d1422;--line:#24354b;--cyan:#42e6ef;--mint:#53f2b2}
+html{background:var(--ink)!important}
+body{background:radial-gradient(circle at 80% -12%,#13334b 0%,transparent 34%),radial-gradient(circle at 0% 30%,#141a39 0%,transparent 38%),#050811!important;color:#f4f8ff!important;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif!important;letter-spacing:.01em}
+main{max-width:1380px!important;padding:clamp(12px,2.2vw,32px)!important}
+.bar{padding:18px 20px!important;border:1px solid #28445d;border-radius:20px;background:linear-gradient(120deg,#101d31ee,#0b1425ee)!important;box-shadow:0 14px 50px #0006;position:relative;overflow:hidden}
+.bar:before{content:"";position:absolute;width:220px;height:220px;border:1px solid #31e6e92b;border-radius:50%;right:5%;top:-150px;box-shadow:0 0 0 35px #31e6e90a,0 0 0 75px #31e6e908;pointer-events:none}
+h1{font-size:clamp(21px,2.5vw,30px)!important;font-weight:850!important;letter-spacing:.045em;color:#efffff!important;text-shadow:none!important}
+h1::first-letter{color:#55e9f1}
+.sub{color:#8caec3!important;font-size:12px!important;letter-spacing:.08em}
+.pill{background:#0b302e!important;color:#77ffca!important;border:1px solid #327a69!important;font-weight:750}
+.tabs{display:flex!important;gap:7px!important;overflow-x:auto!important;flex-wrap:nowrap!important;padding:9px!important;border:1px solid #25384e!important;border-radius:16px!important;background:#0b1423!important;scrollbar-width:thin}
+.tabs button{flex:0 0 auto!important;white-space:nowrap!important;padding:11px 15px!important;border-radius:10px!important;font-size:12px!important;font-weight:700!important;background:transparent!important;border:1px solid transparent!important;color:#afc5d7!important;box-shadow:none!important}
+.tabs button.active{background:linear-gradient(120deg,#103d48,#11344b)!important;border-color:#3db7bd!important;color:#a2ffff!important;box-shadow:inset 0 0 0 1px #45e8ec22!important}
+.tabs button:hover{background:#15283b!important;color:white!important}
+.panel{border-radius:20px!important;background:linear-gradient(145deg,#101a2c,#0b1422)!important;border:1px solid #293c52!important;padding:clamp(14px,2vw,25px)!important;box-shadow:0 16px 55px #0004!important}
+.panel h2{font-size:clamp(18px,2vw,23px)!important;font-weight:850!important;color:#f4faff!important;margin:4px 0 10px!important}
+.panel .note{font-size:12px!important;line-height:1.7!important;color:#92a9bf!important}
+.cards{gap:12px!important}
+.card{background:#101e30!important;border-radius:15px!important;border-color:#2a4159!important}
+.big{color:#e9ffff!important}
+.controls{gap:9px!important}
+.controls button,button:not(.tabs button),input,select{border-radius:11px!important;background:#142338!important;border:1px solid #34506b!important;color:#f3fbff!important;font-weight:650}
+button:hover{filter:brightness(1.15)}
+#rankPanel .controls{padding:8px 0 12px}
+#rankCategory{border-color:#398b9a!important;color:#a8fcff!important;min-width:170px}
+#rankStatus{display:inline-block!important;background:#0c2530!important;border:1px solid #235d68!important;color:#90d8df!important;border-radius:30px;padding:8px 12px;font-size:12px;margin:2px 0 15px}
+.scroll{border:1px solid #25384e;border-radius:14px;overflow:auto!important;background:#0a1220}
+table{border-collapse:separate!important;border-spacing:0!important;min-width:760px}
+th{position:sticky;top:0;z-index:1;text-transform:none;letter-spacing:.035em;font-size:11px!important;background:#152337!important;color:#90b3c9!important;padding:14px 12px!important;border-bottom:1px solid #2b415a!important}
+td{padding:14px 12px!important;font-size:13px!important;border-bottom:1px solid #1d3044!important;font-variant-numeric:tabular-nums}
+table tbody tr:nth-child(odd){background:#0c1625!important}
+table tbody tr:nth-child(even){background:#101c2e!important}
+table tbody tr:hover{background:#172d40!important}
+#rankRows td:first-child{font-size:16px!important;font-weight:900!important;color:#7ec9d4!important}
+#rankRows tr:first-child{background:#102a32!important;box-shadow:inset 3px 0 #45f5c0!important}
+#rankRows tr:first-child td:first-child{color:#5bffd0!important}
+#rankRows td:nth-child(2){font-size:15px!important;letter-spacing:.04em;color:#fff!important;font-weight:900!important;text-shadow:none!important}
+#rankRows td:nth-child(4){font-weight:800!important;color:#b6f5ff!important}
+#rankRows td:nth-child(8){font-weight:900!important;color:#75f3cb!important}
+#rankRows .cat-tag{border-radius:7px!important;padding:5px 9px!important;font-size:11px!important;background:#18283a!important}
+#rankAlerts{background:#102536;border-left:3px solid #42e6ef;padding:10px 12px;border-radius:7px;color:#b4e9ed!important}
+@media(max-width:650px){
+main{padding:10px!important}
+.bar{padding:16px!important;border-radius:15px}
+.tabs{margin:12px 0!important}
+.tabs button{font-size:11px!important;padding:10px 12px!important}
+.panel{padding:12px!important;border-radius:15px!important}
+#rankPanel .scroll{margin:0 -3px}
+#rankRows td:nth-child(2){position:sticky;left:0;z-index:1;background:#101d2f!important;box-shadow:2px 0 5px #0004}
+}
 </style></head><body><main>
-<div class="bar"><div><h1>📡 NASDAQ 7.0 RADAR</h1><div class="sub">공개 포착 신호 대시보드 · 무료 분봉 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
+<div class="bar"><div><h1>◉ NASDAQ 7.0 <span style="color:#53e7ee">RADAR</span></h1><div class="sub">EARLY SIGNAL TERMINAL · NASDAQ / CHINA · 데이터 수집 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
 <nav class="tabs" aria-label="레이더 카테고리"><button id="tabNas" data-view="nas">NASDAQ 7.0</button><button id="tabChina" data-view="china">중국계 1.0</button><button data-view="toss">실시간 시세</button><button data-view="rank" class="active">⚡ 실시간 순위</button><button data-view="history">포착 기록</button><button data-view="sec">SEC·이벤트</button><button data-view="gpt">GPT 감시</button><button data-view="oversold">과매도</button><button data-view="event">이벤트 임박</button><button data-view="manage">종목 관리</button></nav>
 <section id="rankPanel" data-panel="rank" hidden class="panel"><h2>📈 포착 순위 변동 TOP 10</h2><p class="note">직전 수집 대비 거래량 가속률과 가격 변화를 합산한 실험적 조기포착 순위입니다. 데이터가 부족하면 잠정 점수이며 SEC 위험은 별도 표시합니다. 이전 수집 시점과 비교해 순위 변화 및 신규 진입을 표시합니다.</p><div class="controls"><select id="rankCategory"><option value="nas">NASDAQ 7.0</option><option value="china">중국계 1.0</option><option value="oversold">과매도</option><option value="event">이벤트 임박</option><option value="volume">거래량 선행</option><option value="reignite">재점화</option></select><button id="rankRefresh">↻ 순위 갱신</button></div><div id="rankStatus" class="muted">데이터 확인 중</div><div class="scroll"><table><thead><tr><th>순위</th><th>종목</th><th>분류</th><th>변동</th><th>1분 거래량</th><th>가속</th><th>가격변화</th><th>점수</th><th>현재가</th></tr></thead><tbody id="rankRows"></tbody></table></div><p class="note" id="rankAlerts">신규 TOP 10 진입 내역은 두 번째 수집부터 확인됩니다.</p></section><section id="eventPanel" data-panel="event" hidden class="panel"><h2>📅 이벤트 임박 감시</h2><p class="note">GPT가 검증 후 GitHub 감시 목록에 등록한 이벤트 종목을 표시합니다. 이벤트 날짜와 공식 출처가 없는 경우 일정 미확인으로 표시하며, 감시 등록 자체가 호재 확정을 뜻하지 않습니다.</p><div class="controls"><input id="eventTicker" placeholder="이벤트 감시 티커" maxlength="12" autocapitalize="characters"><button id="eventAdd">+ 이벤트 감시 등록</button></div><div class="muted" id="eventMessage" role="status">휴대폰에서 추가한 종목은 아직 GitHub 수집기로 자동 전송되지 않습니다.</div><div class="scroll"><table><thead><tr><th>종목</th><th>이벤트·일정</th><th>D-day</th><th>공식 출처</th><th>현재가</th></tr></thead><tbody id="eventRows"></tbody></table></div></section><section id="oversoldPanel" data-panel="oversold" hidden class="panel"><h2>📉 과매도 감시</h2><p class="note">과매도 후보를 따로 관리합니다. 아래 목록은 과매도 판정이 아닌 감시 등록 목록이며, RSI 등 기술지표 검증은 아직 연결되지 않았습니다.</p><div class="controls"><input id="oversoldTicker" placeholder="과매도 감시 티커" maxlength="12" autocapitalize="characters"><button id="oversoldAdd">+ 과매도 등록</button></div><div id="oversoldMessage" class="muted" role="status">종목 관리의 과매도 카테고리와 함께 표시됩니다.</div><div class="scroll"><table><thead><tr><th>종목</th><th>가격</th><th>1분 거래량</th><th>상태</th></tr></thead><tbody id="oversoldRows"></tbody></table></div></section><section id="managePanel" data-panel="manage" hidden class="panel"><h2>🗂 카테고리별 종목 관리</h2><p class="note">이 화면의 변경 사항은 현재 휴대폰 브라우저에만 저장됩니다. 공개 GitHub 감시 목록 및 Pydroid 수집기에는 아직 자동 반영되지 않습니다.</p><div class="controls"><input id="manageTicker" placeholder="티커 (예: LUCD)" maxlength="12" autocapitalize="characters"><select id="manageCategory"><option value="nas">NASDAQ 7.0</option><option value="china">중국계 1.0</option><option value="volume">거래량 선행</option><option value="oversold">과매도</option><option value="event">이벤트 임박</option><option value="funding">자금조달</option><option value="reignite">재점화</option><option value="favorite">관심종목</option></select><button id="manageAdd">+ 추가</button></div><div class="muted" id="manageMessage" role="status">종목은 여러 카테고리에 중복 등록할 수 있습니다.</div><div class="controls"><select id="manageFilter"><option value="all">전체 카테고리</option><option value="nas">NASDAQ 7.0</option><option value="china">중국계 1.0</option><option value="volume">거래량 선행</option><option value="oversold">과매도</option><option value="event">이벤트 임박</option><option value="funding">자금조달</option><option value="reignite">재점화</option><option value="favorite">관심종목</option></select><button id="manageSync">↻ GPT 등록 목록 불러오기</button><button id="manageExport">목록 JSON 내보내기</button><button id="manageReset">기본 목록 복원</button></div><div class="scroll"><table><thead><tr><th>종목</th><th>카테고리</th><th>관찰 메모</th><th>관리</th></tr></thead><tbody id="manageRows"></tbody></table></div></section><section id="tossPanel" class="panel" data-panel="toss" hidden><h2>⚡ 토스 API 시세 · 휴대폰 수집</h2><div class="muted" id="tossUpdated">첫 수집 대기</div><div class="scroll"><table><thead><tr><th>종목</th><th>현재가(USD)</th><th>1분 거래량</th><th>시세 시각</th></tr></thead><tbody id="tossRows"><tr><td colspan="4">연결 대기</td></tr></tbody></table></div></section><section id="nas" data-panel="nas">
 <div class="bar"><div class="muted" id="updated">최근 수집 시각 확인 중</div><button id="refresh">↻ 지금 새로고침</button></div>
