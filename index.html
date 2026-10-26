@@ -149,6 +149,40 @@ main{padding:10px!important}
 #rankPanel .scroll{margin:0 -3px}
 #rankRows td:nth-child(2){position:sticky;left:0;z-index:1;background:#101d2f!important;box-shadow:2px 0 5px #0004}
 }
+
+/* CLEAN DASHBOARD REFERENCE */
+body{background:#080f1e!important;color:#f3f7ff!important}
+main{max-width:1480px!important}
+.bar{background:transparent!important;border:0!important;box-shadow:none!important;padding:8px 0!important}
+.bar:before{display:none!important}
+.bar h1{color:#f5f7ff!important;text-shadow:none!important}
+.tabs{background:transparent!important;border:0!important;padding:0!important;gap:7px!important}
+.tabs button{background:#121e31!important;border:1px solid #263951!important;color:#cbd7e7!important}
+.tabs button.active{background:linear-gradient(110deg,#8f8aee,#c08ee6)!important;border-color:#bda3f1!important;color:#13152a!important;box-shadow:none!important}
+.panel{background:#0d182b!important;border:1px solid #293b55!important;box-shadow:none!important}
+.panel h2{color:#d8adff!important}
+.card{background:#121f33!important;box-shadow:none!important}
+#rankPanel .scroll{border:1px solid #263951!important;border-radius:12px!important}
+table th{background:#142136!important;color:#aabdd1!important}
+table tbody tr:nth-child(odd){background:#0d192b!important}
+table tbody tr:nth-child(even){background:#112036!important}
+#rankRows td:nth-child(2){color:white!important;text-shadow:none!important}
+#rankRows td:nth-child(6){color:#66e9c4!important;font-weight:800!important}
+#rankRows td:nth-child(9){color:#9ad8ff!important}
+#rankRows tr:first-child{background:#142c3b!important;box-shadow:inset 3px 0 #ffcb71!important}
+#radarOverview{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin:0 0 15px}
+#radarOverview .metric{background:#121f34;border:1px solid #2a3c56;border-radius:13px;padding:15px;min-width:0}
+#radarOverview .metric .label{font-size:12px;color:#b8c9db;font-weight:700}
+#radarOverview .metric .value{font-size:27px;color:white;font-weight:900;margin-top:8px}
+#radarOverview .metric .hint{font-size:11px;color:#8fa5be;margin-top:4px}
+#radarOverview .metric:nth-child(1){border-top:2px solid #a58dff}
+#radarOverview .metric:nth-child(2){border-top:2px solid #5fe6ba}
+#radarOverview .metric:nth-child(3){border-top:2px solid #ff84ad}
+#radarOverview .metric:nth-child(4){border-top:2px solid #68baff}
+#radarOverview .metric:nth-child(5){border-top:2px solid #ffd37c}
+#radarOverview .metric:nth-child(6){border-top:2px solid #ca9bff}
+@media(max-width:900px){#radarOverview{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:500px){#radarOverview{grid-template-columns:repeat(2,minmax(0,1fr))}#radarOverview .metric{padding:11px}#radarOverview .metric .value{font-size:23px}}
 </style></head><body><main>
 <div class="bar"><div><h1>◉ NASDAQ 7.0 <span style="color:#53e7ee">RADAR</span></h1><div class="sub">EARLY SIGNAL TERMINAL · NASDAQ / CHINA · 데이터 수집 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
 <nav class="tabs" aria-label="레이더 카테고리"><button id="tabNas" data-view="nas">NASDAQ 7.0</button><button id="tabChina" data-view="china">중국계 1.0</button><button data-view="toss">실시간 시세</button><button data-view="rank" class="active">⚡ 실시간 순위</button><button data-view="history">포착 기록</button><button data-view="sec">SEC·이벤트</button><button data-view="gpt">GPT 감시</button><button data-view="oversold">과매도</button><button data-view="event">이벤트 임박</button><button data-view="manage">종목 관리</button></nav>
