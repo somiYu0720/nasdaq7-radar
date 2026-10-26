@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T16:26:41Z",
+  "updated_utc": "2026-10-26T16:52:04Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -87,6 +87,50 @@
       "detected_utc": "2026-10-26T16:26:41Z",
       "summary": "2026-10-26 06:13 EDT SEC 8-K: AMAN이 10월25일 Corxel US와 확정 사업결합 계약 체결. Corxel 기업가치 2억달러, PIPE 약 3억달러 약정, 무상환 가정 총 조달 예상 약 3.77억달러. 2027년 상반기 종결 목표, 주주 승인·S-4 효력 등 조건부. CX11 미국 임상2상 36주 체중감소 최대 11.5% 발표, 글로벌 3상 계획. 거래량 가속·당일 가격·float·O/S 미확인. 2차 PIPE/사전납입 워런트/종결 후 재판매등록·6개월 일부 보호예수 확인; 실제 즉시 매도 가능 공급 미확인, 잠정 D형(종결 후 복합 공급), 현재 활성 공급 단정 금지. 위험은 1차 순위에 미반영. 기존 공시를 이번 점검에서 지연 신규 발견.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112236/ea0308954-8k425_amanat.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-GCDT-volume-crash-20261020T200000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0(기존 관심종목·NYSE American 확장)",
+      "ticker": "GCDT",
+      "category": "거래량 50배 이상·급락",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "summary": "10/20 거래량 65,685,389주 vs 10/19 289,800주 약 226.7배, 주가 -28.32%; 10/21 추가 하락. NYSE American 홍콩 연계 기존 관심종목, 급락 후 반등 관찰. 분봉/현재가 미확인.",
+      "source_url": "https://finance.yahoo.com/quote/GCDT/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-GCDT-unusual-trading-statement-20261026T154500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0(기존 관심종목·NYSE American 확장)",
+      "ticker": "GCDT",
+      "category": "이상거래 공식 해명",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "summary": "10/26 11:45 EDT 회사 발표: NYSE American 거래소가 최근 이상거래 관련 문의. 회사는 이를 설명할 미공개 중대 사업·운영 사안을 인지하지 못한다고 발표. 확정 M&A나 호재 발표 아님. SEC 6-K 추가 확인 전.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/26/3388355/0/en/green-circle-decarbonize-technology-limited-issues-statement-regarding-unusual-market-activity.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-SJ-earnings-6k-20261026T124500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "SJ",
+      "category": "실적·SEC 6-K",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "summary": "10/26 08:45 EDT SEC 6-K: 2분기 매출 RMB305.4m vs 349.0m, 주주귀속 순이익 RMB11.1m vs 22.6m. 상반기 주주귀속 순이익 RMB20.0m(+48.0%). 10/22 거래량 40,916주 vs 10/21 8,537주 약 4.79배, 당일 -8.06%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1753673/000121390026112296/ea0309470-6k_scienjoy.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-SJ-leader-stake-close-disclosed-20261026T124500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "SJ",
+      "category": "지분인수 종결·SEC 6-K",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "summary": "10/26 SEC 6-K 후속사건 주석에서 10/15 Leader Education 29.9% 지분(239,234,000주)을 HK$102.69m에 취득 완료 확인. 9/2 계약 후 종결; 관계자 거래로 공시. SJ 신주 발행과 혼동 금지.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1753673/000121390026112296/ea0309470-6k_scienjoy.htm",
       "verification": "VERIFIED"
     }
   ]
