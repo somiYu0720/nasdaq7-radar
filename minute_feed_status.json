@@ -1,10 +1,20 @@
 {
-  "checked_utc": "2026-10-26T14:52:12.068799+00:00",
+  "checked_utc": "2026-10-26T14:58:20.238937+00:00",
   "checked": 20,
-  "success": 18,
+  "success": 8,
   "failed": {
-    "CREG": "insufficient bars",
-    "CHNR": "insufficient bars"
+    "ARCI": "latest completed bar has zero volume",
+    "ARBB": "latest completed bar has zero volume",
+    "POLA": "latest completed bar has zero volume",
+    "DTSS": "latest completed bar has zero volume",
+    "DUO": "latest completed bar has zero volume",
+    "TAOP": "latest completed bar has zero volume",
+    "BAOS": "latest completed bar has zero volume",
+    "CREG": "insufficient completed bars",
+    "CHNR": "insufficient completed bars",
+    "PLAG": "latest completed bar has zero volume",
+    "EZGO": "latest completed bar has zero volume",
+    "DXF": "latest completed bar has zero volume"
   },
   "mode": "unofficial delayed/incomplete minute data"
 }
