@@ -3,7 +3,7 @@
 import datetime as dt, json, os, time, urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
-HEADERS={"User-Agent":os.getenv("SEC_USER_AGENT","NASDAQ7-Radar research contact radar-admin@example.org"),"Accept-Encoding":"gzip, deflate","Accept":"application/json"}
+HEADERS={"User-Agent":os.getenv("SEC_USER_AGENT","NASDAQ7-Radar somiYu0720 41898282+github-actions[bot]@users.noreply.github.com"),"Accept-Encoding":"gzip, deflate","Accept":"application/json"}
 FORMS={"8-K","8-K/A","6-K","6-K/A","20-F","20-F/A","10-Q","10-K","F-1","F-1/A","S-1","S-1/A","S-3","S-3/A","424B5","424B3","EFFECT","DEF 14A","SC 13D","SC 13G"}
 def fetch(url):
     req=urllib.request.Request(url,headers=HEADERS)
