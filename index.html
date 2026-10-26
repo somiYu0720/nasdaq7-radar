@@ -215,6 +215,36 @@ table tbody tr:nth-child(even){background:#112036!important}
  #radarOverview .metric .value{font-size:20px!important;margin-top:4px!important}
  #radarOverview .metric .hint{display:none!important}
 }
+
+/* REFERENCE DASHBOARD: restrained neon, clear volume levels */
+.vol-pill{display:inline-block;border-radius:7px;padding:5px 7px;min-width:65px;text-align:right;font-weight:850;font-variant-numeric:tabular-nums}
+.vol-low{color:#a5b2c6;background:#273247}
+.vol-mid{color:#91cfff;background:#17304c}
+.vol-high{color:#59ebc6;background:#123e3a}
+.vol-hot{color:#ffd17b;background:#47331c}
+.vol-extreme{color:#ff8fc0;background:#472239}
+#rankRows td:nth-child(5){font-variant-numeric:tabular-nums}
+#rankRows td:nth-child(8){font-weight:900!important;color:#d7b1ff!important}
+#rankRows td:nth-child(4){font-weight:800!important}
+#rankRows td:nth-child(4).rank-up{color:#ff86a9!important}
+#rankRows td:nth-child(4).rank-down{color:#79c8ff!important}
+#rankRows td:nth-child(4).rank-new{color:#ffd478!important}
+#rankRows td:nth-child(6){color:#64e9c4!important}
+#rankPanel table{border-collapse:separate;border-spacing:0}
+#rankPanel tbody tr{height:52px}
+#rankPanel tbody tr:hover{background:#192b40!important}
+#rankPanel th{letter-spacing:.01em}
+#rankPanel .scroll{box-shadow:0 8px 30px #0002}
+@media(max-width:650px){
+ #rankPanel tbody tr{height:48px!important}
+ #rankRows .vol-pill{min-width:0;padding:4px 2px;font-size:11px;background:transparent!important}
+ #rankRows td:nth-child(5){font-size:11px!important}
+ #rankRows td:nth-child(2){font-size:14px!important}
+ #rankPanel th:nth-child(5){font-size:0!important}
+ #rankPanel th:nth-child(5):after{content:'1분량';font-size:10px}
+ #rankPanel th:nth-child(8){font-size:0!important}
+ #rankPanel th:nth-child(8):after{content:'점수';font-size:10px}
+}
 </style></head><body><main>
 <div class="bar"><div><h1>◉ NASDAQ 7.0 <span style="color:#53e7ee">RADAR</span></h1><div class="sub">EARLY SIGNAL TERMINAL · NASDAQ / CHINA · 데이터 수집 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
 <nav class="tabs" aria-label="레이더 카테고리"><button id="tabNas" data-view="nas">NASDAQ 7.0</button><button id="tabChina" data-view="china">중국계 1.0</button><button data-view="toss">실시간 시세</button><button data-view="rank" class="active">⚡ 실시간 순위</button><button data-view="history">포착 기록</button><button data-view="sec">SEC·이벤트</button><button data-view="gpt">GPT 감시</button><button data-view="oversold">과매도</button><button data-view="event">이벤트 임박</button><button data-view="manage">종목 관리</button></nav>
@@ -396,6 +426,14 @@ async function renderRanks(){
    [i+1,x.ticker].forEach(v=>textCell(tr,String(v)));
    const category=document.createElement('td');category.append(tag);tr.append(category);
    [move,rankNum(x.minute_volume).toLocaleString('ko-KR'),x.accel===null?'미확인':x.accel.toFixed(2)+'배',x.pct===null?'미확인':(x.pct>=0?'+':'')+x.pct.toFixed(2)+'%',x.score+' / 100'+(earlier?'':' 잠정'),x.price??'—'].forEach(v=>textCell(tr,String(v)));
+   const volumeCell=tr.children[4];
+   const v=rankNum(x.minute_volume);
+   const level=v>=100000?'extreme':v>=30000?'hot':v>=10000?'high':v>=1000?'mid':'low';
+   const pill=document.createElement('span');pill.className='vol-pill vol-'+level;
+   pill.textContent=v.toLocaleString('ko-KR');
+   pill.title='1분 거래량 '+v.toLocaleString('ko-KR')+'주 · '+({low:'낮음',mid:'보통',high:'활발',hot:'매우 높음',extreme:'폭발'})[level];
+   volumeCell.replaceChildren(pill);
+   tr.children[3].classList.add(move.startsWith('▲')?'rank-up':move.startsWith('▼')?'rank-down':move.includes('신규')?'rank-new':'rank-flat');
    body.append(tr);
   });
   if(!rows.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=9;td.className='empty';td.textContent='거래량 데이터 수집 대기';tr.append(td);body.append(tr)}
