@@ -90,23 +90,50 @@ try:
     token = token_for(cid, secret)
     print("AUTH_OK")
     watch = github_get("watchlist.json", gh)
-    categories = watch.get("categories", {})
+    categories = watch.get("categories", {}) if "categories" in watch else json.loads(base64.b64decode(watch["content"])).get("categories", {})
     symbols = sorted(set(categories.get("nas", []) + categories.get("china", [])))
     print("Watchlist symbols:", len(symbols))
-    # First inspect one real response before assuming quote/bar field names.
-    sample = symbols[0] if symbols else "LUCD"
-    q = api_get("/api/v1/prices", token, {"symbols": sample})
-    b = api_get("/api/v1/candles", token, {
-        "symbol": sample, "interval": "1m", "count": 1
-    })
-    quote_obj, bar_obj = unwrap(q), unwrap(b)
-    print("QUOTE_FIELDS:", sorted(quote_obj.keys()))
-    print("BAR_FIELDS:", sorted(bar_obj.keys()))
-    print("TEST_SYMBOL:", sample)
-    print("No upload yet: response field mapping must be checked first.")
-    print("RESULT: DIAGNOSTIC_COMPLETE")
+    if not symbols:
+        raise ValueError("Watchlist is empty; refusing to overwrite live data")
+    print("Collector running. Stop with Pydroid stop button.")
+    while True:
+        rows = []
+        for symbol in symbols:
+            try:
+                quote = unwrap(api_get("/api/v1/prices", token, {"symbols": symbol}))
+                bar = unwrap(api_get("/api/v1/candles", token, {"symbol": symbol, "interval": "1m", "count": 1}))
+                price, volume = quote.get("lastPrice"), bar.get("volume")
+                if price is None or volume is None:
+                    print(symbol, "MISSING_FIELDS")
+                    continue
+                rows.append({"ticker": symbol,
+                    "categories": [k for k in CATEGORIES if symbol in categories.get(k, [])],
+                    "price": price, "minute_volume": volume,
+                    "quote_time": quote.get("timestamp"), "bar_time": bar.get("timestamp"),
+                    "collected_utc": now_utc()})
+            except urllib.error.HTTPError as error:
+                print(symbol, "HTTP", error.code)
+            except Exception as error:
+                print(symbol, "ERROR", type(error).__name__)
+        print("Collected", len(rows), "/", len(symbols))
+        if rows:
+            try:
+                github_put("toss_live.json", gh, {
+                    "source": "toss_mobile",
+                    "status": "ok" if len(rows) == len(symbols) else "partial",
+                    "updated_utc": now_utc(), "rows": rows})
+                print("UPLOAD_OK", now_utc())
+            except urllib.error.HTTPError as error:
+                print("UPLOAD_HTTP_ERROR", error.code)
+            except Exception as error:
+                print("UPLOAD_ERROR", type(error).__name__)
+        else:
+            print("NO_UPLOAD: 0 successful records")
+        time.sleep(INTERVAL_SECONDS)
+except KeyboardInterrupt:
+    print("Stopped")
 except urllib.error.HTTPError as e:
     print("HTTP_STATUS:", e.code)
-    print("RESULT: REQUEST_FAILED (no upload)")
+    print("RESULT: REQUEST_FAILED")
 except Exception as e:
-    print("RESULT: TEST_FAILED", type(e).__name__, "(no upload)")
+    print("RESULT: TEST_FAILED", type(e).__name__, str(e)[:120])
