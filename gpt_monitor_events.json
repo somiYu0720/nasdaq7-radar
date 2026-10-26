@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T21:38:29Z",
+  "updated_utc": "2026-10-26T21:45:23Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -560,6 +560,28 @@
       "detected_utc": "2026-10-26T21:38:29Z",
       "summary": "10/22 16:30 EDT SEC 6-K 검증: 홍콩 Aurelion(AURE)이 Antalpha Capital (HK)와 Class B 952,381주를 주당 $2.10, 총 약 $2m에 발행하는 확정 인수계약 체결. 종결·대금입금은 미확인, 계약상 최종 기한 12/21. 10/20 정규장 거래량 208,673주 vs 10/19 33,271주 약 6.27배(+8.82%), 10/26 종가 $1.05/42,347주, 16:24 EDT 장후 $1.16(+10.48%) 관측(장후 거래량 미확인); 급등 전 확정 아닌 재점화 관찰. 2차 9/30 O/S 34,664,562주, pre-funded warrant 2,222,224주 및 Class B warrant 800,000주 확인; 신규 신주는 미등록·Reg S 등 재판매 제한, 종결 전 B형 대기 및 D형 복합 구조 관찰, 실제 즉시 매도 가능 공급/최신 float·잔량 미확인. 공급 위험은 1차 순위에 미반영. 10/22 공시 지연 발견.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1765850/000121390026111718/ea0309381-6k_aurelion.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-prebreak-TWG-volume-price-anomaly-20261026T200000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "TWG",
+      "category": "거래량 전일 대비 5배 이상·장중 가격 급변·급락 후 반등 관찰",
+      "detected_utc": "2026-10-26T21:45:23Z",
+      "summary": "10/26 주식병합 조정 거래 첫날 종가 $3.94(-1.50%), 고가 $5.47(+36.75% vs 10/23 종가 $4.00), 저가 $3.60, 거래량 554,337주. 10/23 거래량 56,627주 대비 9.79배이나 10/19~23 5일 평균 약 446,473주 대비 1.24배. 1:100 병합 전후 가격·거래량은 조정 정합성 검증 필요; 가격 급변 및 대량거래는 잠정 포착. 10/22 -30.07%, 10/23 -15.25% 후 10/26 장중 급등 후 종가 반락; 신규 PRE 아님, 저점 방어·분봉·지속 반등 미확인. 2차 공급 위험으로 1차 순위 감점 없음.",
+      "source_url": "https://stockanalysis.com/stocks/twg/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-prebreak-TWG-share-consolidation-6KA-20261022-000121390026111580",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "TWG",
+      "category": "2차 SEC 6-K/A·1:100 병합 확정·공급 구조 별도 검증",
+      "detected_utc": "2026-10-26T21:45:23Z",
+      "summary": "2026-10-22 SEC 6-K/A(접수번호 0001213900-26-111580): 기존 발표의 오류를 정정하여 Class A/B 1:100 주식병합 조정 거래 시작일을 2026-10-26으로 확정, 티커 TWG 유지. 2026-09-11 SEC 424B5에는 최대 $200m ATM 발행 가능 프로그램이 등록되어 있음(실제 판매액·잔여 한도·즉시 공급 미확인). 7월 PIPE 기존 발행분과 ATM 잠재 공급은 별도 평가. ATM 요소 C형 잠정, 전체 A/B/C/D 유형 미확정; 최신 float/O/S·워런트/전환/재판매/즉시 매도 가능 공급 미확인. 1차 순위 영향 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1978057/000121390026111580/ea0309392-6ka1_topweal.htm",
       "verification": "VERIFIED"
     }
   ]
