@@ -14,7 +14,33 @@ main{padding:9px 10px}h1{font-size:19px;margin:2px 0}.sub{font-size:11px}.tabs{m
 details.secondary{border:1px solid #293d58;border-radius:11px;padding:9px 12px;margin:9px 0;background:#101b2d}details.secondary summary{cursor:pointer;font-weight:700;color:#c7dcf8}details.secondary[open] summary{margin-bottom:8px}#chinaRows tr:nth-child(n+11){display:none}
 /* Compact mobile radar: one glance at each lane and all categories */
 @media(max-width:650px){main{padding:7px 9px}.bar:first-child h1{font-size:16px}.bar:first-child .sub{display:none}.tabs{margin:5px 0 8px}.tabs button{min-height:35px}#nas>.bar{gap:4px}#nas .cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}.card{min-height:47px;padding:5px 3px;text-align:center;font-size:9px}.big{font-size:17px}.controls{margin:5px 0}.controls input{grid-column:auto}.controls{grid-template-columns:1.2fr 1fr 1fr}.controls input,.controls select{font-size:10px;padding:4px;min-width:0}.section-desc,#nas>p.muted{display:none}h2{margin:7px 0 3px;font-size:13px}#ranking tr td,#ranking tr th{padding:5px 3px;font-size:10px}#ranking td:nth-child(2){font-size:11px}#ranking td:nth-child(4),#ranking th:nth-child(4){display:none}#ranking td:nth-child(5),#ranking th:nth-child(5){width:40%}#ranking td:nth-child(3),#ranking th:nth-child(3){width:28%}details.secondary{margin:5px 0;padding:6px 9px}details.secondary summary{font-size:12px}#secPanel{margin:6px 0}#secPanel .controls{grid-template-columns:1fr 1fr}#secPanel .controls input{grid-column:auto}#secPanel td,#secPanel th{font-size:10px;padding:5px 2px}}
-.tabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.tabs button{min-width:0;padding:10px 4px;font-size:12px} [data-panel][hidden]{display:none!important}@media(max-width:650px){.tabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.tabs button{font-size:11px;padding:7px 2px;min-height:36px}} </style></head><body><main>
+.tabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.tabs button{min-width:0;padding:10px 4px;font-size:12px} [data-panel][hidden]{display:none!important}@media(max-width:650px){.tabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.tabs button{font-size:11px;padding:7px 2px;min-height:36px}} 
+/* Bright modern radar palette — visual only, no data logic changes */
+:root{color-scheme:light}
+body{background:#f2f7ff;color:#182b48}
+main{background:transparent}
+h1,h2{color:#15335d}
+.sub,.muted,.section-desc{color:#58718f}
+.panel,details.secondary{background:#ffffff;border-color:#d4e4f6;box-shadow:0 3px 12px rgba(37,90,155,.06)}
+.card{background:linear-gradient(145deg,#e9f5ff,#f8fbff);border-color:#bad9fa;color:#315b89}
+.big{color:#1163bb}
+.tabs{background:#f2f7ff}
+.tabs button{background:#e2efff;border-color:#bcd7f5;color:#28547f}
+.tabs button.active{background:linear-gradient(125deg,#2477e8,#00a5c8);border-color:#1688d7;color:white;box-shadow:0 3px 9px rgba(18,115,206,.18),inset 0 -2px rgba(255,255,255,.2)}
+button,input,select{background:#ffffff;color:#254463;border-color:#c6d9ed}
+button.active{background:#1c79db;color:white}
+th{background:#e6f2ff;color:#285f97;border-bottom-color:#c8dff6}
+td{color:#25415e;border-bottom-color:#e0ebf7}
+tbody tr:nth-child(even){background:#f3f9ff}
+tbody tr:hover{background:#e6f3ff}
+.good{color:#008c60}.warn{color:#c27a00}.bad{color:#d83e5b}
+.pill{border-color:#b8d4ef;color:#37618a;background:#f4faff}
+.note{color:#4b6785}
+details.secondary summary{color:#20588f}
+a{color:#126bc9}
+.empty{color:#67809d}
+@media(max-width:650px){.tabs{background:#f2f7ff}.tabs button{background:#e2efff}.tabs button.active{background:linear-gradient(125deg,#2477e8,#00a5c8)}}
+</style></head><body><main>
 <div class="bar"><div><h1>📡 NASDAQ 7.0 RADAR</h1><div class="sub">공개 포착 신호 대시보드 · 무료 분봉 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
 <nav class="tabs" aria-label="레이더 카테고리"><button id="tabNas" class="active" data-view="nas">NASDAQ 7.0</button><button id="tabChina" data-view="china">중국계 1.0</button><button data-view="toss">실시간 시세</button><button data-view="history">포착 기록</button><button data-view="sec">SEC·이벤트</button><button data-view="gpt">GPT 감시</button></nav>
 <section id="tossPanel" class="panel" data-panel="toss" hidden><h2>⚡ 토스 API 시세 · 휴대폰 수집</h2><div class="muted" id="tossUpdated">첫 수집 대기</div><div class="scroll"><table><thead><tr><th>종목</th><th>현재가(USD)</th><th>1분 거래량</th><th>시세 시각</th></tr></thead><tbody id="tossRows"><tr><td colspan="4">연결 대기</td></tr></tbody></table></div></section><section id="nas" data-panel="nas">
