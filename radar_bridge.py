@@ -22,10 +22,11 @@ def main():
             entries.setdefault(t,{"ticker":t,"daily":None,"intraday":None})["intraday"]=row
     china=read_json("china_verified_tickers.json",{})
     verified={str(t).upper() for t in china.get("tickers",[])} if isinstance(china,dict) else set()
+    candidates={str(t).upper() for t in china.get("candidates",[])} if isinstance(china,dict) else set()
     out={"generated_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
          "source_updated_utc":live.get("updated_utc"),
          "data_mode":"mixed daily and cached intraday; not real-time",
-         "nasdaq7":[],"china1":[],"china_unverified":[]}
+         "nasdaq7":[],"china1":[],"china_candidates":[],"china_unverified":[]}
     for t,v in sorted(entries.items()):
         intra=v["intraday"] or {}
         day=v["daily"] or {}
@@ -39,8 +40,12 @@ def main():
         out["nasdaq7"].append(item)
         if t in verified:
             out["china1"].append(dict(item,china_verified=True))
+        elif t in candidates:
+            out["china_candidates"].append(dict(item,china_verified=False,classification="PENDING"))
         else:
             out["china_unverified"].append(t)
+    for t in sorted(candidates-set(entries)):
+        out["china_candidates"].append({"ticker":t,"signal":"DATA_UNAVAILABLE","rvol5":None,"bar_time":None,"china_verified":False,"classification":"PENDING"})
     (ROOT/"radar_bridge.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     print(f"NASDAQ7 {len(out['nasdaq7'])}; verified China1 {len(out['china1'])}; unverified {len(out['china_unverified'])}")
 if __name__=="__main__": main()
