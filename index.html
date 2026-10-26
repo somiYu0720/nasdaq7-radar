@@ -462,7 +462,7 @@ function autoAddGptCandidates(items){
 }
 async function loadGptMonitor(){try{const r=await fetch('./gpt_monitor_events.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('not found');const d=await r.json();const items=Array.isArray(d.events)?d.events:[];autoAddGptCandidates(items);$('gptCount').textContent=items.length+'건';$('gptUpdated').textContent=items.length?'최신 기록 '+time(d.updated_utc||items[items.length-1]?.detected_utc):'예약 감시 기록 없음 · 자동 저장 검증 대기';fill('gptMonitorRows',items.slice().sort((a,b)=>String(b.detected_utc).localeCompare(String(a.detected_utc))).slice(0,50),(tr,x)=>{textCell(tr,time(x.detected_utc));textCell(tr,x.radar||x.task||'—');textCell(tr,x.ticker||'—');textCell(tr,(x.verification==='VERIFIED'?'확인 · ':'잠정 · ')+(x.summary||x.category||'내용 미확인'))},4)}catch(e){$('gptUpdated').textContent='예약 감시 데이터 연결 대기'}}loadGptMonitor();setInterval(loadGptMonitor,60000);
 
-async function loadToss(){try{const r=await fetch('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();const rows=Array.isArray(d.rows)?d.rows:[];fill('tossRows',rows,(tr,x)=>{textCell(tr,x.ticker||'—');textCell(tr,x.price==null?'—':String(x.price));textCell(tr,x.minute_volume==null?'—':Number(x.minute_volume).toLocaleString('ko-KR'));textCell(tr,time(x.quote_time||x.collected_utc||d.updated_utc))},4);const age=d.updated_utc?(Date.now()-new Date(d.updated_utc).getTime())/60000:Infinity;$('tossUpdated').textContent=rows.length?'마지막 수집 '+time(d.updated_utc)+(age>3?' · 지연 데이터':' · 휴대폰 수집'):'휴대폰 첫 전송 대기'}catch(e){$('tossUpdated').textContent='토스 시세 파일 확인 필요'}}loadToss();setInterval(loadToss,30000);
+async function loadToss(){try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();const rows=Array.isArray(d.rows)?d.rows:[];fill('tossRows',rows,(tr,x)=>{textCell(tr,x.ticker||'—');textCell(tr,x.price==null?'—':String(x.price));textCell(tr,x.minute_volume==null?'—':Number(x.minute_volume).toLocaleString('ko-KR'));textCell(tr,time(x.quote_time||x.collected_utc||d.updated_utc))},4);const age=d.updated_utc?(Date.now()-new Date(d.updated_utc).getTime())/60000:Infinity;$('tossUpdated').textContent=rows.length?'마지막 수집 '+time(d.updated_utc)+(age>3?' · 지연 데이터':' · 휴대폰 수집'):'휴대폰 첫 전송 대기'}catch(e){$('tossUpdated').textContent='토스 시세 파일 확인 필요'}}loadToss();setInterval(loadToss,30000);
 
 const CATEGORY_NAMES={nas:'NASDAQ 7.0',china:'중국계 1.0',volume:'거래량 선행',oversold:'과매도',event:'이벤트 임박',funding:'자금조달',reignite:'재점화',favorite:'관심종목'};
 const DEFAULT_WATCH={nas:['ARCI','LABT','PRSO','STAK','LUCD','ARBB','POLA','REED','CLRO','GCDT'],china:['DTSS','DUO','TAOP','BAOS','CREG','CHNR','PLAG','EZGO','RETO','DXF'],volume:[],oversold:[],event:[],funding:[],reignite:[],favorite:[]};
@@ -507,7 +507,7 @@ async function renderOversold(){
  const body=$('oversoldRows');body.replaceChildren();
  let shared=[];try{const r=await fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();shared=Array.isArray(d.categories?.oversold)?d.categories.oversold:[]}}catch(e){}
  const symbols=[...new Set([...shared,...(watchCategories.oversold||[])].filter(x=>typeof x==='string'&&/^[A-Z0-9.-]{1,12}$/.test(x)))];
- let quotes=[];try{const r=await fetch('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();quotes=Array.isArray(d.rows)?d.rows:[]}}catch(e){}
+ let quotes=[];try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();quotes=Array.isArray(d.rows)?d.rows:[]}}catch(e){}
  if(!symbols.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=4;td.className='empty';td.textContent='등록된 과매도 감시 종목 없음 · 위에서 추가하세요';tr.append(td);body.append(tr);return}
  symbols.forEach(ticker=>{const q=quotes.find(x=>x.ticker===ticker);const tr=document.createElement('tr');textCell(tr,ticker);textCell(tr,q?.price==null?'—':String(q.price));textCell(tr,q?.minute_volume==null?'—':Number(q.minute_volume).toLocaleString('ko-KR'));textCell(tr,q?'시세 수집 · 과매도 미검증':'수집 대기 · 과매도 미검증');body.append(tr)});
 }
@@ -519,7 +519,7 @@ async function renderEvent(){
  let shared=[],events=[],quotes=[],quoteStamp=null;
  try{const r=await fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();shared=Array.isArray(d.categories?.event)?d.categories.event:[]}}catch(e){}
  try{const r=await fetch('./event_calendar.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();events=Array.isArray(d.events)?d.events:[]}}catch(e){}
- try{const r=await fetch('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();quotes=Array.isArray(d.rows)?d.rows:[];quoteStamp=d.updated_utc}}catch(e){}
+ try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();quotes=Array.isArray(d.rows)?d.rows:[];quoteStamp=d.updated_utc}}catch(e){}
  const symbols=[...new Set([...shared,...(watchCategories.event||[])].filter(x=>typeof x==='string'&&/^[A-Z0-9.-]{1,12}$/.test(x)))];
  if(!symbols.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=6;td.className='empty';td.textContent='등록된 이벤트 감시 종목 없음';tr.append(td);body.append(tr);return}
  const today=new Date(),kst=new Date(today.toLocaleString('en-US',{timeZone:'Asia/Seoul'}));
@@ -566,7 +566,7 @@ async function renderRanks(){
  const cat=$('rankCategory').value,body=$('rankRows');body.replaceChildren();
  try{
   const wr=await fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'});
-  const qr=await fetch('./toss_live.json?t='+Date.now(),{cache:'no-store'});
+  const qr=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});
   if(!wr.ok||!qr.ok)throw Error('data missing');
   const w=await wr.json(),d=await qr.json(),stamp=String(d.updated_utc||'');
   const symbols=new Set([...(w.categories?.[cat]||[]),...(watchCategories[cat]||[])]);
@@ -632,7 +632,7 @@ async function showOverviewDetail(index){
  const names=['전체 감시 종목','거래량 수집 종목','상승 종목','하락 종목','신규 TOP 10 진입','이벤트 감시 종목'];
  panel.hidden=false;title.textContent=names[index];desc.textContent='자료 확인 중';items.replaceChildren();panel.scrollIntoView({behavior:'smooth',block:'start'});
  try{
-  const [wr,qr]=await Promise.all([fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'}),fetch('./toss_live.json?t='+Date.now(),{cache:'no-store'})]);
+  const [wr,qr]=await Promise.all([fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'}),fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'})]);
   if(!wr.ok||!qr.ok)throw Error('data unavailable');
   const w=await wr.json(),d=await qr.json(),quotes=Array.isArray(d.rows)?d.rows:[],byTicker=new Map(quotes.map(x=>[x.ticker,x]));
   const all=[...new Set([...(w.categories?.nas||[]),...(w.categories?.china||[])])];
@@ -670,7 +670,7 @@ async function updateCombinedStatus(){
  const status=$('status');if(!status)return;
  const radarStamp=snapshot?.updated_utc||null;
  try{
-  const r=await fetch('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
+  const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
   const d=await r.json(),liveStamp=d.updated_utc||null;
   const age=stamp=>stamp&&Number.isFinite(new Date(stamp).getTime())?Math.max(0,Math.floor((Date.now()-new Date(stamp).getTime())/60000)):null;
   const ra=age(radarStamp),la=age(liveStamp);
@@ -710,4 +710,31 @@ async function renderPrerise(){
  }catch(e){status.textContent='첫 상승 전 후보 계산 결과 대기 · 다음 신규 탐색 실행 후 표시'}
 }
 renderPrerise();setInterval(renderPrerise,60000);
+
+/* Adapt existing Toss collector data without changing Pydroid or other dashboard features. */
+function normalizeToss(d){
+ if(!d||typeof d!=='object')return {rows:[]};
+ if(Array.isArray(d.rows))return d;
+ const combined=[...(Array.isArray(d.nasdaq7)?d.nasdaq7:[]),...(Array.isArray(d.china1)?d.china1:[])];
+ const byTicker=new Map();
+ for(const x of combined){
+  if(!x||typeof x.ticker!=='string')continue;
+  const ticker=x.ticker.trim().toUpperCase();
+  const barMs=Date.parse(x.candle_time||x.quote_time||'');
+  const fresh=Number.isFinite(barMs)&&barMs<=Date.now()+120000&&Date.now()-barMs<=600000;
+  const price=Number(x.price_usd),vol=Number(x.minute_volume);
+  const row={...x,ticker,price:Number.isFinite(price)?price:null,
+   minute_volume:fresh&&x.minute_volume!=null&&Number.isFinite(vol)?vol:null,
+   raw_minute_volume:x.minute_volume,bar_time:x.candle_time||null,stale_volume:!fresh};
+  const prev=byTicker.get(ticker);
+  if(!prev||Date.parse(row.candle_time||'')>Date.parse(prev.candle_time||''))byTicker.set(ticker,row);
+ }
+ return {...d,rows:[...byTicker.values()]};
+}
+async function fetchToss(...args){
+ const response=await fetch(...args);
+ const readJson=response.json.bind(response);
+ response.json=async()=>normalizeToss(await readJson());
+ return response;
+}
 </script></body></html>
