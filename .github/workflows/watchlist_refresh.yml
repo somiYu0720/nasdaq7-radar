@@ -1,0 +1,28 @@
+name: Watchlist five-minute refresh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 13-21 * * 1-5'
+permissions:
+  contents: write
+concurrency:
+  group: radar-watchlist
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Refresh cached five-minute watchlist
+        run: python refresh_watchlist_5m.py
+      - name: Build radar lanes
+        run: python radar_bridge.py
+      - name: Save signals
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data.json radar_bridge.json minute_feed_status.json
+          git diff --cached --quiet || (git commit -m 'Refresh watchlist radar signals' && git push)
