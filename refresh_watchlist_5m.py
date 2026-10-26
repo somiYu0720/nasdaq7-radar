@@ -10,17 +10,26 @@ def get(ticker):
         chart=json.load(resp)["chart"]["result"][0]
     stamps=chart.get("timestamp") or []
     q=chart["indicators"]["quote"][0]
-    rows=[(ts,float(v)) for ts,v in zip(stamps,q["volume"]) if v is not None and v>=0]
-    if len(rows)<15: raise ValueError("insufficient bars")
+    now=dt.datetime.now(dt.timezone.utc).timestamp()
+    # Only completed 5-minute candles; Yahoo may expose an unfinished 0-volume bar.
+    rows=[(ts,float(v)) for ts,v in zip(stamps,q["volume"])
+          if v is not None and v>=0 and ts+300<=now-60]
+    if len(rows)<15: raise ValueError("insufficient completed bars")
     ts,vol=rows[-1]
-    prior=[v for _,v in rows[-13:-1]]
+    if vol<=0: raise ValueError("latest completed bar has zero volume")
+    prior=[v for _,v in rows[-13:-1] if v>0]
+    if len(prior)<6: raise ValueError("insufficient positive-volume baseline")
     baseline=sum(prior)/len(prior)
     if baseline<=0: raise ValueError("zero baseline")
     rvol=round(vol/baseline,2)
-    return {"ticker":ticker,"signal":"EARLY_PROVISIONAL" if rvol>=3 else "REVIEW",
-            "rvol5":str(rvol),"bar_time":dt.datetime.fromtimestamp(ts,dt.timezone.utc).isoformat(),
+    bar_time=dt.datetime.fromtimestamp(ts,dt.timezone.utc).isoformat()
+    age_minutes=round((now-ts-300)/60,1)
+    return {"ticker":ticker,"signal":"EARLY_PROVISIONAL" if rvol>=3 and age_minutes<=15 else "REVIEW",
+            "rvol5":str(rvol),"bar_time":bar_time,
+            "bar_age_minutes":age_minutes,
+            "freshness":"FRESH" if age_minutes<=15 else "STALE",
             "fetched_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"source":"Yahoo unofficial 5m",
-            "baseline":"previous 12 five-minute bars, not time-of-day adjusted"}
+            "baseline":"previous 12 completed five-minute bars with positive volume; not time-of-day adjusted"}
 def main():
     previous=json.loads((ROOT/"data.json").read_text(encoding="utf-8"))
     watchlist=json.loads((ROOT/"priority_watchlist.json").read_text(encoding="utf-8"))
