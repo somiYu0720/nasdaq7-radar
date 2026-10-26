@@ -617,7 +617,7 @@ async function showOverviewDetail(index){
   if(index===5){tickers=[...new Set(w.categories?.event||[])];subtitle='이벤트 등록 목록 · 공식 일정 확인은 이벤트 탭에서'}
   desc.textContent=subtitle+' · '+tickers.length+'종목';
   if(!tickers.length){items.textContent='표시할 종목이 없습니다.';return}
-  tickers.forEach(t=>{const q=byTicker.get(t),item=document.createElement('div'),strong=document.createElement('strong'),value=document.createElement('span');item.className='detail-item';strong.textContent=t;value.textContent=q?(q.price==null?'시세 대기':'</html>+q.price)+' · '+(q.minute_volume==null?'거래량 없음':Number(q.minute_volume).toLocaleString('ko-KR')+'주'):'수집 대기';item.append(strong,value);items.append(item)})
+  tickers.forEach(t=>{const q=byTicker.get(t),item=document.createElement('div'),strong=document.createElement('strong'),value=document.createElement('span');item.className='detail-item';strong.textContent=t;value.textContent=q?(q.price==null?'시세 대기':'USD '+q.price)+' · '+(q.minute_volume==null?'거래량 없음':Number(q.minute_volume).toLocaleString('ko-KR')+'주'):'수집 대기';item.append(strong,value);items.append(item)})
  }catch(e){desc.textContent='감시 목록 또는 수집 데이터를 불러오지 못했습니다.'}
 }
 
