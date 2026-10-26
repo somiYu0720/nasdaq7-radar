@@ -1,6 +1,36 @@
 {
   "version": 1,
-  "updated_utc": null,
-  "events": [],
-  "note": "Only verified future event dates with official source URL; no events have been verified yet."
+  "updated_utc": "2026-10-27T00:00:00Z",
+  "events": [
+    {
+      "ticker": "CAPR",
+      "title": "Deramiocel FDA PDUFA 목표일",
+      "event_date": "2026-11-22",
+      "verification": "VERIFIED",
+      "source_url": "https://www.capricor.com/investors/sec-filings/all-sec-filings/content/0001104659-26-100071/capr-20260824x8k.htm",
+      "event_type": "FDA",
+      "priority": "high",
+      "note": "목표 심사일이며 승인 확정 아님"
+    },
+    {
+      "ticker": "SVRA",
+      "title": "Molgramostim FDA PDUFA 목표일",
+      "event_date": "2026-11-22",
+      "verification": "VERIFIED",
+      "source_url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx",
+      "event_type": "FDA",
+      "priority": "high",
+      "note": "목표 심사일이며 승인 확정 아님"
+    },
+    {
+      "ticker": "ANTX",
+      "title": "Stifel Healthcare Conference 기업 발표",
+      "event_date": "2026-11-10",
+      "verification": "VERIFIED",
+      "source_url": "https://investor.an2therapeutics.com/news-releases/news-release-details/an2-therapeutics-participate-upcoming-investor-conferences-2",
+      "event_type": "conference",
+      "priority": "low",
+      "note": "일반 투자자 컨퍼런스이며 주요 임상 결과 발표 확정 아님"
+    }
+  ]
 }
