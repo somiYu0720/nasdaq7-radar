@@ -245,6 +245,45 @@ table tbody tr:nth-child(even){background:#112036!important}
  #rankPanel th:nth-child(8){font-size:0!important}
  #rankPanel th:nth-child(8):after{content:'점수';font-size:10px}
 }
+
+/* MOBILE ALL-TABS COMPACT VIEW: match live-ranking legibility */
+@media(max-width:650px){
+ main{padding:7px!important}
+ .tabs{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;overflow:visible!important;gap:3px!important;padding:3px 0!important;margin:5px 0!important}
+ .tabs button{width:100%!important;min-width:0!important;white-space:normal!important;overflow-wrap:break-word!important;font-size:10px!important;line-height:1.2!important;min-height:40px!important;padding:5px 2px!important;color:#f1f7ff!important}
+ .tabs button.active{color:#111a32!important;font-weight:900!important;border-color:#d8b4ff!important}
+ #radarOverview{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:4px!important;margin-bottom:7px!important}
+ #radarOverview .metric{padding:6px!important}
+ #radarOverview .metric .label{font-size:10px!important}
+ #radarOverview .metric .value{font-size:18px!important;margin-top:3px!important}
+ #radarOverview .metric .hint{display:none!important}
+ #china .panel,#tossPanel,#secPanel,#eventPanel,#oversoldPanel,#managePanel{padding:9px!important;margin:6px 0!important}
+ #china .panel h2,#tossPanel h2,#secPanel h2,#eventPanel h2,#oversoldPanel h2,#managePanel h2{font-size:16px!important;margin:2px 0 6px!important}
+ #china .note,#eventPanel .note,#oversoldPanel .note,#secPanel .note{font-size:11px!important;line-height:1.4!important}
+ #china .scroll,#tossPanel .scroll,#secPanel .scroll,#eventPanel .scroll,#oversoldPanel .scroll,#managePanel .scroll{overflow-x:hidden!important;width:100%!important}
+ #china table,#tossPanel table,#secPanel table,#eventPanel table,#oversoldPanel table,#managePanel table{width:100%!important;min-width:0!important;table-layout:fixed!important}
+ #china th,#china td,#tossPanel th,#tossPanel td,#secPanel th,#secPanel td,#eventPanel th,#eventPanel td,#oversoldPanel th,#oversoldPanel td,#managePanel th,#managePanel td{padding:9px 3px!important;font-size:11px!important;line-height:1.35!important;overflow-wrap:normal!important;word-break:normal!important;vertical-align:middle!important}
+ #china th,#tossPanel th,#secPanel th,#eventPanel th,#oversoldPanel th,#managePanel th{font-size:10px!important;color:#c6e9ff!important}
+ #china td:first-child,#tossRows td:first-child,#secRows td:first-child,#eventRows td:first-child,#oversoldRows td:first-child,#manageRows td:first-child{font-size:12px!important;font-weight:900!important;color:#fff!important;white-space:nowrap!important;overflow-wrap:normal!important;word-break:keep-all!important;text-shadow:none!important}
+ #china th:nth-child(1),#china td:nth-child(1){width:18%!important}
+ #china th:nth-child(2),#china td:nth-child(2){width:19%!important}
+ #china th:nth-child(3),#china td:nth-child(3){width:21%!important}
+ #china th:nth-child(4),#china td:nth-child(4){width:42%!important}
+ #china th:nth-child(5),#china td:nth-child(5){display:none!important}
+ #china td:nth-child(2){color:#80d6ff!important;font-weight:800!important}
+ #china td:nth-child(4){font-size:10px!important;color:#e2efff!important}
+ #chinaRows tr:nth-child(n+11){display:none!important}
+ #tossPanel th:nth-child(1),#tossPanel td:nth-child(1){width:20%!important}
+ #tossPanel th:nth-child(2),#tossPanel td:nth-child(2){width:24%!important}
+ #tossPanel th:nth-child(3),#tossPanel td:nth-child(3){width:25%!important}
+ #tossPanel th:nth-child(4),#tossPanel td:nth-child(4){width:31%!important}
+ #secPanel th:nth-child(1),#secPanel td:nth-child(1){width:17%!important}
+ #secPanel th:nth-child(2),#secPanel td:nth-child(2){width:23%!important}
+ #secPanel th:nth-child(3),#secPanel td:nth-child(3){width:15%!important}
+ #secPanel th:nth-child(4),#secPanel td:nth-child(4){width:25%!important}
+ #secPanel th:nth-child(5),#secPanel td:nth-child(5){width:20%!important}
+ #chinaRows td,#tossRows td{border-bottom-color:#29415a!important}
+}
 </style></head><body><main>
 <div class="bar"><div><h1>◉ NASDAQ 7.0 <span style="color:#53e7ee">RADAR</span></h1><div class="sub">EARLY SIGNAL TERMINAL · NASDAQ / CHINA · 데이터 수집 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
 <nav class="tabs" aria-label="레이더 카테고리"><button id="tabNas" data-view="nas">NASDAQ 7.0</button><button id="tabChina" data-view="china">중국계 1.0</button><button data-view="toss">실시간 시세</button><button data-view="rank" class="active">⚡ 실시간 순위</button><button data-view="history">포착 기록</button><button data-view="sec">SEC·이벤트</button><button data-view="gpt">GPT 감시</button><button data-view="oversold">과매도</button><button data-view="event">이벤트 임박</button><button data-view="manage">종목 관리</button></nav>
