@@ -1,0 +1,78 @@
+name: Publish Independent Discovery TOP10
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 */6 * * 1-5'
+permissions:
+  contents: write
+concurrency:
+  group: dashboard-discovery
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pandas numpy yfinance
+      - run: python scripts/discovery_universe.py
+      - name: Select distributed 50-symbol batch
+        run: |
+          python - <<'PY'
+          import csv,datetime,hashlib
+          from pathlib import Path
+          with Path('NASDAQ7_DISCOVERY_UNIVERSE.csv').open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
+          if not rows: raise SystemExit('No discovery candidates')
+          rows.sort(key=lambda r:hashlib.sha256(r['ticker'].encode()).hexdigest())
+          slot=int(datetime.datetime.now(datetime.timezone.utc).timestamp()//21600)
+          offset=(slot*50)%len(rows)
+          batch=(rows[offset:]+rows[:offset])[:50]
+          with open('NASDAQ7_DISCOVERY_BATCH.csv','w',encoding='utf-8-sig',newline='') as f:
+              writer=csv.DictWriter(f,fieldnames=['ticker','name']);writer.writeheader();writer.writerows(batch)
+          print('Universe:',len(rows),'Batch:',len(batch))
+          PY
+      - name: Scan quotes
+        run: python scripts/discovery_scan.py --universe NASDAQ7_DISCOVERY_BATCH.csv --limit 50
+      - name: Prepare dashboard JSON
+        run: |
+          python - <<'PY'
+          import csv,json,datetime
+          from pathlib import Path
+          with open('NASDAQ7_EARLY_RESULT.csv',encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
+          with open('NASDAQ7_DISCOVERY_BATCH.csv',encoding='utf-8-sig',newline='') as f: batch=list(csv.DictReader(f))
+          def num(v):
+              try: return float(v) if v not in (None,'','nan','NaN') else None
+              except (TypeError,ValueError): return None
+          fields=['price','rvol5','rvol10','rvol15','accel_5m','change_window_pct','volume_5m','age_min']
+          for row in rows:
+              for key in fields: row[key]=num(row.get(key))
+          signals={'EARLY_PRE','EARLY_PROVISIONAL'}
+          verified=[r for r in rows if r.get('signal') in signals and r.get('data_status')!='STALE']
+          watch=[r for r in rows if r.get('signal') in {'WATCH','LOW_VOLUME_REVIEW'}]
+          top=(verified+watch)[:10]
+          payload={'updated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':'public-discovery-workflow','scanned':len(batch),'result_count':len(rows),'early_count':len(verified),'stale_count':sum(r.get('signal')=='STALE' for r in rows),'top10':top,'disclaimer':'Free delayed market data. Signals unverified; not buy recommendations.'}
+          Path('discovery_latest.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Publish dashboard result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add discovery_latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish latest independent discovery results"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dashboard-discovery-result
+          path: |
+            NASDAQ7_DISCOVERY_BATCH.csv
+            NASDAQ7_EARLY_RESULT.csv
+            discovery_latest.json
+          if-no-files-found: warn
+          retention-days: 7
