@@ -23,7 +23,8 @@ def get(ticker):
             "baseline":"previous 12 five-minute bars, not time-of-day adjusted"}
 def main():
     previous=json.loads((ROOT/"data.json").read_text(encoding="utf-8"))
-    symbols=list(dict.fromkeys(str(x.get("ticker","")).upper() for x in previous.get("rows",[]) if x.get("ticker")))
+    watchlist=json.loads((ROOT/"priority_watchlist.json").read_text(encoding="utf-8"))
+    symbols=list(dict.fromkeys(str(t).upper() for t in watchlist["tickers"]))
     rows=[]; errors={}
     for ticker in symbols:
         try: rows.append(get(ticker))
