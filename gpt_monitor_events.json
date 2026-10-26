@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T23:29:11Z",
+  "updated_utc": "2026-10-26T23:32:45Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -604,6 +604,28 @@
       "detected_utc": "2026-10-26T23:29:11Z",
       "summary": "111, Inc. 2026-10-26 SEC 6-K: 독립 특별위원회가 2026-09-16 내부자 주도 비구속 비상장화 제안(ADS당 $4.52)을 검토하기 위해 Houlihan Lokey China와 Kirkland & Ellis를 선임. 확정 인수계약·종결 아님. 10/26 종가 $3.00(+4.90%), 거래량 11,336주로 10/23 15,225주보다 감소; 거래량 2배 이상 가속 미확인. 2차 희석·즉시 공급 A/B/C/D 미판정.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1738906/000095010326016134/dp255532_6k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-prebreak-POM-labt-crash-20261023T200000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "CN1",
+      "ticker": "POM",
+      "category": "급락·대량거래 LABT형·급락 후 반등 관찰",
+      "detected_utc": "2026-10-26T23:32:45Z",
+      "summary": "2026-10-23 정규장 종가 $1.17(-42.36%), 거래량 4,606,384주; 10/22 거래량 14,581,988주, 10/21 48,813,382주. 10/21 ADS→보통주 전환 및 주식병합으로 전후 거래량 배수 비교 불확실. 10/26 종가·분봉 미확인. 반등 미확인.",
+      "source_url": "https://stockanalysis.com/stocks/pom/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-prebreak-POM-adr-termination-6k-20261019T130021Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "CN1",
+      "ticker": "POM",
+      "category": "2차 SEC·ADR 프로그램 종료·주식병합 및 보통주 직접거래",
+      "detected_utc": "2026-10-26T23:32:45Z",
+      "summary": "SEC 2026-10-19 6-K(접수 09:00:21 ET): ADR 프로그램 종료 및 10/21 보통주 직접 상장 계획, 10대1 주식병합, 기존 ADS 10개당 병합 후 Class A 보통주 3주 교환 예정. 최신 float/O/S, ATM·워런트·재판매 및 즉시 매도 가능 잔량 미확인. 공급 A/B/C/D 전체 미확정.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1877971/000121390026110501/ea0308609-6k_pomdoctor.htm",
       "verification": "VERIFIED"
     }
   ]
