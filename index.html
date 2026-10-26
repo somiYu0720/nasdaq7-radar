@@ -75,6 +75,28 @@ table tbody tr:nth-child(even){background:#0c1a30!important}
 .cat-nas{color:#22eaff!important}.cat-china{color:#ff69d4!important}.cat-event{color:#ffde59!important}.cat-oversold{color:#ae8cff!important}.cat-reignite{color:#ff9b55!important}.cat-volume{color:#58ffa1!important}.cat-funding{color:#ff7474!important}.cat-favorite{color:#e7f6ff!important}
 .good{color:#43ffa3!important}.warn{color:#ffdb59!important}.bad{color:#ff688a!important}
 a{color:#59eaff!important}
+
+/* HIGH CONTRAST TICKER FIX - final override */
+html body table tbody td{color:#f4faff!important;opacity:1!important;text-shadow:none!important}
+html body #rankRows td:nth-child(2),
+html body #ranking td:nth-child(2),
+html body #chinaRows td:first-child,
+html body #tossRows td:first-child,
+html body #manageRows td:first-child,
+html body #oversoldRows td:first-child,
+html body #eventRows td:first-child,
+html body #gptMonitorRows td:nth-child(3),
+html body #secRows td:first-child{color:#ffffff!important;font-weight:900!important;text-shadow:0 0 7px #2ddcff88!important;opacity:1!important}
+html body table tbody tr{background:#0b1729!important}
+html body table tbody tr:nth-child(even){background:#12243b!important}
+html body #rankRows td:nth-child(3) .cat-tag{font-weight:900!important;filter:brightness(1.35)}
+html body .cat-nas{color:#57f4ff!important}
+html body .cat-china{color:#ff8de0!important}
+html body .cat-event{color:#ffe67b!important}
+html body .cat-oversold{color:#c2a4ff!important}
+html body .cat-reignite{color:#ffb27b!important}
+html body .cat-volume{color:#79ffb3!important}
+html body .cat-funding{color:#ff9999!important}
 </style></head><body><main>
 <div class="bar"><div><h1>📡 NASDAQ 7.0 RADAR</h1><div class="sub">공개 포착 신호 대시보드 · 무료 분봉 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
 <nav class="tabs" aria-label="레이더 카테고리"><button id="tabNas" data-view="nas">NASDAQ 7.0</button><button id="tabChina" data-view="china">중국계 1.0</button><button data-view="toss">실시간 시세</button><button data-view="rank" class="active">⚡ 실시간 순위</button><button data-view="history">포착 기록</button><button data-view="sec">SEC·이벤트</button><button data-view="gpt">GPT 감시</button><button data-view="oversold">과매도</button><button data-view="event">이벤트 임박</button><button data-view="manage">종목 관리</button></nav>
