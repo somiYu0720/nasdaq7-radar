@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T15:45:40Z",
+  "updated_utc": "2026-10-26T16:04:06Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -32,6 +32,28 @@
       "detected_utc": "2026-10-26T15:45:40Z",
       "summary": "10월22일 회사 발표: 1:8 주식병합, 10월26일 병합조정 거래 예정. 발표 기준 병합 전 Class A 22,878,354주, Class B 2,587,500주; 병합 후 예상 Class A 2,859,795주, Class B 323,438주. 실제 거래개시·최신 float 미확인.",
       "source_url": "https://www.globenewswire.com/news-release/2026/10/22/3386359/0/en/lianhe-sowell-international-group-ltd-announces-1-for-8-share-consolidation.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-FFR-ma-close-20261026T153000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "FFR",
+      "category": "M&A 종결·로봇사업 가이던스",
+      "detected_utc": "2026-10-26T16:04:06Z",
+      "summary": "2026-10-26 11:30 EDT 회사 발표: FFR의 Faraday Future 로봇사업 인수가 10월23일 완료됐다고 공표. 2026년 로봇 판매·출하 약 2,000대 전망, 10월 300대 초과 예상(실적 확정 아님). 종결 관련 신규 SEC 8-K 미확인, 분봉·거래량 가속 미확인. 기존 M&A 관찰 후보 이벤트 상태 갱신.",
+      "source_url": "https://www.prnewswire.com/news-releases/ff-eai-robotics-ecosystem-completed-its-acquisition-of-the-robotics-business-of-faraday-future-establish-nasdaq-listed-humanoid-and-bionic-robotics-platform-302919475.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-EPOW-jv-capital-20261026T150000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "EPOW",
+      "category": "JV 자금 유입·거래량/가격 이상",
+      "detected_utc": "2026-10-26T16:04:06Z",
+      "summary": "2026-10-26 11:00 EDT 회사 발표: Guizhou JV가 RMB 2억 증자약정 중 RMB 1.1억 수령·등록, 잔액 RMB 0.9억 미납. EPOW JV 간접지분 39.3519%→37.0855%(나스닥 주식 직접 희석과 별개). 15분 지연 스캐너 상대거래량 약 5.3배, 주가 약 +18.08% 표기; 5거래일 평균 대비 배수·분봉 미확인. SEC 6-K 신규 확인 전.",
+      "source_url": "https://www.stocktitan.net/news/EPOW/e-power-s-guizhou-joint-venture-receives-rmb-110-million-of-rmb-200-7s2xw3oh15qv.html",
       "verification": "PROVISIONAL"
     }
   ]
