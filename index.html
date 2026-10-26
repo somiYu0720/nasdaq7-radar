@@ -183,6 +183,38 @@ table tbody tr:nth-child(even){background:#112036!important}
 #radarOverview .metric:nth-child(6){border-top:2px solid #ca9bff}
 @media(max-width:900px){#radarOverview{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:500px){#radarOverview{grid-template-columns:repeat(2,minmax(0,1fr))}#radarOverview .metric{padding:11px}#radarOverview .metric .value{font-size:23px}}
+
+/* MOBILE RANKING — compact, no horizontal scrolling */
+#rankRows td:nth-child(2){white-space:nowrap!important;word-break:keep-all!important;overflow-wrap:normal!important}
+@media(max-width:650px){
+ #rankPanel{padding:10px!important}
+ #rankPanel h2{font-size:17px!important;margin:3px 0 7px!important}
+ #rankPanel>.note:first-of-type{display:none!important}
+ #rankPanel .controls{margin:5px 0!important;padding:0!important;display:flex!important;gap:7px!important}
+ #rankCategory{min-width:0!important;flex:1!important;padding:9px!important;font-size:12px!important}
+ #rankRefresh{padding:9px!important;font-size:12px!important}
+ #rankStatus{font-size:10px!important;padding:5px 8px!important;margin:5px 0!important}
+ #rankPanel .scroll{overflow-x:hidden!important;margin:0!important;border:0!important}
+ #rankPanel table{width:100%!important;min-width:0!important;table-layout:fixed!important;border-spacing:0!important}
+ #rankPanel th,#rankPanel td{box-sizing:border-box!important;padding:9px 3px!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:clip!important;vertical-align:middle!important}
+ #rankPanel th{font-size:10px!important}
+ #rankPanel td{font-size:12px!important}
+ #rankPanel th:nth-child(1),#rankPanel td:nth-child(1){width:9%!important;text-align:center!important}
+ #rankPanel th:nth-child(2),#rankPanel td:nth-child(2){width:21%!important;position:static!important;box-shadow:none!important;background:transparent!important;font-size:14px!important;font-weight:900!important;letter-spacing:0!important}
+ #rankPanel th:nth-child(3),#rankPanel td:nth-child(3){display:none!important}
+ #rankPanel th:nth-child(4),#rankPanel td:nth-child(4){width:16%!important;text-align:center!important;font-size:11px!important}
+ #rankPanel th:nth-child(5),#rankPanel td:nth-child(5){width:21%!important;text-align:right!important;font-size:11px!important}
+ #rankPanel th:nth-child(6),#rankPanel td:nth-child(6){width:14%!important;text-align:right!important;color:#64ebc6!important;font-weight:800!important}
+ #rankPanel th:nth-child(7),#rankPanel td:nth-child(7){display:none!important}
+ #rankPanel th:nth-child(8),#rankPanel td:nth-child(8){width:19%!important;text-align:right!important;font-weight:900!important;color:#e5b5ff!important}
+ #rankPanel th:nth-child(9),#rankPanel td:nth-child(9){display:none!important}
+ #rankPanel #rankAlerts{font-size:11px!important;margin:9px 0 0!important;padding:8px!important}
+ #radarOverview{gap:6px!important;margin-bottom:10px!important}
+ #radarOverview .metric{padding:9px!important}
+ #radarOverview .metric .label{font-size:10px!important}
+ #radarOverview .metric .value{font-size:20px!important;margin-top:4px!important}
+ #radarOverview .metric .hint{display:none!important}
+}
 </style></head><body><main>
 <div class="bar"><div><h1>◉ NASDAQ 7.0 <span style="color:#53e7ee">RADAR</span></h1><div class="sub">EARLY SIGNAL TERMINAL · NASDAQ / CHINA · 데이터 수집 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
 <nav class="tabs" aria-label="레이더 카테고리"><button id="tabNas" data-view="nas">NASDAQ 7.0</button><button id="tabChina" data-view="china">중국계 1.0</button><button data-view="toss">실시간 시세</button><button data-view="rank" class="active">⚡ 실시간 순위</button><button data-view="history">포착 기록</button><button data-view="sec">SEC·이벤트</button><button data-view="gpt">GPT 감시</button><button data-view="oversold">과매도</button><button data-view="event">이벤트 임박</button><button data-view="manage">종목 관리</button></nav>
