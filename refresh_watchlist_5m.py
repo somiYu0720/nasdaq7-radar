@@ -24,7 +24,8 @@ def get(ticker):
 def main():
     previous=json.loads((ROOT/"data.json").read_text(encoding="utf-8"))
     watchlist=json.loads((ROOT/"priority_watchlist.json").read_text(encoding="utf-8"))
-    symbols=list(dict.fromkeys(str(t).upper() for t in watchlist["tickers"]))
+    china=json.loads((ROOT/"china_verified_tickers.json").read_text(encoding="utf-8"))
+    symbols=list(dict.fromkeys(str(t).upper() for t in watchlist["tickers"]+china.get("candidates",[])))
     rows=[]; errors={}
     for ticker in symbols:
         try: rows.append(get(ticker))
