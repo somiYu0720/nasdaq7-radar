@@ -40,6 +40,19 @@ details.secondary summary{color:#20588f}
 a{color:#126bc9}
 .empty{color:#67809d}
 @media(max-width:650px){.tabs{background:#f2f7ff}.tabs button{background:#e2efff}.tabs button.active{background:linear-gradient(125deg,#2477e8,#00a5c8)}}
+
+/* Contrast fix: ticker symbols and key numbers remain legible in light mode */
+#ranking td:nth-child(2),#chinaRows td:first-child,#tossRows td:first-child,#secRows td:first-child,
+#surges td:first-child,#alerts td:first-child,#performance td:first-child,
+#gptMonitorRows td:nth-child(3){
+ color:#102f57!important;font-weight:850!important;
+}
+#ranking td:nth-child(3),#chinaRows td:nth-child(2),#tossRows td:nth-child(2),
+#tossRows td:nth-child(3){color:#0756aa!important;font-weight:800!important}
+#ranking td,#chinaRows td,#tossRows td,#secRows td{opacity:1}
+#ranking tbody tr:nth-child(even),#chinaRows tr:nth-child(even),#tossRows tr:nth-child(even){background:#e9f3ff}
+#ranking tbody tr:nth-child(odd),#chinaRows tr:nth-child(odd),#tossRows tr:nth-child(odd){background:#fff}
+#ranking td:nth-child(2),#chinaRows td:first-child{font-size:clamp(12px,1.4vw,16px)!important}
 </style></head><body><main>
 <div class="bar"><div><h1>📡 NASDAQ 7.0 RADAR</h1><div class="sub">공개 포착 신호 대시보드 · 무료 분봉 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
 <nav class="tabs" aria-label="레이더 카테고리"><button id="tabNas" class="active" data-view="nas">NASDAQ 7.0</button><button id="tabChina" data-view="china">중국계 1.0</button><button data-view="toss">실시간 시세</button><button data-view="history">포착 기록</button><button data-view="sec">SEC·이벤트</button><button data-view="gpt">GPT 감시</button></nav>
