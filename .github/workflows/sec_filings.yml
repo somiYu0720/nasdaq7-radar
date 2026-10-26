@@ -20,6 +20,8 @@ jobs:
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: python sec_events_refresh.py
+      - name: Categorize filing forms conservatively
+        run: python sec_event_triage.py
       - name: Commit SEC snapshot
         run: |
           git config user.name github-actions[bot]
