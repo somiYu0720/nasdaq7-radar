@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T02:14:20Z",
+  "updated_utc": "2026-10-27T03:06:45.580Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -781,6 +781,39 @@
       "summary": "2026-10-21 08:00:01 ET SEC 6-K 접수: 회사는 10/26 개장 시 1:20 주식병합 조정 거래 예정이라고 발표(발표 사실 VERIFIED, 6-K 자체로 시행 완료 확정 아님). 9/9 기준 병합 전 O/S A 42,167,457주/B 7,150,000주, 최신 병합 후 O/S·float 미확인. 6/12 F-3 최대 $200m shelf 및 6/24 EFFECT 이력은 잠재 공급/등록 효력 요소이며 실제 발행·즉시 매도 가능 물량 미확인. 전체 공급 유형 미확정, 1차 순위와 분리.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2007702/000121390026111190/ea0308948-6k_cellyan.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-TGL-ai-agriculture-software-8k-20261023T211527Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "TGL",
+      "category": "거래량 50배 이상·가격 이상·AI 농업 소프트웨어 계약 공시·급등 진행 관찰",
+      "detected_utc": "2026-10-27T03:06:45.580Z",
+      "summary": "지연 포착: 2026-10-26 정규장 160,270,774주, 직전 5거래일(10/19~23) 평균 1,893,300주 대비 84.65배. 종가 $0.2427(+9.57%), 고가 약 $0.31, 저가 약 $0.22. 10/23 17:15:27 EDT SEC 8-K: 자회사 Tadaa가 10/21 Techcom Vintage와 정부 스마트비료 추적·AI 농업 플랫폼 소프트웨어 개발 계약 체결. RM8m은 개발사에 지급할 비용으로 회사 수주 매출이 아님. 10/26 상승 직접 원인 미확인. 2차: ATM/기존 증권등록 이력은 확인 대상, 최신 float/O/S, 발행/매도 잔량 및 즉시 매도 가능 공급 미확인. 2차 위험은 1차 순위와 독립.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1905956/000121390026112183/ea0309520-8k_treasure.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-SPRC-warrant-inducement-6k-20261026T200100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "SPRC",
+      "category": "거래량 10배 이상·시간외 급락 LABT형 관찰·워런트 행사 가격변경·10/27 종결 예정",
+      "detected_utc": "2026-10-27T03:06:45.580Z",
+      "summary": "2026-10-26 정규장 거래량 38,366,691주 vs 직전 5거래일 평균 1,368,560.6주=28.03배. 종가 $1.29(+18.35%), 시간외 19:59 EDT $0.8504(정규장 종가 대비 -34.08%). SEC 6-K 10/26 16:01 EDT: L.I.A Pure Capital 보유 최대 405,728주 기존 워런트 행사가 $4.929에서 $1.00으로 인하, 약 $405,728 총 조달 예정, 10/27 종결 목표(미완료). 기초주식 재판매는 8/31 효력 발생 F-3에 등록됐으나 실제 행사/매도 수량 미확인. 시간외 저점방어·분봉 미확인. 2차 공급 위험은 1차 순위와 독립.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1611746/000121390026112470/ea0309686-6k_scisparc.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-CLRO-volume-reignite-20261026T200000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "CLRO",
+      "category": "거래량 10배 이상·연속 급등 진행·재점화·기존 M&A 일정 관찰",
+      "detected_utc": "2026-10-27T03:06:45.580Z",
+      "summary": "2026-10-26 정규장 83,109,008주, 직전 5거래일 평균 7,494,380.8주 대비 11.09배, 종가 $4.97(+52.92%), 고가 $5.85 저가 $4.02. 10/23에도 36,618,260주, 직전 5일 평균 176,266주 대비 207.74배 및 +69.27% 급등. 기존 7월 Cortigent 합병계약·12.5m주 대가·조건부 $10m~15m 단위증권 자금조달 확인, 최신 종결 미확인. 10/26 상승 직접 원인·최신 분봉 미확인. 최신 float/O/S, ATM/ELOC/Resale, 워런트 실제 행사 및 즉시 매도 공급 잔량 미확인. 2차 위험으로 1차 순위 감점 없음.",
+      "source_url": "https://stockanalysis.com/stocks/clro/history/",
+      "verification": "PROVISIONAL"
     }
   ]
 }
