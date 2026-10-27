@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T11:59:50Z",
+  "updated_utc": "2026-10-27T12:16:09Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1199,6 +1199,28 @@
       "summary": "SEC 2026-10-19 8-K confirms signed agreement for 4,098,360 common shares at USD 1.22 (approx USD 5m) to affiliate Sealbond; closing expected by 2026-10-29, not yet verified closed. Resale registration planned, immediate resale supply not confirmed.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1818844/000110465926116748/dwtx-20261019x8k.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-news-JZXN-strategic-investment-commitment-20261012T111500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "JZXN",
+      "category": "STRATEGIC_INVESTMENT_COMMITMENT_PROVISIONAL",
+      "detected_utc": "2026-10-27T12:16:09Z",
+      "summary": "지연 포착(10/12 발표): Jiuzi Holdings 회사 보도자료에서 전략적 투자자가 최소 $50m를 주당 최소 $2.50에 투자할 의향/약정을 발표. 최종 투자금액·주식수·시행일은 미확정, 실제 투자 종결·대금 수령·발행 완료 확인 안 됨. 회사 보도자료는 확인했으나 SEC 최신 6-K 교차검증 전이므로 PROVISIONAL. 1차 뉴스·이벤트 신호만 평가; 2차 잠재 신주 공급과 실제 즉시 매도 가능 공급 분리, 1차 순위 감점 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/12/3378795/0/en/jiuzi-holdings-announces-strategic-investor-s-commitment-to-invest-at-least-us-50-million-at-a-minimum-price-of-us-2-50-per-ordinary-share.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-news-JZXN-labt-volume-surge-20261012T200000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "JZXN",
+      "category": "LABT_VOLUME_SURGE_REIGNITION_WATCH",
+      "detected_utc": "2026-10-27T12:16:09Z",
+      "summary": "지연 포착: 2026-10-12 정규장 거래량 6,258,432주 vs 10/09 189,330주 = 33.06배(전일 대비); 장중 $1.05~$1.24, 종가 $1.08(-2.70%)로 대량거래와 약세 동반(LABT형). 10/26 종가 $1.05(-1.87%), 거래량 약 2.7만주로 가속 지속 미확인. 1차 급락·대량거래 후 반등/재점화 관찰; 급등 전 확정 아님. 거래량/시세 제3자 종가 데이터, 분봉·저점방어·현재가 미확인. 2차 SEC: 과거 워런트·사모 발행 구조 존재하나 최신 float/O/S, ATM/ELOC/Resale/PIPE 및 실제 즉시 매도 가능한 공급 미확인; 잠재 D형 복합 요소, 전체 A/B/C/D 판정 보류. 위험으로 1차 포착 순위 변경 없음.",
+      "source_url": "https://stockanalysis.com/stocks/jzxn/history/",
+      "verification": "PROVISIONAL"
     }
   ]
 }
