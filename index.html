@@ -690,8 +690,31 @@ async function renderRanks(){
    // Prevent tiny reference candles from producing misleading high-confidence acceleration.
    const speed=accel===null?0:Math.min(35,Math.max(0,Math.round(15*Math.log2(Math.max(1,accel)))))*(o.v<100?0.25:o.v<1000?0.6:1);
    const price=pct===null?0:pct>=0&&pct<=5?20:pct>5&&pct<=12?10:pct>=-3?8:0;
-   return {...x,accel,pct,score:Math.round(base+speed+price),thinBase:!!o&&o.v<1000};
-  }).sort((a,b)=>b.score-a.score||rankNum(b.minute_volume)-rankNum(a.minute_volume)).slice(0,10);
+   // Oversold lane only: rebound confirmation is scored separately from NASDAQ/China.
+   // No fabricated RSI or full-session OBV: use only distinct observed 1-minute bars.
+   let oversoldScore=null,oversoldEvidence='분봉 부족';
+   if(cat==='oversold'){
+    const b=(minuteBars[x.ticker]||[]).filter(z=>Number.isFinite(z.p)&&Number.isFinite(z.v));
+    const last=b.slice(-15);
+    const consecutive=last.length>=5&&last.slice(-5).every((z,i,a)=>i===0||Date.parse(z.t)-Date.parse(a[i-1].t)===60000);
+    if(consecutive){
+     const lo=Math.min(...last.map(z=>z.p)),hi=Math.max(...last.map(z=>z.p)),now=last[last.length-1].p;
+     const lowDefense=hi>lo?Math.max(0,Math.min(1,(now-lo)/(hi-lo))):0;
+     const last3=last.slice(-3),prior=last.slice(0,-3);
+     const avg=prior.length?prior.reduce((a,z)=>a+z.v,0)/prior.length:NaN;
+     const volRatio=avg>0?last3.reduce((a,z)=>a+z.v,0)/3/avg:null;
+     let obv=0;for(let i=1;i<last.length;i++)obv+=Math.sign(last[i].p-last[i-1].p)*last[i].v;
+     const obvSum=last.slice(1).reduce((a,z)=>a+z.v,0);
+     const obvStrength=obvSum>0?Math.max(0,obv/obvSum):0;
+     const defend=Math.round(40*lowDefense);
+     const rebound=volRatio===null?0:Math.round(35*Math.min(1,Math.max(0,(volRatio-1)/2)));
+     const obvPts=Math.round(25*obvStrength);
+     oversoldScore=defend+rebound+obvPts;
+     oversoldEvidence='저점방어 '+defend+'/40 · 반등량 '+rebound+'/35 · 관측OBV '+obvPts+'/25';
+    }
+   }
+   return {...x,accel,pct,score:cat==='oversold'?oversoldScore:Math.round(base+speed+price),oversoldEvidence,thinBase:!!o&&o.v<1000};
+  }).sort((a,b)=>(b.score??-1)-(a.score??-1)||rankNum(b.minute_volume)-rankNum(a.minute_volume)).slice(0,10);
   const changed=!!prev.stamp&&prev.stamp!==stamp,alerts=[],changes={};
   $('preWatch').textContent='0';
   rows.forEach((x,i)=>{
@@ -703,7 +726,7 @@ async function renderRanks(){
    tag.textContent=({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량'})[cat]||cat;
    [i+1,x.ticker].forEach(v=>textCell(tr,String(v)));
    const category=document.createElement('td');category.append(tag);tr.append(category);
-   [move,rankNum(x.minute_volume).toLocaleString('ko-KR'),x.accel===null?'미확인':x.accel.toFixed(2)+'배'+(x.thinBase?' (저표본)':''),x.pct===null?'미확인':(x.pct>=0?'+':'')+x.pct.toFixed(2)+'%',x.score+' / 100'+(earlier?'':' 잠정'),x.price??'—'].forEach(v=>textCell(tr,String(v)));
+   [move,rankNum(x.minute_volume).toLocaleString('ko-KR'),x.accel===null?'미확인':x.accel.toFixed(2)+'배'+(x.thinBase?' (저표본)':''),x.pct===null?'미확인':(x.pct>=0?'+':'')+x.pct.toFixed(2)+'%',(x.score===null?'산정 대기':x.score+' / 100'+(cat==='oversold'?' 관측기준':earlier?'':' 잠정')),x.price??'—'].forEach(v=>textCell(tr,String(v)));
    const volumeCell=tr.children[4];
    const v=rankNum(x.minute_volume);
    const level=v>=100000?'extreme':v>=30000?'hot':v>=10000?'high':v>=1000?'mid':'low';
@@ -712,7 +735,7 @@ async function renderRanks(){
    pill.title='1분 거래량 '+v.toLocaleString('ko-KR')+'주 · '+({low:'낮음',mid:'보통',high:'활발',hot:'매우 높음',extreme:'폭발'})[level];
    volumeCell.replaceChildren(pill);
    tr.children[3].classList.add(move.startsWith('▲')?'rank-up':move.startsWith('▼')?'rank-down':move.includes('신규')?'rank-new':'rank-flat');
-   tr.title=(tr.title?tr.title+' | ':'')+secRiskLabel(x.ticker)+' · 포착 점수와 독립';
+   tr.title=(cat==='oversold'?x.oversoldEvidence+' | ':'')+secRiskLabel(x.ticker)+' · 포착 점수와 독립';
    const eventCell=document.createElement('td');eventCell.textContent=rankEventLabel(x.ticker)||'—';eventCell.style.fontSize='12px';tr.append(eventCell);
    const secCell=document.createElement('td');secCell.textContent=secRiskLabel(x.ticker)||'—';secCell.style.whiteSpace='nowrap';secCell.style.fontSize='12px';tr.append(secCell);
    body.append(tr);
