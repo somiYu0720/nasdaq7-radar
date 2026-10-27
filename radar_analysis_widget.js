@@ -40,5 +40,5 @@
   async function refresh(){
     try{const r=await fetch('./radar_analysis_2026-10-27.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();content.replaceChildren();note.textContent='분석 스냅샷: '+new Date(d.generated_at).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' · 과거 분석 자료 (실시간 순위 아님) · 뉴스/SEC 및 가속 검증 전 · 기존 실시간 TOP10과 별도';renderList('NASDAQ 7.0',d.nasdaq7||[]);renderList('중국계 1.0',d.china1||[]);await renderOtherCategories()}catch(e){note.textContent='분석 파일을 불러오지 못했습니다: '+e.message}
   }
-  document.body.append(panel);refresh();
+  document.body.append(panel);window.refreshRadarAnalysisPanel=refresh;refresh();setInterval(refresh,60000);
 })();
