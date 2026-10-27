@@ -619,25 +619,25 @@ async function loadSharedSecEvidence(){
 }
 function secRiskLabel(ticker){
  const e=sharedSecEvidence?.tickers?.[ticker];
- if(!e)return 'SEC 미조회';
- if(e.status==='NOT_IN_SEC_SNAPSHOT')return 'SEC 조회대기';
- if(e.status==='SEC_SUBMISSIONS_ERROR')return 'SEC 조회오류';
- if(e.evidence?.length)return '희석문구 '+e.evidence.length+'건 · 미판정';
- return 'SEC 조회 · 희석 미판정';
+ if(!e)return '';
+ if(e.status==='NOT_IN_SEC_SNAPSHOT')return '';
+ if(e.status==='SEC_SUBMISSIONS_ERROR')return 'SEC 조회 오류';
+ if(e.evidence?.length)return '희석 관련 문구 '+e.evidence.length+'건 (희석 확정 아님)';
+ return '';
 }
 async function loadSecRankSnapshot(){
  try{const r=await fetch('./sec_events.json?t='+Date.now(),{cache:'no-store'});if(r.ok)secSnapshot=await r.json()}catch(e){}
 }
 function rankEventLabel(ticker){
  const item=secSnapshot?.tickers?.[ticker];
- if(!item)return 'SEC 목록 미확인';
- if(item.status!=='FILINGS_INDEXED')return 'SEC '+(item.status||'조회대기');
+ if(!item)return '';
+ if(item.status!=='FILINGS_INDEXED')return '';
  const filings=Array.isArray(item.filings)?item.filings:[];
- if(!filings.length)return '최근 공시 목록 없음';
+ if(!filings.length)return '';
  const f=filings[0];
  const verified=filings.find(x=>x.verified_event===true);
  if(verified)return '검증 이벤트 · '+verified.form+' '+verified.date;
- return '공시 '+f.form+' '+f.date+' · 호재 미판정';
+ return '공시 '+f.form+' '+f.date+' (내용 검증 전)';
 }
 async function renderRanks(){
  await Promise.all([loadSharedSecEvidence(),loadSecRankSnapshot()]);
@@ -707,16 +707,18 @@ async function renderRanks(){
    volumeCell.replaceChildren(pill);
    tr.children[3].classList.add(move.startsWith('▲')?'rank-up':move.startsWith('▼')?'rank-down':move.includes('신규')?'rank-new':'rank-flat');
    tr.title=(tr.title?tr.title+' | ':'')+secRiskLabel(x.ticker)+' · 포착 점수와 독립';
-   const eventCell=document.createElement('td');eventCell.textContent=rankEventLabel(x.ticker);eventCell.style.fontSize='12px';tr.append(eventCell);
-   const secCell=document.createElement('td');secCell.textContent=secRiskLabel(x.ticker);secCell.style.whiteSpace='nowrap';secCell.style.fontSize='12px';tr.append(secCell);
+   const eventCell=document.createElement('td');eventCell.textContent=rankEventLabel(x.ticker)||'—';eventCell.style.fontSize='12px';tr.append(eventCell);
+   const secCell=document.createElement('td');secCell.textContent=secRiskLabel(x.ticker)||'—';secCell.style.whiteSpace='nowrap';secCell.style.fontSize='12px';tr.append(secCell);
    body.append(tr);
    const detail=document.createElement('tr');detail.className='rank-sec-detail';
    const detailCell=document.createElement('td');detailCell.colSpan=11;
    const eventStrong=document.createElement('strong');eventStrong.textContent='SEC 공시·이벤트: ';
    const eventText=document.createElement('span');eventText.textContent=rankEventLabel(x.ticker);
    const riskLine=document.createElement('div');riskLine.className='rank-risk';
-   riskLine.textContent='희석·공급 검증: '+secRiskLabel(x.ticker);
-   detailCell.append(eventStrong,eventText,riskLine);detail.append(detailCell);body.append(detail);
+   const riskLabel=secRiskLabel(x.ticker),eventLabel=rankEventLabel(x.ticker);
+   if(eventLabel){detailCell.append(eventStrong,eventText)}
+   if(riskLabel){riskLine.textContent='희석·공급: '+riskLabel;detailCell.append(riskLine)}
+   if(eventLabel||riskLabel){detail.append(detailCell);body.append(detail)}
   });
   if(rows.length<10){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));textCell(tr,rankEventLabel(ticker));textCell(tr,secRiskLabel(ticker));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인','SEC 미조회','희석 미판정'].forEach(v=>textCell(tr,v));body.append(tr)}}
   if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,minuteBars,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
