@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T08:39:12.529Z",
+  "updated_utc": "2026-10-27T09:11:27.209Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1067,6 +1067,39 @@
       "summary": "지연 포착: 2026-10-26 정규장 ICMB 거래량 908,259주 vs 10/19~23 평균 110,302.2주=약 8.23배, 종가 약 $0.73(+4.36%); 10/23 종가 $0.70(+7.66%), 거래량 406,257주. 10/26 장중 $0.72~$0.86, 장중 고점 대비 종가 밀림. 4월 전략적 대안 검토 공시는 과거 이벤트로 당일 거래량의 직접 원인 확인 안 됨. 저점 방어·분봉 미확인. SEC 최신 float/O/S·ATM·ELOC·Resale·PIPE·워런트·전환 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 판정 보류. 위험으로 1차 순위 감점 없음. 가격·거래량 제3자 데이터로 PROVISIONAL.",
       "source_url": "https://stockanalysis.com/stocks/icmb/history/",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-news-MASK-volume-surge-20261019T200000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "MASK",
+      "category": "거래량 초가속·급등 진행 후 하락·재점화 관찰",
+      "detected_utc": "2026-10-27T09:11:27.209Z",
+      "summary": "지연 포착: 2026-10-19 정규장 MASK 거래량 76,896,036주 vs 10/16 57,527주=약 1,336.7배, 종가 +15.77%. 10/26 종가 $0.7272(-12.39%), 거래량 약 281,317주로 대량거래 지속은 확인되지 않음. 거래량과 종가는 제3자 일별자료이며 분봉·저점 방어·당일 급증 직접 원인 미확인. 급등 전 확정이 아니라 급등 진행 이력/급락 후 반등·재점화 관찰. 공급 위험은 2차 별도, 1차 포착 감점 없음.",
+      "source_url": "https://stockscan.io/stocks/MASK/price-history",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-news-MASK-hardware-contract-delivery-20261021T180000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "MASK",
+      "category": "약 500만달러 하드웨어 계약·초도 출하·후속 매출 일정",
+      "detected_utc": "2026-10-27T09:11:27.209Z",
+      "summary": "지연 포착: 회사가 2026-10-21 14:00 EDT 약 $5.0m 기업용 메모리·데이터센터 저장장치 공급계약 체결 발표, 10/22 07:50 EDT 첫 물량 출하 개시 발표. 향후 분기별 추가 납품 및 단계적 매출 인식 예상(매출 전액 실현·대금 회수 미확인). 회사 발표 검증, SEC 계약 원문 교차검증 전 PROVISIONAL. 1차 뉴스·이벤트 신호, 가격 재점화 미확인. D+7 10/28, D+30 11/20.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/21/3385821/0/en/3-e-network-announces-the-signing-of-an-approximately-5-0-million-core-storage-hardware-sales-contract.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-news-MASK-private-placement-split-20261023-000118518526004968",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "MASK",
+      "category": "SEC 6-K 500만달러 사모발행 계약·10월30일 주식병합 예정",
+      "detected_utc": "2026-10-27T09:11:27.209Z",
+      "summary": "2026-10-23 SEC 6-K(0001185185-26-004968) 확인: 병합 후 기준 Class A 2,751,789주를 약 $1.817/주, 총 $5m에 사모발행하는 구독계약 체결. 실제 신주 발행은 조건 충족 필요하며 10/30 예정 2:1 주식병합 조정 거래일 이전 발행 불가. 발행분은 미등록, 등록 또는 면제 없이 매도 불가. 10/23 발표 주식병합은 예정이며 완료 미확인. 병합 후 Class A 기존 발행주식 약 2,615,105주(회사 발표), 최신 float·ATM/ELOC·기존 전환/워런트 잔여량·실제 즉시 매도 가능 신규 공급 미확인. 2차 공급 B형 대기 요소 및 과거 전환·워런트 D형 요소, 최종 유형 보류. 계약 사실만 VERIFIED; 발행 완료/매도 가능은 미확인. 1차 포착 순위 영향 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1993097/000118518526004968/mask6k102326.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
