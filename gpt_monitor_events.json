@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T12:35:45Z",
+  "updated_utc": "2026-10-27T12:53:25Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1254,6 +1254,17 @@
       "summary": "2026-10-27 06:12:15 EDT SEC 8-K에 10/26 체결한 ARCC-MFIC 확정 합병계약 확인. MFIC 주당 약 $10.88(현금 약 $1.21+ARCC 주식 약 $9.67, 특별배당 등에 따라 조정), 거래 기업가치 약 $2.6bn, 종결 목표 2027년 상반기(주주/규제 승인 필요). 10/27 08:10 EDT 프리마켓 관측 $10.29(+23.09%), 627,504주. 거래 종결과 실제 대금 지급은 미확인.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926118958/tm2628314d1_ex99-1.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-prebreak-AXG-minute-volume-watch-20261027T125200Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "AXG",
+      "category": "VOLUME_FIRST_1MIN_PROVISIONAL",
+      "detected_utc": "2026-10-27T12:52:00Z",
+      "summary": "토스 수집 파일 2026-10-27 21:51:54 KST 갱신분에서 AXG 21:52 KST 표시 1분봉 거래량 331,230주, 시세 $0.0464 확인. 분봉 표시는 구간 종료시각일 수 있음. 전일/평균 대비 2·3·5·10·30·50배 가속 미검증. 1:200 주식병합 예정일 10/26 관련 시세·주식수 조정 여부 미확인으로 가격 비교 주의. 1차 거래량 선행/급락 후 반등 관찰 잠정 후보이며 급등 전·저점방어 확정 아님. 2차 SEC 공급 유형 및 실제 즉시 매도 가능 물량 미판정.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
