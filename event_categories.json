@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "description": "Event category display taxonomy; separate from early-signal ranking and SEC supply risk.",
+  "radars": [
+    "nas",
+    "china"
+  ],
+  "categories": [
+    {
+      "id": "clinical_fda",
+      "label": "임상·FDA",
+      "keywords": [
+        "FDA",
+        "임상",
+        "clinical",
+        "PDUFA"
+      ]
+    },
+    {
+      "id": "merger_acquisition",
+      "label": "M&A",
+      "keywords": [
+        "인수",
+        "합병",
+        "merger",
+        "acquisition",
+        "closing"
+      ]
+    },
+    {
+      "id": "contract_business",
+      "label": "대형 계약·사업",
+      "keywords": [
+        "공급계약",
+        "데이터센터",
+        "joint venture",
+        "supply contract"
+      ]
+    },
+    {
+      "id": "earnings_ir",
+      "label": "실적·IR",
+      "keywords": [
+        "실적",
+        "earnings",
+        "conference call"
+      ]
+    },
+    {
+      "id": "financing",
+      "label": "자금조달",
+      "keywords": [
+        "PIPE",
+        "사모발행",
+        "financing",
+        "offering"
+      ]
+    },
+    {
+      "id": "corporate_action",
+      "label": "기업행사·기타",
+      "keywords": [
+        "주주총회",
+        "주식병합",
+        "reverse split",
+        "shareholder meeting"
+      ]
+    }
+  ],
+  "display_fields": [
+    "ticker",
+    "radar",
+    "event_category",
+    "event_date",
+    "days_until_event",
+    "event_strength",
+    "schedule_status",
+    "verification",
+    "supply_risk"
+  ],
+  "rules": {
+    "independent_radars": true,
+    "first_pass_rank_by_signal_only": true,
+    "supply_risk_affects_first_pass": false,
+    "unverified_dates_label": "미확인",
+    "do_not_infer_from_keywords_alone": true
+  }
+}
