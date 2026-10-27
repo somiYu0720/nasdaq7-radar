@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T19:19:33Z",
+  "updated_utc": "2026-10-27T19:50:40Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1586,6 +1586,39 @@
       "summary": "2026-10-27 08:00 ET 회사 공식 발표: Class A·B 200대 1 주식병합, Class A는 2026-10-29 미국 나스닥 개장부터 병합 조정 거래 예정. SEC 2026-10-22 424B5에도 10/29 예상일 명시. 초기 10/26 제안일을 실제 거래 적용일로 취급하면 안 됨. 발표 기준 A종 주식수 201,529,461→약 1,007,648주, B종 31,371,599→약 156,858주(단주 조정 전). 병합 자체는 기업가치 상승이나 추가 매도 공급의 증거가 아님. 1차 거래량·가격 이상 신호와 2차 위험 평가 독립 유지.",
       "source_url": "https://www.globenewswire.com/news-release/2026/10/27/3388938/0/en/solowin-holdings-announces-1-for-200-reverse-share-split.html",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CHRS-TAGMOKITUG_DATA_AND_VOLUME-20261014T203000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nas",
+      "ticker": "CHRS",
+      "category": "급등 전 관찰_임상1b2a 중간데이터 10월28일 예정_표본1분거래량 급증",
+      "detected_utc": "2026-10-27T19:42:54Z",
+      "summary": "10/14 회사 공식 발표: tagmokitug+toripalimab 고형암 임상 1b/2a 중간 데이터 10/28 미국 동부 16:30~18:00 설명회 예정(한국 10/29 05:30~07:00). GitHub 토스 15개 비연속 스냅샷 비교: 10/28 KST 04:43 표시 1분봉 17,331주, 이전 12개 서로 다른 관측 분봉의 양수 거래량 평균 약 505주 대비 약 34.3배(정규 RVOL 아님). 03:37 KST $1.045→04:42 KST $1.060 약 +1.4%. 5~15분 연속 가속·저점 방어·발표 결과 미확인. 1차 위험 감점 없음. 분봉 근거: https://github.com/somiYu0720/nasdaq7-radar/blob/b6fc1d357bd4f41af0b1a2e6c2938584d619613d/toss_live.json",
+      "source_url": "https://investors.coherus.com/news-releases/news-release-details/coherus-oncology-host-webcast-disclose-interim-tagmokitug",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0독립포착-MASK-SAMPLED_MINUTE_VOLUME_SPIKE-20261027T194234Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "china",
+      "ticker": "MASK",
+      "category": "재점화 관찰_표본1분 거래량 급증",
+      "detected_utc": "2026-10-27T19:42:34Z",
+      "summary": "GitHub 토스 15개 비연속 스냅샷 비교: 2026-10-28 KST 04:43 표시 1분봉 거래량 2,271주, 이전 9개 서로 다른 관측 분봉 양수 거래량 평균 약 115주 대비 약 19.8배(정규 RVOL 아님). 03:28 $0.6851→04:42 $0.69125 약 +0.9%. 기존 10/23 사모발행 계약 및 10/30 병합 예정 이벤트는 기존 기록으로 유지하며 신규 확정 호재로 중복 계산하지 않음. 연속 5~15분 가속·저점방어 미확인. 2차 공급·상장 위험은 별도 평가.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/b6fc1d357bd4f41af0b1a2e6c2938584d619613d/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0독립포착-NWGL-SAMPLED_MINUTE_VOLUME_REIGNITION-20261027T194321Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "china",
+      "ticker": "NWGL",
+      "category": "재점화_표본1분 거래량 급증",
+      "detected_utc": "2026-10-27T19:43:21Z",
+      "summary": "GitHub 토스 15개 비연속 스냅샷 비교: 2026-10-28 KST 04:44 표시 1분봉 거래량 84,069주, 이전 13개 서로 다른 관측 분봉 양수 거래량 평균 약 5,371주 대비 약 15.65배(정규 RVOL 아님). 03:38 $0.0919→04:43 $0.0990 약 +7.7%. 기존 00:29 재점화와 다른 04:43 관측 신호로 추가 기록. 5~15분 연속 가속·저점 방어 미확인. 기존 ATM/재판매 이력은 2차 별도 검증, 1차 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/b6fc1d357bd4f41af0b1a2e6c2938584d619613d/toss_live.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
