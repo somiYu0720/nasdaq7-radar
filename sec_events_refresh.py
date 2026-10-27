@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """Fetch official SEC filing metadata for both watchlists; titles are NOT event verification."""
-import datetime as dt, json, os, time, urllib.request
+import datetime as dt, gzip, json, os, time, urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 HEADERS={"User-Agent":(os.getenv("SEC_USER_AGENT") or "NASDAQ7-Radar 41898282+github-actions[bot]@users.noreply.github.com"),"Accept-Encoding":"gzip, deflate","Accept":"application/json"}
 FORMS={"8-K","8-K/A","6-K","6-K/A","20-F","20-F/A","10-Q","10-K","F-1","F-1/A","S-1","S-1/A","S-3","S-3/A","424B5","424B3","EFFECT","DEF 14A","SC 13D","SC 13G"}
 def fetch(url):
     req=urllib.request.Request(url,headers=HEADERS)
-    with urllib.request.urlopen(req,timeout=18) as response:return json.load(response)
+    with urllib.request.urlopen(req,timeout=18) as response:
+        raw=response.read()
+        if response.headers.get("Content-Encoding","").lower()=="gzip" or raw.startswith(b"\\x1f\\x8b"):
+            raw=gzip.decompress(raw)
+        return json.loads(raw.decode("utf-8-sig"))
 def main():
     nas=json.loads((ROOT/"priority_watchlist.json").read_text())["tickers"]
     china=json.loads((ROOT/"china_verified_tickers.json").read_text()).get("candidates",[])
