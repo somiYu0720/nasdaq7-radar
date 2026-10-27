@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T03:35:10Z",
+  "updated_utc": "2026-10-27T03:55:33Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -847,6 +847,39 @@
       "summary": "10/13 SEC 6-K(10/9 계약) 및 10/14 11:05 EDT Schedule 13D: CEO Seto Wai Yue가 300,000 Class A주 $2.00에 인수하고 300,000 워런트(각 4주, 주당 $0.01)를 10/9 즉시 행사해 1,200,000 Class A주 추가 취득. 해당 워런트는 이미 행사되어 120만주를 미행사 잠재물량으로 중복계산 금지. 10/13 총 O/S 4,985,583주(클래스 A 4,905,583·B 80,000) 공시. 6-K상 Reg S 비등록·양도 제한, 제한 주식과 현재 실제 즉시 매도 가능 공급 별도; Rule 144 등 면제 경로와 최신 float·잔여 공급 미확인. A형(해당 제한 물량) 확인, 전체 유형/활성 C·D는 추가 검증. 1차 포착 순위 미반영. 과거 SEC 이벤트 지연 신규 발견.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226046947/xslSCHEDULE_13D_X02/primary_doc.xml",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-YHGJ-volume-acceleration-20261026T200000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "YHGJ",
+      "category": "거래량 50배 이상·가격 제한적 상승·급등 전 관찰",
+      "detected_utc": "2026-10-27T03:55:33Z",
+      "summary": "10/26 정규장 403,761주, 종가 $2.66(+5.97%), 고가 $2.66 저가 $2.41. 직전 5개 일별 거래기록(10/16,19,20,22,23; 10/21 기록 누락) 평균 2,943.4주 대비 약 137.18배; 일반적인 연속 5거래일 평균과 동일하다고 단정하지 않음. 50일 평균 약 4.8K 대비 약 84배라는 외부 이상거래 자료도 존재. 10/26 상승 직접 뉴스 미확인, 장후 관측 $2.45(-7.89%), 분봉·저점 방어 미확인. 2차: 10/05 SEC 8-K에 Series E 130,000주 및 Series F 70,000주 전환우선주·워런트 보유자의 전환/행사 제한 계약과 2029년까지 워런트 만기 연장 확인. 제한 대상은 잠정 A형 요소, 전체 구조는 D형 잠재 복합이나 즉시 매도 가능한 공급/최신 float·O/S 미확인. 2차 위험으로 1차 순위 감점 없음.",
+      "source_url": "https://stockanalysis.com/stocks/yhgj/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-MGNX-linnet-phase2-interim-20261026T110600Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "MGNX",
+      "category": "임상 2상 중간결과·급락 대량거래·급락 후 반등 관찰",
+      "detected_utc": "2026-10-27T03:55:33Z",
+      "summary": "10/23 4,009,664주 vs 직전 5거래일 평균 433,472.4주=9.25배, 종가 $2.25(-38.02%); 10/26 2,606,646주 vs 10/19~23 평균 1,153,295.4주=2.26배, 종가 $2.19(-2.67%), 장중 저가 $1.93. 10/26 07:06 EDT 회사 발표: Phase 2 LINNET lorigerlimab clear cell gynecologic cancer 16명 평가 가능 중 확정 반응 4명(25%), 질병조절 7명(44%); 41명 전체 중 3등급 이상 관련 이상반응 49%, 난소암 코호트 5등급 1명. 2027년 상반기 후속 결과 예정. 반등 및 저점방어 확인 안 됨. 최신 SEC의 ATM/ELOC/Resale/PIPE/워런트, float/O/S 및 즉시 매도 가능한 공급 미확인; 공급 유형 보류. 임상 결과 발표는 확인했으나 해당 신규 SEC 제출 원문 미확인으로 PROVISIONAL. 2차 위험 감점 없음.",
+      "source_url": "https://www.stocktitan.net/news/MGNX/macro-genics-announces-positive-interim-phase-2-linnet-results-for-lyd07fudlfdt.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-RBNE-labt-crash-volume-20261021T200000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "RBNE",
+      "category": "LABT형 급락·대량거래 지연 발견·M&A 일정 관찰",
+      "detected_utc": "2026-10-27T03:55:33Z",
+      "summary": "지연 포착: 10/21 거래량 150,545,116주 vs 직전 5거래일 평균 564,029.8주=266.91배, 종가 $0.23(-41.80%). 이후 10/22 -15.77%, 10/23 -2.56%, 10/26 $0.17(-10.53%)·48,673,221주; 반등·저점방어 미확인. 10/23 SEC 6-K에서 특수관계인 AI OKTO로부터 $18m LPG 선박 인수 계약(2026 Q4 인도 예정, 실제 종결 미확인) 확인, 이 계약을 10/21 급락 원인으로 단정하지 않음. 10/16 SEC F-1은 3,092,783 유닛과 워런트/리셋/무현금 행사 가능 구조를 제안한 예비 등록이며 실제 종결·행사·매도 확정 아님. 잠정 D형 복합 잠재 공급, 즉시 매도 가능 물량·최신 float/O/S 미확인. 2차 위험 감점 없음. 가격/거래량 이상 신호는 SEC로 직접 검증되지 않아 PROVISIONAL.",
+      "source_url": "https://stockanalysis.com/stocks/rbne/history/",
+      "verification": "PROVISIONAL"
     }
   ]
 }
