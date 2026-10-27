@@ -616,7 +616,9 @@ async function renderRanks(){
   if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
   const lag=stamp?Math.round((Date.now()-new Date(stamp).getTime())/60000):null;
   const watchedRows=(Array.isArray(d.rows)?d.rows:[]).filter(x=>symbols.has(x.ticker));const staleCount=watchedRows.filter(x=>x.stale_volume).length;const missingCount=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t)).length;
+  const staleDetails=watchedRows.filter(x=>x.stale_volume).map(x=>{const ms=Date.parse(x.bar_time||'');return x.ticker+' '+(Number.isFinite(ms)?Math.max(0,Math.floor((Date.now()-ms)/60000))+'분 전':'봉 시각 미확인')});
   $('rankStatus').textContent='수집: '+(stamp?new Date(stamp).toLocaleString('ko-KR'):'미확인')+' · 유효 분봉 '+all.length+'/'+symbols.size+' · 오래된 봉 '+staleCount+' · 미수집 '+missingCount+(lag!==null&&lag>10?' · 업로드 지연':'')+' · 실험적 점수 (매수 신호 아님)';
+  $('rankStatus').title='오래된 분봉(실시간 순위 제외): '+(staleDetails.length?staleDetails.join(', '):'없음')+' · 봉이 없는 이유는 거래 부재 또는 데이터 공급 지연일 수 있으며 미확인';
   const recent=changed?alerts:prev.alerts||[];
   $('ovNew').textContent=recent.length;
   $('rankAlerts').textContent=recent.length?'🆕 신규 TOP 10: '+recent.join(', '):'신규 진입 없음 · 가격 변화는 직전 수집 대비';
