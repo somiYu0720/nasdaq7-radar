@@ -799,6 +799,7 @@ async function renderPrerise(){
   const data=await response.json(),stamp=Date.parse(data.updated_utc||'');
   if(!Number.isFinite(stamp)||Date.now()-stamp>10*60*1000||stamp-Date.now()>120000)throw Error('Stale collection');
   const raw=Array.isArray(data.rows)?data.rows:[];
+  let fundingWatch=new Set();try{const wr=await fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'});if(wr.ok){const w=await wr.json();fundingWatch=new Set(Array.isArray(w.categories?.funding)?w.categories.funding:[])}}catch(e){}
   const candidates=[];
   for(const x of raw){
    const ticker=String(x.ticker||'').toUpperCase(),v=Number(x.minute_volume),p=Number(x.price),bar=Date.parse(x.bar_time||'');
@@ -817,7 +818,7 @@ async function renderPrerise(){
      (accel!==null?Math.min(25,Math.max(0,Math.round(12*Math.log2(Math.max(1,accel))))):0)+
      (change>=-2&&change<=3?25:change<=5?15:5);
    const type=ratio>=3&&change<=3?'거래량 선행':accel!==null&&accel>=2?'거래량 가속':change>=3?'상승 초기':'가격 압축';
-   candidates.push({ticker,score,ratio,accel,change,type});
+   candidates.push({ticker,score,ratio,accel,change,type,fundingWatch:fundingWatch.has(ticker)});
   }
   try{localStorage.setItem(PRE_KEY,JSON.stringify(preHistory))}catch(e){}
   candidates.sort((a,b)=>b.score-a.score||b.ratio-a.ratio);
@@ -832,14 +833,14 @@ async function renderPrerise(){
    $('preWatch').textContent=String(fallback.length);
    status.textContent='상승 전 조건 충족 후보 0종목 · 최근 분봉 관찰목록 '+fallback.length+'종목 (PRE 신호 미확정) · 5~15분 이력 축적 필요 · 마지막 수집 '+new Date(stamp).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'});
    if(!fallback.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=6;td.textContent='최근 분봉이 없거나 조건 충족 후보가 없습니다. 토스 수집 상태를 확인하세요.';tr.append(td);body.append(tr);return}
-   fallback.forEach((x,i)=>{const tr=document.createElement('tr');tr.className='pre-watch-row';[String(i+1)+'. '+x.ticker,'관찰 중','—','—','—'].forEach(v=>textCell(tr,v));const td=document.createElement('td');td.textContent='🟡 거래량 관찰 · 1분 '+Number(x.minute_volume).toLocaleString('ko-KR')+'주 · 유형 미확정';tr.append(td);body.append(tr)});
+   fallback.forEach((x,i)=>{const tr=document.createElement('tr');tr.className='pre-watch-row';[String(i+1)+'. '+x.ticker,'관찰 중','—','—','—'].forEach(v=>textCell(tr,v));const td=document.createElement('td');td.textContent='🟡 거래량 관찰'+(fundingWatch.has(x.ticker)?' · 💰 자금조달 감시':'')+' · 1분 '+Number(x.minute_volume).toLocaleString('ko-KR')+'주 · 유형 미확정';tr.append(td);body.append(tr)});
    return;
   }
   rows.forEach((x,i)=>{
    const tr=document.createElement('tr');tr.className='pre-hit-row';
    [String(i+1)+'. '+x.ticker,x.score+'/100',x.ratio.toFixed(2)+'배',x.accel===null?'—':x.accel.toFixed(2)+'배',(x.change>=0?'+':'')+x.change.toFixed(2)+'%'].forEach(v=>textCell(tr,v));
    const td=document.createElement('td');
-   const signal=document.createElement('div');signal.textContent='🟢 '+x.type+' · 잠정 포착';td.append(signal);
+   const signal=document.createElement('div');signal.textContent='🟢 '+x.type+(x.fundingWatch?' · 💰 자금조달 감시':'')+' · 잠정 포착';td.append(signal);
    const event=document.createElement('div');event.textContent='이벤트: 미검증';td.append(event);
    const risk=document.createElement('div');risk.textContent='희석: 미검증';td.append(risk);
    const news=document.createElement('a');news.href='https://www.google.com/search?tbm=nws&q='+encodeURIComponent(x.ticker+' stock news');news.target='_blank';news.rel='noopener noreferrer';news.textContent='뉴스';td.append(news);
