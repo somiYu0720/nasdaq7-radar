@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T06:27:07Z",
+  "updated_utc": "2026-10-27T06:30:11.117Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -968,6 +968,28 @@
       "summary": "지연 신규 포착: 2026-10-09 17:00 EDT SEC 6-K 원문에서 2026-10-29 대만시간 21:30 Class A 회의, 22:30 임시주총 확인. 의안은 Class B 의결권 10→50배, 승인주식수 확대, 액면가 조정, 조건부 10:1 주식병합 등. 회의 일정만 VERIFIED, 결의 통과·실제 발행·즉시 매도 가능 물량은 미확인. 10/26 종가 $2.34 및 최근 급등 이력은 외부 시세 참고, 실시간 분봉 가속·저점 방어 미확인. 1차 뉴스·이벤트/재점화 관찰, 급등 전 확정 아님. 2차 별도: 9/24 ELOC $35m 계약, 525,000주 워런트 및 10/23 6-K 채무 주식전환 등 복합 공급 조건 정밀검증 필요; A/B/C/D 최종 미판정. 위험으로 1차 순위 감점하지 않음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1875016/000149315226046580/form6-k.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-news-MF-volume-labt-20261023T200000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "MF",
+      "category": "거래량 3배 이상·장중 급락 후 회복 관찰",
+      "detected_utc": "2026-10-27T06:30:11.117Z",
+      "summary": "지연 포착: 2026-10-23 MF 거래량 178,830주 vs 10/22 47,936주=약 3.73배. 10/23 저가 $7.50, 종가 $10.98(+6.40%). 10/26 종가 $10.47(-4.64%), 거래량 62,274주로 후속 거래량 재가속은 미확인. 분봉 저점 방어 미확인. 1차 신호 순위에 공급 위험 미반영.",
+      "source_url": "https://stockanalysis.com/stocks/mf/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-news-MF-fy2026-20f-20261026T210700Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "MF",
+      "category": "2026 회계연도 20-F 실적 공시·공급 위험 2차 별도 검증",
+      "detected_utc": "2026-10-27T06:30:11.117Z",
+      "summary": "2026-10-26 17:07 EDT StockTitan에 SEC 20-F 접수 및 원문 재현: FY2026 매출 $14,856,829 vs 전년 $29,674,534(-49.9%); 순손실 $33,112,851 vs $2,718,517. 6/30 현금 $12,333,758. 6/30 미행사 워런트 9,100,007개(원문 표), 보고서일 Class A O/S 6,061,683주·Class B 306,383주. 실제 즉시 매도 가능 물량 미확인. SEC 원문 직접 조회 불가로 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/sec-filings/MF/20-f-mind-forge-inc-files-annual-report-foreign-issuer-715c55faecbb.html",
+      "verification": "PROVISIONAL"
     }
   ]
 }
