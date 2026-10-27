@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T15:25:09Z",
+  "updated_utc": "2026-10-27T15:30:27Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1397,6 +1397,28 @@
       "summary": "2026-10-23 SEC 6-K 원문 확인: 중국 베이징 소재 Yimutian Inc.(NASDAQ:YMT)는 2025-12-08 체결한 최대 $30m 전환사채 계약에 따라 2026-10-23 원금 $2.5m 추가 선순위 전환약속어음을 실제 발행·매각 완료. 초기 전환가격 $0.5378/ADS, 만기 2027-10-23, 1 ADS=6,000 보통주(공시 당시). 이는 신규 독립 투자 약정이 아니라 기존 계약의 추가 종결. 1차 뉴스·자본 이벤트로 포착하되 희석·상장위험으로 감점/배제하지 않음. 2차 D형 잠재 전환공급, 전환·재판매 실제 즉시가능 물량/최신 float·O/S·ATM·ELOC·PIPE 등 미확인. 거래량 가속·현재가·분봉·저점방어 미확인; 급등 전 확정 아님. 공시 시각 미확인으로 ID는 날짜 기준.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1991605/000121390026112091/ea0309501-6k_yimutian.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-MKDW-INTRADAY_CRASH_VOLUME-20261027T152936Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "MKDW",
+      "category": "LABT_INTRADAY_CRASH_VOLUME_WATCH",
+      "detected_utc": "2026-10-27T15:29:36Z",
+      "summary": "토스 수집본 GitHub 이력 비교: 2026-10-28 00:07 KST $0.4999에서 00:29:36 KST $0.3125로 약 -37.5% 가격 급락. 00:25 KST 표시 1분봉 거래량 159,678주, 00:30 KST 표시 분봉 7,523주. 1차 LABT형 급락+대량거래 잠정 포착, 저점 방어/반등 미확인. 2/3/5/10/30/50배 기준 대비 가속 미검증. 기존 10/26 MKDW 재점화·마감 기록과 구별되는 10/27 장중 신규 급락 신호. 2차 기존 ATM 최대 $100m 이력은 1차 순위에 미반영, 실제 즉시매도가능 공급/최신 float/O/S 및 A/B/C/D 최종 유형 미확인. 1분봉 시각은 구간 종료 표기일 수 있으며 초단위 연속 감시 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-NWGL-INTRADAY_REIGNITION-20261027T152927Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "NWGL",
+      "category": "INTRADAY_PRICE_REIGNITION_VOLUME_WATCH",
+      "detected_utc": "2026-10-27T15:29:27Z",
+      "summary": "토스 수집본 GitHub 이력 비교: 2026-10-28 00:09 KST $0.0832에서 00:29:27 KST $0.0960로 약 +15.4% 상승. 00:30 KST 표시 1분봉 거래량 42,162주, 00:25 KST 표시 분봉 16,902주. 1차 가격 재점화·거래량 관찰 잠정 포착(이미 상승 진행), 2/3/5/10/30/50배 평균 대비 가속·저점방어 미확인. 기존 10/26 NWGL 거래량 재점화 기록과 별도 10/27 장중 움직임. 기존 최대 $200m ATM 이력은 1차 순위에 미반영, 최신 실제 매도 가능 물량·float/O/S·A/B/C/D 최종 유형 미확인. 분봉 종료 시각 표시일 수 있으며 초단위 연속 감시 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
