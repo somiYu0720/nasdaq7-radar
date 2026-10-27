@@ -1,208 +1,1867 @@
 {
-  "checked_utc": "2026-10-27T13:12:29.399387+00:00",
+  "checked_utc": "2026-10-27T14:29:06.757343+00:00",
   "source": "SEC EDGAR submissions API",
   "scope": "filing metadata only; no legal/dilution/event conclusion",
   "tickers": {
     "ARCI": {
       "ticker": "ARCI",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-08-13",
+          "form": "10-Q",
+          "accession": "0001213900-26-089169",
+          "url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026089169/ea0299928-10q_archimedes3.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-17",
+          "form": "8-K",
+          "accession": "0001213900-26-079130",
+          "url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026079130/ea0295111-8k_archimedes3.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-14",
+          "form": "10-Q",
+          "accession": "0001213900-26-056691",
+          "url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026056691/ea0288831-10q_archimedes3.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-01",
+          "form": "8-K",
+          "accession": "0001213900-26-050928",
+          "url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026050928/ea028825401-8k_archimedes.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-03-10",
+          "form": "8-K",
+          "accession": "0001213900-26-025425",
+          "url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026025425/ea028064201-8k_arch3co.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-01-30",
+          "form": "8-K",
+          "accession": "0001437749-26-002545",
+          "url": "https://www.sec.gov/Archives/edgar/data/2083910/000143774926002545/aiii20260129_8k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-01-27",
+          "form": "8-K",
+          "accession": "0001437749-26-002122",
+          "url": "https://www.sec.gov/Archives/edgar/data/2083910/000143774926002122/aiii20260126_8k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-01-22",
+          "form": "EFFECT",
+          "accession": "9999999995-26-000256",
+          "url": "https://www.sec.gov/Archives/edgar/data/2083910/999999999526000256/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 2083910,
+      "company": "Archimedes Tech SPAC Partners III Co.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "LABT": {
       "ticker": "LABT",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-09-29",
+          "form": "8-K",
+          "accession": "0001213900-26-104177",
+          "url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026104177/ea0306660-8k_lakewood.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-24",
+          "form": "EFFECT",
+          "accession": "9999999995-26-003056",
+          "url": "https://www.sec.gov/Archives/edgar/data/2079272/999999999526003056/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-18",
+          "form": "S-1",
+          "accession": "0001213900-26-101512",
+          "url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026101512/ea0305803-s1_lakewood.htm",
+          "triage": "자금조달·등록 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-17",
+          "form": "424B3",
+          "accession": "0001213900-26-090808",
+          "url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026090808/ea0302397-424b3_lakewood.htm",
+          "triage": "증권 등록·재판매 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-14",
+          "form": "10-Q",
+          "accession": "0001213900-26-089380",
+          "url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026089380/ea0299462-10q_lakewood.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-10",
+          "form": "DEF 14A",
+          "accession": "0001213900-26-087336",
+          "url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026087336/ea0301384-01.htm",
+          "triage": "주주총회·의결 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-15",
+          "form": "8-K",
+          "accession": "0001213900-26-078328",
+          "url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026078328/ea0297963-8k_lakewood.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-22",
+          "form": "424B3",
+          "accession": "0001213900-26-070622",
+          "url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026070622/ea029535702-424b3_lakewood.htm",
+          "triage": "증권 등록·재판매 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 2079272,
+      "company": "Lakewood-Amedex Biotherapeutics Inc.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "PRSO": {
       "ticker": "PRSO",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-26",
+          "form": "8-K",
+          "accession": "0001213900-26-112304",
+          "url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026112304/ea0309616-8k_peraso.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-11",
+          "form": "8-K",
+          "accession": "0001213900-26-099297",
+          "url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026099297/ea0305184-8k_peraso.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-21",
+          "form": "8-K",
+          "accession": "0001213900-26-092719",
+          "url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026092719/ea0303091-8k_peraso.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-13",
+          "form": "10-Q",
+          "accession": "0001213900-26-089119",
+          "url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026089119/ea0300889-10q_peraso.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-11",
+          "form": "8-K",
+          "accession": "0001654954-26-007474",
+          "url": "https://www.sec.gov/Archives/edgar/data/890394/000165495426007474/peraso_8k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-10",
+          "form": "DEF 14A",
+          "accession": "0001213900-26-086972",
+          "url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026086972/ea0298840-02.htm",
+          "triage": "주주총회·의결 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-29",
+          "form": "8-K",
+          "accession": "0001213900-26-082911",
+          "url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026082911/ea0299620-8k_peraso.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-24",
+          "form": "8-K",
+          "accession": "0001213900-26-081466",
+          "url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026081466/ea0298795-8k_peraso.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 890394,
+      "company": "Peraso Inc.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "STAK": {
       "ticker": "STAK",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-21",
+          "form": "6-K",
+          "accession": "0001493152-26-047906",
+          "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226047906/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-21",
+          "form": "20-F",
+          "accession": "0001493152-26-047890",
+          "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226047890/form20-f.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-09",
+          "form": "6-K",
+          "accession": "0001493152-26-046433",
+          "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226046433/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-15",
+          "form": "6-K",
+          "accession": "0001493152-26-042746",
+          "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226042746/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-08",
+          "form": "6-K",
+          "accession": "0001493152-26-027712",
+          "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226027712/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-13",
+          "form": "6-K",
+          "accession": "0001493152-26-022709",
+          "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226022709/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-04-14",
+          "form": "6-K",
+          "accession": "0001493152-26-016475",
+          "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226016475/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-01-08",
+          "form": "6-K",
+          "accession": "0001493152-26-000966",
+          "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226000966/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 2002453,
+      "company": "STAK Inc.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "LUCD": {
       "ticker": "LUCD",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-22",
+          "form": "8-K",
+          "accession": "0001493152-26-048114",
+          "url": "https://www.sec.gov/Archives/edgar/data/1799011/000149315226048114/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-16",
+          "form": "8-K",
+          "accession": "0001493152-26-047404",
+          "url": "https://www.sec.gov/Archives/edgar/data/1799011/000149315226047404/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-22",
+          "form": "8-K",
+          "accession": "0001493152-26-043659",
+          "url": "https://www.sec.gov/Archives/edgar/data/1799011/000149315226043659/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-13",
+          "form": "8-K",
+          "accession": "0001493152-26-037596",
+          "url": "https://www.sec.gov/Archives/edgar/data/1799011/000149315226037596/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-12",
+          "form": "10-Q",
+          "accession": "0001437749-26-027335",
+          "url": "https://www.sec.gov/Archives/edgar/data/1799011/000143774926027335/lucd20260630_10q.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-24",
+          "form": "8-K",
+          "accession": "0001493152-26-029943",
+          "url": "https://www.sec.gov/Archives/edgar/data/1799011/000149315226029943/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-14",
+          "form": "8-K",
+          "accession": "0001493152-26-022877",
+          "url": "https://www.sec.gov/Archives/edgar/data/1799011/000149315226022877/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-13",
+          "form": "10-Q",
+          "accession": "0001437749-26-016751",
+          "url": "https://www.sec.gov/Archives/edgar/data/1799011/000143774926016751/lucd20260331_10q.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1799011,
+      "company": "Lucid Diagnostics Inc.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "ARBB": {
       "ticker": "ARBB",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-23",
+          "form": "6-K",
+          "accession": "0001213900-26-112088",
+          "url": "https://www.sec.gov/Archives/edgar/data/1930179/000121390026112088/ea0309454-6k_arbiot.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-08",
+          "form": "6-K",
+          "accession": "0001213900-26-053918",
+          "url": "https://www.sec.gov/Archives/edgar/data/1930179/000121390026053918/ea0288400-6k_arbiot.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-10-31",
+          "form": "20-F",
+          "accession": "0001213900-25-104705",
+          "url": "https://www.sec.gov/Archives/edgar/data/1930179/000121390025104705/ea0262495-20f_arbiot.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-06-23",
+          "form": "6-K",
+          "accession": "0001213900-25-056678",
+          "url": "https://www.sec.gov/Archives/edgar/data/1930179/000121390025056678/ea0246552-6k_arbiot.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-05-29",
+          "form": "6-K",
+          "accession": "0001213900-25-048519",
+          "url": "https://www.sec.gov/Archives/edgar/data/1930179/000121390025048519/ea0243691-6k_arbiot.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-05-14",
+          "form": "6-K",
+          "accession": "0001213900-25-043364",
+          "url": "https://www.sec.gov/Archives/edgar/data/1930179/000121390025043364/ea0242161-6k_arbiot.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-04-29",
+          "form": "6-K",
+          "accession": "0001213900-25-036832",
+          "url": "https://www.sec.gov/Archives/edgar/data/1930179/000121390025036832/ea0239626-6k_arbiot.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-04-17",
+          "form": "6-K",
+          "accession": "0001213900-25-033003",
+          "url": "https://www.sec.gov/Archives/edgar/data/1930179/000121390025033003/ea0238757-6k_arbiot.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1930179,
+      "company": "ARB IOT Group Ltd",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "POLA": {
       "ticker": "POLA",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-23",
+          "form": "8-K",
+          "accession": "0001493152-26-048231",
+          "url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226048231/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-16",
+          "form": "8-K",
+          "accession": "0001493152-26-047408",
+          "url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226047408/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-13",
+          "form": "8-K",
+          "accession": "0001493152-26-046869",
+          "url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226046869/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-29",
+          "form": "8-K",
+          "accession": "0001493152-26-044864",
+          "url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226044864/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-28",
+          "form": "8-K",
+          "accession": "0001493152-26-044656",
+          "url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226044656/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-28",
+          "form": "424B3",
+          "accession": "0001493152-26-044404",
+          "url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226044404/form424b3.htm",
+          "triage": "증권 등록·재판매 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-25",
+          "form": "EFFECT",
+          "accession": "9999999995-26-003065",
+          "url": "https://www.sec.gov/Archives/edgar/data/1622345/999999999526003065/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-16",
+          "form": "DEF 14A",
+          "accession": "0001493152-26-042901",
+          "url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226042901/formdef14a.htm",
+          "triage": "주주총회·의결 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1622345,
+      "company": "Polar Power, Inc.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "REED": {
       "ticker": "REED",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-09-30",
+          "form": "8-K",
+          "accession": "0001493152-26-045141",
+          "url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226045141/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-14",
+          "form": "8-K",
+          "accession": "0001493152-26-038386",
+          "url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226038386/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-12",
+          "form": "10-Q",
+          "accession": "0001493152-26-037365",
+          "url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226037365/form10-q.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-11",
+          "form": "8-K",
+          "accession": "0001493152-26-037135",
+          "url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226037135/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-11",
+          "form": "8-K",
+          "accession": "0001493152-26-028280",
+          "url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226028280/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-03",
+          "form": "8-K",
+          "accession": "0001493152-26-027062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226027062/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-13",
+          "form": "10-Q",
+          "accession": "0001493152-26-022714",
+          "url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226022714/form10-q.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-12",
+          "form": "8-K",
+          "accession": "0001493152-26-022492",
+          "url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226022492/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1140215,
+      "company": "REED'S, INC.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "CLRO": {
       "ticker": "CLRO",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-15",
+          "form": "8-K",
+          "accession": "0001753926-26-001940",
+          "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001940/clro-20261014.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-13",
+          "form": "8-K",
+          "accession": "0001753926-26-001927",
+          "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001927/clro-20261008.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-04",
+          "form": "S-1/A",
+          "accession": "0001753926-26-001724",
+          "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001724/MainDocument.htm",
+          "triage": "자금조달·등록 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-26",
+          "form": "8-K",
+          "accession": "0001753926-26-001641",
+          "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001641/clro-20260825.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-14",
+          "form": "10-Q",
+          "accession": "0001753926-26-001521",
+          "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001521/clro-20260630.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-11",
+          "form": "8-K",
+          "accession": "0001753926-26-001428",
+          "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001428/clro-20260807.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-10",
+          "form": "S-1",
+          "accession": "0001753926-26-001386",
+          "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001386/MainDocument.htm",
+          "triage": "자금조달·등록 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-05",
+          "form": "8-K",
+          "accession": "0001753926-26-001341",
+          "url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001341/clro-20260731.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 840715,
+      "company": "CLEARONE INC",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "GCDT": {
       "ticker": "GCDT",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-26",
+          "form": "6-K",
+          "accession": "0001493152-26-048462",
+          "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226048462/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-21",
+          "form": "6-K",
+          "accession": "0001493152-26-047847",
+          "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226047847/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-15",
+          "form": "6-K",
+          "accession": "0001493152-26-047165",
+          "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226047165/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-15",
+          "form": "6-K",
+          "accession": "0001493152-26-047161",
+          "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226047161/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-14",
+          "form": "F-1",
+          "accession": "0001493152-26-047046",
+          "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226047046/formf-1.htm",
+          "triage": "자금조달·등록 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-06",
+          "form": "6-K",
+          "accession": "0001493152-26-045846",
+          "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226045846/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-05",
+          "form": "EFFECT",
+          "accession": "9999999995-26-003154",
+          "url": "https://www.sec.gov/Archives/edgar/data/1926293/999999999526003154/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-05",
+          "form": "424B3",
+          "accession": "0001493152-26-045775",
+          "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226045775/form424b3.htm",
+          "triage": "증권 등록·재판매 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1926293,
+      "company": "Green Circle Decarbonize Technology Ltd",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "DTSS": {
       "ticker": "DTSS",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-02",
+          "form": "20-F",
+          "accession": "0001213900-26-106369",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110423/000121390026106369/ea0306773-20f_datasea.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-28",
+          "form": "6-K",
+          "accession": "0001213900-26-103824",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110423/000121390026103824/ea0306813-6k_datasea.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-08",
+          "form": "EFFECT",
+          "accession": "9999999995-26-002911",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110423/999999999526002911/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-02",
+          "form": "6-K",
+          "accession": "0001213900-26-096477",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110423/000121390026096477/ea030139701-6k_datasea.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-15",
+          "form": "6-K",
+          "accession": "0001213900-26-078322",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110423/000121390026078322/ea0297874-6k_datasea.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-12",
+          "form": "6-K",
+          "accession": "0001213900-26-068383",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110423/000121390026068383/ea0294632-6k_datasea.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-04-15",
+          "form": "6-K",
+          "accession": "0001213900-26-043958",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110423/000121390026043958/ea0286437-6k_datasea.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-04-10",
+          "form": "EFFECT",
+          "accession": "9999999995-26-001143",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110423/999999999526001143/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 2110423,
+      "company": "Datasea Intelligent Technology Ltd.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "DUO": {
       "ticker": "DUO",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-09-29",
+          "form": "6-K",
+          "accession": "0001213900-26-104338",
+          "url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390026104338/ea0306826-6k_fangdd.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-28",
+          "form": "6-K",
+          "accession": "0001213900-26-094695",
+          "url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390026094695/ea0303294-6k_fangdd.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-24",
+          "form": "6-K",
+          "accession": "0001213900-26-081129",
+          "url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390026081129/ea0299006-6k_fangdd.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-06",
+          "form": "20-F",
+          "accession": "0001213900-26-052541",
+          "url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390026052541/ea0286796-20f_fangdd.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-12-29",
+          "form": "6-K",
+          "accession": "0001213900-25-125571",
+          "url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390025125571/ea0271083-6k_fangdd.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-10-24",
+          "form": "6-K",
+          "accession": "0001213900-25-102163",
+          "url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390025102163/ea0262307-6k_fangdd.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-09-30",
+          "form": "6-K",
+          "accession": "0001213900-25-093438",
+          "url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390025093438/ea0259243-6k_fangdd.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-09-29",
+          "form": "6-K",
+          "accession": "0001213900-25-092641",
+          "url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390025092641/ea0258592-6k_fangdd.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1750593,
+      "company": "Fangdd Network Group Ltd.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "TAOP": {
       "ticker": "TAOP",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-14",
+          "form": "6-K",
+          "accession": "0001493152-26-047031",
+          "url": "https://www.sec.gov/Archives/edgar/data/1552670/000149315226047031/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-29",
+          "form": "6-K",
+          "accession": "0001493152-26-044809",
+          "url": "https://www.sec.gov/Archives/edgar/data/1552670/000149315226044809/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-03",
+          "form": "6-K",
+          "accession": "0001493152-26-041376",
+          "url": "https://www.sec.gov/Archives/edgar/data/1552670/000149315226041376/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-14",
+          "form": "6-K",
+          "accession": "0001493152-26-038434",
+          "url": "https://www.sec.gov/Archives/edgar/data/1552670/000149315226038434/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-15",
+          "form": "6-K",
+          "accession": "0001493152-26-033374",
+          "url": "https://www.sec.gov/Archives/edgar/data/1552670/000149315226033374/form6-k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-15",
+          "form": "424B5",
+          "accession": "0001493152-26-033353",
+          "url": "https://www.sec.gov/Archives/edgar/data/1552670/000149315226033353/forn424b5.htm",
+          "triage": "증권 발행 조건 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-03",
+          "form": "EFFECT",
+          "accession": "9999999995-26-001861",
+          "url": "https://www.sec.gov/Archives/edgar/data/1552670/999999999526001861/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-04-30",
+          "form": "20-F",
+          "accession": "0001493152-26-020596",
+          "url": "https://www.sec.gov/Archives/edgar/data/1552670/000149315226020596/form20-f.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1552670,
+      "company": "Taoping Inc.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "BAOS": {
       "ticker": "BAOS",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-16",
+          "form": "6-K",
+          "accession": "0001104659-26-116640",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811216/000110465926116640/baos-20260630x6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-21",
+          "form": "EFFECT",
+          "accession": "9999999995-26-003018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811216/999999999526003018/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-18",
+          "form": "6-K",
+          "accession": "0001104659-26-108972",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811216/000110465926108972/tm2625391d1_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-17",
+          "form": "EFFECT",
+          "accession": "9999999995-26-002997",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811216/999999999526002997/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-15",
+          "form": "6-K",
+          "accession": "0001104659-26-107944",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811216/000110465926107944/tm2625219d1_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-02",
+          "form": "6-K",
+          "accession": "0001104659-26-104779",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811216/000110465926104779/tm2624137d1_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-02",
+          "form": "6-K",
+          "accession": "0001104659-26-104754",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811216/000110465926104754/tm2624638d1_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-27",
+          "form": "6-K",
+          "accession": "0001104659-26-102171",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811216/000110465926102171/tm2622290d1_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1811216,
+      "company": "Baosheng Media Group Holdings Ltd",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "CREG": {
       "ticker": "CREG",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-08-14",
+          "form": "8-K",
+          "accession": "0001213900-26-089992",
+          "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026089992/ea0301928-8k_smart.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-20",
+          "form": "8-K",
+          "accession": "0001213900-26-079598",
+          "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026079598/ea0298568-8k_smart.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-23",
+          "form": "8-K",
+          "accession": "0001213900-26-071170",
+          "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026071170/ea0295683-8k_smart.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-22",
+          "form": "8-K",
+          "accession": "0001213900-26-060319",
+          "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026060319/ea0291936-8k_smart.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-20",
+          "form": "424B5",
+          "accession": "0001213900-26-059326",
+          "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026059326/ea0291650-424b5_smart.htm",
+          "triage": "증권 발행 조건 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-15",
+          "form": "10-Q",
+          "accession": "0001213900-26-057542",
+          "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026057542/ea0289963-10q_smart.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-07",
+          "form": "8-K",
+          "accession": "0001213900-26-053293",
+          "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026053293/ea0289642-8k_smart.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-04-16",
+          "form": "8-K",
+          "accession": "0001213900-26-044619",
+          "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026044619/ea0286627-8k_smart.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 721693,
+      "company": "Smart Powerr Corp.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "CHNR": {
       "ticker": "CHNR",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-05-15",
+          "form": "20-F",
+          "accession": "0001553350-26-000083",
+          "url": "https://www.sec.gov/Archives/edgar/data/793628/000155335026000083/chnr_20f-123125.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-03-19",
+          "form": "6-K",
+          "accession": "0001079973-26-000334",
+          "url": "https://www.sec.gov/Archives/edgar/data/793628/000107997326000334/chnr_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-01-29",
+          "form": "6-K",
+          "accession": "0001079973-26-000143",
+          "url": "https://www.sec.gov/Archives/edgar/data/793628/000107997326000143/chnr_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-01-02",
+          "form": "6-K",
+          "accession": "0001079973-26-000002",
+          "url": "https://www.sec.gov/Archives/edgar/data/793628/000107997326000002/chnr_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-12-31",
+          "form": "6-K",
+          "accession": "0001553350-25-000219",
+          "url": "https://www.sec.gov/Archives/edgar/data/793628/000155335025000219/chnr_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-12-19",
+          "form": "6-K",
+          "accession": "0001079973-25-001878",
+          "url": "https://www.sec.gov/Archives/edgar/data/793628/000107997325001878/chnr_6k-infostatement.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-10-06",
+          "form": "20-F/A",
+          "accession": "0001079973-25-001556",
+          "url": "https://www.sec.gov/Archives/edgar/data/793628/000107997325001556/chnr_123124-20f.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2025-06-10",
+          "form": "6-K",
+          "accession": "0001079973-25-001003",
+          "url": "https://www.sec.gov/Archives/edgar/data/793628/000107997325001003/chnr_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 793628,
+      "company": "CHINA NATURAL RESOURCES INC",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "PLAG": {
       "ticker": "PLAG",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-10-20",
+          "form": "8-K",
+          "accession": "0001213900-26-111017",
+          "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026111017/ea0309165-8k_planet.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-02",
+          "form": "8-K",
+          "accession": "0001213900-26-106521",
+          "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026106521/ea0307441-8k_planet.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-10-02",
+          "form": "424B5",
+          "accession": "0001213900-26-106502",
+          "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026106502/ea0307339-424b5_planet.htm",
+          "triage": "증권 발행 조건 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-28",
+          "form": "DEF 14A",
+          "accession": "0001213900-26-104104",
+          "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026104104/ea0304850-03.htm",
+          "triage": "주주총회·의결 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-21",
+          "form": "8-K",
+          "accession": "0001213900-26-092606",
+          "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026092606/ea0302999-8k_planet.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-14",
+          "form": "10-Q",
+          "accession": "0001213900-26-090079",
+          "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026090079/ea0301291-10q_planet.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-13",
+          "form": "8-K",
+          "accession": "0001213900-26-089212",
+          "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026089212/ea0301637-8k_planet.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-21",
+          "form": "8-K",
+          "accession": "0001213900-26-079811",
+          "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026079811/ea0298612-8k_planet.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1117057,
+      "company": "Planet Green Holdings Corp.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "EZGO": {
       "ticker": "EZGO",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-08-20",
+          "form": "6-K",
+          "accession": "0001213900-26-092099",
+          "url": "https://www.sec.gov/Archives/edgar/data/1806904/000121390026092099/ea0302783-6k_ezgo.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-14",
+          "form": "6-K",
+          "accession": "0001213900-26-090097",
+          "url": "https://www.sec.gov/Archives/edgar/data/1806904/000121390026090097/ea0301869-6k_ezgo.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-22",
+          "form": "6-K",
+          "accession": "0001213900-26-060570",
+          "url": "https://www.sec.gov/Archives/edgar/data/1806904/000121390026060570/ea0291868-6k_ezgo.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-15",
+          "form": "6-K",
+          "accession": "0001213900-26-057847",
+          "url": "https://www.sec.gov/Archives/edgar/data/1806904/000121390026057847/ea0291176-6k_ezgotech.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-04-08",
+          "form": "6-K",
+          "accession": "0001213900-26-041553",
+          "url": "https://www.sec.gov/Archives/edgar/data/1806904/000121390026041553/ea0285318-6k_ezgo.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-04-08",
+          "form": "424B5",
+          "accession": "0001213900-26-041298",
+          "url": "https://www.sec.gov/Archives/edgar/data/1806904/000121390026041298/ea0285334-424b5_ezgotech.htm",
+          "triage": "증권 발행 조건 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-04-08",
+          "form": "6-K",
+          "accession": "0001213900-26-041226",
+          "url": "https://www.sec.gov/Archives/edgar/data/1806904/000121390026041226/ea0285366-6k_ezgotech.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-03-04",
+          "form": "EFFECT",
+          "accession": "9999999995-26-000724",
+          "url": "https://www.sec.gov/Archives/edgar/data/1806904/999999999526000724/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1806904,
+      "company": "EZGO Technologies Ltd.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "RETO": {
       "ticker": "RETO",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-09-25",
+          "form": "6-K",
+          "accession": "0001213900-26-103587",
+          "url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026103587/ea0306668-6k_reto.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-25",
+          "form": "424B5",
+          "accession": "0001213900-26-103264",
+          "url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026103264/ea0306662-424b5_retoeco.htm",
+          "triage": "증권 발행 조건 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-18",
+          "form": "6-K",
+          "accession": "0001213900-26-101472",
+          "url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026101472/ea0305905-6k_reto.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-09-18",
+          "form": "424B5",
+          "accession": "0001213900-26-101201",
+          "url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026101201/ea0305902-424b5_retoeco.htm",
+          "triage": "증권 발행 조건 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-07",
+          "form": "6-K",
+          "accession": "0001213900-26-086772",
+          "url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026086772/ea0300677-6k_reto.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-07",
+          "form": "424B5",
+          "accession": "0001213900-26-086731",
+          "url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026086731/ea0300676-424b5_reto.htm",
+          "triage": "증권 발행 조건 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-08",
+          "form": "EFFECT",
+          "accession": "9999999995-26-002226",
+          "url": "https://www.sec.gov/Archives/edgar/data/1687277/999999999526002226/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-24",
+          "form": "EFFECT",
+          "accession": "9999999995-26-002096",
+          "url": "https://www.sec.gov/Archives/edgar/data/1687277/999999999526002096/xslEFFECTX01/primary_doc.xml",
+          "triage": "등록 효력 확인 필요",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1687277,
+      "company": "ReTo Eco-Solutions, Inc.",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     },
     "DXF": {
       "ticker": "DXF",
-      "status": "CIK_UNRESOLVED",
-      "filings": [],
-      "checked_utc": "2026-10-27T13:12:29.399387+00:00",
-      "last_successful_filings": [],
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-07-01",
+          "form": "6-K",
+          "accession": "0001477932-26-004140",
+          "url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226004140/dxf_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-08",
+          "form": "6-K",
+          "accession": "0001477932-26-003689",
+          "url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226003689/dxf_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-05-27",
+          "form": "6-K",
+          "accession": "0001477932-26-003437",
+          "url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226003437/dxf_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-04-30",
+          "form": "20-F",
+          "accession": "0001477932-26-002677",
+          "url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226002677/dxf_20f.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-03-19",
+          "form": "6-K",
+          "accession": "0001477932-26-001484",
+          "url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226001484/dxf_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-03-18",
+          "form": "6-K",
+          "accession": "0001477932-26-001458",
+          "url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226001458/dxf_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-03-13",
+          "form": "6-K",
+          "accession": "0001477932-26-001330",
+          "url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226001330/dxf_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-02-24",
+          "form": "6-K",
+          "accession": "0001477932-26-001001",
+          "url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226001001/dxf_6k.htm",
+          "triage": "해외기업 주요 공시 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-27T14:29:06.757343+00:00",
+      "cik": 1499494,
+      "company": "Eason Technology Ltd",
+      "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
       "dilution_status": "NOT_VERIFIED"
     }
-  },
-  "mapping_error": "UnicodeDecodeError"
+  }
 }
