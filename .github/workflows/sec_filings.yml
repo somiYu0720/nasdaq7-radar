@@ -26,6 +26,8 @@ jobs:
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: python sec_dilution_evidence.py
+      - name: Triage supply review candidates without claiming verification
+        run: python sec_supply_triage.py
       - name: Commit SEC snapshot
         run: |
           git config user.name github-actions[bot]
