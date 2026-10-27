@@ -22,9 +22,13 @@ jobs:
         run: python sec_events_refresh.py
       - name: Categorize filing forms conservatively
         run: python sec_event_triage.py
+      - name: Review SEC filing text for financing evidence
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python sec_dilution_evidence.py
       - name: Commit SEC snapshot
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add sec_events.json
+          git add sec_events.json sec_dilution_evidence.json
           git diff --cached --quiet || (git commit -m 'Update SEC filing index' && git pull --rebase && git push)
