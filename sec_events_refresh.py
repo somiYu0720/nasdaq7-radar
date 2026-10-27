@@ -3,7 +3,7 @@
 import datetime as dt, json, os, time, urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
-HEADERS={"User-Agent":os.getenv("SEC_USER_AGENT","NASDAQ7-Radar somiYu0720 41898282+github-actions[bot]@users.noreply.github.com"),"Accept-Encoding":"gzip, deflate","Accept":"application/json"}
+HEADERS={"User-Agent":(os.getenv("SEC_USER_AGENT") or "NASDAQ7-Radar 41898282+github-actions[bot]@users.noreply.github.com"),"Accept-Encoding":"gzip, deflate","Accept":"application/json"}
 FORMS={"8-K","8-K/A","6-K","6-K/A","20-F","20-F/A","10-Q","10-K","F-1","F-1/A","S-1","S-1/A","S-3","S-3/A","424B5","424B3","EFFECT","DEF 14A","SC 13D","SC 13G"}
 def fetch(url):
     req=urllib.request.Request(url,headers=HEADERS)
@@ -22,8 +22,9 @@ def main():
         mapping=fetch("https://www.sec.gov/files/company_tickers.json")
         lookup={str(x["ticker"]).upper():x for x in mapping.values()}
     except Exception as e:
-        result["mapping_error"]=type(e).__name__
-        lookup={}
+        # Do not replace a previously usable snapshot with 100% unresolved CIKs.
+        # GitHub Actions must fail visibly so the fetch issue can be diagnosed.
+        raise RuntimeError(f"SEC company ticker mapping unavailable: {type(e).__name__}: {e}") from e
     for symbol in symbols:
         record={"ticker":symbol,"status":"NOT_CHECKED","filings":[],"checked_utc":now}
         match=lookup.get(symbol)
@@ -49,6 +50,8 @@ def main():
             record["last_successful_filings"]=old[symbol].get("filings",[])
         result["tickers"][symbol]=record
         time.sleep(0.15)
+    if not any(v["status"]=="FILINGS_INDEXED" for v in result["tickers"].values()):
+        raise RuntimeError("SEC indexing produced zero successful companies; preserving previous snapshot")
     (ROOT/"sec_events.json").write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding="utf-8")
     print("SEC indexed",sum(v["status"]=="FILINGS_INDEXED" for v in result["tickers"].values()),"of",len(symbols))
 if __name__=="__main__":main()
