@@ -1,9 +1,9 @@
 {
-  "checked_utc": "2026-10-27T03:31:41.317226+00:00",
+  "checked_utc": "2026-10-27T03:32:33.547392+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
-      "status": "NOT_VERIFIED",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -11,23 +11,79 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "LABT": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026101512/ea0305803-s1_lakewood.htm",
+          "form": "S-1",
+          "excerpt": "ised accounting standards. We are also a “smaller reporting company,” meaning that the market value of our stock held by non-affiliates is less than $700 million, and our annual revenue was less than $100 million during our most recently completed fisca"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026101512/ea0305803-s1_lakewood.htm",
+          "form": "S-1",
+          "excerpt": "ng of its $7.5 million financing transaction involving the issuance of Series C Convertible Preferred Stock. On April 21, 2026, following the closing of the Company’s Series C Convertible Preferred Stock financing, the Notes, together with accrued interest ther"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026101512/ea0305803-s1_lakewood.htm",
+          "form": "S-1",
+          "excerpt": "s preliminary prospectus is not complete and may be changed. Neither we nor the Selling Stockholder may sell these securities until the registration statement filed with the Securities and Exchange Commission is effective. This preliminary prospectus is not a"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026090808/ea0302397-424b3_lakewood.htm",
+          "form": "424B3",
+          "excerpt": "er of the Board of Directors as a component of the director’s compensation. The warrant has an exercise price of $100.00 per share, expires ten years from the date of grant, and vests over a two-year period, with 25% of the underlying shares becoming exercisable "
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026090808/ea0302397-424b3_lakewood.htm",
+          "form": "424B3",
+          "excerpt": ",446,135 Commitments and Contingencies Stockholders’ equity (deficit): Series A convertible preferred stock, voting, $0.0001 par value, 8,000,000 shares authorized; 0 and 6,590,045 shares issued and outstanding at June 30, 2026 and December 31, 2025, respective"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026090808/ea0302397-424b3_lakewood.htm",
+          "form": "424B3",
+          "excerpt": "sory Stock with demand registration rights and to require the Company to file a resale registration statement covering such shares following the Company’s Nasdaq listing. In connection with the closing of the Company’s Series C Convertible Preferred Stock on "
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "PRSO": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026112304/ea0309616-8k_peraso.htm",
+          "form": "8-K",
+          "excerpt": "Company’s committed equity facility with Roth Principal Investments, LLC or any at-the-market offering program of the Company, as well as the filing of registration statements on Form S-8 and in connection with such equity facility or at-the-market offe"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026112304/ea0309616-8k_peraso.htm",
+          "form": "8-K",
+          "excerpt": "ning of the Purchase Agreement, subject to adjustment as provided in the Common Warrants. Upon any exercise of a Common Warrant for Pre-Funded Warrants, the holder will pay the aggregate exercise price of the Common Warrant being exercised, and the Pre-Funded Warrant"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026112304/ea0309616-8k_peraso.htm",
+          "form": "8-K",
+          "excerpt": "directors pursuant to the purchase agreement, the filing and effectiveness of a resale registration statement, and the Company’s plans and expectations regarding the development and commercialization of communications technology for drone and counter-drone ap"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "STAK": {
-      "status": "NOT_VERIFIED",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -35,15 +91,22 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "LUCD": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1799011/000149315226048114/form8-k.htm",
+          "form": "8-K",
+          "excerpt": " Series C Investors of 15,000 shares of the Company’s newly designated Series C Convertible Preferred Stock, par value $0.001 per share (the “ Series C Preferred Stock ”), at a purchase price of $1,000 per share (collectively, the “ Series C Offering ”). The cl"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "ARBB": {
-      "status": "NOT_VERIFIED",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -51,15 +114,46 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "POLA": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226048231/form8-k.htm",
+          "form": "8-K",
+          "excerpt": " Rule, including disclosure of the transaction or event that led to compliance. Convertible Note Financings with CFI and Monroe On May 21, 2026, we issued (i) a 6% convertible redeemable note to CFI Capital LLC (“CFI”) in the aggregate principal amount of "
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226046869/form8-k.htm",
+          "form": "8-K",
+          "excerpt": " elected. On August 5, 2026, the Company issued and sold 833 shares of Series A Convertible Preferred Stock, par value $0.0001 per share, along with warrants to purchase 227,182 shares of common stock, par value $0.0001 per share (the “ Common Stock ”), to CL I"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226044656/form8-k.htm",
+          "form": "8-K",
+          "excerpt": "0% per annum, and will be convertible into shares of the Company’s Common Stock at the market conversion price. The market conversion price will be equal to 90% of the lowest VWAP over the seven consecutive trading days immediately preceding the applica"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226044656/form8-k.htm",
+          "form": "8-K",
+          "excerpt": "ce. The Warrant is exercisable for three years from the date of issuance of the Warrant, and the initial exercise price is $1.34. The foregoing summary of the Exchange Agreement, Preferred Stock and the Warrant issued to the Holder does not purport to be complete and is qu"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1622345/000149315226044656/form8-k.htm",
+          "form": "8-K",
+          "excerpt": "y issued to the Holder for an aggregate of 683 shares of the Company’s Series A Convertible Preferred Stock (the “Preferred Stock”) and a warrant (the “Warrant”) to purchase 382,276 shares of the Company’s common stock, par value $0.0001 per share (“Common Stoc"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "REED": {
-      "status": "NOT_VERIFIED",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -67,47 +161,124 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "CLRO": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001386/MainDocument.htm",
+          "form": "S-1",
+          "excerpt": " results of operations, business or prospects. It is impossible to assure you that the market price of our shares of Common Stock will not fall in the future. 18 Failure to consummate the Merger could negatively impact respective future operations and f"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001386/MainDocument.htm",
+          "form": "S-1",
+          "excerpt": "tockholder approval for purposes of Nasdaq Listing Rule 5635(d) on , 2026 . The Warrants will initially have an exercise price of $10.00 per share of Common Stock, will be exercisable immediately, and will expire six months from the date of issuance. Our Common Stock is traded on"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001386/MainDocument.htm",
+          "form": "S-1",
+          "excerpt": "s Class A Redeemable Preferred Stock and 5,100 shares are designated as Class B Convertible Preferred Stock. As of [●] , 2026, [●] shares of C ommon S tock are issued and outstanding and no shares of preferred stock are issued and outstanding. There are no rede"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001386/MainDocument.htm",
+          "form": "S-1",
+          "excerpt": "ing Prospectus ”) and one to be used in connection with the potential resale by selling stockholders of up to 2,496,162 shares of Common Stock (the “Resale Prospectus”). The Resale Prospectus is substantively identical to the Primary Offering Prospectus, exce"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "GCDT": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226047046/formf-1.htm",
+          "form": "F-1",
+          "excerpt": "share trading price of our Class A Ordinary Shares, there can be no assurance that the market price following the Share Consolidation will increase proportionately or remain at a higher level. The market price of our Class A Ordinary Shares may decline "
+        },
+        {
+          "category": "ELOC",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226047046/formf-1.htm",
+          "form": "F-1",
+          "excerpt": "onsolidation and post-consolidation basis. On July 16, 2026, we entered into an Equity Purchase Agreement with the Selling Shareholder (the “ Equity Purchase Agreement ”), pursuant to which the Selling Shareholder has committed to purchase from us, from time to tim"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226047046/formf-1.htm",
+          "form": "F-1",
+          "excerpt": "n aggregate of 10,417 Class A Ordinary Shares of the Company. The Underwriters’ Warrants may be exercised beginning on September 30, 2026 until September 30, 2029. The original exercise price of the Underwriters’ Warrants was US$4.00 per share, which increased to "
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226047046/formf-1.htm",
+          "form": "F-1",
+          "excerpt": "e “ Registration Rights Agreement ”), pursuant to which we agreed to file (x) a resale registration statement covering the resale of 200% of the maximum number of Note Shares issuable upon full conversion of the Note (assuming conversion at the Note Conversio"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "DTSS": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2110423/000121390026089176/ea0301080-f3_datasea.htm",
+          "form": "F-3",
+          "excerpt": "djustment of the number or amount of securities receivable upon exercise of the warrants or the exercise price of the warrants; ● the price or prices at which the securities or other rights purchasable upon exercise of the warrants may be purchased; ● if applicabl"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "DUO": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390025125571/ea0271083-6k_fangdd.htm",
+          "form": "6-K",
+          "excerpt": " Commission on October 24, 2025 regarding, among other things, the entry into a convertible note purchase agreement with an investor (the “Note Purchase Agreement”) and a share subscription agreement with ZX International Ltd , a company incorporated in Br"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390025102163/ea0262307-6k_fangdd.htm",
+          "form": "6-K",
+          "excerpt": "40-F. Form 20-F ☒ Form 40-F ☐ EXHIBIT INDEX Exhibit No. Description 4.1 Form of Convertible Note Purchase Agreement between Fangdd Network Group Ltd. and the Investor 10.1 Share Subscription Agreement, dated as of October 24, 2025, between Fangdd Network G"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "TAOP": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1552670/000149315226033374/form6-k.htm",
+          "form": "6-K",
+          "excerpt": " issued an unsecured convertible promissory note with a 12-month maturity (the “Convertible Note”) to Investor. The Convertible Note has the original principal amount of $3,195,000 including the original issue discount of $180,000 and Investor’s legal and "
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "BAOS": {
-      "status": "NOT_VERIFIED",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -115,15 +286,40 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "CREG": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026071170/ea0295683-8k_smart.htm",
+          "form": "8-K",
+          "excerpt": "erse Stock Split. The Reverse Stock Split became effective for trading purposes at the market opening on June 16, 2026, at which time the Company’s Common Stock began trading on the Nasdaq Capital Market on a split-adjusted basis under the symbol “CREG."
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026060319/ea0291936-8k_smart.htm",
+          "form": "8-K",
+          "excerpt": "ng of any amendment or supplement to an existing registration statement for an “at the market” offering with the Placement Agent as sales agent, or on Form S-8 or in connection with any employee benefit plan). In addition, the Company agreed that it wil"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026059326/ea0291650-424b5_smart.htm",
+          "form": "424B5",
+          "excerpt": "h underwriters or dealers, through agents, directly to one or more purchasers, “at-the-market” offerings, negotiated transactions, block trades or through a combination of these methods. The applicable prospectus supplement will describe the terms of th"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026059326/ea0291650-424b5_smart.htm",
+          "form": "424B5",
+          "excerpt": "e, see “Dilution.” In addition, to the extent that outstanding stock options or warrants have been or may be exercised or other shares issued, you may experience further dilution. If we are not careful with the use of our cash assets, we could become an investment company and "
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "CHNR": {
-      "status": "NOT_VERIFIED",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -131,39 +327,133 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "PLAG": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026106521/ea0307441-8k_planet.htm",
+          "form": "8-K",
+          "excerpt": "ctober 2, 2026, Planet Green Holdings Corp. (the “Company”) entered into an ATM Sales Agreement (the “Sales Agreement”) with Craft Capital Management LLC (the “Agent”), pursuant to which the Agent acts as the Company’s sales agent in connection with the o"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026106502/ea0307339-424b5_planet.htm",
+          "form": "424B5",
+          "excerpt": "on stock, par value $0.001 per share (the “ common stock ”), pursuant to an ATM Sales Agreement (the “ ATM Sales Agreement ”) dated October 2, 2026, entered into by and between us and Craft Capital Management LLC (“ Craft ”), pursuant to which Craft acts "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026106502/ea0307339-424b5_planet.htm",
+          "form": "424B5",
+          "excerpt": "incipal amount of debt securities that may be purchased upon exercise of a debt warrant and the exercise price for the warrants, which may be payable in cash, securities or other property; ● the date, if any, on and after which the warrants and the related debt se"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026092606/ea0302999-8k_planet.htm",
+          "form": "8-K",
+          "excerpt": "oldings Corp. (the “Company”) on July 14, 2026, the Company entered into an ATM Sales Agreement with Curvature Securities, LLC (the “Agent”) on July 13, 2026 (the “Sales Agreement”). On August 18, 2026, the Agent delivered written notice to the Company st"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "EZGO": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1806904/000121390026060570/ea0291868-6k_ezgo.htm",
+          "form": "6-K",
+          "excerpt": "closed, on April 2, 2026, EZGO Technologies Ltd. (the “Company”) entered into a sales agreement (the “Sales Agreement”) with AC Sunshine Securities LLC, as sales agent in “at the market offerings” (the “ATM facility”), pursuant to which the Company may of"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1806904/000121390026041553/ea0285318-6k_ezgo.htm",
+          "form": "6-K",
+          "excerpt": "eement. On April 2, 2026, EZGO Technologies Ltd. (the “Company”) entered into a Sales Agreement (the “Sales Agreement”) with AC Sunshine Securities LLC, as sales agent (the “Sales Agent”), pursuant to which the Company may offer and sell, from time to tim"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "RETO": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026103587/ea0306668-6k_reto.htm",
+          "form": "6-K",
+          "excerpt": ") at a purchase price of $1.50 per share, and 10,000,000 Class A Share purchase warrants (“Warrants”), at an exercise price of $2.75, in a registered direct offering (such offering, the “Initial Offering”). The Initial Offering closed on September 18, 2026. Pursuant to the Sec"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026103264/ea0306662-424b5_retoeco.htm",
+          "form": "424B5",
+          "excerpt": "gh agents; ● directly to agents; ● to or through underwriters or dealers; ● in “at the market” offerings, within the meaning of Rule 415(a)(4) of the Securities Act, to or through a market or into an existing trading market on an exchange or otherwise; "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026103264/ea0306662-424b5_retoeco.htm",
+          "form": "424B5",
+          "excerpt": "o Purchase Class A Shares Up to 90,000,000 Class A Shares Underlying 10,000,000 Warrants (which contains a zero exercise price exercise option) ReTo Eco-Solutions, Inc. (the “Company,” “we” or “us”) is offering (i) 10,000,000 Class A share, no par value (the “Class A Share”), and"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026103264/ea0306662-424b5_retoeco.htm",
+          "form": "424B5",
+          "excerpt": "6; (ii) the issuance of 396,542 Class A Shares in connection with conversion of convertible notes from January to April in 2026; (ii) the issuance of 3,125,000 Class A Shares at a per share price of $0.48 on May 12, 2026 in a private placement; (iii) the i"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026101472/ea0305905-6k_reto.htm",
+          "form": "6-K",
+          "excerpt": ") at a purchase price of $1.50 per share, and 10,000,000 Class A share purchase warrant (“Warrants”), at an exercise price of $2.75, in a registered direct offering (such offering, the “Offering”). The aggregate gross proceeds to the Company from the Offering were $15,000,000"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026101201/ea0305902-424b5_retoeco.htm",
+          "form": "424B5",
+          "excerpt": "gh agents; ● directly to agents; ● to or through underwriters or dealers; ● in “at the market” offerings, within the meaning of Rule 415(a)(4) of the Securities Act, to or through a market or into an existing trading market on an exchange or otherwise; "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026101201/ea0305902-424b5_retoeco.htm",
+          "form": "424B5",
+          "excerpt": "o Purchase Class A Shares Up to 90,000,000 Class A Shares Underlying 10,000,000 Warrants (which contains a zero exercise price exercise option) ReTo Eco-Solutions, Inc. (the “Company,” “we” or “us”) is offering (i) 10,000,000 Class A share, no par value (the “Class A Share”), and"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1687277/000121390026101201/ea0305902-424b5_retoeco.htm",
+          "form": "424B5",
+          "excerpt": "6, (ii) the issuance of 396,542 Class A shares in connection with conversion of convertible notes from January to April in 2026; (ii) the issuance of 3,125,000 Class A Shares at a per share price of $0.48 on May 12, 2026 in a private placement; (iii) the i"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "DXF": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226003437/dxf_6k.htm",
+          "form": "6-K",
+          "excerpt": "in. The Warrants will expire on the third anniversary of the issuance date. The Warrants may also be exercised cashlessly if at any time after the three-month anniversary of the issuance date, there is no effective registration statement registering, or no current pros"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "AARD": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -171,15 +461,28 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "ABOS": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026067291/acumenpharmaceuticals-sx3.htm",
+          "form": "S-3",
+          "excerpt": "tility in our share price. We are also a “smaller reporting company,” meaning that the market value of our shares held by non-affiliates is less than $700 million and our annual revenue was less than $100 million during the most recently completed fisca"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026067291/acumenpharmaceuticals-sx3.htm",
+          "form": "S-3",
+          "excerpt": "separately transferable; • if applicable, the minimum or maximum amount of such warrants which may be exercised at any one time; • in the case of warrants to purchase debt securities, the principal amount of debt securities purchasable upon exercise of one warrant and t"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "AIIO": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -187,15 +490,28 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "AMAN": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112236/ea0308954-8k425_amanat.htm",
+          "form": "8-K",
+          "excerpt": "gate Transaction Share Consideration on a one-for-one basis. The BCA Pre-Funded Warrants will have an exercise price of $0.0001 per share, will be exercisable at any time on or after their original issue date and will not expire until exercised in full. The BCA Pre-Fund"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112236/ea0308954-8k425_amanat.htm",
+          "form": "8-K",
+          "excerpt": " of such pre-funded warrants) held by or issuable to the parties thereto (the “ Resale Registration Statemen t”), and New Corxel will use its commercially reasonable efforts to have the Resale Registration Statement declared effective as soon as reasonably pr"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "ANTX": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -203,7 +519,7 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "AURE": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -211,15 +527,22 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "AXNX": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1998560/000121390026108813/ea0308325-6k_axonex.htm",
+          "form": "6-K",
+          "excerpt": "urities Purchase Agreement, dated August 26, 2026, the Company agreed to file a resale registration statement on Form F-3 or Form F-1 covering the resale of the Class A Ordinary Shares issued thereunder no later than sixty (60) calendar days following August "
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "BDAI": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -227,8 +550,27 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "BOLT": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1641281/000119312526429647/bolt-20261023.htm",
+          "form": "8-K",
+          "excerpt": "se 1 data previously generated for PRA-216 and (ii) June 30, 2028. Assuming the Warrants are exercised in full for cash at the applicable exercise price, the Company would receive additional gross proceeds of approximately $60 million. There can be no assurance"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1641281/000119312526429647/bolt-20261023.htm",
+          "form": "8-K",
+          "excerpt": "share (the “ Common Stock ”), and (ii) 16,360.929 shares of Series D Non-Voting Convertible Preferred Stock, par value $0.00001 per share (the “ Series D Preferred Stock ”) (as described below), each share of which is convertible into 1,000 shares of Common Sto"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1641281/000119312526429647/bolt-20261023.htm",
+          "form": "8-K",
+          "excerpt": "he Registration Rights Agreement, the Company is required to prepare and file a resale registration statement with the SEC within 75 calendar days following the Financing Closing Date covering the shares of Common Stock issuable upon conversion of the Preferr"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
@@ -243,15 +585,22 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "BUUU": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2047273/000121390026096963/ea0304532-6k_buuugroup.htm",
+          "form": "6-K",
+          "excerpt": "ce of $10.00 per Class A Share, subject to customary adjustments. The Purchaser Warrants may only be exercised for cash and do not provide for cashless exercise. The Private Placement is expected to close no later than ten business days following the date of the Subscr"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "CAPR": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -259,23 +608,61 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "CHRS": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1512762/000110465926103316/chrs-20260828x8k.htm",
+          "form": "8-K",
+          "excerpt": "ents. On August 28, 2026, Coherus Oncology, Inc. (the “Company”) entered into a sales agreement (the “Sales Agreement”) with Leerink Partners LLC (the “Agent”), pursuant to which the Company may offer and sell, from time to time, through or to the Agent, "
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1512762/000110465926103241/tm2623944-1_424b5.htm",
+          "form": "424B5",
+          "excerpt": "pectus dated December 8, 2025) Up to $50,000,000 Common Stock We entered into a sales agreement with Leerink Partners LLC, or Leerink Partners, dated as of August 28, 2026, relating to shares of our common stock, $0.0001 par value per share, offered by th"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1512762/000110465926103241/tm2623944-1_424b5.htm",
+          "form": "424B5",
+          "excerpt": "incipal amount of debt securities that may be purchased upon exercise of a debt warrant and the exercise price for the warrants, which may be payable in cash, securities or other property; ​ • the date, if any, on and after which the warrants and the related debt "
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1512762/000110465926103241/tm2623944-1_424b5.htm",
+          "form": "424B5",
+          "excerpt": "per share in this offering. The exercise or settlement of outstanding warrants, convertible notes and equity awards, or sale of shares under our employee stock purchase plan, would also result in further dilution of your investment. The actual number of sh"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1512762/000110465926103239/tm2623944-2_424b3.htm",
+          "form": "424B3",
+          "excerpt": "rsedes the information contained therein. On November 8, 2022 we entered into a sales agreement (the “Sales Agreement”) with Cowen and Company, LLC (the “Agent”), as amended on May 15, 2023 and September 11, 2023, which was assigned to TD Securities (USA)"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "CLIK": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ELOC",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2020027/000149315226042774/form6-k.htm",
+          "form": "6-K",
+          "excerpt": "K On September 14, 2026, Click Holdings Limited (the “Company”) entered into an Equity Purchase Agreement, effective as of September 14, 2026 (the “Purchase Agreement”), with Crom Structured Opportunities Fund I, LP (the “Investor”). Unless otherwise defined herein"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "CPIX": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -283,7 +670,7 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "CRML": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -291,15 +678,22 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "CTOR": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1851484/000121390026090293/ea0302232-424b3_citius.htm",
+          "form": "424B3",
+          "excerpt": "disclosed in our Current Report on Form 8-K filed on May 6, 2026, the 6,818,182 Warrants registered herein were exercised at a reduced exercised price of $0.90 per share pursuant to a warrant inducement agreement entered into by us and the holder and dated May 5, 2026. The net pr"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "DAVI": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -307,47 +701,160 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "FFR": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226048447/form8-k.htm",
+          "form": "8-K",
+          "excerpt": "are (the “Common Stock”) and 65,475 shares of the Company’s Series C Non-Voting Convertible Preferred Stock, par value $0.001 per share (the “Series C Preferred Stock”). At the effective time of the merger, each outstanding option to purchase RobotCo common sto"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226046927/form8-k.htm",
+          "form": "8-K",
+          "excerpt": "s common stock, par value $0.001 per share (the “Common Stock”), and non-voting convertible preferred stock, par value $0.001 per share (the “Preferred Stock”) (the “Equity Exchange”). Immediately following the Equity Exchange, RobotCo will merge with and into "
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226046927/form8-k.htm",
+          "form": "8-K",
+          "excerpt": "he twelve-month anniversary of the Closing, the Company will prepare and file a resale registration statement with the SEC covering the resale of the Common Stock issued, or issuable upon conversion of the Preferred Stock, under the Transaction Agreement and "
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226044666/form8-k.htm",
+          "form": "8-K",
+          "excerpt": "s common stock, par value $0.001 per share (the “Common Stock”), and non-voting convertible preferred stock, par value $0.001 per share (the “Preferred Stock”), subject to the number of authorized shares of Preferred Stock available under the Company’s certific"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226044666/form8-k.htm",
+          "form": "8-K",
+          "excerpt": "twelve-month anniversary of the Closing, FFAI would have the right to request a resale registration statement for the Common Stock received in the Proposed Transaction, including shares issued or issuable upon conversion of the Preferred Stock, with the Compa"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "INO": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1055726/000119312526326785/d253972d8k.htm",
+          "form": "8-K",
+          "excerpt": "s of its Common Stock (or pre-funded warrants in lieu thereof (the “ Pre-Funded Warrants ”)) at an exercise price of $1.10 per share of Common Stock (or 1.099 per Pre-Funded Warrant to purchase a share of common stock), at a combined public offering price of $0.95 pe"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1055726/000119312526326370/d155272d424b5.htm",
+          "form": "424B5",
+          "excerpt": "s of a substantial number of shares of our common stock, including through our “at-the-market” equity offering program, or the perception by the market that those sales could occur, could cause the market price of our common stock to decline or could ma"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1055726/000119312526326370/d155272d424b5.htm",
+          "form": "424B5",
+          "excerpt": "t also relates to the offering of the shares of our common stock and pre-funded warrants issuable upon the exercise of such warrants, as well as the common stock issuable upon the exercise of any pre-funded warrants. The combined public offering price for each share of commo"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1055726/000119312526326370/d155272d424b5.htm",
+          "form": "424B5",
+          "excerpt": "6; • 275 shares issuable upon the conversion of outstanding Series C Cumulative Convertible Preferred Stock as of March 31, 2026; • 24,285,715 shares underlying warrants to purchase shares of our common stock outstanding as of March 31, 2026, at a weighted aver"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "LHSW": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2004024/000121390026097772/ea0304612-6k_lianhe.htm",
+          "form": "6-K",
+          "excerpt": "arrant”). The public offering price of the Units is $1.44 per Unit. Each of the Warrants will have an exercise price of $1.66 per Class A Ordinary Share and will be exercisable beginning on the date of the issuance and expire six months from the date of issuance. The se"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2004024/000121390026091339/ea0298467-f1_lianhe.htm",
+          "form": "F-1",
+          "excerpt": "l customers to whom we provide machine vision solutions, we enter into standard sales agreement for each of specific purchase order. Such standard sales agreement typically provide, among others: (i) Sowell should provide products that are in compliance w"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2004024/000121390026091339/ea0298467-f1_lianhe.htm",
+          "form": "F-1",
+          "excerpt": "g up to 11,450,382 Class A Ordinary Shares underlying the Warrants. Each of the Warrants will have an exercise price of $__ per Class A Ordinary Share and will be exercisable beginning on the date of the issuance date and ending on the six months of the issuance date. T"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2004024/000121390026091339/ea0298467-f1_lianhe.htm",
+          "form": "F-1",
+          "excerpt": "w-on offering by an issuer in an overseas market, including issuance of shares, convertible notes and other similar securities, shall be subject to filing requirement within three business days after the completion of the offering. Therefore, in the opinio"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "MACI": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2016221/000121390026106542/ea0273491-12.htm",
+          "form": "424B3",
+          "excerpt": "arrant entitling the holder to purchase one share of New Melar common stock per warrant at the same exercise price of $11.50 per whole share, subject to adjustment of such price as defined in the Warrant Agreement, and preserving the existing public or private nature "
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2016221/000121390026106542/ea0273491-12.htm",
+          "form": "424B3",
+          "excerpt": "otential investors (whether structured as a private placement of common equity, convertible preferred equity, convertible debt or other securities convertible into or that have the right to acquire common equity, as trust account non -redemption or backstop arr"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "MSGY": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2020228/000118518526004942/masonf3102026.htm",
+          "form": "F-3",
+          "excerpt": "actions and transactions in which a broker-dealer solicits purchasers; ● sales “at the market” to or through a market maker or into an existing trading market, on an exchange or otherwise; and ● sales in other ways not involving market makers or establi"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2020228/000118518526004942/masonf3102026.htm",
+          "form": "F-3",
+          "excerpt": "prices at which the warrants will be issued; ● the price or prices at which the warrants may be exercised; ● the currency or currencies that investors may use to pay for the warrants; ● the date on which the right to exercise the warrants will commence and the dat"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2020228/000118518526004942/masonf3102026.htm",
+          "form": "F-3",
+          "excerpt": "ffering by an issuer in the same overseas market, including issuance of shares, convertible notes, and other similar securities, shall be subject to filing requirement within three business days after the completion of the offering. The Operating Subsidiar"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "NRXP": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -355,7 +862,7 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "PYPD": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -363,15 +870,22 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "RDNT": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/790526/000168316826006479/radnet_8k.htm",
+          "form": "8-K",
+          "excerpt": " per share (the “Shares”) by certain See-Mode Sellers (as defined below) as the selling stockholders referenced in the Prospectus Supplement. The Shares are to be issued to certain See-Mode Sellers or their respective designees as the share component of the p"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "RENT": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -379,15 +893,28 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "RFAI": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2012807/000182912626007878/nybholdingslimited_424b3.htm",
+          "form": "424B3",
+          "excerpt": "operations prior to this business combination primarily through the issuance of convertible preferred stock, ordinary stock, proceeds from collaborative research, development, and out-license agreements, certain non-dilutive funding sources, and borrowings unde"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2012807/000182912626007878/nybholdingslimited_424b3.htm",
+          "form": "424B3",
+          "excerpt": "ublic Shares who have already elected to exercise their redemption rights, such selling stockholders would be required to revoke their prior elections to redeem their shares. As of the date of this proxy statement/prospectus, there have been no discussions an"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "SEED": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -395,7 +922,7 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "SGRY": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -403,15 +930,22 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "SHFS": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226048425/form8-k.htm",
+          "form": "8-K",
+          "excerpt": "hich, among other things, SHF issued to such investors shares of SHF’s Series B Convertible Preferred Stock, par value $0.0001 per share (the “Series B Preferred Stock”). On October 22, 2026, as a result of the issuances described in the following sentence, the"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "SJ": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -419,39 +953,115 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "SNTI": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1854270/000114036126040772/ef20084208_8k.htm",
+          "form": "8-K",
+          "excerpt": "On the Closing Date, the Company notified all holders of Midco’s Senior Secured Convertible Notes (the “Notes”) that it requiring the exchange (the “Exchange”) of all outstanding Notes for shares of Company Common Stock pursuant to the terms of the Notes. "
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1854270/000114036126040772/ef20084208_8k.htm",
+          "form": "8-K",
+          "excerpt": "rty days thereafter (the “Filing Date”), the Company agreed to file one or more resale registration statements on Form S-3 (or another appropriate form if Form S-3 is not available) providing for the resale by the Investor of the shares of Company Common Stoc"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1854270/000162828026065992/snti-20261015.htm",
+          "form": "8-K",
+          "excerpt": "anding shares of the Company’s common stock upon exchange of the Senior Secured Convertible Notes of Senti Holdings, Inc. (“Midco”), (iv) approved the Agreement and Plan of Merger, dated as of July 14, 2026 (the “Merger Agreement”), by and among ST NewCo L"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1854270/000119312526401118/d87527d424b3.htm",
+          "form": "424B3",
+          "excerpt": "actually received by us from sales of our Common Stock pursuant to our existing at-the-market offering facility with Leerink Partners LLC (the “ATM Facility”). On August 14, 2026, the Lead Investor, an affiliate of Parent, purchased $4.0 million of Addi"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1854270/000119312526401118/d87527d424b3.htm",
+          "form": "424B3",
+          "excerpt": "Holdings, Inc. (the “Company”) issuable upon the exchange of the Senior Secured Convertible Notes of Senti Holdings, Inc. (“Midco”), our subsidiary (the “Notes”). Unless the context otherwise requires, for purposes of this prospectus, the terms “we,” “us,”"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1854270/000119312526401118/d87527d424b3.htm",
+          "form": "424B3",
+          "excerpt": "ese registration rights are only applicable so long as we do not already have a resale registration statement in effective for these shares. As of the date of this prospectus, we currently have in effect a resale registration statement for the shares included"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "SRTM": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1879403/000121390026112229/ea0309604-8k_stratum.htm",
+          "form": "8-K",
+          "excerpt": "d to the Investor 200 shares (the “ Initial Shares ”) of the Company’s Series E Convertible Preferred Stock, par value $0.0001 per share (“ Series E Preferred Stock ”), for a purchase price of $1,000 per share (the “ Stated Value ”). The Purchase Agreement also"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1879403/000121390026105473/ea0307162-8k_larosa.htm",
+          "form": "8-K",
+          "excerpt": " an aggregate of 3,410 newly issued shares (the “Exchanged Shares”) of Series F Convertible Preferred Stock of the Company, par value $0.0001 per share (the “Series F Preferred Stock”), on the terms and conditions set forth therein (the “Exchange”). The shares "
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "SVRA": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1160308/000119312525258725/d28079d424b5.htm",
+          "form": "424B5",
+          "excerpt": "ded warrants, to purchase 7,142,857 shares of our common stock. Each pre-funded warrant will have an exercise price of $0.001 per share. Our common stock is traded on The Nasdaq Global Select Market under the symbol “SVRA.” On October 28, 2025, the last reported sales "
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "SXTC": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1723980/000121390026108557/ea0308217-6k_china.htm",
+          "form": "6-K",
+          "excerpt": "ny proceeds that may be received upon the exercise of the Warrants. Each of the Warrants has an initial exercise price of $2.75 per Class A Ordinary Share and be exercisable beginning on the date of the issuance date and ending on the one-year anniversary of the issuance "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1723980/000121390026108254/ea0308214-424b5_china.htm",
+          "form": "424B5",
+          "excerpt": " expire on the one-year anniversary of the initial exercise date. Each Ordinary Warrant will have an initial exercise price per share of $2.75 (the “Exercise Price”) and a cashless exercise option is also available under certain conditions. In addition, an Ordinary Warrant hol"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1723980/000121390026107829/ea0308094-6k_chinasxt.htm",
+          "form": "6-K",
+          "excerpt": "ess release contained a typographical error regarding the exercise price of the Warrants. The correct initial exercise price of the Warrants is $2.75 per Class A ordinary share. A copy of the revised press release is furnished herewith as Exhibit 99.1 and is incorporated herein"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
     "XNCR": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -459,7 +1069,7 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "YI": {
-      "status": "NOT_IN_SEC_SNAPSHOT",
+      "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
