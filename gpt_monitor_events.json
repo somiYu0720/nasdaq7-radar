@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T19:50:40Z",
+  "updated_utc": "2026-10-27T19:53:43Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1618,6 +1618,50 @@
       "detected_utc": "2026-10-27T19:43:21Z",
       "summary": "GitHub 토스 15개 비연속 스냅샷 비교: 2026-10-28 KST 04:44 표시 1분봉 거래량 84,069주, 이전 13개 서로 다른 관측 분봉 양수 거래량 평균 약 5,371주 대비 약 15.65배(정규 RVOL 아님). 03:38 $0.0919→04:43 $0.0990 약 +7.7%. 기존 00:29 재점화와 다른 04:43 관측 신호로 추가 기록. 5~15분 연속 가속·저점 방어 미확인. 기존 ATM/재판매 이력은 2차 별도 검증, 1차 감점 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/b6fc1d357bd4f41af0b1a2e6c2938584d619613d/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-close10-ACTU-underwritten-offering-effect-20261027T120000Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "NASDAQ 7.0",
+      "ticker": "ACTU",
+      "category": "급락 후 반등 관찰·공모가 확정·SEC S-1 EFFECT",
+      "detected_utc": "2026-10-27T19:53:43Z",
+      "summary": "10/27 15:29 ET 지연 스캐너 약 -27%, 동일시각 20거래일 대비 상대거래량 7.2배, 누적 약 200만주. 10/27 08:00 ET 회사 발표: 보통주 30,985,900주 및 워런트 최대 15,492,950주 포함 약 $11m 공모가 확정, 10/28 종결 예정(종결 확인 아님). SEC EFFECT 원문: S-1 333-299332 효력 10/26 17:00 ET. 잠재 희석과 즉시 매도 가능 공급 구별; 보통주 발행·워런트 행사는 조건/종결 이후, D형 복합 잠정(현재 즉시 공급 잔량 미확인). 1차 포착 순위 위험 미반영; 5~15분 저점방어 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652935/999999999526003345/xslEFFECTX01/primary_doc.xml",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-close10-CLW-q3-earnings-20261026T200500Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "NASDAQ 7.0",
+      "ticker": "CLW",
+      "category": "급락 후 반등 관찰·Q3 실적·공장 운영 차질",
+      "detected_utc": "2026-10-27T19:53:43Z",
+      "summary": "10/27 15:29 ET StockTitan 지연 스캐너 약 -30%, 20거래일 동일시각 상대거래량 20배, 누적 약 120만주. 10/26 16:05 ET 회사 Q3 실적 발표: 매출 $385m vs 전년 $399m, 순손실 약 $2m, Augusta 공장 운영차질 10월 지속. 뉴스와 가격 하락 인과 단정 금지. 5~15분 저점방어·최신 SEC 공급·ATM/Resale/워런트/전환/ELOC/PIPE/float/O/S·즉시 매도 공급 미확인; 위험으로 1차 순위 감점 없음.",
+      "source_url": "https://www.stocktitan.net/news/CLW/clearwater-paper-reports-third-quarter-2026-1fkz7mwy2u5p.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-close10-WFF-1for25-share-consolidation-20261027T123000Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "NASDAQ 7.0",
+      "ticker": "WFF",
+      "category": "급락 후 반등 관찰·주식병합 사전일정·말레이시아",
+      "detected_utc": "2026-10-27T19:53:43Z",
+      "summary": "10/27 15:29 ET 지연 스캐너 약 -34%, 20거래일 동일시각 상대거래량 2.6배, 누적 약 9,250만주. 10/27 08:30 ET 회사 발표: 10/30 보통주 1:25 병합 예정, Class A 3,440,664주는 병합 제외. 병합 전 보통주 145,957,934주→병합 후 예상 5,838,318주(소수점 처리 전), Class A 별도. 말레이시아 기반 기업이므로 중국계 1.0에 편입하지 않음. 주식병합은 신규 발행/즉시 매도 공급과 별개; SEC 원문 및 float/ATM/ELOC/Resale/PIPE/워런트 잔량 미확인. 분봉 저점방어 미확인.",
+      "source_url": "https://www.stocktitan.net/news/WFF/wf-holding-limited-announces-share-t9h6elrwqh3k.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-close10-BDMD-intraday-crash-volume-20261027T192900Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "중국계 1.0",
+      "ticker": "BDMD",
+      "category": "급락·대량거래 LABT형·반등 관찰",
+      "detected_utc": "2026-10-27T19:53:43Z",
+      "summary": "10/27 15:29 ET StockTitan 15분 지연 보드 BDMD 약 -38%, 동일시각 20거래일 대비 상대거래량 26배, 누적 약 130만주. StockAnalysis 15:37 ET 관측 $0.2550(-40.38%), 서로 다른 시각 스냅샷으로 가격/하락률 혼용 금지. 중국 본토 의료기기 사업 확인. 직접 급락 원인·5~15분 저점 방어·최신 SEC 공급/float/O/S/즉시 매도 가능 공급 미확인. 1차 포착 위험 감점 없음.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
       "verification": "PROVISIONAL"
     }
   ]
