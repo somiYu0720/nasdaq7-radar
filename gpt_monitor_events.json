@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T23:02:43Z",
+  "updated_utc": "2026-10-27T23:29:02Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1773,6 +1773,17 @@
       "summary": "2026-10-27 08:30 EDT SEC 8-K 접수(공식 발표 약 08:30 EDT): Microbot Medical은 캘리포니아 ELMNT IR가 LIBERTY 혈관내 로봇 시스템 기기 최대 12개월분을 구매하는 주문에 서명했다고 공시. 세계 첫 OBL(의원 기반 시술시설) 고객이자 미 서부 첫 고객. 계약금액·최소 구매수량·최종 납품/매출 인식은 미공개·미확인. 10/27 정규장 종가 $1.03(+9.38%) 및 확정 일별 거래량 1,143,301주(StockAnalysis), 10/26~20 직전 5거래일 거래량 평균 약 512,657주 대비 약 2.23배(일별 거래량 비교이며 5~15분 연속 분봉 RVOL/가속 아님); 분봉 거래량 가속·저점 방어 미확인. 1차 뉴스·수주 이벤트 포착으로만 기록, 이미 장중 상승 반응 관측되므로 급등 전 확정 아님. SEC 8-K Item 7.01 보도자료 제공(furnished)이며 신규 자금조달·즉시 매도 공급 증거 아님. 최신 SEC float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급량은 별도 검증 대상; 위험을 1차 순위에 반영하지 않음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/883975/000149315226048640/form8-k.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BRAI-AFTERHOURS_REIGNITION-20261027T232835Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "BRAI",
+      "category": "급등진행_시간외재점화_1차잠정_가격이상움직임",
+      "detected_utc": "2026-10-27T23:28:35Z",
+      "summary": "2026-10-28 KST 08:14:06 GitHub Toss 수집본 $4.45(표시 1분봉 거래량 1,830주)에서 08:28:35 $4.8107(표시 1분봉 47,580주)로 약 +8.11%, 약 14분 간격 비연속 관측. 08:26:58 표시 1분봉 거래량 90,487주로 일시적 거래 집중 관측(08:14 표본 대비 약 49.45배; 정규 RVOL 또는 연속 분봉 가속 아님). 10/27 미국 정규장 종가 $3.31 대비 08:28 KST 관측값 약 +45.34%로 이미 급등 진행/시간외 재점화 분류, 급등 전 아님. 토스 수집 status=partial, 캔들 완결·지속 매수·저점 방어·OBV·독립 실시간 시세 교차검증 미확인. 10/27 정규장 급등 및 대량거래는 기존 별도 기록과 중복하지 않고 시간외 신규 가격 관측만 기록. 2차 SEC·float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·즉시 매도 가능한 공급 미확인; 위험으로 1차 감점/삭제 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/7534d1410c04b00dfcee06281dd95ce37c9df278/toss_live.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
