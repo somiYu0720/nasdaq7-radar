@@ -801,7 +801,7 @@ async function renderPrerise(){
   const raw=Array.isArray(data.rows)?data.rows:[];
   let fundingWatch=new Set();try{const wr=await fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'});if(wr.ok){const w=await wr.json();fundingWatch=new Set(Array.isArray(w.categories?.funding)?w.categories.funding:[])}}catch(e){}
   let shortData={};try{const sr=await fetch('./short_interest.json?t='+Date.now(),{cache:'no-store'});if(sr.ok){const sd=await sr.json();shortData=sd.tickers||{}}}catch(e){}
-  const shortLabel=t=>{const v=shortData[t];if(!v)return '공매도 미확인';const sf=Number(v.short_float_pct),dtc=Number(v.days_to_cover);const sfOk=v.short_float_pct!==null&&v.short_float_pct!==undefined&&Number.isFinite(sf),dtcOk=v.days_to_cover!==null&&v.days_to_cover!==undefined&&Number.isFinite(dtc);return sfOk?'숏플로트 '+sf.toFixed(1)+'%'+(dtcOk?' · DTC '+dtc.toFixed(1)+'일':'')+(sf>=20?' · 숏스퀴즈 관찰':''):dtcOk?'DTC '+dtc.toFixed(1)+'일':'공매도 미확인'};
+  const shortLabel=t=>{const v=shortData[t];if(!v)return '공매도 미확인';const sf=Number(v.short_float_pct),dtc=Number(v.days_to_cover);const sfOk=v.short_float_pct!==null&&v.short_float_pct!==undefined&&Number.isFinite(sf),dtcOk=v.days_to_cover!==null&&v.days_to_cover!==undefined&&Number.isFinite(dtc);const sv=Number(v.short_volume_pct),svOk=v.short_volume_pct!=null&&Number.isFinite(sv);return sfOk?'숏플로트 '+sf.toFixed(1)+'%'+(dtcOk?' · DTC '+dtc.toFixed(1)+'일':'')+(sf>=20?' · 숏스퀴즈 관찰':''):dtcOk?'DTC '+dtc.toFixed(1)+'일':svOk?'FINRA 공매도 거래비율 '+sv.toFixed(1)+'% ('+String(v.short_volume_date||'날짜 미확인')+') · 숏플로트 미확인':'공매도 미확인'};
   const candidates=[];
   for(const x of raw){
    const ticker=String(x.ticker||'').toUpperCase(),v=Number(x.minute_volume),p=Number(x.price),bar=Date.parse(x.bar_time||'');
