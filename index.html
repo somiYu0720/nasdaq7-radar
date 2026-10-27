@@ -899,7 +899,19 @@ function normalizeToss(d){
  return {...d,rows:[...byTicker.values()]};
 }
 async function fetchToss(...args){
- const response=await fetch(...args);
+ // GitHub Pages deployment may lag behind successful Toss commits.
+ // Read the current main-branch JSON directly; fall back to Pages on network/CORS failure.
+ const path=String(args[0]||'');
+ const isLive=/^(?:\.\/)?toss_live\.json(?:\?|$)/.test(path);
+ const options={...(args[1]||{}),cache:'no-store'};
+ let response;
+ if(isLive){
+  try{
+   const url='https://raw.githubusercontent.com/somiYu0720/nasdaq7-radar/main/toss_live.json?t='+Date.now();
+   response=await fetch(url,options);
+   if(!response.ok)throw Error('raw '+response.status);
+  }catch(e){response=await fetch(...args)}
+ }else response=await fetch(...args);
  const readJson=response.json.bind(response);
  response.json=async()=>normalizeToss(await readJson());
  return response;
