@@ -614,7 +614,8 @@ async function renderRanks(){
   if(rows.length<10){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));body.append(tr)}}
   if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
   const lag=stamp?Math.round((Date.now()-new Date(stamp).getTime())/60000):null;
-  $('rankStatus').textContent='수집: '+(stamp?new Date(stamp).toLocaleString('ko-KR'):'미확인')+(lag!==null&&lag>10?' · 지연 데이터':'')+' · 실험적 점수 (매수 신호 아님)';
+  const watchedRows=(Array.isArray(d.rows)?d.rows:[]).filter(x=>symbols.has(x.ticker));const staleCount=watchedRows.filter(x=>x.stale_volume).length;const missingCount=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t)).length;
+  $('rankStatus').textContent='수집: '+(stamp?new Date(stamp).toLocaleString('ko-KR'):'미확인')+' · 유효 분봉 '+all.length+'/'+symbols.size+' · 오래된 봉 '+staleCount+' · 미수집 '+missingCount+(lag!==null&&lag>10?' · 업로드 지연':'')+' · 실험적 점수 (매수 신호 아님)';
   const recent=changed?alerts:prev.alerts||[];
   $('ovNew').textContent=recent.length;
   $('rankAlerts').textContent=recent.length?'🆕 신규 TOP 10: '+recent.join(', '):'신규 진입 없음 · 가격 변화는 직전 수집 대비';
