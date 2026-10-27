@@ -622,7 +622,7 @@ function secRiskLabel(ticker){
  if(!e)return '';
  if(e.status==='NOT_IN_SEC_SNAPSHOT')return '';
  if(e.status==='SEC_SUBMISSIONS_ERROR')return 'SEC 조회 오류';
- if(e.evidence?.length)return '희석 관련 문구 '+e.evidence.length+'건 (희석 확정 아님)';
+ if(e.evidence?.length)return (e.supply_review_candidate?'공급 '+e.supply_review_candidate+'형 검토 후보 · ':'')+'희석 관련 문구 '+e.evidence.length+'건 (공급 확정 아님)';
  return '';
 }
 async function loadSecRankSnapshot(){
