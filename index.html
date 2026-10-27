@@ -575,6 +575,10 @@ async function renderRanks(){
   const snap={stamp,quotes:{}};
   all.forEach(x=>snap.quotes[x.ticker]={v:rankNum(x.minute_volume),p:rankNum(x.price),bar:x.bar_time||''});
   if(stamp&&hist[hist.length-1]?.stamp!==stamp){hist.push(snap);if(hist.length>48)hist.shift()}
+  // Accumulate only distinct, timestamped real candles in local browser history.
+  // This is per-device history, not server-side continuous collection.
+  const minuteBars=prev.minuteBars||{};
+  for(const x of all){const ts=Date.parse(x.bar_time||'');if(!Number.isFinite(ts)||x.minute_volume==null)continue;const bars=minuteBars[x.ticker]||[];const key=new Date(ts).toISOString();const entry={t:key,v:rankNum(x.minute_volume),p:rankNum(x.price)};const pos=bars.findIndex(b=>b.t===key);if(pos>=0)bars[pos]=entry;else bars.push(entry);bars.sort((a,b)=>Date.parse(a.t)-Date.parse(b.t));minuteBars[x.ticker]=bars.slice(-120)}
   const earlier=hist.length>1?hist[hist.length-2]:null;
   $('ovTotal').textContent=new Set([...(w.categories?.nas||[]),...(w.categories?.china||[])]).size;
   $('ovVolume').textContent=all.length;
@@ -613,7 +617,7 @@ async function renderRanks(){
    body.append(tr);
   });
   if(rows.length<10){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));body.append(tr)}}
-  if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
+  if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,minuteBars,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
   const lag=stamp?Math.round((Date.now()-new Date(stamp).getTime())/60000):null;
   const watchedRows=(Array.isArray(d.rows)?d.rows:[]).filter(x=>symbols.has(x.ticker));const staleCount=watchedRows.filter(x=>x.stale_volume).length;const missingCount=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t)).length;
   const staleDetails=watchedRows.filter(x=>x.stale_volume).map(x=>{const ms=Date.parse(x.bar_time||'');return x.ticker+' '+(Number.isFinite(ms)?Math.max(0,Math.floor((Date.now()-ms)/60000))+'분 전':'봉 시각 미확인')});
