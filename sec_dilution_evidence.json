@@ -1,10 +1,23 @@
 {
-  "checked_utc": "2026-10-27T09:54:38.152417+00:00",
+  "checked_utc": "2026-10-27T15:01:16.442847+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
-      "status": "SEC_SUBMISSIONS_FETCHED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026089169/ea0299928-10q_archimedes3.htm",
+          "form": "10-Q",
+          "excerpt": "including 6,900,000 Public Warrants and 190,500 Private Placement Warrants. The warrants may only be exercised for a whole number of shares. No fractional warrants will be issued upon separation of the Units and only whole warrants will trade. The warrants will become "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026056691/ea0288831-10q_archimedes3.htm",
+          "form": "10-Q",
+          "excerpt": "including 6,900,000 Public Warrants and 190,500 Private Placement Warrants. The warrants may only be exercised for a whole number of shares. No fractional warrants will be issued upon separation of the Units and only whole warrants will trade. The warrants will become "
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
@@ -48,6 +61,24 @@
           "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026090808/ea0302397-424b3_lakewood.htm",
           "form": "424B3",
           "excerpt": "sory Stock with demand registration rights and to require the Company to file a resale registration statement covering such shares following the Company’s Nasdaq listing. In connection with the closing of the Company’s Series C Convertible Preferred Stock on "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026089380/ea0299462-10q_lakewood.htm",
+          "form": "10-Q",
+          "excerpt": "er of the Board of Directors as a component of the director’s compensation. The warrant has an exercise price of $ 100.00 per share, expires ten years from the date of grant, and vests over a two -year period, with 25 % of the underlying shares becoming exercisab"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026089380/ea0299462-10q_lakewood.htm",
+          "form": "10-Q",
+          "excerpt": ",446,135 Commitments and Contingencies Stockholders’ equity (deficit): Series A convertible preferred stock, voting, $ 0.0001 par value, 8,000,000 shares authorized; 0 and 6,590,045 shares issued and outstanding at June 30, 2026 and December 31, 2025, respectiv"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026089380/ea0299462-10q_lakewood.htm",
+          "form": "10-Q",
+          "excerpt": "sory Stock with demand registration rights and to require the Company to file a resale registration statement covering such shares following the Company’s Nasdaq listing. In connection with the closing of the Company’s Series C Convertible Preferred Stock on "
         }
       ],
       "errors": [],
@@ -75,6 +106,36 @@
           "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026112304/ea0309616-8k_peraso.htm",
           "form": "8-K",
           "excerpt": "directors pursuant to the purchase agreement, the filing and effectiveness of a resale registration statement, and the Company’s plans and expectations regarding the development and commercialization of communications technology for drone and counter-drone ap"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026089119/ea0300889-10q_peraso.htm",
+          "form": "10-Q",
+          "excerpt": "f December 31, 2025 10,055 $ 9 137 $ 162 56 $ — $ 186,338 $ ( 181,873 ) $ 4,636 At-the market sales of stock, net 2,372 2 — — — — 2,302 — 2,304 Issuance of common stock under stock plans 18 — — — — — 14 — 14 Issuance of abeyance shares 137 — ( 137 ) ( 1"
+        },
+        {
+          "category": "ELOC",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026089119/ea0300889-10q_peraso.htm",
+          "form": "10-Q",
+          "excerpt": " issuance, or the Company effecting or entering into an agreement to effect an “equity line of credit” or other substantially similar continuous offering with a third party, in which the Company may offer, issue or sell common stock or any securities exercisabl"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026089119/ea0300889-10q_peraso.htm",
+          "form": "10-Q",
+          "excerpt": "sified common stock purchase warrants outstanding (share amounts in thousands): Warrant Type Number of Shares Exercise Price Expiration Common stock warrants 7 $ 28.00 June 2, 2028 Series A warrants issued 3,975 $ 2.250 February 8, 2029 Series A warrants issued 139 $ 2.625 Febr"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026089119/ea0300889-10q_peraso.htm",
+          "form": "10-Q",
+          "excerpt": "so Shares to be issued in connection with the conversion or exchange of secured convertible debentures and common share purchase warrants of Peraso Tech, as applicable, by way of a statutory plan of arrangement (the Arrangement) under the Business Corporations "
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026089119/ea0300889-10q_peraso.htm",
+          "form": "10-Q",
+          "excerpt": "e Purchase Agreement and the Registration Rights Agreement, the Company filed a resale registration statement, which was declared effective by the SEC on July 14, 2026. Accordingly, the Commencement Date became July 14, 2026. 23 ITEM 2. Management’s Discussio"
         }
       ],
       "errors": [],
@@ -83,8 +144,27 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "STAK": {
-      "status": "SEC_SUBMISSIONS_FETCHED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226047890/form20-f.htm",
+          "form": "20-F",
+          "excerpt": "ions, which makes it difficult to evaluate our business. We cannot assure you that the market for our products will develop as we expect or that we will be able to maintain the growth rate that we have experienced to date. ● Failure to maintain and enla"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226047890/form20-f.htm",
+          "form": "20-F",
+          "excerpt": "70,517 ordinary shares (the “Representative’s Warrants”). Such Representative’s Warrants have an exercise price of $4.80 per share. The Representative’s Warrants may be exercised in cash or on a cashless basis, and are exercisable for five years from February 27, 2"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226047890/form20-f.htm",
+          "form": "20-F",
+          "excerpt": "ffering by an issuer in the same overseas market, including issuance of shares, convertible notes and other similar securities, shall be subject to filing requirement within three business days after the completion of the offering. Therefore, any of our fu"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
@@ -98,6 +178,18 @@
           "source_url": "https://www.sec.gov/Archives/edgar/data/1799011/000149315226048114/form8-k.htm",
           "form": "8-K",
           "excerpt": " Series C Investors of 15,000 shares of the Company’s newly designated Series C Convertible Preferred Stock, par value $0.001 per share (the “ Series C Preferred Stock ”), at a purchase price of $1,000 per share (collectively, the “ Series C Offering ”). The cl"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1799011/000143774926027335/lucd20260630_10q.htm",
+          "form": "10-Q",
+          "excerpt": "an — — — — 22 — 22 Vest - restricted stock awards — — 20,622 — — — — Issuance - At-The-Market Facility, net of deferred financing charges — — 4,161,747 4 5,270 — 5,274 Purchase - Employee Stock Purchase Plan — — 242,284 — 210 — 210 Issuance - Interest p"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1799011/000143774926027335/lucd20260630_10q.htm",
+          "form": "10-Q",
+          "excerpt": "ck options, to the extent such quoted price is greater than the exercise price. Convertible Preferred Stock would potentially be considered a participating security under the two-class method of calculating net loss per share. However, the Company has incurred "
         }
       ],
       "errors": [],
@@ -106,7 +198,7 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "ARBB": {
-      "status": "SEC_SUBMISSIONS_FETCHED",
+      "status": "NOT_VERIFIED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -153,8 +245,15 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "REED": {
-      "status": "SEC_SUBMISSIONS_FETCHED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1140215/000149315226037365/form10-q.htm",
+          "form": "10-Q",
+          "excerpt": "803 Total liabilities 16,934 14,190 Stockholders’ equity (deficiency): Series A Convertible Preferred stock, $ 10 par value, 500,000 shares authorized, 9,411 shares issued and outstanding 94 94 Common stock, $ .0001 par value, 60,000,000 shares authorized; 11,8"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
@@ -165,27 +264,45 @@
       "evidence": [
         {
           "category": "ATM",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001386/MainDocument.htm",
-          "form": "S-1",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001724/MainDocument.htm",
+          "form": "S-1/A",
           "excerpt": " results of operations, business or prospects. It is impossible to assure you that the market price of our shares of Common Stock will not fall in the future. 18 Failure to consummate the Merger could negatively impact respective future operations and f"
         },
         {
           "category": "WARRANT",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001386/MainDocument.htm",
-          "form": "S-1",
-          "excerpt": "tockholder approval for purposes of Nasdaq Listing Rule 5635(d) on , 2026 . The Warrants will initially have an exercise price of $10.00 per share of Common Stock, will be exercisable immediately, and will expire six months from the date of issuance. Our Common Stock is traded on"
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001724/MainDocument.htm",
+          "form": "S-1/A",
+          "excerpt": " approval for purposes of Nasdaq Listing Rule 5635(d) on August 25 , 2026 . The Warrants will initially have an exercise price of $10.00 per share of Common Stock, will be exercisable immediately, and will expire six months from the date of issuance. Our Common Stock is traded on"
         },
         {
           "category": "CONVERTIBLE",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001386/MainDocument.htm",
-          "form": "S-1",
-          "excerpt": "s Class A Redeemable Preferred Stock and 5,100 shares are designated as Class B Convertible Preferred Stock. As of [●] , 2026, [●] shares of C ommon S tock are issued and outstanding and no shares of preferred stock are issued and outstanding. There are no rede"
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001724/MainDocument.htm",
+          "form": "S-1/A",
+          "excerpt": "s Class A Redeemable Preferred Stock and 5,100 shares are designated as Class B Convertible Preferred Stock. As of September 4 , 2026, 2,675,412 shares of C ommon S tock are issued and outstanding and no shares of preferred stock are issued and outstanding. The"
         },
         {
           "category": "RESALE",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001386/MainDocument.htm",
-          "form": "S-1",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001724/MainDocument.htm",
+          "form": "S-1/A",
           "excerpt": "ing Prospectus ”) and one to be used in connection with the potential resale by selling stockholders of up to 2,496,162 shares of Common Stock (the “Resale Prospectus”). The Resale Prospectus is substantively identical to the Primary Offering Prospectus, exce"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001521/clro-20260630.htm",
+          "form": "10-Q",
+          "excerpt": " pursuant to which the Company agreed to issue and sell, in a private placement at-the-market offering of 133,334 shares of the Company’s common stock, par value $ 0.001 per share, at a purchase price of $ 7.50 per share of common stock. The Company rec"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001521/clro-20260630.htm",
+          "form": "10-Q",
+          "excerpt": "e Company issued warrants to purchase up to 437,500 shares of common stock. The warrants had an exercise price of $ 5.00 per share and a term of two years , expiring March 2, 2028 , and became exercisable six months from the date of issuance. It is a condition to "
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001521/clro-20260630.htm",
+          "form": "10-Q",
+          "excerpt": "perations 442 1,236 Total liabilities 1,371 3,013 Shareholders' equity: Class B convertible preferred stock, par value $ 0.001 , 5,100 shares authorized, — and — shares issued and outstanding, respectively — — Common stock, par value $ 0.001 , 150,000,000 share"
         }
       ],
       "errors": [],
@@ -227,15 +344,8 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "DTSS": {
-      "status": "EVIDENCE_FOUND",
-      "evidence": [
-        {
-          "category": "WARRANT",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/2110423/000121390026089176/ea0301080-f3_datasea.htm",
-          "form": "F-3",
-          "excerpt": "djustment of the number or amount of securities receivable upon exercise of the warrants or the exercise price of the warrants; ● the price or prices at which the securities or other rights purchasable upon exercise of the warrants may be purchased; ● if applicabl"
-        }
-      ],
+      "status": "NOT_VERIFIED",
+      "evidence": [],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
@@ -245,16 +355,22 @@
       "status": "EVIDENCE_FOUND",
       "evidence": [
         {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390026052541/ea0286796-20f_fangdd.htm",
+          "form": "20-F",
+          "excerpt": "ctober 8, 2024, we issued a total of 661,232 Class A ordinary shares to certain warrant holders, at an exercise price of $0.0005625 per share, pursuant to warrants issued on October 7, 2024, representing all the Class A ordinary shares issuable under the pre-funded warra"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390026052541/ea0286796-20f_fangdd.htm",
+          "form": "20-F",
+          "excerpt": "ote due on August 12, 2023 in a principal amount of US$21 million pursuant to a convertible note purchase agreement dated January 13, 2023. The note bore an interest rate of 8% per annum, payable on the maturity date. At any time before the maturity date, "
+        },
+        {
           "category": "CONVERTIBLE",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390025125571/ea0271083-6k_fangdd.htm",
           "form": "6-K",
           "excerpt": " Commission on October 24, 2025 regarding, among other things, the entry into a convertible note purchase agreement with an investor (the “Note Purchase Agreement”) and a share subscription agreement with ZX International Ltd , a company incorporated in Br"
-        },
-        {
-          "category": "CONVERTIBLE",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390025102163/ea0262307-6k_fangdd.htm",
-          "form": "6-K",
-          "excerpt": "40-F. Form 20-F ☒ Form 40-F ☐ EXHIBIT INDEX Exhibit No. Description 4.1 Form of Convertible Note Purchase Agreement between Fangdd Network Group Ltd. and the Investor 10.1 Share Subscription Agreement, dated as of October 24, 2025, between Fangdd Network G"
         }
       ],
       "errors": [],
@@ -278,7 +394,7 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "BAOS": {
-      "status": "SEC_SUBMISSIONS_FETCHED",
+      "status": "NOT_VERIFIED",
       "evidence": [],
       "errors": [],
       "supply_type": null,
@@ -319,8 +435,21 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "CHNR": {
-      "status": "SEC_SUBMISSIONS_FETCHED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/793628/000155335026000083/chnr_20f-123125.htm",
+          "form": "20-F",
+          "excerpt": "ign exchange or market that the IRS determines has rules sufficient to ensure that the market price represents a legitimate and sound fair market value. However, there is no assurance that the Common Shares will remain “regularly traded” for this purpos"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/793628/000155335026000083/chnr_20f-123125.htm",
+          "form": "20-F",
+          "excerpt": "d in the future. Up to 139,488 Common shares may be issued with the exercise of warrants at a per share exercise price of $24.00 issued to the investors and up to 9,300 Common shares may be issued with the exercise of warrants at a per share exercise price of $17.60 issue"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
@@ -445,6 +574,12 @@
           "source_url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226003437/dxf_6k.htm",
           "form": "6-K",
           "excerpt": "in. The Warrants will expire on the third anniversary of the issuance date. The Warrants may also be exercised cashlessly if at any time after the three-month anniversary of the issuance date, there is no effective registration statement registering, or no current pros"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1499494/000147793226002677/dxf_20f.htm",
+          "form": "20-F",
+          "excerpt": "nses on loans Interest expense mainly represents the financial expense from the convertible notes payable and interest rate is 8% annually. Interest expenses increased by RMB580,000 ($80,000) from RMB0.8 million ($0.1 million) in 2024 to RMB1.4 million ($0"
         }
       ],
       "errors": [],
