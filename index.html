@@ -437,6 +437,15 @@ main{width:100%;max-width:1480px!important}
  #prerisePanel .muted{font-size:10px!important;line-height:1.4!important}
  #prerisePanel .scroll:after{display:none!important}
 }
+
+/* Mobile SEC context shown directly beneath each ranked ticker. */
+#rankRows .rank-sec-detail{display:none}
+@media(max-width:700px){
+ #rankPanel .rank-sec-detail{display:table-row!important;background:#10283a!important}
+ #rankPanel .rank-sec-detail td{padding:7px 12px 12px!important;text-align:left!important;white-space:normal!important;font-size:12px!important;line-height:1.65!important;color:#cdeaf2!important;border-bottom:2px solid #34506b!important}
+ #rankPanel .rank-sec-detail strong{color:#a4f2e5}
+ #rankPanel .rank-sec-detail .rank-risk{color:#f6d3a0}
+}
 </style></head><body><main>
 <div class="bar"><div><h1>◉ NASDAQ 7.0 <span style="color:#53e7ee">RADAR</span></h1><div class="sub">EARLY SIGNAL TERMINAL · NASDAQ / CHINA · 데이터 수집 기반</div></div><span id="status" class="pill">데이터 확인 중</span></div>
 <nav class="tabs" aria-label="레이더 카테고리"><button id="tabNas" data-view="nas">NASDAQ 7.0</button><button id="tabChina" data-view="china">중국계 1.0</button><button data-view="toss">실시간 시세</button><button data-view="rank" class="active">⚡ 실시간 순위</button><button data-view="discovery">🆕 신규 포착</button><button data-view="prerise">📈 상승 전 후보</button><button data-view="shortVolume">📉 공매도</button><button data-view="mainSession">🔔 본장 레이더</button><button data-view="history">포착 기록</button><button data-view="sec">SEC·이벤트</button><button data-view="gpt">GPT 감시</button><button data-view="oversold">과매도</button><button data-view="event">이벤트 임박</button><button data-view="manage">종목 관리</button></nav>
@@ -701,6 +710,13 @@ async function renderRanks(){
    const eventCell=document.createElement('td');eventCell.textContent=rankEventLabel(x.ticker);eventCell.style.fontSize='12px';tr.append(eventCell);
    const secCell=document.createElement('td');secCell.textContent=secRiskLabel(x.ticker);secCell.style.whiteSpace='nowrap';secCell.style.fontSize='12px';tr.append(secCell);
    body.append(tr);
+   const detail=document.createElement('tr');detail.className='rank-sec-detail';
+   const detailCell=document.createElement('td');detailCell.colSpan=11;
+   const eventStrong=document.createElement('strong');eventStrong.textContent='SEC 공시·이벤트: ';
+   const eventText=document.createElement('span');eventText.textContent=rankEventLabel(x.ticker);
+   const riskLine=document.createElement('div');riskLine.className='rank-risk';
+   riskLine.textContent='희석·공급 검증: '+secRiskLabel(x.ticker);
+   detailCell.append(eventStrong,eventText,riskLine);detail.append(detailCell);body.append(detail);
   });
   if(rows.length<10){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));textCell(tr,rankEventLabel(ticker));textCell(tr,secRiskLabel(ticker));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인','SEC 미조회','희석 미판정'].forEach(v=>textCell(tr,v));body.append(tr)}}
   if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,minuteBars,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
