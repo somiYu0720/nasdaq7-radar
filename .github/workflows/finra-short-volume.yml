@@ -1,0 +1,30 @@
+name: FINRA daily short volume
+on:
+  schedule:
+    - cron: '35 23 * * 1-5'
+    - cron: '35 1 * * 2-6'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: finra-short-volume
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch FINRA short sale volume
+        run: python scripts/update_finra_short_volume.py
+      - name: Commit changed public snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add short_interest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update FINRA daily short sale volume"
+            git push
+          fi
