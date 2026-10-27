@@ -1,0 +1,32 @@
+name: FINRA short interest positions
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 13 * * 2,5'
+permissions:
+  contents: write
+concurrency:
+  group: finra-short-interest
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch official FINRA short interest
+        env:
+          FINRA_PUBLIC_API_TOKEN: ${{ secrets.FINRA_PUBLIC_API_TOKEN }}
+        run: python scripts/update_finra_short_interest.py
+      - name: Commit verified snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add short_interest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update FINRA bi-monthly short interest"
+            git pull --rebase
+            git push
+          fi
