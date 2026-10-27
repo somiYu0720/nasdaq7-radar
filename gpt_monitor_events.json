@@ -1553,6 +1553,17 @@
       "summary": "2026-09-23 SEC Form 6-K 원문: MAAS는 투자자와 3,878,856주를 주당 $12.89에 발행하는 약 $50m PIPE 계약 체결. 2026년 10월 중 종결 예정(정확한 일자 미공개), 조건부. 36개월 락업(계약상 예외 존재). 2026-10-28 KST 현재 종결 완료 공시 미확인. 1차 뉴스·D+30 이벤트 일정 후보, 주가·거래량·분봉 미확인. 2차 잠재 신규발행 공급은 B 대기형 검토, 36개월 락업에 따른 A 제한 요소 있으나 예외/실제 즉시 매도가능 공급 및 float/O/S 최종 미확인. 기존 F-3 재판매 등록은 별도이며 본 PIPE 발행과 동일시 금지. 신규 당일 뉴스가 아니라 과거 공시의 임박 일정 뒤늦은 포착.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1750264/000121390026102386/ea0306372-6k_maase.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7_EARLY_SHFS_POST_SPIKE_RETRACEMENT_20261027T184808Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nas",
+      "ticker": "SHFS",
+      "category": "급등 진행 후 급락·대량거래_LABT형_반등관찰_1차잠정",
+      "detected_utc": "2026-10-27T18:48:08Z",
+      "summary": "GitHub 토스 수집본 비교: 2026-10-28 02:50:48 KST $0.13905(표시 1분봉 1,308,998주)에서 03:48:08 KST $0.1120(03:49 표시 1분봉 65,990주)로 약 -19.45% 하락. 약 57분 간격의 비연속 관측으로 5~15분 가속·연속 저점방어·OBV는 미확인. 급등 후 급락/반등 관찰 1차 잠정 신호이며 기존 재점화 이벤트와 별도 후속 기록. SEC 공급 위험은 포착 점수와 분리; 실제 즉시 매도 가능 물량 미확인.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
