@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T20:18:34Z",
+  "updated_utc": "2026-10-27T20:26:51Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1684,6 +1684,61 @@
       "detected_utc": "2026-10-27T20:23:06Z",
       "summary": "2026-10-28 KST 04:40:08 표시 가격 $0.6481, 해당 04:41 표시 1분봉 거래량 15,658주. GitHub 토스 비연속 수집본의 서로 다른 이전 8개 표본 분봉(03:38~04:30)의 양수 거래량 평균 364.75주 대비 약 42.93배. 이는 정규 RVOL 또는 연속 5~15분 가속이 아닌 표본 간 비교이며, 마지막 1분봉의 완결 여부도 미확인. 03:38:30 $0.6937에서 04:40:08 $0.6481로 약 -6.57% (비연속 시세 비교, 전일 대비 아님). 기존 10/23 급락·대량거래 기록과 별개의 10/27 미국장 중 신규 분봉 관찰. 급락+대량거래 LABT형 잠정 포착, 저점방어·반등·추가 거래량 지속·원인 미확인. 05:23 KST 점검 시 토스 최신 저장본은 04:43:30 KST이며 수집 상태 partial; 현시세 아님. 2차 기존 SEC 9/15 ELOC 및 F-3 등록 이력은 잠재 공급 검토사항이고 실제 즉시 매도 가능 물량 미확인; 1차 포착 순위 감점/배제 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/b6fc1d357bd4f41af0b1a2e6c2938584d619613d/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_NUWE_PEDIATRIC_AQUADEX_STUDY_20261027T120000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nas",
+      "ticker": "NUWE",
+      "category": "급등 진행_임상근거 발표_거래량 50배이상",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "summary": "2026-10-27 08:00 EDT 회사 공식 보도자료: Aquadex ULTRA-Peds 소아 다기관 관찰연구(91명, 7개 병원) 발표. 치료 기간 생존 87%, 시술 중단 없이 완료 86.5%; FDA 라벨 5kg 이상 확대를 뒷받침하기 위한 자료이지 허가 승인 아님. StockAnalysis 10/27 정규장 종가 $5.41(+74.69%), 거래량 21,183,157주, 직전 5거래일 평균 47,957.8주 대비 약 441.7배. 이미 급등 진행 분류; 5~15분 연속 가속·저점 방어 미확인. 최신 SEC float/O/S/공급은 별도 2차 검증 대상.",
+      "source_url": "https://www.stocktitan.net/news/NUWE/nuwellis-announces-acceptance-of-multicenter-pediatric-aquadex-study-zniw0i0by0sz.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_CRML_EUROPEAN_LITHIUM_SCHEME_EFFECTIVE_20261027T123300Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nas",
+      "ticker": "CRML",
+      "category": "M&A_법적효력발생_신주교부일정",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "summary": "2026-10-27 08:33 EDT 회사 공식 발표: European Lithium 인수 관련 주식·옵션 scheme 법적 효력 발생(10/26 법원 승인 후). 10/28 옵션 교부 비율 발표 예정, 10/29 권리기준일, 11/05 이행·신주 교부 예정, 11/06 신규 CRML 주식 나스닥 거래 예정. 0.045 CRML 신주/European Lithium 주식; 법적 효력 발생은 인수 주식 교부 완료와 구분. StockAnalysis 10/27 종가 $8.12(+27.27%), 거래량 19,658,773주, 직전 5일 평균 약 4,468,768주 대비 4.4배. 발행 예정 신주는 잠재 공급이며 즉시 매도 가능 물량/제한조건 미확인. 1차 순위 위험 감점 없음.",
+      "source_url": "https://www.nasdaq.com/press-release/critical-metals-corp-acquisition-european-lithium-becomes-effective-2026-10-27",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_MEGL_DAILY_CRASH_VOLUME_20261027T200000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "china",
+      "ticker": "MEGL",
+      "category": "급락후반등관찰_LABT형_일별거래량50배이상",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "summary": "2026-10-27 정규장 StockAnalysis 일별 기록: $0.34(-52.77%), 거래량 34,990,978주, 직전 5거래일 평균 7,192.4주 대비 약 4,865배. 직전 거래량 기저가 매우 낮아 배수 과장 주의. 홍콩 사업체로 중국계 1.0 독립 분류. 10/27 07:00 EDT 발표 5년 목재무역 $500m 목표 LOI는 비구속/확정 매출 아님(기존 별도 기록). 9/30 SEC 424B5 최대 $100m ATM 판매 경로 확인, 실제 발행/잔여 물량 미확인; 1차 순위 감점 없음. 분봉 저점 방어·급락 직접 원인 미확인.",
+      "source_url": "https://stockanalysis.com/stocks/megl/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_BRAI_REVERSAL_VOLUME_20261027T200000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nas",
+      "ticker": "BRAI",
+      "category": "급락후재점화_일별거래량30배이상",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "summary": "2026-10-26 -40.28% 급락에 이어 10/27 StockAnalysis 정규장 종가 $3.31(+56.13%), 거래량 44,811,253주, 직전 5거래일 평균 1,361,502.8주 대비 약 32.9배. 10/26 Force AI 플랫폼 발표 이력은 기존 기록과 중복하지 않음. 10/27 새 확정 사업 계약·SEC 직접 원인 미확인. 1차 재점화 포착, 2차 SEC·float/O/S·ATM/워런트/실제 즉시 공급 미확인. 5~15분 가속·저점방어 미확인.",
+      "source_url": "https://stockanalysis.com/stocks/brai/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_DVLT_DAILY_CRASH_VOLUME_20261027T200000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nas",
+      "ticker": "DVLT",
+      "category": "급락후반등관찰_LABT형_거래량10배이상",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "summary": "2026-10-27 StockAnalysis 일별 시세 약 $0.0685(-48.42%), 거래량 약 2.37억주, 직전 5거래일 평균 약 1,813만주 대비 약 13.1배. 기존 프리마켓 급락 및 재무보고 관련 관찰의 정규장 후속 결과로 구분. SEC 재무공시·최신 공급/float/O/S·실제 즉시 매도 가능 물량은 이번 장마감 점검에서 추가 확정하지 못함. 위험으로 1차 순위 감점 없음. 분봉 저점방어 미확인.",
+      "source_url": "https://stockanalysis.com/stocks/dvlt/history/",
       "verification": "PROVISIONAL"
     }
   ]
