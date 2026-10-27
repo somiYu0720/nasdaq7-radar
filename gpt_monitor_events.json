@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T15:30:27Z",
+  "updated_utc": "2026-10-28T00:00:00Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1419,6 +1419,30 @@
       "summary": "토스 수집본 GitHub 이력 비교: 2026-10-28 00:09 KST $0.0832에서 00:29:27 KST $0.0960로 약 +15.4% 상승. 00:30 KST 표시 1분봉 거래량 42,162주, 00:25 KST 표시 분봉 16,902주. 1차 가격 재점화·거래량 관찰 잠정 포착(이미 상승 진행), 2/3/5/10/30/50배 평균 대비 가속·저점방어 미확인. 기존 10/26 NWGL 거래량 재점화 기록과 별도 10/27 장중 움직임. 기존 최대 $200m ATM 이력은 1차 순위에 미반영, 최신 실제 매도 가능 물량·float/O/S·A/B/C/D 최종 유형 미확인. 분봉 종료 시각 표시일 수 있으며 초단위 연속 감시 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-LPTH-def14a-followup-20261026",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "LPTH",
+      "category": "2차 공시 후속·DEF 14A (과거 공시 보완)",
+      "detected_utc": "2026-10-28T00:00:00Z",
+      "summary": "10/26 SEC DEF 14A(최종 위임장) 제출 이력 추가 확인. 10/27 방산 주문 포착과는 별도 기업행사·공시 후속 기록이며 DEF 14A 자체를 신규 확정 호재 또는 예정된 주가 촉매로 해석하지 않음. 세부 안건과 일정은 원문 재검증 필요. 1차 포착 순위에 영향 없음.",
+      "source_url": "https://www.secfilingdata.com/sec-filings-list/?cik=0000889971",
+      "verification": "PROVISIONAL",
+      "auto_add": false
+    },
+    {
+      "id": "cn1-NWGL-registration-history-followup-20260824",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "NWGL",
+      "category": "2차 SEC·등록 효력/재판매 이력 추적 (과거 공시 보완)",
+      "detected_utc": "2026-10-28T00:00:00Z",
+      "summary": "공시 이력상 2026-08-24 EFFECT 및 08-25 424B3, 10-02 424B5 기록이 확인됨. 기존 10/02 ATM 관찰과 별도로 등록 효력·재판매 가능 물량·실제 매도 가능 공급을 원문별로 재검증해야 함. EFFECT 존재만으로 현 시점 즉시 매도 가능 물량이나 공급 C형을 확정하지 않음. 신규 거래량 신호가 아닌 2차 위험 검증 보완 기록이며 1차 포착 순위에 영향 없음.",
+      "source_url": "https://www.marketbeat.com/stocks/NASDAQ/NWGL/sec-filings/",
+      "verification": "PROVISIONAL",
+      "auto_add": false
     }
   ]
 }
