@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T06:30:11.117Z",
+  "updated_utc": "2026-10-27T06:40:36Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -990,6 +990,28 @@
       "summary": "2026-10-26 17:07 EDT StockTitan에 SEC 20-F 접수 및 원문 재현: FY2026 매출 $14,856,829 vs 전년 $29,674,534(-49.9%); 순손실 $33,112,851 vs $2,718,517. 6/30 현금 $12,333,758. 6/30 미행사 워런트 9,100,007개(원문 표), 보고서일 Class A O/S 6,061,683주·Class B 306,383주. 실제 즉시 매도 가능 물량 미확인. SEC 원문 직접 조회 불가로 PROVISIONAL.",
       "source_url": "https://www.stocktitan.net/sec-filings/MF/20-f-mind-forge-inc-files-annual-report-foreign-issuer-715c55faecbb.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-STKH-volume-labt-20261026T200000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "STKH",
+      "category": "급락 후 반등 관찰·거래량 이상",
+      "detected_utc": "2026-10-27T06:40:36Z",
+      "summary": "10/26/2026 정규장 거래량 16,638,504 ADS vs 직전 5거래일(10/19~23) 평균 140,801.6 ADS=118.17배. 종가 $0.40(-0.55%), 장중 $0.30~$0.43, 10/23 -20.87% 이후 LABT형 급락·대량거래 관찰. 저점 방어·분봉·상승 직접 원인 미확인. 2차 SEC 10/05 6-K/424B5: ATM 발행한도 최대 $4,036,262; 8월 F-3/A 재판매 최대 5,372,500 ADS(워런트 행사 조건) 구조. 실제 즉시 매도 가능 공급, 행사/매도 잔량, 최신 float/O/S 및 등록 효력 미확인. 잠정 D형 복합 공급 요소+ATM C형 요소, 전체 공급 유형 확정 보류. 2차 위험으로 1차 순위 감점 없음. 거래량은 제3자 종가 데이터로 SEC 직접 검증 대상이 아니므로 PROVISIONAL.",
+      "source_url": "https://stockanalysis.com/stocks/stkh/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-PLUR-zeo-definitive-agreement-20261026T110022Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "PLUR",
+      "category": "M&A 확정계약·급등 진행",
+      "detected_utc": "2026-10-27T06:40:36Z",
+      "summary": "10/26/2026 07:00:22 EDT SEC 8-K(상대방 ZEO ScientifiX)에서 Pluri-ZEO 미국 재생의료 제조·상업화 확정 전략계약 발표 확인. 조건 충족 시 Pluri가 ZEO 지분 50% 취득 예정, 2026 Q4 종결 목표; 현재 종결·매출 실현 미확인. 10/26 PLUR 정규장 490,328주 vs 10/19~23 평균 30,460.2주=16.10배, 종가 $1.12(+13.13%), 장중 $0.96~$1.36; 시간외 하락 및 저점방어 미확인. 2차 SEC: 10/06 S-1에 2,228,940주 워런트 관련 재판매 등록, 10/15 EFFECT 보고 있으나 워런트는 발행 후 6개월부터 행사 가능; 별도 선납 워런트 1,028,940주 즉시 행사 가능 구조, 10/20 신규 주식·워런트 계약 이력. 잠재 공급 D형 요소·실제 즉시 매도 가능한 잔량과 최신 float/O/S 미확인. 2차 위험으로 1차 순위 감점 없음. VERIFIED는 ZEO SEC 8-K의 계약 발표 사실에 한정, 주가 원인/실제 종결 검증 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1557376/000182912626011497/0001829126-26-011497-index.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
