@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T09:11:27.209Z",
+  "updated_utc": "2026-10-27T09:29:02Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1100,6 +1100,28 @@
       "summary": "2026-10-23 SEC 6-K(0001185185-26-004968) 확인: 병합 후 기준 Class A 2,751,789주를 약 $1.817/주, 총 $5m에 사모발행하는 구독계약 체결. 실제 신주 발행은 조건 충족 필요하며 10/30 예정 2:1 주식병합 조정 거래일 이전 발행 불가. 발행분은 미등록, 등록 또는 면제 없이 매도 불가. 10/23 발표 주식병합은 예정이며 완료 미확인. 병합 후 Class A 기존 발행주식 약 2,615,105주(회사 발표), 최신 float·ATM/ELOC·기존 전환/워런트 잔여량·실제 즉시 매도 가능 신규 공급 미확인. 2차 공급 B형 대기 요소 및 과거 전환·워런트 D형 요소, 최종 유형 보류. 계약 사실만 VERIFIED; 발행 완료/매도 가능은 미확인. 1차 포착 순위 영향 없음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1993097/000118518526004968/mask6k102326.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-early-FRMM-fireworks-ai-compute-contract-20261026T130000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "FRMM",
+      "category": "AI GPU 36개월 확정 계약·거래량 2배 이상·급등 진행 관찰",
+      "detected_utc": "2026-10-27T09:29:02Z",
+      "summary": "지연 신규 포착: 2026-10-26 09:00 EDT SEC 8-K(0001213900-26-112303) 확인. Forum Markets가 51% 지분 보유한 JV Forum Edge AI와 Fireworks AI 사이 96개 기업용 AI 서버/Nvidia B300 GPU 용량 36개월 예약 확정 계약 발표. 계약 총가치 약 $94.4m은 JV 36개월 계약 금액이며 FRMM 직접 즉시 매출이나 수령 현금이 아님. 선지급 예치금은 존재하나 금액 미공개; GPU 배치 2026-12 말~2027-01 초 예정, 실제 배치·매출 인식 미확인. 10/26 정규장 ChartExchange 종가 $3.52(+4.14%), 거래량 383,573주, 10/19~23 5일 평균 181,663.6주 대비 2.11배. 저점방어·분봉·10/27 프리마켓 시세 미확인. 2차 SEC 10/05 8-K: JV 51% 보유, Edge Node 대상 조건부 약 146만주 신주 발행 구조(마일스톤 조건부, 현재 즉시 매도 가능 공급 아님); 과거 ATM·전환채·사모 발행 이력 및 S-3 등록 존재, 최신 실제 행사/매도 가능 잔량 미확인. 공급 복합 D형 요소 잠정, 전체 A/B/C/D 최종 보류. 11/12 3Q 실적 발표 예정. SEC 검증 VERIFIED는 8-K 계약 발표 사실에만 적용, 가격·거래량과 실제 매출 실현을 보증하지 않음. 2차 위험으로 1차 포착 순위 감점 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1690080/000121390026112303/ea0309578-8k_forum.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-early-IPHA-pacific9-phase3-readout-delay-20261027T060000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "IPHA",
+      "category": "임상 3상 PACIFIC-9 결과 발표 일정 2026H2→2027H1 변경·사전공시",
+      "detected_utc": "2026-10-27T09:29:02Z",
+      "summary": "2026-10-27 02:00 EDT Innate Pharma 공식 Business Wire 발표: AstraZeneca 주도 PACIFIC-9 3상 monalizumab/oleclumab+durvalumab 비소세포폐암 시험 주요 데이터 발표 예상 시점이 2026년 하반기에서 2027년 상반기로 변경됨. 환자 등록 완료, 사건 발생 수에 따른(event-driven) 일정 조정으로 설명; 시험 실패나 효능 결과 발표가 아님. 2026-09-17 SEC 6-K에는 기존 2026 H2 목표 기재되어 있어 일정 변경이 중요. 현재 거래량 가속·분봉·저점 방어·10/27 시세 미확인, 1차 뉴스·이벤트 일정 변경 관찰, 급등 전 확정 아님. 2차: 2026-09-17 회사 반기 공시에 8월 17,647,059주 사모 신주 발행과 6/30 기준 $75m ATM 잔여한도(나스닥 ATM 중단 언급) 존재. 현재 즉시 매도 가능 잔량·최신 float/O/S·ATM 재개 여부 미확인, 공급 유형 최종 보류. SEC의 10/27 변경공시 원문은 확인하지 못해 PROVISIONAL. 2차 위험으로 1차 순위 감점 없음.",
+      "source_url": "https://www.businesswire.com/news/home/20261026687365/en/",
+      "verification": "PROVISIONAL"
     }
   ]
 }
