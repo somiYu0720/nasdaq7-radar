@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T16:53:35Z",
+  "updated_utc": "2026-10-27T17:44:50Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1519,6 +1519,17 @@
       "detected_utc": "2026-10-27T16:53:35Z",
       "summary": "2026-10-27 08:25 ET 회사 발표: 2027년 만기 2% 전환사채 총 원금 $250m 중 약 $75.3m(약 30%)을 사적 협상으로 현금 재매입, 미지급이자 포함 현금 지급액 약 $80m. 1차 뉴스 이벤트로만 포착; 가격·거래량 2/3/5/10/30/50배·분봉·저점방어 미확인, 급등 전 확정 아님. 2차: 해당 전환채의 잠재 전환공급 일부 감소 가능, 현금 유출 및 다른 전환채/즉시매도 가능 물량/최신 float/O/S/ATM/ELOC/PIPE/워런트/상장위험은 별도 미확인. SEC 6-K 본문 교차검증 미완료, PROVISIONAL.",
       "source_url": "https://www.prnewswire.com/news-releases/vnet-announces-repurchase-of-30-of-its-convertible-senior-notes-due-2027-302920704.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-MKDW-CONTINUED_INTRADAY_CRASH-20261027T174414Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "MKDW",
+      "category": "급락 후 반등 관찰_LABT형_추가급락",
+      "detected_utc": "2026-10-27T17:44:14Z",
+      "summary": "GitHub 토스 수집본 비교: 2026-10-28 01:39 KST 가격 $0.3113에서 02:44:14 KST $0.25665로 약 -17.56% 추가 하락. 최신 02:45 표시 1분봉 3,291주(이전 01:40 표시 1분봉 1,188주). 약 65분 간격의 두 스냅샷 비교로 전일 대비 등락률 또는 2/3/5/10/30/50배 분봉 가속은 아님. 저점 방어·반등·원인·SEC 공급 검증 미확인. 1차 신호 순위에 희석/상장 위험 반영하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/282fb34352c0/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
