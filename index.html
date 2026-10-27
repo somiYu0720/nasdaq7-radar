@@ -586,9 +586,10 @@ async function renderRanks(){
    const accel=o&&o.v>0&&n.bar&&o.bar&&n.bar!==o.bar?n.v/o.v:null;
    const pct=o&&o.p>0&&Number.isFinite(n.p)?100*(n.p/o.p-1):null;
    const base=Math.min(45,Math.round(12*Math.log10(1+n.v)));
-   const speed=accel===null?0:Math.min(35,Math.max(0,Math.round(15*Math.log2(Math.max(1,accel)))));
+   // Prevent tiny reference candles from producing misleading high-confidence acceleration.
+   const speed=accel===null?0:Math.min(35,Math.max(0,Math.round(15*Math.log2(Math.max(1,accel)))))*(o.v<100?0.25:o.v<1000?0.6:1);
    const price=pct===null?0:pct>=0&&pct<=5?20:pct>5&&pct<=12?10:pct>=-3?8:0;
-   return {...x,accel,pct,score:base+speed+price};
+   return {...x,accel,pct,score:Math.round(base+speed+price),thinBase:!!o&&o.v<1000};
   }).sort((a,b)=>b.score-a.score||rankNum(b.minute_volume)-rankNum(a.minute_volume)).slice(0,10);
   const changed=!!prev.stamp&&prev.stamp!==stamp,alerts=[],changes={};
   rows.forEach((x,i)=>{
@@ -600,7 +601,7 @@ async function renderRanks(){
    tag.textContent=({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량'})[cat]||cat;
    [i+1,x.ticker].forEach(v=>textCell(tr,String(v)));
    const category=document.createElement('td');category.append(tag);tr.append(category);
-   [move,rankNum(x.minute_volume).toLocaleString('ko-KR'),x.accel===null?'미확인':x.accel.toFixed(2)+'배',x.pct===null?'미확인':(x.pct>=0?'+':'')+x.pct.toFixed(2)+'%',x.score+' / 100'+(earlier?'':' 잠정'),x.price??'—'].forEach(v=>textCell(tr,String(v)));
+   [move,rankNum(x.minute_volume).toLocaleString('ko-KR'),x.accel===null?'미확인':x.accel.toFixed(2)+'배'+(x.thinBase?' (저표본)':''),x.pct===null?'미확인':(x.pct>=0?'+':'')+x.pct.toFixed(2)+'%',x.score+' / 100'+(earlier?'':' 잠정'),x.price??'—'].forEach(v=>textCell(tr,String(v)));
    const volumeCell=tr.children[4];
    const v=rankNum(x.minute_volume);
    const level=v>=100000?'extreme':v>=30000?'hot':v>=10000?'high':v>=1000?'mid':'low';
