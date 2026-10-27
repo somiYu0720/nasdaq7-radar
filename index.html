@@ -569,7 +569,7 @@ renderEvent();setInterval(renderEvent,60000);
 const RANK_KEY='radar_rank_history_v3';
 let rankStore={};try{rankStore=JSON.parse(localStorage.getItem(RANK_KEY))||{}}catch(e){}
 function rankNum(v){return v===null||v===undefined||v===''?NaN:Number(v)}
-async let sharedSecEvidence=null;
+let sharedSecEvidence=null;
 async function loadSharedSecEvidence(){
  try{const r=await fetch('./sec_dilution_evidence.json?t='+Date.now(),{cache:'no-store'});if(r.ok)sharedSecEvidence=await r.json()}catch(e){}
 }
