@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T01:25:09.328Z",
+  "updated_utc": "2026-10-27T02:14:20Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -736,6 +736,50 @@
       "detected_utc": "2026-10-27T01:25:09.325Z",
       "summary": "2026-10-26 정규장 거래량 885,285주, 직전 5거래일 평균 53,776.6주 대비 약 16.46배; 종가 $0.5957(+2.80%). 2026-10-26 13:00 ET 발표: LYMPHIR 미국 도매상 출하 792유닛, 직전 분기 360유닛 대비 +120%(잠정·미감사). 16:05 ET SEC 8-K 접수 확인. 실제 매도 가능 공급 및 최신 float/O/S는 별도 검증 필요. SEC 제출 시점은 정규장 종료 후.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1851484/000121390026112477/ea0309347-8k_citius.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-prebreak-YOUL-volume-price-20261026T200000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "YOUL",
+      "category": "거래량 5배·10배 이상 가속·급등 진행",
+      "detected_utc": "2026-10-27T02:14:20Z",
+      "summary": "2026-10-26 정규장 종가 $0.305(+15.09%), 거래량 4,793,864주 vs 10/23 585,338주=8.19배; 10/19~23 5거래일 평균 247,956주 대비 19.33배. 10/21 급락(-15.14%) 후 10/22~26 반등 흐름. 분봉·저점방어·당일 상승 직접 원인 미확인. 1차는 거래량/가격만 평가, 급등 진행형·PRE 확정 아님. 10/15 발표 H1 매출 +114.8%는 과거 발표이며 당일 상승 원인 미확인.",
+      "source_url": "https://stockanalysis.com/stocks/youl/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-prebreak-YOUL-f3-effect-20261019T133000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "YOUL",
+      "category": "2차 SEC F-3 효력·공급 구조 별도 검증",
+      "detected_utc": "2026-10-27T02:14:20Z",
+      "summary": "SEC EFFECT: 2026-10-19 09:30 ET Form F-3(333-299194) 효력 발생 확인. 9/29 제출 F-3는 최대 $100m shelf(보통주·우선주·채무·워런트 등)이며 등록 한도는 발행/판매 완료 금액이 아님. 기존 공모 워런트 등 구조 기재. C형 등록 효력 요소만 확인, 회사 전체 A/B/C/D 미확정; 최신 float/O/S·ATM/ELOC/PIPE·실제 즉시 매도 가능 공급 및 잔량 미확인. 2차 위험은 1차 순위에 반영하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2028177/999999999526003291/xslEFFECTX01/primary_doc.xml",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-prebreak-HKPD-volume-rebound-20261026T200000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "HKPD",
+      "category": "거래량 10배 이상 지연 발견·급락 후 반등 관찰",
+      "detected_utc": "2026-10-27T02:14:20Z",
+      "summary": "지연 발견: 10/21 거래량 145,557주 vs 10/20 8,027주=18.13배, 종가 -8.93%; 10/22 -5.88%·277,769주. 10/26 1:20 주식병합 조정 기준 종가 $2.19(+9.50%), 거래량 133,748주 vs 10/23 77,149주=1.73배(당일 2배 가속 미확인). 과거 일별 시세는 분할조정 자료이므로 원시세와 혼합 금지. 급락 후 반등 관찰, 신규 PRE·분봉 저점방어 미확인. 2차 희석/상장위험으로 감점 없음.",
+      "source_url": "https://stockanalysis.com/stocks/hkpd/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-prebreak-HKPD-split-6k-20261021T120001Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "HKPD",
+      "category": "2차 SEC 6-K 주식병합 사전공시·공급 구조 별도 검증",
+      "detected_utc": "2026-10-27T02:14:20Z",
+      "summary": "2026-10-21 08:00:01 ET SEC 6-K 접수: 회사는 10/26 개장 시 1:20 주식병합 조정 거래 예정이라고 발표(발표 사실 VERIFIED, 6-K 자체로 시행 완료 확정 아님). 9/9 기준 병합 전 O/S A 42,167,457주/B 7,150,000주, 최신 병합 후 O/S·float 미확인. 6/12 F-3 최대 $200m shelf 및 6/24 EFFECT 이력은 잠재 공급/등록 효력 요소이며 실제 발행·즉시 매도 가능 물량 미확인. 전체 공급 유형 미확정, 1차 순위와 분리.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2007702/000121390026111190/ea0308948-6k_cellyan.htm",
       "verification": "VERIFIED"
     }
   ]
