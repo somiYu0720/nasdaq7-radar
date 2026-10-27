@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T18:25:10Z",
+  "updated_utc": "2026-10-27T19:19:33Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1564,6 +1564,28 @@
       "summary": "GitHub 토스 수집본 비교: 2026-10-28 02:50:48 KST $0.13905(표시 1분봉 1,308,998주)에서 03:48:08 KST $0.1120(03:49 표시 1분봉 65,990주)로 약 -19.45% 하락. 약 57분 간격의 비연속 관측으로 5~15분 가속·연속 저점방어·OBV는 미확인. 급등 후 급락/반등 관찰 1차 잠정 신호이며 기존 재점화 이벤트와 별도 후속 기록. SEC 공급 위험은 포착 점수와 분리; 실제 즉시 매도 가능 물량 미확인.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-AXG-ATM_50M_424B5-20261022T213100Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "AXG",
+      "category": "2차_SEC_424B5_ATM_최대5000만달러_공급C형경로",
+      "detected_utc": "2026-10-27T19:19:33Z",
+      "summary": "2026-10-22 SEC 424B5 원문 확인: Chaince Securities를 판매대리인으로 하는 최대 미화 5,000만 달러 Class A 주식 ATM 판매계약 및 투자설명서 보충서. 기존 F-3 등록서 효력 2024-11-08. 이는 판매 가능한 등록 경로(C형 요소)를 의미하지만 전액 발행·즉시 매도된 뜻이 아님. 실제 매도 주식수, 잔여 한도, 현행 float/O/S, 행사·전환 관련 즉시 매도 가능 물량 미확인. 기존 Streeterville 선지급 구조·전환채는 별도 D형 복합 공급 검증 필요. 1차 포착 순위·후보 유지에 영향 없음. 이번 점검에서 과거 10/22 공시 뒤늦게 확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1959224/000121390026111765/ea0306901-424b5_solowin.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-AXG-REVERSE_SPLIT_DATE_CONFIRMED-20261027T120000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "AXG",
+      "category": "사전공시_주식병합1대200_20261029_일정정정",
+      "detected_utc": "2026-10-27T19:19:33Z",
+      "summary": "2026-10-27 08:00 ET 회사 공식 발표: Class A·B 200대 1 주식병합, Class A는 2026-10-29 미국 나스닥 개장부터 병합 조정 거래 예정. SEC 2026-10-22 424B5에도 10/29 예상일 명시. 초기 10/26 제안일을 실제 거래 적용일로 취급하면 안 됨. 발표 기준 A종 주식수 201,529,461→약 1,007,648주, B종 31,371,599→약 156,858주(단주 조정 전). 병합 자체는 기업가치 상승이나 추가 매도 공급의 증거가 아님. 1차 거래량·가격 이상 신호와 2차 위험 평가 독립 유지.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/27/3388938/0/en/solowin-holdings-announces-1-for-200-reverse-share-split.html",
+      "verification": "VERIFIED"
     }
   ]
 }
