@@ -828,4 +828,22 @@ async function fetchToss(...args){
  response.json=async()=>normalizeToss(await readJson());
  return response;
 }
+</script><script>
+/* Refresh every category from its existing source, without changing rankings or collector. */
+(function(){
+ let last=0,working=false;
+ async function refreshAll(force){
+  if(working||(!force&&Date.now()-last<20000))return;
+  last=Date.now();working=true;
+  const names=['load','loadChina','loadAlerts','loadSec','loadGptMonitor','loadToss','loadRadarNotes','loadSharedSecEvidence','renderOversold','renderEvent','renderRanks','renderDiscovery','renderOversoldAuto','renderPrerise','updateCombinedStatus','refreshRadarAnalysisPanel'];
+  try{await Promise.allSettled(names.map(async name=>{const fn=window[name];if(typeof fn==='function')await fn()}))}
+  finally{working=false}
+ }
+ window.refreshAllRadarCategories=()=>refreshAll(true);
+ const btn=document.getElementById('refresh');
+ if(btn)btn.addEventListener('click',()=>refreshAll(true));
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshAll(false)});
+ window.addEventListener('focus',()=>refreshAll(false));
+ setInterval(()=>{if(!document.hidden)refreshAll(false)},60000);
+})();
 </script><script src="./radar_analysis_widget.js" defer></script></body></html>
