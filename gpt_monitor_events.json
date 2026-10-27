@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T16:38:30Z",
+  "updated_utc": "2026-10-27T16:40:21Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1497,6 +1497,17 @@
       "detected_utc": "2026-10-27T16:38:30Z",
       "summary": "2026-10-27 09:25 EDT T3 Defense 공식 발표: NEXR 자회사 KeepZone AI 100% 인수 확정계약 체결(거래 종결 아님). 종결 시 매수자 DFNS 신주 및 필요시 PFW로 초기 $1m 지급, 이후 24개월 KeepZone 순이익 조건부 최대 $5m 현금 earn-out. 종결 후 6개월 주가가 종결가보다 낮으면 매도자에게 추가 DFNS 주식 지급 조항. 회사는 계약일로부터 60일 내 종결 예상, Nasdaq 통지·제3자 동의 등 선행조건 미충족 가능. 1차: M&A 확정계약 뉴스 신호만 포착; 현재가/분봉/RVOL/저점방어 미확인으로 급등 전 여부 미판정, 1차 위험 감점 없음. 2차: 잠재 공급 D형 요소(신주/PFW/주가 하락 시 추가발행), 기존 EFFECT·424B3 이력과 실제 즉시 매도 가능 공급은 별도 검증 미완료; 신규 8-K 원문 미검증. D+7 2026-11-03, D+30 2026-11-26 후속 종결·공시 추적. 기존 NEXR 매도자 기록과 별도 DFNS 매수자 이벤트.",
       "source_url": "https://www.globenewswire.com/news-release/2026/10/27/3389142/0/en/t3-defense-enters-agreement-to-acquire-keepzone-ai.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-AXG-INTRADAY_CRASH_VOLUME-20261027T163900Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "AXG",
+      "category": "LABT_INTRADAY_CRASH_VOLUME_WATCH",
+      "detected_utc": "2026-10-27T16:39:29Z",
+      "summary": "GitHub에 저장된 토스 수집본 비교: 2026-10-28 00:42 KST 수집 스냅샷 가격 $0.04445에서 01:39 KST 수집 스냅샷 $0.0386로 약 -13.16% 하락. 01:39 KST 표시 1분봉 거래량 103,746주. 10/27 21:52 KST 기존 AXG 대량거래 포착과 별개인 신규 장중 급락·거래량 동반(LABT형) 관찰. 두 시점 간 가격 변화이며 전일 대비 등락률 아님. 분봉 표시 시각/기업행동 조정·동일시간 거래량 기준·저점 방어·반등 미검증. 급등 전 후보 아님. SEC/float/O/S/ATM/워런트/즉시 매도 가능 공급 및 A/B/C/D 미검증, 1차 순위에 위험 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/0bf640a6307915cf3c0ceb1397688bc3ac137ed1/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
