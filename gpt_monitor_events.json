@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T17:44:50Z",
+  "updated_utc": "2026-10-27T17:52:58Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1530,6 +1530,17 @@
       "detected_utc": "2026-10-27T17:44:14Z",
       "summary": "GitHub 토스 수집본 비교: 2026-10-28 01:39 KST 가격 $0.3113에서 02:44:14 KST $0.25665로 약 -17.56% 추가 하락. 최신 02:45 표시 1분봉 3,291주(이전 01:40 표시 1분봉 1,188주). 약 65분 간격의 두 스냅샷 비교로 전일 대비 등락률 또는 2/3/5/10/30/50배 분봉 가속은 아님. 저점 방어·반등·원인·SEC 공급 검증 미확인. 1차 신호 순위에 희석/상장 위험 반영하지 않음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/282fb34352c0/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7.0-SHFS-MINUTE_VOLUME_REIGNITION-20261027T175048Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "SHFS",
+      "category": "급등 진행·1분 대량거래 재점화_1차 잠정",
+      "detected_utc": "2026-10-27T17:50:48Z",
+      "summary": "2026-10-28 02:50:48 KST 토스 수집본(02:51 표시 분봉)에서 1분 거래량 1,308,998주, 가격 $0.13905 관측. 기존 01:12경 관측 가격 $0.0912 대비 약 +52.5%이나 약 98분 간격의 비연속 스냅샷 비교이므로 5~15분 거래량 가속이나 당일 상승률을 의미하지 않음. 급등 전 아님: 급등 진행·재점화 잠정 분류. 연속 5/15분봉·저점 방어·OBV·최신 SEC 공급·즉시 매도 가능 물량 미확인. 기존 10/26 SHFS 급락·M&A 제안 이력과 별개 10/27 신규 분봉 신호이며 1차 순위에 위험 감점 없음. 수집 상태 partial.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
