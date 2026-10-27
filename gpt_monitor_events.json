@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-27T12:16:09Z",
+  "updated_utc": "2026-10-27T12:35:45Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1221,6 +1221,39 @@
       "summary": "지연 포착: 2026-10-12 정규장 거래량 6,258,432주 vs 10/09 189,330주 = 33.06배(전일 대비); 장중 $1.05~$1.24, 종가 $1.08(-2.70%)로 대량거래와 약세 동반(LABT형). 10/26 종가 $1.05(-1.87%), 거래량 약 2.7만주로 가속 지속 미확인. 1차 급락·대량거래 후 반등/재점화 관찰; 급등 전 확정 아님. 거래량/시세 제3자 종가 데이터, 분봉·저점방어·현재가 미확인. 2차 SEC: 과거 워런트·사모 발행 구조 존재하나 최신 float/O/S, ATM/ELOC/Resale/PIPE 및 실제 즉시 매도 가능한 공급 미확인; 잠재 D형 복합 요소, 전체 A/B/C/D 판정 보류. 위험으로 1차 포착 순위 변경 없음.",
       "source_url": "https://stockanalysis.com/stocks/jzxn/history/",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-early-AIOK-special-dividend-SEC6K-20261023",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "AIOK",
+      "category": "SPECIAL_DIVIDEND_REIGNITION_AFTER_SPIKE",
+      "detected_utc": "2026-10-27T12:35:45Z",
+      "summary": "지연 포착: 2026-10-23 SEC 6-K에서 주당 $3.50 일회성 특별배당 선언 확인. 기준일 11/02, 지급 예상 11/25, due-bill 11/02~11/25, 배당락 예상 11/26. 10/23 종가 +182.82% 거래량 42,891,983주, 10/26 -23.79% 거래량 3,004,286주. 10/27 08:31 EDT 프리마켓 관측 $11.60(+26.64%), 실시간 연속 모니터링 아님. 배당 지급 및 주식배당 선택에 따른 실제 신규 발행은 미완료/미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2095591/000114036126040608/ef20084229_ex99-1.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-early-DVLT-nonreliance-LABT-20261026T200100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "DVLT",
+      "category": "LABT_PREMARKET_DROP_FINANCIAL_RESTATEMENT_WATCH",
+      "detected_utc": "2026-10-27T12:35:45Z",
+      "summary": "2026-10-27 프리마켓 관측 $0.0789(-40.59%, 08:35 EDT) 및 프리마켓 거래량 약 2,108만 주(시점별 수치 차이 가능)로 급락·대량거래 동시 포착. 10/26 정규장 종가 $0.1328, 거래량 30,300,163주. 10/26 16:01 EDT SEC 8-K 관련 2차 자료에 2025~2026년 4개 기간 재무제표 신뢰불가 및 비트코인 회계 수정 필요성 기재. SEC 원문 직접 교차검증 미완료이므로 PROVISIONAL; 하락 원인 단정 금지.",
+      "source_url": "https://www.stocktitan.net/sec-filings/DVLT/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-early-MFIC-ARCC-merger-SEC8K-20261027T101215Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "MFIC",
+      "category": "DEFINITIVE_MERGER_PREMARKET_GAIN",
+      "detected_utc": "2026-10-27T12:35:45Z",
+      "summary": "2026-10-27 06:12:15 EDT SEC 8-K에 10/26 체결한 ARCC-MFIC 확정 합병계약 확인. MFIC 주당 약 $10.88(현금 약 $1.21+ARCC 주식 약 $9.67, 특별배당 등에 따라 조정), 거래 기업가치 약 $2.6bn, 종결 목표 2027년 상반기(주주/규제 승인 필요). 10/27 08:10 EDT 프리마켓 관측 $10.29(+23.09%), 627,504주. 거래 종결과 실제 대금 지급은 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926118958/tm2628314d1_ex99-1.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
