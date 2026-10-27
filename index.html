@@ -611,7 +611,7 @@ async function renderRanks(){
    tr.children[3].classList.add(move.startsWith('▲')?'rank-up':move.startsWith('▼')?'rank-down':move.includes('신규')?'rank-new':'rank-flat');
    body.append(tr);
   });
-  if(!rows.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=9;td.className='empty';td.textContent='거래량 데이터 수집 대기';tr.append(td);body.append(tr)}
+  if(rows.length<10){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));body.append(tr)}}
   if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
   const lag=stamp?Math.round((Date.now()-new Date(stamp).getTime())/60000):null;
   $('rankStatus').textContent='수집: '+(stamp?new Date(stamp).toLocaleString('ko-KR'):'미확인')+(lag!==null&&lag>10?' · 지연 데이터':'')+' · 실험적 점수 (매수 신호 아님)';
