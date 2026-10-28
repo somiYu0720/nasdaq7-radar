@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T02:29:49Z",
+  "updated_utc": "2026-10-28T02:42:37Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -1839,6 +1839,39 @@
       "summary": "2026-10-28 10:57 AEST European Lithium ASX 'Option Scheme Consideration' 발표 확인(공시 목록). 보도에 따르면 EUR 상장옵션 1개당 CRML 신주 0.0353158621주, 계산 환율 AUD/USD 0.7021, CRML Scheme VWAP US$7.25. EUR 주식 1주당 CRML 0.045주는 기존 확정 비율. 권리기준일 10/29, 신주 교부 예정 11/05, 나스닥 거래 예상 11/06. 공식 공시 PDF 본문 미열람으로 구체 비율 PROVISIONAL. 인수 거래 종결·신주 즉시 매도 가능 여부 미확인. 1차 이벤트 포착에 공급 위험 감점 없음.",
       "source_url": "https://www.middle.news/articles/2026/10/27/european-lithium-fixes-option-payout-as-asx-exit-approaches",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-BILI-TENCENT_CONVERTIBLE_BUYBACK_EGM-20260925T064234ET",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china",
+      "ticker": "BILI",
+      "category": "D+0_주총승인_텐센트전환사채2억달러_기존주식2억달러상계매입_중국계대형주_사전일정",
+      "detected_utc": "2026-10-28T02:42:37Z",
+      "summary": "2026-09-25 SEC 6-K(접수 06:42:34 ET) 및 EX-99.2/99.3: Bilibili는 2026-10-28 16:30 중국 베이징시간(한국 17:30) 임시주총에서 Tencent 계열사 보유 Class Z 보통주 13,591,090주(ADS 포함) $200m 장외 재매입과 Tencent의 2031년 만기 전환사채 $200m 인수를 상호조건부로 승인받을 예정. 9/9 비텐센트 대상 $500m 전환사채 발행 및 약 $100m 델타 관련 자사주 재매입은 이미 완료, 이번 Tencent 관련 거래는 승인/종결 미확인. 2억달러 인수대금과 2억달러 매입대금은 상계 예정이므로 순현금유입 2억달러로 표현하면 오류. 1차 이벤트 일정 관찰(중국계 대형주 별도; 소형주 TOP10이나 급등전 확정 신호 아님), 거래량 2/3/5/10/30/50배·연속 분봉·저점 방어 미확인. 2차: 전환사채 잠재 D형 요소, 실제 전환·즉시 매도 가능 공급 및 최신 float/O/S/ATM/ELOC/PIPE/Resale 미확인; 1차 순위 위험 감점 없음. VERIFIED는 주총 일정과 조건부 거래구조에만 적용, 승인·종결을 뜻하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1723690/000119312526401540/d172127dex992.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-WCT-CLASSA_1FOR10_VOTE-20261013_FILING_000121390026109040",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china",
+      "ticker": "WCT",
+      "category": "D+1_주총_클래스A10대1병합승인표결_홍콩소형주_사전일정",
+      "detected_utc": "2026-10-28T02:42:37Z",
+      "summary": "2026-10-13 SEC 6-K Exhibit 99.1: Wellchange Holdings는 2026-10-29 10:00 홍콩시간(한국 11:00) Class B 주주총회와 이어지는 임시주총에서 Class A 보통주 10대1 병합 및 정관변경을 표결할 예정. Class B 주식 자체는 병합하지 않으며 전환비율 조정. 승인되면 Class A 병합은 결의 통과 즉시 효력 발생하는 조건; 10/28 현재 승인·효력발생 미확인. 병합 자체는 신규 현금조달이나 호재 확정이 아님. 1차 뉴스·D+7 일정 포착으로만 분류, 거래량 가속·가격 이상·연속 분봉·저점방어·상승전후 미확인. 2차 float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환·실제 즉시 매도 가능 공급 및 A/B/C/D 미확인; 상장 위험으로 1차 순위 감점/삭제 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1990251/000121390026109040/ea030842501ex99-1.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-GSUN-1FOR10_SHARE_CONSOLIDATION_VOTE-20261020_FILING_000121390026111081",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china",
+      "ticker": "GSUN",
+      "category": "D+30_11월23일주총_12월23일10대1병합계획_중국계소형주_사전일정",
+      "detected_utc": "2026-10-28T02:42:37Z",
+      "summary": "2026-10-20 SEC 6-K Exhibit 99.3: Golden Sun Technology Group(GSUN)은 2026-11-23 09:00 베이징시간 Class A 주주총회, 10:00 연차총회에서 Class A/B 보통주 각 10대1 병합을 승인받고 2026-12-23 효력발생시키는 안건을 제시. 승인·효력 발생은 미확인, 10/12로 기재된 기존 최저주가 시정기한 후속 Nasdaq 결정도 미확인. 주식병합은 신규 호재나 신규 현금 유입이 아님. 1차 D+30 사전 이벤트 관찰, 시세·거래량 가속·분봉·저점방어 미확인으로 상승 포착 순위 미산정. 2차 float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능한 공급 A/B/C/D 미확인; 상장유지 위험은 1차 포착 순위에 반영하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1826376/000121390026111081/ea030921101ex99-3.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
