@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T19:51:47Z",
+  "updated_utc": "2026-10-28T20:04:31Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2553,6 +2553,72 @@
       "detected_utc": "2026-10-28T19:51:47Z",
       "summary": "2026-10-29 03:03 KST 기존 저장 관측 CENN $1.7855(앞선 급락 포착)에서 04:23:43 KST 토스 부분 수집 저장가 $2.0700(표시 분봉 거래량 2,012주)로 약 +15.93% 후속 가격 회복. 앞서 기록된 02:00 $2.37→03:03 $1.7855 급락과 구분되는 신규 급락 후 반등 관찰. 비연속 지연가능 스냅샷이므로 실제 장중 저점·연속 5~15분 가속·공식 RVOL 2/3/5/10/30/50배·저점 방어 지속·상승 전환 확정 미확인. 2026-10-15 SEC 8-K에 최대 $100m ATM 판매 계약과 10-13 424B5 등록 경로 존재(2차 C형 판매 경로), 실제 발행/매도 수량, 잔여한도, 현재 float/O/S, 즉시 매도 가능 공급량 미확인. 잠재 공급과 실제 매도 공급을 분리하며 위험으로 1차 포착 감점·배제·순위 변경 없음. 새로운 10/28 회사 호재 공시 확인 안 됨. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_1550_CRASH-BCAX-CRASH_RVOL28-20261028T192400Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "BCAX",
+      "category": "1차_급락_거래량28배_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "summary": "StockTitan 공개 2026-10-28 15:24 EDT 15분 지연 보드 BCAX -45%, 당일 누적 상대거래량 28배(20거래일 동일 시각 기준), 약 1,240만 주. 강한 급락+대량거래 1차 독립 포착. 새 SEC/회사 호재 원인 확인되지 않음. 5~15분 연속 가속·저점방어·매도 소진 미확인. 최신 float/O/S/ATM/ELOC/PIPE/Resale/워런트/전환·실제 즉시 매도 가능 공급 미확인. 2차 A/B/C/D 미판정; 위험은 1차 순위 감점하지 않음. 스냅샷은 15:50 가격이 아니며 매수 신호 아님.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_1550_CRASH-MWYN-NONBINDING_AI_CAMPUS_MOU-20261028T150000Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "MWYN",
+      "category": "1차_뉴스_AI데이터센터_MOU_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "summary": "2026-10-28 11:00 EDT 회사 발표: Grenada National Resort와 태양광+AI 데이터센터 캠퍼스 검토 비구속 MOU, 약 $500m은 사업계획 추정 규모일 뿐 확정 투자·수주·매출 아님. StockTitan 15:24 EDT 지연 보드 -27%, 누적 RVOL 8.1배, 240만 주. 1차 뉴스+급락대량거래 신호 독립 포착. 2차 과거 SEC 10-K 계속기업 불확실성 언급; 최신 O/S·float·ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 미판정. SEC에 당일 MOU 첨부 검증 전 PROVISIONAL. 위험 감점·삭제 없음.",
+      "source_url": "https://www.stocktitan.net/news/MWYN/marwynn-holdings-signs-non-binding-mou-with-grenada-national-resort-8bs8i9knbphj.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_1550_CRASH-NXXT-REVERSE_SPLIT_1FOR10-20261028T120000Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "NXXT",
+      "category": "1차_사전공시_병합예정_급락대량거래_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "summary": "2026-10-28 08:00 EDT 회사 보도자료에서 10/30 00:01 EDT 효력 1:10 주식병합 발표, 병합조정 거래 10/30 정규장부터. O/S 약 1,684만→168만 주 예상(단주 반올림 전), 기존 워런트·전환증권 수량/조건도 병합조정 예정. StockTitan 15:24 EDT 지연 보드 -31%, 누적 RVOL 8.7배, 110만 주. 1차 급락대량거래/이벤트 포착; 병합은 호재나 즉시 공급 확정 아님. 2차 D형 워런트·전환 요소 잠정, 실제 행사·매도 가능 잔량/최신 float/O/S 미확인. SEC 당일 원문 미검증 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/news/NXXT/next-nrg-announces-1-for-10-reverse-stock-56m75ounow08.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_1550_CRASH-RUBI-REVERSE_SPLIT_1FOR25-20261028T130000Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "RUBI",
+      "category": "1차_사전공시_병합예정_급락대량거래_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "summary": "2026-10-28 09:00 EDT 회사 발표: 10/30 정규장 개장부터 1:25 병합 조정 거래 예정, 10/28 O/S 13,517,355주→약 540,694주 예정(단주 처리 전). StockTitan 15:24 EDT 지연 보드 -26%, RVOL 6.8배, 370만 주. 1차 이벤트+급락대량거래 포착, 병합 자체는 희석·호재 확정 아님. 최신 SEC float/O/S, ATM/ELOC/PIPE/Resale/워런트/전환 및 실제 즉시 매도 가능한 공급 미확인, A/B/C/D 판정 보류. SEC 당일 원문 미검증 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/news/RUBI/rubico-inc-announces-reverse-stock-21bg2d9xdt5j.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_1550_CRASH-SCKT-Q3_EARNINGS_SCHEDULE-20261028T130000Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "SCKT",
+      "category": "1차_사전실적일정_급락대량거래_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "summary": "2026-10-28 09:00 EDT 회사 발표: 11/04 장마감 후 3분기 실적 발표, 같은 날 17:00 EDT 컨퍼런스콜 예정(D+7). 실적 내용이나 개선 여부는 미발표. StockTitan 15:24 EDT 지연 보드 -30%, RVOL 2.7배, 65.5만 주. 1차 뉴스+급락/거래량 신호 독립 포착. 최신 SEC float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 판정 보류. 실적일정 회사 발표 확인, SEC 당일 검증 전 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/news/SCKT/socket-mobile-announces-third-quarter-2026-results-release-date-and-l81f25zgzc49.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_1550_CRASH-RCT-INSIDER_LIABILITY_OFFSET_PLACEMENT-20261028T115600Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "RCT",
+      "category": "1차_뉴스_내부자사모_대량거래급락_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "summary": "2026-10-28 07:56 EDT 회사 보도자료: 내부자에 미등록 보통주 3,170만 주를 주당 $0.25에 발행하기로 계약, 총 $7.925m은 내부자에 대한 기존 부채 상계로 납입, 현금 유입 아님. 10/28경 발행 완료 예상이나 실제 종결 미확인. StockTitan 15:24 EDT 지연 보드 -12%, 누적 RVOL 261배, 3.454억 주. 1차 LABT형 급락대량거래 신호 유지, 위험 감점 없음. 2차 B형 잠정(미등록 신주 발행 대기), 기존 등록 재판매 이력 별도 대조 필요; 즉시 매도 가능 물량, 최신 float/O/S, ATM/ELOC/PIPE/워런트/전환 미확인. 회사 발표 확인, 당일 SEC 공시 미확인 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/news/RCT/red-cloud-announces-issuance-of-shares-to-insiders-in-private-jp30cfk6242i.html",
       "verification": "PROVISIONAL"
     }
   ]
