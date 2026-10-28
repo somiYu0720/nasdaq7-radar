@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T19:07:53Z",
+  "updated_utc": "2026-10-28T19:15:27.613Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2510,6 +2510,17 @@
       "summary": "2026-10-28 14:47 EDT(2026-10-29 03:47 KST) GitHub data.json 저장본에서 LABT 5분 상대거래량 지표 rvol5=8.44, EARLY_PROVISIONAL, history alert_sent=false 확인. 기존 gpt_monitor_events.json에 LABT 동일 포착 기록 없어 신규 1차 재점화 관찰. 지표 산식·원시 5분봉·공식 RVOL·연속 5~15분 가속·동시 가격상승·저점방어는 독립 검증 미완료. 별도 토스 partial 저장본에서 LABT 2026-10-29 03:54 KST 지연 표시가 $0.28505/표시 1분봉 거래량 318주로 관측되나 14:47 EDT 거래량 신호와 비동시 자료이므로 동시 상승 근거로 사용하지 않음. 2차 SEC 2026-08-17 424B3(6/30 10-Q 첨부): 8/3 O/S 2,369,688주, 6/30 Series C 전환우선주 잔여 497,157주 및 워런트 30,076주, 가격연동 전환 구조 확인(D형 잠재 공급 요소). 최신 float/O/S·ATM/ELOC/PIPE/Resale 효력·현재 전환잔량·실제 즉시 매도 가능한 공급량은 미확인. 잠재 희석과 실제 공급 분리, 위험에 따른 1차 감점·배제·순위 변경 없음. 실시간 시세나 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-ELPW-ANNUAL_DISTRIBUTION_AGREEMENT_6K-20261028_DATE_ONLY",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "ELPW",
+      "category": "1차_뉴스_신규상업계약_2550만달러_SEC6K_VERIFIED",
+      "detected_utc": "2026-10-28T19:15:27.613Z",
+      "summary": "2026-10-28 Elong Power Holding Limited SEC 6-K EX-99.1 확인: 홍콩 자회사 Elong Power (Hong Kong) Holding Limited가 1년 총 US$25.5m 스마트 소비자 전자제품 유통 협력 계약 체결(서명일부터 효력, 이의 없으면 자동 갱신) 및 약 US$0.84m 첫 물량 납품 완료 발표. 계약 체결·납품 발표만 VERIFIED이며 US$25.5m 전액 매출 인식·현금수령·이익 확정은 아님. NASDAQ 7.0에 이미 별도 기록된 동일 기업 이벤트를 중국계 1.0 독립 레이더에 분리 등록하며, 전체 신규 뉴스 2건으로 중복 집계하지 않음. 1차 뉴스 신호만 평가, 최신 거래량 2/3/5/10/30/50배 가속·5~15분 가속·가격·저점방어·급등 단계 미확인. 2차 SEC 2026-09-10 424B3: 기존 워런트 행사 관련 Class A 최대 2,583,496주 재판매 등록 및 2026-09-03 EFFECT 이력; 잠재 희석 D형 워런트·재판매 요소, 실제 현재 행사/매도 가능한 물량과 최신 float/O/S는 미확인. 1차 위험 감점/배제/순위 조정 없음. 매매 적합성·손익비 별도.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226048796/ex99-1.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
