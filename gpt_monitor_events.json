@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T19:15:27.613Z",
+  "updated_utc": "2026-10-28T19:20:10.524063+00:00",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2521,6 +2521,17 @@
       "summary": "2026-10-28 Elong Power Holding Limited SEC 6-K EX-99.1 확인: 홍콩 자회사 Elong Power (Hong Kong) Holding Limited가 1년 총 US$25.5m 스마트 소비자 전자제품 유통 협력 계약 체결(서명일부터 효력, 이의 없으면 자동 갱신) 및 약 US$0.84m 첫 물량 납품 완료 발표. 계약 체결·납품 발표만 VERIFIED이며 US$25.5m 전액 매출 인식·현금수령·이익 확정은 아님. NASDAQ 7.0에 이미 별도 기록된 동일 기업 이벤트를 중국계 1.0 독립 레이더에 분리 등록하며, 전체 신규 뉴스 2건으로 중복 집계하지 않음. 1차 뉴스 신호만 평가, 최신 거래량 2/3/5/10/30/50배 가속·5~15분 가속·가격·저점방어·급등 단계 미확인. 2차 SEC 2026-09-10 424B3: 기존 워런트 행사 관련 Class A 최대 2,583,496주 재판매 등록 및 2026-09-03 EFFECT 이력; 잠재 희석 D형 워런트·재판매 요소, 실제 현재 행사/매도 가능한 물량과 최신 float/O/S는 미확인. 1차 위험 감점/배제/순위 조정 없음. 매매 적합성·손익비 별도.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226048796/ex99-1.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-SSTI-INTRADAY_RVOL5_ACCEL-20261028T191800Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "SSTI",
+      "category": "1차_급등전관찰_5분거래량가속_3.53배_PROVISIONAL",
+      "detected_utc": "2026-10-28T19:20:10.524063+00:00",
+      "summary": "2026-10-28 15:18 EDT(2026-10-29 04:18 KST) GitHub discovery_latest.json 공개 무료 지연가능 수집본: SSTI EARLY_PRE, 5분 상대거래량 내부 지표 3.53배(기준 TODAY_PRIOR_30M), 5분 가속 3.08배, 10분 2.34배, 15분 2.23배, 표시 5분 거래량 15,196주, 표시 가격 $8.35, 15분 가격변화 -0.06%. 전체시장 공식 RVOL이나 실시간 체결/연속분봉 독립 검증 아님. 1차 거래량 신호로 급등 전 잠정 관찰하되 가격 돌파·저점 방어·상승 확정 아님. 2차 별도 SEC 2026-09-29 8-K/EX-99.1에 9/28 Transom 인수계약(주당 현금 $8+최대 $3 조건부 CVR) 확인, 10/20 공개 매수 개시 및 11/17 만료 예정(연장 가능)은 별도 M&A 사전 이벤트; 2026-10-28 신규 M&A 공시라는 뜻 아님. 최신 float/O/S, ATM/ELOC/PIPE/Resale/워런트/전환 및 실제 즉시 매도 가능 공급량 미확인, A/B/C/D 유형 판정 보류. 인수·상장종료 가능성 등 위험으로 1차 감점/후순위/제외 없음. 매수 적합성·손익비 별도 판단.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
