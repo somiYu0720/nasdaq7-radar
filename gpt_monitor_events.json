@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T15:24:51Z",
+  "updated_utc": "2026-10-28T15:29:47Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2343,6 +2343,17 @@
       "category": "1차_급락후반등_가격반등관찰_PROVISIONAL",
       "detected_utc": "2026-10-28T15:24:51Z",
       "summary": "GitHub 토스 비연속 수집본: 2026-10-28 23:24:52 KST POM $1.77(표시 1분봉 57,317주) → 2026-10-29 00:16:25 KST $2.10(40,089주, 저점 관측값 대비 +18.64%) → 00:24:44 KST $1.99(62,020주, 23:24 대비 +12.43%, 00:16 대비 -5.24%). 기존 10/28 23:08~23:24 급락·대량거래 LABT형 포착 이후 새로 관측된 가격 반등으로 별도 후속 포착. 연속 분봉·실제 장중 최저가·RVOL 2/3/5/10/30/50배·지속 저점 방어·뉴스 원인 미확인. 10/19 기존 SEC 6-K의 ADS 종료·10대1 주식병합은 신규 공시 아님. 최신 float/O/S·ATM/Resale/전환·즉시 매도 가능 공급량·A/B/C/D 유형 미확인. 희석·상장 위험은 1차 신호 순위에 반영하지 않음. 매수 권고 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-AXNX-POST_CRASH_CONTINUATION-20261028T152842Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "AXNX",
+      "category": "1차_급락후추가급락_LABT형_후속관찰",
+      "detected_utc": "2026-10-28T15:29:47Z",
+      "summary": "10/28 23:08:32 KST 토스 저장 AXNX $1.00, 당시 표시 진행 중 1분봉 667,368주 이후 10/29 00:28:42 KST $0.7787로 비연속 스냅샷 간 약 -22.13% 추가 하락. 최신 표시 분봉 거래량 7,058주, O $0.789/H $0.7929/L $0.7787/C $0.7787. 기존 급락 이벤트의 후속 하락이며 새로운 공시·호재 아님. 비공식 수집 가격과 미확정 분봉으로 PROVISIONAL, 공식 RVOL 2/3/5/10/30/50배, 연속 분봉, 저점방어·반등 미확인. 1차 급락후 반등 관찰 유지, 위험 감점/삭제 없음. 2차 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·잠재 희석·즉시 매도 가능 공급 미확인, A/B/C/D 미분류. 손익비·매수 판단 별도.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
