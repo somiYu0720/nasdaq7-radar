@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T12:36:32Z",
+  "updated_utc": "2026-10-28T13:29:55Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2256,6 +2256,28 @@
       "detected_utc": "2026-10-28T12:39:26Z",
       "summary": "2026-10-28 07:00 EDT 회사 공식 발표: muzastotug(ADG126)+INCA33890 병용의 MSS 대장암 대상 임상 1상 첫 환자 투여. 2026년 4월 발표된 협력의 후속 임상 개시 진행 단계이며 임상 성공/유효성 입증/FDA 승인/확정 매출 아님. 회사 발표 원문 확인, 당일 SEC 6-K 원문 미대조로 PROVISIONAL. 1차 임상 진행 뉴스 포착, 거래량 가속/분봉/저점방어/급등전 단계 미확인. 2차 float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능 공급 미확인, A/B/C/D 보류. 위험 감점 없음.",
       "source_url": "https://www.globenewswire.com/news-release/2026/10/28/3390033/0/en/adagene-announces-dosing-of-first-patient-in-phase-1-study-of-muzastotug-in-combination-with-incyte-s-inca33890-in-patients-with-microsatellite-stable-colorectal-cancer.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-MKDW-MINUTE_VOLUME_REIGNITION-20261028T132500Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "MKDW",
+      "category": "1차_재점화_분봉거래량급증_PROVISIONAL",
+      "detected_utc": "2026-10-28T13:29:04Z",
+      "summary": "토스 수집 GitHub 커밋 10/28 22:22 KST 표시 분봉 123주에서 22:25 13,518주, 22:27 25,998주, 22:29 22,674주 관측. 서로 다른 비연속 분봉 비교로 22:22 대비 22:25 약 110배, 22:27 약 211배이나 공식 RVOL·동일구간 누적 거래량 아님. 22:29 저장 가격 $0.2239; 22:27 $0.2145 대비 약 +4.38%. 급락 후 재점화 잠정 신호, SEC·희석 위험은 1차 순위에서 제외.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/a3a2cabba5ab3b08d31d73611f01347eeb989c4f/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-AXG-CRASH_VOLUME_WATCH-20261028T132900Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "AXG",
+      "category": "1차_급락후반등관찰_LABT형_PROVISIONAL",
+      "detected_utc": "2026-10-28T13:29:04Z",
+      "summary": "토스 수집 GitHub 커밋 10/28 22:29 KST 저장 가격 $0.0300, 표시 분봉 거래량 26,604주. 22:14 29,842주·22:17 33,588주·22:22 19,744주 등 대량거래 구간 반복 관측. 13:28 KST 과거 저장 가격 $0.0367 대비 약 -18.26%이나 장중 동일시간대 비교 아님. 10/29 200대1 병합 예정은 별도 기존 공시 이벤트이며 신규 뉴스로 재등록하지 않음. 저점방어·RVOL·실제 반등 미확인.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/a3a2cabba5ab3b08d31d73611f01347eeb989c4f/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
