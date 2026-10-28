@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T20:04:31Z",
+  "updated_utc": "2026-10-28T20:31:23.220Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2619,6 +2619,28 @@
       "detected_utc": "2026-10-28T20:04:31Z",
       "summary": "2026-10-28 07:56 EDT 회사 보도자료: 내부자에 미등록 보통주 3,170만 주를 주당 $0.25에 발행하기로 계약, 총 $7.925m은 내부자에 대한 기존 부채 상계로 납입, 현금 유입 아님. 10/28경 발행 완료 예상이나 실제 종결 미확인. StockTitan 15:24 EDT 지연 보드 -12%, 누적 RVOL 261배, 3.454억 주. 1차 LABT형 급락대량거래 신호 유지, 위험 감점 없음. 2차 B형 잠정(미등록 신주 발행 대기), 기존 등록 재판매 이력 별도 대조 필요; 즉시 매도 가능 물량, 최신 float/O/S, ATM/ELOC/PIPE/워런트/전환 미확인. 회사 발표 확인, 당일 SEC 공시 미확인 PROVISIONAL.",
       "source_url": "https://www.stocktitan.net/news/RCT/red-cloud-announces-issuance-of-shares-to-insiders-in-private-jp30cfk6242i.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-DXF-INTRADAY_PRICE_VOLUME_REIGNITION-20261028T192304Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "DXF",
+      "category": "1차_급등진행_단시간가격상승_표시분봉거래량증가_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:31:23.220Z",
+      "summary": "2026-10-29 KST 토스 저장 관측 04:17:28 $0.2618(표시 1분봉 11주) → 04:23:04 $0.2869(표시 1분봉 10,658주), 약 +9.59%/5분36초. 비연속 분봉이므로 두 분봉 거래량 비율을 공식 RVOL 또는 지속적 5~15분 가속으로 사용하지 않음. 저장 파일 마지막 갱신 04:24 KST, 이번 점검 시 1시간 이상 지연; 현재가·저점방어·추가 상승 미확인. 2차 SEC 2026-05-26 6-K는 최대 2백만 units(각 60,000 제한주식+60,000주 워런트) 계약 및 가격조정·무현금 행사 조건을 기재; 실제 종결·발행·행사·현재 float/O/S·즉시 매도 가능 공급 미확인, D형 검토 요소로만 표기. 2026-10-28 신규 회사 호재·공시 확인 안 됨. 1차 순위에 위험 감점 없음. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-NAMI-PRICE_DROP_VOLUME_WATCH-20261028T192301Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "NAMI",
+      "category": "1차_가격급락_표시분봉거래량_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:31:23.220Z",
+      "summary": "2026-10-29 KST 토스 비연속 저장 관측 03:19:20 $1.65(표시 1분봉 30주) → 04:23:01 $1.55(표시 1분봉 6,801주), 약 -6.06%/약 64분. 최신 표시 분봉은 $1.53~$1.55 구간; 1분 6,801주가 과거 표본보다 크지만 서로 다른 시점·낮은 기준 분봉이므로 공식 RVOL/2·3·5·10·30·50배 가속 또는 지속적 대량거래 확정 아님. 가격 하락 관측만으로 LABT형 확정·저점방어·반등 확정 아님. 마지막 수집 04:24 KST로 이번 점검 시 1시간 이상 지연. 최신 SEC float/O/S·잠재 희석·즉시 매도 공급·A/B/C/D 미확인. 2026-10-28 신규 호재·공시 확인 안 됨. 위험 감점 없이 1차 잠정 관찰, 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
