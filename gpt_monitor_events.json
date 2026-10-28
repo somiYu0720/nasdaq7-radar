@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T20:48:50Z",
+  "updated_utc": "2026-10-28T21:00:28+00:00",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2763,6 +2763,39 @@
       "summary": "미국 법인 AXTI의 중국 Tongmei 사업 연계 관찰. 공식 AXTI IR 2026-10-01 공지에 따르면 2026-10-29 미국 정규장 마감 후 3분기 실적 발표 예정, 컨퍼런스콜 16:30 EDT(한국시간 10/30 05:30). 아직 실적 내용 미발표. 10/28 SEC 8-K의 Tongmei 자회사 $285m~$545m 투자계약은 별도 이벤트로 기록. 거래량/가격·2~50배 가속 미확인, 위험 감점 없음. 2차 최신 float/O/S 및 실제 즉시 매도 가능 공급 미확인.",
       "source_url": "https://investors.axt.com/Investors/Overview/",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-LUCD-RVOL5-20261028T195900Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LUCD",
+      "category": "1차_급등전_거래량5분상대지표5.95배_PROVISIONAL",
+      "detected_utc": "2026-10-28T21:00:28+00:00",
+      "summary": "2026-10-28 15:59 EDT(2026-10-29 04:59 KST) 공개 포착기 data.json: LUCD EARLY_PROVISIONAL, 5분 상대거래량 내부 지표 rvol5=5.95. 데이터 저장 2026-10-28 21:00:28 UTC. 공식 RVOL 산식, 원시 5분봉 연속 가속, 가격·저점방어·급등 전 확정 여부 미확인. 2차: 과거 2026-04-24 보통주 공모 완료 및 10월 상장기준 미달 공시 이력 존재, 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·현재 즉시 매도 가능 공급 미확인, A/B/C/D 보류. 위험 감점 없이 1차 후보 유지.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-PRSO-RVOL5-20261028T195900Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "PRSO",
+      "category": "1차_재점화_거래량5분상대지표4.46배_PROVISIONAL",
+      "detected_utc": "2026-10-28T21:00:28+00:00",
+      "summary": "2026-10-28 15:59 EDT(2026-10-29 04:59 KST) 공개 포착기 data.json: PRSO EARLY_PROVISIONAL, 5분 상대거래량 내부 지표 rvol5=4.46. 14:01 EDT rvol5=8.82 기존 기록과 별개 시간대의 재점화 관측이며 배수 감소를 지속 가속으로 해석하지 않음. 가격·저점방어·원시 5분봉 미확인. 2차: 10/26 NantCapital 약 $10m 사모투자 계약(3,271,355 보통주·16,593,563 선납형 워런트·19,864,918 일반 워런트), 10/28 종결 예정이나 실제 완료 미확인. 잠재 희석 D형 요소, 실제 즉시 매도 가능 물량·최신 float/O/S 미확인. 1차 위험 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CLRO-RVOL5-20261028T195900Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CLRO",
+      "category": "1차_재점화_거래량5분상대지표5.29배_PROVISIONAL",
+      "detected_utc": "2026-10-28T21:00:28+00:00",
+      "summary": "2026-10-28 15:59 EDT(2026-10-29 04:59 KST) 공개 포착기 data.json: CLRO EARLY_PROVISIONAL, 5분 상대거래량 내부 지표 rvol5=5.29. 기존 10/26 거래량 급증 및 Cortigent M&A 계약과 구별되는 새로운 시점의 거래량 신호. 원시 분봉, 5~15분 지속 가속, 현재 가격·저점방어 미확인. 2차: 기존 Cortigent 합병조건에 $10m~15m 단위증권 발행과 12.5m주 합병대가, 일부 재판매 등록 관련 잠재 공급 존재(B/D 요소 잠정); 실제 종결·행사·즉시 매도 가능한 잔여 공급·최신 float/O/S 미확인. 위험 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
