@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T15:29:47Z",
+  "updated_utc": "2026-10-28T16:21:31Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2355,6 +2355,39 @@
       "detected_utc": "2026-10-28T15:29:47Z",
       "summary": "10/28 23:08:32 KST 토스 저장 AXNX $1.00, 당시 표시 진행 중 1분봉 667,368주 이후 10/29 00:28:42 KST $0.7787로 비연속 스냅샷 간 약 -22.13% 추가 하락. 최신 표시 분봉 거래량 7,058주, O $0.789/H $0.7929/L $0.7787/C $0.7787. 기존 급락 이벤트의 후속 하락이며 새로운 공시·호재 아님. 비공식 수집 가격과 미확정 분봉으로 PROVISIONAL, 공식 RVOL 2/3/5/10/30/50배, 연속 분봉, 저점방어·반등 미확인. 1차 급락후 반등 관찰 유지, 위험 감점/삭제 없음. 2차 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·잠재 희석·즉시 매도 가능 공급 미확인, A/B/C/D 미분류. 손익비·매수 판단 별도.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-CANG-VOLUME_FIRST_PRICE_LAG-20261029T011241KST",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "CANG",
+      "category": "1차_거래량선행_가격지연_재점화관찰",
+      "detected_utc": "2026-10-28T16:21:31Z",
+      "summary": "중국계 1.0 토스 GitHub 비연속 수집본: 2026-10-28 23:24:55 KST CANG $1.24/표시 1분봉 55주, 10/29 00:10:47 $1.27/5,607주, 00:59:48 $1.255/16,409주, 01:12:41 $1.27/8,500주. 최초와 최종 관측가 +2.42%, 분봉 표시 거래량 증가와 가격 제한적 반응으로 거래량 선행·재점화 관찰 후보. 서로 다른 비연속 분봉 비교이므로 공식 RVOL 2/3/5/10/30/50배 가속 미확인; 지속 저점방어·호재 원인 미확인. CANG는 NYSE 거래 중국계 종목. 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·실제 즉시 매도 가능 공급 및 A/B/C/D 미판정. 1차 위험 감점 없음, 매수 권고 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/45dd4e849c8a6e91b79d368016b61adbe52a323f/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-AXNX-POST_CRASH_PRICE_REBOUND-20261029T012006KST",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "AXNX",
+      "category": "1차_급락후반등_가격회복관찰",
+      "detected_utc": "2026-10-28T16:21:31Z",
+      "summary": "2026-10-29 토스 GitHub 비연속 관측: AXNX 00:16:04 KST $0.7766/표시 1분봉 934주 → 01:03:56 $0.80755/1,786주 → 01:20:06 $0.85/4,763주. 00:16 대비 약 +9.45% 가격 회복, 01:20 표시 분봉 O $0.833/H $0.85/L $0.833. 10/28 대량거래 후 추가급락 기존 기록과 구별되는 후속 반등 관찰. 저점방어 지속·연속 분봉·공식 RVOL·상승추세 확정 미확인. 2차 10/13 SEC 6-K의 기존 발행주식 재판매 등록 제출기한 2027-03-31 연장 확인, B형 대기 요소 잠정이나 기존 F-3 효력/면제 경로/실제 즉시 매도 가능 물량 및 최신 float/O/S 미확인; 위험으로 1차 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/45dd4e849c8a6e91b79d368016b61adbe52a323f/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-POM-POST_REBOUND_SHARP_RETRACE-20261029T012059KST",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "POM",
+      "category": "1차_급락후반등_반등재하락_LABT형후속",
+      "detected_utc": "2026-10-28T16:21:31Z",
+      "summary": "기존 POM 급락 후 반등 기록의 새 후속 변화: 토스 GitHub 비연속 관측 2026-10-29 00:16:25 KST $2.10/표시 1분봉 40,089주 → 01:04:40 $1.91/22,878주 → 01:20:59 $1.80/29,377주. 00:16 대비 약 -14.29% 되밀림, 10/28 23:24 관측 $1.77 대비는 약 +1.69%. 앞선 반등 지속 실패 가능성 감시이며 반등 확정·실제 저점 방어·RVOL·연속 분봉 미확인. 기존 10/19 ADR 종료·10대1 병합 공시는 신규 뉴스 아님. 최신 float/O/S·잠재 희석·즉시 매도 가능 공급 및 A/B/C/D 미판정. 위험은 1차 순위에 감점/제외 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/45dd4e849c8a6e91b79d368016b61adbe52a323f/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
