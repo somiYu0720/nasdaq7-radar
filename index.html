@@ -438,6 +438,15 @@ main{width:100%;max-width:1480px!important}
  #prerisePanel .scroll:after{display:none!important}
 }
 
+/* Compact mobile TOP10: expand a ticker only when requested. */
+@media(max-width:700px){
+ #rankPanel #rankRows .rank-sec-detail{display:none!important}
+ #rankPanel #rankRows .rank-sec-detail.rank-detail-open{display:table-row!important}
+ #rankPanel #rankRows tr.rank-main-row{cursor:pointer}
+ #rankPanel #rankRows tr.rank-main-row td{padding-top:7px!important;padding-bottom:7px!important}
+ #rankPanel #rankRows .rank-sec-detail td{padding:7px 10px 9px!important;font-size:11px!important;line-height:1.45!important}
+ #rankPanel #rankRows .atm-detail{font-size:11px!important;line-height:1.4!important}
+}
 /* Mobile SEC context shown directly beneath each ranked ticker. */
 #rankRows .rank-sec-detail{display:none}
 @media(max-width:700px){
@@ -752,6 +761,7 @@ async function renderRanks(){
    tr.title=(cat==='oversold'?x.oversoldEvidence+' | ':'')+secRiskLabel(x.ticker)+' · 포착 점수와 독립';
    const eventCell=document.createElement('td');eventCell.textContent=rankEventLabel(x.ticker)||'—';eventCell.style.fontSize='12px';tr.append(eventCell);
    const secCell=document.createElement('td');secCell.textContent=secRiskLabel(x.ticker)||'—';secCell.style.whiteSpace='nowrap';secCell.style.fontSize='12px';tr.append(secCell);
+   tr.classList.add('rank-main-row');
    body.append(tr);
    const detail=document.createElement('tr');detail.className='rank-sec-detail';
    const detailCell=document.createElement('td');detailCell.colSpan=11;
@@ -762,7 +772,12 @@ async function renderRanks(){
    if(eventLabel){detailCell.append(eventStrong,eventText)}
    if(riskLabel){const icon=document.createElement('span');icon.className='supply-icon';icon.textContent='◈';icon.setAttribute('aria-hidden','true');const label=document.createElement('span');label.className='supply-label';label.textContent='공급 점검';const info=document.createElement('span');info.className='supply-info';info.textContent=riskLabel;riskLine.replaceChildren(icon,label,info);detailCell.append(riskLine)}
    if(atm){const line=document.createElement('div');line.className='atm-detail';const icon=document.createElement('span');icon.className='atm-detail-icon';icon.textContent='◈';icon.setAttribute('aria-hidden','true');const label=document.createElement('span');label.className='atm-detail-label';label.textContent=atm.label;const info=document.createElement('span');info.className='atm-detail-info';info.textContent=atm.detail;line.append(icon,label,info);detailCell.append(line)}
-   if(eventLabel||riskLabel||atm){detail.append(detailCell);body.append(detail)}
+   if(eventLabel||riskLabel||atm){
+    detail.append(detailCell);body.append(detail);
+    tr.setAttribute('aria-expanded','false');
+    tr.title='탭하면 SEC·ATM 상세 보기 / 다시 탭하면 접기';
+    tr.addEventListener('click',()=>{const open=detail.classList.toggle('rank-detail-open');tr.setAttribute('aria-expanded',String(open))});
+   }
   });
   if(rows.length<10){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));textCell(tr,rankEventLabel(ticker));textCell(tr,secRiskLabel(ticker));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인','SEC 미조회','희석 미판정'].forEach(v=>textCell(tr,v));body.append(tr)}}
   if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,minuteBars,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
