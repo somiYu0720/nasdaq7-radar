@@ -1,4 +1,30 @@
-<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NASDAQ 7.0 / 중국계 1.0 조기포착 점수</title><style>body{background:#0b1020;color:#e9f3ff;font:14px system-ui;margin:18px}h1{font-size:22px}h2{color:#64d9ff}small{color:#9baec8}table{width:100%;border-collapse:collapse;margin-bottom:25px}td,th{padding:9px 5px;border-bottom:1px solid #283449;text-align:left}th{color:#99bddb}.num{text-align:right;font-variant-numeric:tabular-nums}.warn{color:#ffcf7a}.good{color:#6ee7b7}.note{line-height:1.6;background:#17233a;padding:12px;border-radius:9px}a{color:#76dfff}</style><h1>📡 조기포착 TOP 10 · 수급 잠정점수</h1><div class="note" id="status">데이터 불러오는 중</div><section id="tables"></section><p><small>주의: 본 화면은 SEC 희석 위험으로 1차 순위를 감점하지 않습니다. RVOL 기준선이 없으면 RVOL을 표시하지 않습니다. 투자 권유 아님.</small></p><p><a href="./index.html">← 기존 포착기로 돌아가기</a></p><script>
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NASDAQ 7.0 / 중국계 1.0 조기포착 점수</title><style>body{background:#0b1020;color:#e9f3ff;font:14px system-ui;margin:18px}h1{font-size:22px}h2{color:#64d9ff}small{color:#9baec8}table{width:100%;border-collapse:collapse;margin-bottom:25px}td,th{padding:9px 5px;border-bottom:1px solid #283449;text-align:left}th{color:#99bddb}.num{text-align:right;font-variant-numeric:tabular-nums}.warn{color:#ffcf7a}.good{color:#6ee7b7}.note{line-height:1.6;background:#17233a;padding:12px;border-radius:9px}a{color:#76dfff}</style><style>
+*{box-sizing:border-box}
+@media(max-width:650px){
+ body{margin:0!important;padding:10px 8px 22px!important;font-size:11px!important}
+ h1{font-size:16px!important;margin:5px 0 8px!important}
+ h2{font-size:16px!important;margin:13px 0 5px!important}
+ .note{padding:8px!important;font-size:10px!important;line-height:1.45!important;margin:5px 0!important}
+ #tables{width:100%}
+ #tables table{width:100%!important;table-layout:fixed!important;margin-bottom:12px!important}
+ #tables th,#tables td{padding:7px 2px!important;font-size:10px!important;line-height:1.3!important;overflow-wrap:anywhere!important;word-break:normal!important;vertical-align:middle!important}
+ #tables th:nth-child(1),#tables td:nth-child(1){width:6%;text-align:center}
+ #tables th:nth-child(2),#tables td:nth-child(2){width:16%;font-size:11px!important}
+ #tables th:nth-child(3),#tables td:nth-child(3){width:15%}
+ #tables th:nth-child(4),#tables td:nth-child(4){width:17%}
+ #tables th:nth-child(5),#tables td:nth-child(5){width:12%}
+ #tables th:nth-child(6),#tables td:nth-child(6){width:19%}
+ #tables th:nth-child(7),#tables td:nth-child(7){width:15%}
+ #tables th:nth-child(5){font-size:0!important}
+ #tables th:nth-child(5):after{content:'점수';font-size:10px}
+ #tables th:nth-child(6){font-size:0!important}
+ #tables th:nth-child(6):after{content:'수집비';font-size:10px}
+ #tables td:nth-child(7){font-size:9px!important}
+ #tables td:nth-child(2) b{font-weight:750}
+ #tables td:nth-child(2) .warn{display:block;font-size:9px}
+ #tables .num{white-space:nowrap!important;font-variant-numeric:tabular-nums;letter-spacing:-.3px}
+}
+</style><h1>📡 조기포착 TOP 10 · 수급 잠정점수</h1><div class="note" id="status">데이터 불러오는 중</div><section id="tables"></section><p><small>주의: 본 화면은 SEC 희석 위험으로 1차 순위를 감점하지 않습니다. RVOL 기준선이 없으면 RVOL을 표시하지 않습니다. 투자 권유 아님.</small></p><p><a href="./index.html">← 기존 포착기로 돌아가기</a></p><script>
 const $=id=>document.getElementById(id);
 const get=async f=>{const r=await fetch('./'+f+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error(f+' '+r.status);return r.json()};
 function rows(d,h,key){const latest=(h.snapshots||[]).slice(-180),previous=latest.length>1?latest[latest.length-2]:null;const now=(d[key]||[]).filter(x=>x.ticker&&Number.isFinite(+x.minute_volume)&&+x.minute_volume>=0);const max=Math.max(1,...now.map(x=>+x.minute_volume));return now.map(x=>{const low=+x.low,high=+x.high,close=+x.close;const position=Number.isFinite(low)&&Number.isFinite(high)&&high>low?Math.max(0,Math.min(1,(close-low)/(high-low))):null;const volume=Math.round(25*Math.log1p(+x.minute_volume)/Math.log1p(max));const candle=position===null?10:Math.round(position*20);const prev=(previous?.[key]||[]).find(y=>y.ticker===x.ticker);const delta=prev&&+prev.minute_volume>0?+x.minute_volume/(+prev.minute_volume):null;const q=Date.parse(x.quote_time),updated=Date.parse(d.updated_utc);const stale=!Number.isFinite(q)||!Number.isFinite(updated)||updated-q>5*60000;return {...x,score:volume+candle,delta,stale};}).sort((a,b)=>b.score-a.score||b.minute_volume-a.minute_volume).slice(0,10)}
