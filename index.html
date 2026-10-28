@@ -646,16 +646,19 @@ function rankEventLabel(ticker){
  return '공시 '+f.form+' '+f.date+' (내용 검증 전)';
 }
 // SEC-backed ATM annotations; do not interpret absence as no ATM.
+let atmStatuses={};
+async function loadAtmStatuses(){try{const r=await fetch('./atm_status.json?t='+Date.now(),{cache:'no-store'});if(r.ok)atmStatuses=(await r.json()).tickers||{}}catch(e){}}
 const atmEvidence={XXII:{label:'ATM 검증 필요',detail:'2026-10-28 판매대리인 추가 공시 · 현재 사용 가능 여부·실제 매각 여부 미확인'}};
 function atmInfo(ticker){
  const key=String(ticker||'').toUpperCase();
+ const known=atmStatuses[key];if(known)return {label:'ATM '+known.status,detail:known.reason,url:known.source||'',status:known.status};
  const record=sharedSecEvidence?.tickers?.[key];
  const filings=Array.isArray(record?.evidence)?record.evidence.filter(x=>String(x.category||'').toUpperCase()==='ATM'):[];
  if(filings.length)return {label:'ATM 검증 필요',detail:'SEC ATM 관련 문구 '+filings.length+'건 · 현재 사용 가능 여부·실제 매각 여부 모두 미확인',url:filings[0]?.source_url||''};
  return atmEvidence[key]||null;
 }
 async function renderRanks(){
- await Promise.all([loadSharedSecEvidence(),loadSecRankSnapshot()]);
+ await Promise.all([loadSharedSecEvidence(),loadSecRankSnapshot(),loadAtmStatuses()]);
  const cat=$('rankCategory').value,body=$('rankRows');body.replaceChildren();
  try{
   const wr=await fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'});
@@ -735,7 +738,7 @@ async function renderRanks(){
    const tag=document.createElement('span');tag.className='cat-tag cat-'+cat;
    tag.textContent=({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량'})[cat]||cat;
    [i+1,x.ticker].forEach(v=>textCell(tr,String(v)));
-   const atm=atmInfo(x.ticker);if(atm){const badge=document.createElement('span');badge.className='atm-badge';badge.textContent='ATM?';badge.title=atm.label+' · '+atm.detail;tr.children[1].append(' ',badge)}
+   const atm=atmInfo(x.ticker);if(atm){const badge=document.createElement('span');badge.className='atm-badge';badge.textContent=atm.status==='과거 매각 확인'?'ATM 매각기록':atm.status==='계약 확인'?'ATM 계약':'ATM?';badge.title=atm.label+' · '+atm.detail;tr.children[1].append(' ',badge)}
    const category=document.createElement('td');category.append(tag);tr.append(category);
    [move,rankNum(x.minute_volume).toLocaleString('ko-KR'),x.accel===null?'미확인':x.accel.toFixed(2)+'배'+(x.thinBase?' (저표본)':''),x.pct===null?'미확인':(x.pct>=0?'+':'')+x.pct.toFixed(2)+'%',(x.score===null?'산정 대기':x.score+' / 100'+(cat==='oversold'?' 관측기준':earlier?'':' 잠정')),x.price??'—'].forEach(v=>textCell(tr,String(v)));
    const volumeCell=tr.children[4];
