@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T21:00:28+00:00",
+  "updated_utc": "2026-10-28T22:01:48Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2796,6 +2796,17 @@
       "summary": "2026-10-28 15:59 EDT(2026-10-29 04:59 KST) 공개 포착기 data.json: CLRO EARLY_PROVISIONAL, 5분 상대거래량 내부 지표 rvol5=5.29. 기존 10/26 거래량 급증 및 Cortigent M&A 계약과 구별되는 새로운 시점의 거래량 신호. 원시 분봉, 5~15분 지속 가속, 현재 가격·저점방어 미확인. 2차: 기존 Cortigent 합병조건에 $10m~15m 단위증권 발행과 12.5m주 합병대가, 일부 재판매 등록 관련 잠재 공급 존재(B/D 요소 잠정); 실제 종결·행사·즉시 매도 가능한 잔여 공급·최신 float/O/S 미확인. 위험 감점 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CHRS-TAGMOKITUG_INTERIM_RESULTS-20261028T200500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CHRS",
+      "category": "1차_임상1b2a_중간결과발표_공식IR_VERIFIED",
+      "detected_utc": "2026-10-28T22:01:48Z",
+      "summary": "Coherus Oncology 2026-10-28 16:05 EDT 공식 IR 보도자료: tagmokitug+toripalimab+화학요법 1차 식도편평세포암(ESCC) 임상 1b 중간결과, 10/14 컷오프 확인 객관적 반응률 cORR 75%(6/8), 후속 확인 89%(8/9), PD-L1 양성 평가가능 환자군 100%(소표본). 2차 ESCC 700mg군 cORR 16.7%(1/6), mPFS 5.5개월. 병용 치료 환자 120명 중 3~5등급 면역관련 이상반응 20%; FDA 승인·대규모 확증 임상 성공 아님. 공식 발행사 IR 발표 원문 검증, 동시 SEC 8-K 원문은 미확인. 1차 강력 임상 이벤트 포착, 현재 분봉 2/3/5/10/30/50배 가속·저점 방어·급등 전 여부 미확인으로 거래량 순위 산정 보류. 2차 SEC 2026-08-28 8-K: 최대 $50m ATM(효력 S-3) 존재, C형 활성 공급 가능성 잠정. 실제 발행/매도 물량·잔여 한도·최신 float/O/S·기타 워런트/전환/PIPE/ELOC/Resale 미확인. 잠재 희석과 실제 즉시 매도 공급 구분, 위험은 1차 순위 미반영.",
+      "source_url": "https://investors.coherus.com/news-releases/news-release-details/coherus-oncology-announces-compelling-tagmokitug-interim",
+      "verification": "VERIFIED"
     }
   ]
 }
