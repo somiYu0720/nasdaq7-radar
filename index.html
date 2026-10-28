@@ -646,8 +646,14 @@ function rankEventLabel(ticker){
  return '공시 '+f.form+' '+f.date+' (내용 검증 전)';
 }
 // SEC-backed ATM annotations; do not interpret absence as no ATM.
-const atmEvidence={XXII:{label:'ATM 계약 확인',detail:'2026-10-28 판매대리인 추가 공시 · 실제 잔여 한도 및 최신 매각 여부 재검증 필요'}};
-function atmInfo(ticker){return atmEvidence[String(ticker).toUpperCase()]||null}
+const atmEvidence={XXII:{label:'ATM 관련 공시 확인',detail:'2026-10-28 판매대리인 추가 공시 · 잔여 한도 및 최신 매각 여부 미검증'}};
+function atmInfo(ticker){
+ const key=String(ticker||'').toUpperCase();
+ const record=sharedSecEvidence?.tickers?.[key];
+ const filings=Array.isArray(record?.evidence)?record.evidence.filter(x=>String(x.category||'').toUpperCase()==='ATM'):[];
+ if(filings.length)return {label:'SEC ATM 관련 문구 발견',detail:'ATM 관련 문구 '+filings.length+'건 · 활성 여부 및 즉시 매각 가능 공급 미검증',url:filings[0]?.source_url||''};
+ return atmEvidence[key]||null;
+}
 async function renderRanks(){
  await Promise.all([loadSharedSecEvidence(),loadSecRankSnapshot()]);
  const cat=$('rankCategory').value,body=$('rankRows');body.replaceChildren();
