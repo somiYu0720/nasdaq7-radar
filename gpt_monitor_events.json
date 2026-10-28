@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T20:31:23.220Z",
+  "updated_utc": "2026-10-28T20:31:54Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2641,6 +2641,94 @@
       "detected_utc": "2026-10-28T20:31:23.220Z",
       "summary": "2026-10-29 KST 토스 비연속 저장 관측 03:19:20 $1.65(표시 1분봉 30주) → 04:23:01 $1.55(표시 1분봉 6,801주), 약 -6.06%/약 64분. 최신 표시 분봉은 $1.53~$1.55 구간; 1분 6,801주가 과거 표본보다 크지만 서로 다른 시점·낮은 기준 분봉이므로 공식 RVOL/2·3·5·10·30·50배 가속 또는 지속적 대량거래 확정 아님. 가격 하락 관측만으로 LABT형 확정·저점방어·반등 확정 아님. 마지막 수집 04:24 KST로 이번 점검 시 1시간 이상 지연. 최신 SEC float/O/S·잠재 희석·즉시 매도 공급·A/B/C/D 미확인. 2026-10-28 신규 호재·공시 확인 안 됨. 위험 감점 없이 1차 잠정 관찰, 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_CHSN_SHAREHOLDER_APPROVAL_100FOR1_20261027_DATE_ONLY",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "china1",
+      "ticker": "CHSN",
+      "category": "1차_공시_주주총회100대1병합승인_VERIFIED",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "summary": "SEC 2026-10-27 6-K: Chanson International의 10/26 임시주총에서 자본감소·재편과 Class A/B 각 100:1 주식병합안 승인. 병합 효력은 자본감소·재편 효력 발생 10 clear days 후 또는 나스닥이 승인한 더 늦은 날로 조건부; 10/28 병합 완료로 오인 금지. 1차 뉴스/사전공시 신호로 독립 포착, 공급 위험은 감점 없음. 2차 2026-01-07 424B5 최대 $219.375m ATM 등록 경로(C형 가능) 확인; 최신 float/O/S, 실제 ATM 판매잔량·즉시 매도 가능 공급 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1825349/000118518526005015/chsn6k102726.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_CHSN_UNUSUAL_VOLUME_PRICE_20261028T195000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "china1",
+      "ticker": "CHSN",
+      "category": "1차_급등진행_극단거래량_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "summary": "StockTitan 2026-10-28 15:50 EDT 15분 지연 장마감 직전 보드: CHSN 누적 상대거래량 2004배(직전 20거래일 동일시각 대비), 약 7200만주, 전일 대비 +30% 표시. 10/27 SEC 6-K에서 100:1 병합 승인 사실 확인, 병합 효력 발생일 미확정. 거래량 수치는 5~15분 연속 가속 또는 16:00 확정 종가가 아님. 급등 진행 1차 포착, 희석 위험 감점 없음. 2차 기존 ATM 판매 경로 존재(C형 경로 가능), 최신 float/O/S·실제 발행/매도 잔량 미확인.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_FTFT_UNUSUAL_VOLUME_PRICE_20261028T195000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "china1",
+      "ticker": "FTFT",
+      "category": "1차_급등진행_거래량급증_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "summary": "StockTitan 2026-10-28 15:50 EDT 15분 지연 보드 FTFT 상대거래량 335배, 누적 약 1470만주, +52% 표시. 회사 신규 호재/인과관계와 정규장 최종 종가·5~15분 가속은 미확인. 1차 급등 진행 포착, 위험 감점 없음. 2차 SEC 과거 자금조달·워런트 등 최신 재검증 필요, float/O/S·ATM/ELOC/PIPE/Resale·실제 즉시 매도 가능 공급 및 A/B/C/D 미확정.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_JDZG_CRASH_VOLUME_20261028T195000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "china1",
+      "ticker": "JDZG",
+      "category": "1차_대량거래동반급락_반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "summary": "StockTitan 2026-10-28 15:50 EDT 지연 보드 JDZG -75%, 상대거래량 2.9배, 누적 240만주. 급락과 대량거래 동시 신호로 LABT형 1차 포착 유지. 급락 원인, 실제 저점방어, 연속 5~15분 가속 및 최종 종가 미확인. 2차 SEC 최신 float/O/S·희석·실제 즉시 매도 가능 공급·A/B/C/D 미확정. 위험 감점·삭제 없음.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_PLCE_CRASH_VOLUME_20261028T195000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "ticker": "PLCE",
+      "category": "1차_급락대량거래_반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "summary": "StockTitan 2026-10-28 15:50 EDT 지연 보드 PLCE -53%, 상대거래량 30배, 누적 약 570만주. LABT형 급락+대량거래 1차 신호, 저점 방어·반등 확인 전. 하락 원인과 최종 종가, 원시 분봉, SEC 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인. 위험은 1차 순위 감점하지 않음.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_KPTI_UNUSUAL_VOLUME_PRICE_20261028T195000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "ticker": "KPTI",
+      "category": "1차_급등진행_거래량급증_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "summary": "StockTitan 2026-10-28 15:50 EDT 지연 보드 KPTI +70%, 상대거래량 34배, 누적 약 4210만주. 뉴스 촉매와 16:00 최종 종가, 원시 분봉 5~15분 가속 독립 미검증. 급등 진행 포착, 위험 감점 없음. 2차 SEC 최신 float/O/S·ATM/ELOC/PIPE/Resale/워런트/전환·즉시 매도 가능 공급·A/B/C/D 미확인.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_BEAT_ALIGN_ACS_RESULTS_SCHEDULE_20261028T123100Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "ticker": "BEAT",
+      "category": "1차_사전임상데이터발표일정_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "summary": "HeartBeam 2026-10-28 08:31 EDT 공식 발표: ALIGN-ACS 심장마비 평가용 3D ECG 파일럿 연구 결과를 2026-11-01 13:20 PDT TCT 학회에서 발표 예정. 연구 결과는 아직 공개되지 않았고 해당 적응증 FDA 허가가 완료된 것도 아님. StockTitan 15:50 EDT 지연 보드 BEAT +32%, RVOL 4.4배, 약 500만주. 2차 SEC 2026-08-14 8-K/424B5 최대 $25m ATM 판매 경로(C형 가능), 실제 판매잔량·현재 float/O/S·즉시 매도 가능 공급 미확인. 발표일정은 공식 회사 보도자료 확인, 당일 SEC 별도 공시 미확인으로 PROVISIONAL.",
+      "source_url": "https://ir.heartbeam.com/news-events/press-releases/detail/134/heartbeam-to-present-results-of-align-acs-study-for-heart",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE_PODC_STRATEGIC_INTEREST_SPECIAL_COMMITTEE_20261028T150000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "ticker": "PODC",
+      "category": "1차_인수관심_특별위원회_급등진행_PROVISIONAL",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "summary": "PodcastOne 2026-10-28 11:00 EDT 공식 보도자료: 복수의 전략적 투자자들로부터 잠재 인수 관심을 받고 협의 중이며 독립이사 특별위원회 구성, 재무자문사 선임 의향 발표. 확정 인수계약·인수가격·종결일은 없음. StockTitan 15:50 EDT 지연 보드 PODC +36%, 상대거래량 86배, 약 440만주. 1차 M&A 가능성 뉴스 신호만 포착; 2차 SEC 최신 float/O/S·전환/워런트/ATM/재판매·실제 즉시 매도 가능 공급 미확인, A/B/C/D 미판정. 당일 SEC 확인 전 PROVISIONAL.",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/sports-leisure-and-entertainment/podcastone-nasdaq-podc-board-of-directors-forms-special-committee-1243131",
       "verification": "PROVISIONAL"
     }
   ]
