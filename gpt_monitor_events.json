@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T19:05:08Z",
+  "updated_utc": "2026-10-28T19:07:53Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2498,6 +2498,17 @@
       "detected_utc": "2026-10-28T19:05:08Z",
       "summary": "GitHub 토스 비연속 관측 2026-10-29 02:52:25 KST MKDW $0.16505/표시 분봉 4,827주 → 02:59:29 $0.1691/35,839주 → 03:29:38 $0.1800/1,987주 → 03:59:56 $0.18005/603주. 02:52 관측가 대비 마지막 저장가 약 +9.09%, 이전 급락 후 가격 회복 잠정 관찰. 37~67분 간격 비연속 스냅샷이므로 5~15분 연속 가속·실제 저점/저점 방어·정규 RVOL 미확인. 앞선 10/28 23:08 재점화 후 급락 기록의 별도 후속 반등 관측, 상승 추세 확정 아님. 2차 과거 ATM 관련 기록 존재하나 최신 SEC 원문/현재 float/O/S·잠재 희석·실제 즉시 매도 가능 공급·A/B/C/D 최종 유형 미확인. 공급 위험은 1차 순위에 미반영. 매수 적합성 별도.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/8229f17ac22bcb2ea69804c1e1225d485426840e/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-LABT-RVOL5_ACCEL-20261028T184700Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LABT",
+      "category": "1차_5분상대거래량8.44배_재점화관찰_PROVISIONAL",
+      "detected_utc": "2026-10-28T18:47:27+00:00",
+      "summary": "2026-10-28 14:47 EDT(2026-10-29 03:47 KST) GitHub data.json 저장본에서 LABT 5분 상대거래량 지표 rvol5=8.44, EARLY_PROVISIONAL, history alert_sent=false 확인. 기존 gpt_monitor_events.json에 LABT 동일 포착 기록 없어 신규 1차 재점화 관찰. 지표 산식·원시 5분봉·공식 RVOL·연속 5~15분 가속·동시 가격상승·저점방어는 독립 검증 미완료. 별도 토스 partial 저장본에서 LABT 2026-10-29 03:54 KST 지연 표시가 $0.28505/표시 1분봉 거래량 318주로 관측되나 14:47 EDT 거래량 신호와 비동시 자료이므로 동시 상승 근거로 사용하지 않음. 2차 SEC 2026-08-17 424B3(6/30 10-Q 첨부): 8/3 O/S 2,369,688주, 6/30 Series C 전환우선주 잔여 497,157주 및 워런트 30,076주, 가격연동 전환 구조 확인(D형 잠재 공급 요소). 최신 float/O/S·ATM/ELOC/PIPE/Resale 효력·현재 전환잔량·실제 즉시 매도 가능한 공급량은 미확인. 잠재 희석과 실제 공급 분리, 위험에 따른 1차 감점·배제·순위 변경 없음. 실시간 시세나 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
