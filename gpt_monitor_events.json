@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T17:55:02Z",
+  "updated_utc": "2026-10-28T18:13:11Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2443,6 +2443,17 @@
       "detected_utc": "2026-10-28T17:55:02Z",
       "summary": "2026-10-29 02:18:42 KST 토스 수집 비연속 저장가 $0.3217(표시 1분봉 거래량 2주) → 02:52:11 KST $0.3499(표시 1분봉 거래량 130주), 약 +8.77% 가격 이상 움직임. 거래량은 극히 적어 가격 신호의 신뢰도 낮고 매수세 지속/공식 RVOL 2·3·5·10·30·50배/연속 5~15분 가속/저점 방어는 미확인. 1차 가격 이상 신호만 포착하고 위험 감점·삭제 없음. 2차 SEC 2026-07-15 6-K/424B5: Streeterville Capital에 원금 $3.195m 전환사채 발행, 10일 최저 VWAP의 80% 등을 적용하는 상환주식 전환 조건, 최대 2,970,440주 등록 구조 확인(D형 전환·가격연동 요소). 실제 현재 전환·매도 가능 물량, 최신 float/O/S·잔여 전환액 미확인. 2026-10-14 6-K는 나스닥 $1 미만 통지 및 2027-04-12 시정기한 공시로 기존 위험이며 이번 신규 호재 아님. 비공식 부분 수집값 기반 PROVISIONAL, 매수 적합성 판단 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/9b221dc2f447caa797b2fd46761c74e9ea1cdf0c/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_조기포착사전공시_PRSO_RVOL5_20261028T180100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "PRSO",
+      "category": "1차_5분상대거래량8.82배_급등전재점화관찰_PROVISIONAL",
+      "detected_utc": "2026-10-28T18:13:11Z",
+      "summary": "2026-10-28 14:01 EDT(한국 10/29 03:01) GitHub 공개 data.json 14:02 EDT 갱신본에서 PRSO 5분 상대거래량 지표 rvol5=8.82, EARLY_PROVISIONAL 표기. 1차 거래량 가속 신호로 새로 관찰하되 지표 산식·원시 5분봉·공식 RVOL 독립 검증 전이므로 PROVISIONAL. 토스 별도 03:03 KST 수집본은 PRSO 마지막 체결 표시가 02:49 KST $0.4317로 약 14분 지연, 당시 가격 상승률/저점방어/연속 5~15분 가속 미확인. 급등 전·재점화 관찰 잠정이며 확정 TOP10 순위나 실시간 매수 신호 아님. 2026-10-26 SEC 8-K에서 NantCapital 약 $10m 사모발행 계약과 10/28 예상 종결 일정은 기존 별도 이벤트로 등록되어 중복 뉴스 추가 안 함; 실제 종결은 미확인. 2차 SEC: 보통주 3,271,355주, PFW 16,593,563주, 워런트 최대 19,864,918주 계약상 잠재 공급 D형 복합 요소, 즉시 매도 가능한 실제 물량·최신 float/O/S·등록 효력/잔여 ATM/ELOC 미확인. 위험은 1차 포착 순위에 감점·배제 미적용, 손익비·매수 적합성 별도.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
