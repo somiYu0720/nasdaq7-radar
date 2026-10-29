@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T00:31:44.215Z",
+  "updated_utc": "2026-10-29T00:32:09.388Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -2894,39 +2894,6 @@
       "detected_utc": "2026-10-28T23:34:27Z",
       "summary": "2026-10-28 08:00 EDT Geron 공식 IR 발표: 독립 데이터감시위원회가 재발/불응 골수섬유증 3상 IMpactMF(imetelstat, 327명) 전체생존 1차 지표 달성 가능성이 낮다고 판단해 회사가 시험 중단 결정. 새로운 안전성 신호는 보고되지 않음. 10/28 장중 큰 폭 하락은 보도됐지만 이번 점검에서 원시 분봉·상대거래량 및 저점 방어는 미확인, 반등 확정 아님. RYTELO 기존 다른 적응증 승인 자체가 철회된 것은 아님. 회사 공식 IR 및 8-K 전재 자료 확인, SEC 직접 원문은 이번 점검 미대조이므로 PROVISIONAL. 2차 최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·잠재 희석·즉시 매도 가능 공급 미확인, A/B/C/D 보류. 1차 위험 감점·후보 삭제 없음.",
       "source_url": "https://ir.geron.com/news-releases/news-release-details/geron-corporation-provides-update-phase-3-impactmf-clinical",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0급등전신호-MKDW-POSTMARKET_SAMPLED_PRICE_VOLUME_REIGNITION-20261029T002846Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "MKDW",
-      "category": "1차_재점화_시간외가격회복_비연속분봉거래량증가_PROVISIONAL",
-      "detected_utc": "2026-10-29T00:30:15Z",
-      "summary": "토스 저장 표본(2026-10-29 KST): 09:04:19 가격 $0.1710, 표시 1분봉 100주; 09:28:46 가격 $0.1788, 표시 1분봉 1,213주. 약 24분 동안 가격 +4.56%, 표본 분봉 거래량 12.13배 차이. 연속 분봉이 아니므로 공식 RVOL·5~15분 가속 배수 또는 매집 확정 아님. 08:49 가격 $0.1767 이후 09:04 하락 후 회복한 시간외 재점화 관찰. 2차: 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 물량 미확인, A/B/C/D 미판정. 위험 감점·후보 삭제 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0급등전신호-BDAI-POSTMARKET_PRICE_RECOVERY-20261029T002900Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "BDAI",
-      "category": "1차_급등진행_시간외가격상승_저거래량_PROVISIONAL",
-      "detected_utc": "2026-10-29T00:30:15Z",
-      "summary": "토스 비연속 저장 표본(2026-10-29 KST): 08:29:46 $2.45(표시 분봉 299주), 09:17:16 $2.62(1주), 09:29:00 $2.63(35주). 약 59분 가격 +7.35% 관측. 거래량 매우 적어 매수세 가속·상승 지속·저점 방어 확정 불가, 공식 RVOL·2/3/5/10/30/50배 미확인. 기존 10/27 SEC 6-K/A상 Ju Fu 인수 2차 종결은 10월 말 예정이고 10/16 현금 $5m 지급, 4m주 발행 예정이나 종결 완료 미확인. 잠재 공급 B형 제한 요소, 실제 즉시 매도 가능 공급·최신 float/O/S·기타 계약별 ATM/ELOC/Resale/PIPE/워런트/전환 미확인으로 A/B/C/D 최종 미판정. 2차 위험 감점 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0급등전신호-AXNX-POSTMARKET_REBOUND_CONTINUATION-20261029T002845Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "AXNX",
-      "category": "1차_급락후반등관찰_시간외가격회복_PROVISIONAL",
-      "detected_utc": "2026-10-29T00:30:15Z",
-      "summary": "토스 비연속 저장 표본(2026-10-29 KST): 08:50:12 $0.8902(표시 분봉 298주), 09:14:15 $0.9393(316주), 09:28:45 $0.9383(163주). 약 39분 가격 +5.40% 회복 후 소폭 되밀림. 이전 01:20 반등과 구분되는 시간외 후속 가격 관측. 저점 방어·지속 매수세·공식 RVOL 및 2~50배 가속 미확인. 2차: 10/13 SEC 6-K에서 기존 발행 주식의 재판매 등록 제출기한 2027-03-31 연장 확인(B형 대기 요소), 다른 경로를 통한 즉시 매도 가능 공급·최신 float/O/S·ATM/ELOC/PIPE/워런트/전환 잔량 미확인, A/B/C/D 최종 미판정. 위험 감점 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
