@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T18:54:09Z",
+  "updated_utc": "2026-10-29T19:31:36Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3576,6 +3576,72 @@
       "detected_utc": "2026-10-29T18:54:09Z",
       "summary": "2026-10-29 미국 정규장 GitHub Toss 부분수집 비연속 가격 표본: 앞서 같은 레이더에 기록된 2026-10-30 02:37:56 KST BURU $0.3556(급등 후 되돌림) → 03:37:52 KST $0.4063, 약 60분 관측가 +14.26% 회복. 앞서 00:28:17 KST 관측 $0.4187 대비 -2.96%로 아직 이전 관측 고점 아래. 03:38 표시 진행 중 1분봉 거래량 740,902주(미완료·지연 가능); 연속 5~15분 가속·2/3/5/10/30/50배 RVOL·실제 저점 방어·독립 체결 대조는 미확인. 기존 상승·급락 이벤트와 다른 후속 회복 관측으로 급락 후 반등 관찰/재점화 가능성만 잠정 분류하며 확정 매수 신호가 아님. 2026-10-29 상장유지 기준 회복 발표는 기등록 뉴스로 중복 등록하지 않음. 2차 2026-10-15 S-3/10-22 EFFECT/10-23 424B3 재판매 최대 2천만 주 경로 및 기존 전환 증권 등 C/D형 요소 검토; 실제 즉시 매도 가능 잔여량·최신 Float/O/S·최종 A/B/C/D 미확인. 희석·상장 위험을 1차 감점·삭제·순위변경에 사용하지 않음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-LVWR-Q3_GOING_CONCERN_AND_GUIDANCE_WITHDRAWAL-20261029T110000Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "LVWR",
+      "category": "1차_급락_실적이벤트_급락후반등관찰",
+      "detected_utc": "2026-10-29T19:31:36Z",
+      "summary": "10/29 07:00 EDT 발행사 Q3 실적 발표: 매출 $7.9m(+38% YoY), 순손실 $18.6m, 현금 $39.9m. 회사는 계속기업 불확실성과 2026 영업손실 전망 철회를 공시. 10/29 공개 지연 시세 약 -42.9%, 229만주. 1차 가격 급락 관찰로 포착, 반등/분봉 저점방어 미확인. SEC 원문 및 최신 float/O/S·실제 즉시 매도 공급 미검증, 위험으로 1차 감점/삭제 없음.",
+      "source_url": "https://www.stocktitan.net/news/LVWR/live-wire-group-inc-reports-2026-third-quarter-financial-84e9uxb60077.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-OPTT-S1A_PRIMARY_OFFERING_WARRANTS-20261029T130300Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "OPTT",
+      "category": "1차_급락_대량거래_급락후반등관찰_2차공급검증",
+      "detected_utc": "2026-10-29T19:31:36Z",
+      "summary": "10/29 09:03 EDT SEC S-1/A 접수: 주식 최대 9,375,000주 및 동수 워런트, 가정 발행가 주식+워런트 $0.64, 총 $6m 공모 제안. 수정 S-1은 미효력 예비 등록서로 공모 종결·실제 발행 및 매도 확정 아님. 10/29 공개 시세 약 -40.4%, 323만주. 1차 급락 신호 유지; 2차 잠재 공급 D형 요소(워런트·전환), 현재 즉시 매도 가능한 신규 물량 미확인. 10/22 O/S 10,586,732주 공시; 최신 float 및 행사 잔량 대조 필요.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1378140/000149315226049198/forms-1a.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-XRX-DEBT_EXCHANGE_Q3_GUIDANCE_CUT-20261029T103500Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "XRX",
+      "category": "1차_급락_실적채무이벤트_급락후반등관찰",
+      "detected_utc": "2026-10-29T19:31:36Z",
+      "summary": "10/29 06:35 EDT 회사 발표: 2028 만기 채무 약 $174m 교환 계획, 2030년으로 일부 연장 및 원금 약 $53m 감축 예상, 종결은 약 11/13 예정. 3분기 실적·연간 이익/현금흐름 전망 하향·배당 중단 소식과 함께 10/29 공개 지연 시세 약 -39.1%, 2,371만주. 교환 종결·신주 실제 발행량 미확인. 1차 급락 신호 유지, 2차 공급 검토 별도.",
+      "source_url": "https://www.stocktitan.net/news/XRX/xerox-announces-exchange-transaction-to-extend-portion-of-2028-debt-q09lulcjlj8d.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-GCTK-8K_SPLIT_AND_ELOC_DISCLOSURE-20261028T200500Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "GCTK",
+      "category": "1차_급락_거래량_급락후반등관찰_2차공급검증",
+      "detected_utc": "2026-10-29T19:31:36Z",
+      "summary": "10/28 16:05 EDT SEC 8-K: 10/23 효력 1:2 병합, 10/26 조정거래 개시; 병합 직전 O/S 2,368,237주→직후 약 1,184,119주. 첨부 합병 pro forma에 3년간 최대 $50m ELOC 경로, 당시 회사는 해당 계약으로 주식 미매각이라고 기재. 10/29 공개 지연 시세 약 -32.7%, 364만주. 병합·ELOC는 2차 D형 공급 요소이나 실제 즉시 매도 가능 잔량 및 최신 float/O/S 미확인. 1차 순위 감점/삭제 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1506983/000149315226048981/form8-k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-AIOK-UNUSUAL_VOLUME_PRICE_DROP-20261029T190301Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "AIOK",
+      "category": "1차_상대거래량급증_가격급락_급락후반등관찰",
+      "detected_utc": "2026-10-29T19:31:36Z",
+      "summary": "10/29 15:03 EDT StockTitan 지연 Argus 표본 AIOK -29% 전후, 당일 누적 약 428만주, RVol(M) 약 66.7배(20일 동시간 프로필 대비; 5분 가속 아님). 장중 급락·대량거래 동시 포착, 직접 하락 원인 및 5~15분 저점 방어·반등 미확인. SEC/float/O/S/즉시매도가능 공급 2차 미검증; 위험으로 1차 감점·삭제 없음.",
+      "source_url": "https://www.stocktitan.net/scanner/momentum",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-SPRC-RVOL5_3P22-20261029T185400Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "SPRC",
+      "category": "1차_5분상대거래량3배_급등전미확인",
+      "detected_utc": "2026-10-29T19:31:36Z",
+      "summary": "10/29 14:54 EDT GitHub data.json 저장본 SPRC rvol5=3.22, signal EARLY_PROVISIONAL. 5분 상대거래량 이상 신호지만 연속 5~15분 가속, 가격 방향, 저점방어·반등 미확인. 기존 10/26 워런트 공시와 별개의 10/29 거래량 신호로 포착, 2차 최신 float/O/S·실제 매도 가능 공급 미검증. 위험으로 1차 감점·삭제 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
