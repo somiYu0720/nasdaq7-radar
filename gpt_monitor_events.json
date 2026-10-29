@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T19:46:55Z",
+  "updated_utc": "2026-10-29T20:31:21Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3675,6 +3675,17 @@
       "detected_utc": "2026-10-29T19:46:55Z",
       "summary": "GitHub data.json 2026-10-29 19:46:55 UTC 저장본: GCDT 19:35 UTC 5분봉 rvol5=5.39, EARLY_PROVISIONAL. 직전 거래량 양수인 완료 5분봉 12개 평균 대비 지표(동시간대 조정 아님). 04:38:10 KST 토스 별도 가격 표본 $0.12705, 분봉과 관측 시점 불일치. 과거 급락 종목으로 급락 후 반등 관찰 분류하되 반등 확정 아님. 연속 5~15분 가속·저점방어·상승률·SEC 공급 A/B/C/D 미확인; 위험에 의한 1차 순위 변경 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-MKDW-POST_DROP_INTRADAY_PRICE_RECOVERY_SAMPLED-20261029T193327Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "MKDW",
+      "category": "1차_급락후반등_가격회복_비연속토스표본_PROVISIONAL",
+      "detected_utc": "2026-10-29T19:33:27Z",
+      "summary": "2026-10-29 미국 정규장(한국 10/30) GitHub Toss 부분수집 비연속 관측: MKDW 00:15:25 KST $0.1538(표시 분봉 거래량 155주) → 04:06:58 $0.1751(3,986주) → 04:33:27 $0.1868(04:34 표시 진행중 분봉 275주). 00:15 관측 저점 대비 +21.46%, 04:06 관측 대비 약 26분 +6.68% 가격 회복. 10/28 기등록 반등 기록과 구분되는 10/29 미국장 후속 가격 신호. 분봉 비연속/진행 중, RVOL 2/3/5/10/30/50배·연속 5~15분 가속·저점 방어·반등 지속 및 외부 시세 교차확인 미완료. 1차 급락 후 반등 관찰로 잠정 포착, 급등 전 확정 또는 매수 신호 아님. 2차 최신 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인으로 A/B/C/D 최종 판정 보류; 위험을 1차 감점/삭제/재정렬에 사용하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
       "verification": "PROVISIONAL"
     }
   ]
