@@ -853,9 +853,17 @@ async function updateCombinedStatus(){
   const ra=age(radarStamp),la=age(liveStamp);
   const a=la===null?'토스 미확인':la<=10?'토스 수집 '+la+'분 전':'토스 지연 '+la+'분';
   const b=ra===null?'레이더 미확인':ra<=30?'레이더 '+ra+'분 전':'레이더 지연 '+ra+'분';
-  status.textContent=a+' · '+b;
-  status.className='pill '+(la!==null&&la<=10?'good':'warn');
-  status.title='토스 시세와 NASDAQ 레이더는 별도의 데이터 파일입니다. 각 수집 시각을 따로 표시합니다.';
+  // File freshness is not quote freshness: inspect each candle without changing rank inputs.
+  const quoteRows=Array.isArray(d.rows)?d.rows:[...(d.nasdaq7||[]),...(d.china1||[])];
+  const now=Date.now();
+  const recent=quoteRows.filter(q=>{
+   const ts=Date.parse(q?.candle_time||q?.bar_time||q?.quote_time||'');
+   return Number.isFinite(ts)&&ts<=now+120000&&now-ts<=600000;
+  }).length;
+  const quoteLabel=quoteRows.length?'최근 분봉 '+recent+'/'+quoteRows.length+'종목':'분봉 미수집';
+  status.textContent=a+' · '+quoteLabel+' · '+b;
+  status.className='pill '+(la!==null&&la<=10&&recent===quoteRows.length&&recent>0?'good':'warn');
+  status.title='토스 파일 갱신과 종목별 분봉 최신 여부를 구분합니다. 휴장·거래 없음도 분봉 지연의 원인이 될 수 있으며, 실시간 시세 보장은 아닙니다.';
  }catch(e){status.textContent='토스 확인 실패 · 레이더 '+(radarStamp?new Date(radarStamp).toLocaleTimeString('ko-KR',{timeZone:'Asia/Seoul'}):'미확인');status.className='pill warn'}
 }
 setInterval(updateCombinedStatus,60000);
