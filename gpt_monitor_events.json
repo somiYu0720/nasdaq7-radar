@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T16:05:05Z",
+  "updated_utc": "2026-10-29T16:24:26Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3477,6 +3477,39 @@
       "detected_utc": "2026-10-29T16:05:05Z",
       "summary": "2026-10-30 KST GitHub Toss 부분수집 비연속 표본: 00:13:18 CENN $2.03(표시 1분봉 829주) → 01:04:02 $1.77(01:05 표시 진행중 분봉 3,000주), 관측 가격 -12.81%/약 51분. 10/29 23:22:22 $2.08와 비교 -14.90%. 서로 다른 분봉 거래량을 비교해 RVOL 2/3/5/10/30/50배 가속 또는 5~15분 연속 가속으로 판정하지 않음. 1차 LABT형 급락 후 반등 관찰로 유지하되 저점방어·반등·당일 급락 원인·체결 독립 대조 미확인. 기존 10/13 SEC 424B5 및 10/15 8-K의 최대 $100m ATM 등록/계약은 2차 C형 공급 경로 검토 요소이나 실제 매도 여부·잔여한도·즉시 매도 가능 주식 수·최신 float/O/S 미확인, 전체 A/B/C/D 최종 판정 보류. 희석·상장 위험은 1차 감점·제외·순위 변경에 미사용. 비연속/부분수집 시세이며 실시간 체결 또는 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CETX-PRELIM_FY26Q4_RESULTS_VOLUME_SPIKE-20261029T080000EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CETX",
+      "category": "1차_잠정실적성장_거래량이상_급등진행_PROVISIONAL",
+      "detected_utc": "2026-10-29T16:24:26Z",
+      "summary": "2026-10-29 08:00 EDT Cemtrex 미감사 잠정 FY2026 Q4 실적 발표: 매출 $22.7m 전년동기대비 +22%, 분기 영업이익 $1.4m, Operating EBITDA $1.9m; 연간 영업손실 $4.8m. 12:06 EDT StockAnalysis 표본 $2.12(+19.77%), 누적 33,350,390주, 전일 14,704주. ChartExchange 별도 시점 스크리너 $2.35(+32.76%), 25.5m주, 30일 평균 40.6k 대비 626.77배. 서로 다른 시점 수치를 혼합하지 않으며 626.77배는 누적/30일 평균이지 5~15분 가속이 아님. 급등 진행 관찰, 저점 방어·급등 전 신호 미확인. 발행사 보도 확인, SEC 원문·최종 감사실적 미대조 PROVISIONAL. 2차 warrant liabilities $2.8m은 잠재 공급 요소이며 실제 즉시 매도 물량 미확인. 최신 Float/O/S·ATM/ELOC/Resale/PIPE/전환 및 A/B/C/D 최종 보류. 1차 위험 감점·삭제·순위변경 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/29/3391206/0/en/cemtrex-reports-preliminary-fourth-quarter-and-fiscal-year-2026-results.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-KPRX-KIO401_SENJU_LICENSE_AND_PRICE_DROP-20261029T070000EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "KPRX",
+      "category": "1차_임상자산라이선스_급락대량거래_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-29T16:24:26Z",
+      "summary": "2026-10-29 07:00 EDT Kiora 발행사 발표: Senju와 10/23 체결한 KIO-401 아시아 외 독점 라이선스 공개, 선급금 $3.5m, 2027 기술이전 후 추가 지급·조건부 단계별 지급 및 로열티. 일본 CRAO 임상 3상 전체 일차평가변수 p=0.0949(통계적 유의성 미달), 법적 실명 하위군 p=0.0195; 미국 승인이나 3상 성공 확정 아님. 12:10 EDT StockAnalysis 표본 $1.86(-21.19%), 당일 누적 414,459주, 전일 30,278주; ChartExchange 이전 스크리너 $1.89(-19.91%), 155.8k, 30일 평균 15.2k 대비 10.26배. 분봉 5~15분 가속·저점방어·반등 미확인. LABT형 급락/대량거래 관찰에서 제외하지 않음. 8-K 재현본 및 회사 보도 확인, SEC.gov 원문 미대조 PROVISIONAL. 2차 과거 PIPE/PFW/워런트 등 잠재 공급과 실제 즉시 매도 가능 공급 구분, 최신 Float/O/S 및 A/B/C/D 최종 보류. 1차 위험 감점·삭제·순위변경 없음.",
+      "source_url": "https://ir.kiorapharma.com/news-events/news-releases/detail/255/kiora-pharmaceuticals-in-licenses-late-stage-oral-neuroprotective-calpain-inhibitor-for-central-retinal-artery-occlusion-crao-with-planned-expansion-into-naion-asset-completed-phase-3-clinical-trial-in-crao-in-japan",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-NUR-UNUSUAL_VOLUME_PRICE_SAMPLED-20261029T113900EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "NUR",
+      "category": "1차_거래량이상_상승10퍼센트이내_급등전미확인_PROVISIONAL",
+      "detected_utc": "2026-10-29T16:24:26Z",
+      "summary": "2026-10-29 11:39 EDT StockAnalysis NUR 표본 $0.72(+6.87%), 누적 26,842,113주, 전일 22,932주. ChartExchange 별도 스크리너 $0.7063(+4.84%), 3.2m주, 30일 평균 302.7k 대비 10.44배. 거래량 수치 출처간 큰 차이로 데이터 품질 미확인; 10.44배는 일간 누적/평균이며 5~15분 가속 아님. 신규 10/29 발행사 호재 미확인(최근 10/14 통신탑 29개 가동 발표). 상승률 10% 이내 관찰 후보이나 급등 전 확정/저점 방어 미확인. SEC 및 공식 체결 시세 미대조 PROVISIONAL. 2차 과거 ATM 발표 별도 검토, 최신 Float/O/S·즉시 매도 가능 공급·A/B/C/D 보류. 1차 위험 감점·삭제·순위변경 없음.",
+      "source_url": "https://stockanalysis.com/stocks/nur/history/",
       "verification": "PROVISIONAL"
     }
   ]
