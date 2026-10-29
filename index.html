@@ -709,7 +709,7 @@ async function renderRanks(){
    const pct=o&&o.p>0&&Number.isFinite(n.p)?100*(n.p/o.p-1):null;
    const base=Math.min(45,Math.round(12*Math.log10(1+n.v)));
    // Prevent tiny reference candles from producing misleading high-confidence acceleration.
-   const speed=accel===null?0:Math.min(35,Math.max(0,Math.round(15*Math.log2(Math.max(1,accel)))))*(o.v<100?0.25:o.v<1000?0.6:1);
+   const speed=accel===null||n.v<1000||o.v<1000?0:Math.min(35,Math.max(0,Math.round(15*Math.log2(Math.max(1,accel)))));
    const price=pct===null?0:pct>=0&&pct<=5?20:pct>5&&pct<=12?10:pct>=-3?8:0;
    // Oversold lane only: rebound confirmation is scored separately from NASDAQ/China.
    // No fabricated RSI or full-session OBV: use only distinct observed 1-minute bars.
