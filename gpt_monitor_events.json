@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T13:34:49.891Z",
+  "updated_utc": "2026-10-29T13:52:01.073Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3312,6 +3312,28 @@
       "detected_utc": "2026-10-29T13:34:49.891Z",
       "summary": "GitHub Toss 부분수집 2026-10-29 22:26:50 KST NWGL $0.0841/표시 분봉 2,563주→22:28:11 $0.0850/3주→22:30:23 $0.0842/82,580주(22:31 표시 분봉, 22:27 표본 2,563주 대비 약32.22배)→22:31:36 $0.0841/16,434주. 가격은 초기·최종 동일한 $0.0841로 대량거래와 가격지연 관찰. 2/3/5/10/30/50배는 비연속 표본 분봉끼리의 비교일 뿐 동시간대 평균 대비 RVOL 또는 5~15분 연속 가속 아님. 기존 10/28 NWGL 관찰과 구별되는 10/29 22:30 가격지연/거래량 표본. 1차 순위 위험 감점 없음. 2차 과거 ATM·등록공급 기록 존재하나 현재 즉시 매도 가능 잔여물량/최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환 미확인으로 A/B/C/D 최종 판정 보류. SEC/외부 시세 미대조 PROVISIONAL.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/9fe33dc87f44b0010e2a7e08a0b1ace55c43c975/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-YOUL-PRICE_DROP_VOLUME-20261029T135017Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "YOUL",
+      "category": "1차_급락_표시분봉거래량동반_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-29T13:52:01.073Z",
+      "summary": "2026-10-29 KST 토스 GitHub 비연속 관측: 21:47:15 YOUL $0.2810(표시 분봉 321주) → 22:50:17 $0.2499(표시 분봉 11,712주), 관측가 대비 -11.07% 하락. 서로 다른 시각의 표본 거래량 증가를 확인했으나 연속 5~15분 가속·공식 RVOL·유효체결·저점방어는 미확인. LABT형 급락·거래량 동반 1차 관찰이며 2차 희석/상장 위험은 순위 감점에 미사용.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-RETO-POST_CRASH_REBOUND-20261029T135136Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "RETO",
+      "category": "1차_급락후반등_기존급락후속가격회복_PROVISIONAL",
+      "detected_utc": "2026-10-29T13:52:01.073Z",
+      "summary": "2026-10-29 KST 기존 등록된 22:30:09 RETO $0.5800(22:31 표시 분봉 16,867주) 급락 이후 22:51:36 $0.6623(22:52 표시 분봉 3,968주)로 관측가 대비 +14.19% 가격 회복. 그러나 22:28:15 $0.7298 대비 여전히 -9.25%. 비연속 표본이며 거래량 가속/저점 방어/지속 반등 미확인. 기존 주식병합 뉴스 및 2차 SEC 공급 위험과 분리한 1차 가격 신호.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
