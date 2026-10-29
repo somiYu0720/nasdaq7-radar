@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T20:31:21Z",
+  "updated_utc": "2026-10-29T20:33:07Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3686,6 +3686,61 @@
       "detected_utc": "2026-10-29T19:33:27Z",
       "summary": "2026-10-29 미국 정규장(한국 10/30) GitHub Toss 부분수집 비연속 관측: MKDW 00:15:25 KST $0.1538(표시 분봉 거래량 155주) → 04:06:58 $0.1751(3,986주) → 04:33:27 $0.1868(04:34 표시 진행중 분봉 275주). 00:15 관측 저점 대비 +21.46%, 04:06 관측 대비 약 26분 +6.68% 가격 회복. 10/28 기등록 반등 기록과 구분되는 10/29 미국장 후속 가격 신호. 분봉 비연속/진행 중, RVOL 2/3/5/10/30/50배·연속 5~15분 가속·저점 방어·반등 지속 및 외부 시세 교차확인 미완료. 1차 급락 후 반등 관찰로 잠정 포착, 급등 전 확정 또는 매수 신호 아님. 2차 최신 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인으로 A/B/C/D 최종 판정 보류; 위험을 1차 감점/삭제/재정렬에 사용하지 않음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T20:23:43Z",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL",
+      "id": "NASDAQ7_CLOSE-REED-RVOL5_8P92-20261029T195900Z",
+      "ticker": "REED",
+      "category": "1차_장마감직전_거래량이상_재점화관찰",
+      "summary": "미국 2026-10-29 15:59 EDT GitHub data.json 저장본 REED rvol5=8.92, EARLY_PROVISIONAL. 저장된 수집기 상대거래량 지표이며 거래량의 5~15분 연속 가속 또는 최종 종가/방향을 검증한 것은 아님. 1차 거래량 이상 후보 유지. 2차 최신 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장 위험과 실제 즉시 매도 공급 미확인. 위험 감점 없음."
+    },
+    {
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T20:23:43Z",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL",
+      "id": "NASDAQ7_CLOSE-LUCD-RVOL5_4P60-20261029T195900Z",
+      "ticker": "LUCD",
+      "category": "1차_장마감직전_거래량이상_재점화관찰",
+      "summary": "미국 2026-10-29 15:59 EDT GitHub data.json 저장본 LUCD rvol5=4.60, EARLY_PROVISIONAL. 10/28 기존 기록과 다른 거래일의 새 장마감 직전 신호. 5~15분 연속 가속, 가격 저점 방어와 종가 미확인. 1차 포착에 희석/상장 위험 감점 없음. 2차 최신 float/O/S, 등록 및 실제 즉시 매도 가능 공급 미확인."
+    },
+    {
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T20:23:43Z",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL",
+      "id": "NASDAQ7_CLOSE-PRSO-RVOL5_3P58-20261029T195900Z",
+      "ticker": "PRSO",
+      "category": "1차_장마감직전_거래량이상_재점화관찰",
+      "summary": "미국 2026-10-29 15:59 EDT GitHub data.json 저장본 PRSO rvol5=3.58, EARLY_PROVISIONAL. 10/26 Nant Capital 약 $10m PIPE 계약 및 10/28 종결 예정은 별도 2차 공급/이벤트 검증 항목; 실제 종결 및 즉시 매도 가능 물량 미확인. 1차 거래량 신호에 위험 감점 없음. 5~15분 연속 가속·종가·저점방어 미확인."
+    },
+    {
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T20:23:43Z",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL",
+      "id": "NASDAQ7_CLOSE-LABT-RVOL5_2P21-20261029T195900Z",
+      "ticker": "LABT",
+      "category": "1차_LABT형_장마감직전_거래량이상_급락후반등관찰",
+      "summary": "미국 2026-10-29 15:59 EDT GitHub data.json 저장본 LABT rvol5=2.21(REVIEW); 같은 날 14:07 EDT 이력 rvol5=3.76 및 forward_60m_pct=+3.53%가 기록돼 있으나 수집기 부분 이력값이며 독립 검증 종가/연속 분봉 아님. 급락·대량거래 동반 LABT형은 1차 배제 금지. 최신 가격 방향과 2차 SEC 공급 구조·즉시 매도 가능 물량 미확인."
+    },
+    {
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "china1",
+      "ticker": "INLF",
+      "id": "NASDAQ7_CLOSE-INLF-PRICE_SURGE_34P72-20261029T200000Z",
+      "category": "1차_중국계독립_급등진행_시장가격신호",
+      "detected_utc": "2026-10-29T20:33:07Z",
+      "summary": "2026-10-29 미국 정규장 공개 마감 집계에서 INLF +34.72%, 약 $0.24로 표시. 중국 소재 INLIF Limited의 급등 진행 가격 신호. 최신 거래량 2/3/5/10/30/50배, 분봉, 저점 방어, 상승 원인 미확인. 2026-09-24 과거 실적 발표를 10/29 신규 호재로 오인하지 않음. SEC 최신 ATM/PIPE/float/O/S/즉시 매도 공급 검증 전이므로 PROVISIONAL. 1차 위험 감점 없음.",
+      "source_url": "https://www.chartmill.com/news/ADT/Chartmill-57263-Top-US-Stock-Gainers-and-Losers-for-Oct-29-2026",
       "verification": "PROVISIONAL"
     }
   ]
