@@ -24,8 +24,25 @@ def universe():
         if row.get("ETF")=="Y" or row.get("Test Issue")=="Y": continue
         if re.search(r"\b(units?|warrants?|rights?|preferred|depositary|notes?|debentures?)\b",name): continue
         symbols.append(symbol)
-    result=sorted(set(symbols))
+    # NYSE American is published in the Nasdaq Trader 'otherlisted' directory.
+    # Exchange code A = NYSE American. Keep NASDAQ listings and add only
+    # NYSE American common equity candidates; do not mix with China 1.0.
+    raw_other=download("https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt")
+    other_rows=csv.DictReader(io.StringIO(raw_other),delimiter="|")
+    american=[]
+    for row in other_rows:
+        if (row.get("Exchange") or "").strip().upper()!="A": continue
+        symbol=(row.get("ACT Symbol") or "").strip().upper()
+        name=(row.get("Security Name") or "").lower()
+        if not re.fullmatch(r"[A-Z]{1,5}",symbol): continue
+        if row.get("ETF")=="Y" or row.get("Test Issue")=="Y": continue
+        if re.search(r"\\b(units?|warrants?|rights?|preferred|depositary|notes?|debentures?)\\b",name): continue
+        american.append(symbol)
+    if len(american)<50:
+        raise ValueError(f"NYSE American 종목 목록 비정상: {len(american)}")
+    result=sorted(set(symbols)|set(american))
     if len(result)<100: raise ValueError(f"종목 목록 비정상: {len(result)}")
+    print(f"NASDAQ {len(set(symbols))} + NYSE American {len(set(american))}; merged {len(result)}",flush=True)
     return result
 
 def historical():
