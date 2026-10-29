@@ -603,7 +603,8 @@ async function renderEvent(){
   const volume=vol===null?0:vol>=100000?25:vol>=30000?20:vol>=10000?15:vol>=1000?10:vol>0?5:0;
   const price=q&&Number.isFinite(Number(q.price))&&Number(q.price)>0&&freshness<=15?10:0;
   const score=confirmed+schedule+volume+price;
-  return {ticker,q,e,days,score,verified:!!e,vol,hasFresh:vol!==null};
+  const monitor=recentMonitor.filter(x=>String(x.ticker).toUpperCase()===ticker).sort((a,b)=>String(b.detected_utc).localeCompare(String(a.detected_utc)))[0]||null;
+  return {ticker,q,e,monitor,days,score,verified:!!e,vol,hasFresh:vol!==null};
  }).sort((a,b)=>b.score-a.score||a.ticker.localeCompare(b.ticker));
  $('eventScoreStatus').textContent='관찰 점수 100점 = 공식 일정 확인 30 + 일정 임박도 35 + 1분 거래량 25 + 최신 가격 확인 10 · '+(freshness<=15?'시세 '+freshness+'분 전':'시세 지연/미확인')+' · 강도: 종류별 잠정 분류 · 희석: SEC 미검증';
  rows.forEach((x,i)=>{
@@ -614,13 +615,13 @@ async function renderEvent(){
   const high=['fda','pdufa','clinical_result','phase3','phase_3','merger_close','m&a_close','contract_confirmed','earnings_surge'];
   const medium=['earnings','phase2','phase_2','contract','financing_close','trial'];
   const strength=!x.e?'미확인':high.some(v=>type.includes(v))||/pdufa|fda 심사|3상 핵심/.test(name)?'강':medium.some(v=>type.includes(v))?'중':'약';
-  const strengthTd=document.createElement('td');strengthTd.textContent=strength;strengthTd.className=strength==='강'?'good':strength==='중'?'warn':'muted';strengthTd.title=x.e?(x.e.title||'')+' · 이벤트 종류 기준 잠정 강도':'공식 일정 미확인';tr.append(strengthTd);
+  const strengthTd=document.createElement('td');strengthTd.textContent=x.e?strength:(x.monitor?'GPT 포착':'미확인');strengthTd.className=strength==='강'?'good':strength==='중'?'warn':'muted';strengthTd.title=x.e?(x.e.title||'')+' · 이벤트 종류 기준 잠정 강도':'공식 일정 미확인';tr.append(strengthTd);
   const dilution=document.createElement('td');const record=secSnapshot?.tickers?.[x.ticker];const evidence=dilutionEvidence?.tickers?.[x.ticker];const verified=record?.classification_level==='CONTENT_VERIFIED'&&['A','B','C','D'].includes(record?.supply_type);dilution.textContent=verified?record.supply_type+'형':record?.status==='CIK_UNRESOLVED'?'식별불가':evidence?.evidence?.length?'문구 '+evidence.evidence.length+'건':record?'접수확인':evidence?.status==='NOT_IN_SEC_SNAPSHOT'?'조회대기':evidence?.status==='SEC_SUBMISSIONS_FETCHED'?'원문확인':evidence?'원문점검':'미조회';dilution.style.whiteSpace='nowrap';dilution.style.fontSize='12px';dilution.className=verified?'good':'muted';dilution.title=verified?'공급 유형: '+record.supply_type+' · 실제 즉시 매도 공급: '+(record.immediately_sellable_supply??'미확인'):evidence?.evidence?.length?'원문 관련 문구: '+[...new Set(evidence.evidence.map(e=>e.category))].join(', ')+' · 실제 공급·효력 미검증':'공시 원문·즉시 매도 가능 물량 미검증. SEC 접수 기록만으로 희석 판정 불가';tr.append(dilution);
   const day=document.createElement('td');day.style.whiteSpace='nowrap';day.textContent=x.days===null?'—':x.days===0?'오늘':x.days>0?'D-'+x.days:'종료';if(x.days!==null&&x.days>=0&&x.days<=7)day.className='warn';tr.append(day);
-  const source=document.createElement('td');if(x.e){const link=document.createElement('a');link.href=x.e.source_url;link.target='_blank';link.rel='noopener noreferrer';link.textContent='원문';source.append(link)}else{source.textContent='—'}tr.append(source);
+  const source=document.createElement('td');if(x.e){const link=document.createElement('a');link.href=x.e.source_url;link.target='_blank';link.rel='noopener noreferrer';link.textContent='원문';source.append(link)}else if(x.monitor&&/^https:\/\//.test(x.monitor.source_url||'')){const link=document.createElement('a');link.href=x.monitor.source_url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=x.monitor.verification==='VERIFIED'?'검증 원문':'발표·보도';source.append(link)}else{source.textContent='—'}tr.append(source);
   const secRecord=(typeof secSnapshot!=='undefined'&&secSnapshot?.tickers)?secSnapshot.tickers[x.ticker]:null;
   const secText=secRecord?(secRecord.status==='CIK_UNRESOLVED'?'SEC 기업식별 미완료':'SEC 접수 '+(secRecord.filings?.length||0)+'건 · 원문 공급 검증 대기'):'SEC 조회 기록 없음';
-  tr.title=(x.e?(x.e.title||'')+' | '+(x.e.note||'')+' | 이벤트 강도: '+strength+'(종류 기준)':'공식 일정 미확인')+' | '+secText+' | 공급 A/B/C/D 미판정 · 실제 매도 가능 물량 미확인';
+  tr.title=(x.e?(x.e.title||'')+' | '+(x.e.note||'')+' | 이벤트 강도: '+strength+'(종류 기준)':x.monitor?('GPT 포착 '+(x.monitor.verification||'미검증')+' | '+(x.monitor.summary||x.monitor.category||'')):'공식 일정 미확인')+' | '+secText+' | 공급 A/B/C/D 미판정 · 실제 매도 가능 물량 미확인';
   body.append(tr);
  });
 }
