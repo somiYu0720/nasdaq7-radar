@@ -749,7 +749,7 @@ async function renderRanks(){
    [i+1,x.ticker].forEach(v=>textCell(tr,String(v)));
    const atm=atmInfo(x.ticker);
    const category=document.createElement('td');category.append(tag);tr.append(category);
-   [move,rankNum(x.minute_volume).toLocaleString('ko-KR'),x.accel===null?'미확인':x.accel.toFixed(2)+'배'+(x.thinBase?' (저표본)':''),x.pct===null?'미확인':(x.pct>=0?'+':'')+x.pct.toFixed(2)+'%',(x.score===null?'산정 대기':x.score+' / 100'+(cat==='oversold'?' 관측기준':earlier?'':' 잠정')),x.price??'—'].forEach(v=>textCell(tr,String(v)));
+   [move,rankNum(x.minute_volume).toLocaleString('ko-KR'),x.accel===null?'계산대기':x.accel.toFixed(2)+'배'+(x.minute_volume<1000||x.thinBase?' · 저표본':x.accel<1?' · 감속':x.accel>=3?' · 급가속':''),x.pct===null?'미확인':(x.pct>=0?'+':'')+x.pct.toFixed(2)+'%',(x.score===null?'산정 대기':x.score+' / 100'+(cat==='oversold'?' 관측기준':earlier?'':' 잠정')),x.price??'—'].forEach(v=>textCell(tr,String(v)));
    const volumeCell=tr.children[4];
    const v=rankNum(x.minute_volume);
    const level=v>=100000?'extreme':v>=30000?'hot':v>=10000?'high':v>=1000?'mid':'low';
