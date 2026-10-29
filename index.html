@@ -747,7 +747,7 @@ async function renderRanks(){
    const tag=document.createElement('span');tag.className='cat-tag cat-'+cat;
    tag.textContent=({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량'})[cat]||cat;
    [i+1,x.ticker].forEach(v=>textCell(tr,String(v)));
-   const atm=atmInfo(x.ticker);if(atm){const badge=document.createElement('span');badge.className='atm-badge';badge.textContent=atm.status==='과거 매각 확인'?'ATM 매각이력':atm.status==='계약 확인'?'ATM 계약':atm.status==='종료 확인'?'ATM 종료':'ATM 확인중';badge.title=atm.label+' · '+atm.detail;tr.children[1].append(' ',badge)}
+   const atm=atmInfo(x.ticker);
    const category=document.createElement('td');category.append(tag);tr.append(category);
    [move,rankNum(x.minute_volume).toLocaleString('ko-KR'),x.accel===null?'미확인':x.accel.toFixed(2)+'배'+(x.thinBase?' (저표본)':''),x.pct===null?'미확인':(x.pct>=0?'+':'')+x.pct.toFixed(2)+'%',(x.score===null?'산정 대기':x.score+' / 100'+(cat==='oversold'?' 관측기준':earlier?'':' 잠정')),x.price??'—'].forEach(v=>textCell(tr,String(v)));
    const volumeCell=tr.children[4];
