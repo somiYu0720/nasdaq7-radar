@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T19:31:36Z",
+  "updated_utc": "2026-10-29T19:34:20Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3642,6 +3642,17 @@
       "detected_utc": "2026-10-29T19:31:36Z",
       "summary": "10/29 14:54 EDT GitHub data.json 저장본 SPRC rvol5=3.22, signal EARLY_PROVISIONAL. 5분 상대거래량 이상 신호지만 연속 5~15분 가속, 가격 방향, 저점방어·반등 미확인. 기존 10/26 워런트 공시와 별개의 10/29 거래량 신호로 포착, 2차 최신 float/O/S·실제 매도 가능 공급 미검증. 위험으로 1차 감점·삭제 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-CENN-POST_REBOUND_LOW_RETEST_SAMPLED-20261029T192611Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "CENN",
+      "category": "1차_반등후재급락_기존저점재시험_비연속토스표본_PROVISIONAL",
+      "detected_utc": "2026-10-29T19:34:20Z",
+      "summary": "2026-10-30 KST GitHub Toss 부분수집 비연속 가격 표본: 기존 01:07:35 $1.7586 급락 저점 관측→02:35:05 $1.9338(+9.96% 회복, 기등록)→04:26:11 $1.7600(02:35 대비 -8.99% 재하락), 01:07 관측가 대비 0.08%로 기존 관측 저점 부근 재시험. 04:27로 표시된 진행중 1분봉 거래량 1,996주이며, 02:36 표시 분봉 300주와 비연속 비교로 공식 RVOL·연속 가속·매도세 지속을 확정할 수 없음. 1차 급락 후 반등 실패/저점 재시험 관찰로 잠정 기록. 반등 또는 저점 방어 확인되지 않음. 2차 기존 2026-10-13 424B5 및 10-15 8-K상 최대 $100m ATM 판매 경로(C형 요소) 존재하나 실제 매각·잔여 공급·최신 Float/O/S·최종 A/B/C/D 유형 미확인. 잠재 희석과 즉시 매도 가능 공급은 구분하며 1차 포착 순위에 위험 감점·삭제·재정렬 없음. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
