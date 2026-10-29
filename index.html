@@ -586,7 +586,7 @@ async function renderEvent(){
  $('eventSourceStatus').textContent+=' · SEC 원문 키워드 점검: '+evidenceTime+' (키워드 발견은 희석 확정 아님)';
  let monitorEvents=[];
  try{const r=await fetch('./gpt_monitor_events.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();monitorEvents=(Array.isArray(d.events)?d.events:[]).filter(x=>x.ticker&&/임상|실적|공시|SEC|M&A|인수|계약|FDA|발표|이벤트|자금조달|매출/i.test(String(x.category||'')+' '+String(x.summary||'')));}}catch(e){}
- const recentMonitor=monitorEvents.filter(x=>Date.now()-Date.parse(x.detected_utc||0)<7*86400000);
+ const recentMonitor=monitorEvents.filter(x=>{const t=Date.parse(x.detected_utc||'');return Number.isFinite(t)&&t<=Date.now()&&Date.now()-t<30*86400000;});
  const symbols=[...new Set([...shared,...(watchCategories.event||[]),...recentMonitor.map(x=>String(x.ticker).toUpperCase())].filter(x=>typeof x==='string'&&/^[A-Z0-9.-]{1,12}$/.test(x)))];
  if(!symbols.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=6;td.className='empty';td.textContent='등록된 이벤트 감시 종목 없음';tr.append(td);body.append(tr);return}
  const today=new Date(),kst=new Date(today.toLocaleString('en-US',{timeZone:'Asia/Seoul'}));
