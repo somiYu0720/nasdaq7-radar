@@ -1,7 +1,2816 @@
 {
   "schema_version": 1,
-  "updated_utc": null,
-  "source": "Awaiting first scheduled snapshot",
-  "records": {},
+  "updated_utc": "2026-10-29T15:21:31.382717+00:00",
+  "source": "toss_live.json snapshots; noncontinuous",
+  "records": {
+    "cn1-LHSW-sales-contract-20261019T160700Z": {
+      "ticker": "LHSW",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T15:45:40Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-LHSW-volume-surge-20261021T200000Z": {
+      "ticker": "LHSW",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T15:45:40Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-LHSW-share-consolidation-20261022T123000Z": {
+      "ticker": "LHSW",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T15:45:40Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-FFR-ma-close-20261026T153000Z": {
+      "ticker": "FFR",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T16:04:06Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-EPOW-jv-capital-20261026T150000Z": {
+      "ticker": "EPOW",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T16:04:06Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-MSGY-reignite-20261026T160700Z": {
+      "ticker": "MSGY",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T16:13:46Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-MSGY-F3-20261023T140500Z": {
+      "ticker": "MSGY",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T16:13:46Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-AMAN-definitive-merger-20261026T101300Z": {
+      "ticker": "AMAN",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T16:26:41Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-GCDT-volume-crash-20261020T200000Z": {
+      "ticker": "GCDT",
+      "radar": "중국계 1.0(기존 관심종목·NYSE American 확장)",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-GCDT-unusual-trading-statement-20261026T154500Z": {
+      "ticker": "GCDT",
+      "radar": "중국계 1.0(기존 관심종목·NYSE American 확장)",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-SJ-earnings-6k-20261026T124500Z": {
+      "ticker": "SJ",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-SJ-leader-stake-close-disclosed-20261026T124500Z": {
+      "ticker": "SJ",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-XNCR-phase1-XmAb819-20261026T115000Z": {
+      "ticker": "XNCR",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T17:42:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-SGRY-definitive-merger-20261026T130300Z": {
+      "ticker": "SGRY",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T17:42:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-AIXI-volume-reignite-20261023T200000Z": {
+      "ticker": "AIXI",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T18:43:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-CRML-court-approval-20261026T123000Z": {
+      "ticker": "CRML",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T18:48:51Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-NWGL-volume-reignite-20261026T181900Z": {
+      "ticker": "NWGL",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T18:51:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-TANH-volume-crash-20261026T181900Z": {
+      "ticker": "TANH",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T18:51:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-UPC-labt-crash-20261026T192100Z": {
+      "ticker": "UPC",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T20:06:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-UPC-f3-effect-20261009T133000Z": {
+      "ticker": "UPC",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T20:06:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-BUUU-split-momentum-20261026T192100Z": {
+      "ticker": "BUUU",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T20:06:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-SEED-corn-preliminary-20261026T110000Z": {
+      "ticker": "SEED",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T20:06:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-MACI-merger-vote-20261023T201018Z": {
+      "ticker": "MACI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:13:16Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-RCT-debt-retirement-volume-20261026T132100Z": {
+      "ticker": "RCT",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:15:42Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-XXII-labt-crash-product-20261026T113700Z": {
+      "ticker": "XXII",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:15:42Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close10-CPIX-phase2a-webcast-20261023T200500Z": {
+      "ticker": "CPIX",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:18:36Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close10-SHFS-nonbinding-combination-conversion-20261026T122400Z": {
+      "ticker": "SHFS",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:18:36Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close10-SRTM-offshore-datacenter-loi-20261026T120000Z": {
+      "ticker": "SRTM",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:18:36Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close10-BRAI-force-ai-launch-20261026T130000Z": {
+      "ticker": "BRAI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:18:36Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close10-DAVI-medical-ip-acquisition-20261026T113000Z": {
+      "ticker": "DAVI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:18:36Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-close10-CANG-price-volume-crash-20261026T195100Z": {
+      "ticker": "CANG",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T20:18:36Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-MKDW-volume-reignite-20261026T195100Z": {
+      "ticker": "MKDW",
+      "radar": "중국계 1.0(대만 본사·중국 본토 사업)",
+      "detected_utc": "2026-10-26T20:22:58Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-CENN-volume-reignite-20261026T195100Z": {
+      "ticker": "CENN",
+      "radar": "중국계 1.0(미국 지주회사·중국 사업)",
+      "detected_utc": "2026-10-26T20:22:58Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close-RCT-daily-close-signal-20261026T200000Z": {
+      "ticker": "RCT",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close-SRTM-daily-close-signal-20261026T200000Z": {
+      "ticker": "SRTM",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close-BRAI-daily-close-signal-20261026T200000Z": {
+      "ticker": "BRAI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close-CPIX-daily-close-signal-20261026T200000Z": {
+      "ticker": "CPIX",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close-XXII-daily-close-signal-20261026T200000Z": {
+      "ticker": "XXII",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close-SHFS-daily-close-signal-20261026T200000Z": {
+      "ticker": "SHFS",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-close-MKDW-daily-close-signal-20261026T200000Z": {
+      "ticker": "MKDW",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-close-CENN-daily-close-signal-20261026T200000Z": {
+      "ticker": "CENN",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-close-GCDT-daily-close-signal-20261026T200000Z": {
+      "ticker": "GCDT",
+      "radar": "중국계 1.0(기존 관심종목·NYSE American 확장)",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-SXTC-volume-crash-20261021T200000Z": {
+      "ticker": "SXTC",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T21:21:32Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-SXTC-overallotment-termination-20261021T120000Z": {
+      "ticker": "SXTC",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T21:21:32Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-SXTC-share-consolidation-20261022T120000Z": {
+      "ticker": "SXTC",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T21:21:32Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-RENT-volume-rights-offering-close-20261026T201600Z": {
+      "ticker": "RENT",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T21:24:34Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-RFAI-volume-reignite-20261026T200000Z": {
+      "ticker": "RFAI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T21:24:34Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-RDNT-ONRAD-definitive-acquisition-20261026T200100Z": {
+      "ticker": "RDNT",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T21:24:34Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-AXNX-labt-crash-20261026T200000Z": {
+      "ticker": "AXNX",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T21:26:12Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-AXNX-resale-deadline-20261013T134756Z": {
+      "ticker": "AXNX",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T21:26:12Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-AURE-antalpha-subscription-20261022T203000Z": {
+      "ticker": "AURE",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T21:38:29Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-TWG-volume-price-anomaly-20261026T200000Z": {
+      "ticker": "TWG",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T21:45:23Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-TWG-share-consolidation-6KA-20261022-000121390026111580": {
+      "ticker": "TWG",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-26T21:45:23Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-BOLT-prana-merger-close-20261023T143100Z": {
+      "ticker": "BOLT",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-26T22:51:19Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-YI-going-private-adviser-appointment-20261026T100600Z": {
+      "ticker": "YI",
+      "radar": "CN1.0",
+      "detected_utc": "2026-10-26T23:29:11Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-POM-labt-crash-20261023T200000Z": {
+      "ticker": "POM",
+      "radar": "CN1",
+      "detected_utc": "2026-10-26T23:32:45Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-POM-adr-termination-6k-20261019T130021Z": {
+      "ticker": "POM",
+      "radar": "CN1",
+      "detected_utc": "2026-10-26T23:32:45Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-GCTK-volume-spike-20261026T200000Z": {
+      "ticker": "GCTK",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T00:00:11Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-SNTI-merger-close-20261026T201700Z": {
+      "ticker": "SNTI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T00:00:11Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-ABOS-phase2-readout-20261026T110900Z": {
+      "ticker": "ABOS",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T00:00:11Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-AARD-labt-clinical-crash-20261023T123800Z": {
+      "ticker": "AARD",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T00:34:37Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-EFOI-volume-reignite-20261026T200000Z": {
+      "ticker": "EFOI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T00:34:37Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-CLIK-volume-labt-20261023T200000Z": {
+      "ticker": "CLIK",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T00:35:35.363Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-CLIK-fy2026-results-6k-20261023": {
+      "ticker": "CLIK",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T00:35:35.363Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-AIIO-egm-approval-20261026T200400Z": {
+      "ticker": "AIIO",
+      "radar": "중국계 1.0(중국 사업 연계·UAE 본사 확장 관찰)",
+      "detected_utc": "2026-10-27T00:49:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-BDAI-ju-fu-second-closing-update-20261023T212700Z": {
+      "ticker": "BDAI",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T01:12:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-CTOR-lymphir-q4-shipments-8k-20261026T200500Z": {
+      "ticker": "CTOR",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T01:25:09.325Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-YOUL-volume-price-20261026T200000Z": {
+      "ticker": "YOUL",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T02:14:20Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-YOUL-f3-effect-20261019T133000Z": {
+      "ticker": "YOUL",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T02:14:20Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-HKPD-volume-rebound-20261026T200000Z": {
+      "ticker": "HKPD",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T02:14:20Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-HKPD-split-6k-20261021T120001Z": {
+      "ticker": "HKPD",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T02:14:20Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-TGL-ai-agriculture-software-8k-20261023T211527Z": {
+      "ticker": "TGL",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T03:06:45.580Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-SPRC-warrant-inducement-6k-20261026T200100Z": {
+      "ticker": "SPRC",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T03:06:45.580Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-CLRO-volume-reignite-20261026T200000Z": {
+      "ticker": "CLRO",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T03:06:45.580Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-MYND-volume-surge-20261023T200000Z": {
+      "ticker": "MYND",
+      "radar": "중국계 1.0(중국계 지배·NYSE American 확장)",
+      "detected_utc": "2026-10-27T03:35:10Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-TDIC-afterhours-volume-20261026T235900Z": {
+      "ticker": "TDIC",
+      "radar": "중국계 1.0(홍콩 소재·NASDAQ)",
+      "detected_utc": "2026-10-27T03:35:10Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-TDIC-insider-warrant-exercise-20261014T150505Z": {
+      "ticker": "TDIC",
+      "radar": "중국계 1.0(홍콩 소재·NASDAQ)",
+      "detected_utc": "2026-10-27T03:35:10Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-YHGJ-volume-acceleration-20261026T200000Z": {
+      "ticker": "YHGJ",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T03:55:33Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-MGNX-linnet-phase2-interim-20261026T110600Z": {
+      "ticker": "MGNX",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T03:55:33Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-RBNE-labt-crash-volume-20261021T200000Z": {
+      "ticker": "RBNE",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T03:55:33Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-VEEA-volume-reignite-20261026T200000Z": {
+      "ticker": "VEEA",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T04:30:56.741Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-SAIQ-12satellite-binding-loi-20261026T120000Z": {
+      "ticker": "SAIQ",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T04:30:56.741Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-AIFU-waltz-definitive-acquisition-6k-20261021T130000Z": {
+      "ticker": "AIFU",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T04:33:47Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-DSY-fy2026-annual-20f-20261026T204600Z": {
+      "ticker": "DSY",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T04:33:47Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-STAK-fy2026-results-volume-surge-20261021T162528Z": {
+      "ticker": "STAK",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T04:52:34Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-GURE-bromine-restart-approval-20261015T154400Z": {
+      "ticker": "GURE",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T05:00:38.784Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-INO-pdufa-20251229T132019Z": {
+      "ticker": "INO",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T06:00:09.552Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-YMAT-egm-share-reorg-20261009T210000Z": {
+      "ticker": "YMAT",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T06:27:07Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-MF-volume-labt-20261023T200000Z": {
+      "ticker": "MF",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T06:30:11.117Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-MF-fy2026-20f-20261026T210700Z": {
+      "ticker": "MF",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T06:30:11.117Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-STKH-volume-labt-20261026T200000Z": {
+      "ticker": "STKH",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T06:40:36Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-PLUR-zeo-definitive-agreement-20261026T110022Z": {
+      "ticker": "PLUR",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T06:40:36Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-VOR-teligan-phase3-104week-results-20261022T200500Z": {
+      "ticker": "VOR",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T08:04:43.578Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-ENTA-resolve-phase2b3-first-dose-20261026T110000Z": {
+      "ticker": "ENTA",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T08:04:43.578Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-PROK-kol-corporate-update-20261022T124500Z": {
+      "ticker": "PROK",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T08:04:43.578Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-BRBI-labt-volume-20261026T200000Z": {
+      "ticker": "BRBI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T08:39:12.529Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-ICMB-volume-reignite-20261026T200000Z": {
+      "ticker": "ICMB",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T08:39:12.529Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-MASK-volume-surge-20261019T200000Z": {
+      "ticker": "MASK",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T09:11:27.209Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-MASK-hardware-contract-delivery-20261021T180000Z": {
+      "ticker": "MASK",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T09:11:27.209Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-MASK-private-placement-split-20261023-000118518526004968": {
+      "ticker": "MASK",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T09:11:27.209Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-FRMM-fireworks-ai-compute-contract-20261026T130000Z": {
+      "ticker": "FRMM",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T09:29:02Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-IPHA-pacific9-phase3-readout-delay-20261027T060000Z": {
+      "ticker": "IPHA",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T09:29:02Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-TROO-efforce-conditional-acquisition-20261013-000110465926115363": {
+      "ticker": "TROO",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T10:46:52Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-TROO-volume-reignite-20261022T200000Z": {
+      "ticker": "TROO",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T10:46:52Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-INM-cvr-record-date-20261026-date-only": {
+      "ticker": "INM",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T10:55:05.384Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-ACRS-ati052-phase1b-primary-analysis-20261027T100000Z": {
+      "ticker": "ACRS",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T10:55:05.384Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-AVR-embark-30day-tct-presentation-20261027T100000Z": {
+      "ticker": "AVR",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T10:55:05.384Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-DWTX-phase2b-readout-20261019T124500Z": {
+      "ticker": "DWTX",
+      "radar": "NASDAQ7.0",
+      "detected_utc": "2026-10-27T11:59:50Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-DWTX-private-placement-closing-20261019T124500Z": {
+      "ticker": "DWTX",
+      "radar": "NASDAQ7.0",
+      "detected_utc": "2026-10-27T11:59:50Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-JZXN-strategic-investment-commitment-20261012T111500Z": {
+      "ticker": "JZXN",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T12:16:09Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-JZXN-labt-volume-surge-20261012T200000Z": {
+      "ticker": "JZXN",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T12:16:09Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-AIOK-special-dividend-SEC6K-20261023": {
+      "ticker": "AIOK",
+      "radar": "NASDAQ7.0",
+      "detected_utc": "2026-10-27T12:35:45Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-DVLT-nonreliance-LABT-20261026T200100Z": {
+      "ticker": "DVLT",
+      "radar": "NASDAQ7.0",
+      "detected_utc": "2026-10-27T12:35:45Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-MFIC-ARCC-merger-SEC8K-20261027T101215Z": {
+      "ticker": "MFIC",
+      "radar": "NASDAQ7.0",
+      "detected_utc": "2026-10-27T12:35:45Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-prebreak-AXG-minute-volume-watch-20261027T125200Z": {
+      "ticker": "AXG",
+      "radar": "china1",
+      "detected_utc": "2026-10-27T12:52:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-NEXR-keepzone-definitive-sale-20261027T121700Z": {
+      "ticker": "NEXR",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T13:16:27.253Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-LPTH-defense-drone-optics-order-20261027T123100Z": {
+      "ticker": "LPTH",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T13:16:27.253Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-BEAM-beam301-phase12-data-20261027T110000Z": {
+      "ticker": "BEAM",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T13:16:27.253Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-early-ONCO-realbotix-echo-launch-20261027T123000Z": {
+      "ticker": "ONCO",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T13:16:27.253Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-FNGR-geniuspark-binding-jv-20261027T131500Z": {
+      "ticker": "FNGR",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T14:19:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-news-MASK-private-placement-allocation-plan-20261027T115000Z": {
+      "ticker": "MASK",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T14:19:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_EARLY_MEGL_timber_loi_volume_crash_20261027T110000Z": {
+      "ticker": "MEGL",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T14:45:58Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_EARLY_SXTP_babesiosis_clinical_8k_volcrash_20261027T120500Z": {
+      "ticker": "SXTP",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T14:45:58Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_EARLY_ARTV_allonk_shutdown_restructuring_8k_20261027T123000Z": {
+      "ticker": "ARTV",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T14:45:58Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_EARLY_HYFM_debt_exchange_financing_announcement_20261027T132900Z": {
+      "ticker": "HYFM",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T14:45:58Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_EARLY_ONCY_goblet_anal_cancer_survival_update_20261027T133000Z": {
+      "ticker": "ONCY",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T14:45:58Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "CN1_NEWS_YMT_convertible_note_additional_closing_20261023_date_only": {
+      "ticker": "YMT",
+      "radar": "china",
+      "detected_utc": "2026-10-27T15:25:09Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-MKDW-INTRADAY_CRASH_VOLUME-20261027T152936Z": {
+      "ticker": "MKDW",
+      "radar": "china1",
+      "detected_utc": "2026-10-27T15:29:36Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-NWGL-INTRADAY_REIGNITION-20261027T152927Z": {
+      "ticker": "NWGL",
+      "radar": "china1",
+      "detected_utc": "2026-10-27T15:29:27Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-LPTH-def14a-followup-20261026": {
+      "ticker": "LPTH",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T00:00:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-NWGL-registration-history-followup-20260824": {
+      "ticker": "NWGL",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-28T00:00:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7.0-VNDA-PHASE3_STUDY3601_POSITIVE-20261027T105000Z": {
+      "ticker": "VNDA",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T10:50:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7.0-CGEM-IND_CLEARANCE_VELINOTAMIG-20261027T110000Z": {
+      "ticker": "CGEM",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T11:00:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7.0-TNXP-TONMYA_PHASE3_FIQR_ANALYSIS-20261027T110000Z": {
+      "ticker": "TNXP",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T11:00:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "CN1_NEWS_HUHU_SEMICONDUCTOR_CONSORTIUM_BID_20261021T130000Z": {
+      "ticker": "HUHU",
+      "radar": "china",
+      "detected_utc": "2026-10-27T16:05:27Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7.0_DFNS_KEEPZONE_ACQUISITION_DEFINITIVE_20261027T132500Z": {
+      "ticker": "DFNS",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T16:38:30Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-AXG-INTRADAY_CRASH_VOLUME-20261027T163900Z": {
+      "ticker": "AXG",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T16:39:29Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-VNET-2027convertible_notes_30pct_repurchase-20261027T122500Z": {
+      "ticker": "VNET",
+      "radar": "china",
+      "detected_utc": "2026-10-27T16:53:35Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-MKDW-CONTINUED_INTRADAY_CRASH-20261027T174414Z": {
+      "ticker": "MKDW",
+      "radar": "china1",
+      "detected_utc": "2026-10-27T17:44:14Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7.0-SHFS-MINUTE_VOLUME_REIGNITION-20261027T175048Z": {
+      "ticker": "SHFS",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T17:50:48Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "CN1_NEWS_MAAS_PIPE_EXPECTED_CLOSING_20260923T131000Z": {
+      "ticker": "MAAS",
+      "radar": "china",
+      "detected_utc": "2026-10-27T18:25:10Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_EARLY_SHFS_POST_SPIKE_RETRACEMENT_20261027T184808Z": {
+      "ticker": "SHFS",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T18:48:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-AXG-ATM_50M_424B5-20261022T213100Z": {
+      "ticker": "AXG",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T19:19:33Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-AXG-REVERSE_SPLIT_DATE_CONFIRMED-20261027T120000Z": {
+      "ticker": "AXG",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T19:19:33Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-CHRS-TAGMOKITUG_DATA_AND_VOLUME-20261014T203000Z": {
+      "ticker": "CHRS",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T19:42:54Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0독립포착-MASK-SAMPLED_MINUTE_VOLUME_SPIKE-20261027T194234Z": {
+      "ticker": "MASK",
+      "radar": "china",
+      "detected_utc": "2026-10-27T19:42:34Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0독립포착-NWGL-SAMPLED_MINUTE_VOLUME_REIGNITION-20261027T194321Z": {
+      "ticker": "NWGL",
+      "radar": "china",
+      "detected_utc": "2026-10-27T19:43:21Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close10-ACTU-underwritten-offering-effect-20261027T120000Z": {
+      "ticker": "ACTU",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T19:53:43Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close10-CLW-q3-earnings-20261026T200500Z": {
+      "ticker": "CLW",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T19:53:43Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close10-WFF-1for25-share-consolidation-20261027T123000Z": {
+      "ticker": "WFF",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T19:53:43Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "nasdaq7-close10-BDMD-intraday-crash-volume-20261027T192900Z": {
+      "ticker": "BDMD",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-27T19:53:43Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-PRSO-NANTCAPITAL_PRIVATE_PLACEMENT_SIGNED-20261026T130517Z": {
+      "ticker": "PRSO",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T20:18:34Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-CLIK-SAMPLED_MINUTE_VOLUME_LABT-20261027T194008Z": {
+      "ticker": "CLIK",
+      "radar": "china1",
+      "detected_utc": "2026-10-27T20:23:06Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_NUWE_PEDIATRIC_AQUADEX_STUDY_20261027T120000Z": {
+      "ticker": "NUWE",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_CRML_EUROPEAN_LITHIUM_SCHEME_EFFECTIVE_20261027T123300Z": {
+      "ticker": "CRML",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_MEGL_DAILY_CRASH_VOLUME_20261027T200000Z": {
+      "ticker": "MEGL",
+      "radar": "china",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_BRAI_REVERSAL_VOLUME_20261027T200000Z": {
+      "ticker": "BRAI",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_DVLT_DAILY_CRASH_VOLUME_20261027T200000Z": {
+      "ticker": "DVLT",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T20:26:51Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-PHAR-CVID_PHASE2_TOPLINE_NOV2026-20261027T060000Z": {
+      "ticker": "PHAR",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T21:44:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-YYAI-BESTLIFE_BALANCE_DUE-20261014_FILING_000149315226047025": {
+      "ticker": "YYAI",
+      "radar": "china",
+      "detected_utc": "2026-10-27T22:59:14Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-MBOT-FIRST_OBL_CUSTOMER_ORDER-20261027T123000Z": {
+      "ticker": "MBOT",
+      "radar": "nas",
+      "detected_utc": "2026-10-27T23:02:43Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-BRAI-AFTERHOURS_REIGNITION-20261027T232835Z": {
+      "ticker": "BRAI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-27T23:28:35Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-YMT-ADS_RATIO_10FOR1_NOV16-20261027T103508Z": {
+      "ticker": "YMT",
+      "radar": "china",
+      "detected_utc": "2026-10-27T23:43:35Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-DXF-AFTERHOURS_PRICE_REIGNITION_SAMPLED_VOLUME-20261027T232831Z": {
+      "ticker": "DXF",
+      "radar": "china1",
+      "detected_utc": "2026-10-27T23:28:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-CHOW-PRIVATE_PLACEMENT_FULL_PAYMENT-20261027T153000Z": {
+      "ticker": "CHOW",
+      "radar": "china",
+      "detected_utc": "2026-10-28T01:29:12Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-SLGB-MIN_BID_COMPLIANCE_DEADLINE-20260505T210025Z": {
+      "ticker": "SLGB",
+      "radar": "china",
+      "detected_utc": "2026-10-28T02:28:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-CRML-OPTION_SCHEME_CONSIDERATION-20261028T005700Z": {
+      "ticker": "CRML",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T02:29:49Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-BILI-TENCENT_CONVERTIBLE_BUYBACK_EGM-20260925T064234ET": {
+      "ticker": "BILI",
+      "radar": "china",
+      "detected_utc": "2026-10-28T02:42:37Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-WCT-CLASSA_1FOR10_VOTE-20261013_FILING_000121390026109040": {
+      "ticker": "WCT",
+      "radar": "china",
+      "detected_utc": "2026-10-28T02:42:37Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-GSUN-1FOR10_SHARE_CONSOLIDATION_VOTE-20261020_FILING_000121390026111081": {
+      "ticker": "GSUN",
+      "radar": "china",
+      "detected_utc": "2026-10-28T02:42:37Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-PYPD-FDA_PDUFA_20261128-20260729T123500Z": {
+      "ticker": "PYPD",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T04:08:16Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-PYPD-INVESTOR_DAY_20261028-20261015T123000Z": {
+      "ticker": "PYPD",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T04:08:16Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ZLAB-PIPE_250M_SIGNED_EXPECTED_CLOSE-20261023T060622EDT": {
+      "ticker": "ZLAB",
+      "radar": "china",
+      "detected_utc": "2026-10-28T04:20:12Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ZLAB-Q3_EARNINGS_NOV05-20261021_DATE_ONLY": {
+      "ticker": "ZLAB",
+      "radar": "china",
+      "detected_utc": "2026-10-28T04:20:12Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-VREX-MERGER_SPECIAL_VOTE_20261028-20261022T103112Z": {
+      "ticker": "VREX",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T05:11:27Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-HCM-SAFFRON_PHASE3_ESMO_RESULTS-20261026T000000Z": {
+      "ticker": "HCM",
+      "radar": "china1.0",
+      "detected_utc": "2026-10-28T05:12:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-HCM-SANOVO_PHASE3_ESMO_RESULTS-20261026T083000Z": {
+      "ticker": "HCM",
+      "radar": "china1.0",
+      "detected_utc": "2026-10-28T05:12:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-HCM-SAVOLITINIB_EXPERT_WEBCAST_NOV05-20261027T000000Z": {
+      "ticker": "HCM",
+      "radar": "china1.0",
+      "detected_utc": "2026-10-28T05:12:05Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-BTAI-FDA_PDUFA_20261114-20260401T065825ET": {
+      "ticker": "BTAI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T05:19:11Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ANL-AN4035_ENA_ORAL_PRESENTATION-20261027T200500Z": {
+      "ticker": "ANL",
+      "radar": "china",
+      "detected_utc": "2026-10-28T06:51:44Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-WRD-GLOBAL_INSURANCE_PARTNERSHIP-20261028T032700Z": {
+      "ticker": "WRD",
+      "radar": "china",
+      "detected_utc": "2026-10-28T06:51:44Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-AGIO-MITAPIVAT_SCD_PDUFA_NOV01-20260707T110000Z": {
+      "ticker": "AGIO",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T07:13:51.306Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-ULBI-ENS_CASH_MERGER_SIGNED-20261027T210400Z": {
+      "ticker": "ULBI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T07:23:57Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ZBAO-NEXSYS_MA_30D_EXPECTED_CLOSE-20260928T121517Z": {
+      "ticker": "ZBAO",
+      "radar": "china",
+      "detected_utc": "2026-10-28T08:20:15Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-ARTV-ALLONK_STOP_STRATEGIC_ALTERNATIVES-20261027T113000Z": {
+      "ticker": "ARTV",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T08:38:20Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-SJ-LEADER_EDUCATION_29P9_ACQUISITION_CLOSE-20261026_DATE_ONLY": {
+      "ticker": "SJ",
+      "radar": "china",
+      "detected_utc": "2026-10-28T09:36:17Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-SJ-2026H1_RESULTS-20261026_DATE_ONLY": {
+      "ticker": "SJ",
+      "radar": "china",
+      "detected_utc": "2026-10-28T09:36:17Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-BDAI-MA-JuFu-second-close-20261027-000121390026112726": {
+      "ticker": "BDAI",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-28T09:38:53Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-BDAI-H1-results-20261027-000121390026112726": {
+      "ticker": "BDAI",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-28T09:38:53Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "cn1-CAN-Luxor-strategic-investment-20261027T130000Z": {
+      "ticker": "CAN",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-28T09:38:53Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-EZRA-GPU_CLOUD_NONBINDING_LOI-20260923_DATE_ONLY": {
+      "ticker": "EZRA",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T10:08:26Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-HCM-HMPL_A830_GSK_LICENSE_CLOSED-20261021T100300Z": {
+      "ticker": "HCM",
+      "radar": "china",
+      "detected_utc": "2026-10-28T10:49:09Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-ELPW-ANNUAL_DISTRIBUTION_AGREEMENT_6K-20261028_DATE_ONLY": {
+      "ticker": "ELPW",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T11:28:30.365Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-BKYI-GOVERNMENT_SECURITY_DEPLOYMENT-20261028T040000EDT": {
+      "ticker": "BKYI",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T11:28:30.365Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-GPUS-NEWMARK_DEBT_FINANCING_ADVISOR-20261028T063000EDT": {
+      "ticker": "GPUS",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-28T11:28:30.365Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_조기포착사전공시_VBIO_PRECLINICAL_SAFETY_20261028T114500Z": {
+      "ticker": "VBIO",
+      "radar": "NASDAQ7",
+      "detected_utc": "2026-10-28T12:20:40Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_조기포착사전공시_AXGN_Q3_GUIDANCE_20261028T110200Z": {
+      "ticker": "AXGN",
+      "radar": "NASDAQ7",
+      "detected_utc": "2026-10-28T12:20:40Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_조기포착사전공시_HIVE_SIGNED_129M_DEBT_20261027_DATEONLY": {
+      "ticker": "HIVE",
+      "radar": "NASDAQ7",
+      "detected_utc": "2026-10-28T12:20:40Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_조기포착사전공시_PATK_COMPETING_MA_OFFER_20261028T100300Z": {
+      "ticker": "PATK",
+      "radar": "NASDAQ7",
+      "detected_utc": "2026-10-28T12:20:40Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "CHINA1_NEWS_SCHEDULE_MEGL_STRATEGIC_LOI_20261027T110000Z": {
+      "ticker": "MEGL",
+      "radar": "china",
+      "detected_utc": "2026-10-28T12:36:32Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "CHINA1_NEWS_SCHEDULE_QH_BANK_CREDIT_20261028T110000Z": {
+      "ticker": "QH",
+      "radar": "china",
+      "detected_utc": "2026-10-28T12:36:32Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "CHINA1_NEWS_SCHEDULE_JG_Q3_EARNINGS_DATE_20261028T090000Z": {
+      "ticker": "JG",
+      "radar": "china",
+      "detected_utc": "2026-10-28T12:36:32Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "CHINA1_NEWS_SCHEDULE_BILI_EGM_APPROVAL_20261028T120000Z": {
+      "ticker": "BILI",
+      "radar": "china",
+      "detected_utc": "2026-10-28T12:36:32Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ITOC-NASDAQ_BID_COMPLIANCE_REGAINED-20261028T080000EDT": {
+      "ticker": "ITOC",
+      "radar": "china",
+      "detected_utc": "2026-10-28T12:39:26Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ADAG-PHASE1_FIRST_PATIENT_DOSED-20261028T070000EDT": {
+      "ticker": "ADAG",
+      "radar": "china",
+      "detected_utc": "2026-10-28T12:39:26Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-MKDW-MINUTE_VOLUME_REIGNITION-20261028T132500Z": {
+      "ticker": "MKDW",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-28T13:29:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-AXG-CRASH_VOLUME_WATCH-20261028T132900Z": {
+      "ticker": "AXG",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-28T13:29:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_EARLY_SCHEDULE-BEAT-ALIGNACS_TCT_RESULTS_PRESENTATION-20261028T083100EDT": {
+      "ticker": "BEAT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T14:10:14Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-AXNX-MINUTE_VOLUME_SHARP_PULLBACK-20261028T140832Z": {
+      "ticker": "AXNX",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T14:09:17Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-MKDW-POST_REIGNITION_PRICE_DROP-20261028T140805Z": {
+      "ticker": "MKDW",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T14:09:17Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-POM-LABT_VOLUME_CRASH-20261028T140832Z": {
+      "ticker": "POM",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T14:24:52Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_EARLY_SCHEDULE-RCT-CRASH_HIGH_MINUTE_VOLUME-20261028T145735Z": {
+      "ticker": "RCT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T14:58:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-POM-POST_CRASH_REBOUND-20261028T152444Z": {
+      "ticker": "POM",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-28T15:24:51Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-AXNX-POST_CRASH_CONTINUATION-20261028T152842Z": {
+      "ticker": "AXNX",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T15:29:47Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-CANG-VOLUME_FIRST_PRICE_LAG-20261029T011241KST": {
+      "ticker": "CANG",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T16:21:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-AXNX-POST_CRASH_PRICE_REBOUND-20261029T012006KST": {
+      "ticker": "AXNX",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T16:21:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-POM-POST_REBOUND_SHARP_RETRACE-20261029T012059KST": {
+      "ticker": "POM",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T16:21:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-AXG-MINUTE_VOLUME_ACCEL_PULLBACK-20261028T163349Z": {
+      "ticker": "AXG",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T16:35:44Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-POM-POST_REBOUND_NEW_LOW-20261028T164513Z": {
+      "ticker": "POM",
+      "radar": "china",
+      "detected_utc": "2026-10-28T16:45:13Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-CENN-INTRAHOUR_VOLUME_SPIKE_RETRACE-20261028T171557Z": {
+      "ticker": "CENN",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T17:17:27Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-AIIO-PRICE_RECOVERY_VOLUME_REIGNITION-20261028T171653Z": {
+      "ticker": "AIIO",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T17:17:27Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-TAOP-LOW_LIQUIDITY_PRICE_JUMP-20261028T175211Z": {
+      "ticker": "TAOP",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T17:55:02Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_조기포착사전공시_PRSO_RVOL5_20261028T180100Z": {
+      "ticker": "PRSO",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T18:13:11Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-CENN-POST_SPIKE_FURTHER_DROP-20261028T180300Z": {
+      "ticker": "CENN",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T18:18:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-MASK-CUMULATIVE_4_FOR_1_SPLIT-20261028T155500Z": {
+      "ticker": "MASK",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T19:05:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-NWGL-SAMPLED_MINUTE_VOLUME_REIGNITION-20261028T184735Z": {
+      "ticker": "NWGL",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T19:05:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-MKDW-POST_CRASH_PRICE_RECOVERY-20261028T182938Z": {
+      "ticker": "MKDW",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T19:05:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-LABT-RVOL5_ACCEL-20261028T184700Z": {
+      "ticker": "LABT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T18:47:27+00:00",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ELPW-ANNUAL_DISTRIBUTION_AGREEMENT_6K-20261028_DATE_ONLY": {
+      "ticker": "ELPW",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T19:15:27.613Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-SSTI-INTRADAY_RVOL5_ACCEL-20261028T191800Z": {
+      "ticker": "SSTI",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T19:20:10.524063+00:00",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-IDCC-INTRADAY_RVOL5_ACCEL-20261028T191900Z": {
+      "ticker": "IDCC",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T19:20:10.524063+00:00",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-CENN-POST_DROP_PRICE_RECOVERY-20261028T192343Z": {
+      "ticker": "CENN",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T19:51:47Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_1550_CRASH-BCAX-CRASH_RVOL28-20261028T192400Z": {
+      "ticker": "BCAX",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_1550_CRASH-MWYN-NONBINDING_AI_CAMPUS_MOU-20261028T150000Z": {
+      "ticker": "MWYN",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_1550_CRASH-NXXT-REVERSE_SPLIT_1FOR10-20261028T120000Z": {
+      "ticker": "NXXT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_1550_CRASH-RUBI-REVERSE_SPLIT_1FOR25-20261028T130000Z": {
+      "ticker": "RUBI",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_1550_CRASH-SCKT-Q3_EARNINGS_SCHEDULE-20261028T130000Z": {
+      "ticker": "SCKT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_1550_CRASH-RCT-INSIDER_LIABILITY_OFFSET_PLACEMENT-20261028T115600Z": {
+      "ticker": "RCT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:04:31Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-DXF-INTRADAY_PRICE_VOLUME_REIGNITION-20261028T192304Z": {
+      "ticker": "DXF",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T20:31:23.220Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-NAMI-PRICE_DROP_VOLUME_WATCH-20261028T192301Z": {
+      "ticker": "NAMI",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T20:31:23.220Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_CHSN_SHAREHOLDER_APPROVAL_100FOR1_20261027_DATE_ONLY": {
+      "ticker": "CHSN",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_CHSN_UNUSUAL_VOLUME_PRICE_20261028T195000Z": {
+      "ticker": "CHSN",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_FTFT_UNUSUAL_VOLUME_PRICE_20261028T195000Z": {
+      "ticker": "FTFT",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_JDZG_CRASH_VOLUME_20261028T195000Z": {
+      "ticker": "JDZG",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_PLCE_CRASH_VOLUME_20261028T195000Z": {
+      "ticker": "PLCE",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_KPTI_UNUSUAL_VOLUME_PRICE_20261028T195000Z": {
+      "ticker": "KPTI",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_BEAT_ALIGN_ACS_RESULTS_SCHEDULE_20261028T123100Z": {
+      "ticker": "BEAT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7_CLOSE_PODC_STRATEGIC_INTEREST_SPECIAL_COMMITTEE_20261028T150000Z": {
+      "ticker": "PODC",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T20:31:54Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-AXTI-TONGMEI_SUBSIDIARY_EQUITY_FINANCING_SIGNED-20261028T101044Z": {
+      "ticker": "AXTI",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T20:48:50Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-BIDU-Q3_2026_EARNINGS_SCHEDULE_6K-20261027_DATE_ONLY": {
+      "ticker": "BIDU",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T20:48:50Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-AXTI-Q3_EARNINGS_SCHEDULE-20261001_DATE_ONLY": {
+      "ticker": "AXTI",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T20:48:50Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-LUCD-RVOL5-20261028T195900Z": {
+      "ticker": "LUCD",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T21:00:28+00:00",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-PRSO-RVOL5-20261028T195900Z": {
+      "ticker": "PRSO",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T21:00:28+00:00",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-CLRO-RVOL5-20261028T195900Z": {
+      "ticker": "CLRO",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T21:00:28+00:00",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-CHRS-TAGMOKITUG_INTERIM_RESULTS-20261028T200500Z": {
+      "ticker": "CHRS",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T22:01:48Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ACMR-Q3_2026_PRELIM_REVENUE_SEC8K-20261028T121300Z": {
+      "ticker": "ACMR",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T22:40:35Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ACMR-FIRST_310MM_PANEL_TOOL_SHIPMENT-20261028T103000Z": {
+      "ticker": "ACMR",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T22:40:35Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-WB-Q3_2026_EARNINGS_DATE_SEC6K-20261028T113400Z": {
+      "ticker": "WB",
+      "radar": "china1",
+      "detected_utc": "2026-10-28T22:40:35Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-EMAT-ULVAC57_DELIVERY_POHANG_8K-20261028T123500Z": {
+      "ticker": "EMAT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T22:42:19Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-EMAT-ARMY_MAGNET_RFI_RESPONSE-20261028T221000Z": {
+      "ticker": "EMAT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T22:42:19Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-GMAB-LIGERHN1_PHASE3_POSITIVE_OS_ORR-20261028T134000Z": {
+      "ticker": "GMAB",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T23:34:27Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-SLS-REGAL_PHASE3_80TH_EVENT_FINAL_ANALYSIS-20261028T123500Z": {
+      "ticker": "SLS",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T23:34:27Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-GERN-IMPACTMF_PHASE3_DISCONTINUED-20261028T120000Z": {
+      "ticker": "GERN",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-28T23:34:27Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-ADIL-AZR_TICKER_CHANGE_SHAREHOLDER_APPROVAL-20261028T200200Z": {
+      "ticker": "ADIL",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T01:07:16Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-GLUE-NOVARTIS_PHASE2_PSORIATIC_ARTHRITIS_MILESTONE_37_5M-20261028T110000Z": {
+      "ticker": "GLUE",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T01:07:16Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-COHU-Q3_2026_EARNINGS_BOOKINGS126_SEC8K-20261028T200700Z": {
+      "ticker": "COHU",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T01:44:19Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-NNBR-Q3_2026_EARNINGS_GUIDANCE_SEC8K-20261028T211700Z": {
+      "ticker": "NNBR",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T02:47:48.711Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-INBX-MSTS_CHONDRAGON_SECONDARY_ENDPOINT_PRESENTATION-20261013_DATE_ONLY": {
+      "ticker": "INBX",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T02:47:48.711Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-ECX-Q3_2026_EARNINGS_SCHEDULE-20261021T110000Z": {
+      "ticker": "ECX",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T02:58:46Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-HCM-SOVLEPLENIB_US_FDA_ORPHAN_ITP-20261029T000000Z": {
+      "ticker": "HCM",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T04:08:18Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-DBVT-Q4_FDA_BLA_FILING_ACCEPTANCE_PRIORITY_REVIEW_DECISION-20261028T204700Z": {
+      "ticker": "DBVT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T04:43:04Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-HSAI-Q3_2026_EARNINGS_NOV10-20261020T083000Z": {
+      "ticker": "HSAI",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T04:50:12Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7.0_조기포착_사전공시_PVLA_FDA_NDA_ACCEPT_PRIORITY_REVIEW_20261028T0730EDT": {
+      "ticker": "PVLA",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-10-29T05:24:21Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-XFOR-4WARD_PHASE3_INVESTOR_DAY-20261009_DATE_ONLY": {
+      "ticker": "XFOR",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T06:15:49Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-MDXG-PATENT_LICENSE_25M-20261028T160300EDT": {
+      "ticker": "MDXG",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T06:15:49Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-LI-MHX_SUBSIDIARY_EQUITY_FINANCING-20261016T083200Z": {
+      "ticker": "LI",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T06:33:28Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-LI-2026_LI_I6_MODEL_LAUNCH-20261028T130800Z": {
+      "ticker": "LI",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T06:33:28Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-CLPT-Q3_2026_REVENUE_GROWTH-20261028T200500Z": {
+      "ticker": "CLPT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T07:56:45Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-NVCR-VERASTEM_VS7375_TRIAL_COLLABORATION-20261028T110000Z": {
+      "ticker": "NVCR",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T07:56:45Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-UTHR-TREILO_IND_PHASE1_CLEARANCE-20261028T110000Z": {
+      "ticker": "UTHR",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T07:56:45Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-IOVA-IOVLUN202_PHASE2_POSITIVE_DATA_WEBCAST-20261028T230000Z": {
+      "ticker": "IOVA",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T08:17:46Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-SWMR-RATEL_ACQUISITION_SHAREHOLDER_VOTE_NOV02-20261026T160000Z": {
+      "ticker": "SWMR",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T08:17:46Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-STRL-Q3_REVENUE127_GUIDANCE_RAISE_SEC8K-20261028T201300Z": {
+      "ticker": "STRL",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T08:17:46Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-YMT-NASDAQ_EQUITY_COMPLIANCE-20261022_DATE_ONLY": {
+      "ticker": "YMT",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T08:27:06Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-KYMR-KT579_PHASE1_READOUT_SCHEDULE-20261028T200100Z": {
+      "ticker": "KYMR",
+      "radar": "NASDAQ7",
+      "detected_utc": "2026-10-29T09:46:13Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-EVAX-EVX01_PHASE2_3YR_WEBINAR-20261023T060000Z": {
+      "ticker": "EVAX",
+      "radar": "NASDAQ7",
+      "detected_utc": "2026-10-29T09:46:13Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-MESO-Q1FY27_RYONCIL_REVENUE44_FDA_BLA_PATH-20261029T001900Z": {
+      "ticker": "MESO",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T11:02:29Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-FTAI-Q3_2026_REVENUE_GROWTH_500M_ASR_SEC8K-20261029T100000Z": {
+      "ticker": "FTAI",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T11:02:29Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-IOVA-IOV_LUN202_PHASE2_UPDATED_RESULTS-20261029T070000EDT": {
+      "ticker": "IOVA",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T12:10:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-NCPL-PREMARKET_GAPUP_REVERSAL-20261029T075200EDT": {
+      "ticker": "NCPL",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T12:10:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-PCLA-PREMARKET_VOLUME_PRICE_SPIKE-20261029T075200EDT": {
+      "ticker": "PCLA",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T12:10:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-KDK-PREMARKET_PRICE_VOLUME_SURGE-20261029T075200EDT": {
+      "ticker": "KDK",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T12:10:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-DKI-PREMARKET_PRICE_VOLUME_SURGE-20261029T075200EDT": {
+      "ticker": "DKI",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T12:10:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-LITE-MRVL_LITE_ACQUISITION_TALKS_RUMOR-20261028T231000Z": {
+      "ticker": "LITE",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T12:10:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-KC-Q3_2026_EARNINGS_SCHEDULE-20261029T072600EDT": {
+      "ticker": "KC",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T12:23:38Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-KYMR-KT579_PHASE1_RESULTS-20261029T070000EDT": {
+      "ticker": "KYMR",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T12:33:19Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-CLPS-SHARE_BUYBACK_EXTENSION-20261029T083000EDT": {
+      "ticker": "CLPS",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T13:28:53Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-RETO-EIGHT_FOR_ONE_SHARE_CONSOLIDATION-20261029T083000EDT": {
+      "ticker": "RETO",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T13:28:53Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-RETO-PRICE_CRASH_VOLUME_SAMPLED-20261029T133009Z": {
+      "ticker": "RETO",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T13:34:49.891Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-POM-PRICE_SPIKE_REVERSAL_VOLUME_SAMPLED-20261029T133035Z": {
+      "ticker": "POM",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T13:34:49.891Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-NWGL-MINUTE_VOLUME_PRICE_LAG_SAMPLED-20261029T133023Z": {
+      "ticker": "NWGL",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T13:34:49.891Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-YOUL-PRICE_DROP_VOLUME-20261029T135017Z": {
+      "ticker": "YOUL",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T13:52:01.073Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-RETO-POST_CRASH_REBOUND-20261029T135136Z": {
+      "ticker": "RETO",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T13:52:01.073Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-TJGC-NASDAQ_TRADING_HALT_INFO_REQUEST-20261029T080000EDT": {
+      "ticker": "TJGC",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T14:11:08Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-BUUU-PRICE_DROP_SAMPLED-20261029T150156Z": {
+      "ticker": "BUUU",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T15:05:39Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-YOUL-POST_DROP_REBOUND_SAMPLED-20261029T142544Z": {
+      "ticker": "YOUL",
+      "radar": "china1",
+      "detected_utc": "2026-10-29T15:05:39Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-PCSA-FDA_IND_CLEARANCE_VT7208-20261029T080000EDT": {
+      "ticker": "PCSA",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-FSTR-DULWORTH_ASSET_ACQUISITION_COMPLETED-20261029T080000EDT": {
+      "ticker": "FSTR",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-FMBH-EVERGREEN_DEFINITIVE_MERGER_AGREEMENT-20261029T070000EDT": {
+      "ticker": "FMBH",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-GCDT-FIVE_MIN_RVOL3_13_SAMPLED-20261029T144000Z": {
+      "ticker": "GCDT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-BURU-MINUTE_VOLUME_SAMPLED-20261029T150817Z": {
+      "ticker": "BURU",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0_뉴스사전공시일정감시|HSAI|ROBOTAXI_LIDAR_MARKET_SHARE_YOLE_REPORT|2026-10-29T09:00:00-04:00": {
+      "ticker": "HSAI",
+      "radar": "중국계 1.0",
+      "detected_utc": "2026-10-29T15:14:51Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    }
+  },
   "snapshots": {}
 }
