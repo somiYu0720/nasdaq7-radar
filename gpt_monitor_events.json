@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T15:05:39Z",
+  "updated_utc": "2026-10-29T15:09:43.766Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3367,6 +3367,61 @@
       "detected_utc": "2026-10-29T15:05:39Z",
       "summary": "2026-10-29 KST 토스 GitHub 비연속 관측: 기존 급락 후 22:50:17 YOUL $0.2499 → 23:19:50 $0.2566(표시 분봉 28주) → 23:25:44 $0.2698(표시 분봉 10,500주). 23:19:50 대비 +5.14%, 22:50:17 저점 관측 대비 +7.96%; 표본 분봉 거래량은 서로 다른 분봉의 단순 비교로 정규 RVOL 2/3/5/10/30/50배나 연속 가속 확정 아님. 마지막 실제 시세 시각은 23:25:44 KST로 수집 완료 00:05보다 약 40분 전이며 후속 반등 지속/저점 방어 미확인. 1차 위험 감점 없음. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·잠재 희석·즉시 매도 공급 미확인, A/B/C/D 보류. 외부 시세/SEC 원문 미대조 PROVISIONAL.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/dc630ac8b91d10b5e5597bf2d82f5c7d831a758e/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-PCSA-FDA_IND_CLEARANCE_VT7208-20261029T080000EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "PCSA",
+      "category": "1차_임상2상_IND허용_공식SEC8K_VERIFIED",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "summary": "2026-10-29 08:00 EDT Processa 발행사 발표와 동일일 SEC 8-K Exhibit 99.1 원문 직접 대조: FDA가 VT-7208의 만성 자발성 두드러기(CSU) 대상 임상 2상 IND를 허용. 계획된 무작위 이중맹검 위약대조 12주 연구는 약 120명 등록 예정. 이는 시험 개시 허용이며 임상 효능 입증·판매 승인 아님. Generian과 경구 FcRn 길항제 연구협력·독점 옵션도 발표. 1차 임상 규제 이벤트 신호만 평가하며 거래량 2/3/5/10/30/50배·가격반응·저점방어·급등전 여부 미확인. 2차 기존 Vidya 인수 동반 약 $200m PIPE 발표는 잠재 희석 검증 대상으로만 분리; 현재 Float/O/S·PIPE 잔여 재판매 가능분·ATM/ELOC/워런트/전환 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 최종 보류. 위험으로 1차 감점·삭제·순위변경 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1533743/000114036126041116/ef20084530_ex99-1.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-FSTR-DULWORTH_ASSET_ACQUISITION_COMPLETED-20261029T080000EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "FSTR",
+      "category": "1차_MA_인수종결_발행사보도_SEC원문미대조_PROVISIONAL",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "summary": "2026-10-29 08:00 EDT L.B. Foster 발행사 보도: 자회사 CXT가 Dulworth Enterprises 운영자산 대부분을 약 $52.2m 현금으로 인수, 2026-10-28 거래 종결. 회사 예상 연매출 약 $18m, 통합 완료(12~18개월 예상) 후 시너지 포함 EBITDA 연 $6.5m~$7.5m은 미래 전망이지 확정 실적 아님. 발행사 보도 및 8-K 재현자료 확인, SEC.gov 해당 8-K 직접 대조 전이므로 PROVISIONAL. 1차 확정 종결 M&A 뉴스만 관찰; 현재 거래량 가속·가격반응·급등전 여부 미확인. 2차 최신 Float/O/S·자금조달·ATM/ELOC/Resale/PIPE/워런트/전환·잠재 희석과 실제 즉시 매도 공급 미확인, A/B/C/D 판정 보류. 위험으로 1차 감점·삭제·순위변경 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/29/3391205/32958/en/l-b-foster-expands-precast-concrete-business-with-the-acquisition-of-dulworth-enterprises-inc.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-FMBH-EVERGREEN_DEFINITIVE_MERGER_AGREEMENT-20261029T070000EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "FMBH",
+      "category": "1차_MA_확정인수계약_종결미완료_SEC원문미대조_PROVISIONAL",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "summary": "2026-10-29 07:00 EDT 발행사 발표: First Mid Bancshares가 Evergreen Bancshares 인수를 위한 확정 합병계약(2026-10-28 체결) 발표. 거래대가 약 $70.7m(10/27 주가 기준), Evergreen 주식 1주당 FMBH 0.4081주와 현금 $5.20; 대가 약 80% 주식·20% 현금. 2027년 1분기 종결 예상이나 규제·주주 승인 필요, 종결 확정 아님. 회사 공식 발표 재게시 및 8-K 재현자료 확인, SEC.gov 원문 직접 대조 전 PROVISIONAL. 1차 M&A 계약 뉴스만 포착, 가격·거래량 가속 미확인. 2차 인수대가 신주 약 111만주 발행 예정은 잠재 공급 요소로 별도 검토; 실제 즉시 매도 가능 공급·최신 Float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환 미확인, A/B/C/D 최종 보류. 1차 감점·삭제·순위변경 없음.",
+      "source_url": "https://www.nasdaq.com/press-release/first-mid-bancshares-inc-announces-acquisition-evergreen-bancshares-inc-2026-10-29",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-GCDT-FIVE_MIN_RVOL3_13_SAMPLED-20261029T144000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "GCDT",
+      "category": "1차_거래량선행_5분상대거래량_잠정_PROVISIONAL",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "summary": "GitHub 포착기 data.json 2026-10-29 14:55:16 UTC 갱신에서 GCDT 14:40 UTC 5분봉의 rvol5=3.13, EARLY_PROVISIONAL. 기준은 직전 거래량 양수인 완료 5분봉 12개 평균으로 동시간대 조정이 아니며, 14:55 기준 10.3분 경과한 분봉임. 현재 가격 가속·5~15분 연속 가속·저점방어·급등전/진행 여부 미확인. 기존 10/20 일간 거래량 급락 및 10/26 이상거래 해명 기록과 다른 10/29 5분봉 표본. 전수 스캔이 아닌 관심종목 자료이며 SEC/외부 시세 미대조 PROVISIONAL. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·잠재 희석 및 실제 즉시 매도 공급 미확인, A/B/C/D 보류. 위험 감점·삭제 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BURU-MINUTE_VOLUME_SAMPLED-20261029T150817Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "BURU",
+      "category": "1차_대량거래_진행중분봉_잠정_PROVISIONAL",
+      "detected_utc": "2026-10-29T15:09:43.766Z",
+      "summary": "GitHub Toss 부분수집 2026-10-30 00:08:17 KST BURU 가격 $0.3253, 00:09 표시 진행중 1분봉 거래량 638,071주, 봉 O/H $0.3297 L $0.3230, quote_time 00:08:17. 00:09 표시 봉은 완료봉이 아니며 거래량은 해당 분봉 표본일 뿐 RVOL 2/3/5/10/30/50배 확정 또는 5~15분 가속이 아님. 비교 가능한 연속 이전 분봉·저점방어·가격 변화율·급등 전/진행 여부 미확인. 포착기 부분수집·외부 시세 미대조 PROVISIONAL. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·상장위험·잠재 희석 및 실제 즉시 매도 공급 미확인, A/B/C/D 보류. 위험으로 1차 감점·삭제·순위변경 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
