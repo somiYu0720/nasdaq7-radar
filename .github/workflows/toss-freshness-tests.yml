@@ -1,0 +1,24 @@
+name: Isolated Toss freshness regression
+on:
+  pull_request:
+    paths:
+      - 'toss_freshness_check.py'
+      - 'tests/test_toss_freshness.py'
+      - '.github/workflows/toss-freshness-tests.yml'
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run isolated Toss freshness tests
+        env:
+          PYTHONPATH: .
+        run: python -m unittest discover -s tests -p 'test_toss_freshness.py' -v
+      - name: Inspect saved Toss snapshot without mutating data
+        run: python toss_freshness_check.py
