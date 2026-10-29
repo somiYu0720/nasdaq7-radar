@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T19:38:07Z",
+  "updated_utc": "2026-10-29T19:46:55Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3665,6 +3665,17 @@
       "summary": "기존 2026-04-15 발표 및 SEC 2026-06-30 분기 10-Q 확인: Savara MOLBREEVI(흡입형 molgramostim) 자가면역성 폐포단백증(aPAP) BLA 우선심사 FDA PDUFA 목표일 2026-11-22(기존 8/22에서 3개월 연장). 기존 공시에서 이번 레이더에 신규 발굴한 일정으로 오늘 새 FDA 결정이나 신규 공시가 아님. FDA 승인 미확정. 1차 이벤트 신호만 기록; 가격 상승률·5~15분 가속·저점방어 미확인. 2차 SEC 10-Q(6/30 기준) O/S 205,399,365주, 워런트 기초주식 48,678,005주(그중 선납형 48,600,212주, 행사가 $0.001)로 D형 공급 요소 확인; 최신 float/잔여 워런트 행사·실제 즉시 매도 가능 잔량 미확인. 위험에 따른 1차 감점·후보 삭제 없음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1160308/000119312526344585/svra-20260630.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-GCDT-RVOL5_5P39-20261029T193500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "GCDT",
+      "category": "1차_5분상대거래량5.39배_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-29T19:46:55Z",
+      "summary": "GitHub data.json 2026-10-29 19:46:55 UTC 저장본: GCDT 19:35 UTC 5분봉 rvol5=5.39, EARLY_PROVISIONAL. 직전 거래량 양수인 완료 5분봉 12개 평균 대비 지표(동시간대 조정 아님). 04:38:10 KST 토스 별도 가격 표본 $0.12705, 분봉과 관측 시점 불일치. 과거 급락 종목으로 급락 후 반등 관찰 분류하되 반등 확정 아님. 연속 5~15분 가속·저점방어·상승률·SEC 공급 A/B/C/D 미확인; 위험에 의한 1차 순위 변경 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
