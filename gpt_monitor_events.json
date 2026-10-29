@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T13:28:53Z",
+  "updated_utc": "2026-10-29T13:34:49.891Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3279,6 +3279,39 @@
       "detected_utc": "2026-10-29T13:28:53Z",
       "summary": "2026-10-29 08:30 EDT RETO 발행사 공식 보도자료: 이사회가 Class A 주식 8대1 병합 승인, 2026-11-02 병합 기준 거래 개시 예정(D+4). 발행·유통주식수 7,324,215주에서 약 915,527주로 감소 예정. 상장가격 요건 대응 목적이며 주식 병합만으로 기업가치 증가나 상승 확정 아님. 1차 뉴스·확정 예정일 신호로만 별도 관찰하며 위험 경고로 후보를 배제·감점하지 않음. 토스 2026-10-29 22:28 KST 비연속 프리장 표본 $0.7298, 표시 분봉 20주; 연속 분봉·동시간대 거래량 가속 2/3/5/10/30/50배·저점 방어·급등전 여부 미확인. 2차 2026년 과거 6-K·424B5에서 워런트/주식공급 약정 관련 D형 잠재 희석 요소 확인 필요, 최신 잔여물량·Float·O/S 및 즉시 매도 가능 공급 미확인으로 A/B/C/D 최종 보류. 이번 발표 SEC 직접 대조 미완료 PROVISIONAL.",
       "source_url": "https://www.prnewswire.com/news-releases/reto-eco-solutions-inc-announces-share-consolidation-302923193.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-RETO-PRICE_CRASH_VOLUME_SAMPLED-20261029T133009Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "RETO",
+      "category": "1차_급락_표본분봉거래량급증_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-29T13:34:49.891Z",
+      "summary": "GitHub Toss 부분수집 기록의 2026-10-29 22:26:18 KST RETO $0.7298(표시 분봉 30주)→22:28:15 $0.7298(20주)→22:30:09 $0.5800(22:31 표시 분봉 16,867주)로 약 -20.53% 급락. 22:31 표시 분봉 O/H $0.7049, L $0.5800. 이는 비연속 스냅샷의 신규 급락·거래량 동반 관찰로 1차에서 희석/상장 위험 감점 없이 보존. 16,867/20=약843배는 저유동성 표본끼리 비교한 수치로 정규 RVOL 2/3/5/10/30/50배나 연속 5~15분 가속의 확정값 아님. 마지막 호가 22:30:09로 이후 반등·저점방어 미확인. 기존 주식병합 일정 뉴스와 다른 가격 사건. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·잠재 희석 및 실제 즉시 매도 가능 물량 미확인, A/B/C/D 판정 보류. SEC/외부 시세 교차검증 전 PROVISIONAL.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/9fe33dc87f44b0010e2a7e08a0b1ace55c43c975/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-POM-PRICE_SPIKE_REVERSAL_VOLUME_SAMPLED-20261029T133035Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "POM",
+      "category": "1차_가격급변_표본분봉거래량증가_재점화관찰_PROVISIONAL",
+      "detected_utc": "2026-10-29T13:34:49.891Z",
+      "summary": "GitHub Toss 부분수집 2026-10-29 22:26:06 KST POM $1.74/표시 분봉 101주→22:28:32 $1.84/1,021주(+5.75%)→22:30:35 $1.75/14,888주(직전 관측 가격 대비 -4.89%, 표본 분봉 거래량 약14.58배)→22:32:07 $1.7353/2,025주. 22:31 표시 분봉 O $1.73/H $1.79/L $1.70. 가격 급변 후 상승분 반납 및 거래량 변화 관찰이며 급등 전 성공·저점방어·재점화 확정 아님. 비연속 표본 비교는 정규 RVOL 2/3/5/10/30/50배 및 5~15분 연속 가속 검증이 아님. 1차 위험 감점/삭제 없음. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·잠재 희석·실제 즉시 매도 공급 미확인, A/B/C/D 보류. SEC/외부 시세 미대조 PROVISIONAL.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/9fe33dc87f44b0010e2a7e08a0b1ace55c43c975/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-NWGL-MINUTE_VOLUME_PRICE_LAG_SAMPLED-20261029T133023Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "NWGL",
+      "category": "1차_거래량선행_가격지연_재점화관찰_PROVISIONAL",
+      "detected_utc": "2026-10-29T13:34:49.891Z",
+      "summary": "GitHub Toss 부분수집 2026-10-29 22:26:50 KST NWGL $0.0841/표시 분봉 2,563주→22:28:11 $0.0850/3주→22:30:23 $0.0842/82,580주(22:31 표시 분봉, 22:27 표본 2,563주 대비 약32.22배)→22:31:36 $0.0841/16,434주. 가격은 초기·최종 동일한 $0.0841로 대량거래와 가격지연 관찰. 2/3/5/10/30/50배는 비연속 표본 분봉끼리의 비교일 뿐 동시간대 평균 대비 RVOL 또는 5~15분 연속 가속 아님. 기존 10/28 NWGL 관찰과 구별되는 10/29 22:30 가격지연/거래량 표본. 1차 순위 위험 감점 없음. 2차 과거 ATM·등록공급 기록 존재하나 현재 즉시 매도 가능 잔여물량/최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환 미확인으로 A/B/C/D 최종 판정 보류. SEC/외부 시세 미대조 PROVISIONAL.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/9fe33dc87f44b0010e2a7e08a0b1ace55c43c975/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
