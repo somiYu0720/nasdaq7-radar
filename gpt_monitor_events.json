@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T15:09:43.766Z",
+  "updated_utc": "2026-10-29T15:28:33Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3433,6 +3433,39 @@
       "detected_utc": "2026-10-29T15:14:51Z",
       "summary": "2026-10-29 09:00 EDT Hesai 발행사 공식 발표: Yole Group의 Robotaxi 2026 보고서에서 2025년 글로벌 로보택시 라이다 시장 점유율 62%로 선두라고 발표(이전 보고서 61%). 발표 자체는 발행사 원문 확인. Yole 보고서 원문·SEC 미대조, 2025년 과거 점유율 자료이므로 신규 계약/실적 급증 확정이나 실시간 거래량 급증을 의미하지 않음. 1차 뉴스 이벤트 관찰만, 가격·RVOL 미확인. 희석·공급·상장 위험은 별도 2차 검증.",
       "source_url": "https://www.prnewswire.com/news-releases/hesai-leads-global-robotaxi-lidar-market-with-62-share-as-robotaxi-industry-moves-toward-scale-yole-group-reports-302923694.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BURU-NYSE_AMERICAN_COMPLIANCE_RESTORED-20261029T083000EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "BURU",
+      "category": "1차_뉴스_상장유지기준충족회복_발행사보도_SEC원문미대조_PROVISIONAL",
+      "detected_utc": "2026-10-29T15:28:33Z",
+      "summary": "2026-10-29 08:30 EDT NUBURU 발행사 공식 보도: NYSE American이 2026-10-29자 서한에서 기존 자기자본 관련 계속상장 기준 미달 사항이 해소되었다고 통지, .BC 표시 제거 예정. 상장유지 요건 회복은 신규 긍정적 뉴스 이벤트이지만 이후 재위반 감시가 유지되고 미래 상장 유지가 보장되는 것은 아님. SEC 원문 및 거래소 원문 직접 대조 전 PROVISIONAL. 1차 뉴스·가격 신호 평가에서 상장·희석 위험 감점/제외 없음. 2차 과거 2026-10-23 424B3 최대 2천만주 재판매 등록, Series B 전환 가능 공급 등 별도 검증 대상; 최신 float/O/S·잔여 실제 즉시 매도 가능 주식 수 미확인, A/B/C/D 최종 보류.",
+      "source_url": "https://www.businesswire.com/news/home/20261029630353/en/NUBURU-Regains-Compliance-with-NYSE-American-Continued-Listing-Standards",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BURU-PRICE_JUMP_SAMPLED-20261029T152817Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "BURU",
+      "category": "1차_가격이상_급등진행_비연속토스표본_PROVISIONAL",
+      "detected_utc": "2026-10-29T15:28:33Z",
+      "summary": "기존 동일 레이더 2026-10-29 15:08:17 UTC 포착 기록의 Toss 표본 BURU $0.3253과 2026-10-29 15:28:17 UTC GitHub toss_live.json의 BURU $0.4187을 비교하면 약 20분 비연속 관측 +28.71%. 최신 표본 00:29 KST 표시 진행 중 1분봉 거래량 970,967주. 서로 다른 분봉 거래량 비교는 RVOL 2/3/5/10/30/50배나 연속 5~15분 가속의 증거가 아니며 봉 미완료·가격 호가 지연·외부 시세 대조 미확인. 급등 전이 아닌 급등 진행 관찰로 분류, 저점방어 미확인. 1차 위험 감점 없음; 2차 공급 유형 최종 보류.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-NTLA-ACAAI_LONG_TERM_DATA_EVENT_SCHEDULE-20261029T080000EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "NTLA",
+      "category": "1차_사전임상일정_4년추적자료_ACAAI발표예고_SEC미대조_PROVISIONAL",
+      "detected_utc": "2026-10-29T15:28:33Z",
+      "summary": "2026-10-29 08:00 EDT Intellia 발행사 발표: lonvoguran ziclumeran(lonvo-z) 유전성 혈관부종(HAE) 치료 관련 4년 추적 지속효과/안전성, 무발작 및 예방약 중단 상태 등을 2026-11-14 ACAAI 구두 발표 예정. 2026-11-13에는 3상 HAELO 하위군 결과 등 포스터, 2026-11-12 10:00 ET 투자자 웹캐스트 예정(한국시간 11/13 00:00). 2027-03-10 FDA PDUFA 목표일은 이미 발표된 사전 일정이며 승인 확정 아님. 새 임상 결과 수치 공개 전, 1차 이벤트 일정 포착만; 거래량·가격·급등전 여부 미확인. SEC 원문 직접 대조 전 PROVISIONAL. 2차 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·잠재 희석 및 실제 즉시 매도 공급 미확인, A/B/C/D 보류. 위험으로 1차 감점 없음.",
+      "source_url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-announces-upcoming-lonvoguran-ziclumeran",
       "verification": "PROVISIONAL"
     }
   ]
