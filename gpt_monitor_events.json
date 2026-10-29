@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T14:11:08Z",
+  "updated_utc": "2026-10-29T15:05:39Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3346,6 +3346,28 @@
       "summary": "2026-10-29 08:00 EDT Nasdaq 공식 보도: 홍콩 본사 TJGC Group Limited(NASDAQ:TJGC)에 회사 추가정보 요청으로 나스닥 거래정지 지속. 별도 SEC 공식 거래정지 명령 Release 106668(2026-10-14)은 10/15 04:00~10/28 23:59 EDT 거래정지 및 SNS를 통한 잠재 시세조종 우려를 명시(혐의 확정 아님). SEC 명령 종료가 Nasdaq 거래재개를 뜻하지 않으며 Nasdaq은 회사가 요청 정보를 충족할 때까지 정지 유지한다고 발표. Nasdaq이 밝힌 최종 거래가격 $31.89는 과거 마지막 체결가로 현재 시세 아님. 1차 뉴스·이벤트만 포착하며 가격·거래량 2/3/5/10/30/50배 가속·저점방어·급등전/진행/급락후반등/재점화는 판정 불가. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 관련 위험과 잠재 희석·실제 즉시 매도 가능한 공급은 미확인으로 A/B/C/D 보류. SEC 원문 https://www.sec.gov/files/litigation/suspensions/2026/34-106668.pdf 및 Nasdaq 공식 보도 교차확인. 거래정지 위험은 1차 포착 배제·감점·순위 하락 사유로 사용하지 않음. 매매 적합성 별도 검토 필요.",
       "source_url": "https://www.globenewswire.com/news-release/2026/10/29/3391225/6948/en/nasdaq-halts-tjgc-group-limited.html",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-BUUU-PRICE_DROP_SAMPLED-20261029T150156Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "BUUU",
+      "category": "1차_가격급락_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-29T15:05:39Z",
+      "summary": "2026-10-29 토스 GitHub 부분수집 비연속 관측: 23:20:41 KST BUUU $5.8281(표시 분봉 6,199주) → 2026-10-30 00:01:56 KST $5.3300(표시 분봉 4,385주), 관측가 대비 -8.55%. 22:28:30 KST $5.89와 비교하면 -9.51%. 약 41분 간격 표본의 가격 급락이며 5~15분 연속 가속·공식 RVOL·저점 방어·반등은 미확인. 급락 후 반등 관찰로 1차 기록, 2차 위험 감점 없음. SEC 색인에서 기존 워런트 관련 D형 검토 요소가 발견되나 최신 float/O/S·실제 즉시 매도 가능 공급은 미확인, 최종 공급 유형 보류. 외부 시세/SEC 원문 최신 대조 전 PROVISIONAL.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/dc630ac8b91d10b5e5597bf2d82f5c7d831a758e/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-YOUL-POST_DROP_REBOUND_SAMPLED-20261029T142544Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "YOUL",
+      "category": "1차_급락후반등_가격회복_표시분봉거래량증가_PROVISIONAL",
+      "detected_utc": "2026-10-29T15:05:39Z",
+      "summary": "2026-10-29 KST 토스 GitHub 비연속 관측: 기존 급락 후 22:50:17 YOUL $0.2499 → 23:19:50 $0.2566(표시 분봉 28주) → 23:25:44 $0.2698(표시 분봉 10,500주). 23:19:50 대비 +5.14%, 22:50:17 저점 관측 대비 +7.96%; 표본 분봉 거래량은 서로 다른 분봉의 단순 비교로 정규 RVOL 2/3/5/10/30/50배나 연속 가속 확정 아님. 마지막 실제 시세 시각은 23:25:44 KST로 수집 완료 00:05보다 약 40분 전이며 후속 반등 지속/저점 방어 미확인. 1차 위험 감점 없음. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·잠재 희석·즉시 매도 공급 미확인, A/B/C/D 보류. 외부 시세/SEC 원문 미대조 PROVISIONAL.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/dc630ac8b91d10b5e5597bf2d82f5c7d831a758e/toss_live.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
