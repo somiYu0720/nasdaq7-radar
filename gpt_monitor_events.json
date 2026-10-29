@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T13:52:01.073Z",
+  "updated_utc": "2026-10-29T14:11:08Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3335,6 +3335,17 @@
       "summary": "2026-10-29 KST 기존 등록된 22:30:09 RETO $0.5800(22:31 표시 분봉 16,867주) 급락 이후 22:51:36 $0.6623(22:52 표시 분봉 3,968주)로 관측가 대비 +14.19% 가격 회복. 그러나 22:28:15 $0.7298 대비 여전히 -9.25%. 비연속 표본이며 거래량 가속/저점 방어/지속 반등 미확인. 기존 주식병합 뉴스 및 2차 SEC 공급 위험과 분리한 1차 가격 신호.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-TJGC-NASDAQ_TRADING_HALT_INFO_REQUEST-20261029T080000EDT",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "TJGC",
+      "category": "1차_뉴스_나스닥_추가정보요청_거래정지_SEC명령교차확인_VERIFIED",
+      "detected_utc": "2026-10-29T14:11:08Z",
+      "summary": "2026-10-29 08:00 EDT Nasdaq 공식 보도: 홍콩 본사 TJGC Group Limited(NASDAQ:TJGC)에 회사 추가정보 요청으로 나스닥 거래정지 지속. 별도 SEC 공식 거래정지 명령 Release 106668(2026-10-14)은 10/15 04:00~10/28 23:59 EDT 거래정지 및 SNS를 통한 잠재 시세조종 우려를 명시(혐의 확정 아님). SEC 명령 종료가 Nasdaq 거래재개를 뜻하지 않으며 Nasdaq은 회사가 요청 정보를 충족할 때까지 정지 유지한다고 발표. Nasdaq이 밝힌 최종 거래가격 $31.89는 과거 마지막 체결가로 현재 시세 아님. 1차 뉴스·이벤트만 포착하며 가격·거래량 2/3/5/10/30/50배 가속·저점방어·급등전/진행/급락후반등/재점화는 판정 불가. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 관련 위험과 잠재 희석·실제 즉시 매도 가능한 공급은 미확인으로 A/B/C/D 보류. SEC 원문 https://www.sec.gov/files/litigation/suspensions/2026/34-106668.pdf 및 Nasdaq 공식 보도 교차확인. 거래정지 위험은 1차 포착 배제·감점·순위 하락 사유로 사용하지 않음. 매매 적합성 별도 검토 필요.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/29/3391225/6948/en/nasdaq-halts-tjgc-group-limited.html",
+      "verification": "VERIFIED"
     }
   ]
 }
