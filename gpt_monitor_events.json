@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T17:40:37Z",
+  "updated_utc": "2026-10-29T18:54:09Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3565,6 +3565,17 @@
       "detected_utc": "2026-10-29T18:19:14Z",
       "summary": "2026-10-29 14:06 EDT(2026-10-30 03:06 KST) GitHub data.json 저장본의 STAK 5분 상대거래량 지표 rvol5=3.14, EARLY_PROVISIONAL. 중국계 1.0에서 독립 1차 거래량 이상 후보로 표시. 03:08:29 KST 별도 Toss 부분수집 가격 $1.55(동시 봉 아님). 연속 5~15분 가속·가격 상승·저점 방어·실제 체결량은 미확인. 2차 SEC/희석/즉시매도가능 공급 미검증이며 1차 순위에 위험 감점 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BURU-POST_DROP_PRICE_RECOVERY_SAMPLED-20261029T183752Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "BURU",
+      "category": "1차_급락후가격회복_재점화관찰_비연속토스표본_PROVISIONAL",
+      "detected_utc": "2026-10-29T18:54:09Z",
+      "summary": "2026-10-29 미국 정규장 GitHub Toss 부분수집 비연속 가격 표본: 앞서 같은 레이더에 기록된 2026-10-30 02:37:56 KST BURU $0.3556(급등 후 되돌림) → 03:37:52 KST $0.4063, 약 60분 관측가 +14.26% 회복. 앞서 00:28:17 KST 관측 $0.4187 대비 -2.96%로 아직 이전 관측 고점 아래. 03:38 표시 진행 중 1분봉 거래량 740,902주(미완료·지연 가능); 연속 5~15분 가속·2/3/5/10/30/50배 RVOL·실제 저점 방어·독립 체결 대조는 미확인. 기존 상승·급락 이벤트와 다른 후속 회복 관측으로 급락 후 반등 관찰/재점화 가능성만 잠정 분류하며 확정 매수 신호가 아님. 2026-10-29 상장유지 기준 회복 발표는 기등록 뉴스로 중복 등록하지 않음. 2차 2026-10-15 S-3/10-22 EFFECT/10-23 424B3 재판매 최대 2천만 주 경로 및 기존 전환 증권 등 C/D형 요소 검토; 실제 즉시 매도 가능 잔여량·최신 Float/O/S·최종 A/B/C/D 미확인. 희석·상장 위험을 1차 감점·삭제·순위변경에 사용하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
