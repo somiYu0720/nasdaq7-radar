@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T17:54:59Z",
+  "updated_utc": "2026-10-30T18:42:47Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4632,6 +4632,17 @@
       "detected_utc": "2026-10-30T17:54:59Z",
       "summary": "[2026-10-31 02:55 KST 점검; GitHub Toss 부분수집 비연속 관측] CBAK Energy Technology(CBAT) 2026-10-30 22:42:46 KST $0.9599(표시 1분봉 200주) → 23:34:04 $0.98715(2,434주) → 2026-10-31 00:12:35 $0.9966(7,411주) → 01:12:57 $1.075(100주) → 01:59:14 $1.10(220주) → 02:14:38 $1.115(3,069주). 첫 관측 대비 +16.16%, 00:12 대비 +11.88% 가격 이상 상승 잠정 포착. 비연속 표본이므로 연속 분봉·공식 RVOL 2/3/5/10/30/50배·저점 방어·거래량 가속·상승 원인 미확인. 최근 신규 기업 보도/SEC 직접 확인되지 않음. 1차 위험 감점 없음. 2차 최신 Float/O/S 및 실제 즉시 매도 공급 미확인, 공급 A/B/C/D 미분류. 급등 진행 관찰(가격 표본 기준), 매수 적합성 별도.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-LUCD-RVOL5_3P98-20261030T182100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LUCD",
+      "category": "1차_5분상대거래량3.98배_재점화관찰_급등전미확정_잠정",
+      "detected_utc": "2026-10-30T18:42:47Z",
+      "summary": "[2026-10-30 14:21 EDT 저장 5분봉, GitHub data.json 18:23:51 UTC 갱신] Lucid Diagnostics(LUCD) 자체 수집기 5분 상대거래량 rvol5=3.98, signal=EARLY_PROVISIONAL. 10/30 12:45 EDT 2.48배 기존 기록과 구별되는 후속 3배 이상 거래량 신호로 1차 재점화 관찰; 공식 거래소 RVOL, 동시간대 보정, 연속 5~15분 가속, 저점 방어 및 급등 전/진행 확정은 미확인. history에는 해당 14:21 봉 alert_sent=False로 표시돼 알림 발송 성공으로 주장하지 않음. 10/31 02:16:18 KST 비연속 Toss 가격 표본 $0.4178은 해당 14:21 EDT 신호와 동시 관측이 아니며 현재가 아님. 2차 별도: 2026-10-22 SEC 8-K에 10/21 $15m Series C 전환우선주 발행 종결, 전환가 $0.3519, 연 20% 주식배당, 기존 전환채 전환가 $0.3519로 조정 및 향후 resale 등록 의무 확인. 잠재 D형 전환·B/C형 재판매 경로 요소는 존재하나 주주승인/지분한도 등 조건, 최신 float/O/S, 실제 전환, 유효 resale 등록 및 즉시 매도 가능 주식수, ATM/ELOC/PIPE/워런트 잔량, 최종 A/B/C/D 유형 미확인. 잠재 공급을 당일 실제 매도와 동일시하지 않고 1차 포착 순위에 위험 감점·재정렬·삭제 없음. 매수 신호 아님. SEC: https://www.sec.gov/Archives/edgar/data/1799011/000149315226048114/form8-k.htm",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
