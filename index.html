@@ -679,7 +679,7 @@ async function renderRanks(){
   if(!wr.ok||!qr.ok)throw Error('data missing');
   const w=await wr.json(),d=await qr.json(),stamp=String(d.updated_utc||'');
   const symbols=new Set([...(w.categories?.[cat]||[]),...(watchCategories[cat]||[])]);
-  const all=(Array.isArray(d.rows)?d.rows:[]).filter(x=>symbols.has(x.ticker)&&!x.stale_volume&&Number.isFinite(rankNum(x.minute_volume))&&rankNum(x.minute_volume)>=0);
+  const all=(Array.isArray(d.rows)?d.rows:[]).filter(x=>symbols.has(x.ticker)&&Number.isFinite(rankNum(x.minute_volume)));
   const prev=rankStore[cat]||{},hist=Array.isArray(prev.history)?prev.history:[];
   const snap={stamp,quotes:{}};
   all.forEach(x=>snap.quotes[x.ticker]={v:rankNum(x.minute_volume),p:rankNum(x.price),bar:x.bar_time||''});
@@ -711,21 +711,10 @@ async function renderRanks(){
    const n=snap.quotes[x.ticker],o=earlier?.quotes?.[x.ticker];
    const accel=o&&o.v>0&&n.bar&&o.bar&&n.bar!==o.bar?n.v/o.v:null;
    const pct=o&&o.p>0&&Number.isFinite(n.p)?100*(n.p/o.p-1):null;
-   // Early-signal score: raw volume 30, acceleration 40, early price 20, observed low defense 10.
-   // Never infer 5-minute acceleration or support from missing/nonconsecutive candles.
-   const base=Math.min(30,Math.round(8*Math.log10(1+n.v)));
-   const b=(minuteBars[x.ticker]||[]).slice(-5);
-   const consecutive5=b.length===5&&b.every((z,i)=>i===0||Date.parse(z.t)-Date.parse(b[i-1].t)===60000);
-   const recentAccel=consecutive5&&b.slice(0,2).every(z=>z.v>=1000)
-    ?(b.slice(-2).reduce((a,z)=>a+z.v,0)/2)/(b.slice(0,2).reduce((a,z)=>a+z.v,0)/2):null;
-   const validatedAccel=recentAccel!==null?recentAccel:accel;
-   const speed=validatedAccel===null||n.v<1000||(recentAccel===null&&(!o||o.v<1000))
-    ?0:Math.min(40,Math.max(0,Math.round(18*Math.log2(Math.max(1,validatedAccel)))));
-   const price=pct===null?0:pct>=0&&pct<=5?20:pct>5&&pct<=10?10:pct>=-3?6:0;
-   const prices5=b.map(z=>z.p);
-   const lo5=Math.min(...prices5),hi5=Math.max(...prices5);
-   const lowDefense=consecutive5&&prices5.every(Number.isFinite)&&hi5>lo5
-    ?Math.round(10*Math.max(0,Math.min(1,(prices5[prices5.length-1]-lo5)/(hi5-lo5)))):0;
+   const base=Math.min(45,Math.round(12*Math.log10(1+n.v)));
+   // Prevent tiny reference candles from producing misleading high-confidence acceleration.
+   const speed=accel===null||n.v<1000||o.v<1000?0:Math.min(35,Math.max(0,Math.round(15*Math.log2(Math.max(1,accel)))));
+   const price=pct===null?0:pct>=0&&pct<=5?20:pct>5&&pct<=12?10:pct>=-3?8:0;
    // Oversold lane only: rebound confirmation is scored separately from NASDAQ/China.
    // No fabricated RSI or full-session OBV: use only distinct observed 1-minute bars.
    let oversoldScore=null,oversoldEvidence='분봉 부족';
@@ -749,7 +738,7 @@ async function renderRanks(){
      oversoldEvidence='저점방어 '+defend+'/40 · 반등량 '+rebound+'/35 · 관측OBV '+obvPts+'/25';
     }
    }
-   return {...x,accel,pct,score:cat==='oversold'?oversoldScore:Math.min(100,Math.round(base+speed+price+lowDefense)),oversoldEvidence,thinBase:!!o&&o.v<1000};
+   return {...x,accel,pct,score:cat==='oversold'?oversoldScore:Math.round(base+speed+price),oversoldEvidence,thinBase:!!o&&o.v<1000};
   }).sort((a,b)=>(b.score??-1)-(a.score??-1)||rankNum(b.minute_volume)-rankNum(a.minute_volume)).slice(0,10);
   const changed=!!prev.stamp&&prev.stamp!==stamp,alerts=[],changes={};
   $('preWatch').textContent='0';
