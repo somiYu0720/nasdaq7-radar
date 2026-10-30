@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T16:52:19Z",
+  "updated_utc": "2026-10-30T16:51:40Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4566,6 +4566,28 @@
       "detected_utc": "2026-10-30T16:52:19Z",
       "summary": "[2026-10-30 12:45 EDT 저장 5분봉, GitHub data.json 16:51:40 UTC 갱신] 관심종목 LUCD 5분 상대거래량 rvol5=2.48, 포착기 REVIEW. 직전 거래량 양수인 완료 5분봉 12개 평균 대비 자체 지표로 동시간대 보정·거래소 원시자료 대조는 아님. 기존 10/28 5.95배·10/29 4.60배 기록과 다른 10/30 분봉 신규 이상거래이며 '재점화 관찰'로 유지하되 재상승 확정 아님. GitHub Toss 2026-10-31 01:50:41 KST 비연속 가격 표본 $0.4187, 표시 1분봉 거래량 1,601주; 12:45 EDT 5분봉과 동시 시세 아님. 연속 5~15분 가속·저점방어·급등 전/진행/반등 가격기반 분류 미확인. 2차 최신 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환·상장 위험, 잠재 희석·즉시 매도 가능 공급 및 A/B/C/D 판정 미확인. 위험에 따른 1차 감점·재정렬·삭제 없음. 공식 시세 미대조로 PROVISIONAL, 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-BDAI-JU_FU_ACQUISITION_SECOND_CLOSING_6K-20261030T130000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "BDAI",
+      "category": "1차_MA_기존인수2차종결완료_SEC6K_확정이벤트",
+      "detected_utc": "2026-10-30T16:51:40Z",
+      "summary": "[2026-10-31 01:52 KST 점검, 2026-10-30 09:00 EDT SEC 6-K] Biddance AI Systems(BDAI)가 2026-10-29 Ju Fu Limited 인수 2차 종결 완료, 잔여 주식 전량 이전으로 Ju Fu 100% 자회사화. 1차 신규 M&A 종결 확정 뉴스 신호(기존 8/3 SPA·8월 1차 종결과 구분); 호재/이벤트만으로 독립 포착하며 위험을 감점·후순위·삭제에 사용하지 않음. 2차 SEC 원문상 종결 대가 현금 $5m 지급 및 Class A 4,000,000주 발행 확인, 최대 $3m 성과조건부 후불 현금 대가 가능. 신주에는 lock-up/leak-out/매도대금 제한 등 조건이 있어 잠재 공급은 B형 제한/대기 요소이나 실제 즉시 매도 가능한 수량은 미확인. 다른 ATM/ELOC/Resale/PIPE/워런트/전환 경로, 최신 Float/O/S, 최종 A/B/C/D는 미확인/보류. 2026-10-31 01:15:51 KST $2.20→01:48:24 KST $2.39(+8.64%) 비연속 토스 표본은 별도 잠정 가격 신호이며, 공식 거래량 가속·저점방어·급등 전 여부는 미확인. 매수 신호 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1742341/000121390026114093/ea0309251-6k_biddance.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-BDAI-POST_DROP_PRICE_RECOVERY_SAMPLED-20261030T164824Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "BDAI",
+      "category": "1차_가격이상_급락후가격회복_비연속토스표본_PROVISIONAL",
+      "detected_utc": "2026-10-30T16:51:40Z",
+      "summary": "[2026-10-31 01:52 KST 점검, GitHub Toss 비연속 표본] BDAI 2026-10-31 00:27:33 KST $2.515(표시 1분봉 200주)→01:15:51 $2.20(표시 1분봉 4주) 약 -12.52% 급락, 이후 01:48:24 $2.39(표시 1분봉 29주)로 +8.64% 가격 회복. 마지막 표시 봉 O/L $2.33 H/C $2.39. 분봉 거래량이 매우 적고 비연속이므로 2/3/5/10/30/50배 공식 RVOL·5~15분 가속·저점 방어·추세 반전 확정 불가. 1차 '급락 후 반등 관찰'로만 포착, 현재 실시간 시세 아님. 2026-10-30 SEC 6-K상 Ju Fu 인수 종결은 별도 VERIFIED 이벤트로 등록. 2차 신주 4m 발행·매각 제한 조항 존재하나 실제 즉시 매도 가능한 수량/최신 Float·O/S·ATM/ELOC/Resale/PIPE/워런트/전환 및 A/B/C/D 최종 분류 미확인. 위험으로 1차 감점·순위변경·삭제 없음. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
