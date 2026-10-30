@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T12:57:44Z",
+  "updated_utc": "2026-10-30T13:23:40Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4357,6 +4357,28 @@
       "detected_utc": "2026-10-30T12:56:23Z",
       "summary": "[2026-10-30 21:56:23 KST 토스 비연속 관측, 신규 후속 가격 신호] AXG는 2026-10-29 1:200 병합 조정 거래 이후 10/30 20:24:39 KST $2.68(표시 분봉 10주)→21:03:56 KST $2.61(표시 분봉 961주)→21:56:23 KST $2.37(표시 분봉 23주)로 하락. 20:24 대비 -11.57%, 21:03 대비 -9.20%; 21:56 관측가는 기존 20:33 KST 등록의 $2.68보다 낮은 후속 가격. 1차 가격 급락 신호만 독립 등록, '급락 후 반등 관찰' 분류(저점 방어·실제 반등 확인 아님). 비연속 스냅샷이고 최근 표시 분봉 23주로 거래량 2/3/5/10/30/50배 가속·5~15분 연속 가속·정규 RVOL 및 체결 유동성은 미확인. 이는 실시간 감시나 확정 매수 신호가 아님. 2차 별도: 기존 2026-10-22 SEC 424B5 최대 $50m ATM 및 과거 선급구매/전환 관련 구조로 잠재 C/D 요소가 있으나 실제 당일 ATM 매각, 즉시 매도 가능 물량, 최신 float/O/S·ELOC/Resale/PIPE/워런트 잔량·A/B/C/D 최종 판정 미확인. 공급·상장 위험은 1차 포착 순위 감점·재정렬·삭제에 사용하지 않음. SEC 원문 https://www.sec.gov/Archives/edgar/data/1959224/000121390026111765/ea0306901-424b5_solowin.htm",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-IDAI-GHANA_AFCAS_EXCLUSIVE_TECH_SUBCONTRACT-20261030T130700Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "IDAI",
+      "category": "1차_해외공공프로그램_독점기술하도급계약_뉴스이벤트_급등전여부미확인",
+      "detected_utc": "2026-10-30T13:23:40Z",
+      "summary": "[2026-10-30 09:07 EDT 발행사 보도] Trust Stamp(IDAI)가 가나 AFCAS 전국 소방안전 인증 디지털화 프로그램 운영사 E&P Limited와 Master Technology Subcontract Agreement를 체결, 프로그램 단독·독점 기술 하도급업체로 지정됐다고 발표. 회사가 설명한 다년 수백만달러 ARR 기회는 E&P 추정 인증량과 최종 상업 조건에 종속되며 확정 매출/계약금액 아님. 1차 뉴스·계약 신호 독립 포착, 거래량 2/3/5/10/30/50배·5~15분 연속가속·현재가·저점방어 및 급등전/진행/급락후반등/재점화 가격분류 미확인. 2차 SEC 2026-10-09 8-K/424B5 원문상 Maxim ATM 최대 $5,323,474, 10/08 기준 O/S 5,684,927주(현재 아님), 행사시 잠재주식 3,550,171주 워런트 확인; ATM C형 잠재 공급, 워런트 D형 요소이나 실제 금일 ATM 매각·워런트 행사/즉시 매도가능 물량·최신 float/O/S 및 ELOC/PIPE/Resale 상태 미확인, A/B/C/D 최종 판정 보류. 희석 위험으로 1차 순위 감점·재정렬·삭제 없음. 당일 계약 SEC 원문 미대조로 PROVISIONAL. 매수 신호 아님. 2차 SEC: https://www.sec.gov/Archives/edgar/data/1718939/000110465926115068/tm2627348d1_424b5.htm",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392253/0/en/trust-stamp-appointed-exclusive-technology-partner-for-afcas-ghana-s-national-fire-safety-digitisation-programme.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-VIVK-TEXAS_AIRPORT_HYDROGEN_NONBINDING_LOI_ANNOUNCED-20261030T131500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "VIVK",
+      "category": "1차_공항수소사업_비구속LOI_신규공표_뉴스이벤트_가격미확인",
+      "detected_utc": "2026-10-30T13:23:40Z",
+      "summary": "[2026-10-30 09:15 EDT 발행사 신규 공표, 실제 LOI 작성일 10/14] Vivakor(VIVK)가 텍사스 주요 국제공항 운영자로부터 약 12.9에이커 토지 임대 협상을 위한 서명된 비구속 의향서(LOI)를 수령했다고 발표. 수소·CNG 충전시설 및 향후 폐기물 활용 수소 생산시설은 제안 단계, 최종 임대계약·FAA 승인·사업 매출·건설 착공 확정 아님. 1차 뉴스/이벤트 독립 포착, 최신 가격·거래량 2/3/5/10/30/50배·5~15분 연속가속·저점방어·급등전/진행/급락후반등/재점화 분류 미확인. 2차 과거 SEC 2026-07 8-K에서 최대 $100m standby equity purchase agreement(ELOC) 및 $15m 명목 전환노트·등록 재판매 구조 확인, 10/15 8-K에서는 특정 J.J. Astor 노트 전환 878,255주 완료 확인; 이는 금일 공급 실행 증거가 아님. 잠재 C형(ELOC/재판매), D형(전환) 요소 있으나 현재 잔여액·최신 float/O/S·ATM/PIPE/워런트 및 실제 즉시 매도가능 물량 미확인, A/B/C/D 최종 판정 보류. 위험으로 1차 감점·재정렬·삭제 없음. 당일 LOI SEC 원문 미대조로 PROVISIONAL. 매수 신호 아님. 과거 SEC: https://www.sec.gov/Archives/edgar/data/1450704/000182912626007719/vivakorinc_8k.htm",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392258/0/en/vivakor-announces-proposed-hydrogen-plant-and-fueling-station-at-a-texas-international-airport.html",
       "verification": "PROVISIONAL"
     }
   ]
