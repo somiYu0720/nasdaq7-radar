@@ -479,7 +479,7 @@ main{width:100%;max-width:1480px!important}
 #eventDiscoveryPanel td:before{display:block;color:#9bb1c7;font-size:11px;font-weight:500;margin-bottom:3px}
 #eventDiscoveryPanel td:nth-child(1):before{content:"레이더"}
 #eventDiscoveryPanel td:nth-child(2):before{content:"종목"}
-#eventDiscoveryPanel td:nth-child(3):before{content:"이벤트 날짜"}
+#eventDiscoveryPanel td:nth-child(3):before{content:"날짜·구분"}
 #eventDiscoveryPanel td:nth-child(4):before{content:"내용"}
 #eventDiscoveryPanel td:nth-child(5):before{content:"강도"}
 #eventDiscoveryPanel td:nth-child(6):before{content:"원문"}
@@ -1092,7 +1092,7 @@ async function loadEventDiscovery(){
   body.replaceChildren();
   for(const x of items.slice(0,80)){
    const tr=document.createElement('tr');
-   const description=x.summary||x.category||'내용 확인 전';const eventDate=/^\d{4}-\d{2}-\d{2}$/.test(x.event_date||'')?x.event_date:'미확인';const strength='미평가';for(const v of [x.radar,x.ticker,eventDate,description,strength]){const td=document.createElement('td');td.textContent=v||'—';tr.append(td)}
+   const description=x.summary||x.category||'내용 확인 전';const isDate=v=>/^\d{4}-\d{2}-\d{2}$/.test(v||'');const eventDate=isDate(x.event_date)?'예정 '+x.event_date:isDate(x.display_date)?((x.event_date_type==='SEC_FILING_DATE'?'접수 ':'포착 ')+x.display_date):isDate(x.detected_utc?.slice(0,10))?'포착 '+x.detected_utc.slice(0,10):'날짜 확인 중';const strength='미평가';for(const v of [x.radar,x.ticker,eventDate,description,strength]){const td=document.createElement('td');td.textContent=v||'—';tr.append(td)}
    const td=document.createElement('td'),a=document.createElement('a');a.textContent='보기';a.href=/^https:\/\//.test(x.source_url||'')?x.source_url:'#';a.target='_blank';a.rel='noopener noreferrer';td.append(a);tr.append(td);body.append(tr);
   }
   if(!items.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=6;td.textContent='신규 후보 없음';tr.append(td);body.append(tr)}
