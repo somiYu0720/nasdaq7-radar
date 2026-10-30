@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T00:47:36Z",
+  "updated_utc": "2026-10-30T02:05:58Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3950,6 +3950,28 @@
       "detected_utc": "2026-10-30T00:47:36Z",
       "summary": "[지연 포착·실시간 아님] GitHub Toss 부분수집 비연속 시세: 2026-10-29 20:36:35 KST UPC $1.90(표시 분봉 425주)→23:23:03 $1.78(3,357주)→2026-10-30 00:09:03 $1.77(7,606주)→03:11:17 $1.6914(2,633주)→04:33:23 $1.53(639주). 23:23 대비 -14.04%, 20:36 대비 -19.47%. 급락/과매도 관찰 신호로 1차 독립 포착, 실제 반등·저점방어·RVOL 2/3/5/10/30/50배 및 5~15분 연속 가속은 미확인. 09:47 KST 점검 당시 마지막 시세 약 5시간14분 전. 2차 별도: 2026-09-29 F-3 최대 $200m 혼합 shelf 및 기존 발행주 4,376,552주 재판매 등록, 10/09 EFFECT 공개 색인 확인. C형 공급 경로 요소, 2026-07-29 6-K의 워런트로 D형 요소; 최신 O/S·float·실제 재판매/행사 및 즉시 매도 가능 잔량 미확인, 최종 A/B/C/D 보류. 2차 위험은 1차 포착 점수·순위에 영향 없음. 가격 하락 원인 및 매수 적합성 미확인.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-MCTA-NASDAQ_DELISTING_NOTICE-20261029T200500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "MCTA",
+      "category": "1차_거래소공식뉴스_11월9일상장폐지예정_거래정지_2차상장위험별도",
+      "detected_utc": "2026-10-30T02:05:58Z",
+      "summary": "2026-10-29 16:05 EDT 나스닥 공식 발표: Charming Medical Limited(MCTA)에 2026-11-09 나스닥 상장폐지 예정 통지. 회사가 나스닥 청문패널에 항소하면 일정이 변경될 수 있음. 2025-11-26 이후 거래정지 지속, 항소 해결 전 거래 불가. 확정 거래가능 종목·급등 전 매매 후보 아님; 1차 뉴스·일정 포착은 위험 감점 없이 독립 보존, 거래 가능성은 별도 표시. 최신 float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능 공급 미확인, A/B/C/D 미분류. 2026-10-29 공식 거래소 발표 확인.",
+      "source_url": "https://www.nasdaq.com/press-release/charming-medical-limited-notified-anticipated-delisting-nasdaq-stock-market-2026-10",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-DOGZ-AMAZON_PET_MAT_TOP3_COMPANY_CLAIM-20261029T123000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "DOGZ",
+      "category": "1차_신규기업뉴스_제품판매순위발표_실적미확정",
+      "detected_utc": "2026-10-30T02:05:58Z",
+      "summary": "2026-10-29 08:30 EDT Dogness(DOGZ) 발행사 발표: 충전식 반려동물 접근방지 매트가 미국 Amazon 해당 카테고리 베스트셀러 상위 3위권을 2025년부터 유지했다고 회사가 주장. 2026-03-05~04-05 기간에 일간 1위 여러 차례 기록 주장. 회사 주장으로 외부 판매자료 독립 검증·신규 확정 매출/계약/실적 급증 없음. 가격·5~15분 거래량 2/3/5/10/30/50배·저점 방어 미확인. 2차 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 즉시 매도 공급 및 A/B/C/D 미확인. 1차 포착 순위 위험 감점 없음.",
+      "source_url": "https://www.nasdaq.com/press-release/dognesss-rechargeable-pet-repellent-mat-maintains-top-three-ranking-amazon-us-2026-10",
       "verification": "PROVISIONAL"
     }
   ]
