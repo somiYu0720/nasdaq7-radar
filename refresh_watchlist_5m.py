@@ -43,7 +43,30 @@ def main():
     report={"checked_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"checked":len(symbols),
             "success":len(rows),"failed":errors,"mode":"unofficial delayed/incomplete minute data"}
     (ROOT/"minute_feed_status.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
-    if not rows: raise SystemExit("No successful updates; existing signals preserved")
+    # If Yahoo is unavailable, use only genuinely recent Toss candles.
+    # Never fabricate relative volume or an early-breakout signal.
+    if not rows:
+        toss_path=ROOT/"toss_live.json"
+        toss=json.loads(toss_path.read_text(encoding="utf-8")) if toss_path.exists() else {}
+        now=dt.datetime.now(dt.timezone.utc)
+        for lane in ("nasdaq7","china1","china","rows"):
+            for item in toss.get(lane,[]):
+                ticker=str(item.get("ticker","")).upper()
+                raw=item.get("quote_time") or item.get("collected_utc")
+                try:
+                    stamp=dt.datetime.fromisoformat(str(raw).replace("Z","+00:00"))
+                    if stamp.tzinfo is None: continue
+                    age=(now-stamp.astimezone(dt.timezone.utc)).total_seconds()/60
+                    if ticker in symbols and 0<=age<=15 and not any(x["ticker"]==ticker for x in rows):
+                        rows.append({"ticker":ticker,"signal":"REVIEW","rvol5":None,
+                                     "bar_time":stamp.isoformat(),"bar_age_minutes":round(age,1),
+                                     "freshness":"FRESH","source":"Toss quote fallback; RVOL unavailable",
+                                     "fetched_utc":now.isoformat()})
+                except (ValueError,TypeError,AttributeError): pass
+        report["fallback"]="Toss recent quotes; no RVOL or breakout score"
+        report["success"]=len(rows)
+        (ROOT/"minute_feed_status.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
+    if not rows: raise SystemExit("No fresh Yahoo bars or Toss quotes; existing signals preserved")
     data={"updated_utc":report["checked_utc"],"rows":rows,
           "caveat":"Watchlist only, not full market; bars may be delayed; no SEC review"}
     (ROOT/"data.json").write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
