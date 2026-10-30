@@ -27,7 +27,7 @@ jobs:
           with Path('NASDAQ7_DISCOVERY_UNIVERSE.csv').open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
           if not rows: raise SystemExit('No discovery candidates')
           rows.sort(key=lambda r:hashlib.sha256(r['ticker'].encode()).hexdigest())
-          slot=int(datetime.datetime.now(datetime.timezone.utc).timestamp()//21600)
+          slot=int(datetime.datetime.now(datetime.timezone.utc).timestamp()//1800)
           offset=(slot*50)%len(rows)
           batch=(rows[offset:]+rows[:offset])[:50]
           # Ensure the explicitly requested diagnostic ticker is checked each run.
@@ -56,7 +56,9 @@ jobs:
           verified=[r for r in rows if r.get('signal') in signals and r.get('data_status')!='STALE']
           watch=[r for r in rows if r.get('signal') in {'WATCH','LOW_VOLUME_REVIEW'}]
           top=(verified+watch)[:10]
-          payload={'updated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':'public-discovery-workflow','scanned':len(batch),'result_count':len(rows),'early_count':len(verified),'stale_count':sum(r.get('signal')=='STALE' for r in rows),'top10':top,'disclaimer':'Free delayed market data. Signals unverified; not buy recommendations.'}
+          # Keep a diagnostic record even when AIOT has no usable fresh quote.
+          aiot=next((r for r in rows if r.get('ticker')=='AIOT'),None)
+          payload={'updated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':'public-discovery-workflow','scanned':len(batch),'result_count':len(rows),'early_count':len(verified),'stale_count':sum(r.get('signal')=='STALE' for r in rows),'top10':top,'diagnostics':{'AIOT':aiot},'disclaimer':'Free delayed market data. Signals unverified; not buy recommendations.'}
           Path('discovery_latest.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           PY
       - name: Rank exploratory pre-rise candidates
