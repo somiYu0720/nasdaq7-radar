@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+  "checked_utc": "2026-10-30T20:00:07.353051+00:00",
   "source": "SEC EDGAR submissions API",
   "scope": "filing metadata only; no legal/dilution/event conclusion",
   "tickers": {
@@ -88,7 +88,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 2083910,
       "company": "Archimedes Tech SPAC Partners III Co.",
       "exchange_listed": true,
@@ -181,7 +181,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 2079272,
       "company": "Lakewood-Amedex Biotherapeutics Inc.",
       "exchange_listed": true,
@@ -274,7 +274,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 890394,
       "company": "Peraso Inc.",
       "exchange_listed": true,
@@ -367,7 +367,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 2002453,
       "company": "STAK Inc.",
       "exchange_listed": true,
@@ -460,7 +460,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1799011,
       "company": "Lucid Diagnostics Inc.",
       "exchange_listed": true,
@@ -553,7 +553,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1930179,
       "company": "ARB IOT Group Ltd",
       "exchange_listed": true,
@@ -646,7 +646,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1622345,
       "company": "Polar Power, Inc.",
       "exchange_listed": true,
@@ -739,7 +739,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1140215,
       "company": "REED'S, INC.",
       "exchange_listed": true,
@@ -832,7 +832,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 840715,
       "company": "CLEARONE INC",
       "exchange_listed": true,
@@ -925,9 +925,102 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1926293,
       "company": "Green Circle Decarbonize Technology Ltd",
+      "exchange_listed": true,
+      "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
+      "event_confirmed": false,
+      "dilution_status": "NOT_VERIFIED"
+    },
+    "AIOT": {
+      "ticker": "AIOT",
+      "status": "FILINGS_INDEXED",
+      "filings": [
+        {
+          "date": "2026-09-16",
+          "form": "8-K",
+          "accession": "0001493152-26-042928",
+          "url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226042928/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-11",
+          "form": "8-K",
+          "accession": "0001493152-26-037165",
+          "url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226037165/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-10",
+          "form": "10-Q",
+          "accession": "0001628280-26-055222",
+          "url": "https://www.sec.gov/Archives/edgar/data/1774170/000162828026055222/aiot-20260630.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-08-10",
+          "form": "8-K",
+          "accession": "0001493152-26-036746",
+          "url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226036746/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-29",
+          "form": "DEF 14A",
+          "accession": "0001493152-26-035236",
+          "url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226035236/formdef14a.htm",
+          "triage": "주주총회·의결 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-21",
+          "form": "8-K",
+          "accession": "0001493152-26-034096",
+          "url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226034096/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-07-01",
+          "form": "8-K",
+          "accession": "0001493152-26-031357",
+          "url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226031357/form8-k.htm",
+          "triage": "주요 이벤트 원문 검토",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        },
+        {
+          "date": "2026-06-15",
+          "form": "10-K",
+          "accession": "0001628280-26-043187",
+          "url": "https://www.sec.gov/Archives/edgar/data/1774170/000162828026043187/aiot-20260331.htm",
+          "triage": "정기 재무공시",
+          "verified_event": false,
+          "dilution_active": "UNKNOWN",
+          "event_impact": "UNASSESSED"
+        }
+      ],
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
+      "cik": 1774170,
+      "company": "Powerfleet, Inc.",
       "exchange_listed": true,
       "classification_level": "FORM_ONLY_NOT_CONTENT_VERIFIED",
       "event_confirmed": false,
@@ -1018,7 +1111,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 2110423,
       "company": "Datasea Intelligent Technology Ltd.",
       "exchange_listed": true,
@@ -1111,7 +1204,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1750593,
       "company": "Fangdd Network Group Ltd.",
       "exchange_listed": true,
@@ -1204,7 +1297,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1552670,
       "company": "Taoping Inc.",
       "exchange_listed": true,
@@ -1297,7 +1390,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1811216,
       "company": "Baosheng Media Group Holdings Ltd",
       "exchange_listed": true,
@@ -1390,7 +1483,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 721693,
       "company": "Smart Powerr Corp.",
       "exchange_listed": true,
@@ -1483,7 +1576,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 793628,
       "company": "CHINA NATURAL RESOURCES INC",
       "exchange_listed": true,
@@ -1576,7 +1669,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1117057,
       "company": "Planet Green Holdings Corp.",
       "exchange_listed": true,
@@ -1669,7 +1762,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1806904,
       "company": "EZGO Technologies Ltd.",
       "exchange_listed": true,
@@ -1762,7 +1855,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1687277,
       "company": "ReTo Eco-Solutions, Inc.",
       "exchange_listed": true,
@@ -1855,7 +1948,7 @@
           "event_impact": "UNASSESSED"
         }
       ],
-      "checked_utc": "2026-10-30T13:20:59.984794+00:00",
+      "checked_utc": "2026-10-30T20:00:07.353051+00:00",
       "cik": 1499494,
       "company": "Eason Technology Ltd",
       "exchange_listed": true,

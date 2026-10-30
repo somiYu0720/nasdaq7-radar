@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-30T13:21:06.378037+00:00",
+  "checked_utc": "2026-10-30T20:00:12.275588+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -354,6 +354,29 @@
           "source_url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226047046/formf-1.htm",
           "form": "F-1",
           "excerpt": "e “ Registration Rights Agreement ”), pursuant to which we agreed to file (x) a resale registration statement covering the resale of 200% of the maximum number of Note Shares issuable upon full conversion of the Note (assuming conversion at the Note Conversio"
+        }
+      ],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
+    },
+    "AIOT": {
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1774170/000162828026055222/aiot-20260630.htm",
+          "form": "10-Q",
+          "excerpt": "ll and used to redeem all the then-outstanding shares of the Company’s Series A convertible preferred stock (“Series A Preferred Stock”) and for general corporate purposes. On October 31, 2025, the Company and RMB entered into a first amendment and restatement "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226035236/formdef14a.htm",
+          "form": "DEF 14A",
+          "excerpt": " (a) 1,807,285 outstanding time-based stock options and (b) 130,275 outstanding warrants, with exercise prices equal to the closing price of our common stock on the applicable grant date, (ii) 2,369,239 outstanding stock appreciation rights (“SARs”) assumed in co"
         }
       ],
       "errors": [],
