@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T13:41:33Z",
+  "updated_utc": "2026-10-30T14:08:38Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4423,6 +4423,17 @@
       "detected_utc": "2026-10-30T13:41:21Z",
       "summary": "[2026-10-30 22:41 KST 점검, 지연/비연속 데이터] INLIF(INLF) 10/29 미국 정규장 종가 $0.2650(+47.22%), 거래량 251,180,178주(StockAnalysis/S&P Global): 직전 5거래일(10/22,23,26,27,28) 평균 12,386,582주 대비 20.28배, 10/28 1,071,019주 대비 234.52배. 10/29 거래량 급증·상승은 사후 확인이며 급등 전 실시간 포착 성공 아님. 10/30 GitHub Toss 부분수집 비연속 가격 표본 21:56:26 KST $0.2389(표시 진행중 1분봉 1,019주)→22:41:21 KST $0.2112(표시 진행중 1분봉 7,794주), 약 -11.59%; 10/29 종가 대비 약 -20.30%. 1차 독립 신호: 전일 급등 진행 이후 당일 급락 후 반등 관찰(반등·저점방어 확인 아님). 5~15분 연속 거래량 가속, 당일 공식 RVOL, 매수세 및 거래소 원시 분봉 미확인. 2차 SEC 2026-10-21 6-K 원문에서 10/20 $3.75m 등록공모 종결, PFW 전량 행사, Series A/B/C 워런트 및 10/20거래일 리셋 구조 확인: D형 복합 잠재 공급 요소. 최신 Float/O/S, 잔존 워런트, 실제 즉시 매도 가능 물량·당일 매도 및 최종 A/B/C/D 분류 미확인. 1차 순위에 위험 감점·삭제·재정렬 없음. SEC: https://www.sec.gov/Archives/edgar/data/1991592/000121390026111362/ea0309124-6k_inlif.htm ; Toss 관측: https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json ; 일별 거래량: https://stockanalysis.com/stocks/inlf/history/ . 매수 신호 아님.",
       "source_url": "https://stockanalysis.com/stocks/inlf/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-HLP-XELL_ENERGY_20PCT_STAKE_ACQUISITION_NEGOTIATION_UPDATE-20261030T123000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1.0",
+      "ticker": "HLP",
+      "category": "1차_MA지분20퍼센트_확정계약전_협상진전발표_PROVISIONAL",
+      "detected_utc": "2026-10-30T14:08:38Z",
+      "summary": "[2026-10-30 08:30 EDT Hongli Group 회사 공식 보도자료 신규 확인] Hongli Group(HLP)은 Xell Energy(구 Sidus Energy Storage)의 기존 주주들과 Xell Energy 지분 합계 20% 취득을 위한 최종 주식매매계약 협상을 진행 중이라고 발표. 2026-06 비구속 MOU 및 10/13 배터리 협업 업데이트와 구분되는 10/30 지분인수 협상 진전 소식. 아직 확정 SPA 체결·거래 종결·인수대금·자금조달 방식·매출은 확인되지 않으며 이사회 승인·규제승인·기타 종결조건이 필요하고 무산 가능성 있음. 1차 뉴스/M&A 협상 이벤트로 독립 포착; 희석·ATM·상장 위험으로 배제/감점/재정렬 없음. 최신 가격·2/3/5/10/30/50배 거래량 가속·5~15분 연속 분봉·저점방어 및 급등전/급등진행/급락후반등/재점화 가격기반 분류 미확인. 2차 당일 SEC 6-K 원문 직접 확인 미완료; 최신 float/O/S, ATM/ELOC/Resale/PIPE, 워런트·전환·상장 위험 및 잠재 희석/실제 즉시 매도 가능한 공급 미확인, A/B/C/D 미분류. 회사 발표 사실만 확인되며 SEC 검증 전이므로 PROVISIONAL. 매수 신호 아님.",
+      "source_url": "https://www.prnewswire.com/news-releases/hongli-group-provides-progress-update-on-proposed-acquisition-of-a-20-equity-interest-in-xell-energy-302924062.html",
       "verification": "PROVISIONAL"
     }
   ]
