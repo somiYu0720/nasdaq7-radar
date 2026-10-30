@@ -747,7 +747,7 @@ async function renderRanks(){
      oversoldEvidence='저점방어 '+defend+'/40 · 반등량 '+rebound+'/35 · 관측OBV '+obvPts+'/25';
     }
    }
-   return {...x,accel,pct,score:cat==='oversold'?oversoldScore:Math.min(100,Math.round(base+speed+price+lowDefense)),scoreParts:{base,speed,price,lowDefense},oversoldEvidence,thinBase:!!o&&o.v<1000};
+   return {...x,accel,pct,score:cat==='oversold'?oversoldScore:Math.min(100,Math.round(base+speed+price+lowDefense)),oversoldEvidence,thinBase:!!o&&o.v<1000};
   }).sort((a,b)=>(b.score??-1)-(a.score??-1)||rankNum(b.minute_volume)-rankNum(a.minute_volume)).slice(0,10);
   const changed=!!prev.stamp&&prev.stamp!==stamp,alerts=[],changes={};
   $('preWatch').textContent='0';
@@ -777,17 +777,6 @@ async function renderRanks(){
    tr.classList.add('rank-main-row');
    body.append(tr);
    const detail=document.createElement('tr');detail.className='rank-sec-detail';
-   if(cat!=='oversold'){
-    const parts=x.scoreParts||{};
-    tr.title='점수 상세 · 거래량 '+(parts.base??0)+'/30 · 가속 '+(parts.speed??0)+'/40 · 가격 '+(parts.price??0)+'/20 · 저점방어 '+(parts.lowDefense??0)+'/10';
-    const scoreCell=tr.children[7];
-    if(scoreCell)scoreCell.title=tr.title;
-    const accelCell=tr.children[5];
-    if(accelCell&&Number.isFinite(x.accel)&&x.accel>=3&&x.minute_volume>=1000&&!x.thinBase){
-     const tier=x.accel>=10?'🔥 10배+':x.accel>=5?'⚡ 5배+':'↑ 3배+';
-     accelCell.textContent=tier+' · '+accelCell.textContent;
-    }
-   }
    const detailCell=document.createElement('td');detailCell.colSpan=11;
    const eventStrong=document.createElement('strong');eventStrong.textContent='SEC 공시·이벤트: ';
    const eventText=document.createElement('span');eventText.textContent=rankEventLabel(x.ticker);
