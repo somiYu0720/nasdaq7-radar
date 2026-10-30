@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T14:08:38Z",
+  "updated_utc": "2026-10-30T14:23:00Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4434,6 +4434,17 @@
       "detected_utc": "2026-10-30T14:08:38Z",
       "summary": "[2026-10-30 08:30 EDT Hongli Group 회사 공식 보도자료 신규 확인] Hongli Group(HLP)은 Xell Energy(구 Sidus Energy Storage)의 기존 주주들과 Xell Energy 지분 합계 20% 취득을 위한 최종 주식매매계약 협상을 진행 중이라고 발표. 2026-06 비구속 MOU 및 10/13 배터리 협업 업데이트와 구분되는 10/30 지분인수 협상 진전 소식. 아직 확정 SPA 체결·거래 종결·인수대금·자금조달 방식·매출은 확인되지 않으며 이사회 승인·규제승인·기타 종결조건이 필요하고 무산 가능성 있음. 1차 뉴스/M&A 협상 이벤트로 독립 포착; 희석·ATM·상장 위험으로 배제/감점/재정렬 없음. 최신 가격·2/3/5/10/30/50배 거래량 가속·5~15분 연속 분봉·저점방어 및 급등전/급등진행/급락후반등/재점화 가격기반 분류 미확인. 2차 당일 SEC 6-K 원문 직접 확인 미완료; 최신 float/O/S, ATM/ELOC/Resale/PIPE, 워런트·전환·상장 위험 및 잠재 희석/실제 즉시 매도 가능한 공급 미확인, A/B/C/D 미분류. 회사 발표 사실만 확인되며 SEC 검증 전이므로 PROVISIONAL. 매수 신호 아님.",
       "source_url": "https://www.prnewswire.com/news-releases/hongli-group-provides-progress-update-on-proposed-acquisition-of-a-20-equity-interest-in-xell-energy-302924062.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-ABOS-POST_TRIAL_FAILURE_THIRD_LEG_DROP-20261030T142141Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "ABOS",
+      "category": "1차_임상실패후_추가급락_급락후반등관찰_비연속토스가격표본",
+      "detected_utc": "2026-10-30T14:23:00Z",
+      "summary": "[2026-10-30 23:21:41 KST GitHub Toss 부분수집, 기존 10/30 07:00 EDT 임상2상 실패 발표 및 앞서 등록된 21:56 급락과 구별되는 후속 가격 신호] 22:22:06 KST $0.3491(기존 등록 포착기 기록) → 22:48:23 KST $0.3271(이전 GitHub toss_history.json 표본, 표시 분봉 거래량 151,481주) → 23:21:41 KST $0.30065(최신 toss_live.json 표본, 표시 분봉 거래량 66,079주), 22:22 대비 -13.88%, 22:48 대비 -8.09%. 10/29 정규장 종가 $2.29 대비 약 -86.87%이나 전일 종가는 별도 외부 자료 기준. 비연속 시점 표본이며 실시간 체결 가능가·5~15분 연속 가속·공식 RVOL 2/3/5/10/30/50배·저점 방어·반등 확정 아님. 1차 급락 후 반등 관찰(반등 확정 아님)로 유지, 2차 기존 SEC 10/26 S-3 최대 $500m 및 10/28 EFFECT로 잠재 C형 요소 존재하나 실제 금일 매도·최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·즉시 매도가능 공급 및 최종 A/B/C/D 미확인. 공급·상장 위험은 1차 감점/재정렬/삭제에 사용하지 않음. 거래소 원시 분봉 직접 미대조로 PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
