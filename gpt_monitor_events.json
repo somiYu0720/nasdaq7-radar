@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T21:24:48Z",
+  "updated_utc": "2026-10-30T22:12:24Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4831,6 +4831,17 @@
       "summary": "[비연속 토스 표본·사후 포착, 실시간 아님] 2026-10-31 05:57:39 KST GCDT $0.1239 → 06:21:13 KST $0.1200(-3.15%). 06:04:26 KST 표시 1분봉 거래량 28,447주, 06:21:13 2,832주. 서로 다른 분봉의 표본이므로 RVOL 2/3/5배 또는 가속 확정 불가. 2차: 10/26 SEC 6-K에서 회사는 미공개 중대 호재 인지하지 못한다고 발표; 10/14 F-1에는 최대 57,506,538주 재판매 등록 제안 및 $100m ELOC 조건 기재. F-1 효력 및 즉시 매도 가능 공급은 미검증. 1차 포착 순위에 희석 감점 적용 금지.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/ca61ada1be2698a746d2093d3e453ac80e788c84/toss_live.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-INO-FDA_ACCELERATED_APPROVAL-20261030",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "INO",
+      "category": "1차_확정FDA가속승인_급등진행관찰_VERIFIED",
+      "detected_utc": "2026-10-30T22:12:24Z",
+      "summary": "[FDA 공식 2026-10-30 발표 확인] INOVIO(INO)의 INO-3107(Voceryq)이 성인 재발성 호흡기 유두종증(RRP) 치료에 대해 FDA 가속승인을 획득. 미국 최초 플라스미드 DNA 기반 면역치료제 가속승인, 승인 후 임상적 이익 확인시험 의무. 기존 10/30 PDUFA 예정 이벤트 및 시간외 가격 이상 포착과 구분되는 최종 규제결정 신규 이벤트. 1차 강력 확정 FDA 호재/급등 진행 관찰, 희석·상장 위험 감점·삭제·재정렬 없음. Reuters 2026-10-30 20:42 UTC 기사에서 시간외 약 +286% 보도; GitHub toss_live.json 2026-10-31 07:09:47 KST 비연속 수집 표본 $2.14, 1분 거래량 102,242주(거래소 원시분봉 미대조). 당시 가격·거래량과 현재 체결가능 시세 동일하다고 주장하지 않음; 5~15분 연속 RVOL/저점 방어/급등 전 포착 성공 미확인. 2차: 기존 SEC 10-Q의 2026-08-10 O/S 약 103,397,518주, 2026-07 발행 워런트 잠재공급 요소는 과거 기준; 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트 행사·전환·실제 즉시 매도 가능 공급 및 A/B/C/D 최종 분류 미확인. 승인 사실만 FDA 원문 VERIFIED, 시세·공급 관련 수치는 별도 잠정/미확인. FDA https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis",
+      "source_url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis",
+      "verification": "VERIFIED"
     }
   ]
 }
