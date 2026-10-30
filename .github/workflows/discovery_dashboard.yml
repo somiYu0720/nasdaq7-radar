@@ -2,7 +2,7 @@ name: Publish Independent Discovery TOP10
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 */6 * * 1-5'
+    - cron: '*/30 * * * 1-5'
 permissions:
   contents: write
 concurrency:
@@ -11,7 +11,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
       - run: pip install pandas numpy yfinance
       - run: python scripts/discovery_universe.py
-      - name: Select distributed 50-symbol batch
+      - name: Select rotating discovery batch plus AIOT diagnostic
         run: |
           python - <<'PY'
           import csv,datetime,hashlib
@@ -30,6 +30,9 @@ jobs:
           slot=int(datetime.datetime.now(datetime.timezone.utc).timestamp()//21600)
           offset=(slot*50)%len(rows)
           batch=(rows[offset:]+rows[:offset])[:50]
+          # Ensure the explicitly requested diagnostic ticker is checked each run.
+          if not any(r['ticker']=='AIOT' for r in batch):
+              batch[-1]={'ticker':'AIOT','name':'AIOT diagnostic'}
           with open('NASDAQ7_DISCOVERY_BATCH.csv','w',encoding='utf-8-sig',newline='') as f:
               writer=csv.DictWriter(f,fieldnames=['ticker','name']);writer.writeheader();writer.writerows(batch)
           print('Universe:',len(rows),'Batch:',len(batch))
