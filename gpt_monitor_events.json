@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T02:21:24Z",
+  "updated_utc": "2026-10-30T02:27:12.543Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4016,6 +4016,39 @@
       "detected_utc": "2026-10-30T02:21:24Z",
       "summary": "[2026-10-29 미국 정규장 종가 사후 발견, 실시간 아님] LHSW는 10/26 종가 $3.87(-19.37%) 이후 10/27 $4.15(+7.24%), 10/28 $4.40(+6.02%), 10/29 $4.82(+9.55%)로 3거래일 연속 반등; 10/26 대비 +24.55%. 10/29 일간 거래량 20,290주로 10/28 25,666주보다 감소(약 0.79배), 10/27 94,624주보다 크게 감소. 1차 급락 후 반등/재점화 관찰, 거래량 2/3/5/10/30/50배 가속 및 5~15분 연속 가속·저점방어 확정 불가, 급등 전 선행 포착 아님. Toss 부분수집 10/30 04:32 KST 마지막 관측 $4.88, 이번 점검 현재가 미확인. 2차 별도: SEC 2026-09-04 6-K상 9/03 $11m 유닛 공모 종료, 유닛당 1주+워런트 3개, 발행 당시 워런트 행사가 $1.66·6개월 행사 가능 확인. 10/26 1:8 병합 이후 조정 워런트 조건·잔여량, 최신 float/O/S, ATM/ELOC/Resale/PIPE, 즉시 매도 가능한 잔여 공급 미확인; D형 요소 있으나 최종 A/B/C/D 보류. 공급/상장 위험은 1차 포착 순위에 미반영. 매수 적합성 판단 아님.",
       "source_url": "https://stockanalysis.com/stocks/lhsw/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-WKHS-RHAELM_TERRAPOD_10M_SPEC_UNIT_CONTRACT-20261029T200100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "WKHS",
+      "category": "1차_확정사업계약_1000만달러_후속조건부150대_뉴스관찰",
+      "detected_utc": "2026-10-30T02:27:12.543Z",
+      "summary": "[10/29 16:01 EDT 발표, SEC 8-K 원문 검증] Workhorse가 RHAELM과 10/28 제조 사양 시제품 계약(MSPA) 체결, TerraPod 데이터센터 레퍼런스 유닛 제작대금 $10m를 3회 분할 지급받기로 함. 150개 시스템 초기 주문은 10/28 비구속적 LOI에만 기재된 조건부 계획으로 확정 주문 아님. 본 공급계약은 2026-12-31까지 체결 목표이나 미확정. 1차 뉴스/확정계약 신호만 평가, 거래량 2/3/5/10/30/50배 가속 및 5~15분 분봉·가격/저점방어 최신 확인 없음; 2차 Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장 위험·잠재 희석·실제 즉시매도 공급 및 A/B/C/D 최종분류 미확인. 위험 감점·순위 변경 없음. 계약액은 수령 완료 현금 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1425287/000162828026068250/wkhs-20261028.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-LWLG-HONHAI_OPTICAL_TRANSCEIVER_DEMO-20261030T020000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LWLG",
+      "category": "1차_신규뉴스_폭스콘광트랜시버시연_10월30_31일",
+      "detected_utc": "2026-10-30T02:27:12.543Z",
+      "summary": "[10/29 22:00 EDT 발행사 발표, SEC 원문 대조 미완료] Lightwave Logic가 Hon Hai(Foxconn)의 2026-10-30~31 대만 Hon Hai Tech Day 광트랜시버 시연에 자사 전기광학 폴리머 기술이 적용된다고 발표. SOH 광엔진 기반 200G/400G per lane 목표 기술 시연이며, 확정 매출·대량 양산 계약·고객 주문 확정 아님. 현재가·거래량 2/3/5/10/30/50배·5~15분 가속·저점방어 미확인. 2차 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시매도 공급 미확인, A/B/C/D 보류. 1차 위험 감점 없음.",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/lightwave-logic-inc.-electro-optic-polymer-technology-integrated-into-1243898",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-NORD-NASDAQ_UPLISTING_APPROVED_OCT30_START_EXPECTED-20261029T200500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "NORD",
+      "category": "1차_거래소이전승인_10월30일나스닥거래예정_뉴스관찰",
+      "detected_utc": "2026-10-30T02:27:12.543Z",
+      "summary": "[10/29 16:05 EDT 발행사 보도, SEC 당일 상장승인 원문 직접 대조 미완료] Nordicus Partners(기존 OTCQB NORD)는 Nasdaq Capital Market 상장 승인과 2026-10-30 미국 개장 시 동일 티커 NORD 거래 개시 예정 발표. 거래 개시 실제 성사·주가 급등은 미확인. 2026-06-30 10-Q상 O/S 19,173,896주(과거 수치), 2026-10-14/21 SEC 8-K에는 각각 $75,000 및 $147,000 요구불 약속어음 차입 기록. 최신 Float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 보류. 가격·거래량 가속·저점방어 미확인. 1차 위험 감점 없음.",
+      "source_url": "https://www.nasdaq.com/press-release/nordicus-partners-corporation-announces-uplisting-nasdaq-capital-market-2026-10-29",
       "verification": "PROVISIONAL"
     }
   ]
