@@ -502,6 +502,22 @@ main{width:100%;max-width:1480px!important}
 <details class="secondary" data-panel="history" hidden open><summary>📊 포착 후 성과</summary><h2>📊 포착 후 성과</h2><div class="panel scroll"><table><thead><tr><th>종목</th><th>포착 시각</th><th>15분 후</th><th>60분 후</th></tr></thead><tbody id="performance"></tbody></table></div></details><section id="china" data-panel="china" hidden><div class="panel"><h2>중국계 1.0 · 후보 10종목</h2><p class="note">기업 분류 미검증과 시세 수집 실패는 별개입니다. 데이터 생성 시각이 최근이어도 종목별 시세는 지연될 수 있습니다. 확인된 중국계 종목으로 단정하지 않으며, 잠정 포착은 매수 신호가 아닙니다.</p><div class="muted" id="chinaUpdated">데이터 확인 중</div><div class="scroll"><table><thead><tr><th>종목</th><th>5분 RVOL</th><th>신호</th><th>마지막 분봉</th><th>분류</th></tr></thead><tbody id="chinaRows"></tbody></table></div></div></section>
 <details class="secondary" id="gptMonitorPanel" data-panel="gpt" hidden open><summary>🤖 GPT 예약 감시 알림 <span id="gptCount">0건</span></summary><div class="muted" id="gptUpdated">예약 감시 기록 확인 중</div><div class="scroll"><table><thead><tr><th>시각</th><th>레이더</th><th>종목</th><th>감시 결과</th></tr></thead><tbody id="gptMonitorRows"><tr><td colspan="4">기록 없음</td></tr></tbody></table><p id="gptAutoStatus" class="note">자동 추가는 검증 완료·자동 등록 승인된 신호만 적용합니다. 공개 대시보드에서 GitHub로 직접 쓰지는 않습니다.</p></div></details><section id="secPanel" data-panel="sec" hidden><h2>📄 SEC 공시 · 이벤트 점검</h2><p class="note">SEC 공식 접수 목록 기준. 공시 서식에 따른 검토 항목만 표시합니다. 호재·희석·워런트·상장유지 여부는 원문 확인 전 미검증입니다.</p><div class="muted" id="secUpdated">공시 데이터 확인 중</div><div class="panel" style="margin:12px 0"><h3 style="margin:0 0 8px">📅 이벤트 성격별 보기</h3><p class="note">임상·FDA·M&A·계약·실적·자금조달 등 이벤트 유형별 상세 화면입니다.</p><a href="./events.html" style="display:inline-block;padding:10px 13px;border:1px solid #66b1ff;border-radius:10px;color:#bfe7ff;text-decoration:none;font-weight:700">이벤트 성격별 상세 보기 ↗</a></div><div class="panel"><div class="controls"><input id="secSearch" type="search" placeholder="공시 종목 검색" aria-label="공시 종목 검색"><select id="secLane"><option value="all">전체 20종목</option><option value="nas">NASDAQ 7.0</option><option value="china">중국계 1.0</option></select></div><div class="scroll"><table><thead><tr><th>종목</th><th>최신 접수일</th><th>서식</th><th>분류(잠정)</th><th>원문</th></tr></thead><tbody id="secRows"><tr><td colspan="5">데이터 대기</td></tr></tbody></table></div></div></section><div class="panel note">⚠️ 이 페이지는 60초마다 공개 데이터 파일을 다시 확인합니다. 실제 주가 수집은 GitHub 포착기 실행 주기와 Yahoo Finance 데이터 제공 상황에 따르며, 실시간 시세를 보장하지 않습니다. 수집 시각과 마지막 분봉 시각이 다를 수 있습니다. 희석·SEC 위험은 별도 검증 대상입니다. 매수 권유가 아닙니다.</div>
 </main><script>
+(function(){
+ const show=(kind,detail)=>{const el=document.getElementById('status');if(!el)return;el.textContent=kind+' · '+String(detail||'').slice(0,90);el.className='pill warn';el.title='화면 실행 진단';};
+ window.addEventListener('error',e=>{if(e.filename)show('화면 코드 오류',e.message)});
+ window.addEventListener('unhandledrejection',e=>{const msg=String(e.reason?.message||e.reason||'');if(msg)show('화면 처리 오류',msg)});
+ setTimeout(async()=>{
+  const el=document.getElementById('status');if(!el||!['데이터 연결 확인 필요','데이터 확인 중'].includes(el.textContent))return;
+  try{
+   const res=await fetch('./data.json?diagnostic='+Date.now(),{cache:'no-store'});
+   if(!res.ok){show('데이터 요청 오류','HTTP '+res.status);return}
+   const d=await res.json();
+   if(!Array.isArray(d.rows)){show('데이터 형식 오류','rows 누락');return}
+   show('화면 실행 점검 필요','레이더 파일 정상 '+d.rows.length+'종목');
+  }catch(e){show('네트워크 오류',e.message)}
+ },4500);
+})();
+</script><script>
 const $=id=>document.getElementById(id);let snapshot=null;
 function time(v){if(!v)return '—';const d=new Date(v);return Number.isNaN(d.getTime())?String(v):d.toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'})+' KST'}
 function val(x){if(x===null||x===undefined||x==='')return 0;const n=Number(x);return Number.isFinite(n)?n:0}
