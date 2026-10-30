@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T13:23:40Z",
+  "updated_utc": "2026-10-30T13:34:48Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4390,6 +4390,28 @@
       "detected_utc": "2026-10-30T13:23:40Z",
       "summary": "[2026-10-30 KST 비연속 토스 저장 표본의 후속 급락; 기존 07:00 EDT 임상2상 실패 발표와 별개의 가격 신호] 21:04:30 KST $0.5318(표시 1분 거래량 33,144주)→21:56:20 KST $0.3400(표시 1분 거래량 12,047주)로 약 -36.07%; 이후 22:22:06 KST $0.3491(표시 1분 거래량 21,440주) 관측, 저점 대비 약 +2.68%이나 지속 반등·저점방어 확정 불가. GitHub toss_history.json과 toss_live.json의 서로 다른 수집시점 표본으로 직접 대조, 실시간 시세·정규장 RVOL/2·3·5·10·30·50배 가속·5~15분 연속 가속은 미확인. 1차 '급락 후 반등 관찰'로 독립 유지(매수 신호 아님). 기존 임상 실패 공시(SEC 8-K) 및 S-3 EFFECT 이슈는 이미 별도 등록된 기존 이벤트이므로 중복 신규 FDA 뉴스로 기록하지 않음. 2차 10/26 S-3 최대 $500m·10/28 EFFECT에 따른 잠재 공급 능력과 실제 당일 매도는 구분; 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도가능 물량 미확인, C형 요소·최종 A/B/C/D 판정 보류. 위험으로 1차 감점·순위변경·삭제 없음. 거래소 원자료/연속 분봉 미대조로 PROVISIONAL.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-AXG-POST_SPLIT_NEW_LOW_SAMPLED-20261030T133339Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "AXG",
+      "category": "1차_병합후추가급락_신규관측저가_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T13:34:48Z",
+      "summary": "[2026-10-30 22:33:39 KST GitHub Toss 부분수집 비연속 가격 관측] Solowin Holdings(AXG) 2026-10-29 1:200 주식병합 조정 거래 후 10/30 21:56:23 KST 기존 관측 $2.37 → 22:33:39 KST 신규 관측 $2.13(표시 1분봉 1525주, 해당 봉 저가 $2.13)로 약 -10.13% 추가 하락. 20:24:39 KST $2.68 대비 약 -20.52%. 서로 다른 시점의 저장 표본으로 실제 연속 5~15분 거래량 가속·정규 RVOL 2/3/5/10/30/50배·저점방어·반등은 미확인. 1차 가격 급락 신호로 '급락 후 반등 관찰' 유지(반등 확정·매수 신호 아님). 2차 별도: 10/22 SEC 424B5의 최대 $50m ATM과 기존 전환성 구조는 잠재 C/D 공급 요소이나 당일 ATM 실제 매도·즉시 매도 가능 물량·최신 float/O/S 및 A/B/C/D 최종 유형 미확인. 공급·상장 위험으로 1차 포착 순위 감점·재정렬·삭제 없음. SEC 기존 공시: https://www.sec.gov/Archives/edgar/data/1959224/000121390026111765/ea0306901-424b5_solowin.htm",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-JG-MODELLIX_COMFYUI_INTEGRATION-20261030T110000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "JG",
+      "category": "1차_AI제품기능출시_ComfyUI통합_신규기업뉴스_매출미확정",
+      "detected_utc": "2026-10-30T13:34:48Z",
+      "summary": "[2026-10-30 07:00 EDT Aurora Mobile 공식 보도] Aurora Mobile(JG)의 Modellix.ai 플랫폼이 ComfyUI 시각적 워크플로와 통합되어 이미지·비디오·오디오 모델 접근 및 작업 기능을 사용할 수 있다고 발표. 회사 설명상 현재 Comfy Registry/ComfyUI-Manager/GitHub를 통해 제공됨. 제품 통합·유통 채널 확장 뉴스이지 신규 대형 고객 계약·확정 매출·실적 급증 발표 아님. 1차 뉴스 신호만 독립 포착. 최신 가격·거래량 2/3/5/10/30/50배 가속·5~15분 연속 가속·저점 방어 및 급등 전/진행/급락후반등/재점화 가격 분류 미확인. 2차 최신 SEC 공시·float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 위험 및 잠재 희석/즉시 매도 가능 공급 미확인, A/B/C/D 보류. 희석·상장 위험으로 1차 순위 감점·재정렬·삭제 없음. SEC 미대조로 PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392150/0/en/aurora-mobile-s-modellix-ai-brings-unified-ai-model-access-to-comfyui-creative-workflows.html",
       "verification": "PROVISIONAL"
     }
   ]
