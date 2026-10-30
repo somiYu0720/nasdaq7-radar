@@ -61,6 +61,9 @@ jobs:
           payload={'updated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':'public-discovery-workflow','scanned':len(batch),'result_count':len(rows),'early_count':len(verified),'stale_count':sum(r.get('signal')=='STALE' for r in rows),'top10':top,'diagnostics':{'AIOT':aiot},'disclaimer':'Free delayed market data. Signals unverified; not buy recommendations.'}
           Path('discovery_latest.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           PY
+      - name: Audit AIOT and TOP10 feed freshness
+        if: always()
+        run: python scripts/radar_data_audit.py > radar_data_audit.json
       - name: Rank exploratory pre-rise candidates
         run: python scripts/prerise_rank.py
       - name: Publish dashboard result
@@ -82,5 +85,6 @@ jobs:
             NASDAQ7_EARLY_RESULT.csv
             discovery_latest.json
             prerise_latest.json
+            radar_data_audit.json
           if-no-files-found: warn
           retention-days: 7
