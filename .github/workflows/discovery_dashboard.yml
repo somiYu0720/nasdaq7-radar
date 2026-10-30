@@ -28,6 +28,7 @@ jobs:
           if not rows: raise SystemExit('No discovery candidates')
           rows.sort(key=lambda r:hashlib.sha256(r['ticker'].encode()).hexdigest())
           slot=int(datetime.datetime.now(datetime.timezone.utc).timestamp()//1800)
+          # Maintain rotating coverage; do not confuse a 50-symbol batch with market-wide TOP10.
           offset=(slot*50)%len(rows)
           batch=(rows[offset:]+rows[:offset])[:50]
           # Ensure the explicitly requested diagnostic ticker is checked each run.
@@ -55,10 +56,14 @@ jobs:
           signals={'EARLY_PRE','EARLY_PROVISIONAL'}
           verified=[r for r in rows if r.get('signal') in signals and r.get('data_status')!='STALE']
           watch=[r for r in rows if r.get('signal') in {'WATCH','LOW_VOLUME_REVIEW'}]
+          # Preserve separate lanes. A sharp drop or already-rising ticker must not be silently lost.
+          active=[r for r in rows if r.get('signal') in {'SHARP_DROP','ALREADY_UP'} and r.get('data_status')!='STALE']
+          # Keep the main TOP10 dedicated to pre-breakout signals. Publish other lanes separately.
           top=(verified+watch)[:10]
+          active_top10=active[:10]
           # Keep a diagnostic record even when AIOT has no usable fresh quote.
           aiot=next((r for r in rows if r.get('ticker')=='AIOT'),None)
-          payload={'updated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':'public-discovery-workflow','scanned':len(batch),'result_count':len(rows),'early_count':len(verified),'stale_count':sum(r.get('signal')=='STALE' for r in rows),'top10':top,'diagnostics':{'AIOT':aiot},'disclaimer':'Free delayed market data. Signals unverified; not buy recommendations.'}
+          payload={'updated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':'public-discovery-workflow','scanned':len(batch),'result_count':len(rows),'early_count':len(verified),'stale_count':sum(r.get('signal')=='STALE' for r in rows),'top10':top,'active_top10':active_top10,'active_move_count':len(active),'coverage':'ROTATING_BATCH_NOT_MARKET_WIDE','diagnostics':{'AIOT':aiot},'disclaimer':'Free delayed market data. Signals unverified; not buy recommendations.'}
           Path('discovery_latest.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           PY
       - name: Audit AIOT and TOP10 feed freshness
