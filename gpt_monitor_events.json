@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T03:24:38.292Z",
+  "updated_utc": "2026-10-30T04:41:28.812Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4071,6 +4071,50 @@
       "detected_utc": "2026-10-30T03:24:38.292Z",
       "summary": "[지연·비연속 토스 수집 표본, 실시간 감시 아님] 2026-10-29 미국 정규장부터 1:200 주식병합 조정 거래한 AXG: 2026-10-30 04:37:18 KST 저장 관측가 $3.64(표시 분봉 3,535주)→12:21:36 KST $3.20(표시 분봉 30주), 비연속 표본 간 약 -12.09%; 기존 00:14:17 KST $4.05 대비 약 -20.99%. 병합 이전 $0.02~$0.03 구간과 비교하지 않음. 1차 가격 이상·추가 급락으로 급락 후 반등 관찰, 실제 반등·저점 방어·5~15분 연속 가속·정규 거래량 RVOL 2/3/5/10/30/50배 미확인. 2차 독립 SEC 2026-10-22 424B5상 최대 $50m ATM 등록 경로(C형 요소) 및 전환증권(D형 요소) 확인, 실제 ATM 매도량·즉시 매도 가능 잔여 공급·최신 float/O/S 미확인, A/B/C/D 최종 유형 보류. 희석·상장 위험은 1차 순위에 영향 없음. 기존 10/29 주식병합 공시 및 02:24 가격 급락 기록과 구별되는 후속 가격 표본; 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-TCBS-SJCB_DEFINITIVE_CASH_MERGER-20261029T223900Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "TCBS",
+      "category": "M&A",
+      "detected_utc": "2026-10-30T04:41:28.812Z",
+      "summary": "[미국 2026-10-29 18:39 EDT 발행사 공동 발표·이번 점검 신규 발굴] Texas Community Bancshares(TCBS)가 비상장 The Banc of San Jacinto County Bancshares(SJCB)를 현금 총 $9.5m에 인수하는 최종 합병계약 체결. 양사 이사회 승인, 2027년 1분기 종결 예상이나 규제 및 SJCB 주주승인 등 미충족으로 종결 확정 아님. 피인수사 은행 2026-06-30 자산 $41.951m·예금 $35.305m. 1차 확정계약 뉴스 신호만 평가, 최신 가격·2/3/5/10/30/50배 거래량 가속·5~15분 연속 가속·저점 방어 및 급등전/진행/급락후반등/재점화 가격기반 분류 미확인. 2차 별도: 거래 대가는 현금으로 합병 신주발행 확정 아님, 조달 경로·최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 판정 보류. SEC 8-K 직접 대조 미완료로 PROVISIONAL. 2차 위험은 1차 감점/순위 변경/삭제에 사용하지 않음. 매수 신호 아님.",
+      "source_url": "https://www.prnewswire.com/news-releases/texas-community-bancshares-inc-and-the-banc-of-san-jacinto-county-bancshares-inc-the-parent-of-the-bank-of-san-jacinto-county-coldspring-texas-announce-merger-agreement-302924337.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-DAVI-HSH_ACQUISITION_SEC6K-20261029T113000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "DAVI",
+      "category": "M&A",
+      "detected_utc": "2026-10-30T04:41:28.812Z",
+      "summary": "[2026-10-29 07:30 EDT 발행사 발표·10/29 SEC 6-K 원문 확인] Davion Healthcare(DAVI)가 Healthcare Stat Homecare(HSH) 인수 계약(10/27 체결) 발표, 총 $13.5m(현금 $8m+회사 주식 $5.5m, 계약상 주당 $13 평가). 2026-12-31 이전 종결 목표, 아직 완료 아님. 피인수사 2025년 비감사 매출성 총수입 약 $11.6m·일반 사업소득 약 $1.9m, 감사 재무제표 아님. 기존 10/26 Humaskan 의료기술 IP 인수 기록과 다른 신규 사업 인수 이벤트. 1차 M&A 뉴스만 독립 포착, 최신 가격·거래량 2/3/5/10/30/50배·5~15분 가속·저점 방어 및 급등전/진행/급락후반등/재점화 가격분류 미확인. 2차: 계약상 주식대가 약 423,077주($5.5m/$13)는 종결 전 잠재 신주이며 실제 발행·즉시 매도 가능 잔량 아님. 최신 float/O/S·기존 ATM/ELOC/Resale/PIPE·워런트/전환·실제 매도 가능 공급 미확인, A/B/C/D 보류. SEC 6-K 사실 검증, 위험으로 1차 순위 감점/삭제 없음. 매수 신호 아님.",
+      "source_url": "https://ir.davionhealthcare.com/node/6881/html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-ASPE_IPO_PRICED_FIRST_TRADE_EXPECTED-20261030T021200Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "ASPE",
+      "category": "IPO",
+      "detected_utc": "2026-10-30T04:41:28.812Z",
+      "summary": "[2026-10-29 22:12 EDT Aspen Neuroscience 공식 발표] 신규 IPO 가격 주당 $15.00, 신주 9,375,000주, 예상 총모집액 약 $140.6m(비용 차감 전). 인수단 30일 초과배정 선택권 최대 1,406,250주. NASDAQ ASPE 2026-10-30 거래 개시 예상, 11/02 공모 종결 예정·아직 실제 거래 개시 및 종결 미확인. 1차 IPO 거래개시 임박 뉴스 이벤트로만 포착, 과거 분봉·가격·거래량 가속 2/3/5/10/30/50배·저점방어·가격기반 급등전/진행/급락후반등/재점화 분류 미확인. 2차: 신주 9,375,000주 및 초과배정 가능 1,406,250주는 공모 예정 공급과 옵션이며, 현재 시장 즉시 매도 가능 잔량·최신 O/S/Float·기타 ATM/ELOC/Resale/PIPE·워런트/전환 미확인, A/B/C/D 보류. SEC S-1/EFFECT 원문 직접 대조 미완료로 PROVISIONAL. 공급 위험은 1차 순위 감점/삭제 없음. 매수 신호 아님.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3391995/0/en/aspen-neuroscience-announces-pricing-of-initial-public-offering.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BBTX_UPSIZED_IPO_PRICED_FIRST_TRADE_EXPECTED-20261030T001500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "BBTX",
+      "category": "IPO",
+      "detected_utc": "2026-10-30T04:41:28.812Z",
+      "summary": "[2026-10-29 20:15 EDT Bambusa Therapeutics 공식 발표] 확대 IPO 가격 주당 $16.00, 신주 10,555,555주, 예상 총모집액 $168,888,880(비용 차감 전). 인수단 30일 초과배정 선택권 최대 1,583,333주. NASDAQ BBTX 2026-10-30 거래 개시 예상, 11/02 공모 종결 예정·실제 거래 및 종결 미확인. 1차 신규상장 일정 뉴스 신호만 독립 포착, 기존 가격·거래량 2/3/5/10/30/50배·5~15분 가속·저점방어 및 가격기반 급등전/진행/급락후반등/재점화 분류 미확인. 2차: IPO 신주와 초과배정은 공모 예정 물량/옵션으로 현재 즉시 매도 가능 잔량 확정 아님. 최신 O/S/Float·기타 ATM/ELOC/Resale/PIPE·워런트/전환 미확인, A/B/C/D 보류. SEC S-1/EFFECT 원문 직접 대조 미완료로 PROVISIONAL. 공급 위험으로 1차 감점/순위변경/삭제 없음. 매수 신호 아님.",
+      "source_url": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html",
       "verification": "PROVISIONAL"
     }
   ]
