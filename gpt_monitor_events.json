@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T15:32:01Z",
+  "updated_utc": "2026-10-30T16:06:48Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4489,6 +4489,28 @@
       "detected_utc": "2026-10-30T15:32:01Z",
       "summary": "[2026-10-30 11:22 EDT 저장 5분봉, 11:32 EDT 수집기 갱신] GitHub data.json에서 GCDT rvol5=2.56, signal=REVIEW 확인. 2배 기준 충족한 1차 거래량 신호이나 수집기 자체 지표로 공식 거래소 거래량/동시간대 비교 및 5~15분 연속 가속은 미대조. GitHub toss_live.json 2026-10-31 00:29:06 KST 비연속 가격 표본 $0.12425, 1분 표시 거래량 111주로 11:22 EDT 봉과 동시 관측 아님. 기존 10/20~10/26 급락 이력으로 '급락 후 반등 관찰'에 유지하나 당일 반등/저점 방어/급등 전 확정 아님. 10/26 SEC 6-K는 회사가 이상거래 원인이 될 미공개 중대 사업 변화를 인지하지 못한다는 과거 해명으로 신규 호재 아님. 2차 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석과 실제 즉시 매도 가능 공급 및 A/B/C/D 미확인. 위험으로 1차 감점·순위변경·삭제 없음. 별도 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-POM-POST_RECOVERY_SHARP_DROP_SAMPLED-20261030T160555Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "POM",
+      "category": "1차_급락_반등후재급락_급락후반등관찰_비연속토스표본",
+      "detected_utc": "2026-10-30T16:06:48Z",
+      "summary": "[2026-10-31 01:06 KST 점검, GitHub Toss 비연속 저장 표본] POMDOCTOR(POM) 2026-10-31 00:27:24 KST $1.69(표시 1분봉 198주) → 01:05:55 KST $1.41(표시 1분봉 6,645주), 약 -16.57% 후속 급락. 같은 최신 표시 봉의 저가 $1.35, 고가 $1.43, 종가/관측가 $1.41로 봉 내 저점 대비 약 +4.44% 가격 회복이 관측되나 지속적 저점 방어·반등 확정 아님. 10/30 23:39:07 KST $1.75 대비 -19.43%. 10/21 ADS 종료/보통주 전환 및 10대1 병합 이후 동일 주식기준 가격 표본끼리 비교. 비연속 수집이므로 표시 1분 거래량 차이를 공식 RVOL 2/3/5/10/30/50배·5~15분 연속 가속으로 확정하지 않음. 1차 가격 이상 신호로 기존 10/28~29 POM 급락·반등 이벤트와 별개인 10/30 미국 본장 후속 급락을 독립 등록, '급락 후 반등 관찰' (매수 신호 아님). 2차 SEC 2026-10-19 6-K에서 ADS 종료·10대1 주식병합 계획 확인, 10/09 6-K에서 상장유지 결정·이의신청 경로 확인. 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석과 실제 즉시 매도 가능한 공급 모두 최신 상태 미확인, A/B/C/D 최종 판정 보류. SEC 문서가 당일 급락 원인이나 즉시 매도 증거는 아님. 2차 위험으로 1차 감점·순위 재정렬·삭제 없음. 가격 원시 거래소 자료 미대조로 PROVISIONAL. SEC: https://www.sec.gov/Archives/edgar/data/1877971/000121390026110501/ea0308609-6k_pomdoctor.htm",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-SGLY-POST_SPIKE_SHARP_REVERSAL_SAMPLED-20261030T160428Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "SGLY",
+      "category": "1차_상승후급락_급락후반등관찰_비연속토스표본",
+      "detected_utc": "2026-10-30T16:06:48Z",
+      "summary": "[2026-10-31 01:06 KST 점검, GitHub Toss 비연속 저장 표본] Singularity Future Technology(SGLY) 2026-10-30 23:40:32 KST $0.563(표시 1분봉 327주) → 2026-10-31 00:26:57 KST $0.520(6,596주) → 01:04:28 KST $0.482(390주): 23:40 대비 약 -14.39%, 00:26 대비 -7.31%. 앞선 22:48:40 KST $0.4881 → 23:40 $0.563은 약 +15.35% 일시 상승 관측으로 이후 급락은 상승분 되돌림. 비연속 표본으로 연속 5~15분 거래량 가속·공식 RVOL 2/3/5/10/30/50배·저점방어·실제 반등 미확인. 1차 가격 이상/상승 후 급락을 '급락 후 반등 관찰'로 독립 포착(매수 신호 아님). 2차 SEC 2026-09-29 10-K에 9/28 기준 O/S 5,403,788주(현재 수치 아님), 2026년 7~8월 사모·등록 직접공모, PFW 즉시 행사 가능 조건 및 워런트 구조 확인: 잠재 D형 요소, 일부 등록공모의 C형 가능 경로. 다만 현재 잔여 PFW/워런트 수량, 최신 float/O/S, ATM/ELOC/Resale/PIPE, 실제 즉시 매도 가능 물량·금일 매도 실행 및 최종 A/B/C/D 유형 미확인. 2차 위험은 1차 순위 감점·재정렬·삭제에 반영하지 않음. 원시 거래소 체결 미대조로 PROVISIONAL. SEC: https://www.sec.gov/Archives/edgar/data/1422892/000121390026104650/ea0305950-10k_singularity.htm",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
