@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T20:47:08Z",
+  "updated_utc": "2026-10-30T21:24:48Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4808,6 +4808,28 @@
       "detected_utc": "2026-10-30T20:47:08Z",
       "summary": "[2026-10-31 05:47 KST 점검, 지연/부분수집] GitHub toss_live.json 저장본에서 INO 2026-10-31 05:46:28 KST 시간외 관측가 $2.07, 수집기 표시 1분봉 거래량 518,308주(수집기 자체 표시, 거래소 원시봉 독립 검증 전). 외부 StockAnalysis 2026-10-30 16:36 EDT 시간외 $1.010 및 정규장 종가 $0.6024와 시차가 있는 비연속 관측이므로 실제 지속 상승·현재 체결 가능가·5분 RVOL/저점방어 미확인. INO-3107 10월30일 FDA 결정 목표일과 시간상 겹치지만 승인·거절 등 FDA 최종 결과 미확인. 1차 가격 이상 신호만 독립 포착; 희석/상장 위험 감점 없음. 2차 SEC/Float/O-S/ATM/ELOC/Resale/PIPE/워런트/전환/즉시 매도 공급 최신 상태 및 A/B/C/D 최종 판정 보류. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-POM-afterhours-price-rebound-20261030T212448Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "POM",
+      "category": "1차_급락후반등관찰_시간외가격상승_PROVISIONAL",
+      "detected_utc": "2026-10-30T21:24:48Z",
+      "summary": "[비연속 토스 표본·사후 포착, 실시간 아님] 2026-10-31 05:55:25 KST POM $1.42 → 06:24:07 KST $1.505(+5.99%). 마지막 표시 1분봉 거래량 5주로 체결 기반 상승 지속성 매우 약함. RVOL/5~15분 가속/저점 방어 미검증. 10/19 ADR 종료·10:1 병합 발표는 과거 이벤트이며 이번 반등 원인으로 단정 불가. 2차 공급·float·O/S 미검증.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/ca61ada1be2698a746d2093d3e453ac80e788c84/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-GCDT-afterhours-volume-price-drop-20261030T212448Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "GCDT",
+      "category": "1차_급락대량거래_반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T21:24:48Z",
+      "summary": "[비연속 토스 표본·사후 포착, 실시간 아님] 2026-10-31 05:57:39 KST GCDT $0.1239 → 06:21:13 KST $0.1200(-3.15%). 06:04:26 KST 표시 1분봉 거래량 28,447주, 06:21:13 2,832주. 서로 다른 분봉의 표본이므로 RVOL 2/3/5배 또는 가속 확정 불가. 2차: 10/26 SEC 6-K에서 회사는 미공개 중대 호재 인지하지 못한다고 발표; 10/14 F-1에는 최대 57,506,538주 재판매 등록 제안 및 $100m ELOC 조건 기재. F-1 효력 및 즉시 매도 가능 공급은 미검증. 1차 포착 순위에 희석 감점 적용 금지.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/ca61ada1be2698a746d2093d3e453ac80e788c84/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
