@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T17:49:05Z",
+  "updated_utc": "2026-10-30T17:49:17Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4599,6 +4599,28 @@
       "detected_utc": "2026-10-30T17:49:05Z",
       "summary": "[2026-10-31 02:49 KST 점검, GitHub Toss 비연속 표본] Aurelion(AURE) 2026-10-31 01:52:26 KST 관측가 $0.9633(표시 1분봉 거래량 39주)에서 02:15:41 KST $1.10(표시 1분봉 거래량 7,417주)로 약 +14.19% 가격 회복(관측 간격 23분 15초). 마지막 표시 분봉 O/L $1.04, H/C $1.10. 앞서 2026-10-30 23:01:31 KST $1.05→01:52:26 KST $0.9633으로 약 -8.26% 하락한 뒤 회복. 1차 가격 이상 및 급락 후 반등 관찰/재점화 가능성만 독립 포착. 비연속 관측으로 거래량 2/3/5/10/30/50배 공식 RVOL, 연속 5~15분 가속, 지속 저점 방어, 상승 추세 확정 불가. 02:15:41 KST 이후 시세는 미확인. 2차 기존 2026-10-22 SEC 6-K에 Antalpha Capital (HK)와 Class B 신주 952,381주, 주당 $2.10, 약 $2m 인수계약 확인(종결 여부 미확인); 기존 2026-09-30 O/S 34,664,562주 및 PFW 2,222,224주·Class B 워런트 800,000주 관련 과거 검증 기록 존재. 잠재 B형 대기·D형 복합 요소와 실제 즉시 매도 가능 공급을 분리: 현재 잔여 워런트/PFW, 최신 Float/O/S, ATM/ELOC/Resale/PIPE 및 실제 매도 가능한 공급량과 최종 A/B/C/D 유형은 미확인/보류. 과거 자금조달 공시는 새 뉴스가 아니며 가격 회복의 원인으로 단정하지 않음. 공급 위험으로 1차 감점·순위변경·삭제 없음. 거래소 원시 체결 미대조 PROVISIONAL, 매수 신호 아님. SEC: https://www.sec.gov/Archives/edgar/data/1765850/000121390026111718/ea0309381-6k_aurelion.htm",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CURR-TRANGLO_SPA_REINSTATED_PROPOSED_100PCT_SALE-20261030T120000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "CURR",
+      "category": "1차_MA_기존SPA재발효_100퍼센트매각원칙합의_뉴스이벤트_가격거래량미확인",
+      "detected_utc": "2026-10-30T17:49:17Z",
+      "summary": "[2026-10-30 08:00 EDT 공식 발표; 재발효 서한 실제 체결 10/29] Currenc Group(CURR) 자회사 Seamless와 New Margin은 9/30 조건 미충족으로 자동종료된 Tranglo 지분 60% 매각 SPA(총 $400m)를 10/29 재발효, 종결 기한을 2027-03-31로 연장. Tranglo 100%를 총 $666.7m에 매각하는 확대 거래는 원칙적 합의일 뿐, Ripple Markets APAC과의 3자 최종계약·규제 승인·자금조달 등 미충족. 100% 거래 시 Seamless의 60% 지분 총대가는 약 $400m(채무 정산 전)이며 전체 $666.7m가 CURR 현금 유입액이 아님. 10/30 SEC 6-K의 제3자 재게시본 확인, SEC 원문 직접 대조 미완료. 1차 이벤트 신호만 포착, 주가·거래량 미확인. 희석·상장·채무 위험은 2차 별도 검증.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392191/0/en/currenc-group-announces-signed-reinstatement-of-tranglo-spa-and-agreement-in-principle-for-proposed-100-acquisition-at-us-666-7-million-and-extension-of-longstop-date-to-march-31-2.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-WLDN-MANTIS_ACQUISITION_CLOSED-20261030T142000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "WLDN",
+      "category": "1차_MA_기존인수거래_종결완료_공식뉴스_가격거래량미확인",
+      "detected_utc": "2026-10-30T17:49:17Z",
+      "summary": "[2026-10-30 10:20 EDT 회사 공식 배포 보도자료] Willdan Group(WLDN)이 9/22 최초 계약을 발표했던 Mantis Innovation(Mantis Intermediate Holdings) 지분 100% 인수를 현금 기본대가 $285m(조정 전)에 종결했다고 발표. HSR 대기기간 만료 및 선행조건 충족. 11/5 예정 3분기 실적 콜에서 거래 및 전망 추가 설명 예정. 9/23 SEC 8-K 원문에서 기존 인수계약 확인, 10/30 종결 사실은 발행사 보도자료 확인(종결 후 SEC 원문 직접 대조 미완료). 1차 M&A 후속 이벤트 신호만 포착, 거래량/가격 가속 미확인. 희석 및 실제 공급은 2차 별도 검증.",
+      "source_url": "https://www.nasdaq.com/press-release/willdan-completes-acquisition-mantis-innovation-2026-10-30",
       "verification": "PROVISIONAL"
     }
   ]
