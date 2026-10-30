@@ -45,7 +45,8 @@ def main():
     (ROOT/"minute_feed_status.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
     # If Yahoo is unavailable, use only genuinely recent Toss candles.
     # Never fabricate relative volume or an early-breakout signal.
-    if not rows:
+    if not rows or all(x.get("freshness")!="FRESH" for x in rows):
+        rows=[x for x in rows if x.get("freshness")=="FRESH"]
         toss_path=ROOT/"toss_live.json"
         toss=json.loads(toss_path.read_text(encoding="utf-8")) if toss_path.exists() else {}
         now=dt.datetime.now(dt.timezone.utc)
