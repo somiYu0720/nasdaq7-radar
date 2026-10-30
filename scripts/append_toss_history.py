@@ -11,6 +11,12 @@ def main():
     old=json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {"snapshots":[]}
     snaps=old.get("snapshots",[])
     stamp=data["updated_utc"]
+    # Reject a stale or malformed source timestamp; preserve existing history.
+    try:
+        source_time=datetime.datetime.fromisoformat(stamp.replace("Z","+00:00"))
+        if source_time.tzinfo is None: return
+        if abs((datetime.datetime.now(datetime.timezone.utc)-source_time).total_seconds()) > 600: return
+    except (TypeError, ValueError): return
     if not any(s.get("updated_utc")==stamp for s in snaps):
         snaps.append({"updated_utc":stamp,"nasdaq7":data.get("nasdaq7",[]),"china1":data.get("china1",[])})
     snaps=sorted(snaps,key=lambda x:x["updated_utc"])[-180:]
