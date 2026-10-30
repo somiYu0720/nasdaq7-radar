@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-30T15:31:52.532361+00:00",
+  "updated_utc": "2026-10-30T16:29:20.503051+00:00",
   "source": "toss_live.json snapshots; noncontinuous",
   "records": {
     "cn1-LHSW-sales-contract-20261019T160700Z": {
@@ -3661,6 +3661,33 @@
       "ticker": "ECX",
       "radar": "china1",
       "detected_utc": "2026-10-30T15:27:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-GCDT-RVOL5_2P56_SAMPLED-20261030T152200Z": {
+      "ticker": "GCDT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-30T15:32:01Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-POM-POST_RECOVERY_SHARP_DROP_SAMPLED-20261030T160555Z": {
+      "ticker": "POM",
+      "radar": "china1",
+      "detected_utc": "2026-10-30T16:06:48Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0급등전신호-SGLY-POST_SPIKE_SHARP_REVERSAL_SAMPLED-20261030T160428Z": {
+      "ticker": "SGLY",
+      "radar": "china1",
+      "detected_utc": "2026-10-30T16:06:48Z",
       "entry_price_usd": null,
       "entry_time_utc": null,
       "status": "NO_ENTRY_PRICE",
