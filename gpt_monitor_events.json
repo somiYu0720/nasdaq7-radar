@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T22:21:58.877520+00:00",
+  "updated_utc": "2026-10-30T22:27:07Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4852,6 +4852,39 @@
       "detected_utc": "2026-10-30T22:21:58.877520+00:00",
       "summary": "[2026-10-31 07:22 KST 저장본, 비연속 표본] JYD 시간외 표시가 06:05:07 KST $1.64(표시 분봉 거래량 3주) → 07:19:24 KST $1.79(표시 분봉 거래량 221주), 관측 가격차 +9.15%. 약 74분 간격 비연속 표본이며 같은 분봉의 거래량 비교가 아니므로 RVOL 2/3/5배 가속, 저점 방어, 상승 지속성, 체결 가능가 및 뉴스 촉매는 미검증. 기존 10/29 종가 $1.92 대비 아직 낮은 가격이며 급등 전 확정 신호 아님. 1차 신호는 SEC/희석과 독립 평가. 2차 최신 SEC/float/O-S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급, A/B/C/D 판정은 미확인. 매수 권유 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-JKS-Q3_2026_RESULTS_SEC6K-20261030T124900Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "JKS",
+      "category": "1차_3분기실적_매출전년감소_매출총이익증가_적자축소_SEC검증",
+      "detected_utc": "2026-10-30T22:27:07Z",
+      "summary": "[2026-10-30 08:49 EDT SEC 6-K 접수, 99.1 공식 실적] Jinko Holdings(JKS) 2026Q3 매출 RMB13.62bn(전년 -15.7%, 전분기 +10.2%), 매출총이익 RMB1.67bn(전년 +41.4%, 전분기 +225.7%), 매출총이익률 12.3%(전분기 4.2%), 지배주주 귀속 순손실 RMB170m(전년 손실 RMB749.8m). 실적 개선과 전년 매출 감소가 병존, 흑자전환 아님. 1차 뉴스·실적 발표 신호만 평가, 현재 가격·거래량 2/3/5/10/30/50배·저점 방어·급등 전/진행/급락 후 반등/재점화 단계는 미확인. 2차 SEC 6-K 원문 확인, 그러나 최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환 조건 및 실제 즉시 매도 가능한 공급량 미검증, A/B/C/D 최종 판정 보류. 1차 희석/상장 위험 감점·제외·재정렬 없음. SEC 실적 발표 사실만 VERIFIED; 시세와 공급 검증 완료 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1481513/000110465926120431/tm2628624d1_ex99-1.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-MASK-NASDAQ_DELISTING_DETERMINATION_HEARING-20261030T204500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "MASK",
+      "category": "2차_상장유지위험_나스닥상폐결정통지_11월3일청문신청예정_PROVISIONAL",
+      "detected_utc": "2026-10-30T22:27:07Z",
+      "summary": "[2026-10-30 16:45 EDT 회사 보도, 통지일 10/27] 3 E Network(MASK)는 나스닥으로부터 최소 호가 $1 위반 및 2026-03-16 1:25 병합 이력 때문에 추가 유예기간 부적격이라는 상장폐지 결정 통지를 받았다고 발표. 회사는 11/03까지 청문 요청 예정이며 적시 요청 시 청문패널 결정까지 거래정지/상폐신청 유예; 요청 제출 완료·상폐 확정·거래 정지 여부는 미확인. 1차 포착 신호/순위는 기존 가격·거래량·뉴스 기준 그대로 유지, 상장위험을 1차 감점/삭제/순위하락에 절대 사용하지 않음. 2차 별도 상장위험 경고. 기존 10/23 사모발행 $5m 계약 및 10/30 누적 4:1 병합과 구별되는 신규 통지. 최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환/즉시 매도 가능 공급량 및 A/B/C/D 판정 미확인. SEC 해당 신규 6-K 직접 확인 전 PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://www.nasdaq.com/press-release/3-e-network-technology-group-limited-receives-determination-letter-nasdaq-2026-10-30",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-NTCL-AI_LANGUAGE_TEACHING_AWARD-20261030T123000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "NTCL",
+      "category": "1차_AI교육기술_수상_회사발표_매출미확정_PROVISIONAL",
+      "detected_utc": "2026-10-30T22:27:07Z",
+      "summary": "[2026-10-30 08:30 EDT 공식 회사 GlobeNewswire] NetClass(NTCL)는 10/16~17 상하이에서 열린 디지털 평생학습 국제회의에서 자사 멀티에이전트 외국어교육 사례가 Outstanding Case Award를 받았다고 발표. 회사 발표상 AI English Go/CEPA 솔루션이 약 100개 기관·4만 명 이상 학생에 적용되었다고 주장; 이 숫자는 회사 설명이며 별도 고객계약·확정 매출 증가·현금 수주가 검증된 것은 아님. 1차 뉴스/이벤트 신호만 포착, 가격·거래량 2/3/5/10/30/50배 가속·저점방어·급등 전/진행/반등/재점화 단계 미확인. 2차 SEC 원문·최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·실제 즉시 매도 가능 공급·A/B/C/D 미확인. 희석 위험 감점·삭제·순위변경 없음. SEC 교차검증 전 PROVISIONAL.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392210/0/en/netclass-technology-inc-receives-outstanding-case-award-for-its-multi-agent-ai-language-teaching-system-at-2026-digital-lifelong-learning-conference.html",
       "verification": "PROVISIONAL"
     }
   ]
