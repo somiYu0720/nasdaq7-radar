@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T18:42:47Z",
+  "updated_utc": "2026-10-30T18:45:41Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4643,6 +4643,17 @@
       "detected_utc": "2026-10-30T18:42:47Z",
       "summary": "[2026-10-30 14:21 EDT 저장 5분봉, GitHub data.json 18:23:51 UTC 갱신] Lucid Diagnostics(LUCD) 자체 수집기 5분 상대거래량 rvol5=3.98, signal=EARLY_PROVISIONAL. 10/30 12:45 EDT 2.48배 기존 기록과 구별되는 후속 3배 이상 거래량 신호로 1차 재점화 관찰; 공식 거래소 RVOL, 동시간대 보정, 연속 5~15분 가속, 저점 방어 및 급등 전/진행 확정은 미확인. history에는 해당 14:21 봉 alert_sent=False로 표시돼 알림 발송 성공으로 주장하지 않음. 10/31 02:16:18 KST 비연속 Toss 가격 표본 $0.4178은 해당 14:21 EDT 신호와 동시 관측이 아니며 현재가 아님. 2차 별도: 2026-10-22 SEC 8-K에 10/21 $15m Series C 전환우선주 발행 종결, 전환가 $0.3519, 연 20% 주식배당, 기존 전환채 전환가 $0.3519로 조정 및 향후 resale 등록 의무 확인. 잠재 D형 전환·B/C형 재판매 경로 요소는 존재하나 주주승인/지분한도 등 조건, 최신 float/O/S, 실제 전환, 유효 resale 등록 및 즉시 매도 가능 주식수, ATM/ELOC/PIPE/워런트 잔량, 최종 A/B/C/D 유형 미확인. 잠재 공급을 당일 실제 매도와 동일시하지 않고 1차 포착 순위에 위험 감점·재정렬·삭제 없음. 매수 신호 아님. SEC: https://www.sec.gov/Archives/edgar/data/1799011/000149315226048114/form8-k.htm",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-MASK-POST_SPLIT_SAMPLED_PRICE_DROP-20261030T171852Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "MASK",
+      "category": "1차_주식병합후가격이상_급락후반등관찰_비연속표본_PROVISIONAL",
+      "detected_utc": "2026-10-30T18:45:41Z",
+      "summary": "[2026-10-31 03:45 KST 점검, 마지막 수집 02:19 KST] 중국계 1.0 관심종목 3 E Network(MASK)의 GitHub Toss 비연속 관측값 2026-10-31 01:54:43 KST $2.59(표시 1분봉 153주)→02:18:52 KST $2.33(표시 1분봉 2주), 약 24분 9초 사이 -10.04% 가격 이상 하락. 두 가격은 모두 2026-10-30 개장일부터 적용된 누적 4:1 주식병합 이후 기준이며 병합 전후 가격을 직접 비교한 급락률이 아님. 1차 '급락 후 반등 관찰'로 분류하지만 실제 반등·지속적 저점 방어는 미확인. 거래량 2/3/5/10/30/50배 공식 RVOL·5~15분 연속 가속·최신 체결 및 하락 원인 미확인. 02:18:52 KST 이후 가격 미확인, 현재 실시간 신호 아님. 2차 별도: 10/23 SEC 6-K의 약 $5m 사모발행 계약은 B형 발행/재판매 제한 대기 요소, 기존 전환·워런트는 D형 잠재 요소; 10/28 공식 발표에서 병합비율 누적 4:1로 변경 확인. 최신 float/O/S·발행 종결·ATM/ELOC/Resale/PIPE·워런트/전환 잔량, 등록 효력과 실제 즉시 매도 가능 물량 미확인, 최종 A/B/C/D 판정 보류. 잠재 희석과 실제 공급을 동일시하지 않으며 2차 위험으로 1차 감점·재정렬·삭제 없음. 10/28 병합 발표 및 10/23 사모발행은 기존 등록 이벤트로 중복 등록하지 않음. 거래소 원시 분봉 미대조 PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
