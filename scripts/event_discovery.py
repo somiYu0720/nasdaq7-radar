@@ -31,11 +31,24 @@ def main():
             url=filing.get("url","")
             if not url or (ticker,url) in known:continue
             candidates.append({"id":filing.get("accession"),"ticker":ticker,"radar":radar,"source":"SEC_FORM_INDEX","detected_utc":filing.get("date"),"category":"SEC filing review","summary":filing.get("form")+" filed; contents and event significance NOT verified","source_url":url,"verification":"FORM_ONLY_NOT_CONTENT_VERIFIED","event_date":None,"event_date_type":"SEC_FILING_DATE","display_date":filing.get("date"),"schedule_status":"DATE_UNVERIFIED"})
+    # The upcoming-event category is restricted to dated future catalysts.
+    # Preserve past filings and undated monitor signals in their original source files.
+    today=now.date().isoformat()
+    upcoming=[]
+    for x in calendar:
+        ticker=str(x.get("ticker","")).upper()
+        date=x.get("event_date")
+        if not re.fullmatch(r"[A-Z0-9.-]{1,12}",ticker) or not isinstance(date,str) or not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}",date) or date<today:
+            continue
+        if str(x.get("schedule_status","")).startswith("COMPLETED"):
+            continue
+        upcoming.append({"id":"calendar-"+ticker+"-"+date,"ticker":ticker,"radar":"중국계 1.0" if ticker in set(read("china_verified_tickers.json",{}).get("candidates",[])) else "NASDAQ 7.0","source":"EVENT_CALENDAR","detected_utc":now.isoformat(),"category":x.get("event_type","이벤트"),"summary":x.get("title","일정"),"source_url":x.get("source_url",""),"verification":x.get("verification","UNVERIFIED"),"event_date":date,"event_date_type":"SCHEDULED_EVENT","display_date":date,"schedule_status":"UPCOMING"})
+    candidates=upcoming
     dedup={}
     for x in candidates:
         key=(x["ticker"],x["source_url"],x["radar"])
         dedup[key]=x
-    out={"updated_utc":now.isoformat(),"scope":"Candidates only. No automatically verified event dates or FDA approvals. NASDAQ and China independent.","events":list(dedup.values())[:600]}
+    out={"updated_utc":now.isoformat(),"scope":"Upcoming dated events only; unverified dates are explicitly labelled. SEC filings and GPT monitor history remain in original feeds.","events":list(dedup.values())[:600]}
     (ROOT/"event_discovery_candidates.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Event candidates",len(out["events"]))
 if __name__=="__main__":main()
