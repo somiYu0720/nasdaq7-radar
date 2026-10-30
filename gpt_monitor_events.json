@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T18:45:41Z",
+  "updated_utc": "2026-10-30T19:17:35.204Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4654,6 +4654,28 @@
       "detected_utc": "2026-10-30T18:45:41Z",
       "summary": "[2026-10-31 03:45 KST 점검, 마지막 수집 02:19 KST] 중국계 1.0 관심종목 3 E Network(MASK)의 GitHub Toss 비연속 관측값 2026-10-31 01:54:43 KST $2.59(표시 1분봉 153주)→02:18:52 KST $2.33(표시 1분봉 2주), 약 24분 9초 사이 -10.04% 가격 이상 하락. 두 가격은 모두 2026-10-30 개장일부터 적용된 누적 4:1 주식병합 이후 기준이며 병합 전후 가격을 직접 비교한 급락률이 아님. 1차 '급락 후 반등 관찰'로 분류하지만 실제 반등·지속적 저점 방어는 미확인. 거래량 2/3/5/10/30/50배 공식 RVOL·5~15분 연속 가속·최신 체결 및 하락 원인 미확인. 02:18:52 KST 이후 가격 미확인, 현재 실시간 신호 아님. 2차 별도: 10/23 SEC 6-K의 약 $5m 사모발행 계약은 B형 발행/재판매 제한 대기 요소, 기존 전환·워런트는 D형 잠재 요소; 10/28 공식 발표에서 병합비율 누적 4:1로 변경 확인. 최신 float/O/S·발행 종결·ATM/ELOC/Resale/PIPE·워런트/전환 잔량, 등록 효력과 실제 즉시 매도 가능 물량 미확인, 최종 A/B/C/D 판정 보류. 잠재 희석과 실제 공급을 동일시하지 않으며 2차 위험으로 1차 감점·재정렬·삭제 없음. 10/28 병합 발표 및 10/23 사모발행은 기존 등록 이벤트로 중복 등록하지 않음. 거래소 원시 분봉 미대조 PROVISIONAL, 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-DXF-VOLUME_5M_RVOL_28P93-20261030T184500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "DXF",
+      "category": "1차_5분상대거래량_이상신호_자체수집_PROVISIONAL",
+      "detected_utc": "2026-10-30T19:17:35.204Z",
+      "summary": "[2026-10-31 04:16 KST 점검, GitHub radar_bridge.json 2026-10-30 19:14:37 UTC 생성] Eason Technology(DXF, NYSE American, 중국 사업) 2026-10-30 18:45 UTC(14:45 EDT) 5분 상대거래량 rvol5=28.93, signal=REVIEW, source=intraday. 자체 수집/계산 지표이며 거래소 원시 거래량·동시간대 계절성 보정·분모 및 절대 거래량은 미대조; 공식 RVOL 28.93배 확정 아님. 1차 거래량 이상 신호만 포착하며 2/3/5/10/30/50배 단계 중 자체 계산치 10배 초과 잠정, 가격·5~15분 연속 가속·저점 방어·급등 전/진행/급락 후 반등/재점화 가격분류 미확인. 기존 10/27~28 가격 재점화 기록과 다른 10/30 거래량 표본. 2차 SEC 2026-05-26 6-K상 최대 2m units(각 60,000 제한주식 및 60,000주 워런트) 계약, 행사·가격조정/무현금 행사 조건 등 D형 잠재 복합 공급 요소 확인. 해당 계약의 실제 종결·행사, 최신 float/O/S, ATM/ELOC/Resale/PIPE 및 현재 즉시 매도 가능 공급량 미확인, 전체 A/B/C/D 최종 판정 보류. 위험은 1차 감점·순위변경·삭제에 반영하지 않음. 신규 10/30 기업 호재 미확인. PROVISIONAL, 매수 신호 아님. SEC https://www.sec.gov/Archives/edgar/data/1499494/000147793226003437/dxf_6k.htm",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/radar_bridge.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-PLAG-VOLUME_5M_RVOL_4P47-20261030T190500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "PLAG",
+      "category": "1차_5분상대거래량_이상신호_자체수집_PROVISIONAL",
+      "detected_utc": "2026-10-30T19:17:35.204Z",
+      "summary": "[2026-10-31 04:16 KST 점검, GitHub radar_bridge.json 2026-10-30 19:14:37 UTC 생성] Planet Green Holdings(PLAG, NYSE American, 중국 사업) 2026-10-30 19:05 UTC(15:05 EDT) 5분 상대거래량 rvol5=4.47, signal=EARLY_PROVISIONAL, source=intraday. 자체 수집/계산 지표로 공식 거래소 RVOL·동시간대 보정·분모/절대 거래량은 미대조. 1차 거래량 선행 잠정 신호(자체 3배 초과)로 포착, 가격·5~15분 연속 가속·저점 방어 및 급등 전/진행/급락 후 반등/재점화 가격분류 미확인. 10/30 신규 회사 호재 확인되지 않음. 2차 SEC 2026-10-02 8-K 및 424B5에 Craft Capital Management와 최대 $22,539,922 ATM 판매 경로 존재 확인(C형 활성 매도 가능 경로 요소); 실제 10/30 판매 실행·발행 주식수 및 잔여 한도 미확인, 최신 float/O/S와 다른 ATM/ELOC/Resale/PIPE·워런트·전환/상장 상태 미확인, 종목 전체 A/B/C/D 최종 판정 보류. 잠재 발행 가능과 실제 즉시 시장 매도 물량은 구별. 2차 위험은 1차 감점·순위변경·삭제에 반영하지 않음. PROVISIONAL, 매수 신호 아님. SEC https://www.sec.gov/Archives/edgar/data/1117057/000121390026106521/ea0307441-8k_planet.htm",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/radar_bridge.json",
       "verification": "PROVISIONAL"
     }
   ]
