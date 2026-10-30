@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T20:07:24Z",
+  "updated_utc": "2026-10-30T20:08:19Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4753,6 +4753,28 @@
       "detected_utc": "2026-10-30T20:07:24Z",
       "summary": "[2026-10-30 15:29 EDT StockTitan 무료 15분 지연 공개 스냅샷] BDMD: 전일 종가 대비 약 -22%, 20거래일 동일시각 누적 상대거래량 약 169배, 누적 거래량 약 9.4M주(StockTitan 표기 M=백만). 급락과 대량거래 동시 관찰(LABT형 포함), 1차 급락 후 반등 관찰; 반등 성공, 15:50 체결가, 연속 5~15분 가속, 저점 방어, 거래소 원시 시세는 미확인. 2차 SEC·최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 상태 및 실제 즉시 매도 가능한 공급 미검증, A/B/C/D 최종 유형 보류. 1차 순위에 공급 위험 감점·제외 없음. 실시간 매수 신호 아님.",
       "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-GCDT-RVOL5_6P98-20261030T170500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "GCDT",
+      "category": "1차_5분상대거래량6.98배_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:08:19Z",
+      "summary": "[2026-10-30 13:05 EDT 저장 분봉, GitHub data.json 19:58:19 UTC 조회] GCDT 자체 수집기 history에서 5분 상대거래량 rvol5=6.98, forward_60m_pct=-1.68, alert_sent=True 확인. 같은 날 11:22 EDT rvol5=2.56 기존 기록과 다른 후속 5배 이상 이상거래 신호. 15:42 EDT 저장 최신 5분 지표는 0.78배로 신호 지속 아님. 과거 급락·대량거래 LABT형이므로 1차 급락 후 반등 관찰에 유지하되 반등·저점방어·5~15분 연속 가속·급등 전 성공은 미확인. 2차 SEC 2026-10-05 424B3에 전환채 및 워런트 관련 재판매 등록, 10/15 6-K에 사모 조달 완전 종결 확인. 잠재 C형 재판매 경로 및 D형 전환·워런트 요소는 존재하나 주식병합 전후 주식수·최신 float/O/S·실제 전환/행사/매각과 즉시 매도 가능 수량은 미확인, A/B/C/D 최종 판정 보류. 희석 위험은 1차 순위에 감점·삭제·재정렬하지 않음. 수집기 자체 RVOL이므로 PROVISIONAL, 매수 신호 아님. SEC https://www.sec.gov/Archives/edgar/data/1926293/000149315226045775/form424b3.htm",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-POLA-RVOL5_3P64-20261030T194000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "POLA",
+      "category": "1차_5분상대거래량3.64배_거래량선행관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:08:19Z",
+      "summary": "[2026-10-30 15:40 EDT 저장 분봉, GitHub radar_bridge.json 19:55:47 UTC 갱신] Polar Power(POLA) 5분 상대거래량 자체 지표 rvol5=3.64, signal=EARLY_PROVISIONAL. 이후 GitHub data.json 15:52 EDT 저장 5분봉은 0.97배로 3배 이상 가속이 지속된 것은 아님. 신규 뉴스·가격 상승률·저점방어·연속 5~15분 가속·급등 전 성공 여부 미확인. 1차 거래량선행 관찰(급등 전 확정 아님), 희석·상장 위험 감점·삭제·재정렬 없음. 2차 SEC 2026-10-28 424B7 재판매 투자설명서 제출 사실은 발행사 SEC 목록에서 확인되나 해당 원문 직접 검증 및 등록 대상 수량·실제 당일 매도 여부 미확인. 잠재 C형 재판매 경로 요소, 최신 float/O/S·ATM/ELOC/PIPE·워런트/전환 잔량과 즉시 매도 가능 공급, A/B/C/D 최종 판정 보류. 공식 거래소 원시 분봉 미대조 PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/radar_bridge.json",
       "verification": "PROVISIONAL"
     }
   ]
