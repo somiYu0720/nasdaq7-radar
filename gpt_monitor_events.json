@@ -4380,6 +4380,17 @@
       "summary": "[2026-10-30 09:15 EDT 발행사 신규 공표, 실제 LOI 작성일 10/14] Vivakor(VIVK)가 텍사스 주요 국제공항 운영자로부터 약 12.9에이커 토지 임대 협상을 위한 서명된 비구속 의향서(LOI)를 수령했다고 발표. 수소·CNG 충전시설 및 향후 폐기물 활용 수소 생산시설은 제안 단계, 최종 임대계약·FAA 승인·사업 매출·건설 착공 확정 아님. 1차 뉴스/이벤트 독립 포착, 최신 가격·거래량 2/3/5/10/30/50배·5~15분 연속가속·저점방어·급등전/진행/급락후반등/재점화 분류 미확인. 2차 과거 SEC 2026-07 8-K에서 최대 $100m standby equity purchase agreement(ELOC) 및 $15m 명목 전환노트·등록 재판매 구조 확인, 10/15 8-K에서는 특정 J.J. Astor 노트 전환 878,255주 완료 확인; 이는 금일 공급 실행 증거가 아님. 잠재 C형(ELOC/재판매), D형(전환) 요소 있으나 현재 잔여액·최신 float/O/S·ATM/PIPE/워런트 및 실제 즉시 매도가능 물량 미확인, A/B/C/D 최종 판정 보류. 위험으로 1차 감점·재정렬·삭제 없음. 당일 LOI SEC 원문 미대조로 PROVISIONAL. 매수 신호 아님. 과거 SEC: https://www.sec.gov/Archives/edgar/data/1450704/000182912626007719/vivakorinc_8k.htm",
       "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392258/0/en/vivakor-announces-proposed-hydrogen-plant-and-fueling-station-at-a-texas-international-airport.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-ABOS-POST_TRIAL_FAILURE_SECOND_LEG_DROP-20261030T125620Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "ABOS",
+      "category": "1차_임상실패후_2차급락_급락후반등관찰_비연속토스가격표본",
+      "detected_utc": "2026-10-30T13:23:40Z",
+      "summary": "[2026-10-30 KST 비연속 토스 저장 표본의 후속 급락; 기존 07:00 EDT 임상2상 실패 발표와 별개의 가격 신호] 21:04:30 KST $0.5318(표시 1분 거래량 33,144주)→21:56:20 KST $0.3400(표시 1분 거래량 12,047주)로 약 -36.07%; 이후 22:22:06 KST $0.3491(표시 1분 거래량 21,440주) 관측, 저점 대비 약 +2.68%이나 지속 반등·저점방어 확정 불가. GitHub toss_history.json과 toss_live.json의 서로 다른 수집시점 표본으로 직접 대조, 실시간 시세·정규장 RVOL/2·3·5·10·30·50배 가속·5~15분 연속 가속은 미확인. 1차 '급락 후 반등 관찰'로 독립 유지(매수 신호 아님). 기존 임상 실패 공시(SEC 8-K) 및 S-3 EFFECT 이슈는 이미 별도 등록된 기존 이벤트이므로 중복 신규 FDA 뉴스로 기록하지 않음. 2차 10/26 S-3 최대 $500m·10/28 EFFECT에 따른 잠재 공급 능력과 실제 당일 매도는 구분; 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도가능 물량 미확인, C형 요소·최종 A/B/C/D 판정 보류. 위험으로 1차 감점·순위변경·삭제 없음. 거래소 원자료/연속 분봉 미대조로 PROVISIONAL.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
