@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T00:07:34Z",
+  "updated_utc": "2026-10-30T00:22:17.065Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3917,6 +3917,28 @@
       "detected_utc": "2026-10-30T00:07:34Z",
       "summary": "[과거 공시 신규 발굴·지연 검증, 10/30 신규 공시 아님] 2026-10-19 17:25:06 EDT 접수 SEC 6-K 원문: Nexpu(DPU)가 10/14 비미국 투자자 대상 Regulation S 4,000만 유닛(유닛당 Class A 1주+1주 매수 워런트)을 유닛당 $0.70, 총 약 $28m에 계약하고 10/19 종결·대금 수령했다고 공시. 워런트 4,000만 개는 발행일부터 현금 행사 가능, 최초 행사가 $0.71, 3년 만기. 기발행 보통주 공급과 향후 행사 잠재 희석은 구분. D형(워런트 복합 공급 구조) 참고 분류이나 최신 O/S·float·실제 행사 수량·Reg S 재판매 제한/면제 경로·미국시장 즉시 매도 가능 물량 미확인; C형 활성 매도 물량으로 단정 금지. 1차 뉴스/거래량 포착 순위에 감점·배제·순위 변경 없음. 매수 신호 아님.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1938865/000121390026110756/ea0309031-6k_nexpu.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7_EARLY-DAIC-NASDAQ_PANEL_CONDITIONAL_CONTINUED_LISTING-20261029T201500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "DAIC",
+      "category": "1차_뉴스_상장유지조건부허용_11월2일기한_이벤트관찰",
+      "detected_utc": "2026-10-30T00:22:17.065Z",
+      "summary": "2026-10-29 16:15 EDT SEC 8-K(Ex.99.1) 공시: DAIC는 10/28 Nasdaq 심리패널로부터 조건부 계속상장 허용 통보를 받았고 2026-11-02까지 Nasdaq Capital Market 이전 신청 필요. 10/09 Envoy 인수 완료와 자기자본 요건 회복을 언급. 조건부 허용이며 영구 상장 보장 아님. 1차 뉴스 신호로만 포착, 가격·거래량 미확인. 2차 별도: 인수대가 Series C 전환우선주 등 잠재 공급 구조 확인, 즉시 매도 가능 잔여물량·float·최신 O/S 미확인; A/B/C/D 최종 판정 보류.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2033770/000121390026113813/ea031012401ex99-1.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7_EARLY-NVCR-Q3_REVENUE_GUIDANCE_RAISE_FDA_Q4-20261029T110000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "NVCR",
+      "category": "1차_실적상향_연간가이던스상향_Q4_FDA일정_이벤트관찰",
+      "detected_utc": "2026-10-30T00:22:17.065Z",
+      "summary": "2026-10-29 07:00 EDT SEC 8-K Ex.99.1: NVCR 3Q26 매출 $193.4m(+16% YoY), 순손실 $10.4m, 조정 EBITDA $15.7m; 2026 매출 전망 $736m~$743m(기존 $710m~$725m), 조정 EBITDA $24m~$34m(기존 $0m~$15m)으로 상향. 2026 Q4 비소세포폐암 뇌전이 TTFields PMA FDA 결정 및 KEYNOTE D58 3상 등록 완료 목표, 정확한 결정일 미확인. 1차 뉴스 신호, 가격·거래량 가속 미확인. 2차: 2026-09-30 O/S 116,914,114주, float 및 현재 즉시 매도 가능 공급 미확인, A/B/C/D 최종 판정 보류. 10/28 Verastem 협력 공시와 별도 이벤트.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1645113/000164511326000081/nvcr-20260930xpr.htm",
       "verification": "VERIFIED"
     }
   ]
