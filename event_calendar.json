@@ -4,12 +4,14 @@
   "events": [
     {
       "ticker": "INO",
-      "title": "INO-3107 FDA PDUFA 심사 목표일",
+      "title": "INO-3107 FDA 승인 발표 (Reuters 2026-10-30)",
       "event_date": "2026-10-30",
-      "verification": "VERIFIED",
-      "source_url": "https://ir.inovio.com/news/news-details/2026/INOVIO-Reports-Second-Quarter-2026-Financial-Results-and-Recent-Business-Highlights/default.aspx",
-      "event_type": "FDA",
-      "note": "가속승인 관련 FDA 예비 우려; 승인 보장 아님"
+      "verification": "REPORTED_REUTERS",
+      "source_url": "https://www.reuters.com/legal/litigation/us-fda-approves-inovios-treatment-rare-throat-disease-2026-10-30/",
+      "event_type": "FDA_APPROVAL",
+      "note": "Reuters 2026-10-30 FDA 승인 보도 확인. 공식 FDA 허가서·허가 범위·조건 추가 교차검증 필요. 이미 발표된 이벤트이며 향후 예정 이벤트로 표시 금지. 가격/거래량 반응과 SEC 공급 위험 별도 검증.",
+      "priority": "high",
+      "schedule_status": "COMPLETED_APPROVAL_REPORTED"
     },
     {
       "ticker": "AGIO",
