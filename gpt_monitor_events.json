@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T17:49:17Z",
+  "updated_utc": "2026-10-30T17:54:59Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4621,6 +4621,17 @@
       "detected_utc": "2026-10-30T17:49:17Z",
       "summary": "[2026-10-30 10:20 EDT 회사 공식 배포 보도자료] Willdan Group(WLDN)이 9/22 최초 계약을 발표했던 Mantis Innovation(Mantis Intermediate Holdings) 지분 100% 인수를 현금 기본대가 $285m(조정 전)에 종결했다고 발표. HSR 대기기간 만료 및 선행조건 충족. 11/5 예정 3분기 실적 콜에서 거래 및 전망 추가 설명 예정. 9/23 SEC 8-K 원문에서 기존 인수계약 확인, 10/30 종결 사실은 발행사 보도자료 확인(종결 후 SEC 원문 직접 대조 미완료). 1차 M&A 후속 이벤트 신호만 포착, 거래량/가격 가속 미확인. 희석 및 실제 공급은 2차 별도 검증.",
       "source_url": "https://www.nasdaq.com/press-release/willdan-completes-acquisition-mantis-innovation-2026-10-30",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-CBAT-INTRADAY_PRICE_ADVANCE_SAMPLED-20261030T171438Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "CBAT",
+      "category": "PRICE_ANOMALY",
+      "detected_utc": "2026-10-30T17:54:59Z",
+      "summary": "[2026-10-31 02:55 KST 점검; GitHub Toss 부분수집 비연속 관측] CBAK Energy Technology(CBAT) 2026-10-30 22:42:46 KST $0.9599(표시 1분봉 200주) → 23:34:04 $0.98715(2,434주) → 2026-10-31 00:12:35 $0.9966(7,411주) → 01:12:57 $1.075(100주) → 01:59:14 $1.10(220주) → 02:14:38 $1.115(3,069주). 첫 관측 대비 +16.16%, 00:12 대비 +11.88% 가격 이상 상승 잠정 포착. 비연속 표본이므로 연속 분봉·공식 RVOL 2/3/5/10/30/50배·저점 방어·거래량 가속·상승 원인 미확인. 최근 신규 기업 보도/SEC 직접 확인되지 않음. 1차 위험 감점 없음. 2차 최신 Float/O/S 및 실제 즉시 매도 공급 미확인, 공급 A/B/C/D 미분류. 급등 진행 관찰(가격 표본 기준), 매수 적합성 별도.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
       "verification": "PROVISIONAL"
     }
   ]
