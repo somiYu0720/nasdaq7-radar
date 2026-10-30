@@ -1,0 +1,26 @@
+name: Event candidate discovery
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 */3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: radar-event-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build independent unverified event candidates
+        run: python scripts/event_discovery.py
+      - name: Commit candidates only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add event_discovery_candidates.json
+          git diff --cached --quiet || (git commit -m "Refresh event discovery candidates" && git pull --rebase && git push)
