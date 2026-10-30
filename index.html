@@ -868,7 +868,7 @@ async function renderDiscovery(){
 }
 $('discoveryRefresh').onclick=renderDiscovery;renderDiscovery();setInterval(renderDiscovery,60000);
 
-async async function updateCombinedStatus(){
+async function updateCombinedStatus(){
  const status=$('status');if(!status)return;
  const radarStamp=snapshot?.updated_utc||null;
  try{
