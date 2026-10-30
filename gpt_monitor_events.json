@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T20:20:21.461Z",
+  "updated_utc": "2026-10-30T20:47:08Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4797,6 +4797,17 @@
       "detected_utc": "2026-10-30T20:20:21.461Z",
       "summary": "[2026-10-31 KST 사후 점검; 2026-10-30 미국 정규장] 중국계 후보 ReTo Eco-Solutions(RETO): GitHub alert_history.json에서 2026-10-30 13:30 UTC(09:30 EDT) 자체 5분 rvol5=15.57, 15:40 UTC(11:40 EDT) rvol5=18.39, 19:45 UTC(15:45 EDT) rvol5=3.30, 모두 EARLY_PROVISIONAL; 마지막 3.30은 radar_bridge.json china_candidates에도 별도 확인. 독립 중국계 1차 순위는 거래량 이상 강도만 반영, 기존 10/29 급락의 후속 '급락 후 반등 관찰'로 분류하지만 반등/저점방어 확정 아님. 자체 계산 수치이며 공식 거래소 RVOL·절대 5분 거래량·연속 5~15분 가속 및 해당 시점 가격·현재가 미확인. 2차 SEC 2026-09-25 6-K: 9/18 최초 등록공모 10,000,000주와 10,000,000워런트 종결, 9/25 추가 550,000주 및 550,000워런트 종결; C형 이미 발행된 등록주식 거래 가능 공급 요소와 D형 워런트 잠재 발행 요소가 있으나 10/2 20:1 병합 및 11/2 예정 8:1 병합에 따른 현재 주식수/행사가 조정, 실제 매도/행사·잔량, 최신 Float/O/S, ATM/ELOC/PIPE/Resale 최신 상태, 정확한 즉시 매도 가능 물량과 최종 A/B/C/D 미확인. 10/29 병합 발표는 기존 기록이므로 중복 추가하지 않음. 희석/상장 위험은 1차 감점·제외·순위변경에 사용하지 않음. SEC: https://www.sec.gov/Archives/edgar/data/1687277/000121390026103587/ea0306668-6k_reto.htm . PROVISIONAL, 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/alert_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-INO-AFTERHOURS_PRICE_ANOMALY-20261030T204628Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "INO",
+      "category": "1차_시간외_가격이상_급등진행관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:47:08Z",
+      "summary": "[2026-10-31 05:47 KST 점검, 지연/부분수집] GitHub toss_live.json 저장본에서 INO 2026-10-31 05:46:28 KST 시간외 관측가 $2.07, 수집기 표시 1분봉 거래량 518,308주(수집기 자체 표시, 거래소 원시봉 독립 검증 전). 외부 StockAnalysis 2026-10-30 16:36 EDT 시간외 $1.010 및 정규장 종가 $0.6024와 시차가 있는 비연속 관측이므로 실제 지속 상승·현재 체결 가능가·5분 RVOL/저점방어 미확인. INO-3107 10월30일 FDA 결정 목표일과 시간상 겹치지만 승인·거절 등 FDA 최종 결과 미확인. 1차 가격 이상 신호만 독립 포착; 희석/상장 위험 감점 없음. 2차 SEC/Float/O-S/ATM/ELOC/Resale/PIPE/워런트/전환/즉시 매도 공급 최신 상태 및 A/B/C/D 최종 판정 보류. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
