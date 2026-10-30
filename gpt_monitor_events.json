@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T16:51:40Z",
+  "updated_utc": "2026-10-30T17:49:05Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4587,6 +4587,17 @@
       "category": "1차_가격이상_급락후가격회복_비연속토스표본_PROVISIONAL",
       "detected_utc": "2026-10-30T16:51:40Z",
       "summary": "[2026-10-31 01:52 KST 점검, GitHub Toss 비연속 표본] BDAI 2026-10-31 00:27:33 KST $2.515(표시 1분봉 200주)→01:15:51 $2.20(표시 1분봉 4주) 약 -12.52% 급락, 이후 01:48:24 $2.39(표시 1분봉 29주)로 +8.64% 가격 회복. 마지막 표시 봉 O/L $2.33 H/C $2.39. 분봉 거래량이 매우 적고 비연속이므로 2/3/5/10/30/50배 공식 RVOL·5~15분 가속·저점 방어·추세 반전 확정 불가. 1차 '급락 후 반등 관찰'로만 포착, 현재 실시간 시세 아님. 2026-10-30 SEC 6-K상 Ju Fu 인수 종결은 별도 VERIFIED 이벤트로 등록. 2차 신주 4m 발행·매각 제한 조항 존재하나 실제 즉시 매도 가능한 수량/최신 Float·O/S·ATM/ELOC/Resale/PIPE/워런트/전환 및 A/B/C/D 최종 분류 미확인. 위험으로 1차 감점·순위변경·삭제 없음. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-AURE-POST_DROP_SHARP_PRICE_REBOUND_SAMPLED-20261030T171541Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "AURE",
+      "category": "1차_급락후가격급반등_재점화관찰_비연속토스표본_PROVISIONAL",
+      "detected_utc": "2026-10-30T17:49:05Z",
+      "summary": "[2026-10-31 02:49 KST 점검, GitHub Toss 비연속 표본] Aurelion(AURE) 2026-10-31 01:52:26 KST 관측가 $0.9633(표시 1분봉 거래량 39주)에서 02:15:41 KST $1.10(표시 1분봉 거래량 7,417주)로 약 +14.19% 가격 회복(관측 간격 23분 15초). 마지막 표시 분봉 O/L $1.04, H/C $1.10. 앞서 2026-10-30 23:01:31 KST $1.05→01:52:26 KST $0.9633으로 약 -8.26% 하락한 뒤 회복. 1차 가격 이상 및 급락 후 반등 관찰/재점화 가능성만 독립 포착. 비연속 관측으로 거래량 2/3/5/10/30/50배 공식 RVOL, 연속 5~15분 가속, 지속 저점 방어, 상승 추세 확정 불가. 02:15:41 KST 이후 시세는 미확인. 2차 기존 2026-10-22 SEC 6-K에 Antalpha Capital (HK)와 Class B 신주 952,381주, 주당 $2.10, 약 $2m 인수계약 확인(종결 여부 미확인); 기존 2026-09-30 O/S 34,664,562주 및 PFW 2,222,224주·Class B 워런트 800,000주 관련 과거 검증 기록 존재. 잠재 B형 대기·D형 복합 요소와 실제 즉시 매도 가능 공급을 분리: 현재 잔여 워런트/PFW, 최신 Float/O/S, ATM/ELOC/Resale/PIPE 및 실제 매도 가능한 공급량과 최종 A/B/C/D 유형은 미확인/보류. 과거 자금조달 공시는 새 뉴스가 아니며 가격 회복의 원인으로 단정하지 않음. 공급 위험으로 1차 감점·순위변경·삭제 없음. 거래소 원시 체결 미대조 PROVISIONAL, 매수 신호 아님. SEC: https://www.sec.gov/Archives/edgar/data/1765850/000121390026111718/ea0309381-6k_aurelion.htm",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
