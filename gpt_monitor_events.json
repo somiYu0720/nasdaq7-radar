@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T19:17:35.204Z",
+  "updated_utc": "2026-10-30T20:07:24Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4676,6 +4676,83 @@
       "detected_utc": "2026-10-30T19:17:35.204Z",
       "summary": "[2026-10-31 04:16 KST 점검, GitHub radar_bridge.json 2026-10-30 19:14:37 UTC 생성] Planet Green Holdings(PLAG, NYSE American, 중국 사업) 2026-10-30 19:05 UTC(15:05 EDT) 5분 상대거래량 rvol5=4.47, signal=EARLY_PROVISIONAL, source=intraday. 자체 수집/계산 지표로 공식 거래소 RVOL·동시간대 보정·분모/절대 거래량은 미대조. 1차 거래량 선행 잠정 신호(자체 3배 초과)로 포착, 가격·5~15분 연속 가속·저점 방어 및 급등 전/진행/급락 후 반등/재점화 가격분류 미확인. 10/30 신규 회사 호재 확인되지 않음. 2차 SEC 2026-10-02 8-K 및 424B5에 Craft Capital Management와 최대 $22,539,922 ATM 판매 경로 존재 확인(C형 활성 매도 가능 경로 요소); 실제 10/30 판매 실행·발행 주식수 및 잔여 한도 미확인, 최신 float/O/S와 다른 ATM/ELOC/Resale/PIPE·워런트·전환/상장 상태 미확인, 종목 전체 A/B/C/D 최종 판정 보류. 잠재 발행 가능과 실제 즉시 시장 매도 물량은 구별. 2차 위험은 1차 감점·순위변경·삭제에 반영하지 않음. PROVISIONAL, 매수 신호 아님. SEC https://www.sec.gov/Archives/edgar/data/1117057/000121390026106521/ea0307441-8k_planet.htm",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/radar_bridge.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-PMN-CRASH_RVOL_STOCKTITAN-20261030T192900Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "PMN",
+      "category": "1차_급락대량거래_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:07:24Z",
+      "summary": "[2026-10-30 15:29 EDT StockTitan 무료 15분 지연 공개 스냅샷] PMN: 전일 종가 대비 약 -67%, 20거래일 동일시각 누적 상대거래량 약 39배, 누적 거래량 약 1.2M주(StockTitan 표기 M=백만). 급락과 대량거래 동시 관찰(LABT형 포함), 1차 급락 후 반등 관찰; 반등 성공, 15:50 체결가, 연속 5~15분 가속, 저점 방어, 거래소 원시 시세는 미확인. 2차 SEC·최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 상태 및 실제 즉시 매도 가능한 공급 미검증, A/B/C/D 최종 유형 보류. 1차 순위에 공급 위험 감점·제외 없음. 실시간 매수 신호 아님.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-ATEC-CRASH_RVOL_STOCKTITAN-20261030T192900Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "ATEC",
+      "category": "1차_급락대량거래_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:07:24Z",
+      "summary": "[2026-10-30 15:29 EDT StockTitan 무료 15분 지연 공개 스냅샷] ATEC: 전일 종가 대비 약 -38%, 20거래일 동일시각 누적 상대거래량 약 16배, 누적 거래량 약 21.7M주(StockTitan 표기 M=백만). 급락과 대량거래 동시 관찰(LABT형 포함), 1차 급락 후 반등 관찰; 반등 성공, 15:50 체결가, 연속 5~15분 가속, 저점 방어, 거래소 원시 시세는 미확인. 2차 SEC·최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 상태 및 실제 즉시 매도 가능한 공급 미검증, A/B/C/D 최종 유형 보류. 1차 순위에 공급 위험 감점·제외 없음. 실시간 매수 신호 아님.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-SMTK-CRASH_RVOL_STOCKTITAN-20261030T192900Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "SMTK",
+      "category": "1차_급락대량거래_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:07:24Z",
+      "summary": "[2026-10-30 15:29 EDT StockTitan 무료 15분 지연 공개 스냅샷] SMTK: 전일 종가 대비 약 -32%, 20거래일 동일시각 누적 상대거래량 약 9.2배, 누적 거래량 약 1.8M주(StockTitan 표기 M=백만). 급락과 대량거래 동시 관찰(LABT형 포함), 1차 급락 후 반등 관찰; 반등 성공, 15:50 체결가, 연속 5~15분 가속, 저점 방어, 거래소 원시 시세는 미확인. 2차 SEC·최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 상태 및 실제 즉시 매도 가능한 공급 미검증, A/B/C/D 최종 유형 보류. 1차 순위에 공급 위험 감점·제외 없음. 실시간 매수 신호 아님.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-HUBC-CRASH_RVOL_STOCKTITAN-20261030T192900Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "HUBC",
+      "category": "1차_급락대량거래_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:07:24Z",
+      "summary": "[2026-10-30 15:29 EDT StockTitan 무료 15분 지연 공개 스냅샷] HUBC: 전일 종가 대비 약 -32%, 20거래일 동일시각 누적 상대거래량 약 142배, 누적 거래량 약 190.3M주(StockTitan 표기 M=백만). 급락과 대량거래 동시 관찰(LABT형 포함), 1차 급락 후 반등 관찰; 반등 성공, 15:50 체결가, 연속 5~15분 가속, 저점 방어, 거래소 원시 시세는 미확인. 2차 SEC·최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 상태 및 실제 즉시 매도 가능한 공급 미검증, A/B/C/D 최종 유형 보류. 1차 순위에 공급 위험 감점·제외 없음. 실시간 매수 신호 아님.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-BURU-CRASH_RVOL_STOCKTITAN-20261030T192900Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "nasdaq7",
+      "ticker": "BURU",
+      "category": "1차_급락대량거래_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:07:24Z",
+      "summary": "[2026-10-30 15:29 EDT StockTitan 무료 15분 지연 공개 스냅샷] BURU: 전일 종가 대비 약 -24%, 20거래일 동일시각 누적 상대거래량 약 226배, 누적 거래량 약 456.8M주(StockTitan 표기 M=백만). 급락과 대량거래 동시 관찰(LABT형 포함), 1차 급락 후 반등 관찰; 반등 성공, 15:50 체결가, 연속 5~15분 가속, 저점 방어, 거래소 원시 시세는 미확인. 2차 SEC·최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 상태 및 실제 즉시 매도 가능한 공급 미검증, A/B/C/D 최종 유형 보류. 1차 순위에 공급 위험 감점·제외 없음. 실시간 매수 신호 아님.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-JDZG-CRASH_RVOL_STOCKTITAN-20261030T192900Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "china1",
+      "ticker": "JDZG",
+      "category": "1차_급락대량거래_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:07:24Z",
+      "summary": "[2026-10-30 15:29 EDT StockTitan 무료 15분 지연 공개 스냅샷] JDZG: 전일 종가 대비 약 -61%, 20거래일 동일시각 누적 상대거래량 약 14배, 누적 거래량 약 13.6M주(StockTitan 표기 M=백만). 급락과 대량거래 동시 관찰(LABT형 포함), 1차 급락 후 반등 관찰; 반등 성공, 15:50 체결가, 연속 5~15분 가속, 저점 방어, 거래소 원시 시세는 미확인. 2차 SEC·최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 상태 및 실제 즉시 매도 가능한 공급 미검증, A/B/C/D 최종 유형 보류. 1차 순위에 공급 위험 감점·제외 없음. 실시간 매수 신호 아님.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7마감10분전급락TOP10-BDMD-CRASH_RVOL_STOCKTITAN-20261030T192900Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "china1",
+      "ticker": "BDMD",
+      "category": "1차_급락대량거래_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-10-30T20:07:24Z",
+      "summary": "[2026-10-30 15:29 EDT StockTitan 무료 15분 지연 공개 스냅샷] BDMD: 전일 종가 대비 약 -22%, 20거래일 동일시각 누적 상대거래량 약 169배, 누적 거래량 약 9.4M주(StockTitan 표기 M=백만). 급락과 대량거래 동시 관찰(LABT형 포함), 1차 급락 후 반등 관찰; 반등 성공, 15:50 체결가, 연속 5~15분 가속, 저점 방어, 거래소 원시 시세는 미확인. 2차 SEC·최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 상태 및 실제 즉시 매도 가능한 공급 미검증, A/B/C/D 최종 유형 보류. 1차 순위에 공급 위험 감점·제외 없음. 실시간 매수 신호 아님.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
       "verification": "PROVISIONAL"
     }
   ]
