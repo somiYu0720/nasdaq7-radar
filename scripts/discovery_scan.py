@@ -47,6 +47,7 @@ def scan(ticker, max_age_min, min_volume):
 
     v = today['Volume'].astype(float)
     if len(today) >= 46:
+        # Compare against the preceding 30 one-minute bars, excluding the latest 15.
         base = float(v.iloc[-45:-15].mean())
         baseline_type = 'TODAY_PRIOR_30M'
     elif len(history) >= 30:
@@ -77,13 +78,15 @@ def scan(ticker, max_age_min, min_volume):
     price_before = float(today['Close'].iloc[-1-lookback])
     pct = 100 * (price / price_before - 1) if price_before > 0 else None
     high_rvol = max(x for x in (r5, r10, r15) if x is not None)
+    # A thin-volume spike is provisional even when the relative multiple is high.
+    liquid_enough = v5 >= min_volume
     if pct is None:
         signal = 'REVIEW'
     elif high_rvol >= 3 and pct > 10:
         signal = 'ALREADY_UP'
     elif high_rvol >= 3 and pct < -10:
         signal = 'SHARP_DROP'
-    elif high_rvol >= 3 and v5 >= min_volume:
+    elif high_rvol >= 3 and liquid_enough:
         signal = 'EARLY_PRE' if baseline_type == 'TODAY_PRIOR_30M' else 'EARLY_PROVISIONAL'
     elif high_rvol >= 3:
         signal = 'LOW_VOLUME_REVIEW'
@@ -134,8 +137,8 @@ def main():
     if not rows:
         raise SystemExit('No usable rows; no fabricated results.')
     out = pd.DataFrame(rows)
-    rank = {'EARLY_PRE': 0, 'EARLY_PROVISIONAL': 1, 'LOW_VOLUME_REVIEW': 2, 'ALREADY_UP': 3,
-            'SHARP_DROP': 4, 'WATCH': 5, 'REVIEW': 6, 'STALE': 7, 'INSUFFICIENT_BARS': 8,
+    rank = {'EARLY_PRE': 0, 'EARLY_PROVISIONAL': 1, 'SHARP_DROP': 2, 'ALREADY_UP': 3,
+            'LOW_VOLUME_REVIEW': 4, 'WATCH': 5, 'REVIEW': 6, 'STALE': 7, 'INSUFFICIENT_BARS': 8,
             'NO_BASELINE': 9, 'ZERO_BASE_VOLUME': 10, 'NO_DATA': 11, 'ERROR': 12}
     out['_rank'] = out['signal'].map(rank).fillna(13)
     # Missing RVOL is unknown, not zero. Sorting must still work when all rows are STALE/NO_DATA.
