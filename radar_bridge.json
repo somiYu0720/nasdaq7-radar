@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-30T21:32:04.893793+00:00",
-  "source_updated_utc": "2026-10-30T21:32:04.854013+00:00",
+  "generated_utc": "2026-10-30T21:33:48.697507+00:00",
+  "source_updated_utc": "2026-10-30T21:33:48.633112+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-10-31T06:32:45+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -469,7 +483,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-10-31T06:31:15+09:00",
+      "bar_time": "2026-10-31T06:32:58+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -483,7 +497,7 @@
       "ticker": "CREG",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-10-30T21:31:35.594077+00:00",
+      "bar_time": "2026-10-30T21:33:19.339713+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -553,7 +567,7 @@
       "ticker": "GCDT",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-10-31T06:21:13+09:00",
+      "bar_time": "2026-10-31T06:31:17+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -805,10 +819,26 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-10-31T06:32:45+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "CREG",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-10-30T21:31:35.594077+00:00",
+      "bar_time": "2026-10-30T21:33:19.339713+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -833,14 +863,6 @@
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
       "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
       "china_verified": false,
       "classification": "PENDING"
     },
