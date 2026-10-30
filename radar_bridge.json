@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-30T16:11:42.507108+00:00",
-  "source_updated_utc": "2026-10-30T16:11:42.458240+00:00",
+  "generated_utc": "2026-10-30T16:13:27.069208+00:00",
+  "source_updated_utc": "2026-10-30T16:13:27.036672+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -48,8 +48,8 @@
     {
       "ticker": "AIOT",
       "signal": "REVIEW",
-      "rvol5": "0.74",
-      "bar_time": "2026-10-30T16:00:00+00:00",
+      "rvol5": "0.13",
+      "bar_time": "2026-10-30T16:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -538,8 +538,22 @@
     {
       "ticker": "DXF",
       "signal": "REVIEW",
-      "rvol5": "0.06",
-      "bar_time": "2026-10-30T15:45:00+00:00",
+      "rvol5": "0.04",
+      "bar_time": "2026-10-30T15:55:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": "0.94",
+      "bar_time": "2026-10-30T14:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -678,8 +692,22 @@
     {
       "ticker": "PLAG",
       "signal": "REVIEW",
-      "rvol5": "0.06",
+      "rvol5": "0.22",
       "bar_time": "2026-10-30T16:00:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "POLA",
+      "signal": "REVIEW",
+      "rvol5": "0.17",
+      "bar_time": "2026-10-30T14:55:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -720,7 +748,7 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.45",
+      "rvol5": "0.72",
       "bar_time": "2026-10-30T16:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -776,8 +804,8 @@
     {
       "ticker": "STAK",
       "signal": "REVIEW",
-      "rvol5": "2.32",
-      "bar_time": "2026-10-30T15:35:00+00:00",
+      "rvol5": "0.12",
+      "bar_time": "2026-10-30T16:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -893,8 +921,24 @@
     {
       "ticker": "DXF",
       "signal": "REVIEW",
-      "rvol5": "0.06",
-      "bar_time": "2026-10-30T15:45:00+00:00",
+      "rvol5": "0.04",
+      "bar_time": "2026-10-30T15:55:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": "0.94",
+      "bar_time": "2026-10-30T14:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -909,7 +953,7 @@
     {
       "ticker": "PLAG",
       "signal": "REVIEW",
-      "rvol5": "0.06",
+      "rvol5": "0.22",
       "bar_time": "2026-10-30T16:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -925,7 +969,7 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.45",
+      "rvol5": "0.72",
       "bar_time": "2026-10-30T16:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -964,14 +1008,6 @@
     },
     {
       "ticker": "DTSS",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "EZGO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -1034,6 +1070,7 @@
     "LUCD",
     "LYCA",
     "PAXG",
+    "POLA",
     "PRSO",
     "REED",
     "RTSN",
