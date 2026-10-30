@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T00:05:38Z",
+  "updated_utc": "2026-10-30T00:07:34Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -3895,6 +3895,28 @@
       "detected_utc": "2026-10-30T00:05:38Z",
       "summary": "2026-10-29 08:11 EDT 접수 Zenta Group(ZTG) SEC 6-K 원문 검증. 2026-09-11 ZentoAI 인수 완료 대가 HKD 10m 현금+Class A 12,278,340주 발행; 인수 종결 직후 발행주식 총 24,087,179주(Class A 17,719,499/Class B 6,367,680), 2026-09-18 기준 비계열 보유 Class A 10,716,816주(병합 전 기준). 12대1 주식병합은 09-30 케이맨법상 효력 발생했으나 10-29 공시 기준 Nasdaq 시장거래에는 아직 적용되지 않아 병합 전 가격 기준으로 거래. 10-16 공개된 중국 기술기업 지분 인수 MOU는 비구속적 종결로서 확정 M&A가 아님. 09-24 기준 ZentoAI 확정 고객 주문 없었고 기존 고정 서비스 수수료 계약은 유지. 10-29 신규 사업결합 체결이 아닌 과거 거래 및 주식수·시장 병합상태를 확인한 신규 SEC 공시임. F-3 참조편입이 곧바로 실제 즉시매도 가능 공급 확정이라는 뜻은 아님. 잠재 희석(기발행 인수대가 주식·향후 MOU 주식대가 가능성)과 당장 매도 가능 물량 구분 필요, 최신 실제 float/전매제한·ATM/ELOC/Resale/PIPE/워런트/전환·매각 잔량 미확인, A/B/C/D 공급유형 최종 보류. 1차 뉴스/이벤트 관찰 대상에 공급·상장 위험 감점 없음; 가격/RVOL 2/3/5/10/30/50배·분봉·저점방어·매수 적합성 미확인.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2011458/000149315226049185/form6-k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-DPU-THIRD_PARTY_SHOWCASE_NO_REVENUE-20261029T0700EDT",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "DPU",
+      "category": "1차_신규뉴스_제3자플랫폼상품등록_확정매출없음_PROVISIONAL",
+      "detected_utc": "2026-10-30T00:07:34Z",
+      "summary": "2026-10-29 07:00 EDT Nexpu Ltd.(DPU, 중국 선전 소재) 발행사 공식 보도: AlyXpress Orion 제3자 플랫폼에 재판매용 컴퓨팅 하드웨어·로봇 제품 정보 및 DPU 음악 플랫폼 링크를 게시. 해당 사이트는 회사 소유가 아니며 주문·결제 채널이 아닌 문의용 상품 소개. 회사는 발표 시점까지 해당 등록을 통한 매출이 없다고 명시. 확정 대형 계약·신규 매출·인수합병 아님. 1차 뉴스/이벤트 관찰만 수행; 가격·5~15분 분봉·거래량 2/3/5/10/30/50배 가속·저점 방어 및 급등전/진행/급락후반등/재점화 분류 미확인. 2026-10-19 별도 SEC 6-K에 Reg S 4,000만 유닛 발행 완료 및 4,000만 워런트 즉시 행사 가능 명시, 잠재 희석과 실제 즉시 매도 가능한 공급은 별도 2차로 검증하며 1차 후보 감점·배제·순위 변경 없음. 발행사 발표 확인, 당일 SEC 대조 미완료.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/29/3391115/0/en/nexpu-announces-product-listings-on-third-party-platform-alyxpress-orion.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-DPU-SEC6K_REGS_40M_UNITS_WARRANTS_CLOSED-20261019T172506EDT",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "DPU",
+      "category": "2차_SEC6K_기발표_발행완료_RegS_워런트즉시행사_D형_즉시매도미확인_VERIFIED",
+      "detected_utc": "2026-10-30T00:07:34Z",
+      "summary": "[과거 공시 신규 발굴·지연 검증, 10/30 신규 공시 아님] 2026-10-19 17:25:06 EDT 접수 SEC 6-K 원문: Nexpu(DPU)가 10/14 비미국 투자자 대상 Regulation S 4,000만 유닛(유닛당 Class A 1주+1주 매수 워런트)을 유닛당 $0.70, 총 약 $28m에 계약하고 10/19 종결·대금 수령했다고 공시. 워런트 4,000만 개는 발행일부터 현금 행사 가능, 최초 행사가 $0.71, 3년 만기. 기발행 보통주 공급과 향후 행사 잠재 희석은 구분. D형(워런트 복합 공급 구조) 참고 분류이나 최신 O/S·float·실제 행사 수량·Reg S 재판매 제한/면제 경로·미국시장 즉시 매도 가능 물량 미확인; C형 활성 매도 물량으로 단정 금지. 1차 뉴스/거래량 포착 순위에 감점·배제·순위 변경 없음. 매수 신호 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1938865/000121390026110756/ea0309031-6k_nexpu.htm",
       "verification": "VERIFIED"
     }
   ]
