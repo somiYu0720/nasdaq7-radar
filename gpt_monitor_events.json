@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T14:23:00Z",
+  "updated_utc": "2026-10-30T14:50:11Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4444,6 +4444,17 @@
       "category": "1차_임상실패후_추가급락_급락후반등관찰_비연속토스가격표본",
       "detected_utc": "2026-10-30T14:23:00Z",
       "summary": "[2026-10-30 23:21:41 KST GitHub Toss 부분수집, 기존 10/30 07:00 EDT 임상2상 실패 발표 및 앞서 등록된 21:56 급락과 구별되는 후속 가격 신호] 22:22:06 KST $0.3491(기존 등록 포착기 기록) → 22:48:23 KST $0.3271(이전 GitHub toss_history.json 표본, 표시 분봉 거래량 151,481주) → 23:21:41 KST $0.30065(최신 toss_live.json 표본, 표시 분봉 거래량 66,079주), 22:22 대비 -13.88%, 22:48 대비 -8.09%. 10/29 정규장 종가 $2.29 대비 약 -86.87%이나 전일 종가는 별도 외부 자료 기준. 비연속 시점 표본이며 실시간 체결 가능가·5~15분 연속 가속·공식 RVOL 2/3/5/10/30/50배·저점 방어·반등 확정 아님. 1차 급락 후 반등 관찰(반등 확정 아님)로 유지, 2차 기존 SEC 10/26 S-3 최대 $500m 및 10/28 EFFECT로 잠재 C형 요소 존재하나 실제 금일 매도·최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·즉시 매도가능 공급 및 최종 A/B/C/D 미확인. 공급·상장 위험은 1차 감점/재정렬/삭제에 사용하지 않음. 거래소 원시 분봉 직접 미대조로 PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-MKDW-POST_RECOVERY_INTRADAY_REDROP_SAMPLED-20261030T144152Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "MKDW",
+      "category": "1차_가격급락_반등후재하락_급락후반등관찰_비연속토스표본_PROVISIONAL",
+      "detected_utc": "2026-10-30T14:50:11Z",
+      "summary": "[2026-10-30 23:50 KST 점검, 저장 시세의 비연속 표본] MKDWELL Tech(MKDW) 10/30 22:44:12 KST $0.1842(표시 1분봉 5,064주)→23:35:16 $0.1810(387주)→23:41:52 $0.1606(표시 진행 중 1분봉 26,658주). 23:35 대비 -11.27%, 22:44 대비 -12.81%의 후속 재하락. 마지막 표시 분봉은 O/L $0.1538, H/C $0.1606이므로 분봉 내 반등은 보이나 지속적 저점 방어·추세 반전 확정 아님. 23:49:32 KST 수집 갱신 당시 마지막 거래 시각은 23:41:52 KST로 약 7분 40초 경과; 현재가·실시간 감시로 주장하지 않음. 비연속 분봉 거래량을 공식 RVOL 2/3/5/10/30/50배 또는 연속 5~15분 가속으로 해석하지 않음. 1차 '급락 후 반등 관찰' 신호로 기존 10/28~29 반등/급락 기록과 구분되는 10/30 후속 재하락만 추가. 2차 SEC 2026-09-11 424B5 원문상 최대 $100m ATM 가능 경로 확인(잠재 C형 요소), 9/9 기준 O/S 34,198,442주 및 비계열 보유 7,643,831주, 기존 워런트 존재. 최신 Float/O/S·ATM 실제 매각/잔여한도·ELOC/Resale/PIPE·전환·워런트 행사 및 실제 즉시 매도 가능 공급 미확인, 최종 A/B/C/D 판정 보류. ATM 계약만으로 당일 하락 원인을 확정하지 않으며 위험으로 1차 감점·순위변경·삭제 없음. SEC 원문: https://www.sec.gov/Archives/edgar/data/1991332/000149315226042406/form424b5.htm ; 관측 출처: https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json 및 toss_history.json. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
