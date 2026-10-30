@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T16:45:22Z",
+  "updated_utc": "2026-10-30T16:52:19Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4533,6 +4533,39 @@
       "detected_utc": "2026-10-30T16:45:22Z",
       "summary": "[2026-10-31 01:45 KST 저장 표본 점검] 중국계 1.0 관심종목 CENN의 GitHub Toss 부분수집 비연속 관측가가 2026-10-31 01:11:02 KST $1.71(표시 1분봉 100주)에서 01:43:34 KST $1.85(표시 1분봉 2,500주)로 약 +8.19% 회복. 10/30 21:52:40 KST 관측 $1.67 이후의 회복 흐름이나 지속적인 저점방어·추세 전환은 확정되지 않음. 1차 가격 이상 움직임만 독립 포착하여 '급락 후 반등 관찰/재점화 가능성 관찰'로 분류. 두 비연속 분봉의 거래량을 RVOL 2/3/5/10/30/50배나 5~15분 연속 가속으로 해석하지 않으며 최신 체결·당일 공식 거래량·호재 원인은 미확인. 2차 별도: 기존 2026-10-13 424B5 및 10-15 8-K의 최대 $100m ATM 판매 경로는 잠재 C형 공급 요소이나 실제 당일 매각·즉시 매도 가능 물량·최신 float/O/S·최종 A/B/C/D 분류는 미확인. 희석·상장 위험으로 1차 포착 감점·순위변경·삭제 없음. 가격 표본 단독으로 매수 적합성 판단 불가.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-PTHS-MERGER_CASTLE_CREEK_SIGNED-20261030T131700Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "PTHS",
+      "category": "1차_MA확정합병계약_거래미종결_2차공급별도",
+      "detected_utc": "2026-10-30T16:52:19Z",
+      "summary": "[2026-10-30 09:17 EDT SEC 8-K 접수, 계약체결 10/30] Pelthos Therapeutics(PTHS, NYSE American)가 Castle Creek Biosciences와 확정 합병계약 체결. 거래 종결 시 기존 Castle Creek 주주에게 PTHS 보통주 5,200,000주 지급(거래 전환 후 PIPE 반영 전 완전희석 기준 약 32.5% 지분); D-Fi FDA 승인 등 조건 충족 시 최대 5,800,000주 추가 및 최대 $300m 조건부 마일스톤 지급 가능. 종결은 2027년 1분기 말 예상이나 미종결, S-4 효력·주주승인·PIPE 등 조건 존재. 1차는 강력 M&A 확정계약 뉴스 신호만 평가하고 2차 위험으로 감점·삭제·재정렬하지 않음. 급등 전/진행/급락 후 반등/재점화의 가격 기반 분류와 공식 거래량 2/3/5/10/30/50배 및 5~15분 연속 가속은 미확인. 2차 SEC 8-K에서 약 $57.5m Series B 전환우선주+496,951주 워런트 PIPE 계약(미종결), 추가 최대 $26.6m 옵션 및 일부 추가 $1.5m 가능, 합병대가 주식과 전환·워런트 잠재 공급 확인. 특정 합병/PIPE 수령인 180일 락업은 거래 종결일부터 시작, 예외 존재. 워런트는 거래종결 180일 후 행사 가능. B형 대기·D형 전환/워런트 요소 있으나 최신 float/O/S·기타 ATM/ELOC/Resale/전환잔량·실제 즉시매도 가능 물량과 전체 A/B/C/D 최종 분류는 미확인. 계약 체결 사실 SEC VERIFIED, 매수 신호 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1919246/000110465926120457/tm2628523d1_8k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-GPRE-45Z_TAX_CREDIT_TRANSFER_AGREEMENT-20261030T120000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "GPRE",
+      "category": "1차_확정사업계약_45Z세액공제이전_현금유입예정",
+      "detected_utc": "2026-10-30T16:52:19Z",
+      "summary": "[2026-10-30 08:00 EDT 발행사 보도자료] Green Plains(GPRE)는 2026년 생산분 45Z 청정연료 생산 세액공제 이전 계약 체결 발표. 기본 이전 예정액 $250m, 추가 포함 최대 $325m(추가 $30m 옵션 별도), 2026년 상반기 발생분에 대한 $140m 현금은 2026년 4분기 수령 예정이며 잔여는 규정 준수·실제 공제 발생·종결 조건 충족 후 2027년 상반기 수익화 예정. 계약 체결은 사실이나 $140m 입금 완료·전액 현금 수령·매출 확정 아님. 1차 강한 확정 사업/자금유입 예정 이벤트만 독립 평가, 희석·상장 위험으로 순위 감점/삭제 없음. 가격·5분 RVOL 2/3/5/10/30/50배·5~15분 연속 가속·저점방어 및 급등 전/진행/급락후반등/재점화 가격기반 분류 미확인. 2차 당일 SEC 원문 대조 미완료, 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석·실제 즉시 매도 가능 공급 및 A/B/C/D 분류 보류. 회사 공식 보도만 확인해 PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://www.businesswire.com/news/home/20261030889914/en/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-LUCD-RVOL5_2P48-20261030T164500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LUCD",
+      "category": "1차_5분상대거래량2.48배_재점화관찰_잠정",
+      "detected_utc": "2026-10-30T16:52:19Z",
+      "summary": "[2026-10-30 12:45 EDT 저장 5분봉, GitHub data.json 16:51:40 UTC 갱신] 관심종목 LUCD 5분 상대거래량 rvol5=2.48, 포착기 REVIEW. 직전 거래량 양수인 완료 5분봉 12개 평균 대비 자체 지표로 동시간대 보정·거래소 원시자료 대조는 아님. 기존 10/28 5.95배·10/29 4.60배 기록과 다른 10/30 분봉 신규 이상거래이며 '재점화 관찰'로 유지하되 재상승 확정 아님. GitHub Toss 2026-10-31 01:50:41 KST 비연속 가격 표본 $0.4187, 표시 1분봉 거래량 1,601주; 12:45 EDT 5분봉과 동시 시세 아님. 연속 5~15분 가속·저점방어·급등 전/진행/반등 가격기반 분류 미확인. 2차 최신 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환·상장 위험, 잠재 희석·즉시 매도 가능 공급 및 A/B/C/D 판정 미확인. 위험에 따른 1차 감점·재정렬·삭제 없음. 공식 시세 미대조로 PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
