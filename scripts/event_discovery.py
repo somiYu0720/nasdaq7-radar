@@ -2,7 +2,7 @@
 """Build independently labelled event discovery candidates; never claim filing metadata verifies catalysts."""
 import json, datetime as dt, re
 from pathlib import Path
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parent.parent
 def read(name,default):
     try:return json.loads((ROOT/name).read_text(encoding="utf-8"))
     except (OSError,ValueError):return default
