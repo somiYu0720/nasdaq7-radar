@@ -22,12 +22,15 @@ def fetch(url):
 def main():
     watch = json.loads((ROOT / "watchlist.json").read_text(encoding="utf-8-sig"))
     existing = {s.upper() for names in watch["categories"].values() for s in names}
+    # Include existing watchlist symbols: fresh volume signals must not be excluded.
+    # Keep the independent China 1.0 lane separate from NASDAQ 7.0 discovery.
+    china = {s.upper() for s in watch["categories"].get("china", [])}
     lines = [line for line in fetch(DIRECTORY).splitlines() if not line.startswith("File Creation Time")]
     reader = csv.DictReader(io.StringIO("\n".join(lines)), delimiter="|")
     candidates = []
     for item in reader:
         ticker = (item.get("Symbol") or "").strip().upper()
-        if not ticker or ticker in existing or not ticker.isascii() or not ticker.isalnum():
+        if not ticker or ticker in china or not ticker.isascii() or not ticker.isalnum():
             continue
         if item.get("Test Issue", "").strip().upper() != "N":
             continue
@@ -47,7 +50,8 @@ def main():
         writer.writeheader()
         writer.writerows(candidates)
     print("DISCOVERY_UNIVERSE_OK", len(candidates))
-    print("EXCLUDED_WATCHLIST_TICKERS", len(existing))
+    print("EXCLUDED_CHINA_TICKERS", len(china))
+    print("EXISTING_WATCHLIST_INCLUDED", sum(x["ticker"] in existing for x in candidates))
     print("Saved:", OUTPUT.name)
     print("Note: these are listing candidates, not validated early signals.")
     print("To scan a limited batch with the existing V3.1 scanner:")
