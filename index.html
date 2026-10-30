@@ -580,14 +580,14 @@ async function renderEvent(){
  try{const r=await fetch('./event_calendar.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();events=Array.isArray(d.events)?d.events:[]}}catch(e){}
  try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();quotes=Array.isArray(d.rows)?d.rows:[];quoteStamp=d.updated_utc}}catch(e){}
  const eventStamp=events.map(x=>x.verified_at_utc||x.detected_utc||x.updated_utc).filter(Boolean).sort().at(-1);
- $('eventSourceStatus').textContent='이벤트 일정 원본: event_calendar.json · '+events.length+'건 · 마지막 기록 시각 '+(eventStamp?new Date(eventStamp).toLocaleString('ko-KR'):'미확인')+' · 신규 SEC/뉴스 자동 조회: 미연결 · 실시간 공시 알림 아님';
+ $('eventSourceStatus').textContent='이벤트 일정 원본: event_calendar.json · '+events.length+'건 · 마지막 기록 시각 '+(eventStamp?new Date(eventStamp).toLocaleString('ko-KR'):'미확인')+' · 일정 파일 자동 불러오기 · 신규 SEC/뉴스 자동 조회는 별도 연동 필요 · 실시간 공시 알림 아님';
  try{const r=await fetch('./sec_dilution_evidence.json?t='+Date.now(),{cache:'no-store'});if(r.ok)dilutionEvidence=await r.json()}catch(e){}
  const evidenceTime=dilutionEvidence?.checked_utc?new Date(dilutionEvidence.checked_utc).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'미수집';
  $('eventSourceStatus').textContent+=' · SEC 원문 키워드 점검: '+evidenceTime+' (키워드 발견은 희석 확정 아님)';
  let monitorEvents=[];
  try{const r=await fetch('./gpt_monitor_events.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();monitorEvents=(Array.isArray(d.events)?d.events:[]).filter(x=>x.ticker&&/임상|실적|공시|SEC|M&A|인수|계약|FDA|발표|이벤트|자금조달|매출/i.test(String(x.category||'')+' '+String(x.summary||'')));}}catch(e){}
  const recentMonitor=monitorEvents.filter(x=>{const t=Date.parse(x.detected_utc||'');return Number.isFinite(t)&&t<=Date.now()&&Date.now()-t<30*86400000;});
- const symbols=[...new Set([...shared,...(watchCategories.event||[]),...recentMonitor.map(x=>String(x.ticker).toUpperCase())].filter(x=>typeof x==='string'&&/^[A-Z0-9.-]{1,12}$/.test(x)))];
+ const symbols=[...new Set([...shared,...(watchCategories.event||[]),...events.map(x=>String(x.ticker||'').toUpperCase()),...recentMonitor.map(x=>String(x.ticker).toUpperCase())].filter(x=>typeof x==='string'&&/^[A-Z0-9.-]{1,12}$/.test(x)))];
  if(!symbols.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=6;td.className='empty';td.textContent='등록된 이벤트 감시 종목 없음';tr.append(td);body.append(tr);return}
  const today=new Date(),kst=new Date(today.toLocaleString('en-US',{timeZone:'Asia/Seoul'}));
  const todayUtc=Date.UTC(kst.getFullYear(),kst.getMonth(),kst.getDate());
@@ -595,10 +595,10 @@ async function renderEvent(){
  const freshness=quoteStamp?Math.round((Date.now()-new Date(quoteStamp).getTime())/60000):Infinity;
  const rows=symbols.map(ticker=>{
   const q=quotes.find(x=>x.ticker===ticker);
-  const matches=events.filter(x=>String(x.ticker||'').toUpperCase()===ticker&&x.verification==='VERIFIED'&&/^https:\/\//.test(x.source_url||'')&&daysTo(x.event_date)!==null).sort((a,b)=>a.event_date.localeCompare(b.event_date));
+  const matches=events.filter(x=>String(x.ticker||'').toUpperCase()===ticker&&['VERIFIED','REPORTED_REUTERS','PROVISIONAL_SECONDARY_CALENDAR'].includes(x.verification)&&/^https:\/\//.test(x.source_url||'')&&daysTo(x.event_date)!==null).sort((a,b)=>a.event_date.localeCompare(b.event_date));
   const e=matches.find(x=>daysTo(x.event_date)>=0)||matches[0],days=e?daysTo(e.event_date):null;
   const schedule=e?(days===null?0:days<0?0:days<=3?35:days<=7?30:days<=14?22:days<=30?12:5):0;
-  const confirmed=e?30:0;
+  const confirmed=e?(e.verification==='VERIFIED'?30:e.verification==='REPORTED_REUTERS'?25:5):0;
   const vol=q&&Number.isFinite(Number(q.minute_volume))&&freshness<=15?Number(q.minute_volume):null;
   const volume=vol===null?0:vol>=100000?25:vol>=30000?20:vol>=10000?15:vol>=1000?10:vol>0?5:0;
   const price=q&&Number.isFinite(Number(q.price))&&Number(q.price)>0&&freshness<=15?10:0;
