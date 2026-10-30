@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T14:50:11Z",
+  "updated_utc": "2026-10-30T15:27:00Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4457,6 +4457,28 @@
       "summary": "[2026-10-30 23:50 KST 점검, 저장 시세의 비연속 표본] MKDWELL Tech(MKDW) 10/30 22:44:12 KST $0.1842(표시 1분봉 5,064주)→23:35:16 $0.1810(387주)→23:41:52 $0.1606(표시 진행 중 1분봉 26,658주). 23:35 대비 -11.27%, 22:44 대비 -12.81%의 후속 재하락. 마지막 표시 분봉은 O/L $0.1538, H/C $0.1606이므로 분봉 내 반등은 보이나 지속적 저점 방어·추세 반전 확정 아님. 23:49:32 KST 수집 갱신 당시 마지막 거래 시각은 23:41:52 KST로 약 7분 40초 경과; 현재가·실시간 감시로 주장하지 않음. 비연속 분봉 거래량을 공식 RVOL 2/3/5/10/30/50배 또는 연속 5~15분 가속으로 해석하지 않음. 1차 '급락 후 반등 관찰' 신호로 기존 10/28~29 반등/급락 기록과 구분되는 10/30 후속 재하락만 추가. 2차 SEC 2026-09-11 424B5 원문상 최대 $100m ATM 가능 경로 확인(잠재 C형 요소), 9/9 기준 O/S 34,198,442주 및 비계열 보유 7,643,831주, 기존 워런트 존재. 최신 Float/O/S·ATM 실제 매각/잔여한도·ELOC/Resale/PIPE·전환·워런트 행사 및 실제 즉시 매도 가능 공급 미확인, 최종 A/B/C/D 판정 보류. ATM 계약만으로 당일 하락 원인을 확정하지 않으며 위험으로 1차 감점·순위변경·삭제 없음. SEC 원문: https://www.sec.gov/Archives/edgar/data/1991332/000149315226042406/form424b5.htm ; 관측 출처: https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json 및 toss_history.json. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-LUD-AI_DATA_QUANT_55PCT_DEFINITIVE_SPA_SIGNED-20261030T130000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "LUD",
+      "category": "1차_MA_55퍼센트지분인수_확정계약체결_미종결_뉴스이벤트",
+      "detected_utc": "2026-10-30T15:27:00Z",
+      "summary": "[2026-10-30 09:00 EDT 회사 보도, 실제 계약 체결 10/29] 홍콩계 NYSE American Luda Technology(LUD)는 Asia AI Data Centre & Quantum Technology 지분 55%를 취득하는 주식매매계약(SPA) 체결 발표. 총 대가 $935,000(현금 $600,000, 자사주 $335,000/91,780주 기준), 현금 $400,000 지급 발표·잔여 $200,000은 3개월 내 지급 예정. 6/18 비구속 MOU에서 확정계약 체결로 진전했으나 지분이전/거래종결은 미확인. Huazhi Future와 별도 2년 전략 MOU는 대부분 비구속이며 확정 프로젝트·매출 아님. 1차 M&A 확정계약 뉴스 신호로 독립 포착; 최신 연속분봉·2/3/5/10/30/50배 RVOL·저점방어·급등전/진행/급락후반등/재점화 가격분류 미확인. 2차 공개 6-K 전재 및 계약 부속문서에서 신주 91,780주 대가와 발행 후 6개월 락업 조항 확인: 잠재 B형 대기 공급 요소이나 실제 신주 발행·즉시 매도가능 물량 미확인. 기존 다른 ATM/ELOC/Resale/PIPE/워런트/전환, 최신 float/O/S 및 전체 A/B/C/D 최종 유형 미확인. 관련자 거래(매도인 COO이자 CEO 배우자)는 별도 2차 검토 대상. SEC 공식 EDGAR 원문 URL 직접 대조 미완료이므로 PROVISIONAL. 희석·상장 위험은 1차 감점/재정렬/삭제 없음. 매수 신호 아님.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392245/0/en/luda-technology-group-announces-execution-of-acquisition-of-55-stake-in-asia-ai-data-centre-quantum-technology-and-signing-mou-with-huazhi-future-to-explore-strategic-opportunities.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-ECX-SENIOR_CONVERTIBLE_NOTE_50M_REPAID_CANCELLED-20261030T110000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "ECX",
+      "category": "1차_확정자본이벤트_기존전환사채상환소멸_공급해제후속",
+      "detected_utc": "2026-10-30T15:27:00Z",
+      "summary": "[2026-10-30 07:00 EDT 회사 발표·같은 날 SEC 6-K EX-99.1 원문 확인] ECARX(ECX)는 2025-10-30 증권매매계약에 따른 $50m 선순위 전환사채의 2026-10-30 만기 잔액을 현금으로 전액 상환하고 해당 노트를 취소. 별도로 $10m 면제 대가도 전액 지급해 추가 최대 $100m 노트 매입권 포기가 효력 발생, 해당 특정 계약하 추가 노트 발행 없음. 이는 10/15 발표된 추가매입권 포기 의향과 구분되는 신규 실제 상환·면제대가 지급 완료 사건. 1차 뉴스/확정 자본 이벤트 신호로 독립 기록하되 희석 해소 사실을 1차 가산점·위험감점으로 반영하지 않음. 최신 주가·거래량 2/3/5/10/30/50배·5~15분 가속·저점방어·급등전/진행/급락후반등/재점화 가격분류 미확인. 2차 특정 $50m 전환채 및 해당 추가발행 선택권은 소멸 확인(해당 D형 경로 해제). 다만 별도 2028년 만기 전환사채 프로그램은 다른 계약으로 남아 있을 수 있으며 최신 잔액·float/O/S·ATM/ELOC/Resale/PIPE/워런트·실제 즉시매도 공급 및 종목 전체 A/B/C/D 최종 유형 미확인. 현금 유출과 다른 잠재 공급 경로도 별도 평가. SEC 원문 VERIFIED, 매수 신호 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1861974/000162828026068390/ecarxannouncessettlementin.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
