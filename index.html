@@ -1,9 +1,3 @@
-function marketIsRegularSession(){
- const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
- const get=t=>parts.find(x=>x.type===t)?.value||'';
- const m=Number(get('hour'))*60+Number(get('minute'));
- return !['Sat','Sun'].includes(get('weekday'))&&m>=570&&m<960;
-}
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NASDAQ 7.0 Radar</title>
 <style>
@@ -676,6 +670,12 @@ function atmInfo(ticker){
  const filings=Array.isArray(record?.evidence)?record.evidence.filter(x=>String(x.category||'').toUpperCase()==='ATM'):[];
  if(filings.length)return {label:'ATM 검증 필요',detail:'SEC ATM 관련 문구 '+filings.length+'건 · 현재 사용 가능 여부·실제 매각 여부 모두 미확인',url:filings[0]?.source_url||''};
  return atmEvidence[key]||null;
+}
+function marketIsRegularSession(){
+ const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
+ const get=t=>parts.find(x=>x.type===t)?.value||'';
+ const m=Number(get('hour'))*60+Number(get('minute'));
+ return !['Sat','Sun'].includes(get('weekday'))&&m>=570&&m<960;
 }
 async function renderRanks(){
  await Promise.all([loadSharedSecEvidence(),loadSecRankSnapshot(),loadAtmStatuses()]);
