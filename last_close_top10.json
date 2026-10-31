@@ -1,190 +1,115 @@
 {
-  "source": "toss_live.json",
-  "label": "마지막 관측 자료 (장마감 확정 순위 아님)",
-  "updated_utc": "2026-10-31T07:53:52.709960+00:00",
+  "source": "Toss historical 1m candles / user Pydroid export",
+  "label": "2026-10-31 08:59 KST 과거분봉 관측 TOP10 (부분집계·실시간 아님)",
+  "updated_utc": "2026-10-30T23:59:00Z",
+  "coverage": {
+    "scanned": 117,
+    "missing": 101,
+    "http_errors": 4,
+    "china_incomplete": true
+  },
   "categories": {
     "nas": [
       {
-        "ticker": "INO",
-        "price": 2.06,
-        "minute_volume": 249643,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
+        "ticker": "RBNE",
+        "score": 100,
+        "price": 0.13,
+        "minute_volume": 16752,
+        "accel": 7.445333333333333,
+        "pct": 0,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
       },
       {
-        "ticker": "SHFS",
-        "price": 0.059,
-        "minute_volume": 124132,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "SLGB",
-        "price": 0.36,
-        "minute_volume": 100908,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "VREX",
-        "price": 18.43,
-        "minute_volume": 64331,
-        "bar_time": "2026-10-31T05:01:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "BURU",
-        "price": 0.2415,
-        "minute_volume": 63069,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
+        "ticker": "NCPL",
+        "score": 89,
+        "price": 1.57,
+        "minute_volume": 4233,
+        "accel": 3.1216814159292037,
+        "pct": 0.3707965733282137,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
       },
       {
         "ticker": "RCT",
+        "score": 87,
         "price": 0.0391,
-        "minute_volume": 41703,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
+        "minute_volume": 38469,
+        "accel": 2.760008609556608,
+        "pct": 2.6246719160105014,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
+      },
+      {
+        "ticker": "SHFS",
+        "score": 84,
+        "price": 0.059,
+        "minute_volume": 125555,
+        "accel": 4.222181121162189,
+        "pct": -2.64026402640265,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
+      },
+      {
+        "ticker": "SLGB",
+        "score": 76,
+        "price": 0.3473,
+        "minute_volume": 66975,
+        "accel": 1.6794974672751892,
+        "pct": 1.997063142437594,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
       },
       {
         "ticker": "ABOS",
-        "price": 0.2226,
-        "minute_volume": 21493,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
+        "score": 68,
+        "price": 0.221,
+        "minute_volume": 14550,
+        "accel": 1.1594549366483384,
+        "pct": 0.454545454545463,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
       },
       {
-        "ticker": "XXII",
-        "price": 0.0715,
-        "minute_volume": 20017,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
+        "ticker": "INO",
+        "score": 67,
+        "price": 2.04,
+        "minute_volume": 119882,
+        "accel": 1.0816941567113003,
+        "pct": 0.07849293563577664,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
       },
       {
-        "ticker": "SRTM",
-        "price": 0.1998,
-        "minute_volume": 17402,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
+        "ticker": "CLRO",
+        "score": 63,
+        "price": 4.6,
+        "minute_volume": 3592,
+        "accel": 0.9214982042072858,
+        "pct": 1.6686926732235596,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
       },
       {
-        "ticker": "LABT",
-        "price": 0.1748,
-        "minute_volume": 11988,
-        "bar_time": "2026-10-31T08:50:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
+        "ticker": "NUWE",
+        "score": 60,
+        "price": 5.48,
+        "minute_volume": 2069,
+        "accel": 2.579800498753117,
+        "pct": 0.1828153564899626,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
+      },
+      {
+        "ticker": "BURU",
+        "score": 59,
+        "price": 0.2436,
+        "minute_volume": 84986,
+        "accel": 1.3048271203095252,
+        "pct": -1.1363636363636354,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
       }
     ],
     "china": [
       {
-        "ticker": "AURE",
-        "price": 1.0762,
-        "minute_volume": 2950,
-        "bar_time": "2026-10-31T07:10:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "INLF",
-        "price": 0.1808,
-        "minute_volume": 2778,
-        "bar_time": "2026-10-31T08:59:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "CLIK",
-        "price": 0.686,
-        "minute_volume": 2627,
-        "bar_time": "2026-10-31T08:49:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
         "ticker": "WFF",
-        "price": 1.37,
-        "minute_volume": 2444,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "NWGL",
-        "price": 0.0684,
-        "minute_volume": 1139,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "THCH",
-        "price": 1.19,
-        "minute_volume": 1110,
-        "bar_time": "2026-10-31T05:01:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "YMAT",
-        "price": 1.8,
-        "minute_volume": 855,
-        "bar_time": "2026-10-31T09:00:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "CPOP",
-        "price": 3.24,
-        "minute_volume": 585,
-        "bar_time": "2026-10-31T05:01:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "YJ",
-        "price": 1.1973,
-        "minute_volume": 450,
-        "bar_time": "2026-10-31T05:43:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
-      },
-      {
-        "ticker": "PLAG",
-        "price": 0.3304,
-        "minute_volume": 400,
-        "bar_time": "2026-10-31T08:36:00.000+09:00",
-        "score": null,
-        "accel": null,
-        "pct": null
+        "score": 91,
+        "price": 1.36,
+        "minute_volume": 6794,
+        "accel": 3.3750620963735716,
+        "pct": 0.7407407407407307,
+        "bar_time": "2026-10-31T08:59:00.000+09:00"
       }
     ]
   }
