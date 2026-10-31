@@ -42,14 +42,17 @@ def main():
     print("CANDLES_RESPONSE_TYPE",type(data).__name__)
     if isinstance(data,dict):
         print("CANDLES_RESPONSE_KEYS",sorted(data))
-        rows=data.get("data",data.get("candles",data.get("bars",[])))
+        rows=data.get("result",data.get("data",data.get("candles",data.get("bars",[]))))
     else: rows=data
     if isinstance(rows,dict):
         print("CANDLES_DATA_KEYS",sorted(rows))
-        rows=rows.get("items",rows.get("candles",[]))
+        rows=rows.get("candles",rows.get("items",[]))
     print("CANDLE_COUNT",len(rows) if isinstance(rows,list) else "UNKNOWN")
     if isinstance(rows,list) and rows and isinstance(rows[0],dict):
         print("CANDLE_FIELDS",sorted(rows[0]))
+        print("FIRST_CANDLE_TIME",rows[0].get("timestamp"))
+        print("FIRST_CANDLE_CLOSE",rows[0].get("closePrice"))
+        print("FIRST_CANDLE_VOLUME",rows[0].get("volume"))
     print("NO_FILES_WRITTEN")
 if __name__=="__main__":
     main()
