@@ -41,7 +41,7 @@ def main():
     token=request(BASE+"/oauth2/token",payload=payload)["access_token"]
     print("AUTH_OK",flush=True)
     symbols=sorted(set(watch["nas"])|set(watch["china"]))
-    result={"target_kst":TARGET,"source":"Toss historical 1m candles","categories":{"nas":[],"china":[]},"missing":[],"errors":[],"scanned":len(symbols)}
+    result={"target_kst":TARGET,"source":"Toss historical 1m candles","categories":{"nas":[],"china":[]},"missing":[],"missing_detail":[],"errors":[],"scanned":len(symbols)}
     for i,symbol in enumerate(symbols,1):
         try:
             query=parse.urlencode({"symbol":symbol,"interval":"1m","count":100,"before":BEFORE})
@@ -51,13 +51,16 @@ def main():
             now=bytime.get(TARGET); prev=bytime.get("2026-10-31T08:58")
             if now is None or prev is None:
                 result["missing"].append(symbol)
+                result["missing_detail"].append({"ticker":symbol,"reason":"target_bar_missing" if now is None else "previous_bar_missing","available_bars":len(rows),"first_time":rows[0].get("timestamp") if rows else None,"last_time":rows[-1].get("timestamp") if rows else None})
             else:
                 row=score(now,prev)
                 if row:
                     row["ticker"]=symbol
                     for cat in ("nas","china"):
                         if symbol in watch[cat]: result["categories"][cat].append(row.copy())
-                else: result["missing"].append(symbol)
+                else:
+                    result["missing"].append(symbol)
+                    result["missing_detail"].append({"ticker":symbol,"reason":"invalid_numeric_values"})
         except err.HTTPError as e: result["errors"].append({"ticker":symbol,"http":e.code})
         except Exception as e: result["errors"].append({"ticker":symbol,"error":type(e).__name__})
         if i%10==0 or i==len(symbols): print("PROGRESS",i,"/",len(symbols),flush=True)
