@@ -73,6 +73,9 @@ def main():
             print(rank,x["ticker"],"SCORE",x["score"],"USD",x["price_usd"],"VOL",int(x["minute_volume"]))
     OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding="utf-8")
     print("\nSAVED",OUT,"MISSING",len(result["missing"]),"ERRORS",len(result["errors"]))
+    from collections import Counter
+    print("MISSING_REASONS",dict(Counter(x["reason"] for x in result["missing_detail"])))
+    print("HTTP_ERRORS",result["errors"][:20])
     print("Local report only. Live dashboard not modified.")
 if __name__=="__main__":
     try: main()
