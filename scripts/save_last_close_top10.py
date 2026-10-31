@@ -29,7 +29,7 @@ def main():
     # Regular session only. Do not overwrite the close with pre/after-market rows.
     if ny.weekday()>4 or not (dt.time(9,30)<=ny.time()<dt.time(16,0)): return
     if abs((dt.datetime.now(dt.timezone.utc)-stamp).total_seconds())>900: return
-    source=data.get("rows")
+    source=data.get("rows") or (data.get("nasdaq7",[]) + data.get("china1",[]))
     if not isinstance(source,list): return
     prior=json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
     result={"source":"toss_live.json","label":"마지막 본장 관측 기록 (실시간 아님)","updated_utc":data["updated_utc"],"categories":{}}
@@ -38,15 +38,15 @@ def main():
         entries=[]
         for x in source:
             if not isinstance(x,dict) or x.get("ticker") not in symbols: continue
-            bar=parse(x.get("bar_time"))
+            bar=parse(x.get("bar_time") or x.get("candle_time"))
             if not bar or abs((stamp-bar).total_seconds())>900: continue
             try:
                 volume=float(x["minute_volume"])
-                price=float(x["price"])
+                price=float(x.get("price",x.get("price_usd")))
                 if not (math.isfinite(volume) and math.isfinite(price) and volume>=0 and price>0): continue
             except (ValueError,TypeError,KeyError): continue
             # Do not invent acceleration or 100-point score without prior distinct bars.
-            entries.append({"ticker":x["ticker"],"price":price,"minute_volume":volume,"bar_time":x["bar_time"],"score":None,"accel":None,"pct":None})
+            entries.append({"ticker":x["ticker"],"price":price,"minute_volume":volume,"bar_time":x.get("bar_time") or x.get("candle_time"),"score":None,"accel":None,"pct":None})
         entries.sort(key=lambda x:(-x["minute_volume"],x["ticker"]))
         if entries: result["categories"][cat]=entries[:10]
         elif prior.get("categories",{}).get(cat): result["categories"][cat]=prior["categories"][cat]
