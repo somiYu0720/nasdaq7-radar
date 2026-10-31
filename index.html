@@ -1,3 +1,9 @@
+function marketIsRegularSession(){
+ const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
+ const get=t=>parts.find(x=>x.type===t)?.value||'';
+ const m=Number(get('hour'))*60+Number(get('minute'));
+ return !['Sat','Sun'].includes(get('weekday'))&&m>=570&&m<960;
+}
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NASDAQ 7.0 Radar</title>
 <style>
@@ -797,7 +803,8 @@ async function renderRanks(){
   if(validFeed&&rows.length){
    const record={stamp,rows:rows.map(x=>({ticker:x.ticker,price:x.price,minute_volume:x.minute_volume,accel:x.accel,pct:x.pct,score:x.score}))};
    try{localStorage.setItem(snapshotKey,JSON.stringify(record))}catch(e){}
-  }else if(!rows.length){
+  }
+  if(!marketIsRegularSession()){
    // Shared GitHub Pages close snapshot works across devices; local cache is secondary.
    let closeSnapshot=null;
    try{
