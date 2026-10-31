@@ -812,15 +812,15 @@ async function renderRanks(){
     if(closeResponse.ok)closeSnapshot=await closeResponse.json();
    }catch(e){}
    const shared=closeSnapshot?.categories?.[cat];
-   const archived=Array.isArray(shared)&&shared.length?{stamp:closeSnapshot.updated_utc,rows:shared,shared:true}:savedRank;
+   const archived=Array.isArray(shared)&&shared.length?{stamp:closeSnapshot.updated_utc,rows:shared,shared:true,label:closeSnapshot.label}:savedRank;
    if(archived?.rows?.length){
     body.replaceChildren();
     archived.rows.slice(0,10).forEach((x,i)=>{
      const tr=document.createElement('tr');
-     [i+1,x.ticker,({nas:'NASDAQ',china:'중국계'})[cat]||cat,'장마감 보존',Number(x.minute_volume).toLocaleString('ko-KR'),x.accel==null?'기록 없음':Number(x.accel).toFixed(2)+'배',x.pct==null?'기록 없음':Number(x.pct).toFixed(2)+'%',x.score==null?'미산정 (기록 없음)':x.score+' / 100',x.price??'—',rankEventLabel(x.ticker)||'—',secRiskLabel(x.ticker)||'—'].forEach(v=>textCell(tr,String(v)));
+     [i+1,x.ticker,({nas:'NASDAQ',china:'중국계'})[cat]||cat,(archived.label?.includes('장마감 확정 순위 아님')?'마지막 관측':'장마감 보존'),Number(x.minute_volume).toLocaleString('ko-KR'),x.accel==null?'기록 없음':Number(x.accel).toFixed(2)+'배',x.pct==null?'기록 없음':Number(x.pct).toFixed(2)+'%',x.score==null?'미산정 (기록 없음)':x.score+' / 100',x.price??'—',rankEventLabel(x.ticker)||'—',secRiskLabel(x.ticker)||'—'].forEach(v=>textCell(tr,String(v)));
      body.append(tr);
     });
-    $('rankStatus').dataset.closeSnapshot=(archived.shared?'공용':'기기')+' 장마감 기록 · '+archived.stamp+' · 실시간 아님';
+    $('rankStatus').dataset.closeSnapshot=(archived.label||((archived.shared?'공용':'기기')+' 장마감 기록'))+' · '+archived.stamp+' · 실시간 아님';
    }
   }
   if(rows.length<10&&!$('rankStatus').dataset.closeSnapshot){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));textCell(tr,rankEventLabel(ticker));textCell(tr,secRiskLabel(ticker));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인','SEC 미조회','희석 미판정'].forEach(v=>textCell(tr,v));body.append(tr)}}
