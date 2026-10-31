@@ -41,13 +41,14 @@ def main():
     token=request(BASE+"/oauth2/token",payload=payload)["access_token"]
     print("AUTH_OK",flush=True)
     symbols=sorted(set(watch["nas"])|set(watch["china"]))
-    result={"target_kst":TARGET,"source":"Toss historical 1m candles","categories":{"nas":[],"china":[]},"missing":[],"missing_detail":[],"errors":[],"scanned":len(symbols)}
+    result={"target_kst":TARGET,"source":"Toss historical 1m candles","categories":{"nas":[],"china":[]},"missing":[],"missing_detail":[],"raw_candles":{},"errors":[],"scanned":len(symbols)}
     result["coverage"]={"exact_pair":0,"target_missing":0,"previous_missing":0,"http_error":0}
     for i,symbol in enumerate(symbols,1):
         try:
             query=parse.urlencode({"symbol":symbol,"interval":"1m","count":100,"before":BEFORE})
             response=request(BASE+"/api/v1/candles?"+query,token=token)
             rows=response.get("result",{}).get("candles",[])
+            result["raw_candles"][symbol]=[{"timestamp":x.get("timestamp"),"closePrice":x.get("closePrice"),"volume":x.get("volume")} for x in rows if isinstance(x,dict) and str(x.get("timestamp",""))[:10]=="2026-10-31" and str(x.get("timestamp",""))[:16]<="2026-10-31T08:59"][:100]
             bytime={str(x.get("timestamp",""))[:16]:x for x in rows if isinstance(x,dict)}
             now=bytime.get(TARGET); prev=bytime.get("2026-10-31T08:58")
             if now is None or prev is None:
@@ -83,6 +84,7 @@ def main():
     print("COVERAGE",result["coverage"])
     print("NOTE: exact-minute TOP10 only; missing bars are not zero-volume bars")
     print("HTTP_ERRORS",result["errors"][:20])
+    print("RAW_CANDLE_SYMBOLS",len(result["raw_candles"]))
     print("Local report only. Live dashboard not modified.")
 if __name__=="__main__":
     try: main()
