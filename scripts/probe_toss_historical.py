@@ -5,6 +5,7 @@ Credentials must be injected as environment variables, never committed.
 import datetime as dt
 import json
 import os
+import urllib.error
 import urllib.parse
 import urllib.request
 from zoneinfo import ZoneInfo
@@ -22,15 +23,26 @@ def main():
         print("NOT_RUN: GitHub Actions secrets TOSS_CLIENT_ID and TOSS_CLIENT_SECRET are required")
         return
     payload=urllib.parse.urlencode({"grant_type":"client_credentials","client_id":cid,"client_secret":secret}).encode()
-    token=request("/oauth2/token",{"Content-Type":"application/x-www-form-urlencoded"},payload)["access_token"]
+    try:
+        token=request("/oauth2/token",{"Content-Type":"application/x-www-form-urlencoded"},payload)["access_token"]
+    except urllib.error.HTTPError as e:
+        print("AUTH_HTTP_ERROR",e.code)
+        return
+    except Exception as e:
+        print("AUTH_ERROR",type(e).__name__)
+        return
+    print("AUTH_OK")
     symbol=os.environ.get("PROBE_SYMBOL","INO").strip().upper()
     # The 'before' parameter and accepted timestamp format require live API verification.
     params={"symbol":symbol,"interval":"1m","count":"100","before":TARGET.isoformat().replace("+00:00","Z")}
     path="/api/v1/candles?"+urllib.parse.urlencode(params)
     try:
         result=request(path,{"Authorization":"Bearer "+token})
+    except urllib.error.HTTPError as e:
+        print("CANDLES_HTTP_ERROR",e.code)
+        return
     except Exception as e:
-        print("HISTORICAL_QUERY_FAILED",type(e).__name__,getattr(e,"code","unknown"))
+        print("CANDLES_ERROR",type(e).__name__)
         return
     print("HISTORICAL_QUERY_RESPONSE_TYPE",type(result).__name__)
     if isinstance(result,dict):
