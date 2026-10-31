@@ -789,7 +789,15 @@ async function renderRanks(){
   const lag=stamp?Math.round((Date.now()-new Date(stamp).getTime())/60000):null;
   const watchedRows=(Array.isArray(d.rows)?d.rows:[]).filter(x=>symbols.has(x.ticker));const staleCount=watchedRows.filter(x=>x.stale_volume).length;const missingCount=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t)).length;
   const staleDetails=watchedRows.filter(x=>x.stale_volume).map(x=>{const ms=Date.parse(x.bar_time||'');return x.ticker+' '+(Number.isFinite(ms)?Math.max(0,Math.floor((Date.now()-ms)/60000))+'분 전':'봉 시각 미확인')});
-  $('rankStatus').textContent='수집: '+(stamp?new Date(stamp).toLocaleString('ko-KR'):'미확인')+' · 유효 분봉 '+all.length+'/'+symbols.size+' · 오래된 봉 '+staleCount+' · 미수집 '+missingCount+(lag!==null&&lag>10?' · 업로드 지연':'')+' · 실험적 점수 (매수 신호 아님)';
+  // Market status is informational only: never change ranking or treat cached data as live.
+  const nyParts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
+  const nyPart=t=>nyParts.find(p=>p.type===t)?.value||'';
+  const nyMinute=Number(nyPart('hour'))*60+Number(nyPart('minute'));
+  const marketOpen=!['Sat','Sun'].includes(nyPart('weekday'))&&nyMinute>=570&&nyMinute<960;
+  const ageKnown=lag!==null&&Number.isFinite(lag);
+  const state=!stamp?'수집 시각 없음':!marketOpen?'장외 · 마지막 수집 기록':ageKnown&&lag>10?'장중 · 수집 지연':'장중 · 최근 수집';
+  const sourceState=d.status==='partial'?' · 일부 수집 실패':'';
+  $('rankStatus').textContent=state+' · 마지막 업로드: '+(stamp&&Number.isFinite(Date.parse(stamp))?new Date(stamp).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'미확인')+' · 유효 분봉 '+all.length+'/'+symbols.size+' · 오래된 봉 '+staleCount+' · 미수집 '+missingCount+sourceState+' · 과거 기록은 실시간 신호 아님';
   $('rankStatus').title='오래된 분봉(실시간 순위 제외): '+(staleDetails.length?staleDetails.join(', '):'없음')+' · 봉이 없는 이유는 거래 부재 또는 데이터 공급 지연일 수 있으며 미확인';
   const missingSymbols=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t));
   $('staleDetailsBody').textContent='오래된 분봉 ('+staleDetails.length+'종목):\n'+(staleDetails.join(' · ')||'없음')+'\n\n미수집 ('+missingSymbols.length+'종목):\n'+(missingSymbols.join(', ')||'없음')+'\n\n원인: 거래 부재 또는 데이터 제공 지연 가능성 · 미확인';
