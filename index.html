@@ -797,7 +797,26 @@ async function renderRanks(){
   if(validFeed&&rows.length){
    const record={stamp,rows:rows.map(x=>({ticker:x.ticker,price:x.price,minute_volume:x.minute_volume,accel:x.accel,pct:x.pct,score:x.score}))};
    try{localStorage.setItem(snapshotKey,JSON.stringify(record))}catch(e){}
-  }else if(savedRank?.rows?.length&&!rows.length){
+  }else if(!rows.length){
+   // Shared GitHub Pages close snapshot works across devices; local cache is secondary.
+   let closeSnapshot=null;
+   try{
+    const closeResponse=await fetch('./last_close_top10.json?t='+Date.now(),{cache:'no-store'});
+    if(closeResponse.ok)closeSnapshot=await closeResponse.json();
+   }catch(e){}
+   const shared=closeSnapshot?.categories?.[cat];
+   const archived=Array.isArray(shared)&&shared.length?{stamp:closeSnapshot.updated_utc,rows:shared,shared:true}:savedRank;
+   if(archived?.rows?.length){
+    body.replaceChildren();
+    archived.rows.slice(0,10).forEach((x,i)=>{
+     const tr=document.createElement('tr');
+     [i+1,x.ticker,({nas:'NASDAQ',china:'중국계'})[cat]||cat,'장마감 보존',Number(x.minute_volume).toLocaleString('ko-KR'),x.accel==null?'기록 없음':Number(x.accel).toFixed(2)+'배',x.pct==null?'기록 없음':Number(x.pct).toFixed(2)+'%',x.score==null?'미산정 (기록 없음)':x.score+' / 100',x.price??'—',rankEventLabel(x.ticker)||'—',secRiskLabel(x.ticker)||'—'].forEach(v=>textCell(tr,String(v)));
+     body.append(tr);
+    });
+    $('rankStatus').dataset.closeSnapshot=(archived.shared?'공용':'기기')+' 장마감 기록 · '+archived.stamp+' · 실시간 아님';
+   }
+  }
+  if(false){
    body.replaceChildren();
    savedRank.rows.slice(0,10).forEach((x,i)=>{
     const tr=document.createElement('tr');
@@ -819,7 +838,7 @@ async function renderRanks(){
   const state=!stamp?'수집 시각 없음':!marketOpen?'장외 · 마지막 수집 기록':ageKnown&&lag>10?'장중 · 수집 지연':'장중 · 최근 수집';
   const sourceState=d.status==='partial'?' · 일부 수집 실패':'';
   $('rankStatus').textContent=state+' · 마지막 업로드: '+(stamp&&Number.isFinite(Date.parse(stamp))?new Date(stamp).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'미확인')+' · 유효 분봉 '+all.length+'/'+symbols.size+' · 오래된 봉 '+staleCount+' · 미수집 '+missingCount+sourceState+' · 과거 기록은 실시간 신호 아님';
-  if(!validFeed&&savedRank?.rows?.length&&!rows.length)$('rankStatus').textContent='장마감 보존 기록 · 마지막 유효 수집: '+savedRank.stamp+' · 이 기기 저장본 · 실시간 아님';
+  if(!validFeed&&!rows.length&&$('rankStatus').dataset.closeSnapshot)$('rankStatus').textContent=$('rankStatus').dataset.closeSnapshot;
   $('rankStatus').title='오래된 분봉(실시간 순위 제외): '+(staleDetails.length?staleDetails.join(', '):'없음')+' · 봉이 없는 이유는 거래 부재 또는 데이터 공급 지연일 수 있으며 미확인';
   const missingSymbols=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t));
   $('staleDetailsBody').textContent='오래된 분봉 ('+staleDetails.length+'종목):\n'+(staleDetails.join(' · ')||'없음')+'\n\n미수집 ('+missingSymbols.length+'종목):\n'+(missingSymbols.join(', ')||'없음')+'\n\n원인: 거래 부재 또는 데이터 제공 지연 가능성 · 미확인';
