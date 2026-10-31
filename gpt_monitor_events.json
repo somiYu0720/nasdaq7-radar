@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T23:32:57Z",
+  "updated_utc": "2026-10-31T01:00:52Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -4985,6 +4985,28 @@
       "summary": "[SEC 2026-10-30 06:06 EDT 접수 6-K, Exhibit 99.1 확인] GigaMedia(GIGM) 2026Q3 미감사 매출 $3.164m(전년 +245.4%, 전분기 +48.8%), 영업이익 $0.682m(전년 -$0.998m, 전분기 -$0.103m에서 흑자전환), 순이익 $1.925m(전년 -$0.971m). 그러나 순이익에는 Aeolus Robotics 채권의 이전 분기 전환에 따른 비현금성 간주 처분이익 $1.702m 및 지분법 투자손실 $0.713m 반영; 홍콩 라이선스 게임 IP 협업 종료로 회사는 다음 분기 매출 둔화 전망. 1차 확정 실적 뉴스 신호만 독립 포착; 거래량 2/3/5/10/30/50배 가속·연속 분봉·현재 가격·저점 방어·급등 전/급등 진행/급락 후 반등/재점화 분류는 미확인. 2차 SEC 6-K 실적 사실은 VERIFIED이나 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장 상태, 잠재 희석 및 실제 즉시 매도 가능한 공급량 미확인, A/B/C/D 최종 판정 보류. 공급/상장 위험으로 1차 순위 감점·삭제·재정렬 없음. 매수 신호 아님.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1105101/000119312526439805/gigm-ex99.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-SLGB-AFTERHOURS_REBOUND_AFTER_DROP-20261030T235956Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "SLGB",
+      "category": "1차_급락후반등관찰_시간외후속가격회복_PROVISIONAL",
+      "detected_utc": "2026-10-31T01:00:52Z",
+      "summary": "[2026-10-31 10:00 KST 점검, GitHub Toss 비연속 수집 표본] SLGB 10/31 08:35:33 KST $0.3147(표시 1분 거래량 17,677주) → 08:59:56 KST $0.3600(표시 1분 거래량 100,908주), 두 표본 사이 +14.43% 반등. 07:28:43 KST $0.4040 고점 표본 대비 여전히 -10.89%. 기존 08:31 KST 시간외 급락(-20.22%) 기록과 구별되는 08:59 후속 반등 관측. 표본 간 연속 분봉 및 실제 저점 형성·지속 방어, 공식 5분 RVOL 2/3/5/10/30/50배 가속, 최신 체결 가능가 미확인. 1차 급락 후 반등 관찰, 확정 재점화 아님. 2차 최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환 및 실제 즉시 매도 가능한 공급 미확인, A/B/C/D 보류; 기존 나스닥 최저호가 시정기간 연장 기록은 별개. 공급/상장 위험은 1차 감점·배제·재정렬 없음. PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CLRO-AFTERHOURS_SPIKE_PULLBACK-20261030T235958Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CLRO",
+      "category": "1차_급등후급락_재점화실패관찰_PROVISIONAL",
+      "detected_utc": "2026-10-31T01:00:52Z",
+      "summary": "[2026-10-31 10:00 KST 점검, GitHub Toss 비연속 수집 표본] CLRO 10/31 05:55:09 KST $3.84 → 06:24:08 KST $5.64(+46.88%) → 08:59:58 KST $4.60(06:24 표본 대비 -18.44%, 05:55 대비 +19.79%). 마지막 표본 표시 1분 거래량 6,470주. 외부 Investing.com 10/30 17:00 EDT 시간외 $4.599와 비슷한 수준이지만 관측 시점이 달라 동일 체결가 검증 아님. 기존 10/28 5분 RVOL 5.29배 기록과 별도 시간외 가격 이상 신호. 1차 급등 진행 후 되밀림/재점화 실패 관찰(실제 반등 실패 확정 아님), 연속 5~15분 가속·저점 방어·현재 체결 가능가 미확인. 2차 기존 Cortigent M&A 계약은 과거 기록; 최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·즉시 매도 가능한 공급 미확인, A/B/C/D 보류. 위험으로 1차 감점·배제·재정렬 없음. PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
