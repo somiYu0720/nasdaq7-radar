@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-31T01:00:52Z",
+  "updated_utc": "2026-10-31T01:31:51Z",
   "events": [
     {
       "id": "cn1-LHSW-sales-contract-20261019T160700Z",
@@ -5006,6 +5006,28 @@
       "detected_utc": "2026-10-31T01:00:52Z",
       "summary": "[2026-10-31 10:00 KST 점검, GitHub Toss 비연속 수집 표본] CLRO 10/31 05:55:09 KST $3.84 → 06:24:08 KST $5.64(+46.88%) → 08:59:58 KST $4.60(06:24 표본 대비 -18.44%, 05:55 대비 +19.79%). 마지막 표본 표시 1분 거래량 6,470주. 외부 Investing.com 10/30 17:00 EDT 시간외 $4.599와 비슷한 수준이지만 관측 시점이 달라 동일 체결가 검증 아님. 기존 10/28 5분 RVOL 5.29배 기록과 별도 시간외 가격 이상 신호. 1차 급등 진행 후 되밀림/재점화 실패 관찰(실제 반등 실패 확정 아님), 연속 5~15분 가속·저점 방어·현재 체결 가능가 미확인. 2차 기존 Cortigent M&A 계약은 과거 기록; 최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·즉시 매도 가능한 공급 미확인, A/B/C/D 보류. 위험으로 1차 감점·배제·재정렬 없음. PROVISIONAL, 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CCXI-MA_EXPECTED_465M_FINANCING_CLOSING_SCHEDULE-20261030T112700Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CCXI",
+      "category": "1차_MA_예상자금조달규모_주주총회및상장일정_SEC8K_VERIFIED",
+      "detected_utc": "2026-10-31T01:31:51Z",
+      "summary": "[2026-10-30 07:27 EDT SEC 8-K 접수 및 07:00 EDT 공동 회사발표] Churchill Capital Corp XI(CCXI)-Agility Robotics 기존 6/24 합병계약의 신규 후속 이벤트. 주주 환매 신청기한 종료 후 예상 총 조달액 약 $465m(거래비용 전): SPAC 신탁 약 $164m, Foxconn 주도 $10/주 보통주 PIPE 약 $201m, 기존 수령 자기자본 자금 $100m. 11/02 09:00 EST 주주총회 승인 투표, 조건 충족 시 11/04 거래 종결 예정, 11/05 Nasdaq AGLT 신규 거래 예정; 아직 합병·PIPE 종결 및 신규 티커 거래 개시 확정 아님. 기존 Agility 주주 지분은 종결 시 180일 락업 예정. 1차 강한 확정 공시 이벤트(일정 및 조달 규모 예상 내용 자체가 확인됨), 가격·거래량 2/3/5/10/30/50배 RVOL·저점 방어·급등 전/진행/반등/재점화 단계 미확인. 2차 공급 별도: PIPE 약 $201m은 종결 대기형 B 요소, 기존 주주 180일 락업은 A 요소, 기존 CCXIW 워런트는 D 요소 가능하나 행사·등록·즉시 매도 가능 수량 확인 전 최종 A/B/C/D 판정 보류. 최신 실제 float/O/S, ATM/ELOC/Resale/기타 PIPE·워런트 전환·상장위험 및 즉시 자유매도 가능 공급량 미확인. 1차 포착 순위에는 공급·희석·상장 위험 감점/배제/재정렬 없음. SEC 8-K 발표 및 일정 VERIFIED, 실제 합병 완료/현금 수령은 미확정. 매수 신호 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026114063/ea0310303-8k425_church11.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BMM-ROPA_33_PROJECT_ACQUISITION_TERMINATED-20261030T210000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "BMM",
+      "category": "1차_MA_기존인수추진종료_발행사발표_PROVISIONAL",
+      "detected_utc": "2026-10-31T01:31:51Z",
+      "summary": "[2026-10-30 17:00 EDT 회사 PRNewswire 발표] Blue Moon Metals(BMM)는 기존 2026-08-10 의향서에 따른 미국 서부 텅스텐·안티몬 33개 프로젝트 인수 추진을 매도인과 상호 합의로 종료했다고 발표. 기존 진행 중 M&A의 종료 후속 이벤트이며 신규 인수 완료가 아님. 별도로 브리티시컬럼비아에서 온타리오로의 법인 계속등록(continuance)은 10/23 효력 발생으로 완료됐다고 회사가 발표. 1차 M&A 일정/뉴스 신호만 독립 포착; 가격·거래량 2/3/5/10/30/50배 가속·저점방어·급등 전/진행/반등/재점화 분류 미확인. 2차 SEC 원문 교차검증 미완료, 최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장유지·잠재 희석·실제 즉시 매도 가능 공급 및 A/B/C/D 최종 판정 미확인. 위험 요인은 1차 감점/삭제/재정렬 없음. 발행사 보도만 확인하여 PROVISIONAL, 매수 신호 아님.",
+      "source_url": "https://www.prnewswire.com/news-releases/blue-moon-metals-announces-termination-of-ropa-acquisition-and-completion-of-continuance-to-ontario-302925202.html",
       "verification": "PROVISIONAL"
     }
   ]
