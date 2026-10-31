@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-31T11:14:25.485960+00:00",
+  "updated_utc": "2026-10-31T11:52:34.544876+00:00",
   "source": "toss_live.json snapshots; noncontinuous",
   "records": {
     "cn1-LHSW-sales-contract-20261019T160700Z": {
@@ -4309,6 +4309,15 @@
       "ticker": "ELPW",
       "radar": "china1",
       "detected_utc": "2026-10-31T11:00:07Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-PCRX-VTRS_CASH_TENDER_OFFER_COMMENCED-20261030T124000Z": {
+      "ticker": "PCRX",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-10-31T11:50:06Z",
       "entry_price_usd": null,
       "entry_time_utc": null,
       "status": "NO_ENTRY_PRICE",
