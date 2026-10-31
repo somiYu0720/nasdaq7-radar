@@ -1,0 +1,19 @@
+name: Probe Toss historical minute candles
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify historical candle query (no ranking writes)
+        env:
+          TOSS_CLIENT_ID: ${{ secrets.TOSS_CLIENT_ID }}
+          TOSS_CLIENT_SECRET: ${{ secrets.TOSS_CLIENT_SECRET }}
+          PROBE_SYMBOL: INO
+        run: python scripts/probe_toss_historical.py
