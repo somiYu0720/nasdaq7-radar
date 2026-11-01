@@ -1,0 +1,28 @@
+{
+  "archived_utc": "2026-11-01T23:14:15Z",
+  "reason": "500-record active cap; preserve two oldest before new SEC-verified AXTI and EXEL events",
+  "events": [
+    {
+      "id": "cn1-close-MKDW-daily-close-signal-20261026T200000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "MKDW",
+      "category": "거래량 50배 이상·재점화·장마감 확정",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "summary": "10/26 종가 $0.4175(+20.53%), 거래량 15,666,927주, 직전 5거래일 평균 142,086주 대비 110.26배. 직전 연속 하락 뒤 거래량 폭증, 급등 진행/재점화 관찰. 최신 SEC 공급 구조·분봉·저점방어 미확인. 위험은 1차 순위에 미반영.",
+      "source_url": "https://stockanalysis.com/stocks/mkdw/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-close-CENN-daily-close-signal-20261026T200000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "CENN",
+      "category": "거래량 30배 이상·재점화·장마감 확정",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "summary": "10/26 종가 $2.64(+12.82%), 거래량 931,982주, 직전 5거래일 평균 22,936주 대비 40.63배. 급등 진행/재점화 관찰, 당일 상승 원인·최신 SEC 공급 구조·분봉·저점방어 미확인. 위험은 1차 순위에 미반영.",
+      "source_url": "https://stockanalysis.com/stocks/cenn/history/",
+      "verification": "PROVISIONAL"
+    }
+  ]
+}
