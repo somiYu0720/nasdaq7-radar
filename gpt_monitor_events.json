@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-01T17:02:04Z",
+  "updated_utc": "2026-11-01T17:33:44Z",
   "events": [
-    {
-      "id": "cn1-close10-CANG-price-volume-crash-20261026T195100Z",
-      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
-      "radar": "중국계 1.0",
-      "ticker": "CANG",
-      "category": "홍콩 소재 기업·급락·상대거래량 2배·반등 관찰",
-      "detected_utc": "2026-10-26T20:18:36Z",
-      "summary": "10/26 일별 시세 $1.28(-29.67%), 거래량 4,471,125주. StockTitan 15:51 EDT 15분 지연 모멘텀 보드 약 -29%, 20거래일 동일시각 상대거래량 약 2.4배. 회사 2025 20-F 상 홍콩 소재(중국 본토 사업은 2025년 매각), 중국계 1.0 별도 편성. SEC 최신 ATM/전환/Resale/PIPE·실제 즉시 매도 가능 공급·float/O/S·분봉 저점방어 미확인. 1차 위험감점 없음.",
-      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "cn1-MKDW-volume-reignite-20261026T195100Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0(대만 본사·중국 본토 사업)",
-      "ticker": "MKDW",
-      "category": "거래량 50배 이상·장기급락 후 재점화 관찰",
-      "detected_utc": "2026-10-26T20:22:58Z",
-      "summary": "10/26 15:51 EDT 15분 지연 모멘텀 보드: MKDW 약 +13%, 누적 약 1,530만주(프리·정규장 합산), 10/23 일별 거래량 251,522주 대비 약 60.8배. 최근 연속 급락 뒤 대량거래 반응, 당일 고점 유지·저점 방어·최종 종가·분봉·뉴스 원인 미확인. 2차 9/11 SEC 6-K 최대 $100m ATM 및 F-3 활용 확인, 실제 매도·최신 float/O/S 미확인. 공급 위험은 1차 순위에 미반영.",
-      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "cn1-CENN-volume-reignite-20261026T195100Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5502,6 +5480,28 @@
       "summary": "[2026-11-02 KST 지연 발굴; 원 회사 보도 2026-10-28 07:30 EDT, 조기 거래량 포착 아님] SIGA Technologies(SIGA)는 캐나다 공공서비스·조달청(PSPC)이 캐나다 국방부용 경구 TPOXX 구매 계약을 수여했다고 발표. 2031-03-31까지 최대 약 $15m 중 첫 3년 확정 구매약정 약 $9m, 나머지 약 $6m는 캐나다 국방부 옵션 행사 조건부. 최대액 $15m 전부를 확정 수주·즉시 매출로 오인 금지; 납품·현금 수령 미확인. 1차 확정 정부조달 뉴스 신호 중간(옵션 부분 별도), 최신 가격·5~15분 분봉·거래량 2/3/5/10/30/50배 가속·저점방어·급락·재점화 미확인, 4대 가격 단계 미분류, 기존 TOP10 변경 없음. [2차 SEC 독립] 2026-08-06 10-Q: 2026-07-24 O/S 71,849,716주(현재 최신 아님), 2026-06-30 현금 $117.584m. A형 최신 락업 미확인, B형 ATM/ELOC/Resale/PIPE 등 대기 공급 미확인, C형 실제 즉시 자유매도 가능 신규 공급 미확인, D형 옵션·주식결제 RSU 등 잠재 희석은 존재하나 최신 잔량/행사 조건 미확인. 최신 float·상장위험/전환·워런트 확인 필요. 2차 위험은 1차 감점·삭제·재정렬에 반영하지 않음. 매수 적합성/손익비 별도. 10/28 계약 발표는 발행사 배포 원문 확인, 해당 계약 SEC 8-K 직접 대조 미완료로 PROVISIONAL.",
       "source_url": "https://www.globenewswire.com/news-release/2026/10/28/3390052/9738/en/siga-secures-contract-valued-at-up-to-15-million-from-canadian-department-of-national-defence-to-purchase-tpoxx.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-LICN-PRICE_CRASH_DAILY_VOLUME_ACCEL-20261030T200000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "LICN",
+      "category": "1차_급락대량거래_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-11-01T17:33:44Z",
+      "summary": "[2026-11-02 KST 사후 발굴, 2026-10-30 미국 정규장 데이터] LICN 10/30 종가 $0.5688(-24.16%), 거래량 81,718주, 10/29 30,998주 대비 약 2.64배(전일 대비 거래량 비율이며 5분 RVOL 아님). 10/30 시간외 최종 관측 $0.6055(+6.45%, 19:45 EDT), 10/29 종가 $0.75 대비 여전히 하락. 급락+대량거래형 LABT 유사 패턴을 1차 독립 관찰 후보로 등록. 급등 전 신호 확정/5~15분 연속 가속/저점 방어/실시간 시세는 미확인. 2차 공급·상장 위험을 1차 감점에 사용하지 않음. 과거 일봉 지연 발굴이며 조기포착 성과 아님.",
+      "source_url": "https://stockanalysis.com/stocks/licn/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-LICN-EGM_REVERSE_SPLIT_100TO1-20261023T220300Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "LICN",
+      "category": "1차_사전주총일정_SEC검증_2차상장위험별도_VERIFIED",
+      "detected_utc": "2026-11-01T17:33:44Z",
+      "summary": "[2026-11-02 KST 지연 신규 발굴; SEC 2026-10-23 제출 기존 공시] Lichen International(LICN)은 2026-11-09 09:00 EST(베이징 22:00) 임시주총에서 Class A/B 100대1 주식병합을 표결 예정. 승인 시 2026-11-19 효력 예정이며 확정 병합이 아님. 회사는 2025-03-03 200대1 병합 이력과 Nasdaq 최저호가 요건 관련 상장폐지 위험을 공시. 주총 예정·병합안은 SEC EX-99.1 원문 검증 VERIFIED; 표결 결과·병합 실시·실제 즉시 공급량은 미확인. 2차 상장 위험은 1차 급락/거래량 신호 순위에 반영하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876766/000118518526004980/licnex99-1.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
