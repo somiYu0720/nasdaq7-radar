@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-01T20:31:13.081Z",
+  "updated_utc": "2026-11-01T21:15:18Z",
   "events": [
-    {
-      "id": "nasdaq7-close-XXII-daily-close-signal-20261026T200000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "NASDAQ 7.0",
-      "ticker": "XXII",
-      "category": "급락·대량거래 LABT형·장마감 확정",
-      "detected_utc": "2026-10-26T20:31:59Z",
-      "summary": "10/26 종가 $0.0884(-55.29%), 거래량 34,751,846주, 직전 5거래일 평균 약 67,100,186주 대비 약 0.52배(상대거래량 가속 아님). 10/23 SEC 8-K에서 10월 ATM 15,785,757주 매각·총 $4.7m, 10/23 O/S 19,202,198주 확인; 잔여 즉시 공급 미확인, C형 잠정. 1차 포착은 위험 미반영.",
-      "source_url": "https://stockanalysis.com/stocks/xxii/history/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-close-SHFS-daily-close-signal-20261026T200000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "NASDAQ 7.0",
-      "ticker": "SHFS",
-      "category": "연속 급락·대량거래 LABT형·장마감 확정",
-      "detected_utc": "2026-10-26T20:31:59Z",
-      "summary": "10/26 종가 $0.0936(-29.31%), 거래량 95,643,260주. 10/26 SEC 8-K: Opifex 비구속 사업결합 조건서(확정 합병 아님), 7/1~10/23 우선주 전환으로 보통주 23,914,988주 발행. 최신 즉시 매도 가능 공급 미확인, D형 잠정; 분봉 저점방어 미확인. 1차 순위 위험 미반영.",
-      "source_url": "https://stockanalysis.com/stocks/shfs/history/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "cn1-close-MKDW-daily-close-signal-20261026T200000Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5502,6 +5480,28 @@
       "summary": "[2026-11-02 KST 지연 신규 발굴; SEC 2026-10-26 17:20 EDT 6-K/A, 실시간 조기포착 아님] Sangrix(SGRX)의 2026-10-23 6-K 주식병합 제안 비율 10대1이 2026-10-26 정정 6-K/A에서 8대1로 변경됨. 2026-11-03 08:00 EST(한국시간 22:00) 임시주총에서 표결 예정, 승인 시 2026-11-13 효력 예정(승인·실행 미확인). 2026-10-22 SEC 명시 Class A O/S 3,545,018주, Class B 96,043주(현재 O/S 아님); Float 미확인. [1차 독립] 공시정정/확정 주총일정 신호로 이벤트 관찰; 거래량 2/3/5/10/30/50배·5~15분 연속 가속·저점방어·최신 시세 미확인, 가격 단계 및 TOP10 순위 변경 없음. [2차 SEC 독립] A 제한 공급 잔량 미확인, B ATM/ELOC/PIPE/Resale 대기물량 미확인, C 실제 즉시 자유매도 가능 공급 미확인. D 잠재: 6-K/A 당시 담보 전환사채 4건 원금 약 $8.44m, 행사가 $1.63 워런트 192,154주, 프리펀디드 워런트 기초 1,291,573주(8대1 시행 시 약 161,447주로 조정 예상). 병합이 시행될 경우 전환사채·워런트 가격은 시행 후 16번째 거래일 기준 시장가격 리셋 가능성; 발행·행사·즉시 매도 완료를 뜻하지 않음. 2026-10-30 별도 6-K 기전환 2,153,257주는 D 잠재 공급에 중복 합산 금지. 상장 위험은 2차 별도, 1차 감점·삭제·재정렬 금지. 손익비·매수 적합성 별도.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1735556/000110465926118863/tm2628231d1_ex99-1.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-HTFL-P4_NONINFERIORITY_TCT2026_RESULTS-20261101T134500EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "HTFL",
+      "category": "1차_신규임상연구결과_P4_TCT2026_비열등성충족_가격단계미확인",
+      "detected_utc": "2026-11-01T21:15:18Z",
+      "summary": "[2026-11-02 KST 신규 발굴, 원발표 2026-11-01 13:45 EST(미국 동부 표준시), 조기 거래량 포착 아님] Heartflow(HTFL) 공식 배포: 1,105명 P4 무작위시험에서 CT 유도 PCI 계획이 IVUS 유도와 12개월 표적혈관실패율 4.1% 대 4.6%로 비열등성 1차 평가변수 충족, 시술시간 중앙값 46분 대 63분(17분 단축). 별도 NAVIGATE-PCI 203명 등록연구에서 PCI Navigator 검토 후 치료계획 약 70% 변경. 이는 FDA 신규 허가/임상 3상 약물 승인/신규 매출 확정이 아님. 1차 강한 의료기술 임상 근거 이벤트 뉴스, 발표 이후 가격 반응·5~15분 분봉·거래량 2/3/5/10/30/50배 가속·저점방어·급락/재점화 미확인, 급등전/진행/급락후반등/재점화 가격단계 미확정, 기존 TOP10 변경 없음. [2차 SEC 독립] 2026-08-13 제출 6/30 10-Q에서 현금·현금성·매도가능증권 합계 $246.8m, 2026-07-31 O/S 약 86.95m주(과거 기준), 최신 float/O/S 미확인. A 제한형 최신 락업 미확인; B 대기형 ATM/ELOC/PIPE 신규 대기공급 미확인; C 즉시형 실제 자유매도 가능 신규 물량 미확인; D 잠재형 옵션/RSU/워런트/전환 최신 잔여 미확인. 2차 위험은 1차 감점/삭제/재정렬 금지. 임상 발표는 회사 배포자료 확인, 해당 신규 결과의 SEC 8-K 별도 대조 미완료로 PROVISIONAL. 손익비·매수 적합성 별도.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/01/3392793/0/en/tct-2026-ct-guided-pci-matches-ivus-outcomes-in-randomized-p4-trial-heartflow-pci-navigator-changes-pci-plans-in-approximately-70-of-patients.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-AVR-EMBARK_MEDIUM_DURAVR_30DAY_RESULTS-20261101T145900EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "AVR",
+      "category": "1차_기존임상발표일정후속_실제30일임상결과_가격단계미확인",
+      "detected_utc": "2026-11-01T21:15:18Z",
+      "summary": "[2026-11-02 KST 신규 결과 발굴; 기존 10/27 AVR 학회 발표 일정은 이미 등록, 이번은 2026-11-01 14:59 EST 새 30일 데이터] Anteris(AVR) 공식 발표: EMBARK 연구 중형 DurAVR THV 시술 환자 22명, 30일 평균 압력구배 6.17±1.40 mmHg(기저 45.5±11.7), 유효판구면적 2.64±0.19 cm2(기저 0.8±0.2), 판막 관련 사망 및 중등도/중증 판막주위 누출 0건, 중등도/중증 환자-인공판막 불일치 0건. 소규모 22명·단기 결과로 대규모 확증 임상 성공/FDA 승인/상용화 확정 아님. 1차 중간~강함 임상 결과 이벤트 신호, 최신 가격·거래량 2/3/5/10/30/50배·5~15분 저점방어/급락/재점화 미확인, 가격 단계 미분류, 기존 1차 순위 변경 없음. [2차 SEC 독립] 2026-08-11 제출 6/30 10-Q 기준 현금·제한현금 합계 약 $260.9m, 8/10 O/S 약 97.5m주(과거 기준); 2026-01 공모 4천만주 이미 발행, Medtronic 전략 PIPE 및 ATM 한도 최대 $250m 구조 존재. A 제한형 최신 락업 미확인; B 대기형 ATM 실제 잔여/현재 가동 미확인; C 즉시형 재판매 등록/실제 즉시 매도 가능 물량 미확인; D 잠재형 옵션/RSU/워런트/전환 최신 잔여 미확인. 2차 공급 위험은 1차 감점·삭제·재정렬 금지, 손익비 별도. 공식 임상 보도 확인, 신규 결과 SEC 8-K 직접 대조 미완료로 PROVISIONAL.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/01/3392800/0/en/anteris-reports-medium-size-duravr-thv-outcomes-from-the-embark-study-at-tct-2026.html",
+      "verification": "PROVISIONAL"
     }
   ]
 }
