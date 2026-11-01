@@ -1,0 +1,18 @@
+{
+  "archived_utc": "2026-11-01T12:53:02.257Z",
+  "source_path": "gpt_monitor_events.json",
+  "reason": "500-event limit, preserve oldest before appending PERI",
+  "events": [
+    {
+      "id": "nasdaq7-close10-CPIX-phase2a-webcast-20261023T200500Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "NASDAQ 7.0",
+      "ticker": "CPIX",
+      "category": "급락·과매도 관찰·임상 2a·예고된 16:30 ET 설명회",
+      "detected_utc": "2026-10-26T20:18:36Z",
+      "summary": "10/26 일별 시세 $4.35(-48.76%), 거래량 343,475주; 15:51 EDT 15분 지연 StockTitan 모멘텀 보드 약 -47%, 상대거래량 12배. 10/23 16:05 EDT 기업 발표/17:01 SEC 8-K: ASSIST-SSc 2a 결과는 안전성·내약성 중심, 효능 결론 불가. 10/26 16:30 EDT(10/27 05:30 KST) 별도 DMD 프로그램 업데이트 예정, 발표 결과는 아직 미확인. 5~15분 저점 방어 미확인, 반등 확정 아님. SEC 확인은 임상공시에 한하며 최신 ATM/ELOC/Resale/워런트/전환/float/O/S·실제 즉시 공급은 미확인. 위험을 1차 순위에 미반영.",
+      "source_url": "https://www.stocktitan.net/sec-filings/CPIX/8-k-cumberland-pharmaceuticals-inc-reports-material-event-6c6dca07787f.html",
+      "verification": "VERIFIED"
+    }
+  ]
+}
