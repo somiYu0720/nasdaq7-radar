@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-01T21:15:18Z",
+  "updated_utc": "2026-11-01T23:14:15Z",
   "events": [
-    {
-      "id": "cn1-close-MKDW-daily-close-signal-20261026T200000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "MKDW",
-      "category": "거래량 50배 이상·재점화·장마감 확정",
-      "detected_utc": "2026-10-26T20:31:59Z",
-      "summary": "10/26 종가 $0.4175(+20.53%), 거래량 15,666,927주, 직전 5거래일 평균 142,086주 대비 110.26배. 직전 연속 하락 뒤 거래량 폭증, 급등 진행/재점화 관찰. 최신 SEC 공급 구조·분봉·저점방어 미확인. 위험은 1차 순위에 미반영.",
-      "source_url": "https://stockanalysis.com/stocks/mkdw/history/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "cn1-close-CENN-daily-close-signal-20261026T200000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "CENN",
-      "category": "거래량 30배 이상·재점화·장마감 확정",
-      "detected_utc": "2026-10-26T20:31:59Z",
-      "summary": "10/26 종가 $2.64(+12.82%), 거래량 931,982주, 직전 5거래일 평균 22,936주 대비 40.63배. 급등 진행/재점화 관찰, 당일 상승 원인·최신 SEC 공급 구조·분봉·저점방어 미확인. 위험은 1차 순위에 미반영.",
-      "source_url": "https://stockanalysis.com/stocks/cenn/history/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "cn1-close-GCDT-daily-close-signal-20261026T200000Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5502,6 +5480,28 @@
       "summary": "[2026-11-02 KST 신규 결과 발굴; 기존 10/27 AVR 학회 발표 일정은 이미 등록, 이번은 2026-11-01 14:59 EST 새 30일 데이터] Anteris(AVR) 공식 발표: EMBARK 연구 중형 DurAVR THV 시술 환자 22명, 30일 평균 압력구배 6.17±1.40 mmHg(기저 45.5±11.7), 유효판구면적 2.64±0.19 cm2(기저 0.8±0.2), 판막 관련 사망 및 중등도/중증 판막주위 누출 0건, 중등도/중증 환자-인공판막 불일치 0건. 소규모 22명·단기 결과로 대규모 확증 임상 성공/FDA 승인/상용화 확정 아님. 1차 중간~강함 임상 결과 이벤트 신호, 최신 가격·거래량 2/3/5/10/30/50배·5~15분 저점방어/급락/재점화 미확인, 가격 단계 미분류, 기존 1차 순위 변경 없음. [2차 SEC 독립] 2026-08-11 제출 6/30 10-Q 기준 현금·제한현금 합계 약 $260.9m, 8/10 O/S 약 97.5m주(과거 기준); 2026-01 공모 4천만주 이미 발행, Medtronic 전략 PIPE 및 ATM 한도 최대 $250m 구조 존재. A 제한형 최신 락업 미확인; B 대기형 ATM 실제 잔여/현재 가동 미확인; C 즉시형 재판매 등록/실제 즉시 매도 가능 물량 미확인; D 잠재형 옵션/RSU/워런트/전환 최신 잔여 미확인. 2차 공급 위험은 1차 감점·삭제·재정렬 금지, 손익비 별도. 공식 임상 보도 확인, 신규 결과 SEC 8-K 직접 대조 미완료로 PROVISIONAL.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/01/3392800/0/en/anteris-reports-medium-size-duravr-thv-outcomes-from-the-embark-study-at-tct-2026.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-AXTI-Q3_2026_EARNINGS_RESULT-20261029T201600Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "AXTI",
+      "category": "실적 급증·반도체 수요",
+      "detected_utc": "2026-11-01T23:14:15Z",
+      "summary": "[2026-11-02 KST 지연 신규 발굴; 원공시 2026-10-29 16:16 EDT SEC 8-K EX-99.1, 조기 거래량 포착 아님] AXT(AXTI) 2026년 3분기 매출 $73.4m(전분기 $47.6m 대비 +54%, 전년 $28.0m 대비 +162%), GAAP 매출총이익률 56.0%(전년 22.3%), 모회사 귀속 순이익 $25.7m(전년 -$1.9m), 희석 EPS $0.39(전년 -$0.04). 인화인듐(InP) 웨이퍼 수요 강세. 2026-09-30 현금·현금성자산 약 $485.5m(10/28 자회사 신규 투자계약은 아직 종결 전이므로 중복 합산 금지). 기존 중국계 1.0 레이더의 10/01 실적발표 '일정' 및 10/28 자회사 투자계약과 다른, 실제 발표된 10/29 실적 결과로 독립 기록. [1차] 실적 급증 이벤트 뉴스 강함; 10/29 발표 이후 주가·5~15분 분봉·거래량 2/3/5/10/30/50배 가속·저점방어·급락·재점화 미확인, 가격 단계 미분류, 기존 TOP10 변경 없음. [2차 SEC] 최신 float/O/S 미확인; A 제한형 락업 미확인; B 대기형 ATM/ELOC/Resale/PIPE 미확인; C 실제 즉시 매도 가능 공급 미확인; D 워런트·옵션·전환 최신 잔량 미확인. Tongmei 자회사 지분발행은 AXTI 모회사 직접 신주발행과 구별. 공급 위험은 1차 감점·삭제·재정렬 금지, 매매 손익비 별도.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926033941/ex_1013304.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-EXEL-STELLAR304_READOUT_TIMELINE_CHANGE-20261029T200500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "EXEL",
+      "category": "임상 3상 결과 발표 일정 변경·실적 발표",
+      "detected_utc": "2026-11-01T23:14:15Z",
+      "summary": "[2026-11-02 KST 지연 신규 발굴; 원공시 2026-10-29 16:05 EDT 회사 발표·SEC 8-K EX-99.1, 실시간 포착 아님] Exelixis(EXEL)는 zanzalintinib+nivolumab 비투명세포 신장암 3상 STELLAR-304 탑라인을 종전 2026년 중반 예상에서 2027년 1분기로 변경해 발표(임상 실패나 성공 결과 발표 아님). 같은 SEC 자료에 기존 zanzalintinib+atezolizumab 전이성 대장암 FDA NDA PDUFA 날짜는 2026-12-03에서 2027-03-03으로 이미 2026-09 연기됐음을 재확인(10/29 신규 FDA 연기 아님). 2026 Q3 매출 $658.7m(전년 $597.8m), GAAP 희석 EPS $0.85. [1차] 임상 일정 변경 뉴스 신호 중간, 가격·5~15분 분봉·거래량 2/3/5/10/30/50배 가속·저점방어·급락·재점화 미확인, 단계 미분류, 기존 TOP10 순위 변경 없음. [2차] 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·락업·즉시 매도 가능 공급 미확인. A 제한형/B 대기형/C 즉시형/D 잠재형 잔량 미확인. 2차 위험은 1차 감점·삭제·재정렬 금지, 매매 손익비 별도.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/939767/000093976726000114/exel20260930exhibit991.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
