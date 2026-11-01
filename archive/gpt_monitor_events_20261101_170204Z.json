@@ -1,0 +1,30 @@
+{
+  "archived_utc": "2026-11-01T17:02:04Z",
+  "source_file": "gpt_monitor_events.json",
+  "source_blob_sha": "03147620483abcdcfbabb308b107bf21118b9219",
+  "reason": "Keep active events at 500; preserve two oldest entries before adding two previously untracked verified-company-release events",
+  "events": [
+    {
+      "id": "nasdaq7-close10-BRAI-force-ai-launch-20261026T130000Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "NASDAQ 7.0",
+      "ticker": "BRAI",
+      "category": "뉴스 발표 동반 급락·대량거래·반등 관찰",
+      "detected_utc": "2026-10-26T20:18:36Z",
+      "summary": "10/26 일별 시세 $2.12(-40.28%), 거래량 약 328.8만주. 15:51 EDT 지연 StockTitan 보드 약 -39%, 상대거래량 94배. 10/26 09:00 EDT 회사 Force AI/RADIUS 플랫폼 확장 발표, 가격 급락의 직접 원인 단정 불가. 5~15분봉·저점방어·SEC 공급 구조·최신 float/O/S·즉시 매도 가능 물량 미확인. 1차 순위에 위험 미반영.",
+      "source_url": "https://www.stocktitan.net/news/BRAI/braiin-targets-usd-56-9-billion-cx-software-market-with-agentic-ai-bvddzogjab6f.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-close10-DAVI-medical-ip-acquisition-20261026T113000Z",
+      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
+      "radar": "NASDAQ 7.0",
+      "ticker": "DAVI",
+      "category": "M&A 자산인수 완료 발표·급락 후 반등 관찰",
+      "detected_utc": "2026-10-26T20:18:36Z",
+      "summary": "10/26 일별 시세 $4.07(-32.17%), 거래량 214,417주; StockTitan 15:51 EDT 지연 보드 약 -33%, 상대거래량 0.9배. 10/26 07:30 EDT 회사 발표: Humaskan 의료기술 IP $25m 취득 완료, 현금 $2.5m 및 신주 1,730,770주(고정 계약 평가가 $13) 대가. 신규 주식 발행 예정과 실제 매도 가능 공급 구분 필요, SEC 6-K·최신 float/O/S·재판매 조건 미확인, 공급유형 보류. 분봉 저점방어 미확인, 반등 확정 아님.",
+      "source_url": "https://www.stocktitan.net/news/DAVI/davion-healthcare-announces-us-25-million-acquisition-of-humaskan-l4plfi948ieo.html",
+      "verification": "PROVISIONAL"
+    }
+  ]
+}
