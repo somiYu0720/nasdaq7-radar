@@ -1,0 +1,282 @@
+{
+  "archived_utc": "2026-11-01T02:15:29Z",
+  "source_file": "gpt_monitor_events.json",
+  "reason": "Preserve historical events while keeping active event feed <=500 entries",
+  "events": [
+    {
+      "id": "cn1-LHSW-sales-contract-20261019T160700Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "LHSW",
+      "category": "확정 수주·해외사업",
+      "detected_utc": "2026-10-26T15:45:40Z",
+      "summary": "10월19일 회사 발표: 말레이시아 NMS Robotics에 AI 도장로봇 80대 RMB 2,384만 판매계약 체결 및 영국 첫 주문 발표. 납품·매출 인식 완료는 미확인. 과거 발표 지연 포착.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/19/3383740/0/en/lianhe-sowell-international-group-ltd-secures-rmb23-84-million-order-for-80-ai-spray-painting-robots-in-malaysia-and-first-uk-order.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-LHSW-volume-surge-20261021T200000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "LHSW",
+      "category": "거래량 가속·급락 후 반등 관찰",
+      "detected_utc": "2026-10-26T15:45:40Z",
+      "summary": "10월21일 거래량 약 723만 주로 10월20일 약 83.4만 주 대비 8.67배, 종가 약 +39.7%. 10월22일 약 -32.8%, 10월23일 추가 하락. 1차 신호 독립 포착, 분봉·저점방어 미확인; 10월26일 1:8 병합 전 원시세 기준.",
+      "source_url": "https://smartinvestorsdaily.com/stocks/NASDAQ/LHSW/sec-filings",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-LHSW-share-consolidation-20261022T123000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "LHSW",
+      "category": "사전공시 일정·주식병합",
+      "detected_utc": "2026-10-26T15:45:40Z",
+      "summary": "10월22일 회사 발표: 1:8 주식병합, 10월26일 병합조정 거래 예정. 발표 기준 병합 전 Class A 22,878,354주, Class B 2,587,500주; 병합 후 예상 Class A 2,859,795주, Class B 323,438주. 실제 거래개시·최신 float 미확인.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/22/3386359/0/en/lianhe-sowell-international-group-ltd-announces-1-for-8-share-consolidation.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-FFR-ma-close-20261026T153000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "FFR",
+      "category": "M&A 종결·로봇사업 가이던스",
+      "detected_utc": "2026-10-26T16:04:06Z",
+      "summary": "2026-10-26 11:30 EDT 회사 발표: FFR의 Faraday Future 로봇사업 인수가 10월23일 완료됐다고 공표. 2026년 로봇 판매·출하 약 2,000대 전망, 10월 300대 초과 예상(실적 확정 아님). 종결 관련 신규 SEC 8-K 미확인, 분봉·거래량 가속 미확인. 기존 M&A 관찰 후보 이벤트 상태 갱신.",
+      "source_url": "https://www.prnewswire.com/news-releases/ff-eai-robotics-ecosystem-completed-its-acquisition-of-the-robotics-business-of-faraday-future-establish-nasdaq-listed-humanoid-and-bionic-robotics-platform-302919475.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-EPOW-jv-capital-20261026T150000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "EPOW",
+      "category": "JV 자금 유입·거래량/가격 이상",
+      "detected_utc": "2026-10-26T16:04:06Z",
+      "summary": "2026-10-26 11:00 EDT 회사 발표: Guizhou JV가 RMB 2억 증자약정 중 RMB 1.1억 수령·등록, 잔액 RMB 0.9억 미납. EPOW JV 간접지분 39.3519%→37.0855%(나스닥 주식 직접 희석과 별개). 15분 지연 스캐너 상대거래량 약 5.3배, 주가 약 +18.08% 표기; 5거래일 평균 대비 배수·분봉 미확인. SEC 6-K 신규 확인 전.",
+      "source_url": "https://www.stocktitan.net/news/EPOW/e-power-s-guizhou-joint-venture-receives-rmb-110-million-of-rmb-200-7s2xw3oh15qv.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-prebreak-MSGY-reignite-20261026T160700Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "MSGY",
+      "category": "거래량 2/3배 가속·재점화",
+      "detected_utc": "2026-10-26T16:13:46Z",
+      "summary": "10월21일 거래량 24,354주(20일 11,798주의 2.06배), 22일 75,798주(3.11배), 23일 184,372주(2.43배)로 연속 증가. 10월26일 12:07 EDT 관측 약 $3.26(+19.41%), 장중 거래량 약 196,394주(23일 대비 약 1.07배, 장중 누적). 9월 급등 이력 있어 신규 PRE가 아닌 재점화/급등 진행 관찰. 5~15분봉·저점방어·상승 원인 미확인.",
+      "source_url": "https://stockanalysis.com/stocks/msgy/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-prebreak-MSGY-F3-20261023T140500Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "MSGY",
+      "category": "2차 SEC·F-3·잠재 공급 D형 잠정",
+      "detected_utc": "2026-10-26T16:13:46Z",
+      "summary": "10월23일 SEC F-3: 최대 2억달러 선반등록 신청(제출=효력 아님), 비계열 Class A float 1,474,147주·평가액 약 $1,190만. 10월5일 사모발행 667,000주 완료, Series A/B 워런트 각 최대 667,000주(행사가 $1.30/$1.10). 8월 오스트리아 Beta 지분 20% 인수 대가 Class A 1,377,000주 발행 기재. 잠재 희석과 실제 즉시 매도 가능 공급은 별개; EFFECT·잔여 행사/재판매 가능 잔량 미확인. 1차 포착 순위에 미반영.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2020228/000118518526004942/masonf3102026.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-AMAN-definitive-merger-20261026T101300Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "AMAN",
+      "category": "확정 M&A 계약·비만치료제 임상 3상 예정",
+      "detected_utc": "2026-10-26T16:26:41Z",
+      "summary": "2026-10-26 06:13 EDT SEC 8-K: AMAN이 10월25일 Corxel US와 확정 사업결합 계약 체결. Corxel 기업가치 2억달러, PIPE 약 3억달러 약정, 무상환 가정 총 조달 예상 약 3.77억달러. 2027년 상반기 종결 목표, 주주 승인·S-4 효력 등 조건부. CX11 미국 임상2상 36주 체중감소 최대 11.5% 발표, 글로벌 3상 계획. 거래량 가속·당일 가격·float·O/S 미확인. 2차 PIPE/사전납입 워런트/종결 후 재판매등록·6개월 일부 보호예수 확인; 실제 즉시 매도 가능 공급 미확인, 잠정 D형(종결 후 복합 공급), 현재 활성 공급 단정 금지. 위험은 1차 순위에 미반영. 기존 공시를 이번 점검에서 지연 신규 발견.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112236/ea0308954-8k425_amanat.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-GCDT-volume-crash-20261020T200000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0(기존 관심종목·NYSE American 확장)",
+      "ticker": "GCDT",
+      "category": "거래량 50배 이상·급락",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "summary": "10/20 거래량 65,685,389주 vs 10/19 289,800주 약 226.7배, 주가 -28.32%; 10/21 추가 하락. NYSE American 홍콩 연계 기존 관심종목, 급락 후 반등 관찰. 분봉/현재가 미확인.",
+      "source_url": "https://finance.yahoo.com/quote/GCDT/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-GCDT-unusual-trading-statement-20261026T154500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0(기존 관심종목·NYSE American 확장)",
+      "ticker": "GCDT",
+      "category": "이상거래 공식 해명",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "summary": "10/26 11:45 EDT 회사 이상거래 해명 발표, 13:04 EDT SEC 6-K 접수 확인: NYSE American 문의에 회사는 최근 이상거래를 설명할 미공개 중대 사업·운영 사안을 인지하지 못한다고 공식 보고. 신규 M&A·확정 호재 없음. 1차 거래량 226.7배 급락 포착과 별도 검증이며 1차 순위는 변경하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226048462/form6-k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-SJ-earnings-6k-20261026T124500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "SJ",
+      "category": "실적·SEC 6-K",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "summary": "10/26 08:45 EDT SEC 6-K: 2분기 매출 RMB305.4m vs 349.0m, 주주귀속 순이익 RMB11.1m vs 22.6m. 상반기 주주귀속 순이익 RMB20.0m(+48.0%). 10/22 거래량 40,916주 vs 10/21 8,537주 약 4.79배, 당일 -8.06%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1753673/000121390026112296/ea0309470-6k_scienjoy.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-SJ-leader-stake-close-disclosed-20261026T124500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "SJ",
+      "category": "지분인수 종결·SEC 6-K",
+      "detected_utc": "2026-10-26T16:52:04Z",
+      "summary": "10/26 SEC 6-K 후속사건 주석에서 10/15 Leader Education 29.9% 지분(239,234,000주)을 HK$102.69m에 취득 완료 확인. 9/2 계약 후 종결; 관계자 거래로 공시. SJ 신주 발행과 혼동 금지.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1753673/000121390026112296/ea0309470-6k_scienjoy.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-XNCR-phase1-XmAb819-20261026T115000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "XNCR",
+      "category": "임상 1상 결과·급등 진행",
+      "detected_utc": "2026-10-26T17:42:04Z",
+      "summary": "10/26 07:50 EDT SEC 8-K 검증: XmAb819 신장암 1상 400mcg/kg 코호트 효능평가 11명 중 확정 부분반응 5명(cORR 45.5%), 6개월 PFS 추정 82%; 68명 확장용량군 3등급 이상 관련 이상반응 72.1%. 10/26 장중 주가 24% 이상 상승 보도, 급등 진행(급등 전 아님). FDA 가속승인 논의는 2027년 상반기 계획이며 승인 아님. 5거래일 평균 거래량 배수·분봉·최신 float/O/S·실제 즉시 매도 공급 미확인; 공급유형 판정 보류. 1차 순위에 희석위험 반영 안 함. 기존 공시 지연 발견.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326732/000121390026112279/ea030959601ex99-2.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-SGRY-definitive-merger-20261026T130300Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "SGRY",
+      "category": "확정 M&A 계약·급등 진행",
+      "detected_utc": "2026-10-26T17:42:04Z",
+      "summary": "10/26 09:03 EDT SEC 8-K 확인: 10/23 HealthSpan 측과 확정 합병계약, 일반 적격 주주에게 주당 $23.50 현금 지급 예정, 기업가치 약 $57억, Bain Capital 약 39% 지분은 인수법인 지분으로 롤오버. 종결 목표 2027년 1분기, 주주·규제 승인 조건부; 종결 완료 아님. 10/26 프리마켓 약 +23.8% 관측(지연 스냅샷), 급등 진행. 5거래일 거래량 배수·분봉·최신 float/O/S·현재 즉시 매도 가능 공급 미확인, 공급유형 판정 보류. 1차 순위에 위험 미반영. 기존 발표 지연 발견.",
+      "source_url": "https://www.stocktitan.net/sec-filings/SGRY/8-k-surgery-partners-inc-reports-material-event-122d7888b683.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-prebreak-AIXI-volume-reignite-20261023T200000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "AIXI",
+      "category": "거래량 30배 이상·재점화/급등 진행",
+      "detected_utc": "2026-10-26T18:43:04Z",
+      "summary": "10/23 일별 거래량 16,761,619 ADS vs 10/22 362,279 ADS로 46.27배, 종가 $2.96(+19.35%). 10/20에도 거래량 31,169,309 ADS·+40.91%로 반복 급등, 신규 PRE 아닌 재점화/급등 진행. 10/26 13:43 EDT 지연 관측 $2.91(-1.69%), 누적 596,607 ADS로 재가속 미확인. 5~15분봉·저점방어 미확인. 별도 2차 SEC 2026-08-26 424B5에 변동가 전환사채 $4.33m·F-3 ADS 등록 확인, D형 잠정; 실제 즉시 매도 가능 공급·최신 float/O/S 미확인. 위험은 1차 순위에 미반영. 10/23 이벤트 지연 신규 발견.",
+      "source_url": "https://stockanalysis.com/stocks/aixi/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-CRML-court-approval-20261026T123000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "CRML",
+      "category": "M&A 법원 최종 승인·종결 일정 갱신",
+      "detected_utc": "2026-10-26T18:48:51Z",
+      "summary": "10/26 08:30 EDT 회사 공식 발표: 서호주 대법원이 CRML의 European Lithium 주식·상장옵션 100% 취득을 위한 두 scheme 승인(10/22 보유자 승인 후). 법원 승인=인수 종결 아님. 10/27 ASIC 법원명령 접수 시 효력 예상, 10/29 기준일, 11/5 이행·신주 발행, 11/6 나스닥 신규 CRML 주식 거래 예상(모두 퍼스 기준·조건부). 10/21 공표된 교환비율 EUR 1주당 CRML 0.045주. 1차 M&A 이벤트 독립 포착, 최신 5거래일 거래량 배수·시세·분봉 미확인. 2차 잠재 합병대가 신주 공급은 11/5 예정, 3(a)(10) 등록면제 활용 의향; 현재 즉시 매도 가능 물량·최신 float/O/S·기타 ATM/워런트 잔량 미확인, 공급 유형 B 잠정(추가 확인 필요). SEC의 10/26 법원 승인 6-K 원문은 미확인; 위험은 1차 순위에 미반영. 10/26 발표 지연 발견.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/26/3388092/0/en/critical-metals-corp-acquisition-of-european-lithium-approved-by-supreme-court-of-western-australia.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-NWGL-volume-reignite-20261026T181900Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "NWGL",
+      "category": "거래량 이상·재점화 관찰",
+      "detected_utc": "2026-10-26T18:51:04Z",
+      "summary": "2026-10-26 14:19 ET 15분 지연 시장 스냅샷: NWGL 누적 약 6,140만 주, 전일 대비 주가 약 +7%. 공급자 20거래일 동일시각 기준 상대거래량 326배 표시는 10/23 일별 거래량 약 3,122만 주와 괴리가 커 재검증 필요. 10/26 종가·분봉 미확인. SEC 10/02 ATM 최대 $200m는 2차 위험 검증에서만 별도 반영.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-TANH-volume-crash-20261026T181900Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "TANH",
+      "category": "급락·과매도 관찰·LABT형",
+      "detected_utc": "2026-10-26T18:51:04Z",
+      "summary": "2026-10-26 14:19 ET 15분 지연 시장 스냅샷: TANH 약 -29%, 10/26 누적 약 10.4만 주, 공급자 20거래일 동일시각 기준 상대거래량 3.1배. 10/22 약 221만 주 급증 후 10/23 -28.7% 하락에 이은 추가 급락. 10/26 종가·저점방어·분봉 미확인. 1차 포착 위험감점 없음.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-prebreak-UPC-labt-crash-20261026T192100Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "UPC",
+      "category": "급락·대량거래 LABT형·급락 후 반등 관찰",
+      "detected_utc": "2026-10-26T20:06:05Z",
+      "summary": "10/26 15:21 EDT 15분 지연 모멘텀 보드: UPC 약 -31%, 누적 약 17만 주, 20일 동일시각 대비 상대거래량 약 10배. 10/21 227,713주 vs 10/20 15,905주 약 14.3배와 +18.03% 이후 급락. 10/26 종가·분봉·저점방어 미확인, 반등 확정 아님. 1차 순위에 SEC 공급 위험 미반영. 별도 2차 9/29 F-3 4,376,552주 재판매 및 10/09 EFFECT 확인; 현재 실제 매도 가능 잔량 미확인.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-prebreak-UPC-f3-effect-20261009T133000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "UPC",
+      "category": "2차 SEC·재판매 등록 효력·C형 잠정",
+      "detected_utc": "2026-10-26T20:06:05Z",
+      "summary": "SEC EFFECT 효력일 2026-10-09 09:30 EDT, Form F-3 file 333-299191. 9/29 F-3에 이미 발행된 Class A 4,376,552주 재판매 등록 및 최대 $200m 선반등록 신청 기재. 등록 효력 확인으로 재판매 가능성은 활성화(C형 잠정)하나 주주별 실제 매도 가능 조건·잔량·매도 실행은 미확인; 기존 워런트 관련 복합구조 추가 확인 필요. 1차 순위 미반영. 과거 공시 지연 신규 확인.",
+      "source_url": "https://www.stocktitan.net/sec-filings/UPC/effect-universe-pharmaceuticals-inc-sec-filing-21f05deab40c.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-prebreak-BUUU-split-momentum-20261026T192100Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "BUUU",
+      "category": "가격 이상·상대거래량 5배·주식분할 후 급등 진행",
+      "detected_utc": "2026-10-26T20:06:05Z",
+      "summary": "10/26 15:21 EDT 15분 지연 보드: BUUU 약 +23%, 상대거래량 약 5.6배(20일 동일시각 기준), 누적 약 35.2만 주. 10/23 SEC 6-K에서 10:1 정방향 주식분할 및 10/26 분할조정 거래 예정 확인; 가격 상승은 분할 비율만의 기계적 변화와 구분한 분할조정 기준. 9/15 Brightray 지분 60% 인수 완료는 과거 이벤트, 10/26 신규 M&A 아님. 10/26 종가·분봉 미확인. 2차 조건부 주식결제 P-note·락업·최신 float/O/S·실제 즉시 매도 가능 물량 재검증 필요; D형 잠정, 1차 순위 미반영.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "cn1-prebreak-SEED-corn-preliminary-20261026T110000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "SEED",
+      "category": "신규 사업·인허가 예비심사·사전 일정",
+      "detected_utc": "2026-10-26T20:06:05Z",
+      "summary": "10/26 07:00 EDT Origin Agritech 회사 발표: 중국 옥수수 3품종(Aoxiangyu 819, Aoyu 966, Aoyu 288) 국가 품종 심사 예비통과; 2년 지역시험 대비품종 대비 수확량 +6.0~8.6%. 공고기간 10/22~11/22, 최종 승인·판매 완료 아님. 10/26 거래량 가속·마감가격·분봉 미확인, 뉴스 선행 관찰. 2차 10/13 SEC 6-K에서 9/16 사모발행 200만주 완료·워런트 없음·재판매 제한 확인(A형은 해당 물량만), 전체 공급 유형 미확정; 1차 순위 미반영.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/26/3387965/0/en/origin-agritech-s-three-new-corn-varieties-pass-preliminary-national-review-advancing-toward-commercialization.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-MACI-merger-vote-20261023T201018Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "MACI",
+      "category": "M&A shareholder approval / volume acceleration",
+      "detected_utc": "2026-10-26T20:13:16Z",
+      "summary": "10/23 16:10:18 EDT SEC 8-K 검증: 10/22 MACI 주주가 Everli Global 사업결합 승인(찬성 9,425,113, 반대 23,978); 3,852,564 Class A주 환매 신청, 환매 완료 후 신탁 약 $0.8m 예상. 종결은 아직 조건부, 완료 미확인. 10/23 정규장 거래량 445,924주, 직전 5거래일(10/16~22) 평균 약 27,696주 대비 16.10배. 10/26 일봉 시가 $13.50, 고가 $16.48, 저가 $8.58, 종가 $9.50(-13.64%), 거래량 151,457주; 10/26 가속은 직전 5일 대비 1.47배. 1차 분류는 급락 후 반등 관찰(저점 방어·반등 확정 아님), M&A 이벤트 병행. 10/23 8-K는 장마감 후 접수되어 당일 거래량의 원인으로 단정 불가. 2차 S-4 효력, 합병 대가 주식·기존 워런트 잠재 공급 확인, 실제 즉시 매도 가능 공급·최신 float/O/S·ATM/ELOC/PIPE/Resale 잔량 미확인, A/B/C/D 전체 유형 보류. 2차 위험은 1차 포착 순위에 미반영. 기존 발표 지연 발견.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2016221/000121390026112110/ea0309426-8k_melar1.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-RCT-debt-retirement-volume-20261026T132100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "RCT",
+      "category": "거래량 50배 가속·재점화·전환사채 상환 뉴스",
+      "detected_utc": "2026-10-26T20:15:42Z",
+      "summary": "10/26 15:45 EDT 이전 지연 일봉 데이터: RCT 약 474,230,922주 거래, 직전 5거래일(10/19~23) 평균 9,238,504주 대비 약 51.33배, 주가 약 +6.44%(15:45 EDT 관측). 장중 고가 약 $0.15, 저가 약 $0.08로 큰 변동; 급등 전 확정 아닌 재점화 관찰. 10/26 09:21 EDT 회사 발표: 2026년 2월 발행 선순위 전환사채 전액 상환, 미매각 재판매 주식 등록철회 계획(완료 미확인), 비희석 주주대출 활용. 신규 SEC 6-K 미확인으로 PROVISIONAL. 2차 10/16 424B3에서 ELOC 재판매 최대 5,000만주와 별도 워런트 관련 재판매 구조 확인; 실제 즉시 매도 가능 잔량·float/O/S 최신치 미확인, D형 잠정. 1차 포착에 위험 감점 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/26/3388183/0/en/redcloud-repays-all-convertible-notes-in-full.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-XXII-labt-crash-product-20261026T113700Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "XXII",
+      "category": "급락·대량거래 LABT형·제품 확대 발표",
+      "detected_utc": "2026-10-26T20:15:42Z",
+      "summary": "10/26 15:51 EDT 지연 모멘텀 보드: XXII 약 -54%, 누적 약 3,140만주. 직전 5거래일(10/19~23) 평균 약 6,710만주 대비 당일 약 0.47배이므로 2배 가속은 아님; 다만 대규모 절대 거래와 급락 동반으로 LABT형 급락 후 반등 관찰(저점 방어·반등 확정 아님). 10/26 07:37 EDT 회사는 Pinnacle Pure 제품을 6 SKU로 확대·12월 배송 예상 발표, 급락 원인 단정 불가. 2차 10/23 SEC 8-K/424B5: 10월 ATM 15,785,757주 매각·총 약 $4.7m, 10/23 O/S 19,202,198주, 추가 ATM 최대 $18.8m 명시(실제 미매각 잔량/즉시 공급 미확인), C형 잠정. 1차 위험 감점 없음. 뉴스 발표와 가격 신호의 인과 미확인.",
+      "source_url": "https://www.stocktitan.net/news/XXII/22nd-century-expands-the-pinnacle-pure-portfolio-to-6-sku-s-with-3po56mnywt79.html",
+      "verification": "PROVISIONAL"
+    }
+  ]
+}
