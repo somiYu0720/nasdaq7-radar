@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-01T19:06:19Z",
+  "updated_utc": "2026-11-01T20:29:38.498Z",
   "events": [
-    {
-      "id": "nasdaq7-close-SRTM-daily-close-signal-20261026T200000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "NASDAQ 7.0",
-      "ticker": "SRTM",
-      "category": "급락·대량거래 LABT형·장마감 확정",
-      "detected_utc": "2026-10-26T20:31:59Z",
-      "summary": "10/26 종가 $0.2953(-31.37%), 거래량 114,550,511주, 직전 5거래일 평균 1,266,523주 대비 90.44배. 10/26 OPTT와 해상 AI 데이터센터 실증 협력 비구속 LOI 발표(확정 계약 아님). SEC 최신 공급·분봉·저점방어 미확인. 1차 순위 위험 미반영.",
-      "source_url": "https://stockanalysis.com/stocks/srtm/history/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-close-BRAI-daily-close-signal-20261026T200000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "NASDAQ 7.0",
-      "ticker": "BRAI",
-      "category": "급락·거래량 30배 이상·장마감 확정",
-      "detected_utc": "2026-10-26T20:31:59Z",
-      "summary": "10/26 종가 $2.195(-38.17%), 거래량 3,175,641주, 직전 5거래일 평균 90,974주 대비 34.91배. 당일 AI 플랫폼 확장 발표가 있었으나 급락 원인으로 단정 불가. SEC 공급·분봉·저점방어 미확인. 1차 순위 위험 미반영.",
-      "source_url": "https://stockanalysis.com/stocks/brai/history/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "nasdaq7-close-CPIX-daily-close-signal-20261026T200000Z",
       "task": "NASDAQ 7.0 장마감 종합보고",
@@ -5501,6 +5479,28 @@
       "detected_utc": "2026-11-01T19:06:19Z",
       "summary": "[2026-11-02 KST 지연 발굴, 2026-10-27 05:00 EDT 회사 공식 IR 발표; 실시간 조기포착 아님] iQIYI(IQ)는 2026-11-16 미국 정규장 개장 전 3분기 실적 발표, 같은 날 06:30 EST(한국시간 20:30) 실적 콜을 개최할 예정. 실적 수치/호재 여부 미발표. [1차 독립] 10/27 정규장 9,111,100주 거래, 직전 5거래일(10/20~10/26) 평균 3,942,960주 대비 약 2.31배 일봉 거래량, 종가 $0.838 vs 10/26 $0.877로 -4.45%(제3자 일별 시세; 회사 IR 표시값은 반올림 $0.84). 2배 이상 거래량 및 예정 실적 이벤트 신호로 관찰하되 급등 전/진행/급락 후 반등/재점화 단계 확정 불가; 10/29 $0.8326으로 반등 확인 안 됨. 5~15분 분봉, 최신 거래량 가속·저점 방어·현재가 미확인. 공급·상장 위험으로 1차 감점/삭제/재정렬하지 않음. [2차 별도] 2026-06-30 회사 IR Q2 자료상 현금·제한현금·단기투자 약 $607.8m, 전환사채 장기잔액 존재(잠재 D형 요소, 현재 잔액/행사·즉시 공급과 별개). 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트, A 제한형/B 대기형/C 즉시 매도형 실제 수량 미확인. 회사 공식 IR 일정 확인, SEC 6-K 직접 대조 미완료로 PROVISIONAL. 손익비·매수 적합성 별도.",
       "source_url": "https://ir.iqiyi.com/news-releases/news-release-details/iqiyi-report-third-quarter-2026-financial-results-november-16",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE-INO-DAILY_VOLUME_16P16X_FDA_APPROVAL_POSTCLOSE-20261030T200000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "ticker": "INO",
+      "category": "1차_급락대량거래_시간외FDA호재_급락후재점화관찰_PROVISIONAL",
+      "detected_utc": "2026-11-01T20:29:38.498Z",
+      "summary": "[2026-11-02 KST 사후 장마감 검증, 실시간 조기포착 아님] 2026-10-30 정규장 INO 종가 $0.6024(-21.95%), 거래량 80,500,974주; 직전 5거래일(10/23~29) 평균 4,981,265주 대비 16.16배 일봉 상대거래량. 10/30 정규장 종료 후 FDA가 VOCERYQ(INO-3107) 성인 RRP 가속승인을 발표해 시간외 19:59 EDT $2.05(정규장 종가 대비 +240.31%) 관측. 1차 정규장 급락+대량거래, 시간외 재점화 분리. FDA 승인은 FDA 공식 문서로 확인됐으나 가격·거래량 수치는 제3자 일봉이라 PROVISIONAL. 5~15분 가속/저점방어 미확인, 급등 전 후보 아님. 2차 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환·실제 즉시 공급 미확인, A/B/C/D 보류. 2차 위험은 1차 감점·재정렬 금지. 손익비 별도.",
+      "source_url": "https://stockanalysis.com/stocks/ino/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_CLOSE-NRXP-DAILY_VOLUME_16P36X_KETAMINE_ANDA-20261030T200000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "ticker": "NRXP",
+      "category": "1차_급락대량거래_FDA승인_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-11-01T20:29:38.498Z",
+      "summary": "[2026-11-02 KST 사후 장마감 검증, 실시간 조기포착 아님] 2026-10-30 정규장 NRXP 종가 $2.27(-14.66%), 거래량 15,641,562주; 직전 5거래일(10/23~29) 평균 956,052주 대비 16.36배 일봉 상대거래량. 10/30 07:00 EDT 회사가 보존제 없는 케타민 주사제 제네릭 ANDA FDA 승인을 발표(우울증/자살사고 치료 적응증 승인과 다름). 강력 이벤트에도 급락+거래량 급증하므로 LABT형 1차 관찰 유지. 일봉 거래량 제3자 출처, 분봉 가속/저점방어 미확인으로 PROVISIONAL. 2차 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환·실제 즉시 공급 미확인, A/B/C/D 보류; 위험 감점·삭제 금지, 손익비 별도.",
+      "source_url": "https://stockanalysis.com/stocks/nrxp/history/",
       "verification": "PROVISIONAL"
     }
   ]
