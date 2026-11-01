@@ -1,0 +1,18 @@
+{
+  "archived_utc": "2026-11-01T17:50:14Z",
+  "source_file": "gpt_monitor_events.json",
+  "reason": "500 event active cap; preserve displaced event",
+  "events": [
+    {
+      "id": "cn1-CENN-volume-reignite-20261026T195100Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0(미국 지주회사·중국 사업)",
+      "ticker": "CENN",
+      "category": "거래량 10배 이상·가격 재점화",
+      "detected_utc": "2026-10-26T20:22:58Z",
+      "summary": "10/26 15:51 EDT 15분 지연 모멘텀 보드: CENN 약 +18%, 누적 약 91.7만주, 10/23 일별 거래량 30,973주 대비 약 29.6배(20일 동일시각 상대거래량은 59배 표기, 박리거래 주의). 신규 당일 호재 미확인, 최종 종가·분봉·저점방어 미확인. 2차 SEC 10/9 ATM 최대 $100m, 10/13 424B5 및 S-3 효력 확인; 10/27 전후 발행가능주식수 증액 예정은 확정 효력 확인 필요. 실제 매도 잔량·최신 float/O/S 미확인. 1차 위험 감점 없음.",
+      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
+      "verification": "PROVISIONAL"
+    }
+  ]
+}
