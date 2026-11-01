@@ -1,0 +1,32 @@
+name: NASDAQ7 V20 Independent Full-Universe Preliminary Screen
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/v20_full_universe.yml'
+      - 'scripts/v20_full_universe.py'
+  schedule:
+    - cron: '15 23 * * 1-5'
+permissions:
+  contents: read
+concurrency:
+  group: v20-full-universe
+  cancel-in-progress: false
+jobs:
+  full_universe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pandas numpy yfinance
+      - name: Scan full Nasdaq listing universe in batches
+        run: python scripts/v20_full_universe.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nasdaq7-v20-full-universe
+          path: v20_discovery/
+          retention-days: 14
