@@ -1,0 +1,29 @@
+{
+  "archived_utc": "2026-11-01T21:15:18Z",
+  "source_file": "gpt_monitor_events.json",
+  "reason": "Preserve prior records while retaining 500 active entries",
+  "events": [
+    {
+      "id": "nasdaq7-close-XXII-daily-close-signal-20261026T200000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "NASDAQ 7.0",
+      "ticker": "XXII",
+      "category": "급락·대량거래 LABT형·장마감 확정",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "summary": "10/26 종가 $0.0884(-55.29%), 거래량 34,751,846주, 직전 5거래일 평균 약 67,100,186주 대비 약 0.52배(상대거래량 가속 아님). 10/23 SEC 8-K에서 10월 ATM 15,785,757주 매각·총 $4.7m, 10/23 O/S 19,202,198주 확인; 잔여 즉시 공급 미확인, C형 잠정. 1차 포착은 위험 미반영.",
+      "source_url": "https://stockanalysis.com/stocks/xxii/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "nasdaq7-close-SHFS-daily-close-signal-20261026T200000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "NASDAQ 7.0",
+      "ticker": "SHFS",
+      "category": "연속 급락·대량거래 LABT형·장마감 확정",
+      "detected_utc": "2026-10-26T20:31:59Z",
+      "summary": "10/26 종가 $0.0936(-29.31%), 거래량 95,643,260주. 10/26 SEC 8-K: Opifex 비구속 사업결합 조건서(확정 합병 아님), 7/1~10/23 우선주 전환으로 보통주 23,914,988주 발행. 최신 즉시 매도 가능 공급 미확인, D형 잠정; 분봉 저점방어 미확인. 1차 순위 위험 미반영.",
+      "source_url": "https://stockanalysis.com/stocks/shfs/history/",
+      "verification": "PROVISIONAL"
+    }
+  ]
+}
