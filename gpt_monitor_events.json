@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-02T00:31:55.451Z",
+  "updated_utc": "2026-11-02T01:04:37.667Z",
   "events": [
-    {
-      "id": "cn1-SXTC-overallotment-termination-20261021T120000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "SXTC",
-      "category": "2차 SEC·추가 매수권 종료·공급 구조 변경",
-      "detected_utc": "2026-10-26T21:21:32Z",
-      "summary": "10/21 SEC 6-K: 10/8 등록직접공모 800만 유닛(유닛당 보통주 또는 pre-funded warrant + ordinary warrant, $1.50) 관련 투자자의 최대 $12m 추가 매수권(30일 옵션)을 10/21 종료. 기존 발행 증권과 다른 계약조건은 유효; 옵션 종료를 기존 발행 물량 취소나 즉시 매도 가능 공급 제로로 오인하지 않음. 워런트 잔량·최신 float·즉시 매도 가능 물량 미확인. 2차 위험 결과로 1차 포착 순위 변경 금지.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1723980/000121390026111404/ea0309198-6k_china.htm",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "cn1-SXTC-share-consolidation-20261022T120000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "SXTC",
-      "category": "공식 주식병합 일정·10/26 조정 거래",
-      "detected_utc": "2026-10-26T21:21:32Z",
-      "summary": "10/22 08:00 ET 회사 공식 발표: Class A 보통주 1:100 병합, 10/26 분할조정 거래 예정, 티커 SXTC 유지. Class A O/S 68,677,498주에서 약 686,775주 예상, Class B 2주는 불변. 기존 워런트 등 권리도 비율 조정 예정. 실제 최신 O/S/float·병합 후 가격/거래량 정합성은 별도 확인 필요. 1차 신호 순위 감점 사유로 사용하지 않음.",
-      "source_url": "https://www.prnewswire.com/news-releases/china-sxt-pharmaceuticals-inc-announces-share-consolidation-302916765.html",
-      "verification": "VERIFIED"
-    },
     {
       "id": "nasdaq7-RENT-volume-rights-offering-close-20261026T201600Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5501,6 +5479,28 @@
       "detected_utc": "2026-11-02T00:31:55.451Z",
       "summary": "[2026-11-02 KST 지연 발굴; 실시간 조기포착 아님] Elong Power(ELPW) 2026-10-28 정규장 종가 $3.00(+22.95%), 거래량 40,588,261주. 직전 5거래일(10/21~27) 18,513/13,282/29,063/19,315/23,776주 평균 20789.8주 대비 약 1952.3배 일봉 거래량 급증(StockAnalysis/S&P Global 및 FinanceCharts 교차). 10/29 거래량 1,124,749주 종가 $2.75(-8.33%), 10/30 거래량 467,590주 종가 $2.79(+1.45%)로 급증 이후 거래량 둔화. 10/28 SEC 6-K EX-99.1 기존 기록의 연간 $25.5m 유통협력 계약 및 약 $0.84m 첫 납품과 날짜가 겹치지만 거래량 급증의 인과관계 단정 불가. [1차] 과거 급등 진행 이력→재점화 관찰, 현재 급등전 신호 아님. 2/3/5/10/30/50배는 일봉 과거 기준에서만 확인, 최신 분봉·저점 방어·실시간 가속 미확인; 독립 TOP10 변경 없음. [2차] SEC 2026-09-10 424B3 최대 2,583,496주 재판매 등록 이력(기존 기록), 실제 즉시 매도 가능한 잔여 공급/최신 float/O/S/ATM/ELOC/PIPE/워런트 행사 미확인. A 제한/B 대기/C 즉시/D 잠재 공급 분리, C 확정 불가. 2차 위험으로 1차 감점/삭제/재정렬 금지. 거래량 자료는 SEC 원문 직접 검증 대상이 아니므로 기록 상태 PROVISIONAL.",
       "source_url": "https://stockanalysis.com/stocks/elpw/history/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-TSEM-Q3_2026_EARNINGS_GUIDANCE_SCHEDULE-20261013T080000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "TSEM",
+      "category": "1차_D0_11월2일실적발표및4분기가이던스_SEC6K_VERIFIED_지연발굴",
+      "detected_utc": "2026-11-02T01:04:37.667Z",
+      "summary": "[2026-11-02 KST 지연 발굴; 원발표 2026-10-13 04:00 EDT, 조기포착 성공 아님] Tower Semiconductor(TSEM) 2026-10-13 SEC 6-K: 2026-11-02 미국 현지 3분기 실적 발표 예정, 10:00 EST(한국 11/03 00:00 KST) 컨퍼런스콜에서 4분기 가이던스 설명 예정. 아직 3Q 실적 실제 수치·서프라이즈는 확인 전. [1차] 임박한 실적/가이던스 일정 뉴스 신호만 관찰, 2/3/5/10/30/50배 거래량 가속·연속 5~15분봉·저점 방어·급락/재점화 미확인, 가격 단계 미확정, 기존 TOP10 재정렬 없음. [2차 독립] 2026-06-30 SEC 6-K 재무제표 O/S(자기주식 차감) 113,031,000주, 현금 $231.188m, 단기예치금 $1,250.225m(과거 수치), 최신 float/O/S 및 ATM/ELOC/PIPE/Resale/워런트/전환/상장 위험 최신 현황 미확인. A 제한형·B 대기형·C 실제 즉시 매도형·D 잠재형 모두 공급 잔량 미확인, 잠재 발행을 C 확정으로 간주하지 않음. 2차 위험에 의한 1차 감점·삭제·재정렬 금지. 매매 적합성/손익비 별도.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/928876/000117891326004755/zk2636218.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BIIB-LEQEMBI_CTAD_60MONTH_DATA_SCHEDULE-20261029_DATE_ONLY",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "BIIB",
+      "category": "1차_D30_11월16일5년추적임상자료발표예정_공식회사발표_PROVISIONAL",
+      "detected_utc": "2026-11-02T01:04:37.667Z",
+      "summary": "[2026-11-02 KST 지연 발굴; Eisai 원발표 2026-10-29(정확한 배포시각 미확인), 조기포착 성과 아님] Eisai는 Biogen(BIIB)과 공동 상업화하는 LEQEMBI(lecanemab) 60개월 Clarity AD 공개연장 추적 결과를 2026-11-16 18:00-18:15 EST(한국 11/17 08:00-08:15 KST) CTAD에서 발표 예정. 11/18 11:00-11:40 EST LEADER 실제진료 연구 심포지엄, 11/17 안전성 및 11/19 공동병리 발표 예정. 현재 확정된 것은 학회 일정이지 긍정적 결과나 신규 FDA 승인 아님. [1차] 중간 수준의 사전 임상 데이터 일정 신호; 거래량 2/3/5/10/30/50배 가속·5~15분봉·저점방어·급락/재점화 미확인, 가격 단계 미확정. [2차 독립] 2026-10-28 제출 SEC 10-Q의 2026-10-26 O/S 147,820,223주; 최신 float, ATM/ELOC/PIPE/Resale/워런트/전환/상장위험 및 A 제한/B 대기/C 즉시/D 잠재 공급 잔량 미확인, 잠재 공급을 즉시 공급으로 단정하지 않음. 본 행사 자체의 SEC 공시 직접 대조 미완료로 PROVISIONAL. 기존 TOP10 변경/2차 위험 감점 없음.",
+      "source_url": "https://media-us.eisai.com/2026-10-29-Eisai-to-Present-New-Five-Year-Lecanemab-Data-and-Real-World-Alzheimers-Disease-Research-at-the-19th-Clinical-Trials-on-Alzheimers-Disease-CTAD-Conference",
       "verification": "PROVISIONAL"
     }
   ]
