@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T04:04:21.155571+00:00",
-  "source_updated_utc": "2026-11-02T04:04:21.042934+00:00",
+  "generated_utc": "2026-11-02T04:05:22.948288+00:00",
+  "source_updated_utc": "2026-11-02T04:05:22.854611+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -494,6 +494,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "DXF",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T13:05:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -554,6 +568,20 @@
       "signal": "REVIEW",
       "rvol5": null,
       "bar_time": "2026-11-02T13:01:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "LUCD",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T13:04:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -721,6 +749,22 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "DXF",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T13:05:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -754,14 +798,6 @@
     },
     {
       "ticker": "DUO",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "DXF",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -842,6 +878,7 @@
     "IAM",
     "IPHX",
     "LABT",
+    "LUCD",
     "LYCA",
     "PAXG",
     "RTSN",
