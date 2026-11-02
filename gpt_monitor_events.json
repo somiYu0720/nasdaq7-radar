@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T18:46:36Z",
+  "updated_utc": "2026-11-02T19:05:29.581Z",
   "events": [
-    {
-      "id": "cn1-news-TROO-volume-reignite-20261022T200000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "TROO",
-      "category": "VOLUME_REIGNITION",
-      "detected_utc": "2026-10-27T10:46:52Z",
-      "summary": "지연 포착: 2026-10-22 TROO 거래량 1,801,758주 vs 10/21 519,204주 약 3.47배, 직전 5거래일 평균 약 205,770주 대비 약 8.76배. 10/22 종가 $2.32(+38.92%), 10/26 종가 $2.26(-3.83%)·거래량 447,508주로 가속 지속 미확인(StockAnalysis 10/26 정규장 마감 데이터). 1차 급등 진행 이력/재점화 관찰, 현재 급등 전 확정 아님. 분봉·저점방어·10/27 현재가 미확인. 2차 SEC 2025-12-31 O/S 122,160,166주, 2026 최신 O/S/float 및 실제 즉시 매도 가능한 공급 미확인; 위험으로 1차 순위 감점 없음. 10/22 D+7 10/29, D+30 11/23(주말 이후).",
-      "source_url": "https://stockanalysis.com/stocks/troo/history/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "nasdaq7-early-INM-cvr-record-date-20261026-date-only",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -310,17 +299,6 @@
       "source_url": "https://www.marketbeat.com/stocks/NASDAQ/NWGL/sec-filings/",
       "verification": "PROVISIONAL",
       "auto_add": false
-    },
-    {
-      "id": "NASDAQ7.0-VNDA-PHASE3_STUDY3601_POSITIVE-20261027T105000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "VNDA",
-      "category": "PHASE3_POSITIVE_PRIMARY_ENDPOINT",
-      "detected_utc": "2026-10-27T10:50:00Z",
-      "summary": "10/27 06:50 ET 회사 보도자료: NEREUS(tradipitant) GLP-1 치료 유발 구토 예방 3상 Study 3601 1차 평가변수 달성. 구토 발생률 43.0%(61/142) vs 위약 58.5%(96/164), p=0.006; 심한 오심 동반 구토 33.1% vs 50.6%, p=0.002. 회사는 FDA 논의 후 sNDA 추진 계획(승인 확정 아님). 강력 임상 이벤트 1차 독립 포착; 최신 주가·RVOL·저점 방어 미확인. SEC 원문 미교차검증으로 PROVISIONAL. 2차 공급 위험은 별도.",
-      "source_url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-positive-results-from-study-3601-of-nereus-tradipitant-for-prevention-of-glp-1induced-vomiting-302920054.html",
-      "verification": "PROVISIONAL"
     },
     {
       "id": "NASDAQ7.0-CGEM-IND_CLEARANCE_VELINOTAMIG-20261027T110000Z",
@@ -5501,6 +5479,28 @@
       "detected_utc": "2026-11-02T18:46:36Z",
       "summary": "[2026-11-03 03:46 KST 부분 수집 후속 관찰, 실시간 포착 아님] INLIF(INLF) 03:16 KST 이전 보고 관찰가격 $0.2760 대비 GitHub toss_live.json의 03:45 KST 표시가격 $0.3300으로 약 +19.57% 가격 회복. 표시 1분봉 거래량 287,509주, 저가 $0.3214·고가 $0.3300. 단 수집 UTC 18:44:15가 표시 봉시각 18:45:00보다 45초 앞서는 시각 불일치가 있어 진행봉·시각 정합성 미확인. 5분 2/3/5/10/30/50배 RVOL, 연속 저점방어, 체결원시자료 미확인. 기존 INLF 급등 이후 별도 가격 회복/재점화 잠정 관찰이며 매수 신호 확정 아님. 2차 SEC 최신 float/O/S, A 제한/B 대기/C 실제 즉시 매도 가능/D 잠재 공급 잔량 미확인; 위험으로 1차 감점 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-KPTI-CHAPTER11_EQUITY_NO_RECOVERY-20261102T142100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "KPTI",
+      "category": "SPECIAL_EXCLUSION_CHAPTER11_EQUITY_NO_RECOVERY",
+      "detected_utc": "2026-11-02T19:05:29.581Z",
+      "summary": "[2026-11-03 KST 사후 확인, SEC 8-K 2026-11-02 09:21 EST 접수] Karyopharm은 Chapter 11 파산보호 신청 및 Ayrmid와 재편 후 합병 추진을 발표. 회사의 8-K는 제안된 사전협의 회생계획에서 기존 보통주 및 전환우선주 주주에 지급·분배가 없으며 기존 주식의 전액 손실을 예상한다고 명시. 합병/최대 $55M DIP 자금은 기존 주주의 수익 보장 아님. BTAIQ형 파산·기존 주주 권리 소멸 특별 예외로 매매 후보/TOP10 제외 경고(기존 1차 포착 이력은 보존, 희석/상장 위험에 따른 1차 신호 감점·재정렬 아님). 최신 시세·거래량·float/O/S·A/B/C/D 즉시공급 미확인.",
+      "source_url": "https://investors.karyopharm.com/sec-filings?cat=3",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-MIST-RAPID_PRIOR_ABLATION_SUBGROUP_DATA-20261102T130000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "MIST",
+      "category": "1차_기존3상RAPID하위집단_신규자료_가격단계미확정",
+      "detected_utc": "2026-11-02T19:05:29.581Z",
+      "summary": "[2026-11-03 KST 사후 발굴, 회사 2026-11-02 08:00 EST 발표] CARDAMYST(etripamil) RAPID 3상 과거 카테터 절제술 후 재발 PSVT 하위집단 11명: 30분 내 정상동율동 전환 약물 66.7%(6명 중 4명), 위약 20.0%(5명 중 1명). 탐색적/기술적 하위분석으로 집단 간 차이 검정에 필요한 통계적 검정력 없음; 새로운 3상 성공/신규 FDA 승인 아님. 11/7 AHA 발표 예정, 기존 10/19 일정 포착과 별개 실제 수치 공개. 1차 임상 뉴스 신호, 거래량 2/3/5/10/30/50배·5~15분봉/가격·저점방어 미확인, 급등 전 확정 아님. 2차 SEC 2026-06-30 10-Q: O/S 124,497,980(8/12), PFW 16,412,925, Cantor ATM 계약 존재하나 당시 0주 매각; 최신 float/잔여/실제 즉시매도 가능 C 미확인. 잠재공급과 즉시공급 구분, 1차 감점 없음.",
+      "source_url": "https://www.stocktitan.net/news/MIST/new-data-presented-at-aha-scientific-sessions-2026-demonstrate-that-rju97g4ubuvq.html",
       "verification": "PROVISIONAL"
     }
   ]
