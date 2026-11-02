@@ -1,61 +1,6 @@
 {
-  "updated_utc": "2026-11-02T20:09:45.889Z",
+  "updated_utc": "2026-11-02T20:29:16.948Z",
   "events": [
-    {
-      "id": "cn1-news-JZXN-labt-volume-surge-20261012T200000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "JZXN",
-      "category": "LABT_VOLUME_SURGE_REIGNITION_WATCH",
-      "detected_utc": "2026-10-27T12:16:09Z",
-      "summary": "지연 포착: 2026-10-12 정규장 거래량 6,258,432주 vs 10/09 189,330주 = 33.06배(전일 대비); 장중 $1.05~$1.24, 종가 $1.08(-2.70%)로 대량거래와 약세 동반(LABT형). 10/26 종가 $1.05(-1.87%), 거래량 약 2.7만주로 가속 지속 미확인. 1차 급락·대량거래 후 반등/재점화 관찰; 급등 전 확정 아님. 거래량/시세 제3자 종가 데이터, 분봉·저점방어·현재가 미확인. 2차 SEC: 과거 워런트·사모 발행 구조 존재하나 최신 float/O/S, ATM/ELOC/Resale/PIPE 및 실제 즉시 매도 가능한 공급 미확인; 잠재 D형 복합 요소, 전체 A/B/C/D 판정 보류. 위험으로 1차 포착 순위 변경 없음.",
-      "source_url": "https://stockanalysis.com/stocks/jzxn/history/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-early-AIOK-special-dividend-SEC6K-20261023",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ7.0",
-      "ticker": "AIOK",
-      "category": "SPECIAL_DIVIDEND_REIGNITION_AFTER_SPIKE",
-      "detected_utc": "2026-10-27T12:35:45Z",
-      "summary": "지연 포착: 2026-10-23 SEC 6-K에서 주당 $3.50 일회성 특별배당 선언 확인. 기준일 11/02, 지급 예상 11/25, due-bill 11/02~11/25, 배당락 예상 11/26. 10/23 종가 +182.82% 거래량 42,891,983주, 10/26 -23.79% 거래량 3,004,286주. 10/27 08:31 EDT 프리마켓 관측 $11.60(+26.64%), 실시간 연속 모니터링 아님. 배당 지급 및 주식배당 선택에 따른 실제 신규 발행은 미완료/미확인.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2095591/000114036126040608/ef20084229_ex99-1.htm",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "nasdaq7-early-DVLT-nonreliance-LABT-20261026T200100Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ7.0",
-      "ticker": "DVLT",
-      "category": "LABT_PREMARKET_DROP_FINANCIAL_RESTATEMENT_WATCH",
-      "detected_utc": "2026-10-27T12:35:45Z",
-      "summary": "2026-10-27 프리마켓 관측 $0.0789(-40.59%, 08:35 EDT) 및 프리마켓 거래량 약 2,108만 주(시점별 수치 차이 가능)로 급락·대량거래 동시 포착. 10/26 정규장 종가 $0.1328, 거래량 30,300,163주. 10/26 16:01 EDT SEC 8-K 관련 2차 자료에 2025~2026년 4개 기간 재무제표 신뢰불가 및 비트코인 회계 수정 필요성 기재. SEC 원문 직접 교차검증 미완료이므로 PROVISIONAL; 하락 원인 단정 금지.",
-      "source_url": "https://www.stocktitan.net/sec-filings/DVLT/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-early-MFIC-ARCC-merger-SEC8K-20261027T101215Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ7.0",
-      "ticker": "MFIC",
-      "category": "DEFINITIVE_MERGER_PREMARKET_GAIN",
-      "detected_utc": "2026-10-27T12:35:45Z",
-      "summary": "2026-10-27 06:12:15 EDT SEC 8-K에 10/26 체결한 ARCC-MFIC 확정 합병계약 확인. MFIC 주당 약 $10.88(현금 약 $1.21+ARCC 주식 약 $9.67, 특별배당 등에 따라 조정), 거래 기업가치 약 $2.6bn, 종결 목표 2027년 상반기(주주/규제 승인 필요). 10/27 08:10 EDT 프리마켓 관측 $10.29(+23.09%), 627,504주. 거래 종결과 실제 대금 지급은 미확인.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926118958/tm2628314d1_ex99-1.htm",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "cn1-prebreak-AXG-minute-volume-watch-20261027T125200Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "AXG",
-      "category": "VOLUME_FIRST_1MIN_PROVISIONAL",
-      "detected_utc": "2026-10-27T12:52:00Z",
-      "summary": "토스 수집 파일 2026-10-27 21:51:54 KST 갱신분에서 AXG 21:52 KST 표시 1분봉 거래량 331,230주, 시세 $0.0464 확인. 분봉 표시는 구간 종료시각일 수 있음. 전일/평균 대비 2·3·5·10·30·50배 가속 미검증. 1:200 주식병합 예정일 10/26 관련 시세·주식수 조정 여부 미확인으로 가격 비교 주의. 1차 거래량 선행/급락 후 반등 관찰 잠정 후보이며 급등 전·저점방어 확정 아님. 2차 SEC 공급 유형 및 실제 즉시 매도 가능 물량 미판정.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "nasdaq7-early-NEXR-keepzone-definitive-sale-20261027T121700Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5501,6 +5446,61 @@
       "detected_utc": "2026-11-02T20:09:43.344Z",
       "summary": "[2026-11-03 05:09 KST 지연 발굴; 2026-11-02 06:07 EST SEC 공시, 실시간 조기포착 아님] Yunji(YJ) TB Alternative Assets Ltd의 13G/A(수정 1호): 2026-09-30 기준 Class A 보통주 83,353,200주(ADS 208,383주 상당, 1 ADS=보통주 400주), 전체 발행 보통주 1,970,216,000주 대비 4.23% 보유로 5% 이하 구간 보고. 과거 2025년 신고 5.5%와 비교하면 보유비율 감소이나 실제 장내 매도 발생/규모 및 지분율 변동 원인(주식수 분모 변화 등)은 이 공시만으로 미확인. 이는 신규 M&A·자금조달·대량 매수·매도 확인이 아닌 수동적 지분 보유 신고 변경. [1차] 뉴스 신호 약함, 거래량 2/3/5/10/30/50배, 5~15분봉, 저점 방어, 급등 전/진행/급락 후 반등/재점화 단계 미확인; 기존 중국계 포착 순위 변경 없음. [2차] 2026-09-30 공시 O/S 1,970,216,000주(모든 클래스, 최신 시점 아님), Float 미확인. A 제한형·B 대기형·C 실제 즉시 매도 가능한 신규 공급·D 잠재형 모두 최신 잔량 미확인; 83,353,200주를 신규 발행 또는 즉시 매도 물량으로 오인하지 않음. 2차 위험으로 1차 후보 감점·삭제 없음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1759614/000119312526442524/xslSCHEDULE_13G_X02/primary_doc.xml",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CAMP-VOLUME_5M4P68_15M12P49-20261102T193500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7",
+      "ticker": "CAMP",
+      "category": "VOLUME_ACCEL",
+      "detected_utc": "2026-11-02T20:29:16.948Z",
+      "summary": "[2026-11-03 KST 지연 발굴, 실시간 포착 아님] 2026-11-02 19:44:09 UTC GitHub discovery_latest.json 50종목 순환배치(전체 시장 전수 아님): CAMP 19:35 UTC 기준 $3.805, 직전 15분 가격변화 -1.81%, 5분 자체 상대거래량 4.68배(11,541주), 10분 3.09배, 15분 12.49배(92,452주), 5분 가속지표 3.11. 기준 TODAY_PRIOR_30M, 비공식 무료 데이터·9분 지연 가능, 동시간대 보정 RVOL/거래소 원시체결 아님. 1차 거래량 선행 관찰(급등 전 확정 아님); 신규 당일 뉴스·저점방어·연속 가속 미확인. 2차 SEC 2026-08-13 10-Q O/S 62,753,200주(8/12), 8/12 S-3 효력발생, 8/04 사모 2차 종결 시 PFW 21,925,368개 발행; 최신 float/잔여 PFW/실제 즉시 매도 가능 공급 C 미확인. 공급 위험은 1차 감점/순위변경 없음. 매매 검토 별도.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-NEOV-VOLUME_5M3P48_10M2P54-20261102T194200Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7",
+      "ticker": "NEOV",
+      "category": "VOLUME_ACCEL",
+      "detected_utc": "2026-11-02T20:29:16.948Z",
+      "summary": "[2026-11-03 KST 지연 발굴, 실시간 포착 아님] GitHub discovery_latest.json 2026-11-02 19:42 UTC NEOV $2.005, 15분 가격변화 -0.99%, 5분 자체 상대거래량 3.48배(56,458주), 10분 2.54배, 15분 2.21배, 가속 2.17. 기준 TODAY_PRIOR_30M, 비공식 무료·지연 가능, 공식 RVOL/원시체결 아님. 1차 거래량 선행 관찰, 저점방어·새 호재 미확인. 2차 SEC 2026-09-23 10-K O/S 59,013,247주, 10/02 S-3는 대주주/대출기관 워런트 행사 주식 최대 1,454,545주 재판매 등록 초안(효력발생 및 현재 잔량 미확인), 워런트 행사가는 $3.30, 추가 대출시 최대 727,273주 추가 워런트 가능. 등록 예정 수량과 실제 즉시 매도 가능 물량 구분; float 및 A/B/C/D 최신 잔량 미확인. 공급 위험으로 1차 감점/삭제 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-ACDC-VOLUME_10M7P47_15M5P57-20261102T194200Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7",
+      "ticker": "ACDC",
+      "category": "VOLUME_ACCEL",
+      "detected_utc": "2026-11-02T20:29:16.948Z",
+      "summary": "[2026-11-03 KST 지연 발굴, 실시간 포착 아님] GitHub discovery_latest.json 2026-11-02 19:42 UTC ACDC $4.52, 15분 가격변화 +0.33%, 5분 자체 상대거래량 1.11배(17,172주)로 둔화, 10분 7.47배(231,161주), 15분 5.57배(258,398주), 5분 가속 0.08. 기준 TODAY_PRIOR_30M, 비공식 무료·지연 가능, 동일시간대 보정 RVOL 아님. 1차 거래량 선행 신호는 있으나 지속 확인 안 됨, 급등 전 확정/저점방어 미확인. 2차 SEC 2026-06-30 10-Q Class A O/S 182,122,762주(8/3), 전환우선주 보통주 약 310만주 전환가능(6/30), 최신 float·A/B/C/D 실제 즉시 공급 미확인. 공급 위험으로 1차 순위 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-REKR-VOLUME_15M3P63_DECEL-20261102T194300Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7",
+      "ticker": "REKR",
+      "category": "VOLUME_ACCEL",
+      "detected_utc": "2026-11-02T20:29:16.948Z",
+      "summary": "[2026-11-03 KST 지연 발굴, 실시간 포착 아님] GitHub discovery_latest.json 2026-11-02 19:43 UTC REKR $0.3212, 15분 가격변화 -0.40%, 15분 자체 상대거래량 3.63배(258,802주)였으나 10분 0.39배, 5분 0.23배(5,547주)로 둔화. 비공식 무료·지연 가능, 공식 시간대 RVOL 아님. 1차 과거 15분 거래량 이상 관찰, 현재 재가속/저점방어 미확인. 2차 SEC 2026-08-12 10-Q O/S 137,636,495주, 2025 ATM은 2025-08-12 자진 종료(현행 ATM이라고 오기 금지), 2026-06-30 워런트 12,902,528주 잠재형, float 및 실제 즉시 공급 C 미확인. 1차 위험 감점/삭제 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-SUPN-INDV_MERGER_COMPLETED-20261102T142800Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7",
+      "ticker": "SUPN",
+      "category": "M_AND_A",
+      "detected_utc": "2026-11-02T20:29:16.948Z",
+      "summary": "[2026-11-03 KST 지연 발굴; 2026-11-02 09:28 EST SEC 8-K 직접 대조] Supernus Pharmaceuticals(SUPN)와 Indivior(INDV) 합병은 2026-11-02 08:18 EST 실제 완료. 기존 SUPN 1주당 INDV 1.5401주 교환, INDV 기존 주주 56.5%/SUPN 43.5%(희석 기준), 기존 SUPN 법인 보통주는 상장종료하고 합병회사 Supernus Inc가 11/03부터 SUPN 티커 거래 예정(11/02에는 INDV). 기존 INDV 주주 특별배당 총 $1B, 합병법인 $650M 담보대출 실제 차입. 1차 M&A 완료 확정 이벤트 강함; 가격/거래량 2/3/5/10/30/50배·저점방어 미확인, 기존 급등 전 순위와 별도. 2차 주식교환 및 승계 RSU/옵션은 기존 권리 변환이며 전량 즉시 시장 매도 가능 신규 공급으로 계산하지 않음; 합병 후 최신 float/O/S·A 제한/B 대기/C 즉시/D 잠재 정확 잔량 미확인. 파산/주주권리 소멸 사례가 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926121014/tm2628719d1_8k.htm",
       "verification": "VERIFIED"
     }
   ]
