@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-02T20:29:16.948Z",
+  "updated_utc": "2026-11-02T20:32:11Z",
   "events": [
-    {
-      "id": "nasdaq7-early-NEXR-keepzone-definitive-sale-20261027T121700Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "NEXR",
-      "category": "M&A_ASSET_SALE_SPIKE_PROGRESS",
-      "detected_utc": "2026-10-27T13:16:27.253Z",
-      "summary": "2026-10-27 08:17 EDT 회사 발표: KeepZone AI 지분 전부를 방산·항공우주 기업에 매각하는 확정 계약 체결. 종결 시 현금 아닌 매수자 증권 $1m 수령 예정, 종결 후 24개월 누적 세후 순이익의 50%를 최대 $5m까지 조건부 현금 추가 수령. 총 $6m은 확정 현금·완료 매출 아님, 종결 미확인. StockTitan Argus 15분 지연 스냅샷 +52.11%, 상대거래량 4001.3배(기준·산식 미확인), 이미 급등 진행 분류; 현재가/분봉 미확인. 2차: 기존 PIPE·워런트/리셋 이력, 최신 float/O/S·실제 즉시 매도 가능한 공급 미확인, 잠정 D형 요소·최종 유형 보류. 매수자 pre-funded warrants는 NEXR 신주 공급으로 간주하지 않음. 1차 순위 희석 감점 없음. D+7 11/03, D+30 11/26. 회사 발표 확인, 신규 SEC 6-K 원문 미검증 PROVISIONAL.",
-      "source_url": "https://www.stocktitan.net/news/NEXR/nexera-technologies-signs-definitive-agreement-to-sell-keep-zone-ai-hytyek7poc14.html",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-early-LPTH-defense-drone-optics-order-20261027T123100Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "LPTH",
-      "category": "DEFENSE_ORDER_VOLUME_FIRST",
-      "detected_utc": "2026-10-27T13:16:27.253Z",
-      "summary": "2026-10-27 08:31 EDT LightPath 회사 발표: 방산 고객으로부터 드론 카메라용 광학 어셈블리 50,000개 초과 주문 수령. 고객명·계약금액 미공개, 매출 인식/납품 완료 미확인. StockTitan Argus 15분 지연 단일 관측 +5.92%, 상대거래량 3.3배(5일 RVOL과 동일하지 않음), 저점 방어·분봉 미확인. 1차 뉴스+거래량 초기 가속 관찰(급등 전 여부 잠정). 2차 SEC FY2026 10-K: 2026-09-08 O/S 70,036,252주, 2026-06-30 당시 기존 시리즈 G 워런트 전량 행사되어 잔여 0, 다만 이후 신규 공급 및 최신 float/즉시 매도가능 주식은 미확인. 공급 A/B/C/D 최종 보류, 1차 감점 없음. D+7 11/03, D+30 11/26. 회사 발표 확인, 해당 신규 주문의 SEC 8-K 직접 교차검증 전 PROVISIONAL.",
-      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/lightpath-technologies-secures-order-for-over-50-000-optical-asse-1242147",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "nasdaq7-early-BEAM-beam301-phase12-data-20261027T110000Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5502,6 +5480,28 @@
       "summary": "[2026-11-03 KST 지연 발굴; 2026-11-02 09:28 EST SEC 8-K 직접 대조] Supernus Pharmaceuticals(SUPN)와 Indivior(INDV) 합병은 2026-11-02 08:18 EST 실제 완료. 기존 SUPN 1주당 INDV 1.5401주 교환, INDV 기존 주주 56.5%/SUPN 43.5%(희석 기준), 기존 SUPN 법인 보통주는 상장종료하고 합병회사 Supernus Inc가 11/03부터 SUPN 티커 거래 예정(11/02에는 INDV). 기존 INDV 주주 특별배당 총 $1B, 합병법인 $650M 담보대출 실제 차입. 1차 M&A 완료 확정 이벤트 강함; 가격/거래량 2/3/5/10/30/50배·저점방어 미확인, 기존 급등 전 순위와 별도. 2차 주식교환 및 승계 RSU/옵션은 기존 권리 변환이며 전량 즉시 시장 매도 가능 신규 공급으로 계산하지 않음; 합병 후 최신 float/O/S·A 제한/B 대기/C 즉시/D 잠재 정확 잔량 미확인. 파산/주주권리 소멸 사례가 아님.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1356576/000110465926121014/tm2628719d1_8k.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7_CLOSE-EVGO-LSPOWER_CASH_TAKEPRIVATE_PROPOSAL_SEC13DA-20261102T123200Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "nasdaq7",
+      "ticker": "EVGO",
+      "category": "1차_MA_현금인수제안_2달러_SEC13DA_VERIFIED",
+      "detected_utc": "2026-11-02T20:32:11Z",
+      "summary": "[2026-11-03 05:32 KST, 11/02 15:32 EST 장마감 전 확인; 장마감 확정 시세 아님] 2026-11-02 07:32 EST SEC Schedule 13D/A(0001104659-26-120924) 검증: LS Power가 자신이 보유하지 않은 EVGO Class A 주식을 주당 현금 $2.00에 인수하는 비구속 제안서를 이사회에 전달. 제안 사실은 VERIFIED이나 확정 합병계약·이사회 승인·종결은 미확인, 제안 철회/변경 가능. LS Power 관계자 신고 의결권 56.81%는 2026-07-28 Class A/B 기준이며 최신 float가 아님. 11/02 15:00 EST 외부 시장 스냅샷 +48.42% 급등 진행, 종가/5~15분 연속 가속/저점 방어 미확인. 1차 M&A 뉴스·가격 신호 포착으로 기존 순위 위험 감점·삭제 없음. 2차 Class B 172.8m주 1:1 Class A 전환 가능 또는 회사 현금상환 가능 구조(D 잠재형), 이는 신규 즉시 매도 확정 공급이 아님; A 제한/B 대기/C 즉시 시장매도 공급·ATM/ELOC/PIPE/Resale/워런트 최신 잔량 미확인. 매매 적합성 별도.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1821159/000110465926120924/xslSCHEDULE_13D_X02/primary_doc.xml",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7_CLOSE-STAK-YAHOO5M_VOLUME_RATIO_37P63-20261102T202000Z",
+      "task": "NASDAQ 7.0 장마감 종합보고",
+      "radar": "china1",
+      "ticker": "STAK",
+      "category": "1차_5분거래량이상_급등전미확정_PROVISIONAL",
+      "detected_utc": "2026-11-02T20:32:11Z",
+      "summary": "[2026-11-03 05:32 KST, 11/02 15:32 EST 장마감 전 관측; 실시간 포착 아님] GitHub data.json 2026-11-02 20:30:20 UTC 수집본: STAK 20:20 UTC 5분봉 거래량을 직전 12개 양수 거래량 5분봉 기준과 비교한 비공식 자체 rvol5 37.63배, EARLY_PROVISIONAL, Yahoo unofficial 5m, bar_age 약 5.3분(수집 당시). 같은 시간대 과거일 대비 공식 RVOL 아님; 거래소 원시체결/분봉 연속가속/가격·저점방어·당일 뉴스 미확인. 중국계 1.0 1차 거래량 신호 관찰로 분리, 상승률/급등 전 여부 확정 불가. 2차 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장위험, A/B/C/D 공급과 즉시 매도 가능 잔량 미확인; 위험 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
