@@ -1,0 +1,18 @@
+{
+  "archived_utc": "2026-11-02T22:43:36Z",
+  "source_path": "gpt_monitor_events.json",
+  "reason": "500 record cap, preserve displaced events",
+  "events": [
+    {
+      "id": "중국계1.0급등전신호-MKDW-INTRADAY_CRASH_VOLUME-20261027T152936Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "MKDW",
+      "category": "LABT_INTRADAY_CRASH_VOLUME_WATCH",
+      "detected_utc": "2026-10-27T15:29:36Z",
+      "summary": "토스 수집본 GitHub 이력 비교: 2026-10-28 00:07 KST $0.4999에서 00:29:36 KST $0.3125로 약 -37.5% 가격 급락. 00:25 KST 표시 1분봉 거래량 159,678주, 00:30 KST 표시 분봉 7,523주. 1차 LABT형 급락+대량거래 잠정 포착, 저점 방어/반등 미확인. 2/3/5/10/30/50배 기준 대비 가속 미검증. 기존 10/26 MKDW 재점화·마감 기록과 구별되는 10/27 장중 신규 급락 신호. 2차 기존 ATM 최대 $100m 이력은 1차 순위에 미반영, 실제 즉시매도가능 공급/최신 float/O/S 및 A/B/C/D 최종 유형 미확인. 1분봉 시각은 구간 종료 표기일 수 있으며 초단위 연속 감시 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    }
+  ]
+}
