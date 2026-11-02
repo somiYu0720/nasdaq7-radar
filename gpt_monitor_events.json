@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-02T19:38:37.246Z",
+  "updated_utc": "2026-11-02T20:09:45.889Z",
   "events": [
     {
       "id": "cn1-news-JZXN-labt-volume-surge-20261012T200000Z",
@@ -243,17 +243,6 @@
       "detected_utc": "2026-10-27T11:00:00Z",
       "summary": "10/27 07:00 ET 회사 발표: 미국 FDA 및 호주 규제당국이 velinotamig의 ITP·wAIHA 대상 글로벌 1b/2a 임상 개시를 허용. 이는 임상 개시 허가이지 신약 판매 승인이 아님. Genrix Bio의 자가면역질환 임상 데이터는 11/08 ACR Convergence 발표 예정(기존 9/24 SEC 공시에도 일정 기재). 강도 중(규제 진전)+11/08 D+ 이벤트 관찰. 10/27 발표 SEC 원문 교차검증 전, 최신 가격·거래량 미확인.",
       "source_url": "https://investors.cullinantherapeutics.com/news-releases/news-release-details/cullinan-therapeutics-advances-velinotamig-global-clinical",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7.0-TNXP-TONMYA_PHASE3_FIQR_ANALYSIS-20261027T110000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "TNXP",
-      "category": "PHASE3_EXISTING_DATA_SECONDARY_ANALYSIS",
-      "detected_utc": "2026-10-27T11:00:00Z",
-      "summary": "10/27 07:00 ET 회사 발표: 이미 FDA 승인·판매 중인 TONMYA의 과거 3상 RELIEF/RESILIENT FIQR 증상·기능 분석 학회 발표. RESILIENT 14주차 p≤0.001, RELIEF는 다중검정 계층상 명목상 유의성 p<0.01. 신규 3상 톱라인이나 신규 FDA 승인 아님. 호재 강도 중·재평가 이벤트. 최신 거래량·가격 미확인, SEC 당일 공시 미교차검증으로 PROVISIONAL.",
-      "source_url": "https://www.stocktitan.net/news/TNXP/tonix-pharmaceuticals-presented-an-analysis-of-phase-3-data-15nurbdz000p.html",
       "verification": "PROVISIONAL"
     },
     {
@@ -5501,6 +5490,17 @@
       "detected_utc": "2026-11-02T19:38:37.246Z",
       "summary": "[2026-11-03 KST 사후 확인; 2026-11-02 06:11 EST SEC 6-K, 조기포착 성공 아님] NetEase(NTES)가 10/27·28·29·30 나스닥에서 보통주 43,420·44,525·44,900·44,010주 합계 176,855주(ADS 수량 아님)를 약 US$3990030.10에 실제 자사주 매입, 소각하지 않고 treasury shares로 보유. 11/02는 SEC 공시일이지 신규 매입일 아님. 10/30 보통주 O/S(자기주식 제외) 3,201,475,296주, treasury 10,580,360주, 전체 발행 3,212,055,656주(회사 6-K 기준, 최신 Float 별도 미확인). 매입 규모는 O/S 약 0.0055%로 작고 신규 대규모 자사주매입 승인·매수 급증 호재 아님. [1차] 확정된 과거 매입 실행 공시 뉴스 강도 약함; 거래량 2/3/5/10/30/50배 가속, 5~15분봉·가격/저점방어/재점화 미확인; 기존 중국계 TOP10 신호 순위 변경·위험 감점 없음. [2차] A 제한형 신규 락업 잔량 미확인, B 대기형 향후 자기주식 재판매 가능 여부/시점·다른 resale/ATM/ELOC/PIPE 잔량 미확인, C 즉시 매도 가능한 신규 공급 확인되지 않음(0주 확정 아님), D 잠재형 종업원 주식보상 관련 발행예약 7,508,925주 기재(실제 즉시 시장매도 아님), 워런트·전환 최신 잔량 미확인. 이번 매입 물량을 향후 신규 발행/즉시 매도 공급으로 중복 계산 금지. 매수 적합성·손익비 별도.",
       "source_url": "https://ir.netease.com/static-files/671e2241-4005-48d7-95e8-6ca9be0fc571",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-YJ-TBALT_13GA_BELOW5-20261102_DATEONLY",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "YJ",
+      "category": "2차_SEC_13GA_5PCT_THRESHOLD_OWNERSHIP_UPDATE",
+      "detected_utc": "2026-11-02T20:09:43.344Z",
+      "summary": "[2026-11-03 05:09 KST 지연 발굴; 2026-11-02 06:07 EST SEC 공시, 실시간 조기포착 아님] Yunji(YJ) TB Alternative Assets Ltd의 13G/A(수정 1호): 2026-09-30 기준 Class A 보통주 83,353,200주(ADS 208,383주 상당, 1 ADS=보통주 400주), 전체 발행 보통주 1,970,216,000주 대비 4.23% 보유로 5% 이하 구간 보고. 과거 2025년 신고 5.5%와 비교하면 보유비율 감소이나 실제 장내 매도 발생/규모 및 지분율 변동 원인(주식수 분모 변화 등)은 이 공시만으로 미확인. 이는 신규 M&A·자금조달·대량 매수·매도 확인이 아닌 수동적 지분 보유 신고 변경. [1차] 뉴스 신호 약함, 거래량 2/3/5/10/30/50배, 5~15분봉, 저점 방어, 급등 전/진행/급락 후 반등/재점화 단계 미확인; 기존 중국계 포착 순위 변경 없음. [2차] 2026-09-30 공시 O/S 1,970,216,000주(모든 클래스, 최신 시점 아님), Float 미확인. A 제한형·B 대기형·C 실제 즉시 매도 가능한 신규 공급·D 잠재형 모두 최신 잔량 미확인; 83,353,200주를 신규 발행 또는 즉시 매도 물량으로 오인하지 않음. 2차 위험으로 1차 후보 감점·삭제 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1759614/000119312526442524/xslSCHEDULE_13G_X02/primary_doc.xml",
       "verification": "VERIFIED"
     }
   ]
