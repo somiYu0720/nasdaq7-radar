@@ -1,83 +1,6 @@
 {
-  "updated_utc": "2026-11-02T16:44:44Z",
+  "updated_utc": "2026-11-02T16:49:14Z",
   "events": [
-    {
-      "id": "nasdaq7-STKH-volume-labt-20261026T200000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "STKH",
-      "category": "급락 후 반등 관찰·거래량 이상",
-      "detected_utc": "2026-10-27T06:40:36Z",
-      "summary": "10/26/2026 정규장 거래량 16,638,504 ADS vs 직전 5거래일(10/19~23) 평균 140,801.6 ADS=118.17배. 종가 $0.40(-0.55%), 장중 $0.30~$0.43, 10/23 -20.87% 이후 LABT형 급락·대량거래 관찰. 저점 방어·분봉·상승 직접 원인 미확인. 2차 SEC 10/05 6-K/424B5: ATM 발행한도 최대 $4,036,262; 8월 F-3/A 재판매 최대 5,372,500 ADS(워런트 행사 조건) 구조. 실제 즉시 매도 가능 공급, 행사/매도 잔량, 최신 float/O/S 및 등록 효력 미확인. 잠정 D형 복합 공급 요소+ATM C형 요소, 전체 공급 유형 확정 보류. 2차 위험으로 1차 순위 감점 없음. 거래량은 제3자 종가 데이터로 SEC 직접 검증 대상이 아니므로 PROVISIONAL.",
-      "source_url": "https://stockanalysis.com/stocks/stkh/history/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-PLUR-zeo-definitive-agreement-20261026T110022Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "PLUR",
-      "category": "M&A 확정계약·급등 진행",
-      "detected_utc": "2026-10-27T06:40:36Z",
-      "summary": "10/26/2026 07:00:22 EDT SEC 8-K(상대방 ZEO ScientifiX)에서 Pluri-ZEO 미국 재생의료 제조·상업화 확정 전략계약 발표 확인. 조건 충족 시 Pluri가 ZEO 지분 50% 취득 예정, 2026 Q4 종결 목표; 현재 종결·매출 실현 미확인. 10/26 PLUR 정규장 490,328주 vs 10/19~23 평균 30,460.2주=16.10배, 종가 $1.12(+13.13%), 장중 $0.96~$1.36; 시간외 하락 및 저점방어 미확인. 2차 SEC: 10/06 S-1에 2,228,940주 워런트 관련 재판매 등록, 10/15 EFFECT 보고 있으나 워런트는 발행 후 6개월부터 행사 가능; 별도 선납 워런트 1,028,940주 즉시 행사 가능 구조, 10/20 신규 주식·워런트 계약 이력. 잠재 공급 D형 요소·실제 즉시 매도 가능한 잔량과 최신 float/O/S 미확인. 2차 위험으로 1차 순위 감점 없음. VERIFIED는 ZEO SEC 8-K의 계약 발표 사실에 한정, 주가 원인/실제 종결 검증 아님.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1557376/000182912626011497/0001829126-26-011497-index.htm",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "nasdaq7-VOR-teligan-phase3-104week-results-20261022T200500Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "VOR",
-      "category": "임상 3상 주요 결과·지연 포착·이벤트 후 관찰",
-      "detected_utc": "2026-10-27T08:04:43.578Z",
-      "summary": "10/22 16:05 EDT 회사 발표: 중국 TELIGAN 3상 104주 분석에서 eGFR slope -0.6 vs -5.7, 차이 5.1(p<0.001). 10/26 주가 +0.38%, 거래량 5일 평균 약 0.61배. 최신 SEC 공급 구조 미검증. 회사 공식 발표 확인, SEC 교차검증 전.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/22/3386893/0/en/telitacicept-demonstrates-durable-preservation-of-kidney-function-through-two-years-in-phase-3-teligan-trial-in-iga-nephropathy.html",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-ENTA-resolve-phase2b3-first-dose-20261026T110000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "ENTA",
-      "category": "거래량 2배 이상·임상 2b/3 첫 투약·급등 전 관찰",
-      "detected_utc": "2026-10-27T08:04:43.578Z",
-      "summary": "10/26 07:00 EDT 회사 발표: RSV 치료제 zelicapavir RESOLVE 임상 2b/3 첫 환자 투약, 2b 주요 결과 2027년 예정. 10/26 거래량 440,615주, 직전 5거래일 평균 210,803주 대비 약 2.09배; 종가 $12.00(+3.09%). SEC 교차검증 전.",
-      "source_url": "https://ir.enanta.com/news-releases/news-release-details/enanta-pharmaceuticals-announces-first-patient-dosed-resolve",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-PROK-kol-corporate-update-20261022T124500Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "PROK",
-      "category": "10/27 예정 임상 연구·기업 업데이트·사전 이벤트 관찰",
-      "detected_utc": "2026-10-27T08:04:43.578Z",
-      "summary": "10/22 08:45 EDT 회사 발표: 10/27 10:30 EDT(한국 23:30) 릴파렌셀 신장 질환 연구 결과 설명 및 기업 업데이트 KOL 행사 예정. 10/26 종가 $1.36(-3.55%), 거래량 5일 평균 약 0.90배. 임상 3상 결과 발표 행사로 확인된 것은 아님. SEC 교차검증 전.",
-      "source_url": "https://investors.prokidney.com/news-releases/news-release-details/prokidney-host-virtual-kol-event-recap-mechanism-action-data",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-early-BRBI-labt-volume-20261026T200000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "BRBI",
-      "category": "LABT형 급락·대량거래·급락 후 반등 관찰",
-      "detected_utc": "2026-10-27T08:39:12.529Z",
-      "summary": "지연 포착: 2026-10-26 정규장 BRBI 종가 약 $9.85(-34.63%), 거래량 20,883주. 직전 거래기록 5개(10/23·22·21·16·13) 평균 2,370.4주 대비 약 8.81배. 거래일 공백과 절대 거래량이 매우 적어 신호 신뢰도 주의. 저점 방어·분봉·급락 직접 원인 미확인. SEC 최신 float/O/S·ATM·ELOC·Resale·PIPE·워런트·전환 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 공급유형 판정 보류. 2차 위험으로 1차 포착 순위 감점 없음. 가격·거래량은 제3자 데이터로 SEC 검증 전 PROVISIONAL.",
-      "source_url": "https://stockanalysis.com/stocks/brbi/history/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-early-ICMB-volume-reignite-20261026T200000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "ICMB",
-      "category": "거래량 5배 이상·연속 상승·재점화 관찰",
-      "detected_utc": "2026-10-27T08:39:12.529Z",
-      "summary": "지연 포착: 2026-10-26 정규장 ICMB 거래량 908,259주 vs 10/19~23 평균 110,302.2주=약 8.23배, 종가 약 $0.73(+4.36%); 10/23 종가 $0.70(+7.66%), 거래량 406,257주. 10/26 장중 $0.72~$0.86, 장중 고점 대비 종가 밀림. 4월 전략적 대안 검토 공시는 과거 이벤트로 당일 거래량의 직접 원인 확인 안 됨. 저점 방어·분봉 미확인. SEC 최신 float/O/S·ATM·ELOC·Resale·PIPE·워런트·전환 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 판정 보류. 위험으로 1차 순위 감점 없음. 가격·거래량 제3자 데이터로 PROVISIONAL.",
-      "source_url": "https://stockanalysis.com/stocks/icmb/history/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "cn1-news-MASK-volume-surge-20261019T200000Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5502,6 +5425,83 @@
       "summary": "[2026-11-03 01:44 KST 지연 발굴; 원발표 2026-11-02 08:00 EST=13:00 UTC, 조기포착 성공 아님] Baird Medical Investment Holdings(BDMD, 중국 의료기기사업)의 중국 자회사 Nanjing Changcheng Medical Equipment가 China Resources Pharmaceutical Commercial Group Medical Devices와 중국 19개 시장의 지정 MWA 제품 독점 유통계약 체결을 11/2 기업 보도자료로 발표. 계약 체결 시 초기 주문 약 RMB 6,000,000(회사 환산 약 US$900,000) 접수 발표. 계약·주문은 회사 발표 기준이며 SEC 6-K 및 상대방 독립 대조 미완료, 출하·매출 인식·현금 수령·후속 주문 확정 아님. [1차 독립] 구체적 초기 주문이 있는 유통계약 뉴스 신호 강함. StockTitan Argus 15분 지연 동적 페이지에 전일 대비 약 -24.06%, 상대거래량 4407.9배(제공업체 자체 비교기준, 시각/분모 미확인) 및 장중 저가 약 $0.07·고가 약 $0.31 표기; 가격·거래량은 거래소 원시시세가 아니며 같은 시각 동기화 여부 미확인. 급락+대량거래 동시 발생 LABT형 '급락 후 반등 관찰' 잠정 분류, 반등/저점방어 확정 아님. 2/3/5/10/30/50배 5~15분 연속 가속 및 정확한 현 시세 미확인. 1차 위험 감점/배제/순위 변경 없음. [2차 SEC 별도] 2026-09-24 424B5 원문: $4,347,826 선순위 8% OID 전환채, 전환가 $0.9842 또는 조건부 최근 7거래일 최저 VWAP의 92%(디폴트 시 85%), 당시 바닥가격 $0.158, 바닥가 기준 최대 27,517,886주 잠재 전환, 9.99% 실질보유 상한. 2026-08-18 424B3 원문: 기존 보유자 재판매 등록 최대 34,415,562주, 공모워런트 행사 시 신규발행 최대 11,500,000주(행사가 $11.50); 두 수치는 이미 자유매도 완료·현재 잔량 확정치가 아님. 2026-09-24 424B5 당시 O/S 32,002,370주 및 2026-08-10 비계열사 보유 17,055,006주 기재(최신 O/S/Float 아님); 10/01 13G는 09/24 O/S 33,612,440주 기준으로 시점 상이. A 제한형 락업 잔량 미확인, B 대기형 기존 Resale 효력·실제 잔량/매도자별 제한 미확인, C 즉시형 지금 자유매도 가능한 신규 물량 미확인, D 잠재형 전환채 최대 27,517,886주 및 워런트 최대 11,500,000주(서로 다른 상품, 최신 행사·잔량 미확인). 34,415,562주 재판매 등록은 새로운 발행주식수로 중복 합산 금지. ATM/ELOC/PIPE 최신 계약·사용/잔여 및 상장요건 최신 상태 미확인. 매수 적합성·손익비 별도, 2차 위험으로 1차 순위 재정렬/삭제 금지. 신규 보도자료 SEC 직접 검증 미완료이므로 PROVISIONAL. SEC 과거 https://www.sec.gov/Archives/edgar/data/1982444/000110465926110394/tm2625824-1_424b5.htm ; https://www.sec.gov/Archives/edgar/data/1982444/000110465926098135/tm2623477-1_424b3.htm",
       "source_url": "https://www.stocktitan.net/news/BDMD/baird-medical-and-china-resources-pharmaceutical-commercial-group-mxq7c1vsq2b5.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-QURE-FDA_BLA_PRIORITY_REVIEW-20261102T120500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "QURE",
+      "category": "FDA_EVENT",
+      "detected_utc": "2026-11-02T16:49:14Z",
+      "summary": "[2026-11-03 01:49 KST 지연 발견, 실시간 조기포착 아님] uniQure(QURE) 2026-11-02 07:05 EST 공식 발표: Huntington 치료 후보 ifezuntirgene inilparvovec(AMT-130)의 BLA FDA 접수·우선심사 부여. PDUFA 목표 2027-05-01. FDA 최종 승인 아님. 1차 뉴스 이벤트 강함; 가격/거래량 분봉 미확인. 2차 float/O/S 및 즉시 매도 공급 미확인.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3393020/0/en/uniqure-announces-fda-acceptance-and-priority-review-of-the-biologics-license-application-for-ifezuntirgene-inilparvovec-for-the-treatment-of-huntington-s-disease.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-RBNE-SPECIAL_DIVIDEND_DUE_BILL-20261102T140500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "RBNE",
+      "category": "CAPITAL_EVENT",
+      "detected_utc": "2026-11-02T16:49:14Z",
+      "summary": "[2026-11-03 01:49 KST 지연 발견, 실시간 조기포착 아님] Robin Energy(RBNE) 2026-11-02 SEC 6-K 확인: 주당 $0.10 일회성 현금 특별배당. 기준일 11/16, 지급 예상 11/20, due-bill 11/16~20, 배당락 11/23. 회사 발표 기준 10/30 O/S 48,243,450주, float 미확인. Toss 1분봉 부분 수집 11/03 01:49 KST 가격 $0.17005·거래량 336,576주, 미완성 가능; RVOL·연속 가속 검증 아님. 1차 이벤트·가격 이상 관찰, 2차 공급 A/B/C/D 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2039060/000114036126041452/ef20084759_6k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-LITE-MRVL_DEFINITIVE_ALL_STOCK_MERGER-20261102T120500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "LITE",
+      "category": "M&A",
+      "detected_utc": "2026-11-02T16:49:14Z",
+      "summary": "[2026-11-03 01:49 KST 지연 확인; 10/28 기존 인수설과 구분] Lumentum(LITE)·Marvell(MRVL) 2026-11-02 공식 발표 및 MRVL SEC 8-K: 확정 합병계약(서명 11/01), LITE 1주당 MRVL 4.500주 교환, 10/28 기준 기업가치 약 $115B, 2028 상반기 종결 목표. 주주·규제 승인 미완료. 1차 확정 M&A 강함, 2차 주식대가에 따른 미래 공급 구조는 합병 후 발행 예정이며 현재 즉시매도 공급과 구분. 실시간 거래량/분봉 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-KEQU-NYCOM_ACQUISITION_AGREEMENT-20261102T140000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "KEQU",
+      "category": "M&A",
+      "detected_utc": "2026-11-02T16:49:14Z",
+      "summary": "[2026-11-03 01:49 KST 지연 발견] Kewaunee Scientific(KEQU) 2026-11-02 SEC 8-K: NYCOM 인수 확정 계약 체결, 기본가 $55M(현금 $30M, 후순위 매도자어음 $20M, 신규 보통주 $5M), 회계연도 2027년 4분기 종결 목표. 1차 M&A 이벤트 강함; 2차 A 제한형: 합병 대가 신규 주식 12개월 락업, D 잠재형: 인재 유지용 2년 cliff-vesting 주식; C 즉시 매도 물량 미확인. 최신 float/O/S 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/55529/000119312526442777/d349762d8k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-NTHI-SNO_NEO100_NEO212_POSTERS-20261102T130000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "NTHI",
+      "category": "CLINICAL_EVENT",
+      "detected_utc": "2026-11-02T16:49:14Z",
+      "summary": "[2026-11-03 01:49 KST 지연 발견] NeOnc Technologies(NTHI) 2026-11-02 08:00 EST 공식 발표: 11/13 SNO 학회에서 NEO100 임상 1/2a 업데이트와 NEO212 임상 1상 안전성·PK 초기 자료 2건 포스터 발표 예정. 확정 효능·임상 3상 성공 아님. 1차 임상 일정 중간; 가격/거래량 가속 미확인. 2차 float/O/S·ATM·워런트·즉시 공급 미확인.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3393097/0/en/neonc-technologies-to-present-data-from-its-neo100-and-neo212-programs-at-the-31st-annual-meeting-of-the-society-for-neuro-oncology.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BIVI-LONG_COVID_BIOMARKER_NOV13-20261102T140000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "BIVI",
+      "category": "CLINICAL_EVENT",
+      "detected_utc": "2026-11-02T16:49:14Z",
+      "summary": "[2026-11-03 01:49 KST 지연 발견] BioVie(BIVI) 2026-11-02 09:00 EST 공식 발표: 11/13 Long COVID 국제학회에서 bezisterim 2상 ADDRESS-LC 연구의 미공개 바이오마커 데이터 구두발표 예정. 탐색적 하위집단 결과는 확증적 임상 성공이 아님. 1차 임상 일정 중간; 가격/거래량 가속 미확인. 2차 float/O/S·공급 유형 미확인.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3393209/0/en/biovie-selected-for-late-breaking-oral-presentation-of-bezisterim-long-covid-data-at-the-4th-long-covid-international-conference-2026.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-NRSN-PRIMEC_CANADA_NDS_REVISED_MAR2027-20261102T145300Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7.0",
+      "ticker": "NRSN",
+      "category": "REGULATORY_TIMELINE",
+      "detected_utc": "2026-11-02T16:49:14Z",
+      "summary": "[2026-11-03 01:49 KST 지연 발견] NeuroSense(NRSN) 2026-11-02 SEC 6-K: PrimeC 캐나다 NDS 제출 목표를 2026년 12월에서 2027년 3월로 변경, 신규 NfL 분석·미공개 2b 데이터 추가 계획. 허가 승인·제출 완료 아님. 1차 규제 일정 변동 뉴스(호재 확정 아님); 2차 공급 A/B/C/D·float/O/S 미확인. 기존 10/29 NEALS 학회 이벤트와 별개.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1875091/000121390026114732/ea0310480-6k_neurosense.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
