@@ -1,0 +1,18 @@
+{
+  "archived_utc": "2026-11-02T01:14:33Z",
+  "source_file": "gpt_monitor_events.json",
+  "reason": "active 500 record cap; preserve original events before FFR addition",
+  "events": [
+    {
+      "id": "nasdaq7-RENT-volume-rights-offering-close-20261026T201600Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "RENT",
+      "category": "거래량 10배 이상 가속·재점화·권리공모 종결 SEC 8-K",
+      "detected_utc": "2026-10-26T21:24:34Z",
+      "summary": "10/26 종가 $2.82(+22.61%), 거래량 26,015,926주, 직전 5거래일(10/19~23) 평균 1,427,719주 대비 18.22배; 10/23에도 669.7만주 거래로 재점화/급등 진행 관찰, 급등 전 아님. 10/26 16:16 EDT SEC 8-K: 10/20 $15m 권리공모 완료, 구독 2,501,262주 약 $8.9m, 10/21 미청약 백스톱 1,724,089주 $3.55/주 약 $6.1m; 두 물량은 중복 계산 금지. 투자자그룹 인수 2,495,391주+백스톱 1,724,089주는 4(a)(2) 발행으로 실제 즉시 매도 가능 여부 미확인. 기존 $40m ATM(실제 판매 한도 별도)과 신규 발행주식의 현재 매도 가능 물량 구분, 전체 A/B/C/D 판정 보류(ATM만 C형 잠정 검토), 최신 float/O/S·분봉·저점 방어 미확인. 위험은 1차 순위 미반영. 8-K는 16:16 EDT 장마감 후 제출되어 정규장 급등의 직접 원인으로 단정 불가.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1468327/000095010326016172/dp255517_8k-1.htm",
+      "verification": "VERIFIED"
+    }
+  ]
+}
