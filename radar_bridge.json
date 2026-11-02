@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T14:12:11.908323+00:00",
-  "source_updated_utc": "2026-11-02T14:12:11.773819+00:00",
+  "generated_utc": "2026-11-02T14:13:31.617732+00:00",
+  "source_updated_utc": "2026-11-02T14:13:31.355199+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T23:12:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -469,7 +483,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T23:12:00+09:00",
+      "bar_time": "2026-11-02T23:13:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -539,7 +553,7 @@
       "ticker": "GCDT",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T23:12:00+09:00",
+      "bar_time": "2026-11-02T23:13:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -623,7 +637,7 @@
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T23:12:00+09:00",
+      "bar_time": "2026-11-02T23:13:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -763,7 +777,7 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "RETO",
+      "ticker": "BAOS",
       "signal": "REVIEW",
       "rvol5": null,
       "bar_time": "2026-11-02T23:12:00+09:00",
@@ -779,10 +793,18 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
+      "ticker": "RETO",
+      "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": null,
+      "bar_time": "2026-11-02T23:13:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
       "china_verified": false,
       "classification": "PENDING"
     },
