@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T14:03:56.790705+00:00",
-  "source_updated_utc": "2026-11-02T14:03:56.656160+00:00",
+  "generated_utc": "2026-11-02T14:05:00.089673+00:00",
+  "source_updated_utc": "2026-11-02T14:04:59.996561+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T23:04:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -522,6 +536,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "GCDT",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T23:04:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "IAM",
       "signal": "조회 실패",
       "rvol5": null,
@@ -578,6 +606,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T23:04:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "PRSO",
       "signal": "REVIEW",
       "rvol5": null,
@@ -595,7 +637,7 @@
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T23:03:00+09:00",
+      "bar_time": "2026-11-02T23:04:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -763,10 +805,42 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T23:04:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T23:04:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T23:03:00+09:00",
+      "bar_time": "2026-11-02T23:04:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -791,14 +865,6 @@
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
       "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
       "china_verified": false,
       "classification": "PENDING"
     },
@@ -849,14 +915,6 @@
       "bar_time": null,
       "china_verified": false,
       "classification": "PENDING"
-    },
-    {
-      "ticker": "PLAG",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
     }
   ],
   "china_unverified": [
@@ -897,6 +955,7 @@
     "DAVI",
     "FCDH",
     "FLSC",
+    "GCDT",
     "IAM",
     "IPHX",
     "LYCA",
