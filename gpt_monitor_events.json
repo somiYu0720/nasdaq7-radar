@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T06:48:27.921Z",
+  "updated_utc": "2026-11-02T07:42:56Z",
   "events": [
-    {
-      "id": "cn1-prebreak-CLIK-volume-labt-20261023T200000Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "중국계 1.0",
-      "ticker": "CLIK",
-      "category": "거래량 50배 이상 선행·급락 대량거래 LABT형·급락 후 반등 관찰",
-      "detected_utc": "2026-10-27T00:35:35.363Z",
-      "summary": "지연 발견: 2026-10-22 정규장 거래량 4,435,649주 vs 10/21 30,694주=약 144.52배, 종가 $1.29(+10.26%). 10/23 거래량 13,142,812주 vs 전일 4,435,649주=약 2.96배, 종가 $0.88(-31.78%); 급락+대량거래 LABT형. 10/26 종가 $0.7682(-12.70%), 거래량 361,412주로 신규 가속 아님. 반등·저점방어·분봉 미확인. 급등 전 PRE 아님, 급락 후 반등 관찰. 공급 위험으로 1차 순위 감점 없음. 10/23 회사 실적 발표는 별도 SEC 검증.",
-      "source_url": "https://stockanalysis.com/stocks/clik/history/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "cn1-prebreak-CLIK-fy2026-results-6k-20261023",
       "task": "중국계 1.0 급등 전 신호",
@@ -5502,6 +5491,17 @@
       "summary": "[2026-11-02 KST 신규 공개발표 확인; 회사 보도자료 발표 2026-11-02 10:00 CST=02:00 UTC, 시세 조기포착 아님] Tiger Brokers/UP Fintech(TIGR)는 국제 라이선스 시장의 Tiger Trade 앱에서 미국 개별주식 옵션 24종목에 대한 미국 정규장 전(07:30~09:25 ET) 및 마감 직후(16:00~16:15 ET) 거래 서비스 출시를 발표. 싱가포르 자회사는 2026-11-09 서비스 개시 예정이라고 별도 발표. 회사 설명상 2026Q2 옵션·선물 거래계약 26.3m(+17.3% YoY), 신규 서비스의 추가 수익·매출액·확정 신규 고객 수는 미공개. [1차 독립] 사업 서비스 확대 뉴스 신호 중간 이하(매출·주가 영향 미검증). 최신 주가·거래량 2/3/5/10/30/50배 가속, 5~15분봉 저점방어, 과매도/급락/재점화 미확인; 급등 전/급등 진행/급락 후 반등/재점화 가격 단계 미확정, 기존 중국계 TOP10 순위 변경 없음. [2차 별도] 최신 SEC 6-K 직접 대조 미완료, float/O/S·현금런웨이·ATM/ELOC/PIPE/Resale·워런트/전환·상장위험 미확인. A 제한형, B 대기형, C 실제 즉시 매도 가능한 신규 공급, D 잠재형 모두 잔여 수량 미확인. 잠재 희석과 즉시 공급 혼동 금지. 2차 위험으로 1차 후보 감점/삭제/재정렬 금지. 손익비 별도. 공식 기업 보도자료이나 SEC 미검증으로 PROVISIONAL.",
       "source_url": "https://www.prnewswire.com/apac/news-releases/tiger-brokers-brings-extended-hours-us-options-trading-to-investors-worldwide-302925132.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-CPHI-2026_AGM_REVERSE_SPLIT_EQUITY_PLAN_PRE14A-20261030_DATE_ONLY",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "CPHI",
+      "category": "사전공시·주총·주식병합/주식보상 한도 확대안",
+      "detected_utc": "2026-11-02T07:42:56Z",
+      "summary": "[2026-11-02 KST 지연 신규 발굴; 원 SEC PRE 14A 제출일 2026-10-30(정확한 접수 시각 미확인), 실시간 조기포착 아님] 중국계 China Pharma Holdings(CPHI, NYSE American)는 2026-12-22 08:00 EST(한국 12/22 22:00 KST) 주주총회에서 최대 1:50 주식병합 승인안 및 2010 장기주식보상계획 발행가능 한도 569,600주→8,603,800주(+8,034,800주) 확대안을 표결할 예정. 11/02는 의결권 기준일. 10/30 PRE 14A는 예비 위임장으로, 안건은 아직 승인/실행되지 않음. 주식보상 한도 확대는 즉시 발행 또는 매도 가능한 물량이 아님. SEC 2026-08-11 기준 O/S 43,022,002주, 최신 Float·ATM·Resale·즉시 매도 가능 공급 미확인. 1차 거래량 2/3/5/10/30/50배·분봉·저점방어 미확인; 포착 순위 변경 없음. 2차 위험은 별도 분리.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1106644/000121390026114445/ea0310270-pre14a_chinapharma.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
