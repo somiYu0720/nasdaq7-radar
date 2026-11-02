@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T02:59:57.633993+00:00",
-  "source_updated_utc": "2026-11-02T02:59:57.555511+00:00",
+  "generated_utc": "2026-11-02T03:01:12.639552+00:00",
+  "source_updated_utc": "2026-11-02T03:01:12.550773+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T12:01:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -469,7 +483,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T11:58:00+09:00",
+      "bar_time": "2026-11-02T12:00:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -749,10 +763,10 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "DXF",
+      "ticker": "BAOS",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T11:59:00+09:00",
+      "bar_time": "2026-11-02T12:01:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -765,10 +779,18 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
+      "ticker": "DXF",
+      "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": null,
+      "bar_time": "2026-11-02T11:59:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
       "china_verified": false,
       "classification": "PENDING"
     },
