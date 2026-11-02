@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-02T16:49:14Z",
+  "updated_utc": "2026-11-02T18:07:47.760Z",
   "events": [
-    {
-      "id": "cn1-news-MASK-volume-surge-20261019T200000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "MASK",
-      "category": "거래량 초가속·급등 진행 후 하락·재점화 관찰",
-      "detected_utc": "2026-10-27T09:11:27.209Z",
-      "summary": "지연 포착: 2026-10-19 정규장 MASK 거래량 76,896,036주 vs 10/16 57,527주=약 1,336.7배, 종가 +15.77%. 10/26 종가 $0.7272(-12.39%), 거래량 약 281,317주로 대량거래 지속은 확인되지 않음. 거래량과 종가는 제3자 일별자료이며 분봉·저점 방어·당일 급증 직접 원인 미확인. 급등 전 확정이 아니라 급등 진행 이력/급락 후 반등·재점화 관찰. 공급 위험은 2차 별도, 1차 포착 감점 없음.",
-      "source_url": "https://stockscan.io/stocks/MASK/price-history",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "cn1-news-MASK-hardware-contract-delivery-20261021T180000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "MASK",
-      "category": "약 500만달러 하드웨어 계약·초도 출하·후속 매출 일정",
-      "detected_utc": "2026-10-27T09:11:27.209Z",
-      "summary": "지연 포착: 회사가 2026-10-21 14:00 EDT 약 $5.0m 기업용 메모리·데이터센터 저장장치 공급계약 체결 발표, 10/22 07:50 EDT 첫 물량 출하 개시 발표. 향후 분기별 추가 납품 및 단계적 매출 인식 예상(매출 전액 실현·대금 회수 미확인). 회사 발표 검증, SEC 계약 원문 교차검증 전 PROVISIONAL. 1차 뉴스·이벤트 신호, 가격 재점화 미확인. D+7 10/28, D+30 11/20.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/21/3385821/0/en/3-e-network-announces-the-signing-of-an-approximately-5-0-million-core-storage-hardware-sales-contract.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "cn1-news-MASK-private-placement-split-20261023-000118518526004968",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5502,6 +5480,28 @@
       "summary": "[2026-11-03 01:49 KST 지연 발견] NeuroSense(NRSN) 2026-11-02 SEC 6-K: PrimeC 캐나다 NDS 제출 목표를 2026년 12월에서 2027년 3월로 변경, 신규 NfL 분석·미공개 2b 데이터 추가 계획. 허가 승인·제출 완료 아님. 1차 규제 일정 변동 뉴스(호재 확정 아님); 2차 공급 A/B/C/D·float/O/S 미확인. 기존 10/29 NEALS 학회 이벤트와 별개.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1875091/000121390026114732/ea0310480-6k_neurosense.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-early-TLSA-phase2a-informms-topline-20261102T120000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "TLSA",
+      "category": "1차_임상2a_주요평가변수달성_뉴스강함_가격단계미확인",
+      "detected_utc": "2026-11-02T18:07:47.760Z",
+      "summary": "[2026-11-03 KST 사후 발굴, 실시간 조기포착 아님] 2026-11-02 07:00 EST(12:00 UTC) Tiziana의 INFORM-MS 비활동성 이차진행성 다발성경화증 Phase 2a(총 48명) 발표: 비강투여 foralumab 50μg군의 TSPO-PET 미세아교세포 활성 감소가 위약 대비 유의(p=0.0168), 안전성/내약성 평가변수 달성. 100μg군 PET 유의성 없음, EDSS 3개월 변화 없음. 피로 MFIS의 p값은 각 치료군 기저치 대비이며 위약 대비 확증 아님. SEC 2026-11-02 6-K 공시 확인. 1차 뉴스 강함·가격 단계 미확인(거래량 2/3/5/10/30/50배 및 분봉 미확인). 2차 2026-10-16 SEC 6-K 기준 6/30 O/S 128,028,624주·현금 $3.2M, 10/16 현금 $3.9M. A 제한/ C 실제 즉시 매도 공급 미확인, B ATM·Resale·ELOC 잔량 미확인, D 2026년 1월 발행 워런트 7,040,000주(행사기한 2027-01-16 연장), 옵션 등 잠재 희석. 워런트가 즉시 매도 주식이라는 뜻 아님. 공급 위험은 1차 순위 감점 없음.",
+      "source_url": "https://ir.tizianalifesciences.com/news-releases/news-release-details/tiziana-announces-positive-topline-results-phase-2a-inform-ms",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "nasdaq7-early-ANTX-fda-ind-clearance-20261102T120000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "ANTX",
+      "category": "1차_FDA_IND허가_2상개시가능_뉴스중강_가격단계미확인",
+      "detected_utc": "2026-11-02T18:07:47.760Z",
+      "summary": "[2026-11-03 KST 사후 발굴, 실시간 조기포착 아님] AN2 Therapeutics 2026-11-02 07:00 EST 회사 보도자료: 경구 epetraborole의 진성적혈구증가증(PV) Phase 2 시험을 위한 FDA IND 개시 허가. 미국·호주·인도 계획 관할 규제 승인 확보, 2026년 4분기 시험 개시 예정. 이는 치료제 FDA 시판승인이나 임상 2상 성공이 아님. 1차 뉴스 중강·가격/거래량·5~15분봉 미확인. 2차 2026-08-11 SEC 10-Q: 8/6 O/S 37,736,237주, 6/30 현금+투자 $79.9M, 2026년 상반기 ATM 매각 286,498주. A 제한형 미확인, B 2026년 4월 Jefferies ATM 최대 $80M(현재 잔여·집행량 미확인), C 2026년 사모발행 재판매 등록 4/20 효력발생(현재 즉시 매도 가능 잔량 미확인), D 6/30 PFW 8,741,493주 미행사·행사가 $0.00001, 옵션 등. 재판매 등록/워런트 수량을 실제 당일 매도량으로 간주하지 않음. 2차 위험으로 1차 순위 조정 없음. 당일 IND 발표 SEC 직접 대조 미완료이므로 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/news/ANTX/an2-therapeutics-receives-u-s-fda-ind-clearance-to-proceed-with-h927xo83bcfq.html",
+      "verification": "PROVISIONAL"
     }
   ]
 }
