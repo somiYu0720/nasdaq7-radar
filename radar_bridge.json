@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T17:35:18.211332+00:00",
-  "source_updated_utc": "2026-11-02T17:35:18.074856+00:00",
+  "generated_utc": "2026-11-02T17:36:17.771223+00:00",
+  "source_updated_utc": "2026-11-02T17:36:17.680779+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -48,8 +48,8 @@
     {
       "ticker": "AIOT",
       "signal": "REVIEW",
-      "rvol5": "1.81",
-      "bar_time": "2026-11-02T17:25:00+00:00",
+      "rvol5": "0.26",
+      "bar_time": "2026-11-02T17:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -76,7 +76,7 @@
     {
       "ticker": "ARBB",
       "signal": "REVIEW",
-      "rvol5": "0.24",
+      "rvol5": "0.28",
       "bar_time": "2026-11-02T15:55:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -496,8 +496,8 @@
     {
       "ticker": "CLRO",
       "signal": "REVIEW",
-      "rvol5": "2.48",
-      "bar_time": "2026-11-02T17:25:00+00:00",
+      "rvol5": "0.96",
+      "bar_time": "2026-11-02T17:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -622,8 +622,8 @@
     {
       "ticker": "LUCD",
       "signal": "REVIEW",
-      "rvol5": "0.37",
-      "bar_time": "2026-11-02T17:25:00+00:00",
+      "rvol5": "0.66",
+      "bar_time": "2026-11-02T17:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -664,7 +664,7 @@
     {
       "ticker": "PLAG",
       "signal": "REVIEW",
-      "rvol5": "1.25",
+      "rvol5": "1.39",
       "bar_time": "2026-11-02T17:10:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -691,9 +691,9 @@
     },
     {
       "ticker": "PRSO",
-      "signal": "EARLY_PROVISIONAL",
-      "rvol5": "8.94",
-      "bar_time": "2026-11-02T17:25:00+00:00",
+      "signal": "REVIEW",
+      "rvol5": "0.92",
+      "bar_time": "2026-11-02T17:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -706,8 +706,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.22",
-      "bar_time": "2026-11-02T17:25:00+00:00",
+      "rvol5": "0.78",
+      "bar_time": "2026-11-02T17:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -754,6 +754,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "STAK",
+      "signal": "REVIEW",
+      "rvol5": "1.11",
+      "bar_time": "2026-11-02T17:30:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -849,7 +863,7 @@
     {
       "ticker": "PLAG",
       "signal": "REVIEW",
-      "rvol5": "1.25",
+      "rvol5": "1.39",
       "bar_time": "2026-11-02T17:10:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -865,8 +879,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.22",
-      "bar_time": "2026-11-02T17:25:00+00:00",
+      "rvol5": "0.78",
+      "bar_time": "2026-11-02T17:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -996,6 +1010,7 @@
     "RTSN",
     "RZAI",
     "SCAT",
+    "STAK",
     "SVA",
     "TBCV",
     "TCXB",
