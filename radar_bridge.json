@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T17:59:17.090659+00:00",
-  "source_updated_utc": "2026-11-02T17:59:16.978398+00:00",
+  "generated_utc": "2026-11-02T18:00:11.001895+00:00",
+  "source_updated_utc": "2026-11-02T18:00:10.909281+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -536,6 +536,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "DXF",
+      "signal": "REVIEW",
+      "rvol5": "0.45",
+      "bar_time": "2026-11-02T17:30:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -692,8 +706,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.38",
-      "bar_time": "2026-11-02T17:35:00+00:00",
+      "rvol5": "0.37",
+      "bar_time": "2026-11-02T17:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -847,6 +861,22 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "DXF",
+      "signal": "REVIEW",
+      "rvol5": "0.45",
+      "bar_time": "2026-11-02T17:30:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "PLAG",
       "signal": "REVIEW",
       "rvol5": "0.48",
@@ -865,8 +895,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.38",
-      "bar_time": "2026-11-02T17:35:00+00:00",
+      "rvol5": "0.37",
+      "bar_time": "2026-11-02T17:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -912,14 +942,6 @@
     },
     {
       "ticker": "DUO",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "DXF",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
