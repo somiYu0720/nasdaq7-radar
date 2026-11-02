@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-02T15:11:27Z",
+  "updated_utc": "2026-11-02T15:25:16Z",
   "events": [
-    {
-      "id": "cn1-STAK-fy2026-results-volume-surge-20261021T162528Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "중국계 1.0",
-      "ticker": "STAK",
-      "category": "실적 호재·거래량 50배 이상·이미 급등(지연 포착)",
-      "detected_utc": "2026-10-27T04:52:34Z",
-      "summary": "지연 발견/백테스트용, 현재 급등 전 후보 아님. 2026-10-21 16:25:28 EDT SEC 6-K: FY2026 매출 $28.2m(+13.21%), 순이익 $0.4m(전년 -$5.7m)으로 흑자전환. 10/21 거래량 23,559,781주 vs 10/20 197,687주 약 119.2배(전일 대비, 5일 평균 대비 아님); 10/22 종가 $1.67(+67%), 거래량 84,116,578주(StockAnalysis 과거 일봉). 10/26 종가 및 최신 분봉·현재가 별도 확인 필요. 1차: 거래량 급증 및 실적 이벤트, 급등 진행→이미 급등 분류; 2차: float/O/S, ATM/ELOC/PIPE/Resale/워런트, 즉시 매도 가능한 공급 및 A/B/C/D 미판정. 위험으로 1차 순위 감점하지 않음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226047906/0001493152-26-047906-index.htm",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "cn1-news-GURE-bromine-restart-approval-20261015T154400Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "GURE",
-      "category": "공장 재가동 정부 승인·Q4 시험생산 예정·지연 포착",
-      "detected_utc": "2026-10-27T05:00:38.784Z",
-      "summary": "지연 발견: 2026-10-14 회사 발표, 10-15 11:44 EDT SEC 8-K(0001493152-26-047183) 확인. 중국 서광시 당국이 브롬 공장 2호·10호 생산 재개 승인. 회사 예상 연간 생산능력 20% 이상 증가, 2026년 4분기 시험생산 완료 목표, 2027년 상반기 매출 발생 기대. 승인 사실 VERIFIED, 실제 재가동·생산량·매출은 미확인. 거래량 가속·저점 방어·최신 분봉 미확인; 1차 뉴스/사전일정형 관찰, 급등 전 신호 아님. 2차 공급 위험은 별도 미확인, 1차 순위에 미반영.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/885462/000149315226047183/form8-k.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "nasdaq7-INO-pdufa-20251229T132019Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5501,6 +5479,28 @@
       "detected_utc": "2026-11-02T15:11:27Z",
       "summary": "[2026-11-03 00:11 KST 지연 발견, 실시간 조기포착 성공 아님] GitHub alert_history.json에서 중국계 EZGO의 2026-11-02 14:40 UTC 5분봉 상대거래량 9.01배, 14:45 UTC 4.86배 기록. Yahoo 비공식 5분 데이터의 직전 양(+)거래량 12개 완료봉 평균 대비이며 동일시간대 보정 RVOL·거래소 원시체결 검증 아님. 14:55 UTC 지표 0.15배로 둔화. [1차 독립] 5배 이상 가속 후 둔화, 현재가·가격단계·저점방어·재점화 미확인. 위험 감점/삭제/순위 변경 금지. [2차] 최신 Float/O/S·SEC·ATM/ELOC/Resale/PIPE·워런트/전환·상장위험 및 A 제한형/B 대기형/C 즉시 매도 가능/D 잠재형 공급 잔여 미확인, 잠재/즉시 공급 분리. 매수 적합성 별도.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/alert_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-POLA-5M_VOLUME_ACCEL-20261102T144500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "POLA",
+      "category": "1차_5분봉거래량가속_7점46배_후속5점92배_가격단계미확정_2차SEC공급별도",
+      "detected_utc": "2026-11-02T15:25:16Z",
+      "summary": "[2026-11-03 00:25 KST 지연 신규 발굴; 조기포착 성공 주장 금지] GitHub alert_history.json의 2026-11-02 14:45 UTC 5분봉 상대거래량 7.46배, 14:50 UTC 5.92배 기록. GitHub data.json은 14:50 봉을 6.49배로 재계산하여 값 불일치, 후속 데이터 신선도 STALE(약 30분); 모두 Yahoo 비공식 5분 데이터의 이전 완료된 양(+)거래량 12개 5분봉 평균 기준, 동일 시간대 RVOL·거래소 원시체결 검증 아님. [1차 독립] 5배 이상 5분봉 가속 2회 관찰, 현재가·상승률·저점방어·재점화 미확인; 급등 전/진행/급락 후 반등/재점화 가격단계 미확정. 기존 10/30 POLA 포착과 다른 날짜의 신규 신호. [2차 SEC 별도] 2026-10-23 SEC 8-K 직접 확인: 10/21·10/22 Monroe 전환으로 보통주 196,985+198,173주 발행, 10/20 LU2 우선주 전환으로 432,478주 발행; Roth ELOC 최대 $25m 계약, 10/23 기준 776,148주 이미 발행·매각(미래 공급과 중복합산 금지); Series A 전환우선주·여러 워런트·전환채권 구조 존재. 10/23 회사는 주주자본 약 $2.9m의 예비 추정치로 최소자본 $2.5m 요건 회복 주장했으나 Nasdaq 최종 유지 확정 아님. A 제한형 락업/제한주식 현재 잔량 미확인; B 대기형 ELOC 미사용 한도 및 Resale 효력/잔여 미확인; C 즉시형 현재 자유매도 가능 신규 공급량 미확인; D 잠재형 우선주/전환채/워런트 잔여·조건 미확인. 최신 Float/O/S, ATM/PIPE 및 즉시매도 가능 수량 미확인. 잠재 희석과 실제 공급 구분, 위험으로 1차 감점·삭제·재정렬 금지, 손익비 별도. SEC 원문 https://www.sec.gov/Archives/edgar/data/1622345/000149315226048231/form8-k.htm",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/alert_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-ZG-5M_VOLUME_PRE_EARNINGS-20261006T200500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "ZG",
+      "category": "1차_급등전관찰_5분7점42배_15분12점58배_가격1점33퍼센트_11월4일실적예정",
+      "detected_utc": "2026-11-02T15:25:16Z",
+      "summary": "[2026-11-03 00:25 KST 지연 신규 발견, 시세 조기포착 성공 아님] GitHub discovery_latest.json 2026-11-02 14:53:37 UTC 스냅샷에 Zillow Group Class A(ZG) $33.88, 관찰구간 +1.33%(15분), 5분 RVOL 7.42배, 10분 8.8배, 15분 12.58배, 5분 거래량 83,387주, 15분 424,375주. 해당 수치는 무료/지연 가능 데이터 및 과거 세션 기준 잠정 비교값이며 거래소 원시자료·실시간/초단위 검증 아님. [1차 독립] 가격 10% 이내 거래량 가속 신호로 급등 전 관찰 잠정, 강한 돌파 확정 아님; 저점방어/뉴스에 의한 가격 반응/재점화 미확인. [사전 이벤트] 회사는 2026-10-06 공식 보도자료로 2026-11-04 미국 정규장 마감 후 3분기 실적 발표 및 17:00 EST 컨퍼런스콜을 확정 공지(한국시간 11/05 07:00), 이미 공개된 일정의 지연 발견이며 신규 발표 아님. [2차 SEC 별도] 2026-06-30 10-Q 기준 2026-07-29 Class A O/S 41,402,072주(ZG), Class B 6,217,447주, Class C 177,255,435주(Z); Float가 아니며 서로 다른 주식종류 구별. A 제한형 락업 미확인, B 대기형 ATM/ELOC/Resale/PIPE 미확인, C 즉시 매도 가능 신규 공급량 미확인, D 잠재형 전환/옵션/워런트 잔여 미확인. 2026-06-30 10-Q에 자사주 매입 승인잔여 약 $1.1bn 기재(신규 매도 공급과 구별). 위험에 따른 1차 감점/순위 변경 없음, 손익비·매수 적합성 별도. 공식 일정 https://zillowgroup.mediaroom.com/2026-10-06-Zillow-Group-to-Announce-Third-Quarter-2026-Results-Nov-4 ; SEC https://www.sec.gov/Archives/edgar/data/1617640/000161764026000052/z-20260630.htm ; 잠정 거래량 https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "source_url": "https://zillowgroup.mediaroom.com/2026-10-06-Zillow-Group-to-Announce-Third-Quarter-2026-Results-Nov-4",
       "verification": "PROVISIONAL"
     }
   ]
