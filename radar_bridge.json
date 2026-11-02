@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T18:30:15.983508+00:00",
-  "source_updated_utc": "2026-11-02T18:30:15.886648+00:00",
+  "generated_utc": "2026-11-02T18:31:12.396087+00:00",
+  "source_updated_utc": "2026-11-02T18:31:12.225392+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -496,8 +496,8 @@
     {
       "ticker": "CLRO",
       "signal": "REVIEW",
-      "rvol5": "1.56",
-      "bar_time": "2026-11-02T18:20:00+00:00",
+      "rvol5": "0.15",
+      "bar_time": "2026-11-02T18:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -540,6 +540,20 @@
       "signal": "REVIEW",
       "rvol5": "3.39",
       "bar_time": "2026-11-02T18:00:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": "0.05",
+      "bar_time": "2026-11-02T18:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -636,8 +650,8 @@
     {
       "ticker": "LUCD",
       "signal": "REVIEW",
-      "rvol5": "0.06",
-      "bar_time": "2026-11-02T18:20:00+00:00",
+      "rvol5": "0.7",
+      "bar_time": "2026-11-02T18:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -692,8 +706,8 @@
     {
       "ticker": "PRSO",
       "signal": "REVIEW",
-      "rvol5": "0.09",
-      "bar_time": "2026-11-02T18:20:00+00:00",
+      "rvol5": "0.69",
+      "bar_time": "2026-11-02T18:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -877,6 +891,22 @@
       "classification": "PENDING"
     },
     {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": "0.05",
+      "bar_time": "2026-11-02T18:25:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "PLAG",
       "signal": "REVIEW",
       "rvol5": "0.48",
@@ -942,14 +972,6 @@
     },
     {
       "ticker": "DUO",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "EZGO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
