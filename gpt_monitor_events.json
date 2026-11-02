@@ -1,29 +1,6 @@
 {
-  "updated_utc": "2026-11-02T22:43:36Z",
+  "updated_utc": "2026-11-02T23:42:49Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-NWGL-INTRADAY_REIGNITION-20261027T152927Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "NWGL",
-      "category": "INTRADAY_PRICE_REIGNITION_VOLUME_WATCH",
-      "detected_utc": "2026-10-27T15:29:27Z",
-      "summary": "토스 수집본 GitHub 이력 비교: 2026-10-28 00:09 KST $0.0832에서 00:29:27 KST $0.0960로 약 +15.4% 상승. 00:30 KST 표시 1분봉 거래량 42,162주, 00:25 KST 표시 분봉 16,902주. 1차 가격 재점화·거래량 관찰 잠정 포착(이미 상승 진행), 2/3/5/10/30/50배 평균 대비 가속·저점방어 미확인. 기존 10/26 NWGL 거래량 재점화 기록과 별도 10/27 장중 움직임. 기존 최대 $200m ATM 이력은 1차 순위에 미반영, 최신 실제 매도 가능 물량·float/O/S·A/B/C/D 최종 유형 미확인. 분봉 종료 시각 표시일 수 있으며 초단위 연속 감시 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-LPTH-def14a-followup-20261026",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "LPTH",
-      "category": "2차 공시 후속·DEF 14A (과거 공시 보완)",
-      "detected_utc": "2026-10-28T00:00:00Z",
-      "summary": "10/26 SEC DEF 14A(최종 위임장) 제출 이력 추가 확인. 10/27 방산 주문 포착과는 별도 기업행사·공시 후속 기록이며 DEF 14A 자체를 신규 확정 호재 또는 예정된 주가 촉매로 해석하지 않음. 세부 안건과 일정은 원문 재검증 필요. 1차 포착 순위에 영향 없음.",
-      "source_url": "https://www.secfilingdata.com/sec-filings-list/?cik=0000889971",
-      "verification": "PROVISIONAL",
-      "auto_add": false
-    },
     {
       "id": "cn1-NWGL-registration-history-followup-20260824",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5502,6 +5479,28 @@
       "summary": "[2026-11-03 07:43 KST 사후 공개자료 점검; 2026-11-02 07:00 EST 회사 보도자료] Lexeo Therapeutics(LXEO)는 LX2006 Friedreich 운동실조증 유전자치료제의 임상 1/2상 중간 장기추적 및 11/11 ICAR 발표 일정 공개. 24개월 추적 n=11에서 외부 자연사 대조군 대비 mFARS 연간 평균 2.13점(2년 4.26점) 개선, 36개월 추적 n=7에서는 치료 전 대비 평균 4점 초과 개선 보고. 공개 회사 발표는 확인됐지만 SEC 8-K 직접 대조는 미완료, 임상시험은 비무작위 공개라 대조군 선택 편향 가능. FDA 승인이나 확증적 3상 성공 아님. ICAR 11/11 15:06~15:24 EST 구두발표, 18:00~19:30 EST 포스터. 1차 임상 신규 장기추적·D+7 학회 이벤트만 평가, 가격·5/10/15분 거래량 2/3/5/10/30/50배 가속·저점 방어·급등 전/진행/급락 후 반등/재점화 단계 미확인. 2차 Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장 위험 및 A 제한형/B 대기형/C 실제 즉시 매도형/D 잠재형 수량 미확인. 희석·자금 위험으로 1차 감점·재정렬하지 않음. 매수 신호 아님.",
       "source_url": "https://www.globenewswire.com/de/news-release/2026/11/02/3393014/0/en/lexeo-therapeutics-to-present-multiple-oral-and-poster-presentations-at-key-scientific-conferences-in-november.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-ABTS-SEC6K_LEAKOUT_WAIVER_EFFECTIVE_F1-20261102T141700Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "ABTS",
+      "category": "2차_SEC_6K_F1_EFFECT_공급속도제한_신규공시",
+      "detected_utc": "2026-11-02T23:42:49Z",
+      "summary": "[2026-11-03 08:42 KST 사후 발굴; 실시간 거래량 포착 아님] ABITS GROUP(ABTS)의 2026-11-02 09:17 EST SEC 6-K 원문 검증: 10/30 Shakawe Capital과 Leak-Out/Standstill Waiver/True-Up 계약 체결. Commitment Shares(추가 True-Up 포함)의 투자자 및 관련자 일일 매도/양도 상한은 투자자 측 매도를 제외한 해당일 Nasdaq 전체 거래량 10%(프리·애프터 포함); Put Shares 및 시장 매입주는 이 제한 대상 아님. SEC EFFECT 원문: F-1(333-299685)은 10/30 17:30 EDT 효력 발생. 기존 F-1에 재판매 등록 총 최대 50,476,408주=Put Shares 최대 18,148,821주+Commitment Shares 최대 32,327,587주(잠재 true-up 및 PFW 포함). 6-K는 F-1 발효 후 Put Notice/신주발행을 허용하는 제한적 standstill waiver 명시. [1차] 새 기업·자본 이벤트 뉴스만 기록, 가격·거래량 2/3/5/10/30/50배·저점 방어·급등 전/진행/급락 후 반등/재점화 단계 미확인; 희석/공급 위험으로 감점·제외·순위 변경 없음. [2차] A 제한형: Commitment Shares 일일 10% leak-out(완전 매도금지 아님); B 대기형: Put Shares 최대 18,148,821주 조건부 발행 가능, 실제 최신 발행량 미확인; C 즉시형: F-1 효력 발생으로 재판매 경로 존재하지만 이미 발행·입고돼 즉시 매도 가능한 실제 수량 미확인; D 잠재형: True-Up Commitment Shares 최대 26,970,444주(등록 가정치), pre-funded warrants 및 조건부 전환채. 등록 50.48m주를 현재 유통·실제 매도량으로 간주하지 않음. 최신 float/O/S 미확인. ABTS는 BVI 지주사, HK 소재·중국 행정 자회사, 미국 주요 영업으로 중국계 분류는 잠정.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1864055/000149315226049581/form6-k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-LOT-SEC6K_NASDAQ_MINBID_NOTICE-20261102T222900Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "LOT",
+      "category": "2차_SEC_6K_상장유지통지_일정확인_순위비반영",
+      "detected_utc": "2026-11-02T23:42:49Z",
+      "summary": "[2026-11-03 08:42 KST 사후 발굴] 중국 상하이 본사 Lotus Technology(LOT)의 2026-11-02 17:29 EST SEC 6-K 및 EX-99.1 원문 검증: 10/28 Nasdaq 최소호가 $1 미준수 통지, 180일 시정기한 2027-04-26. $1 이상 종가 최소 10거래일 유지가 회복 조건(나스닥 재량에 따라 기간 변경 가능). 통지는 즉시 상장폐지 아님, 현재 Nasdaq 거래 유지. [1차] 상장 위험은 포착 신호·배제·감점·순위 조정에 사용하지 않음. 새 거래량 2/3/5/10/30/50배, 가격·저점방어·급등전/진행/급락후반등/재점화 신호 미확인. [2차] 상장유지 일정만 확인; A 제한형/B 대기형/C 즉시형/D 잠재형 및 Float/O/S·ATM/ELOC/PIPE/Resale/워런트/전환 최신 수량 미확인. 2027-04-26 기한은 신규 주가 호재나 즉시 상폐를 뜻하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1962746/000110465926121492/tm2628740d1_6k.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
