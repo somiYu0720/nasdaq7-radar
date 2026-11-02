@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T14:07:58.178754+00:00",
-  "source_updated_utc": "2026-11-02T14:07:58.042875+00:00",
+  "generated_utc": "2026-11-02T14:09:01.333233+00:00",
+  "source_updated_utc": "2026-11-02T14:09:01.012680+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -480,6 +480,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "CLRO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T23:09:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "CTY",
       "signal": "조회 실패",
       "rvol5": null,
@@ -539,7 +553,7 @@
       "ticker": "GCDT",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T23:07:00+09:00",
+      "bar_time": "2026-11-02T23:08:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -624,6 +638,20 @@
       "signal": "REVIEW",
       "rvol5": null,
       "bar_time": "2026-11-02T23:05:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "RETO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T23:09:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -795,6 +823,22 @@
       "classification": "PENDING"
     },
     {
+      "ticker": "RETO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T23:09:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "CHNR",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -836,14 +880,6 @@
     },
     {
       "ticker": "EZGO",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "RETO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -893,6 +929,7 @@
     "BBCI",
     "BMMX",
     "CHWM",
+    "CLRO",
     "CTY",
     "DAVI",
     "FCDH",
