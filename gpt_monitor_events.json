@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T10:01:06Z",
+  "updated_utc": "2026-11-02T10:34:19Z",
   "events": [
-    {
-      "id": "nasdaq7-CTOR-lymphir-q4-shipments-8k-20261026T200500Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "CTOR",
-      "category": "거래량 10배 이상·실적 선행 뉴스·급락 후 반등 관찰",
-      "detected_utc": "2026-10-27T01:25:09.325Z",
-      "summary": "2026-10-26 정규장 거래량 885,285주, 직전 5거래일 평균 53,776.6주 대비 약 16.46배; 종가 $0.5957(+2.80%). 2026-10-26 13:00 ET 발표: LYMPHIR 미국 도매상 출하 792유닛, 직전 분기 360유닛 대비 +120%(잠정·미감사). 16:05 ET SEC 8-K 접수 확인. 실제 매도 가능 공급 및 최신 float/O/S는 별도 검증 필요. SEC 제출 시점은 정규장 종료 후.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1851484/000121390026112477/ea0309347-8k_citius.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "cn1-prebreak-YOUL-volume-price-20261026T200000Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5501,6 +5490,17 @@
       "detected_utc": "2026-11-02T10:01:06Z",
       "summary": "[2026-11-02 KST 지연 신규 발굴; 원 회사발표 2026-10-08 07:01 EDT=11:01 UTC, 실시간 조기포착 아님] Precision BioSciences(DTIL)는 2026-11-08 14:15~14:30 MST(한국 11/09 06:15~06:30 KST) AASLD The Liver Meeting에서 만성 B형간염 대상 PBGENE-HBV 임상 1상 ELIMINATE-B late-breaking 구두 발표 예정(초록 5002). 초록 제목은 HBeAg 양성/음성 환자의 지속적인 pgRNA 소실과 기능적 치료 가능성; 발표 일정 확정, 임상 성공·FDA 승인 확정 아님. [1차 독립] 예정 신규 임상데이터 발표로 뉴스·이벤트 신호 강함(기존 전체 TOP10 순위 변경 없음). 현재 시세/2·3·5·10·30·50배 거래량 가속/5~15분 연속 분봉/저점방어/급락·과매도/재점화 미확인, 급등 전/진행/급락후반등/재점화 가격 단계 미확정. [2차 별도 SEC 2026-08-06 제출 10-Q, 2026-06-30 기준] 2026-08-03 O/S 27,601,554주, 현금 $86.076m·시장성증권 $1.473m·제한현금 $26.330m(제한현금은 자유현금 제외). A 제한형 최신 락업 미확인; B 대기형 ATM 존재, 현재 잔여·매각여부 미확인; C 실제 즉시 자유매도 가능한 신규 공급 미확인; D 잠재형 2026-06-30 기준 미행사 워런트 2,500,000주+6,107,500주(총 8,607,500주), 실제 행사/즉시매도 가능 수량 미확인. 최신 Float/O/S·ELOC·Resale·PIPE·전환·상장위험 재확인 필요. 잠재 희석을 즉시 공급으로 계산하지 않으며 2차 위험은 1차 감점/삭제/재정렬 금지. 매매 손익비 별도. 발표 일정은 발행사 보도자료 확인, 해당 이벤트 SEC 8-K 직접 대조 미완료로 PROVISIONAL. SEC 10-Q https://www.sec.gov/Archives/edgar/data/1357874/000162828026053837/dtil-20260630.htm",
       "source_url": "https://www.nasdaq.com/press-release/precision-biosciences-announces-late-breaking-oral-presentation-pbgene-hbv-aasld-1",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-DSC-2026H1_USED_CAR_WHITEPAPER-20261102T090000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "DSC",
+      "category": "1차_신규산업백서_뉴스신호약_급등단계미확정_2차공급분리",
+      "detected_utc": "2026-11-02T10:34:19Z",
+      "summary": "[2026-11-02 04:00 EST=09:00 UTC 회사 보도자료; 거래량 조기포착 아님] 중국계 나스닥 DSC Holdings(DSC)가 2026년 상반기 중국 중고차 시장 백서를 처음 발행. 회사 발표에 따르면 중국 2026 H1 중고차 거래량 971만 대(+1.5% YoY), 신차 판매량의 약 98%; 자사 DaFengChe 플랫폼의 딜러 운영시스템 점유율 90% 초과 주장. AI·산업데이터 역량을 강조했지만 신규 계약·확정 매출·수주·임상 등 직접적인 강력 촉매는 아님. [1차 독립] 신규 뉴스 신호 약함; 11/02 최신 가격·분봉·2/3/5/10/30/50배 가속·저점 방어·재점화 미확인, 급등 전/급등 진행/급락 후 반등 관찰/재점화 가격 단계 미확정. 기존 순위 재정렬 없음. [2차 별도] SEC 최신 공시 대조 및 float/O/S 미완료; A 제한 공급·B 대기 공급·C 즉시 매도 가능 공급·D 잠재 공급 각각 최신 잔량 미확인. 잠재 희석과 실제 즉시 매도 가능 공급을 동일시하지 않으며 1차 감점·삭제 금지. 발행사 보도자료 원문은 확인했으나 SEC/공시 대조 전으로 PROVISIONAL.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3392896/0/en/dsc-holdings-releases-inaugural-china-used-car-industry-white-paper-used-car-transactions-approach-new-car-sales-as-residual-values-and-dealer-economics-are-reshaped-ai-s-role-expa.html",
       "verification": "PROVISIONAL"
     }
   ]
