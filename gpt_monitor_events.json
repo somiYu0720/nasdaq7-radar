@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T00:30:07Z",
+  "updated_utc": "2026-11-02T00:31:55.451Z",
   "events": [
-    {
-      "id": "cn1-SXTC-volume-crash-20261021T200000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "SXTC",
-      "category": "거래량 3배 이상·급등 후 급락·반등 관찰",
-      "detected_utc": "2026-10-26T21:21:32Z",
-      "summary": "지연 포착: 10/21 거래량 230,475,685주 vs 10/20 52,677,925주 약 4.38배, 10/21 +11.79%; 10/22 -34.25%(57,488,687주), 10/23 -14.58%. 대량거래 후 급락을 별도 관찰. 10/26 1:100 주식병합으로 전후 가격·거래량 직접 비교 금지. 저점 방어·분봉·10/26 확정 종가는 미확인. 1차 순위에 희석·상장 위험 반영하지 않음.",
-      "source_url": "https://finance.yahoo.co.jp/quote/SXTC/history",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "cn1-SXTC-overallotment-termination-20261021T120000Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5501,6 +5490,17 @@
       "detected_utc": "2026-11-02T00:30:07Z",
       "summary": "[2026-11-02 09:30 KST 신규 공개발표 포착, 발표 2026-11-01 19:00 EST=2026-11-02 00:00 UTC; 시세 조기포착 아님] HUTCHMED(HCM)는 ORPATHYS(savolitinib)+TAGRISSO(osimertinib) 병용요법에 대해 AstraZeneca가 제출한 유럽 EMA 판매허가 신청(MAA)과 일본 MHLW 신약허가 신청(NDA)이 각각 심사 접수되었다고 공식 발표. 적응증은 EGFR-TKI 치료 후 진행한 MET 과발현/증폭 EGFR 변이 비소세포폐암. 2026-09 미국 FDA NDA 제출과 10/26 글로벌 SAFFRON 3상 긍정적 결과는 기존 기록이며, 이번 신규 이벤트는 유럽/일본 심사 접수 자체. 허가 승인, 승인일 확정, 판매·매출 확정 아님. [1차 독립] 강한 글로벌 규제 진전 이벤트, 11/02 09:30 KST 현재 미국 11/02 정규장 개시 전이므로 이벤트 이후 가격반응·5~15분 거래량 가속 2/3/5/10/30/50배·저점방어·급락/재점화 미확인; 급등전/진행/급락후반등/재점화 단계 확정 불가, TOP10 순위 변경 없음. 공급·상장 위험은 1차 감점·삭제·재정렬에 사용하지 않음. [2차 별도] 2026-06-30 발표 기준 현금·현금성·단기투자 $1,374.8m(과거 기준, 최신 현금런웨이 미확정). 최신 Float/O/S 및 A 제한형/B 대기형/C 즉시 매도형/D 잠재형 잔량과 ATM/ELOC/Resale/PIPE/워런트/전환/상장위험 미확인. 잠재 희석과 실제 즉시 매도 가능 공급을 동일시하지 않음. 회사 배포 공식 보도자료 확인, 이번 신규 발표 SEC 6-K 원문 대조 미완료이므로 PROVISIONAL. 손익비·매수 적합성 별도.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3392807/0/en/hutchmed-announces-regulatory-filings-accepted-for-review-for-orpathys-plus-tagrisso-in-met-driven-egfr-mutated-lung-cancer-in-europe-and-japan.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-ELPW-DAILY_VOLUME_1952X_CONTRACT-20261028T200000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "중국계 1.0",
+      "ticker": "ELPW",
+      "category": "거래량 초고배율·급등 진행 이력→재점화 관찰(사후 발굴)",
+      "detected_utc": "2026-11-02T00:31:55.451Z",
+      "summary": "[2026-11-02 KST 지연 발굴; 실시간 조기포착 아님] Elong Power(ELPW) 2026-10-28 정규장 종가 $3.00(+22.95%), 거래량 40,588,261주. 직전 5거래일(10/21~27) 18,513/13,282/29,063/19,315/23,776주 평균 20789.8주 대비 약 1952.3배 일봉 거래량 급증(StockAnalysis/S&P Global 및 FinanceCharts 교차). 10/29 거래량 1,124,749주 종가 $2.75(-8.33%), 10/30 거래량 467,590주 종가 $2.79(+1.45%)로 급증 이후 거래량 둔화. 10/28 SEC 6-K EX-99.1 기존 기록의 연간 $25.5m 유통협력 계약 및 약 $0.84m 첫 납품과 날짜가 겹치지만 거래량 급증의 인과관계 단정 불가. [1차] 과거 급등 진행 이력→재점화 관찰, 현재 급등전 신호 아님. 2/3/5/10/30/50배는 일봉 과거 기준에서만 확인, 최신 분봉·저점 방어·실시간 가속 미확인; 독립 TOP10 변경 없음. [2차] SEC 2026-09-10 424B3 최대 2,583,496주 재판매 등록 이력(기존 기록), 실제 즉시 매도 가능한 잔여 공급/최신 float/O/S/ATM/ELOC/PIPE/워런트 행사 미확인. A 제한/B 대기/C 즉시/D 잠재 공급 분리, C 확정 불가. 2차 위험으로 1차 감점/삭제/재정렬 금지. 거래량 자료는 SEC 원문 직접 검증 대상이 아니므로 기록 상태 PROVISIONAL.",
+      "source_url": "https://stockanalysis.com/stocks/elpw/history/",
       "verification": "PROVISIONAL"
     }
   ]
