@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T01:39:36.636270+00:00",
-  "source_updated_utc": "2026-11-02T01:39:36.536752+00:00",
+  "generated_utc": "2026-11-02T01:40:49.560186+00:00",
+  "source_updated_utc": "2026-11-02T01:40:49.457045+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -469,7 +469,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T10:38:00+09:00",
+      "bar_time": "2026-11-02T10:40:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -578,6 +578,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "LABT",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T10:40:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "LYCA",
       "signal": "조회 실패",
       "rvol5": null,
@@ -656,6 +670,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "STAK",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T10:40:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -879,11 +907,13 @@
     "GCDT",
     "IAM",
     "IPHX",
+    "LABT",
     "LYCA",
     "PAXG",
     "RTSN",
     "RZAI",
     "SCAT",
+    "STAK",
     "SVA",
     "TBCV",
     "TCXB",
