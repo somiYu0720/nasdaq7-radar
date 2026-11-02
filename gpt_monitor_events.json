@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T19:35:42.418Z",
+  "updated_utc": "2026-11-02T19:38:37.246Z",
   "events": [
-    {
-      "id": "cn1-news-JZXN-strategic-investment-commitment-20261012T111500Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "JZXN",
-      "category": "STRATEGIC_INVESTMENT_COMMITMENT_PROVISIONAL",
-      "detected_utc": "2026-10-27T12:16:09Z",
-      "summary": "지연 포착(10/12 발표): Jiuzi Holdings 회사 보도자료에서 전략적 투자자가 최소 $50m를 주당 최소 $2.50에 투자할 의향/약정을 발표. 최종 투자금액·주식수·시행일은 미확정, 실제 투자 종결·대금 수령·발행 완료 확인 안 됨. 회사 보도자료는 확인했으나 SEC 최신 6-K 교차검증 전이므로 PROVISIONAL. 1차 뉴스·이벤트 신호만 평가; 2차 잠재 신주 공급과 실제 즉시 매도 가능 공급 분리, 1차 순위 감점 없음.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/12/3378795/0/en/jiuzi-holdings-announces-strategic-investor-s-commitment-to-invest-at-least-us-50-million-at-a-minimum-price-of-us-2-50-per-ordinary-share.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "cn1-news-JZXN-labt-volume-surge-20261012T200000Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5501,6 +5490,17 @@
       "detected_utc": "2026-11-02T19:35:42.418Z",
       "summary": "[2026-11-03 KST 사후 신규 공시 확인; 기존 10/22 실적 발표 일정과 별도 실제 결과] Krystal Biotech 2026-11-02 07:00 EST 기업 공식 발표 및 당일 SEC 8-K 첨부 실적 발표, 10-Q(회사 IR 공식 공시 사본) 확인: Q3 VYJUVEK 매출 $127.3M, 전년 동기 $97.8M 대비 +30%, 매출총이익률 94%, Q3 순이익 $63.1M(전년 $79.4M), 9/30 현금·현금성·투자자산 합계 $1.194B. 2026년 10월 이사회 승인 최대 $400M 자사주 매입 프로그램 최초 공시, 만기·의무매입량 없고 실제 매입 집행 확인 전; 2년간 기회적 매입 예상. 1차 실적·자사주 매입 뉴스 강도 중상, 거래량 2/3/5/10/30/50배·5~15분봉/가격·저점방어 미확인, 가격 단계 미확정. 2차 10-Q 10/28 O/S 29,633,472주, Float 미확인; A 락업/제한 기존 주식 미확인, B ATM/ELOC/PIPE/Resale 현재 사용·잔량 미확인, C 실제 즉시 매도 가능 신규 공급 미확인, D 9/30 미행사 스톡옵션 1,998,707주(그중 행사 가능 1,219,147주), 미베스팅 RSU 304,461주·PSU 43,536주 등 잠재 발행(현재 즉시 시장매도 수량 아님). 2차 위험으로 1차 순위 조정 없음. 10-Q 공식 IR: https://ir.krystalbio.com/static-files/6f330545-7205-484b-8ac9-c3d6fdb3c618",
       "source_url": "https://ir.krystalbio.com/static-files/e160ac57-13c5-45d9-a637-fe09fb408bc5",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "china1-news-NTES-share-buyback-sec6k-20261102T111100Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "NTES",
+      "category": "2차_SEC6K_기존자사주매입실제집행_4거래일_1차순위독립",
+      "detected_utc": "2026-11-02T19:38:37.246Z",
+      "summary": "[2026-11-03 KST 사후 확인; 2026-11-02 06:11 EST SEC 6-K, 조기포착 성공 아님] NetEase(NTES)가 10/27·28·29·30 나스닥에서 보통주 43,420·44,525·44,900·44,010주 합계 176,855주(ADS 수량 아님)를 약 US$3990030.10에 실제 자사주 매입, 소각하지 않고 treasury shares로 보유. 11/02는 SEC 공시일이지 신규 매입일 아님. 10/30 보통주 O/S(자기주식 제외) 3,201,475,296주, treasury 10,580,360주, 전체 발행 3,212,055,656주(회사 6-K 기준, 최신 Float 별도 미확인). 매입 규모는 O/S 약 0.0055%로 작고 신규 대규모 자사주매입 승인·매수 급증 호재 아님. [1차] 확정된 과거 매입 실행 공시 뉴스 강도 약함; 거래량 2/3/5/10/30/50배 가속, 5~15분봉·가격/저점방어/재점화 미확인; 기존 중국계 TOP10 신호 순위 변경·위험 감점 없음. [2차] A 제한형 신규 락업 잔량 미확인, B 대기형 향후 자기주식 재판매 가능 여부/시점·다른 resale/ATM/ELOC/PIPE 잔량 미확인, C 즉시 매도 가능한 신규 공급 확인되지 않음(0주 확정 아님), D 잠재형 종업원 주식보상 관련 발행예약 7,508,925주 기재(실제 즉시 시장매도 아님), 워런트·전환 최신 잔량 미확인. 이번 매입 물량을 향후 신규 발행/즉시 매도 공급으로 중복 계산 금지. 매수 적합성·손익비 별도.",
+      "source_url": "https://ir.netease.com/static-files/671e2241-4005-48d7-95e8-6ca9be0fc571",
       "verification": "VERIFIED"
     }
   ]
