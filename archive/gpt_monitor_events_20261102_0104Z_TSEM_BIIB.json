@@ -1,0 +1,29 @@
+{
+  "archived_utc": "2026-11-02T01:04:37.667Z",
+  "reason": "Active file cap 500; preserve prior entries before appending new event",
+  "original_file": "gpt_monitor_events.json",
+  "events": [
+    {
+      "id": "cn1-SXTC-overallotment-termination-20261021T120000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "SXTC",
+      "category": "2차 SEC·추가 매수권 종료·공급 구조 변경",
+      "detected_utc": "2026-10-26T21:21:32Z",
+      "summary": "10/21 SEC 6-K: 10/8 등록직접공모 800만 유닛(유닛당 보통주 또는 pre-funded warrant + ordinary warrant, $1.50) 관련 투자자의 최대 $12m 추가 매수권(30일 옵션)을 10/21 종료. 기존 발행 증권과 다른 계약조건은 유효; 옵션 종료를 기존 발행 물량 취소나 즉시 매도 가능 공급 제로로 오인하지 않음. 워런트 잔량·최신 float·즉시 매도 가능 물량 미확인. 2차 위험 결과로 1차 포착 순위 변경 금지.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1723980/000121390026111404/ea0309198-6k_china.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "cn1-SXTC-share-consolidation-20261022T120000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "SXTC",
+      "category": "공식 주식병합 일정·10/26 조정 거래",
+      "detected_utc": "2026-10-26T21:21:32Z",
+      "summary": "10/22 08:00 ET 회사 공식 발표: Class A 보통주 1:100 병합, 10/26 분할조정 거래 예정, 티커 SXTC 유지. Class A O/S 68,677,498주에서 약 686,775주 예상, Class B 2주는 불변. 기존 워런트 등 권리도 비율 조정 예정. 실제 최신 O/S/float·병합 후 가격/거래량 정합성은 별도 확인 필요. 1차 신호 순위 감점 사유로 사용하지 않음.",
+      "source_url": "https://www.prnewswire.com/news-releases/china-sxt-pharmaceuticals-inc-announces-share-consolidation-302916765.html",
+      "verification": "VERIFIED"
+    }
+  ]
+}
