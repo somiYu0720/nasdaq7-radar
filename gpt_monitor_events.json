@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T01:04:37.667Z",
+  "updated_utc": "2026-11-02T01:14:33Z",
   "events": [
-    {
-      "id": "nasdaq7-RENT-volume-rights-offering-close-20261026T201600Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "RENT",
-      "category": "거래량 10배 이상 가속·재점화·권리공모 종결 SEC 8-K",
-      "detected_utc": "2026-10-26T21:24:34Z",
-      "summary": "10/26 종가 $2.82(+22.61%), 거래량 26,015,926주, 직전 5거래일(10/19~23) 평균 1,427,719주 대비 18.22배; 10/23에도 669.7만주 거래로 재점화/급등 진행 관찰, 급등 전 아님. 10/26 16:16 EDT SEC 8-K: 10/20 $15m 권리공모 완료, 구독 2,501,262주 약 $8.9m, 10/21 미청약 백스톱 1,724,089주 $3.55/주 약 $6.1m; 두 물량은 중복 계산 금지. 투자자그룹 인수 2,495,391주+백스톱 1,724,089주는 4(a)(2) 발행으로 실제 즉시 매도 가능 여부 미확인. 기존 $40m ATM(실제 판매 한도 별도)과 신규 발행주식의 현재 매도 가능 물량 구분, 전체 A/B/C/D 판정 보류(ATM만 C형 잠정 검토), 최신 float/O/S·분봉·저점 방어 미확인. 위험은 1차 순위 미반영. 8-K는 16:16 EDT 장마감 후 제출되어 정규장 급등의 직접 원인으로 단정 불가.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1468327/000095010326016172/dp255517_8k-1.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "nasdaq7-RFAI-volume-reignite-20261026T200000Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5501,6 +5490,17 @@
       "detected_utc": "2026-11-02T01:04:37.667Z",
       "summary": "[2026-11-02 KST 지연 발굴; Eisai 원발표 2026-10-29(정확한 배포시각 미확인), 조기포착 성과 아님] Eisai는 Biogen(BIIB)과 공동 상업화하는 LEQEMBI(lecanemab) 60개월 Clarity AD 공개연장 추적 결과를 2026-11-16 18:00-18:15 EST(한국 11/17 08:00-08:15 KST) CTAD에서 발표 예정. 11/18 11:00-11:40 EST LEADER 실제진료 연구 심포지엄, 11/17 안전성 및 11/19 공동병리 발표 예정. 현재 확정된 것은 학회 일정이지 긍정적 결과나 신규 FDA 승인 아님. [1차] 중간 수준의 사전 임상 데이터 일정 신호; 거래량 2/3/5/10/30/50배 가속·5~15분봉·저점방어·급락/재점화 미확인, 가격 단계 미확정. [2차 독립] 2026-10-28 제출 SEC 10-Q의 2026-10-26 O/S 147,820,223주; 최신 float, ATM/ELOC/PIPE/Resale/워런트/전환/상장위험 및 A 제한/B 대기/C 즉시/D 잠재 공급 잔량 미확인, 잠재 공급을 즉시 공급으로 단정하지 않음. 본 행사 자체의 SEC 공시 직접 대조 미완료로 PROVISIONAL. 기존 TOP10 변경/2차 위험 감점 없음.",
       "source_url": "https://media-us.eisai.com/2026-10-29-Eisai-to-Present-New-Five-Year-Lecanemab-Data-and-Real-World-Alzheimers-Disease-Research-at-the-19th-Clinical-Trials-on-Alzheimers-Disease-CTAD-Conference",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-FFR-OCT2026_ROBOT_351_SOLD_SHIPPED-20261102T003000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "FFR",
+      "category": "1차_신규월간로봇판매출하실적_급등전후가격단계미확인",
+      "detected_utc": "2026-11-02T01:14:33Z",
+      "summary": "2026-11-01 19:30 EST(2026-11-02 00:30 UTC) 발행사 보도자료: FFR가 2026년 10월 로봇 351대 판매 및 출하(월간 최고치), 2월 말 판매·출하 개시 이후 누적 1,168대라고 발표. 단위당 매출총이익률 양수라는 회사 주장. 11~12월 월평균 400대 초과 및 연간 약 2,000대는 전망이며 확정 판매가 아님. 10/26 SEC 8-K에는 10월 300대 초과·누적 1,100대 초과 예상이 이미 공개되어 있었으므로 완전한 예상외 신규 계약/매출로 해석 금지. 새 351대 수치에 대한 SEC 직접 검증 미완료, PROVISIONAL. 최신 분봉·거래량 배율·저점방어·가격단계 미확인. 2차 공급: 10/26 8-K에서 인수대가로 보통주 및 비의결권 전환우선주 발행 확인, 잠재 전환 공급과 실제 즉시 매도 가능 물량 분리 필요; float/O/S·ATM·ELOC·Resale·PIPE·워런트·락업 최신 검증 미완료. 공급 위험은 1차 포착 신호 순위에 미반영.",
+      "source_url": "https://www.prnewswire.com/news-releases/ff-eai-robotics-ecosystem-ffr-ceo-yt-jia-shares-weekly-investor-update-recaps-ffrs-listing-closing-and-first-investor-day-in-new-york-ffr-sold-and-shipped-351-robot-devices-in-october-setting-another-monthly-record-302925824.html",
       "verification": "PROVISIONAL"
     }
   ]
