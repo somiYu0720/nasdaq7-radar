@@ -690,8 +690,8 @@ async function renderRanks(){
   const all=liveRows.filter(x=>{const t=Date.parse(x.bar_time||x.quote_time||'');const collected=Date.parse(x.collected_utc||stamp);return symbols.has(x.ticker)&&x.minute_volume!==null&&x.minute_volume!==undefined&&Number.isFinite(rankNum(x.minute_volume))&&Number.isFinite(t)&&Number.isFinite(collected)&&Date.now()-t<=5*60000&&t-Date.now()<=120000&&Math.abs(Date.parse(stamp)-collected)<=5*60000;});
   // Preserve the last valid ranked table for this browser when the feed has no usable rows.
   // A stale snapshot is always explicitly labeled and never counted as a live signal.
-  const snapshotKey='radar_last_valid_rank_v1_'+cat;
-  const savedRank=(()=>{try{return JSON.parse(localStorage.getItem(snapshotKey)||'null')}catch(e){return null}})();
+  
+  
   const sourceTime=Date.parse(stamp);
   const validFeed=all.length>0&&Number.isFinite(sourceTime)&&
     all.some(x=>Number.isFinite(Date.parse(x.bar_time||''))&&
@@ -799,34 +799,7 @@ async function renderRanks(){
     tr.addEventListener('click',()=>{const open=detail.classList.toggle('rank-detail-open');tr.setAttribute('aria-expanded',String(open))});
    }
   });
-  // Snapshot only verified, timestamped rows; never overwrite a good close with empty/old data.
-  if(validFeed&&rows.length){
-   const record={stamp,rows:rows.map(x=>({ticker:x.ticker,price:x.price,minute_volume:x.minute_volume,accel:x.accel,pct:x.pct,score:x.score}))};
-   try{localStorage.setItem(snapshotKey,JSON.stringify(record))}catch(e){}
-  }
-  if(!marketIsRegularSession() && !validFeed){
-   // Archived scored snapshot is authoritative when the regular US session is closed.
-   // Do not treat an old volume-only observation as a calculated ranking.
-   // Shared GitHub Pages close snapshot works across devices; local cache is secondary.
-   let closeSnapshot=null;
-   try{
-    const closeResponse=await fetch('./last_close_top10.json?t='+Date.now(),{cache:'no-store'});
-    if(closeResponse.ok)closeSnapshot=await closeResponse.json();
-   }catch(e){}
-   const shared=closeSnapshot?.categories?.[cat];
-   const archived=Array.isArray(shared)&&shared.length?{stamp:closeSnapshot.updated_utc,rows:shared,shared:true,label:closeSnapshot.label}:savedRank;
-   if(archived?.rows?.length){
-    body.replaceChildren();
-    archived.rows.slice(0,10).forEach((x,i)=>{
-     const tr=document.createElement('tr');
-     [i+1,x.ticker,({nas:'NASDAQ',china:'중국계'})[cat]||cat,'과거 기록 · 실시간 아님',Number(x.minute_volume).toLocaleString('ko-KR'),x.accel==null?'기록 없음':Number(x.accel).toFixed(2)+'배',x.pct==null?'기록 없음':Number(x.pct).toFixed(2)+'%',x.score==null?'미산정 (기록 없음)':x.score+' / 100',x.price??'—',rankEventLabel(x.ticker)||'—',secRiskLabel(x.ticker)||'—'].forEach(v=>textCell(tr,String(v)));
-     body.append(tr);
-    });
-    $('rankStatus').dataset.closeSnapshot=(archived.label||((archived.shared?'공용':'기기')+' 장마감 기록'))+' · '+archived.stamp+' · 실시간 아님';
-    $('rankStatus').textContent=$('rankStatus').dataset.closeSnapshot;
-   }
-  }
-  if(rows.length<10&&!$('rankStatus').dataset.closeSnapshot){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));textCell(tr,rankEventLabel(ticker));textCell(tr,secRiskLabel(ticker));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인','SEC 미조회','희석 미판정'].forEach(v=>textCell(tr,v));body.append(tr)}}
+  if(rows.length<10){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));textCell(tr,rankEventLabel(ticker));textCell(tr,secRiskLabel(ticker));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인','SEC 미조회','희석 미판정'].forEach(v=>textCell(tr,v));body.append(tr)}}
   if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,minuteBars,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
   const lag=stamp?Math.round((Date.now()-new Date(stamp).getTime())/60000):null;
   const watchedRows=liveRows.filter(x=>symbols.has(x.ticker));const staleCount=watchedRows.filter(x=>x.stale_volume).length;const missingCount=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t)).length;
@@ -840,7 +813,7 @@ async function renderRanks(){
   const state=!stamp?'수집 시각 없음':!marketOpen?(validFeed?'장외 · 토스 최신 분봉 기반 잠정 순위':'장외 · 과거 기록 (실시간 아님)'):ageKnown&&lag>10?'장중 · 수집 지연':'장중 · 최근 수집';
   const sourceState=d.status==='partial'?' · 일부 수집 실패':'';
   $('rankStatus').textContent=state+' · 마지막 업로드: '+(stamp&&Number.isFinite(Date.parse(stamp))?new Date(stamp).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'미확인')+' · 유효 분봉 '+all.length+'/'+symbols.size+' · 오래된 봉 '+staleCount+' · 미수집 '+missingCount+sourceState+' · 과거 기록은 실시간 신호 아님';
-  if($('rankStatus').dataset.closeSnapshot)$('rankStatus').textContent=$('rankStatus').dataset.closeSnapshot;
+  
   $('rankStatus').title='오래된 분봉(실시간 순위 제외): '+(staleDetails.length?staleDetails.join(', '):'없음')+' · 봉이 없는 이유는 거래 부재 또는 데이터 공급 지연일 수 있으며 미확인';
   const missingSymbols=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t));
   $('staleDetailsBody').textContent='오래된 분봉 ('+staleDetails.length+'종목):\n'+(staleDetails.join(' · ')||'없음')+'\n\n미수집 ('+missingSymbols.length+'종목):\n'+(missingSymbols.join(', ')||'없음')+'\n\n원인: 거래 부재 또는 데이터 제공 지연 가능성 · 미확인';
