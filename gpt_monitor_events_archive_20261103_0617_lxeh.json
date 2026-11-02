@@ -1,0 +1,17 @@
+{
+  "archived_utc": "2026-11-02T21:18:41.277Z",
+  "reason": "500 event retention cap; preserve displaced existing records",
+  "events": [
+    {
+      "id": "NASDAQ7_EARLY_MEGL_timber_loi_volume_crash_20261027T110000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nas",
+      "ticker": "MEGL",
+      "category": "급락 후 반등 관찰",
+      "detected_utc": "2026-10-27T14:45:58Z",
+      "summary": "2026-10-27 07:00 ET 회사 발표: 10/22 싱가포르 SIN HOPEWAY와 5년간 목재무역 누적 $500m 목표 LOI 체결. 개별 매매는 별도 정식계약 필요, $500m 확정 매출/수주 아님. StockTitan Argus 15분 지연 단일 관측 주가 약 $0.36(-49.72%), 상대거래량 1432.8배(플랫폼 산식·기준 미확인, 5일 RVOL과 동일시 금지). 급락·대량거래 LABT형 1차 후보, 반등/저점방어 미확인. SEC 6-K 신규 원문 미확인; 2차 float/O/S, 잠재희석, 즉시매도 가능 공급, A/B/C/D 최종 판정 보류. 1차 위험 감점 없음.",
+      "source_url": "https://www.stocktitan.net/news/MEGL/megl-enters-into-strategic-cooperation-with-singapore-s-sin-hopeway-ho7gobfvtmb6.html",
+      "verification": "PROVISIONAL"
+    }
+  ]
+}
