@@ -1,0 +1,17 @@
+{
+  "archived_utc": "2026-11-02T00:31:55.451Z",
+  "reason": "500-entry cap rollover before ELPW daily volume event",
+  "events": [
+    {
+      "id": "cn1-SXTC-volume-crash-20261021T200000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "SXTC",
+      "category": "거래량 3배 이상·급등 후 급락·반등 관찰",
+      "detected_utc": "2026-10-26T21:21:32Z",
+      "summary": "지연 포착: 10/21 거래량 230,475,685주 vs 10/20 52,677,925주 약 4.38배, 10/21 +11.79%; 10/22 -34.25%(57,488,687주), 10/23 -14.58%. 대량거래 후 급락을 별도 관찰. 10/26 1:100 주식병합으로 전후 가격·거래량 직접 비교 금지. 저점 방어·분봉·10/26 확정 종가는 미확인. 1차 순위에 희석·상장 위험 반영하지 않음.",
+      "source_url": "https://finance.yahoo.co.jp/quote/SXTC/history",
+      "verification": "PROVISIONAL"
+    }
+  ]
+}
