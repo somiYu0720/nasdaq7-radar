@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-02T22:05:41Z",
+  "updated_utc": "2026-11-02T22:09:43Z",
   "events": [
-    {
-      "id": "NASDAQ7_EARLY_HYFM_debt_exchange_financing_announcement_20261027T132900Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nas",
-      "ticker": "HYFM",
-      "category": "급락 후 반등 관찰·자본 이벤트",
-      "detected_utc": "2026-10-27T14:45:58Z",
-      "summary": "2026-10-27 09:29 ET 회사 발표: 약 $8.3m 조달 계약(등록직접발행 1,599,400주 및 사모 7,611,575주 또는 PFW, 보통주 워런트 9,210,975개), 약 $109m 대출 상환 목적의 전환우선주 27.5m주 및 대주 워런트 27.5m개 교환 계약. 종결 10/27경 예상이나 완료 확인 안 됨, 전환/대주 워런트 행사는 주주승인 조건. StockTitan Argus 15분 지연 단일 관측 약 $0.79(-6.51%), 상대거래량 67.0배(산식 미확인), 장중 저점 약 $0.66. 1차 뉴스·가격이상·대량거래만으로 포착, 자금조달/희석 위험 감점 없음. 2차 잠재 D형 복합 공급·등록발행 C 요소, 실제 즉시매도 가능 물량/효력·종결/float/O/S 미확인. 신규 SEC 원문 미검증 PROVISIONAL.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/27/3389151/0/en/hydrofarm-holdings-group-announces-termination-of-109-million-senior-secured-term-loan-in-connection-with-pricing-of-aggregate-8-3-million-registered-direct-offering-and-concurrent.html",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7_EARLY_ONCY_goblet_anal_cancer_survival_update_20261027T133000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nas",
-      "ticker": "ONCY",
-      "category": "급등 전 이벤트 관찰",
-      "detected_utc": "2026-10-27T14:45:58Z",
-      "summary": "2026-10-27 09:30 ET 회사 발표: GOBLET 1/2상 항문암 코호트 4에서 pelareorep+atezolizumab 반응지속기간 중앙값 약 15개월, 과거 별도 연구 단독요법 9.5개월과 비교(직접 무작위 대조 아님), 반응 환자 전원 12개월 이상 생존; FDA 가속승인/추가 연구는 협의 필요, 승인 확정 아님. StockTitan Argus 15분 지연 단일 관측 약 $0.47(-0.17%), 상대거래량 1.3배, 가격 가속·저점방어 미확인. 1차 뉴스 이벤트 관찰, 급등 전 확정 아님. 최신 SEC 이벤트 원문, float/O/S/ATM/ELOC/Resale/PIPE/워런트·즉시 매도 공급/A/B/C/D 최종 미확인, 위험 감점 없음.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/27/3389148/0/en/oncolytics-biotech-reports-strong-durability-and-survival-data-in-anal-cancer-positioning-pelareorep-as-potential-backbone-immunotherapy-across-hpv-driven-cancers.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "CN1_NEWS_YMT_convertible_note_additional_closing_20261023_date_only",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5501,6 +5479,28 @@
       "detected_utc": "2026-11-02T22:05:41Z",
       "summary": "[2026-11-03 07:05 KST 지연 점검; 2026-11-02 15:55 EST 관찰봉, 실시간 포착 아님] GitHub radar_bridge.json 2026-11-02T21:11:33Z 생성 스냅샷에서 BAOS 2026-11-02T20:55:00Z 자체 비공식 5분 상대거래량 rvol5=2.4, signal=REVIEW, source=intraday 확인. 1차 2배 이상 거래량 이상 관찰; 동일 시간대 보정 공식 RVOL·절대 5분 거래량·원시체결·연속 가속·동시가격·저점 방어 및 급등 전/진행/급락 후 반등/재점화 단계 미확인. 2차 별도: 2026-09-09 SEC F-3에 기존 PIPE 주식 최대 25,000,000주 재판매 등록 확인. 기존 기록상 09/21 EFFECT, 최신 재판매 잔여·실제 시장 매도량·float/O/S 미확인. B/C 재판매 경로 가능성(실제 매도 확인 아님), A/D 잔량 미확인. ATM/희석/상장위험을 1차 신호 감점·후보삭제·순위변경에 사용하지 않음. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/radar_bridge.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CERS-REDES_PHASE3_PRIMARY_ENDPOINT-20261102T210000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nas",
+      "ticker": "CERS",
+      "category": "임상3상 주요 평가변수 달성·뉴스 이벤트 (가격단계 미확정)",
+      "detected_utc": "2026-11-02T22:09:43Z",
+      "summary": "[2026-11-03 07:09 KST 사후 확인, 실시간 조기포착 아님] Cerus(CERS) 2026-11-02 16:00 EST 회사 발표: INTERCEPT 적혈구 혈액안전시스템의 RedeS 임상 3상에서 기존 적혈구 대비 헤모글로빈 증가량 비열등성의 주요 유효성 평가변수를 충족. 치료 관련 이상사례 차이는 통계적으로 유의하지 않았으나 INTERCEPT 특이 항체가 치료군 267명 중 6명(2.2%), 대조군 276명 중 0명에서 확인(임상적 용혈 영향 미관찰). 미국 FDA 제품 승인 아님, 전체 2차 평가변수 분석 및 FDA 판단 별도. 같은 날 SEC 8-K EX-99.1에서 3Q 총매출 $64.0m, 제품매출 $57.7m(+10% YoY), 9/30 현금·단기투자 $57.1m 확인. 1차 뉴스 강도 높음; 2/3/5/10/30/50배 분봉가속·가격·저점방어 미확인, 순위 미재정렬. 2차 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, A/B/C/D 실제 즉시 매도가능 공급 미확인; 위험 감점 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1020214/000119312526443646/cers-ex99_1.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-INM-NOV04_MERGER_VOTE_REVERSE_SPLIT-20261102T211500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nas",
+      "ticker": "INM",
+      "category": "D+7 M&A 주총 일정·조건부 1대10 병합 (가격단계 미확정)",
+      "detected_utc": "2026-11-02T22:09:43Z",
+      "summary": "[2026-11-03 07:09 KST 사후 신규발표 확인; SEC 11/02 원문 미대조] InMed(INM)는 2026-11-02 16:15 EST 회사 보도자료에서 Mentari 합병 관련 2026-11-04 주총에서 Nasdaq 주식발행, 자본환급, 재설립 관련 3개 안건 승인 시 기존주식 10주를 1주로 병합할 계획 발표. 조건 충족 시 11/04 장마감 후 병합, 11/05 병합 조정 거래 예상. 병합 전 O/S 5,493,735주에서 약 549,374주로 축소(주주 지분율은 원칙적으로 동일). 합병 종결·승인 확정 아님. 1차 M&A 일정 이벤트 포착, 희석/병합으로 감점 또는 순위 조정 없음. 2차 최신 float, ATM/ELOC/Resale/PIPE, 워런트/전환·실제 즉시 매도가능 공급 미확인, 병합 관련 잠재 증권 수량·행사가격 비례조정. 가격·거래량 가속 및 저점방어 미확인.",
+      "source_url": "https://www.stocktitan.net/news/INM/in-med-announces-share-consolidation-in-connection-with-proposed-tbnaaz9kmpxh.html",
       "verification": "PROVISIONAL"
     }
   ]
