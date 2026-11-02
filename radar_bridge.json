@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T18:44:38.812519+00:00",
-  "source_updated_utc": "2026-11-02T18:44:38.672798+00:00",
+  "generated_utc": "2026-11-02T18:51:41.558477+00:00",
+  "source_updated_utc": "2026-11-02T18:51:41.447904+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -48,8 +48,8 @@
     {
       "ticker": "AIOT",
       "signal": "REVIEW",
-      "rvol5": "0.4",
-      "bar_time": "2026-11-02T18:35:00+00:00",
+      "rvol5": "0.1",
+      "bar_time": "2026-11-02T18:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -496,8 +496,8 @@
     {
       "ticker": "CLRO",
       "signal": "REVIEW",
-      "rvol5": "0.43",
-      "bar_time": "2026-11-02T18:35:00+00:00",
+      "rvol5": "0.64",
+      "bar_time": "2026-11-02T18:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -536,24 +536,10 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "3.39",
-      "bar_time": "2026-11-02T18:00:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "EZGO",
       "signal": "REVIEW",
-      "rvol5": "1.65",
-      "bar_time": "2026-11-02T18:35:00+00:00",
+      "rvol5": "0.25",
+      "bar_time": "2026-11-02T18:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -635,9 +621,9 @@
     },
     {
       "ticker": "LABT",
-      "signal": "EARLY_PROVISIONAL",
-      "rvol5": "4.06",
-      "bar_time": "2026-11-02T18:30:00+00:00",
+      "signal": "REVIEW",
+      "rvol5": "0.69",
+      "bar_time": "2026-11-02T18:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -650,8 +636,8 @@
     {
       "ticker": "LUCD",
       "signal": "REVIEW",
-      "rvol5": "0.52",
-      "bar_time": "2026-11-02T18:35:00+00:00",
+      "rvol5": "1.71",
+      "bar_time": "2026-11-02T18:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -692,8 +678,8 @@
     {
       "ticker": "PRSO",
       "signal": "REVIEW",
-      "rvol5": "1.75",
-      "bar_time": "2026-11-02T18:35:00+00:00",
+      "rvol5": "0.1",
+      "bar_time": "2026-11-02T18:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -706,8 +692,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "1.43",
-      "bar_time": "2026-11-02T18:35:00+00:00",
+      "rvol5": "2.83",
+      "bar_time": "2026-11-02T18:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -762,7 +748,7 @@
     {
       "ticker": "STAK",
       "signal": "REVIEW",
-      "rvol5": "0.06",
+      "rvol5": "1.13",
       "bar_time": "2026-11-02T18:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -861,26 +847,10 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "3.39",
-      "bar_time": "2026-11-02T18:00:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "EZGO",
       "signal": "REVIEW",
-      "rvol5": "1.65",
-      "bar_time": "2026-11-02T18:35:00+00:00",
+      "rvol5": "0.25",
+      "bar_time": "2026-11-02T18:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -895,8 +865,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "1.43",
-      "bar_time": "2026-11-02T18:35:00+00:00",
+      "rvol5": "2.83",
+      "bar_time": "2026-11-02T18:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -942,6 +912,14 @@
     },
     {
       "ticker": "DUO",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DXF",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
