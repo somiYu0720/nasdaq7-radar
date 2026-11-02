@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T16:36:13.175736+00:00",
-  "source_updated_utc": "2026-11-02T16:36:13.084153+00:00",
+  "generated_utc": "2026-11-02T16:37:55.397401+00:00",
+  "source_updated_utc": "2026-11-02T16:37:55.304238+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -76,8 +76,8 @@
     {
       "ticker": "ARBB",
       "signal": "REVIEW",
-      "rvol5": "1.18",
-      "bar_time": "2026-11-02T15:40:00+00:00",
+      "rvol5": "0.24",
+      "bar_time": "2026-11-02T15:55:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -550,20 +550,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "DTSS",
-      "signal": "REVIEW",
-      "rvol5": "0.27",
-      "bar_time": "2026-11-02T15:40:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -692,7 +678,7 @@
     {
       "ticker": "PLAG",
       "signal": "EARLY_PROVISIONAL",
-      "rvol5": "3.01",
+      "rvol5": "3.3",
       "bar_time": "2026-11-02T16:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -734,8 +720,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.39",
-      "bar_time": "2026-11-02T16:15:00+00:00",
+      "rvol5": "0.1",
+      "bar_time": "2026-11-02T16:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -790,8 +776,8 @@
     {
       "ticker": "STAK",
       "signal": "REVIEW",
-      "rvol5": "1.84",
-      "bar_time": "2026-11-02T15:55:00+00:00",
+      "rvol5": "0.46",
+      "bar_time": "2026-11-02T16:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -905,25 +891,9 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "DTSS",
-      "signal": "REVIEW",
-      "rvol5": "0.27",
-      "bar_time": "2026-11-02T15:40:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "PLAG",
       "signal": "EARLY_PROVISIONAL",
-      "rvol5": "3.01",
+      "rvol5": "3.3",
       "bar_time": "2026-11-02T16:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -939,8 +909,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.39",
-      "bar_time": "2026-11-02T16:15:00+00:00",
+      "rvol5": "0.1",
+      "bar_time": "2026-11-02T16:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -962,6 +932,14 @@
     },
     {
       "ticker": "CREG",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DTSS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
