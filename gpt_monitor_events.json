@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-02T05:12:52Z",
+  "updated_utc": "2026-11-02T06:02:46Z",
   "events": [
-    {
-      "id": "nasdaq7-GCTK-volume-spike-20261026T200000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "GCTK",
-      "category": "거래량 50배 이상·급등 진행·재점화 관찰",
-      "detected_utc": "2026-10-27T00:00:11Z",
-      "summary": "2026-10-26 Nasdaq 종가 $1.61 (+99.65%), 정규장 거래량 34,412,434주; 10/19~10/23 분할조정 거래량 5일 평균 109,592.8주 대비 약 314.0배. 10/26 1:2 주식병합 시행. 거래량·가격 신호는 시장자료 확인, 상승 직접 원인 및 분봉 저점방어 미확인.",
-      "source_url": "https://stockanalysis.com/stocks/gctk/history/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-SNTI-merger-close-20261026T201700Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "SNTI",
-      "category": "M&A 종결 공시·거래량 50배 이상·시간외 재점화",
-      "detected_utc": "2026-10-27T00:00:11Z",
-      "summary": "2026-10-26 16:17 ET SEC 8-K로 10/21 자회사 Senti Holdings 사업 처분·합병 종결 확인. 10/26 정규장 거래량 70,396,330주로 10/19~10/23 평균 약 284,041주 대비 247.8배; 정규장 -7.06%, 19:50 ET 시간외 $0.2417(+38.04%, 정규장 종가 대비). 10/28 전환사채 주식 교환 예정은 별도 2차 공급 검증 대상.",
-      "source_url": "https://www.stocktitan.net/sec-filings/SNTI/8-k-senti-biosciences-holdings-inc-reports-material-event-22caa84730e1.html",
-      "verification": "VERIFIED"
-    },
     {
       "id": "nasdaq7-ABOS-phase2-readout-20261026T110900Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5501,6 +5479,28 @@
       "detected_utc": "2026-11-02T05:12:52Z",
       "summary": "[2026-11-02 KST 지연 발굴; 원 회사발표 2026-10-29, 실시간 조기포착 아님] Immunic(IMUX)은 2026-11-05 12:30 EST(한국 11/06 02:30 KST)에 진행성 다발성경화증 R&D Day를 개최하고 vidofludimus calcium(IMU-838)의 과학적 근거 및 2026년 말 진행성 MS 임상3상 개시 계획을 설명할 예정. 별도 재발성 MS 임상3상 ENSURE 탑라인은 2026년 말 예상; 11/5 행사 자체가 임상3상 성공 결과 공개나 FDA 승인이라는 뜻 아님. [1차] 연구개발 일정 뉴스 중간, 최신 거래량 2/3/5/10/30/50배, 5~15분봉, 저점방어, 급락/재점화, 가격 미확인; 가격 단계 미확정, 기존 TOP10 순위 변경 없음. [2차 SEC 2026-06-30 10-Q] 2026-07-31 O/S 13,644,467주(주식병합 후 수량), 6/30 현금 약 $155.1m, 최신 float/O/S 미확인. A 제한형 락업·재판매 제한 미확인; B 대기형 2024 ATM 6/30 잔여 $80m, 2026 상반기 ATM 발행 0주, 최신 가동/잔여 미확인; C 즉시 매도 가능 신규 주식 잔량 미확인; D 잠재형 6/30 프리펀디드 워런트 22,907,600주와 대응 보통 워런트 22,907,600주(그 외 기존 워런트·옵션), 행사조건·재판매등록·보유제한을 검증하지 않고 전량 즉시 매도 공급으로 계산 금지. ELOC/PIPE/Resale/상장위험 최신 검증 필요. 행사 일정 SEC 8-K 직접 대조 미완료로 PROVISIONAL. 2차 위험은 1차 감점·삭제·재정렬 금지, 손익비 별도.",
       "source_url": "https://ir.imux.com/2026-10-29-Immunic-to-Host-Virtual-Progressive-Multiple-Sclerosis-R-D-Day-on-November-5%2C-2026",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-RNXT-Q3_EARNINGS_CLINICAL_UPDATE_SCHEDULE-20261022T124500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "RNXT",
+      "category": "1차_D+4_11월5일실적및임상개발업데이트_회사공식발표_가격단계미확정",
+      "detected_utc": "2026-11-02T06:02:46Z",
+      "summary": "[2026-11-02 KST 지연 발굴; 회사 원발표 2026-10-22 08:45 EDT, 실시간 조기포착 아님] RenovoRx(RNXT)는 2026-11-05 미국 장마감 후 3분기 실적·사업 현황을 발표하고 16:30 EST(한국 11/06 06:30 KST) 컨퍼런스콜에서 RenovoCath 판매·상업화 및 TIGeR-PaC 임상3상 진행 상황을 설명할 예정. 기존 임상3상은 2026-08 등록 완료, 회사가 예상하는 임상 완료 2027년 상반기·탑라인 2027년 하반기; 11/5 행사에서 임상3상 성공 결과를 발표한다는 뜻 아님. 과거 2026Q2 RenovoCath 매출 $0.909m, 3Q 실제 실적 미발표. [1차 독립] 임상개발+실적 예정 뉴스 중간, 최신 주가·거래량 2/3/5/10/30/50배·연속 5~15분봉·저점방어·급락/재점화 미확인, 급등전/급등진행/급락후반등/재점화 가격 단계 미확정; 기존 TOP10 순위 변경 없음. [2차 SEC 2026-06-30 10-Q] 2026-08-07 O/S 45,129,508주, 6/30 현금 $9.479m, 최신 float/O/S 미확인. A 제한형 락업/재판매 제한 잔량 미확인. B 대기형 shelf 및 ATM 프로그램 언급, 실제 현재 잔여한도/매각 여부 미확인. C 즉시 매도 가능한 신규 공급 잔량 미확인. D 잠재형 6/30 미행사 보통주 워런트 기초 28,554,994주(프리펀디드 포함), 옵션 6,449,232주, 미베스팅 RSU 28,578주; 행사·보유제한·등록 효력 미확인으로 즉시 매도 공급과 구분. SEC 10-Q에 최저주가 상장요건 미준수 및 2026-12-28까지 추가 시정기한 기재, 최신 상태 미확인. ATM/ELOC/PIPE/Resale/전환 최신 재검증 필요. 10/22 행사 공지의 SEC 8-K 직접 대조 미완료로 PROVISIONAL. 2차 위험은 1차 포착 감점·제외·재정렬 금지; 손익비 별도.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/22/3386386/0/en/renovorx-to-report-third-quarter-2026-financial-results-and-business-highlights-on-november-5-2026.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-KRYS-Q3_EARNINGS_CALL_SCHEDULE-20261022T120000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "KRYS",
+      "category": "1차_D0_11월2일실적발표및사업업데이트_공식IR_가격단계미확정",
+      "detected_utc": "2026-11-02T06:02:46Z",
+      "summary": "[2026-11-02 KST 지연 발굴; 회사 원발표 2026-10-22 08:00 EDT, 실시간 조기포착 아님] Krystal Biotech(KRYS)는 2026-11-02 미국 개장 전 3분기 실적을 발표하고 08:30 EST(한국 11/02 22:30 KST) 실적·사업 현황 컨퍼런스콜을 개최할 예정이라고 공식 IR 공지. 3Q 실제 실적·가이던스 미발표; 과거 2026Q2 매출 약 $119.2m, EPS $1.79와 혼동 금지. [1차 독립] 실적·사업 업데이트 예정 뉴스 중간, 최신 주가·거래량 2/3/5/10/30/50배·5~15분봉·저점방어·급락/재점화 미확인, 급등전/급등진행/급락후반등/재점화 가격 단계 미확정; 기존 TOP10 재정렬 없음. [2차 SEC 2026-06-30 10-Q] 2026-07-28 O/S 29,598,836주, 6/30 현금·현금성자산 $427.740m, 단기투자 $417.891m; 최신 float/O/S 미확인. A 제한형 락업/재판매 제한 미확인. B 대기형 ATM/ELOC/PIPE/Shelf 최신 존재·잔여/가동 미확인. C 실제 즉시 매도 가능 신규 공급 잔량 미확인. D 잠재형 옵션/RSU 및 기타 잠재 희석 잔량 추가 확인 필요; 즉시 매도 공급과 구분. 상장/전환/Resale 최신 검증 필요. 10/22 일정 발표의 SEC 8-K 직접 대조 미완료로 PROVISIONAL. 2차 위험은 1차 포착 감점·제외·재정렬 금지; 매수 적합성/손익비 별도.",
+      "source_url": "https://krystalbio.gcs-web.com/news-releases/news-release-details/krystal-biotech-report-third-quarter-2026-financial-results",
       "verification": "PROVISIONAL"
     }
   ]
