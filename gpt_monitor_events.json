@@ -1,39 +1,6 @@
 {
-  "updated_utc": "2026-11-02T13:15:55.792Z",
+  "updated_utc": "2026-11-02T13:41:02Z",
   "events": [
-    {
-      "id": "cn1-news-TDIC-afterhours-volume-20261026T235900Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0(홍콩 소재·NASDAQ)",
-      "ticker": "TDIC",
-      "category": "거래량 10배 이상·시간외 반등·재점화 관찰",
-      "detected_utc": "2026-10-27T03:35:10Z",
-      "summary": "10/26 일별 누적 거래량 769,761주 vs 10/23 39,151주로 약 19.66배. 10/26 정규장 종가 $1.50(-3.23%), 19:59 EDT 장후 관측 $1.72(+14.67% 정규장 대비). 제공업체 20일 동일시간 상대거래량 약 9.5배(일별 전일비와 기준 다름). 최근 하락 이후 시간외 가격 이상·재점화 관찰; 신규 당일 확정 호재·5~15분봉·저점방어 미확인. 2차 SEC 10/13 6-K와 10/14 13D로 내부자 신주 및 워런트 행사 150만주 발행 확인, 재판매 제한과 실제 즉시 매도 가능 공급 구분. 1차 위험감점 없음.",
-      "source_url": "https://stockanalysis.com/stocks/tdic/history/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "cn1-news-TDIC-insider-warrant-exercise-20261014T150505Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0(홍콩 소재·NASDAQ)",
-      "ticker": "TDIC",
-      "category": "2차 SEC·내부자 신주 발행·워런트 행사 완료",
-      "detected_utc": "2026-10-27T03:35:10Z",
-      "summary": "10/13 SEC 6-K(10/9 계약) 및 10/14 11:05 EDT Schedule 13D: CEO Seto Wai Yue가 300,000 Class A주 $2.00에 인수하고 300,000 워런트(각 4주, 주당 $0.01)를 10/9 즉시 행사해 1,200,000 Class A주 추가 취득. 해당 워런트는 이미 행사되어 120만주를 미행사 잠재물량으로 중복계산 금지. 10/13 총 O/S 4,985,583주(클래스 A 4,905,583·B 80,000) 공시. 6-K상 Reg S 비등록·양도 제한, 제한 주식과 현재 실제 즉시 매도 가능 공급 별도; Rule 144 등 면제 경로와 최신 float·잔여 공급 미확인. A형(해당 제한 물량) 확인, 전체 유형/활성 C·D는 추가 검증. 1차 포착 순위 미반영. 과거 SEC 이벤트 지연 신규 발견.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2041338/000149315226046947/xslSCHEDULE_13D_X02/primary_doc.xml",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "nasdaq7-YHGJ-volume-acceleration-20261026T200000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "YHGJ",
-      "category": "거래량 50배 이상·가격 제한적 상승·급등 전 관찰",
-      "detected_utc": "2026-10-27T03:55:33Z",
-      "summary": "10/26 정규장 403,761주, 종가 $2.66(+5.97%), 고가 $2.66 저가 $2.41. 직전 5개 일별 거래기록(10/16,19,20,22,23; 10/21 기록 누락) 평균 2,943.4주 대비 약 137.18배; 일반적인 연속 5거래일 평균과 동일하다고 단정하지 않음. 50일 평균 약 4.8K 대비 약 84배라는 외부 이상거래 자료도 존재. 10/26 상승 직접 뉴스 미확인, 장후 관측 $2.45(-7.89%), 분봉·저점 방어 미확인. 2차: 10/05 SEC 8-K에 Series E 130,000주 및 Series F 70,000주 전환우선주·워런트 보유자의 전환/행사 제한 계약과 2029년까지 워런트 만기 연장 확인. 제한 대상은 잠정 A형 요소, 전체 구조는 D형 잠재 복합이나 즉시 매도 가능한 공급/최신 float·O/S 미확인. 2차 위험으로 1차 순위 감점 없음.",
-      "source_url": "https://stockanalysis.com/stocks/yhgj/history/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "nasdaq7-MGNX-linnet-phase2-interim-20261026T110600Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5501,6 +5468,39 @@
       "detected_utc": "2026-11-02T13:15:55.792Z",
       "summary": "[11/02 미국 프리장 외부 시세 스냅샷, 실시간·초단위 포착 아님; ID의 09:00 UTC는 프리장 개시시각으로 공시시각 아님] XXII 프리장 약 $0.08(반올림), 전일 대비 +10.78%, 누적 거래량 145,534,415주. 10/30 정규장 종가 $0.0696(-17.92%), 거래량 14,178,524주 대비 약 10.26배. 동일시간대 RVOL·분봉 가속 배수 아님. 10/28 -7.35%, 10/29 -12.67%, 10/30 -17.92% 연속 급락 후 반등/재점화 시도. 10/29 16:30 EDT Gopuff 유통 계약 발표, 출시 2026년 Q4 말 예상; 신규 매출 확정금액 미공개. [1차] 급락+대량거래+반등 신호 독립 포착; 5~15분 가속·저점 방어 미확인. [2차 SEC] 10/23 8-K 기준 O/S 19,202,198주, 최신 Float/O/S 미확인. 10월 ATM 15,785,757주 이미 발행·매각, 조달 $4.7m; 10/28 424B5의 ATM 최대 $18.8m은 잔여한도가 아님. A 제한형 락업 잔량 미확인; B 대기형 ATM 존재·실제 잔여/가동 미확인; C 즉시형 현재 신규 자유매도 가능 공급량 미확인(과거 ATM 매각분과 구분); D 잠재형 워런트·우선주 전환 잔여/조건 미확인. SEC https://www.sec.gov/Archives/edgar/data/1347858/000149315226048281/form8-k.htm 및 https://www.sec.gov/Archives/edgar/data/1347858/000149315226048792/form424b5.htm ; 뉴스 https://www.globenewswire.com/news-release/2026/10/29/3391881/0/en/22nd-century-signs-groundbreaking-agreement-with-gopuff.html ; 과거 거래량 https://stockanalysis.com/stocks/xxii/history/ . 2차 위험으로 1차 감점·삭제·재정렬 금지, 손익비 별도. 외부 프리장 스냅샷으로 PROVISIONAL.",
       "source_url": "https://stockanalysis.com/markets/premarket/gainers/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CMMB-S4_EFFECTIVE_MERGER_VOTE-20261102T130000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "CMMB",
+      "category": "M&A·S-4 효력발생·D+30 주주총회",
+      "detected_utc": "2026-11-02T13:41:02Z",
+      "summary": "[2026-11-02 08:00 EST 공식 기업발표 신규 확인] Chemomab-Scipher 기존 합병 관련 SEC S-4 등록신고서가 2026-10-30 효력발생했다고 회사 발표. CMMB 합병 승인 특별주주총회 2026-12-04 08:00 EST 예정, 합병 완료 예상 2027년 초(승인·조건 충족 전제), 합병 후 예상 티커 SCIP. 1차 뉴스/이벤트 신호 강함; 실시간 거래량 2/3/5/10/30/50배, 분봉·저점방어·가격 단계 미확인. 2차 SEC 효력발생 독립 원문 대조 미완료; Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 A/B/C/D 즉시 매도 공급 잔량 미확인. 합병 승인·종결 확정 아님. 1차 순위는 2차 위험으로 조정하지 않음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3393077/0/en/chemomab-therapeutics-and-scipher-medicine-announce-sec-registration-statement-on-form-s-4-is-effective.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-NSAI-NUCLEA_DEFINITIVE_MERGER-20261102T120000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "NSAI",
+      "category": "M&A·확정 합병계약·원자력",
+      "detected_utc": "2026-11-02T13:41:02Z",
+      "summary": "[2026-11-02 07:00 EST 공식 기업발표 신규 확인] NorthStrive Acquisition Corp I(NSAI)와 Nuclea Energy가 확정적 기업결합 계약 체결 발표. Nuclea 기업가치(EV) $350m(종결시 조정 가능), 합병 예상 2027년 상반기. 주주승인·S-4 효력·나스닥 승인·Moltex 인수 및 규제허가·최소현금 조건 등 미충족, 거래 종결 확정 아님. 1차 뉴스/M&A 이벤트 신호 강함; 시세·RVOL·분봉·가격 단계 미확인. 2차 SEC 당일 8-K 직접 대조 미완료, Float/O/S, SPAC 환매, 권리/워런트/PIPE, A/B/C/D 실제 즉시 매도 가능 공급 미확인. 위험에 따른 1차 순위 변경 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3392991/0/en/northstrive-acquisition-corp-i-announces-business-combination-with-nuclea-energy.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-SUNE-SUNIVA_CONFIDENTIAL_S4_SUBMISSION-20261102T120000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "SUNE",
+      "category": "M&A·S-4 비공개 초안 제출",
+      "detected_utc": "2026-11-02T13:41:02Z",
+      "summary": "[2026-11-02 07:00 EST 공식 기업발표 신규 확인] SUNation Energy(SUNE)가 Suniva와 기존 합병 관련 Form S-4 등록신고서 초안을 SEC에 비공개 제출했다고 발표. 초안 비공개 제출은 SEC 효력발생 또는 합병 승인/완료가 아님. 합병 성사시 예상 합병회사 티커 SUNV; 주주승인·SEC 효력발생·나스닥 승인 등 조건 미충족. 1차 뉴스/일정 이벤트 신호 중간; 거래량 2/3/5/10/30/50배·가격 단계 미확인. 2차 과거 SEC 2026-08-12 10-Q 존재 확인, 최신 Float/O/S 및 ATM/ELOC/Resale/PIPE/워런트/전환·A/B/C/D 공급 잔량 직접 대조 미완료. 1차 위험 감점 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3392985/0/en/sunation-energy-announces-confidential-submission-of-draft-registration-statement-on-form-s-4-in-connection-with-proposed-merger-with-suniva.html",
       "verification": "PROVISIONAL"
     }
   ]
