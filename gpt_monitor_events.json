@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-02T21:18:44.069Z",
+  "updated_utc": "2026-11-02T22:05:41Z",
   "events": [
-    {
-      "id": "NASDAQ7_EARLY_SXTP_babesiosis_clinical_8k_volcrash_20261027T120500Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nas",
-      "ticker": "SXTP",
-      "category": "급락 후 반등 관찰",
-      "detected_utc": "2026-10-27T14:45:58Z",
-      "summary": "2026-10-27 08:05 ET SEC 8-K 원문·첨부 99.1 확인: 재발성 바베시아증 expanded access 완료 환자 5명 모두 임상 개선 및 일반 PCR 음성, 4/5명(80%) 고감도 NAT 음성; 1명 NAT 양성. 비무작위·소규모 결과, 치료/예방 FDA 승인 아님. 별도 무작위 병원 연구 2027-01 눈가림 해제 예정, 이후 FDA 사전미팅 계획. StockTitan Argus 15분 지연 단일 관측 약 $0.63(-26.98%), 상대거래량 1080.7배(산식 미확인). 1차 LABT형 급락·대량거래, 반등 미확인. SEC 8-K 검증은 발표 사실에 한정; 최신 float/O/S/ATM/ELOC/Resale/PIPE/워런트/즉시 매도 가능 공급 및 A/B/C/D 판정 보류. 위험 감점 없음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026112698/ea0309690-8k_60degrees.htm",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "NASDAQ7_EARLY_ARTV_allonk_shutdown_restructuring_8k_20261027T123000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nas",
-      "ticker": "ARTV",
-      "category": "급락 후 반등 관찰·M&A 후속",
-      "detected_utc": "2026-10-27T14:45:58Z",
-      "summary": "2026-10-27 08:30 ET SEC 8-K 원문 확인: 이사회가 10/22 AlloNK 임상 개발 중단 및 약 94% 인력 감축 승인, 3상 착수 취소, 전략적 대안(M&A/자산매각/청산 등) 검토; 확정 M&A 없음. 임상 참가자 사망 2건 보고, 하나는 fludarabine 관련 가능성, 다른 하나는 치료 관련성 없다고 평가. 9/30 현금·투자자산 약 $319.1m 잠정·미감사. StockTitan Argus 15분 지연 단일 관측 약 $4.17(-32.22%), 상대거래량 81.3배(산식 미확인). 1차 급락·대량거래 LABT형, 반등 미확인. 2차 최신 float/O/S/ATM/워런트/실제 즉시매도 가능 공급 및 A/B/C/D 판정 보류, 위험 감점 없음. 기존 11/09 투자자 웹캐스트 취소 확인.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1817241/000119312526432806/d102135d8k.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7_EARLY_HYFM_debt_exchange_financing_announcement_20261027T132900Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5502,6 +5480,28 @@
       "summary": "[2026-11-03 KST 지연 발굴; 2026-11-02 08:40 EST SEC Form 4 접수, 실시간 조기포착 아님] Lixiang Education Holding Co.(LXEH)의 CEO/이사 Biao Wei가 2026-08-19 체결한 주식인수계약에 따라 2026-11-02 발행회사로부터 Class B 보통주 5,000,000,000주를 주당 $0.0005, 총 $2,500,000에 사모로 취득한 거래 종결을 Form 4 원문으로 확인. 장내 매집·일반 매수 아님. 해당 50억 Class B 주식은 종결일부터 5년간 매각·양도·담보제공 제한(동일 락업을 승계하는 계열사 양도 예외). [1차] 신규 지분거래/기업 이벤트 확인, 거래량 2/3/5/10/30/50배 가속·5~15분 연속봉·가격·저점방어·급등 전/진행/급락 후 반등/재점화 단계 미확인; 자금조달·희석 위험으로 감점·삭제·순위변경 없음. [2차] A 제한형: 이번 Class B 50억 주 5년 락업 확인; B 대기형: 타 물량 미확인; C 즉시형: 이번 락업 주식의 즉시 자유매도 불가, 회사 전체 실제 즉시 매도 가능 공급량 미확인; D 잠재형: 워런트·전환 잔량 미확인. 최신 Float/O/S 및 ADS와 Class B 환산 비율 미확인. 50억 주를 즉시 매도 가능 유통물량으로 계산하지 않음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1814067/000121390026114696/xslF345X06/ownership.xml",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-PLAG-VOLUME_RVOL5_3P66-20261102T205500Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "PLAG",
+      "category": "1차_5분거래량이상_3배이상_PROVISIONAL",
+      "detected_utc": "2026-11-02T22:05:41Z",
+      "summary": "[2026-11-03 07:05 KST 지연 점검; 2026-11-02 15:55 EST 관찰봉, 실시간 포착 아님] GitHub radar_bridge.json 2026-11-02T21:11:33Z 생성 스냅샷에서 PLAG 2026-11-02T20:55:00Z 자체 비공식 5분 상대거래량 rvol5=3.66, signal=EARLY_PROVISIONAL, source=intraday 확인. 1차 3배 이상 거래량 이상 관찰; 동일 시간대 보정 공식 RVOL·절대 5분 거래량·원시체결·연속 가속·동시가격·저점 방어 및 급등 전/진행/급락 후 반등/재점화 단계 미확인. 2차 별도: 2026-10-02 SEC 8-K에서 ATM 판매대리 계약과 당시 추정 최대 약 $22.54M 발행 가능 경로 확인. 실제 11/02 발행·매도량, 최신 잔여 한도, float/O/S 미확인. A/B/D 최신 잔량 미확인; C는 법적 판매 경로 존재하나 즉시 시장 매도 실수량 미확인. ATM/희석/상장위험을 1차 신호 감점·후보삭제·순위변경에 사용하지 않음. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/radar_bridge.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-BAOS-VOLUME_RVOL5_2P40-20261102T205500Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "BAOS",
+      "category": "1차_5분거래량이상_2배이상_PROVISIONAL",
+      "detected_utc": "2026-11-02T22:05:41Z",
+      "summary": "[2026-11-03 07:05 KST 지연 점검; 2026-11-02 15:55 EST 관찰봉, 실시간 포착 아님] GitHub radar_bridge.json 2026-11-02T21:11:33Z 생성 스냅샷에서 BAOS 2026-11-02T20:55:00Z 자체 비공식 5분 상대거래량 rvol5=2.4, signal=REVIEW, source=intraday 확인. 1차 2배 이상 거래량 이상 관찰; 동일 시간대 보정 공식 RVOL·절대 5분 거래량·원시체결·연속 가속·동시가격·저점 방어 및 급등 전/진행/급락 후 반등/재점화 단계 미확인. 2차 별도: 2026-09-09 SEC F-3에 기존 PIPE 주식 최대 25,000,000주 재판매 등록 확인. 기존 기록상 09/21 EFFECT, 최신 재판매 잔여·실제 시장 매도량·float/O/S 미확인. B/C 재판매 경로 가능성(실제 매도 확인 아님), A/D 잔량 미확인. ATM/희석/상장위험을 1차 신호 감점·후보삭제·순위변경에 사용하지 않음. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/radar_bridge.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
