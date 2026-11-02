@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T21:14:30Z",
+  "updated_utc": "2026-11-02T21:18:44.069Z",
   "events": [
-    {
-      "id": "NASDAQ7_EARLY_MEGL_timber_loi_volume_crash_20261027T110000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nas",
-      "ticker": "MEGL",
-      "category": "급락 후 반등 관찰",
-      "detected_utc": "2026-10-27T14:45:58Z",
-      "summary": "2026-10-27 07:00 ET 회사 발표: 10/22 싱가포르 SIN HOPEWAY와 5년간 목재무역 누적 $500m 목표 LOI 체결. 개별 매매는 별도 정식계약 필요, $500m 확정 매출/수주 아님. StockTitan Argus 15분 지연 단일 관측 주가 약 $0.36(-49.72%), 상대거래량 1432.8배(플랫폼 산식·기준 미확인, 5일 RVOL과 동일시 금지). 급락·대량거래 LABT형 1차 후보, 반등/저점방어 미확인. SEC 6-K 신규 원문 미확인; 2차 float/O/S, 잠재희석, 즉시매도 가능 공급, A/B/C/D 최종 판정 보류. 1차 위험 감점 없음.",
-      "source_url": "https://www.stocktitan.net/news/MEGL/megl-enters-into-strategic-cooperation-with-singapore-s-sin-hopeway-ho7gobfvtmb6.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_EARLY_SXTP_babesiosis_clinical_8k_volcrash_20261027T120500Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5502,6 +5491,17 @@
       "summary": "[11/02 15:31 EST 지연 공개 스캐너] TOVX 약 +4%, 누적 8140만주, 20일 동시간대 상대거래량 262배; 급락 TOP10이 아닌 1차 재점화·거래량 선행 별도 관찰. 11/02 08:00 EST 회사 보도자료: SYN-004 등 항생제분해효소 자산 매각 완료, 즉시 현금 $350K, 규제/판매 마일스톤 최대 $91M 조건부 및 로열티. 회사 핵심 자산 전체 매각/주주가치 소멸로 단정 불가; 잔여 VCN-01 프로그램 존재. SEC 원문 미대조, 2차 공급·float/O/S 미확인.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3393092/0/en/theriva-biologics-announces-sale-of-syn-004-ribaxamase-and-related-antibiotic-degrading-enzyme-portfolio-to-biossil-labs-inc.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-LXEH-CEO_CLASSB_PRIVATE_PLACEMENT_CLOSING-20261102T134000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "LXEH",
+      "category": "2차_SEC_FORM4_CEO_CLASSB_PRIVATE_PLACEMENT_CLOSING_5YEAR_LOCKUP",
+      "detected_utc": "2026-11-02T21:18:41.277Z",
+      "summary": "[2026-11-03 KST 지연 발굴; 2026-11-02 08:40 EST SEC Form 4 접수, 실시간 조기포착 아님] Lixiang Education Holding Co.(LXEH)의 CEO/이사 Biao Wei가 2026-08-19 체결한 주식인수계약에 따라 2026-11-02 발행회사로부터 Class B 보통주 5,000,000,000주를 주당 $0.0005, 총 $2,500,000에 사모로 취득한 거래 종결을 Form 4 원문으로 확인. 장내 매집·일반 매수 아님. 해당 50억 Class B 주식은 종결일부터 5년간 매각·양도·담보제공 제한(동일 락업을 승계하는 계열사 양도 예외). [1차] 신규 지분거래/기업 이벤트 확인, 거래량 2/3/5/10/30/50배 가속·5~15분 연속봉·가격·저점방어·급등 전/진행/급락 후 반등/재점화 단계 미확인; 자금조달·희석 위험으로 감점·삭제·순위변경 없음. [2차] A 제한형: 이번 Class B 50억 주 5년 락업 확인; B 대기형: 타 물량 미확인; C 즉시형: 이번 락업 주식의 즉시 자유매도 불가, 회사 전체 실제 즉시 매도 가능 공급량 미확인; D 잠재형: 워런트·전환 잔량 미확인. 최신 Float/O/S 및 ADS와 Class B 환산 비율 미확인. 50억 주를 즉시 매도 가능 유통물량으로 계산하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1814067/000121390026114696/xslF345X06/ownership.xml",
+      "verification": "VERIFIED"
     }
   ]
 }
