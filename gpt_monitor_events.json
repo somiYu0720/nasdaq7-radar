@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T22:36:48Z",
+  "updated_utc": "2026-11-02T22:43:36Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-MKDW-INTRADAY_CRASH_VOLUME-20261027T152936Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "MKDW",
-      "category": "LABT_INTRADAY_CRASH_VOLUME_WATCH",
-      "detected_utc": "2026-10-27T15:29:36Z",
-      "summary": "토스 수집본 GitHub 이력 비교: 2026-10-28 00:07 KST $0.4999에서 00:29:36 KST $0.3125로 약 -37.5% 가격 급락. 00:25 KST 표시 1분봉 거래량 159,678주, 00:30 KST 표시 분봉 7,523주. 1차 LABT형 급락+대량거래 잠정 포착, 저점 방어/반등 미확인. 2/3/5/10/30/50배 기준 대비 가속 미검증. 기존 10/26 MKDW 재점화·마감 기록과 구별되는 10/27 장중 신규 급락 신호. 2차 기존 ATM 최대 $100m 이력은 1차 순위에 미반영, 실제 즉시매도가능 공급/최신 float/O/S 및 A/B/C/D 최종 유형 미확인. 1분봉 시각은 구간 종료 표기일 수 있으며 초단위 연속 감시 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-NWGL-INTRADAY_REIGNITION-20261027T152927Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5502,6 +5491,17 @@
       "summary": "[2026-11-03 07:36 KST 지연 발굴; 원계약 2026-10-30, SEC 6-K 2026-11-02 17:00 EST 접수(분 단위)] Global Mofy AI(GMM) SEC 6-K 및 EX-10.1 원문 확인: 10/30 투자자와 자가주관 등록 직접공모 계약 체결, Class A 보통주 45,000,000주를 주당 $0.22에 판매 예정, 총 조달액 약 $9.9m(비용 전), 기존 유효 F-3 및 10/30 투자설명서 추록 이용. 종결 예정 11/06 전후, 관례적 종결 조건 존재; 계약 사실 VERIFIED이나 실제 종결·대금수령·신주발행 완료는 미확인. EX-10.1 계약 당시 발행주식 Class A 9,587,663주 및 Class B 3,163,344주, 총 12,751,007주; 이번 45m주는 계약 당시 총 O/S의 약 3.53배, 종결 시 발행증가 가능성 높음(최신 O/S/Float·종결 후 실수량 미확인). [1차] 자본 이벤트 뉴스만 포착; 거래량 2/3/5/10/30/50배·가격·저점방어·급락/재점화 미확인, 위험에 따른 1차 감점/삭제/순위재조정 없음, 단계 미확정. [2차] A 제한형 락업 최신 잔량 미확인; B 대기형 45m주 계약 및 종결 대기 확인; C 즉시형 실제 발행/입고/자유매도·매도 실행 수량 미확인(등록된 발행 경로가 즉시 매도를 증명하지 않음); D 잠재형 기존 워런트·전환 등 별도 최신 잔량 미확인. 11/06 종결 여부와 증권등록·입고 후 매도가능 공급 별도 재검증 필요.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1913749/000121390026114999/ea0310458-6k_global.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-LXEO-LX2006_36MONTH_INTERIM_ICAR_PRESENTATION-20261102T120000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LXEO",
+      "category": "1차_임상2상미만_36개월장기추적_11월11일ICAR학회_가격단계미확정_PROVISIONAL",
+      "detected_utc": "2026-11-02T22:43:36Z",
+      "summary": "[2026-11-03 07:43 KST 사후 공개자료 점검; 2026-11-02 07:00 EST 회사 보도자료] Lexeo Therapeutics(LXEO)는 LX2006 Friedreich 운동실조증 유전자치료제의 임상 1/2상 중간 장기추적 및 11/11 ICAR 발표 일정 공개. 24개월 추적 n=11에서 외부 자연사 대조군 대비 mFARS 연간 평균 2.13점(2년 4.26점) 개선, 36개월 추적 n=7에서는 치료 전 대비 평균 4점 초과 개선 보고. 공개 회사 발표는 확인됐지만 SEC 8-K 직접 대조는 미완료, 임상시험은 비무작위 공개라 대조군 선택 편향 가능. FDA 승인이나 확증적 3상 성공 아님. ICAR 11/11 15:06~15:24 EST 구두발표, 18:00~19:30 EST 포스터. 1차 임상 신규 장기추적·D+7 학회 이벤트만 평가, 가격·5/10/15분 거래량 2/3/5/10/30/50배 가속·저점 방어·급등 전/진행/급락 후 반등/재점화 단계 미확인. 2차 Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장 위험 및 A 제한형/B 대기형/C 실제 즉시 매도형/D 잠재형 수량 미확인. 희석·자금 위험으로 1차 감점·재정렬하지 않음. 매수 신호 아님.",
+      "source_url": "https://www.globenewswire.com/de/news-release/2026/11/02/3393014/0/en/lexeo-therapeutics-to-present-multiple-oral-and-poster-presentations-at-key-scientific-conferences-in-november.html",
+      "verification": "PROVISIONAL"
     }
   ]
 }
