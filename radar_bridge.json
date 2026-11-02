@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T01:34:37.126453+00:00",
-  "source_updated_utc": "2026-11-02T01:34:36.959239+00:00",
+  "generated_utc": "2026-11-02T01:36:46.049161+00:00",
+  "source_updated_utc": "2026-11-02T01:36:45.920436+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -469,7 +469,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-02T10:33:00+09:00",
+      "bar_time": "2026-11-02T10:36:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -530,20 +530,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "GCDT",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-02T10:29:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -614,20 +600,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-02T10:31:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -763,22 +735,6 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-02T10:31:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -828,6 +784,14 @@
     },
     {
       "ticker": "EZGO",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -890,7 +854,6 @@
     "DAVI",
     "FCDH",
     "FLSC",
-    "GCDT",
     "IAM",
     "IPHX",
     "LABT",
