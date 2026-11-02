@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T15:59:29.481771+00:00",
-  "source_updated_utc": "2026-11-02T15:59:29.364614+00:00",
+  "generated_utc": "2026-11-02T16:00:17.510859+00:00",
+  "source_updated_utc": "2026-11-02T16:00:17.355285+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -578,20 +578,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "0.08",
-      "bar_time": "2026-11-02T15:10:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": "1.57",
@@ -734,8 +720,8 @@
     {
       "ticker": "PLAG",
       "signal": "REVIEW",
-      "rvol5": "0.32",
-      "bar_time": "2026-11-02T15:35:00+00:00",
+      "rvol5": "0.9",
+      "bar_time": "2026-11-02T15:50:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -775,7 +761,7 @@
     },
     {
       "ticker": "RETO",
-      "signal": "EARLY_PROVISIONAL",
+      "signal": "REVIEW",
       "rvol5": "5.06",
       "bar_time": "2026-11-02T15:40:00+00:00",
       "daily_date": null,
@@ -979,22 +965,6 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "0.08",
-      "bar_time": "2026-11-02T15:10:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": "1.57",
@@ -1013,8 +983,8 @@
     {
       "ticker": "PLAG",
       "signal": "REVIEW",
-      "rvol5": "0.32",
-      "bar_time": "2026-11-02T15:35:00+00:00",
+      "rvol5": "0.9",
+      "bar_time": "2026-11-02T15:50:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -1028,7 +998,7 @@
     },
     {
       "ticker": "RETO",
-      "signal": "EARLY_PROVISIONAL",
+      "signal": "REVIEW",
       "rvol5": "5.06",
       "bar_time": "2026-11-02T15:40:00+00:00",
       "daily_date": null,
@@ -1052,6 +1022,14 @@
     },
     {
       "ticker": "CREG",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DXF",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
