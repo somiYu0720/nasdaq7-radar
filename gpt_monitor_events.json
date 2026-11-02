@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T15:42:42Z",
+  "updated_utc": "2026-11-02T15:51:42Z",
   "events": [
-    {
-      "id": "cn1-YMAT-egm-share-reorg-20261009T210000Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "중국계 1.0",
-      "ticker": "YMAT",
-      "category": "사전공시·10/29 주주총회 D-2·재점화 관찰",
-      "detected_utc": "2026-10-27T06:27:07Z",
-      "summary": "지연 신규 포착: 2026-10-09 17:00 EDT SEC 6-K 원문에서 2026-10-29 대만시간 21:30 Class A 회의, 22:30 임시주총 확인. 의안은 Class B 의결권 10→50배, 승인주식수 확대, 액면가 조정, 조건부 10:1 주식병합 등. 회의 일정만 VERIFIED, 결의 통과·실제 발행·즉시 매도 가능 물량은 미확인. 10/26 종가 $2.34 및 최근 급등 이력은 외부 시세 참고, 실시간 분봉 가속·저점 방어 미확인. 1차 뉴스·이벤트/재점화 관찰, 급등 전 확정 아님. 2차 별도: 9/24 ELOC $35m 계약, 525,000주 워런트 및 10/23 6-K 채무 주식전환 등 복합 공급 조건 정밀검증 필요; A/B/C/D 최종 미판정. 위험으로 1차 순위 감점하지 않음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1875016/000149315226046580/form6-k.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "cn1-news-MF-volume-labt-20261023T200000Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5502,6 +5491,17 @@
       "summary": "[2026-11-03 00:42 KST 사후 조회; 실시간 포착 성공 아님] GitHub alert_history.json에 2026-11-02 15:25 UTC AIOT의 5분 자체 상대거래량 6.63배(EARLY_PROVISIONAL), 15:31:15 UTC 탐지 기록. 15:42 UTC data.json의 후속 15:35 UTC 봉은 0.24배(REVIEW)로 지속 확인되지 않음. 배수는 직전 12개 양수거래량 완료 5분봉 대비 비공식 지표로 동일 시간대 RVOL 아님. 가격·저점방어·5~15분 연속가속·원시체결·원인 뉴스 미확인. SEC 공급 위험은 1차 순위에 미반영; 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/alert_history.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-MKDW-ATM_ACTUAL_SALES_1881277-20261102T113000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "MKDW",
+      "category": "2차_SEC6K_ATM_누적실제매각완료_공급유형잔량미확인_1차순위독립",
+      "detected_utc": "2026-11-02T15:51:42Z",
+      "summary": "[2026-11-03 00:51 KST 사후 발굴; 원 SEC 6-K 2026-11-02 06:30 EST 접수, 조기포착 아님] MKDWELL Tech(MKDW) SEC 6-K 직접 확인: 2026-09-11 Maxim Group과의 ATM 계약에 따라 2026-11-02 현재까지 보통주 1,881,277주 누적 실제 매각, 수수료 차감 후 기타 비용 전 순유입 약 $0.39m. 11/02 O/S 36,079,719주. 이 1,881,277주는 앞으로 추가 매도될 미발행 물량이 아니라 이미 매각된 누적 수량. 남은 ATM 한도/실제 즉시 매도 가능한 추가 공급, Float, 제한주식·워런트·전환 등 A/B/C/D 공급 유형별 잔량 미확인. 1차 거래량/가격 포착 순위는 위험으로 감점·변경하지 않음. SEC 원문 검증 VERIFIED.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1991332/000149315226049527/form6-k.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
