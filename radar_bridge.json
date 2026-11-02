@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-02T03:30:28.004303+00:00",
-  "source_updated_utc": "2026-11-02T03:30:27.906174+00:00",
+  "generated_utc": "2026-11-02T03:33:05.489617+00:00",
+  "source_updated_utc": "2026-11-02T03:33:05.153261+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,20 +424,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "BAOS",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-02T12:26:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -572,6 +558,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "LABT",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-02T12:30:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -736,17 +736,9 @@
   "china_candidates": [
     {
       "ticker": "BAOS",
-      "signal": "REVIEW",
+      "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
-      "bar_time": "2026-11-02T12:26:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
+      "bar_time": null,
       "china_verified": false,
       "classification": "PENDING"
     },
@@ -864,6 +856,7 @@
     "FLSC",
     "IAM",
     "IPHX",
+    "LABT",
     "LYCA",
     "PAXG",
     "RTSN",
