@@ -1,0 +1,19 @@
+{
+  "archived_utc": "2026-11-02T06:48:25.507Z",
+  "source_path": "gpt_monitor_events.json",
+  "source_sha": "f9aec30e6a89a23d8b2be258b8c4f0aaed2044f1",
+  "reason": "500 event cap rollover for TIGR new service event",
+  "events": [
+    {
+      "id": "nasdaq7-EFOI-volume-reignite-20261026T200000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ 7.0",
+      "ticker": "EFOI",
+      "category": "거래량 10배 이상·급등 진행·재점화",
+      "detected_utc": "2026-10-27T00:34:37Z",
+      "summary": "10/26 정규장 거래량 355,651주 vs 10/19~23 평균 13,849주 ≈25.68배, 종가 $3.77(+28.67%), 고가 $3.95, 저가 $2.93. 10/23에도 +11.83% 상승 후 10/26 재점화. 직접 상승 원인·신규 SEC 공시·최신 float/O/S·ATM/ELOC/재판매·즉시 매도 가능 공급·분봉 저점방어 미확인.",
+      "source_url": "https://stockanalysis.com/stocks/efoi/history/",
+      "verification": "PROVISIONAL"
+    }
+  ]
+}
