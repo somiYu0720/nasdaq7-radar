@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T18:12:20.046Z",
+  "updated_utc": "2026-11-02T18:16:22Z",
   "events": [
-    {
-      "id": "nasdaq7-early-IPHA-pacific9-phase3-readout-delay-20261027T060000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "IPHA",
-      "category": "임상 3상 PACIFIC-9 결과 발표 일정 2026H2→2027H1 변경·사전공시",
-      "detected_utc": "2026-10-27T09:29:02Z",
-      "summary": "2026-10-27 02:00 EDT Innate Pharma 공식 Business Wire 발표: AstraZeneca 주도 PACIFIC-9 3상 monalizumab/oleclumab+durvalumab 비소세포폐암 시험 주요 데이터 발표 예상 시점이 2026년 하반기에서 2027년 상반기로 변경됨. 환자 등록 완료, 사건 발생 수에 따른(event-driven) 일정 조정으로 설명; 시험 실패나 효능 결과 발표가 아님. 2026-09-17 SEC 6-K에는 기존 2026 H2 목표 기재되어 있어 일정 변경이 중요. 현재 거래량 가속·분봉·저점 방어·10/27 시세 미확인, 1차 뉴스·이벤트 일정 변경 관찰, 급등 전 확정 아님. 2차: 2026-09-17 회사 반기 공시에 8월 17,647,059주 사모 신주 발행과 6/30 기준 $75m ATM 잔여한도(나스닥 ATM 중단 언급) 존재. 현재 즉시 매도 가능 잔량·최신 float/O/S·ATM 재개 여부 미확인, 공급 유형 최종 보류. SEC의 10/27 변경공시 원문은 확인하지 못해 PROVISIONAL. 2차 위험으로 1차 순위 감점 없음.",
-      "source_url": "https://www.businesswire.com/news/home/20261026687365/en/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "cn1-news-TROO-efforce-conditional-acquisition-20261013-000110465926115363",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5501,6 +5490,17 @@
       "detected_utc": "2026-11-02T18:12:20.046Z",
       "summary": "[2026-11-03 03:12 KST 지연 발굴; SEC 원문 미대조] Haoxin Holdings(HXHX) 2026-11-02 11:18 EST 회사 보도자료: 일부 증권사가 HXHX Class A 보통주 매수 주문에 일반 온라인 주문 대신 직원 중개 주문을 요구할 수 있다고 안내. 증권사별 정책이며 모든 브로커 거래 제한이나 거래정지 확정 아님. 거래량 가속/가격 단계/Float/O/S 및 A/B/C/D 즉시 공급 미확인. 1차 감점/후보삭제 없음.",
       "source_url": "https://www.stocktitan.net/news/HXHX/haoxin-holdings-limited-provides-shareholder-update-regarding-broker-vdc8k9y66m2r.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-HXHX-PREMARKET_CRASH_VOLUME_6P5X-20261102T091900Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "HXHX",
+      "category": "1차_프리마켓_급락대량거래_사후발굴_PROVISIONAL",
+      "detected_utc": "2026-11-02T18:16:22Z",
+      "summary": "[2026-11-03 03:16 KST 사후 발견, 실시간 포착 아님] 2026-11-02 04:19 EST 공개 지연 제공업체 Dipfinding 기록: Haoxin Holdings(HXHX) $0.2025, -13.5%, 누적 11.6M주, 해당 제공업체 평균 거래량 대비 약 6.5배. 같은 날 장전 상승 기록도 있어 변동성·급락 대량거래 동시 관찰. 이는 5분 시간대 보정 RVOL이 아니며, 2/3/5/10/30/50배 5분 가속·현재 가격·저점 방어·float/O/S는 미확인. 1차 급락 후 반등 관찰 후보(반등 확인 아님); 2차 공급 A 제한/B 대기/C 즉시/D 잠재형 최신 잔량 미확인. 공급 위험으로 1차 감점 없음. 기존 11/2 증권사 주문 방식 안내와 다른 사건.",
+      "source_url": "https://dipfinding.com/dips",
       "verification": "PROVISIONAL"
     }
   ]
