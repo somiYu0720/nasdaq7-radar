@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-02T15:25:16Z",
+  "updated_utc": "2026-11-02T15:42:42Z",
   "events": [
-    {
-      "id": "nasdaq7-INO-pdufa-20251229T132019Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "INO",
-      "category": "FDA PDUFA 10/30 사전 일정·10/21 LABT형 급락 후 반등 관찰",
-      "detected_utc": "2026-10-27T06:00:09.552Z",
-      "summary": "10/30/2026 INO-3107 성인 재발성 호흡기 유두종증 BLA FDA PDUFA 목표일(승인 확정 아님). SEC 2025-12-29 08:20:19 EST 8-K 원문 및 2026-08 Q2 업데이트 확인; FDA는 가속승인 경로 적격성에 예비 우려 표명. 10/21 주가 -21.26%, 거래량 11,651,688주로 직전 5일 평균 약 3,950,682주의 2.95배(LABT형); 10/26 종가 $0.8698(-3.04%), 거래량 2,965,853주/직전 5일 평균 약 6,807,422주=0.44배, 저점방어·분봉 미확인. 급등 전 확정 아님. 2차 SEC 2026-06 10-Q: 8/10 O/S 103,397,518주, 7/31 신규 보통주 21,052,632주·워런트 최대 48,421,052주 상당(행사·매도잔량 미확인); 6/30 ATM 잔여한도 $56.8m이나 4/1부터 관련 prospectus 중단·신규 prospectus 전 매각 불가, 계약은 존속. 복합 D형 잠정, 실제 즉시 매도 가능 신규 공급·최신 float/O/S·이후 공시 미확인. 2차 위험은 1차 순위에 반영하지 않음. 기존 2025년 발표를 PDUFA 임박에 맞춰 지연 신규 포착.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1055726/000119312525332322/d78035d8k.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "cn1-YMAT-egm-share-reorg-20261009T210000Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5501,6 +5490,17 @@
       "detected_utc": "2026-11-02T15:25:16Z",
       "summary": "[2026-11-03 00:25 KST 지연 신규 발견, 시세 조기포착 성공 아님] GitHub discovery_latest.json 2026-11-02 14:53:37 UTC 스냅샷에 Zillow Group Class A(ZG) $33.88, 관찰구간 +1.33%(15분), 5분 RVOL 7.42배, 10분 8.8배, 15분 12.58배, 5분 거래량 83,387주, 15분 424,375주. 해당 수치는 무료/지연 가능 데이터 및 과거 세션 기준 잠정 비교값이며 거래소 원시자료·실시간/초단위 검증 아님. [1차 독립] 가격 10% 이내 거래량 가속 신호로 급등 전 관찰 잠정, 강한 돌파 확정 아님; 저점방어/뉴스에 의한 가격 반응/재점화 미확인. [사전 이벤트] 회사는 2026-10-06 공식 보도자료로 2026-11-04 미국 정규장 마감 후 3분기 실적 발표 및 17:00 EST 컨퍼런스콜을 확정 공지(한국시간 11/05 07:00), 이미 공개된 일정의 지연 발견이며 신규 발표 아님. [2차 SEC 별도] 2026-06-30 10-Q 기준 2026-07-29 Class A O/S 41,402,072주(ZG), Class B 6,217,447주, Class C 177,255,435주(Z); Float가 아니며 서로 다른 주식종류 구별. A 제한형 락업 미확인, B 대기형 ATM/ELOC/Resale/PIPE 미확인, C 즉시 매도 가능 신규 공급량 미확인, D 잠재형 전환/옵션/워런트 잔여 미확인. 2026-06-30 10-Q에 자사주 매입 승인잔여 약 $1.1bn 기재(신규 매도 공급과 구별). 위험에 따른 1차 감점/순위 변경 없음, 손익비·매수 적합성 별도. 공식 일정 https://zillowgroup.mediaroom.com/2026-10-06-Zillow-Group-to-Announce-Third-Quarter-2026-Results-Nov-4 ; SEC https://www.sec.gov/Archives/edgar/data/1617640/000161764026000052/z-20260630.htm ; 잠정 거래량 https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "source_url": "https://zillowgroup.mediaroom.com/2026-10-06-Zillow-Group-to-Announce-Third-Quarter-2026-Results-Nov-4",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-AIOT-5M_VOLUME_ACCEL-20261102T152500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "NASDAQ7",
+      "ticker": "AIOT",
+      "category": "VOLUME_FIRST",
+      "detected_utc": "2026-11-02T15:42:42Z",
+      "summary": "[2026-11-03 00:42 KST 사후 조회; 실시간 포착 성공 아님] GitHub alert_history.json에 2026-11-02 15:25 UTC AIOT의 5분 자체 상대거래량 6.63배(EARLY_PROVISIONAL), 15:31:15 UTC 탐지 기록. 15:42 UTC data.json의 후속 15:35 UTC 봉은 0.24배(REVIEW)로 지속 확인되지 않음. 배수는 직전 12개 양수거래량 완료 5분봉 대비 비공식 지표로 동일 시간대 RVOL 아님. 가격·저점방어·5~15분 연속가속·원시체결·원인 뉴스 미확인. SEC 공급 위험은 1차 순위에 미반영; 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/alert_history.json",
       "verification": "PROVISIONAL"
     }
   ]
