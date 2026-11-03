@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T18:14:33.693636+00:00",
-  "source_updated_utc": "2026-11-03T18:14:33.547441+00:00",
+  "generated_utc": "2026-11-03T18:15:21.665329+00:00",
+  "source_updated_utc": "2026-11-03T18:15:21.551285+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -662,22 +662,8 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "0.09",
-      "bar_time": "2026-11-03T17:35:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "POLA",
-      "signal": "EARLY_PROVISIONAL",
+      "signal": "REVIEW",
       "rvol5": "24.75",
       "bar_time": "2026-11-03T17:55:00+00:00",
       "daily_date": null,
@@ -863,22 +849,6 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "0.09",
-      "bar_time": "2026-11-03T17:35:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "RETO",
       "signal": "EARLY_PROVISIONAL",
       "rvol5": "3.36",
@@ -936,6 +906,14 @@
     },
     {
       "ticker": "DXF",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
