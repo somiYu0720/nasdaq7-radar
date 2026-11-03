@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T14:34:21.404135+00:00",
-  "source_updated_utc": "2026-11-03T14:34:21.275899+00:00",
+  "generated_utc": "2026-11-03T14:35:20.850450+00:00",
+  "source_updated_utc": "2026-11-03T14:35:20.695022+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-03T23:35:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -469,7 +483,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:33:00+09:00",
+      "bar_time": "2026-11-03T23:35:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -539,7 +553,7 @@
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:34:00+09:00",
+      "bar_time": "2026-11-03T23:35:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -707,7 +721,7 @@
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:34:00+09:00",
+      "bar_time": "2026-11-03T23:35:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -763,7 +777,7 @@
       "ticker": "STAK",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:34:00+09:00",
+      "bar_time": "2026-11-03T23:35:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -875,6 +889,22 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-03T23:35:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "DTSS",
       "signal": "REVIEW",
       "rvol5": null,
@@ -910,7 +940,7 @@
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:34:00+09:00",
+      "bar_time": "2026-11-03T23:35:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -942,7 +972,7 @@
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:34:00+09:00",
+      "bar_time": "2026-11-03T23:35:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -967,14 +997,6 @@
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
       "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
       "china_verified": false,
       "classification": "PENDING"
     },
