@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T03:02:18.797817+00:00",
-  "source_updated_utc": "2026-11-03T03:02:18.730977+00:00",
+  "generated_utc": "2026-11-03T03:05:15.230545+00:00",
+  "source_updated_utc": "2026-11-03T03:05:15.093725+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-03T12:03:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -469,7 +483,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T12:00:00+09:00",
+      "bar_time": "2026-11-03T12:03:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -558,20 +572,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "LABT",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T11:57:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -736,9 +736,17 @@
   "china_candidates": [
     {
       "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
+      "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": null,
+      "bar_time": "2026-11-03T12:03:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
       "china_verified": false,
       "classification": "PENDING"
     },
@@ -856,7 +864,6 @@
     "FLSC",
     "IAM",
     "IPHX",
-    "LABT",
     "LYCA",
     "PAXG",
     "RTSN",
