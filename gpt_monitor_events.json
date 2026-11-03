@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-03T15:21:19Z",
   "events": [
     {
-      "id": "중국계1.0뉴스사전공시일정감시-VNET-2027convertible_notes_30pct_repurchase-20261027T122500Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china",
-      "ticker": "VNET",
-      "category": "자본 이벤트·전환사채 30% 현금 재매입 / 뉴스 포착",
-      "detected_utc": "2026-10-27T16:53:35Z",
-      "summary": "2026-10-27 08:25 ET 회사 발표: 2027년 만기 2% 전환사채 총 원금 $250m 중 약 $75.3m(약 30%)을 사적 협상으로 현금 재매입, 미지급이자 포함 현금 지급액 약 $80m. 1차 뉴스 이벤트로만 포착; 가격·거래량 2/3/5/10/30/50배·분봉·저점방어 미확인, 급등 전 확정 아님. 2차: 해당 전환채의 잠재 전환공급 일부 감소 가능, 현금 유출 및 다른 전환채/즉시매도 가능 물량/최신 float/O/S/ATM/ELOC/PIPE/워런트/상장위험은 별도 미확인. SEC 6-K 본문 교차검증 미완료, PROVISIONAL.",
-      "source_url": "https://www.prnewswire.com/news-releases/vnet-announces-repurchase-of-30-of-its-convertible-senior-notes-due-2027-302920704.html",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "중국계1.0급등전신호-MKDW-CONTINUED_INTRADAY_CRASH-20261027T174414Z",
       "task": "중국계 1.0 급등 전 신호",
       "radar": "china1",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-03T15:21:19Z",
       "summary": "2026-11-03 회사 보도자료: AGV 배터리팩 고객사의 2022년 이후 누적 주문액 약 822만 달러(세금 포함) 발표. 당일 신규 822만 달러 계약 아님. 1차 뉴스 신호만 잠정 포착; 거래량 가속·가격 확인 불가. 2차 Float/O/S·잠재희석 및 실제 즉시매도 공급 A/B/C/D 미확인.",
       "source_url": "https://www.stocktitan.net/news/CBAT/cbak-energy-reports-approximately-us-8-22-million-in-cumulative-fibprckzwiob.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-PLAG-RVOL5_3P00-20261103T153000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "PLAG",
+      "category": "1차_5분거래량3배_가격단계미확정",
+      "detected_utc": "2026-11-03T15:39:14Z",
+      "summary": "2026-11-03 15:30 UTC 표시 5분봉, GitHub data.json 15:39:14 UTC 갱신: PLAG 5분 상대거래량 3.00배, EARLY_PROVISIONAL, 당시 FRESH(약 4.2분). Yahoo 비공식 5분봉 이전 완료 양(+)거래량 12개 평균 기준이며 시간대 보정 RVOL·거래소 원시체결 미검증. 가격 상승률·저점방어·뉴스 촉매·현재 시세 미확인; 급등 전/진행/급락 후 반등/재점화 분류 확정 불가. 과거 PLAG 관찰과 별도 날짜 신호. 2차 SEC/Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 및 A/B/C/D 즉시매도 가능 공급 이번 실행 미검증. 1차 신호 순위에 위험 감점 없음. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
