@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T12:36:46.295189+00:00",
-  "source_updated_utc": "2026-11-03T12:36:46.224029+00:00",
+  "generated_utc": "2026-11-03T12:38:56.043120+00:00",
+  "source_updated_utc": "2026-11-03T12:38:55.943332+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-03T21:38:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -469,7 +483,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T21:34:00+09:00",
+      "bar_time": "2026-11-03T21:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -592,10 +606,24 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "POLA",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-03T21:37:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T21:33:00+09:00",
+      "bar_time": "2026-11-03T21:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -749,10 +777,10 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "RETO",
+      "ticker": "BAOS",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T21:33:00+09:00",
+      "bar_time": "2026-11-03T21:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -765,10 +793,18 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
+      "ticker": "RETO",
+      "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": null,
+      "bar_time": "2026-11-03T21:38:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
       "china_verified": false,
       "classification": "PENDING"
     },
@@ -880,6 +916,7 @@
     "IPHX",
     "LYCA",
     "PAXG",
+    "POLA",
     "RTSN",
     "RZAI",
     "SCAT",
