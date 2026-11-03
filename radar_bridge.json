@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T18:06:33.877731+00:00",
-  "source_updated_utc": "2026-11-03T18:06:33.776524+00:00",
+  "generated_utc": "2026-11-03T18:07:30.989618+00:00",
+  "source_updated_utc": "2026-11-03T18:07:30.878618+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -48,8 +48,8 @@
     {
       "ticker": "AIOT",
       "signal": "REVIEW",
-      "rvol5": "0.25",
-      "bar_time": "2026-11-03T17:55:00+00:00",
+      "rvol5": "0.36",
+      "bar_time": "2026-11-03T18:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -662,20 +662,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "0.08",
-      "bar_time": "2026-11-03T17:30:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "POLA",
       "signal": "EARLY_PROVISIONAL",
       "rvol5": "24.75",
@@ -863,22 +849,6 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "0.08",
-      "bar_time": "2026-11-03T17:30:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": "0.44",
@@ -936,6 +906,14 @@
     },
     {
       "ticker": "DXF",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
