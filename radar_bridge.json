@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T15:10:03.614005+00:00",
-  "source_updated_utc": "2026-11-03T15:10:03.498777+00:00",
+  "generated_utc": "2026-11-03T15:11:01.794894+00:00",
+  "source_updated_utc": "2026-11-03T15:11:01.643609+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -48,8 +48,8 @@
     {
       "ticker": "AIOT",
       "signal": "REVIEW",
-      "rvol5": "0.4",
-      "bar_time": "2026-11-03T15:00:00+00:00",
+      "rvol5": "0.2",
+      "bar_time": "2026-11-03T15:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -566,22 +566,8 @@
     {
       "ticker": "DUO",
       "signal": "REVIEW",
-      "rvol5": "0.75",
+      "rvol5": "0.85",
       "bar_time": "2026-11-03T15:00:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "6.62",
-      "bar_time": "2026-11-02T20:50:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -594,8 +580,8 @@
     {
       "ticker": "EZGO",
       "signal": "REVIEW",
-      "rvol5": "0.18",
-      "bar_time": "2026-11-03T15:00:00+00:00",
+      "rvol5": "0.02",
+      "bar_time": "2026-11-03T15:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -748,8 +734,8 @@
     {
       "ticker": "POLA",
       "signal": "REVIEW",
-      "rvol5": "0.04",
-      "bar_time": "2026-11-03T14:50:00+00:00",
+      "rvol5": "0.09",
+      "bar_time": "2026-11-03T15:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -790,8 +776,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.19",
-      "bar_time": "2026-11-03T15:00:00+00:00",
+      "rvol5": "0.46",
+      "bar_time": "2026-11-03T15:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -874,7 +860,7 @@
     {
       "ticker": "TAOP",
       "signal": "REVIEW",
-      "rvol5": "0.51",
+      "rvol5": "0.56",
       "bar_time": "2026-11-03T14:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -993,24 +979,8 @@
     {
       "ticker": "DUO",
       "signal": "REVIEW",
-      "rvol5": "0.75",
+      "rvol5": "0.85",
       "bar_time": "2026-11-03T15:00:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "6.62",
-      "bar_time": "2026-11-02T20:50:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -1025,8 +995,8 @@
     {
       "ticker": "EZGO",
       "signal": "REVIEW",
-      "rvol5": "0.18",
-      "bar_time": "2026-11-03T15:00:00+00:00",
+      "rvol5": "0.02",
+      "bar_time": "2026-11-03T15:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -1057,8 +1027,8 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.19",
-      "bar_time": "2026-11-03T15:00:00+00:00",
+      "rvol5": "0.46",
+      "bar_time": "2026-11-03T15:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -1073,7 +1043,7 @@
     {
       "ticker": "TAOP",
       "signal": "REVIEW",
-      "rvol5": "0.51",
+      "rvol5": "0.56",
       "bar_time": "2026-11-03T14:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1096,6 +1066,14 @@
     },
     {
       "ticker": "CREG",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DXF",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
