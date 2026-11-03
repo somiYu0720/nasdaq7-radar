@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T13:22:12.299244+00:00",
-  "source_updated_utc": "2026-11-03T13:22:12.124305+00:00",
+  "generated_utc": "2026-11-03T13:23:13.038140+00:00",
+  "source_updated_utc": "2026-11-03T13:23:12.941460+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -54,20 +54,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "ARBB",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T22:17:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -466,6 +452,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "CHNR",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-03T22:22:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "CHWM",
       "signal": "조회 실패",
       "rvol5": null,
@@ -483,7 +483,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T22:21:00+09:00",
+      "bar_time": "2026-11-03T22:23:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -578,6 +578,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "LUCD",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-03T22:22:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "LYCA",
       "signal": "조회 실패",
       "rvol5": null,
@@ -600,20 +614,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "PRSO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T22:17:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -763,6 +763,22 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "CHNR",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-03T22:22:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
@@ -780,14 +796,6 @@
     },
     {
       "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "CHNR",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -856,7 +864,6 @@
     "AETR",
     "AIOK",
     "AMRO",
-    "ARBB",
     "ASYS",
     "ATCX",
     "ATEC",
@@ -893,9 +900,9 @@
     "FLSC",
     "IAM",
     "IPHX",
+    "LUCD",
     "LYCA",
     "PAXG",
-    "PRSO",
     "RTSN",
     "RZAI",
     "SCAT",
