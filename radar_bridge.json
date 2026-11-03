@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T01:49:35.846626+00:00",
-  "source_updated_utc": "2026-11-03T01:49:35.740666+00:00",
+  "generated_utc": "2026-11-03T01:50:44.495105+00:00",
+  "source_updated_utc": "2026-11-03T01:50:44.390881+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -469,7 +469,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T10:48:00+09:00",
+      "bar_time": "2026-11-03T10:50:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -558,6 +558,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "LABT",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-03T10:50:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -842,6 +856,7 @@
     "FLSC",
     "IAM",
     "IPHX",
+    "LABT",
     "LYCA",
     "PAXG",
     "RTSN",
