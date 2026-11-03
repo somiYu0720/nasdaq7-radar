@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T01:59:45.659088+00:00",
-  "source_updated_utc": "2026-11-03T01:59:45.557839+00:00",
+  "generated_utc": "2026-11-03T02:00:56.885023+00:00",
+  "source_updated_utc": "2026-11-03T02:00:56.791887+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -466,20 +466,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "CLRO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T10:54:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "CTY",
       "signal": "조회 실패",
       "rvol5": null,
@@ -502,20 +488,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "EZGO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T10:55:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -572,20 +544,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "LABT",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T10:54:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -679,7 +637,7 @@
       "ticker": "STAK",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T10:56:00+09:00",
+      "bar_time": "2026-11-03T11:00:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -777,22 +735,6 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "EZGO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T10:55:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -834,6 +776,14 @@
     },
     {
       "ticker": "DXF",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "EZGO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -899,14 +849,12 @@
     "BBCI",
     "BMMX",
     "CHWM",
-    "CLRO",
     "CTY",
     "DAVI",
     "FCDH",
     "FLSC",
     "IAM",
     "IPHX",
-    "LABT",
     "LUCD",
     "LYCA",
     "PAXG",
