@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-03T15:21:19Z",
+  "updated_utc": "2026-11-03T16:38:03Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-MKDW-CONTINUED_INTRADAY_CRASH-20261027T174414Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "MKDW",
-      "category": "급락 후 반등 관찰_LABT형_추가급락",
-      "detected_utc": "2026-10-27T17:44:14Z",
-      "summary": "GitHub 토스 수집본 비교: 2026-10-28 01:39 KST 가격 $0.3113에서 02:44:14 KST $0.25665로 약 -17.56% 추가 하락. 최신 02:45 표시 1분봉 3,291주(이전 01:40 표시 1분봉 1,188주). 약 65분 간격의 두 스냅샷 비교로 전일 대비 등락률 또는 2/3/5/10/30/50배 분봉 가속은 아님. 저점 방어·반등·원인·SEC 공급 검증 미확인. 1차 신호 순위에 희석/상장 위험 반영하지 않음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/282fb34352c0/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7.0-SHFS-MINUTE_VOLUME_REIGNITION-20261027T175048Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-03T15:39:14Z",
       "summary": "2026-11-03 15:30 UTC 표시 5분봉, GitHub data.json 15:39:14 UTC 갱신: PLAG 5분 상대거래량 3.00배, EARLY_PROVISIONAL, 당시 FRESH(약 4.2분). Yahoo 비공식 5분봉 이전 완료 양(+)거래량 12개 평균 기준이며 시간대 보정 RVOL·거래소 원시체결 미검증. 가격 상승률·저점방어·뉴스 촉매·현재 시세 미확인; 급등 전/진행/급락 후 반등/재점화 분류 확정 불가. 과거 PLAG 관찰과 별도 날짜 신호. 2차 SEC/Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 및 A/B/C/D 즉시매도 가능 공급 이번 실행 미검증. 1차 신호 순위에 위험 감점 없음. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-CENN-PRICE_DROP_HIGH_MINUTE_VOLUME-20261103T163803Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "CENN",
+      "category": "급락 후 반등 관찰_LABT형_가격급락대량거래",
+      "detected_utc": "2026-11-03T16:38:03Z",
+      "summary": "2026-11-04 00:11 KST 이전 보고된 GitHub Toss 부분 수집가격 CENN $0.4095(표시 1분봉 45,566주) 대비 01:38 KST 표시 분봉 수집가격 $0.2601(177,688주): 비연속 표본 가격 약 -36.48%. 현재 분봉 거래량은 이전 표시 분봉의 약 3.90배지만 서로 다른 시점의 단일 분봉 비교이며 RVOL/연속 가속 검증 아님. 급락·대량거래 동시 관찰 PROVISIONAL. 기업행위/가격 조정 여부, 저점 방어, SEC 공급 검증 미확인. 1차 순위에 희석 위험 반영하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
