@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T23:57:56.511436+00:00",
-  "source_updated_utc": "2026-11-03T23:57:56.417492+00:00",
+  "generated_utc": "2026-11-03T23:59:35.549374+00:00",
+  "source_updated_utc": "2026-11-03T23:59:35.374471+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -469,7 +469,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T08:52:00+09:00",
+      "bar_time": "2026-11-04T08:59:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -634,20 +634,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "RETO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-04T08:57:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "RTSN",
       "signal": "조회 실패",
       "rvol5": null,
@@ -777,22 +763,6 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "RETO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-04T08:57:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -850,6 +820,14 @@
     },
     {
       "ticker": "PLAG",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "RETO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
