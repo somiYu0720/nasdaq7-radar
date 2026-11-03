@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-03T18:23:19Z",
+  "updated_utc": "2026-11-03T19:08:42Z",
   "events": [
-    {
-      "id": "중국계1.0독립포착-MASK-SAMPLED_MINUTE_VOLUME_SPIKE-20261027T194234Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "china",
-      "ticker": "MASK",
-      "category": "재점화 관찰_표본1분 거래량 급증",
-      "detected_utc": "2026-10-27T19:42:34Z",
-      "summary": "GitHub 토스 15개 비연속 스냅샷 비교: 2026-10-28 KST 04:43 표시 1분봉 거래량 2,271주, 이전 9개 서로 다른 관측 분봉 양수 거래량 평균 약 115주 대비 약 19.8배(정규 RVOL 아님). 03:28 $0.6851→04:42 $0.69125 약 +0.9%. 기존 10/23 사모발행 계약 및 10/30 병합 예정 이벤트는 기존 기록으로 유지하며 신규 확정 호재로 중복 계산하지 않음. 연속 5~15분 가속·저점방어 미확인. 2차 공급·상장 위험은 별도 평가.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/b6fc1d357bd4f41af0b1a2e6c2938584d619613d/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0독립포착-NWGL-SAMPLED_MINUTE_VOLUME_REIGNITION-20261027T194321Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "china",
-      "ticker": "NWGL",
-      "category": "재점화_표본1분 거래량 급증",
-      "detected_utc": "2026-10-27T19:43:21Z",
-      "summary": "GitHub 토스 15개 비연속 스냅샷 비교: 2026-10-28 KST 04:44 표시 1분봉 거래량 84,069주, 이전 13개 서로 다른 관측 분봉 양수 거래량 평균 약 5,371주 대비 약 15.65배(정규 RVOL 아님). 03:38 $0.0919→04:43 $0.0990 약 +7.7%. 기존 00:29 재점화와 다른 04:43 관측 신호로 추가 기록. 5~15분 연속 가속·저점 방어 미확인. 기존 ATM/재판매 이력은 2차 별도 검증, 1차 감점 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/b6fc1d357bd4f41af0b1a2e6c2938584d619613d/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "nasdaq7-close10-ACTU-underwritten-offering-effect-20261027T120000Z",
       "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
@@ -5499,6 +5477,28 @@
       "detected_utc": "2026-11-03T18:23:19Z",
       "summary": "2026-11-03 18:15 UTC 표시 비공식 5분봉: 이전 12개 완료 5분봉 양수 거래량 평균 대비 8.13배, 수집 18:23 UTC, FRESH 표기. 별도 순환 발굴 17:38 UTC 표시 자료에서는 5분 2.60배/10분 5.97배/15분 4.57배, 15분 가격 -0.18%, 5분 가속 0.28배. 시점·기준 상이하므로 직접 비교 불가. 과거 포착 이력이 있는 재점화 관찰이며 실제 재상승 미확정. SEC/공급 미검증.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-TOP-UNUSUAL_PRICE_FLUCTUATION_STATEMENT-20261103",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china",
+      "ticker": "TOP",
+      "category": "가격 이상 움직임_회사 해명",
+      "detected_utc": "2026-11-03T19:08:42Z",
+      "summary": "2026-11-03 TOP Financial Group 보도자료: 최근 주가 이상 변동 관련 회사는 변동을 설명할 미공개 중요 기업개발사항을 인지하지 못한다고 발표. 실리콘밸리 AI 연구개발센터는 계획 단계이며 확정 계약 아님. 1차 가격 이상·뉴스 관찰 신호, 거래량 가속 미확인. SEC 원문 직접 대조 전 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/news/TOP/top-financial-group-limited-addresses-recent-unusual-fluctuations-in-4jtbkinmlniv.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-JD-CECONOMY_EU_CONDITIONAL_APPROVAL-20261103",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china",
+      "ticker": "JD",
+      "category": "M&A_규제조건부승인_D+7",
+      "detected_utc": "2026-11-03T19:08:42Z",
+      "summary": "2026-11-03 Reuters 보도: JD.com의 독일 Ceconomy 인수(약 25억 달러)에 EU 조건부 승인. 회사는 11월 12일까지 거래 종결 목표이나 완료 확정 아님. 1차 M&A 이벤트 신호로만 포착, 가격·거래량 가속 미확인. SEC 원문 미대조로 PROVISIONAL.",
+      "source_url": "https://www.reuters.com/legal/litigation/jdcom-wins-eu-approval-acquisition-ceconomy-2026-11-03/",
       "verification": "PROVISIONAL"
     }
   ]
