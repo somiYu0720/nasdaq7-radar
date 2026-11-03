@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T18:56:00.204344+00:00",
-  "source_updated_utc": "2026-11-03T18:56:00.075595+00:00",
+  "generated_utc": "2026-11-03T18:57:07.654926+00:00",
+  "source_updated_utc": "2026-11-03T18:57:07.486671+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -48,8 +48,8 @@
     {
       "ticker": "AIOT",
       "signal": "REVIEW",
-      "rvol5": "0.58",
-      "bar_time": "2026-11-03T18:45:00+00:00",
+      "rvol5": "0.28",
+      "bar_time": "2026-11-03T18:50:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -482,8 +482,8 @@
     {
       "ticker": "CLRO",
       "signal": "REVIEW",
-      "rvol5": "1.42",
-      "bar_time": "2026-11-03T18:45:00+00:00",
+      "rvol5": "0.6",
+      "bar_time": "2026-11-03T18:50:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -621,9 +621,9 @@
     },
     {
       "ticker": "LUCD",
-      "signal": "REVIEW",
-      "rvol5": "1.04",
-      "bar_time": "2026-11-03T18:45:00+00:00",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "3.25",
+      "bar_time": "2026-11-03T18:50:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -662,10 +662,38 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": "1.58",
+      "bar_time": "2026-11-03T18:50:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "POLA",
+      "signal": "REVIEW",
+      "rvol5": "2.63",
+      "bar_time": "2026-11-03T18:50:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "PRSO",
       "signal": "REVIEW",
-      "rvol5": "3.41",
-      "bar_time": "2026-11-03T18:35:00+00:00",
+      "rvol5": "0.91",
+      "bar_time": "2026-11-03T18:50:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -835,6 +863,22 @@
       "classification": "PENDING"
     },
     {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": "1.58",
+      "bar_time": "2026-11-03T18:50:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": "2.37",
@@ -899,14 +943,6 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "PLAG",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "TAOP",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -962,6 +998,7 @@
     "LUCD",
     "LYCA",
     "PAXG",
+    "POLA",
     "PRSO",
     "RTSN",
     "RZAI",
