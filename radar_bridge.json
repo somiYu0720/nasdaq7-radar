@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T18:43:11.822906+00:00",
-  "source_updated_utc": "2026-11-03T18:43:11.663191+00:00",
+  "generated_utc": "2026-11-03T18:43:57.875303+00:00",
+  "source_updated_utc": "2026-11-03T18:43:57.781121+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -622,7 +622,7 @@
     {
       "ticker": "LUCD",
       "signal": "REVIEW",
-      "rvol5": "1.15",
+      "rvol5": "1.17",
       "bar_time": "2026-11-03T18:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -656,6 +656,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": "4.12",
+      "bar_time": "2026-11-03T18:10:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -849,6 +863,22 @@
       "classification": "PENDING"
     },
     {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": "4.12",
+      "bar_time": "2026-11-03T18:10:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": "2.39",
@@ -906,14 +936,6 @@
     },
     {
       "ticker": "DXF",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
