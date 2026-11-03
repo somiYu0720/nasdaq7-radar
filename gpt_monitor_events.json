@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-03T19:08:42Z",
+  "updated_utc": "2026-11-03T19:40:43.173895+00:00",
   "events": [
-    {
-      "id": "nasdaq7-close10-ACTU-underwritten-offering-effect-20261027T120000Z",
-      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
-      "radar": "NASDAQ 7.0",
-      "ticker": "ACTU",
-      "category": "급락 후 반등 관찰·공모가 확정·SEC S-1 EFFECT",
-      "detected_utc": "2026-10-27T19:53:43Z",
-      "summary": "10/27 15:29 ET 지연 스캐너 약 -27%, 동일시각 20거래일 대비 상대거래량 7.2배, 누적 약 200만주. 10/27 08:00 ET 회사 발표: 보통주 30,985,900주 및 워런트 최대 15,492,950주 포함 약 $11m 공모가 확정, 10/28 종결 예정(종결 확인 아님). SEC EFFECT 원문: S-1 333-299332 효력 10/26 17:00 ET. 잠재 희석과 즉시 매도 가능 공급 구별; 보통주 발행·워런트 행사는 조건/종결 이후, D형 복합 잠정(현재 즉시 공급 잔량 미확인). 1차 포착 순위 위험 미반영; 5~15분 저점방어 미확인.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1652935/999999999526003345/xslEFFECTX01/primary_doc.xml",
-      "verification": "VERIFIED"
-    },
     {
       "id": "nasdaq7-close10-CLW-q3-earnings-20261026T200500Z",
       "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-03T19:08:42Z",
       "summary": "2026-11-03 Reuters 보도: JD.com의 독일 Ceconomy 인수(약 25억 달러)에 EU 조건부 승인. 회사는 11월 12일까지 거래 종결 목표이나 완료 확정 아님. 1차 M&A 이벤트 신호로만 포착, 가격·거래량 가속 미확인. SEC 원문 미대조로 PROVISIONAL.",
       "source_url": "https://www.reuters.com/legal/litigation/jdcom-wins-eu-approval-acquisition-ceconomy-2026-11-03/",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-KSCP-RVOL5_4P35_ACCEL4P97-20261103T194000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "KSCP",
+      "category": "1차_거래량선행_급등전미확정",
+      "detected_utc": "2026-11-03T19:40:43.173895+00:00",
+      "summary": "2026-11-03 19:40 UTC 표시 무료 지연 가능 50종목 순환 발굴: KSCP 5분 상대거래량 4.35배, 10분 2.61배, 15분 1.91배, 5분 가속 4.97배, 15분 가격 -0.53%, 표시 가격 $0.4501. 비교 기준 당일 이전 30분. 가격 상승·저점 방어·뉴스 촉매 및 SEC/Float/O/S/공급 A/B/C/D 미검증. 급등 전 확정 및 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
     }
   ]
