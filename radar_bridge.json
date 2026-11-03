@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T04:15:22.751269+00:00",
-  "source_updated_utc": "2026-11-03T04:15:22.605557+00:00",
+  "generated_utc": "2026-11-03T04:16:19.637433+00:00",
+  "source_updated_utc": "2026-11-03T04:16:19.536427+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -592,20 +592,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T13:10:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
@@ -763,22 +749,6 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T13:10:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
@@ -844,6 +814,14 @@
     },
     {
       "ticker": "EZGO",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
