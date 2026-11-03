@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T14:19:17.344518+00:00",
-  "source_updated_utc": "2026-11-03T14:19:17.260141+00:00",
+  "generated_utc": "2026-11-03T14:20:19.573551+00:00",
+  "source_updated_utc": "2026-11-03T14:20:19.438788+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -469,7 +469,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:18:00+09:00",
+      "bar_time": "2026-11-03T23:20:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -508,24 +508,10 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "DUO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T23:14:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:19:00+09:00",
+      "bar_time": "2026-11-03T23:20:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -595,7 +581,7 @@
       "ticker": "LABT",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:15:00+09:00",
+      "bar_time": "2026-11-03T23:19:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -707,7 +693,7 @@
       "ticker": "STAK",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:19:00+09:00",
+      "bar_time": "2026-11-03T23:20:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -805,26 +791,10 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "DUO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T23:14:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T23:19:00+09:00",
+      "bar_time": "2026-11-03T23:20:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -878,6 +848,14 @@
     },
     {
       "ticker": "DTSS",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DUO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
