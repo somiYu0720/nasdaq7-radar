@@ -1,39 +1,6 @@
 {
-  "updated_utc": "2026-11-03T14:49:44Z",
+  "updated_utc": "2026-11-03T15:21:19Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-POLA-RVOL5_10P71-20261103T143000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "POLA",
-      "category": "1차_5분상대거래량10.71배_급등전잠정_가격단계미확인",
-      "detected_utc": "2026-11-03T14:49:19Z",
-      "summary": "2026-11-03 14:49 UTC GitHub data.json 공개 수집본: POLA 14:30 UTC 표시 5분봉 rvol5=10.71, EARLY_PROVISIONAL, 수집본 기준 FRESH(봉 약 14.3분 경과). 기준은 직전 양(+) 거래량 12개 완료 5분봉 평균으로 시간대 보정 RVOL 아님. 가격·당일 상승률·저점 방어·5~15분 연속 가속·뉴스 인과 미확인; 급등 전 확정 불가. 1차 거래량 선행 잠정 신호, 희석·상장 위험 감점 없음. 2차 기존 2026-10-23 SEC 8-K에서 ELOC·전환·워런트 구조 확인 이력 있으나 이번 실행 신규 SEC 원문 검증 없음. A 제한형·B 대기형·C 즉시형·D 잠재형 공급 잔량, Float/O/S 및 실제 즉시 매도 가능 물량 미확인. 11/2 POLA 신호와 다른 11/3 신규 관측, 비공식 Yahoo 5분봉.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7.0_DFNS_KEEPZONE_ACQUISITION_DEFINITIVE_20261027T132500Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "DFNS",
-      "category": "M&A_DEFINITIVE_AGREEMENT_ACQUISITION_COUNTERPARTY_EVENT",
-      "detected_utc": "2026-10-27T16:38:30Z",
-      "summary": "2026-10-27 09:25 EDT T3 Defense 공식 발표: NEXR 자회사 KeepZone AI 100% 인수 확정계약 체결(거래 종결 아님). 종결 시 매수자 DFNS 신주 및 필요시 PFW로 초기 $1m 지급, 이후 24개월 KeepZone 순이익 조건부 최대 $5m 현금 earn-out. 종결 후 6개월 주가가 종결가보다 낮으면 매도자에게 추가 DFNS 주식 지급 조항. 회사는 계약일로부터 60일 내 종결 예상, Nasdaq 통지·제3자 동의 등 선행조건 미충족 가능. 1차: M&A 확정계약 뉴스 신호만 포착; 현재가/분봉/RVOL/저점방어 미확인으로 급등 전 여부 미판정, 1차 위험 감점 없음. 2차: 잠재 공급 D형 요소(신주/PFW/주가 하락 시 추가발행), 기존 EFFECT·424B3 이력과 실제 즉시 매도 가능 공급은 별도 검증 미완료; 신규 8-K 원문 미검증. D+7 2026-11-03, D+30 2026-11-26 후속 종결·공시 추적. 기존 NEXR 매도자 기록과 별도 DFNS 매수자 이벤트.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/27/3389142/0/en/t3-defense-enters-agreement-to-acquire-keepzone-ai.html",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0급등전신호-AXG-INTRADAY_CRASH_VOLUME-20261027T163900Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "중국계 1.0",
-      "ticker": "AXG",
-      "category": "LABT_INTRADAY_CRASH_VOLUME_WATCH",
-      "detected_utc": "2026-10-27T16:39:29Z",
-      "summary": "GitHub에 저장된 토스 수집본 비교: 2026-10-28 00:42 KST 수집 스냅샷 가격 $0.04445에서 01:39 KST 수집 스냅샷 $0.0386로 약 -13.16% 하락. 01:39 KST 표시 1분봉 거래량 103,746주. 10/27 21:52 KST 기존 AXG 대량거래 포착과 별개인 신규 장중 급락·거래량 동반(LABT형) 관찰. 두 시점 간 가격 변화이며 전일 대비 등락률 아님. 분봉 표시 시각/기업행동 조정·동일시간 거래량 기준·저점 방어·반등 미검증. 급등 전 후보 아님. SEC/float/O/S/ATM/워런트/즉시 매도 가능 공급 및 A/B/C/D 미검증, 1차 순위에 위험 감점 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/0bf640a6307915cf3c0ceb1397688bc3ac137ed1/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-VNET-2027convertible_notes_30pct_repurchase-20261027T122500Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5500,6 +5467,39 @@
       "category": "2차_자금조달_전환사채_공급미확인",
       "summary": "2026-11-02 공개된 6-K 요약에 따르면 10/30 원금 $1m 추가 전환사채 발행, 수령액 $0.9m, 연 10% 이자, 만기 2028-10-30. 추가 발행 허용 원금 합계 상한 $26.5m은 실제 발행액과 다름. 조건부 $2.5m 추가 종결 가능. 잠재 전환 공급 D형 관찰, 실제 즉시 매도 가능 C형 미확인. 1차 포착 순위 비반영, SEC 원문 재검증 전 PROVISIONAL.",
       "source_url": "https://www.stocktitan.net/sec-filings/UZX/"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-LOBO-OVERSEAS_F3_360_ORDERS-20261103T142500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "LOBO",
+      "category": "1차_뉴스_수주_급등전관찰",
+      "detected_utc": "2026-11-03T15:21:19Z",
+      "summary": "2026-11-03 09:25 ET 회사 보도자료: 광저우 캔톤페어에서 F3 전기차 360대 해외 주문 확보 발표. 추가 협상 중 주문은 확정 수주로 간주하지 않음. 1차 뉴스·이벤트 신호로 포착하며 가격/거래량 가속·저점방어는 미확인. 2차 Float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 공급 A/B/C/D 미확인. 희석·상장 위험으로 1차 순위 조정 금지.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/03/3394388/0/en/lobo-reports-overseas-order-wins-for-new-electric-vehicle-models.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-CRE-LINGXPERT_ACQUISITION_COMPLETED-20261103",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "CRE",
+      "category": "1차_MA_인수완료_급등전관찰",
+      "detected_utc": "2026-11-03T15:21:19Z",
+      "summary": "2026-11-03 회사 6-K 재현본 및 보도자료에 따르면 Cre8 Enterprise가 홍콩 번역서비스 업체 Lingxpert Language Services 발행주식 100% 인수 완료 발표. 10/19 주식매매계약 체결. SEC 원문 직접 대조 전 PROVISIONAL. 거래량·가격 가속 미확인. 2차 Float/O/S·인수 대금·자금조달·A/B/C/D 즉시 매도 공급 미확인. 1차 희석위험 감점 금지.",
+      "source_url": "https://www.stocktitan.net/sec-filings/CRE/6-k-cre8-enterprise-ltd-current-report-foreign-issuer-daf3a439cfbb.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-CBAT-AGV_CUMULATIVE_ORDERS_822M-20261103",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "CBAT",
+      "category": "1차_뉴스_누적수주_급등전관찰",
+      "detected_utc": "2026-11-03T15:21:19Z",
+      "summary": "2026-11-03 회사 보도자료: AGV 배터리팩 고객사의 2022년 이후 누적 주문액 약 822만 달러(세금 포함) 발표. 당일 신규 822만 달러 계약 아님. 1차 뉴스 신호만 잠정 포착; 거래량 가속·가격 확인 불가. 2차 Float/O/S·잠재희석 및 실제 즉시매도 공급 A/B/C/D 미확인.",
+      "source_url": "https://www.stocktitan.net/news/CBAT/cbak-energy-reports-approximately-us-8-22-million-in-cumulative-fibprckzwiob.html",
+      "verification": "PROVISIONAL"
     }
   ]
 }
