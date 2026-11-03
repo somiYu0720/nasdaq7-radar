@@ -1,29 +1,6 @@
 {
-  "updated_utc": "2026-11-02T23:42:49Z",
+  "updated_utc": "2026-11-03T10:11:14Z",
   "events": [
-    {
-      "id": "cn1-NWGL-registration-history-followup-20260824",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "NWGL",
-      "category": "2차 SEC·등록 효력/재판매 이력 추적 (과거 공시 보완)",
-      "detected_utc": "2026-10-28T00:00:00Z",
-      "summary": "공시 이력상 2026-08-24 EFFECT 및 08-25 424B3, 10-02 424B5 기록이 확인됨. 기존 10/02 ATM 관찰과 별도로 등록 효력·재판매 가능 물량·실제 매도 가능 공급을 원문별로 재검증해야 함. EFFECT 존재만으로 현 시점 즉시 매도 가능 물량이나 공급 C형을 확정하지 않음. 신규 거래량 신호가 아닌 2차 위험 검증 보완 기록이며 1차 포착 순위에 영향 없음.",
-      "source_url": "https://www.marketbeat.com/stocks/NASDAQ/NWGL/sec-filings/",
-      "verification": "PROVISIONAL",
-      "auto_add": false
-    },
-    {
-      "id": "NASDAQ7.0-CGEM-IND_CLEARANCE_VELINOTAMIG-20261027T110000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "CGEM",
-      "category": "FDA_IND_CLEARANCE_PHASE1B2A_AND_NOV8_DATA",
-      "detected_utc": "2026-10-27T11:00:00Z",
-      "summary": "10/27 07:00 ET 회사 발표: 미국 FDA 및 호주 규제당국이 velinotamig의 ITP·wAIHA 대상 글로벌 1b/2a 임상 개시를 허용. 이는 임상 개시 허가이지 신약 판매 승인이 아님. Genrix Bio의 자가면역질환 임상 데이터는 11/08 ACR Convergence 발표 예정(기존 9/24 SEC 공시에도 일정 기재). 강도 중(규제 진전)+11/08 D+ 이벤트 관찰. 10/27 발표 SEC 원문 교차검증 전, 최신 가격·거래량 미확인.",
-      "source_url": "https://investors.cullinantherapeutics.com/news-releases/news-release-details/cullinan-therapeutics-advances-velinotamig-global-clinical",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "CN1_NEWS_HUHU_SEMICONDUCTOR_CONSORTIUM_BID_20261021T130000Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5501,6 +5478,28 @@
       "summary": "[2026-11-03 08:42 KST 사후 발굴] 중국 상하이 본사 Lotus Technology(LOT)의 2026-11-02 17:29 EST SEC 6-K 및 EX-99.1 원문 검증: 10/28 Nasdaq 최소호가 $1 미준수 통지, 180일 시정기한 2027-04-26. $1 이상 종가 최소 10거래일 유지가 회복 조건(나스닥 재량에 따라 기간 변경 가능). 통지는 즉시 상장폐지 아님, 현재 Nasdaq 거래 유지. [1차] 상장 위험은 포착 신호·배제·감점·순위 조정에 사용하지 않음. 새 거래량 2/3/5/10/30/50배, 가격·저점방어·급등전/진행/급락후반등/재점화 신호 미확인. [2차] 상장유지 일정만 확인; A 제한형/B 대기형/C 즉시형/D 잠재형 및 Float/O/S·ATM/ELOC/PIPE/Resale/워런트/전환 최신 수량 미확인. 2027-04-26 기한은 신규 주가 호재나 즉시 상폐를 뜻하지 않음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1962746/000110465926121492/tm2628740d1_6k.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "UZX",
+      "detected_utc": "2026-11-03T10:11:14Z",
+      "verification": "PROVISIONAL",
+      "id": "중국계1.0급등전신호-UZX-EGM_SHARE_CONSOLIDATION_PROPOSAL-20261102T211000Z",
+      "category": "신규이벤트_주총_20261119_2차공급검증대기",
+      "summary": "2026-11-02 SEC 6-K 공개 문서 재현본에 따르면 11/19 주총에서 36:1 주식병합 및 조건부 수권주식 확대, 추가 2:1~100:1 병합 승인안을 표결 예정. 주총 일정과 제안 사실만 잠정 포착, 승인/시행 아님. 1차 순위 감점 금지. 1차 거래량·가격 신호 미확인, 2차 최신 Float/O/S 및 A/B/C/D 실제 공급량 미확인. 6-K 본문 첫 문단에 11/12 오기 가능성이 있으나 첨부 주총 통지문은 11/19 명시. SEC 원본 URL 직접 대조 전 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/sec-filings/UZX/6-k-linkage-global-inc-current-report-foreign-issuer-1708e3771fb5.html"
+    },
+    {
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "UZX",
+      "detected_utc": "2026-11-03T10:11:14Z",
+      "verification": "PROVISIONAL",
+      "id": "중국계1.0급등전신호-UZX-CONVERTIBLE_NOTE_ADDITIONAL_ISSUANCE-20261102T210500Z",
+      "category": "2차_자금조달_전환사채_공급미확인",
+      "summary": "2026-11-02 공개된 6-K 요약에 따르면 10/30 원금 $1m 추가 전환사채 발행, 수령액 $0.9m, 연 10% 이자, 만기 2028-10-30. 추가 발행 허용 원금 합계 상한 $26.5m은 실제 발행액과 다름. 조건부 $2.5m 추가 종결 가능. 잠재 전환 공급 D형 관찰, 실제 즉시 매도 가능 C형 미확인. 1차 포착 순위 비반영, SEC 원문 재검증 전 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/sec-filings/UZX/"
     }
   ]
 }
