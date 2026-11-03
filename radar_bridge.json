@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T16:41:14.379730+00:00",
-  "source_updated_utc": "2026-11-03T16:41:14.232392+00:00",
+  "generated_utc": "2026-11-03T16:42:17.335043+00:00",
+  "source_updated_utc": "2026-11-03T16:42:17.155031+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -496,7 +496,7 @@
     {
       "ticker": "CLRO",
       "signal": "REVIEW",
-      "rvol5": "0.9",
+      "rvol5": "1.07",
       "bar_time": "2026-11-03T16:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -622,7 +622,7 @@
     {
       "ticker": "LABT",
       "signal": "REVIEW",
-      "rvol5": "0.2",
+      "rvol5": "0.19",
       "bar_time": "2026-11-03T16:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -692,8 +692,8 @@
     {
       "ticker": "PRSO",
       "signal": "REVIEW",
-      "rvol5": "0.18",
-      "bar_time": "2026-11-03T16:25:00+00:00",
+      "rvol5": "1.18",
+      "bar_time": "2026-11-03T16:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -782,6 +782,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "TAOP",
+      "signal": "REVIEW",
+      "rvol5": "0.92",
+      "bar_time": "2026-11-03T14:40:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -909,6 +923,22 @@
       "classification": "PENDING"
     },
     {
+      "ticker": "TAOP",
+      "signal": "REVIEW",
+      "rvol5": "0.92",
+      "bar_time": "2026-11-03T14:40:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -950,14 +980,6 @@
     },
     {
       "ticker": "DXF",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "TAOP",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
