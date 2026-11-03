@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T15:22:21.168578+00:00",
-  "source_updated_utc": "2026-11-03T15:22:20.849016+00:00",
+  "generated_utc": "2026-11-03T15:23:17.957542+00:00",
+  "source_updated_utc": "2026-11-03T15:23:17.823054+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -578,20 +578,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "0.57",
-      "bar_time": "2026-11-03T15:05:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": "0.13",
@@ -692,7 +678,7 @@
     {
       "ticker": "LUCD",
       "signal": "REVIEW",
-      "rvol5": "0.7",
+      "rvol5": "0.69",
       "bar_time": "2026-11-03T15:15:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -776,8 +762,8 @@
     {
       "ticker": "REED",
       "signal": "REVIEW",
-      "rvol5": "2.38",
-      "bar_time": "2026-11-03T14:50:00+00:00",
+      "rvol5": "0.79",
+      "bar_time": "2026-11-03T15:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -874,7 +860,7 @@
     {
       "ticker": "TAOP",
       "signal": "REVIEW",
-      "rvol5": "0.51",
+      "rvol5": "0.56",
       "bar_time": "2026-11-03T14:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1007,22 +993,6 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "0.57",
-      "bar_time": "2026-11-03T15:05:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": "0.13",
@@ -1073,7 +1043,7 @@
     {
       "ticker": "TAOP",
       "signal": "REVIEW",
-      "rvol5": "0.51",
+      "rvol5": "0.56",
       "bar_time": "2026-11-03T14:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1096,6 +1066,14 @@
     },
     {
       "ticker": "CREG",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DXF",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
