@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T16:39:15.100616+00:00",
-  "source_updated_utc": "2026-11-03T16:39:14.922344+00:00",
+  "generated_utc": "2026-11-03T16:40:18.834310+00:00",
+  "source_updated_utc": "2026-11-03T16:40:18.720658+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -622,7 +622,7 @@
     {
       "ticker": "LABT",
       "signal": "REVIEW",
-      "rvol5": "0.27",
+      "rvol5": "0.3",
       "bar_time": "2026-11-03T16:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -788,20 +788,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "TAOP",
-      "signal": "REVIEW",
-      "rvol5": "0.92",
-      "bar_time": "2026-11-03T14:40:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "TBCV",
       "signal": "조회 실패",
       "rvol5": null,
@@ -923,22 +909,6 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "TAOP",
-      "signal": "REVIEW",
-      "rvol5": "0.92",
-      "bar_time": "2026-11-03T14:40:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -980,6 +950,14 @@
     },
     {
       "ticker": "DXF",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "TAOP",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
