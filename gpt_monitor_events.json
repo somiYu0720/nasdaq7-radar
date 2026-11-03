@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-03T16:38:03Z",
   "events": [
     {
-      "id": "NASDAQ7.0-SHFS-MINUTE_VOLUME_REIGNITION-20261027T175048Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "SHFS",
-      "category": "급등 진행·1분 대량거래 재점화_1차 잠정",
-      "detected_utc": "2026-10-27T17:50:48Z",
-      "summary": "2026-10-28 02:50:48 KST 토스 수집본(02:51 표시 분봉)에서 1분 거래량 1,308,998주, 가격 $0.13905 관측. 기존 01:12경 관측 가격 $0.0912 대비 약 +52.5%이나 약 98분 간격의 비연속 스냅샷 비교이므로 5~15분 거래량 가속이나 당일 상승률을 의미하지 않음. 급등 전 아님: 급등 진행·재점화 잠정 분류. 연속 5/15분봉·저점 방어·OBV·최신 SEC 공급·즉시 매도 가능 물량 미확인. 기존 10/26 SHFS 급락·M&A 제안 이력과 별개 10/27 신규 분봉 신호이며 1차 순위에 위험 감점 없음. 수집 상태 partial.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "CN1_NEWS_MAAS_PIPE_EXPECTED_CLOSING_20260923T131000Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
       "radar": "china",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-03T16:38:03Z",
       "summary": "2026-11-04 00:11 KST 이전 보고된 GitHub Toss 부분 수집가격 CENN $0.4095(표시 1분봉 45,566주) 대비 01:38 KST 표시 분봉 수집가격 $0.2601(177,688주): 비연속 표본 가격 약 -36.48%. 현재 분봉 거래량은 이전 표시 분봉의 약 3.90배지만 서로 다른 시점의 단일 분봉 비교이며 RVOL/연속 가속 검증 아님. 급락·대량거래 동시 관찰 PROVISIONAL. 기업행위/가격 조정 여부, 저점 방어, SEC 공급 검증 미확인. 1차 순위에 희석 위험 반영하지 않음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-RDAC-MERGER_TERMINATION-20261103T110000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "RDAC",
+      "category": "1차_MA_합병계약종료_이벤트관찰",
+      "detected_utc": "2026-11-03T17:04:17Z",
+      "summary": "2026-11-03 06:00 ET 회사 발표: Rising Dragon Acquisition Corp.와 HZJL Cayman Limited가 2026-10-30 효력으로 2025-01-27 합병계약을 상호 종료. 종료수수료 없음; 회사는 다른 사업결합 대상을 계속 모색 예정. 기존 합병의 성사 호재가 아닌 계약 종료 이벤트. SEC 8-K 원문 미대조 PROVISIONAL. 1차 뉴스/M&A 신호로 기록하며 가격·거래량 가속, 저점 방어, 반등 여부 미확인. 2차 Float/O/S, 희석 및 실제 즉시 매도 가능한 A/B/C/D 공급 미확인. 위험으로 1차 순위 조정하지 않음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/03/3394000/0/en/rising-dragon-acquisition-corp-and-hzjl-cayman-limited-announce-mutual-termination-of-merger-agreement.html",
       "verification": "PROVISIONAL"
     }
   ]
