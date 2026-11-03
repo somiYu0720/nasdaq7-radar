@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-03T19:40:43.173895+00:00",
+  "updated_utc": "2026-11-03T20:34:48.546237+00:00",
   "events": [
-    {
-      "id": "nasdaq7-close10-CLW-q3-earnings-20261026T200500Z",
-      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
-      "radar": "NASDAQ 7.0",
-      "ticker": "CLW",
-      "category": "급락 후 반등 관찰·Q3 실적·공장 운영 차질",
-      "detected_utc": "2026-10-27T19:53:43Z",
-      "summary": "10/27 15:29 ET StockTitan 지연 스캐너 약 -30%, 20거래일 동일시각 상대거래량 20배, 누적 약 120만주. 10/26 16:05 ET 회사 Q3 실적 발표: 매출 $385m vs 전년 $399m, 순손실 약 $2m, Augusta 공장 운영차질 10월 지속. 뉴스와 가격 하락 인과 단정 금지. 5~15분 저점방어·최신 SEC 공급·ATM/Resale/워런트/전환/ELOC/PIPE/float/O/S·즉시 매도 공급 미확인; 위험으로 1차 순위 감점 없음.",
-      "source_url": "https://www.stocktitan.net/news/CLW/clearwater-paper-reports-third-quarter-2026-1fkz7mwy2u5p.html",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "nasdaq7-close10-WFF-1for25-share-consolidation-20261027T123000Z",
-      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
-      "radar": "NASDAQ 7.0",
-      "ticker": "WFF",
-      "category": "급락 후 반등 관찰·주식병합 사전일정·말레이시아",
-      "detected_utc": "2026-10-27T19:53:43Z",
-      "summary": "10/27 15:29 ET 지연 스캐너 약 -34%, 20거래일 동일시각 상대거래량 2.6배, 누적 약 9,250만주. 10/27 08:30 ET 회사 발표: 10/30 보통주 1:25 병합 예정, Class A 3,440,664주는 병합 제외. 병합 전 보통주 145,957,934주→병합 후 예상 5,838,318주(소수점 처리 전), Class A 별도. 말레이시아 기반 기업이므로 중국계 1.0에 편입하지 않음. 주식병합은 신규 발행/즉시 매도 공급과 별개; SEC 원문 및 float/ATM/ELOC/Resale/PIPE/워런트 잔량 미확인. 분봉 저점방어 미확인.",
-      "source_url": "https://www.stocktitan.net/news/WFF/wf-holding-limited-announces-share-t9h6elrwqh3k.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "nasdaq7-close10-BDMD-intraday-crash-volume-20261027T192900Z",
       "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
@@ -5498,6 +5476,28 @@
       "category": "1차_거래량선행_급등전미확정",
       "detected_utc": "2026-11-03T19:40:43.173895+00:00",
       "summary": "2026-11-03 19:40 UTC 표시 무료 지연 가능 50종목 순환 발굴: KSCP 5분 상대거래량 4.35배, 10분 2.61배, 15분 1.91배, 5분 가속 4.97배, 15분 가격 -0.53%, 표시 가격 $0.4501. 비교 기준 당일 이전 30분. 가격 상승·저점 방어·뉴스 촉매 및 SEC/Float/O/S/공급 A/B/C/D 미검증. 급등 전 확정 및 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-FTHM-RVOL15_4P94-20261103T203100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "FTHM",
+      "category": "1차_거래량선행_급등전미확정",
+      "detected_utc": "2026-11-03T20:34:48.546237+00:00",
+      "summary": "2026-11-03 2026-11-03T20:31:00+00:00 표시 무료 지연 가능 50종목 순환 발굴: FTHM 5분 상대거래량 2.59배, 10분 2.92배, 15분 4.94배, 5분 가속 0.79배, 15분 가격 -1.44%, 표시 가격 $0.1774. 비교 기준 TODAY_PRIOR_30M. 급등 전 확정 아님. SEC/Float/O/S/실제 매도 가능 공급 및 A/B/C/D 미검증.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-WHWK-RVOL15_13P11-20261103T203300Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "WHWK",
+      "category": "1차_거래량선행_급등전미확정",
+      "detected_utc": "2026-11-03T20:34:48.546237+00:00",
+      "summary": "2026-11-03 2026-11-03T20:33:00+00:00 표시 무료 지연 가능 50종목 순환 발굴: WHWK 5분 상대거래량 1.4배, 10분 0.93배, 15분 13.11배, 5분 가속 3.05배, 15분 가격 0.81%, 표시 가격 $3.1. 비교 기준 TODAY_PRIOR_30M. 급등 전 확정 아님. SEC/Float/O/S/실제 매도 가능 공급 및 A/B/C/D 미검증.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
     }
