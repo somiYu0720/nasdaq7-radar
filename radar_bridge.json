@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T13:10:10.586185+00:00",
-  "source_updated_utc": "2026-11-03T13:10:10.442206+00:00",
+  "generated_utc": "2026-11-03T13:11:38.549414+00:00",
+  "source_updated_utc": "2026-11-03T13:11:38.483517+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,20 +424,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "BAOS",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T22:06:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -483,7 +469,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-03T22:10:00+09:00",
+      "bar_time": "2026-11-03T22:11:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -582,20 +568,6 @@
       "signal": "REVIEW",
       "rvol5": null,
       "bar_time": "2026-11-03T22:06:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "LUCD",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T22:05:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -791,22 +763,6 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "BAOS",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-03T22:06:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": null,
@@ -819,6 +775,14 @@
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
       "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "BAOS",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
       "china_verified": false,
       "classification": "PENDING"
     },
@@ -929,7 +893,6 @@
     "IAM",
     "IPHX",
     "LABT",
-    "LUCD",
     "LYCA",
     "PAXG",
     "RTSN",
