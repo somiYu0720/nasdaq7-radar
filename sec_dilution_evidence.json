@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-03T13:30:07.164452+00:00",
+  "checked_utc": "2026-11-03T20:10:54.647262+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -10,15 +10,22 @@
           "source_url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026089169/ea0299928-10q_archimedes3.htm",
           "form": "10-Q",
           "excerpt": "including 6,900,000 Public Warrants and 190,500 Private Placement Warrants. The warrants may only be exercised for a whole number of shares. No fractional warrants will be issued upon separation of the Units and only whole warrants will trade. The warrants will become "
-        },
-        {
-          "category": "WARRANT",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026056691/ea0288831-10q_archimedes3.htm",
-          "form": "10-Q",
-          "excerpt": "including 6,900,000 Public Warrants and 190,500 Private Placement Warrants. The warrants may only be exercised for a whole number of shares. No fractional warrants will be issued upon separation of the Units and only whole warrants will trade. The warrants will become "
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026079130/ea0295111-8k_archimedes3.htm",
+          "reason": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026056691/ea0288831-10q_archimedes3.htm",
+          "reason": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2083910/000121390026025425/ea028064201-8k_arch3co.htm",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
@@ -83,7 +90,12 @@
           "excerpt": "sory Stock with demand registration rights and to require the Company to file a resale registration statement covering such shares following the Company’s Nasdaq listing. In connection with the closing of the Company’s Series C Convertible Preferred Stock on "
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2079272/999999999526003056/xslEFFECTX01/primary_doc.xml",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
@@ -93,6 +105,18 @@
     "PRSO": {
       "status": "EVIDENCE_FOUND",
       "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026115173/ea0310560-8k_peraso.htm",
+          "form": "8-K",
+          "excerpt": "g effect to any limitations on exercise of the Warrants and assuming all of the Warrants are exercised for cash, and to use its best efforts to cause such registration statement to become effective no later than January 26, 2027 (the 90th calendar day following"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026115173/ea0310560-8k_peraso.htm",
+          "form": "8-K",
+          "excerpt": "ctors pursuant to the Purchase Agreement, and the filing and effectiveness of a resale registration statement. Words such as “believe,” “expect,” “intend,” “may,” “potential” and similar expressions are intended to identify forward-looking statements. Forward"
+        },
         {
           "category": "ATM",
           "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026112304/ea0309616-8k_peraso.htm",
@@ -142,7 +166,12 @@
           "excerpt": "e Purchase Agreement and the Registration Rights Agreement, the Company filed a resale registration statement, which was declared effective by the SEC on July 14, 2026. Accordingly, the Commencement Date became July 14, 2026. 23 ITEM 2. Management’s Discussio"
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/890394/000121390026092719/ea0303091-8k_peraso.htm",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
@@ -171,7 +200,12 @@
           "excerpt": "ffering by an issuer in the same overseas market, including issuance of shares, convertible notes and other similar securities, shall be subject to filing requirement within three business days after the completion of the offering. Therefore, any of our fu"
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226049712/form6-k.htm",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
@@ -210,7 +244,12 @@
     "ARBB": {
       "status": "NOT_VERIFIED",
       "evidence": [],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1930179/000121390025104705/ea0262495-20f_arbiot.htm",
+          "reason": "The read operation timed out"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
@@ -321,7 +360,12 @@
           "excerpt": "perations 442 1,236 Total liabilities 1,371 3,013 Shareholders' equity: Class B convertible preferred stock, par value $ 0.001 , 5,100 shares authorized, — and — shares issued and outstanding, respectively — — Common stock, par value $ 0.001 , 150,000,000 share"
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/840715/000175392626001927/clro-20261008.htm",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
@@ -1137,6 +1181,18 @@
     "MSGY": {
       "status": "EVIDENCE_FOUND",
       "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2020228/000118518526005130/masonf1103026.htm",
+          "form": "F-1",
+          "excerpt": "ll, however, receive cash proceeds equal to the aggregate exercise price of any Warrants exercised for cash, up to approximately US$1,600,800 if all of the Warrants are exercised for cash, and we intend to use those proceeds for general corporate purposes, "
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2020228/000118518526005130/masonf1103026.htm",
+          "form": "F-1",
+          "excerpt": "ffering by an issuer in the same overseas market, including issuance of shares, convertible notes, and other similar securities, shall be subject to filing requirement within three business days after the completion of the offering. The Operating Subsidiar"
+        },
         {
           "category": "ATM",
           "source_url": "https://www.sec.gov/Archives/edgar/data/2020228/000118518526004942/masonf3102026.htm",
