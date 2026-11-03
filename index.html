@@ -529,7 +529,7 @@ function autoAddGptCandidates(items){
 }
 async function loadGptMonitor(){try{const r=await fetch('./gpt_monitor_events.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('not found');const d=await r.json();const items=Array.isArray(d.events)?d.events:[];autoAddGptCandidates(items);$('gptCount').textContent=items.length+'건';$('gptUpdated').textContent=items.length?'최신 기록 '+time(d.updated_utc||items[items.length-1]?.detected_utc):'예약 감시 기록 없음 · 자동 저장 검증 대기';fill('gptMonitorRows',items.slice().sort((a,b)=>String(b.detected_utc).localeCompare(String(a.detected_utc))).slice(0,50),(tr,x)=>{textCell(tr,time(x.detected_utc));textCell(tr,x.radar||x.task||'—');textCell(tr,x.ticker||'—');textCell(tr,(x.verification==='VERIFIED'?'확인 · ':'잠정 · ')+(x.summary||x.category||'내용 미확인'))},4)}catch(e){$('gptUpdated').textContent='예약 감시 데이터 연결 대기'}}loadGptMonitor();setInterval(loadGptMonitor,60000);
 
-async function loadToss(){try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();const rows=Array.isArray(d.rows)?d.rows:[];fill('tossRows',rows,(tr,x)=>{textCell(tr,x.ticker||'—');textCell(tr,x.price==null?'—':String(x.price));textCell(tr,x.minute_volume==null?'—':Number(x.minute_volume).toLocaleString('ko-KR'));textCell(tr,time(x.quote_time||x.collected_utc||d.updated_utc))},4);const age=d.updated_utc?(Date.now()-new Date(d.updated_utc).getTime())/60000:Infinity;$('tossUpdated').textContent=rows.length?'마지막 수집 '+time(d.updated_utc)+(age>3?' · 지연 데이터':' · 휴대폰 수집'):'휴대폰 첫 전송 대기'}catch(e){$('tossUpdated').textContent='토스 시세 파일 확인 필요'}}loadToss();setInterval(loadToss,30000);
+async function loadToss(){try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();const rows=Array.isArray(d.rows)?d.rows:[...(Array.isArray(d.nasdaq7)?d.nasdaq7:[]),...(Array.isArray(d.china1)?d.china1:[])].filter((x,i,a)=>a.findIndex(y=>y.ticker===x.ticker)===i).map(x=>({...x,price:x.price??x.price_usd}));fill('tossRows',rows,(tr,x)=>{textCell(tr,x.ticker||'—');textCell(tr,x.price==null?'—':String(x.price));textCell(tr,x.minute_volume==null?'—':Number(x.minute_volume).toLocaleString('ko-KR'));textCell(tr,time(x.quote_time||x.collected_utc||d.updated_utc))},4);const age=d.updated_utc?(Date.now()-new Date(d.updated_utc).getTime())/60000:Infinity;$('tossUpdated').textContent=rows.length?'마지막 수집 '+time(d.updated_utc)+(age>3?' · 지연 데이터':' · 휴대폰 수집'):'휴대폰 첫 전송 대기'}catch(e){$('tossUpdated').textContent='토스 시세 파일 확인 필요'}}loadToss();setInterval(loadToss,30000);
 
 const CATEGORY_NAMES={nas:'NASDAQ 7.0',china:'중국계 1.0',volume:'거래량 선행',oversold:'과매도',event:'이벤트 임박',funding:'자금조달',reignite:'재점화',favorite:'관심종목'};
 const DEFAULT_WATCH={nas:['ARCI','LABT','PRSO','STAK','LUCD','ARBB','POLA','REED','CLRO','GCDT'],china:['DTSS','DUO','TAOP','BAOS','CREG','CHNR','PLAG','EZGO','RETO','DXF'],volume:[],oversold:[],event:[],funding:[],reignite:[],favorite:[]};
@@ -574,7 +574,7 @@ async function renderOversold(){
  const body=$('oversoldRows');body.replaceChildren();
  let shared=[];try{const r=await fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();shared=Array.isArray(d.categories?.oversold)?d.categories.oversold:[]}}catch(e){}
  const symbols=[...new Set([...shared,...(watchCategories.oversold||[])].filter(x=>typeof x==='string'&&/^[A-Z0-9.-]{1,12}$/.test(x)))];
- let quotes=[];try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();quotes=Array.isArray(d.rows)?d.rows:[]}}catch(e){}
+ let quotes=[];try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();quotes=Array.isArray(d.rows)?d.rows:[...(Array.isArray(d.nasdaq7)?d.nasdaq7:[]),...(Array.isArray(d.china1)?d.china1:[])].filter((x,i,a)=>a.findIndex(y=>y.ticker===x.ticker)===i).map(x=>({...x,price:x.price??x.price_usd}))}}catch(e){}
  if(!symbols.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=4;td.className='empty';td.textContent='등록된 과매도 감시 종목 없음 · 위에서 추가하세요';tr.append(td);body.append(tr);return}
  symbols.forEach(ticker=>{const q=quotes.find(x=>x.ticker===ticker);const tr=document.createElement('tr');textCell(tr,ticker);textCell(tr,q?.price==null?'—':String(q.price));textCell(tr,q?.minute_volume==null?'—':Number(q.minute_volume).toLocaleString('ko-KR'));textCell(tr,q?'시세 수집 · 과매도 미검증':'수집 대기 · 과매도 미검증');body.append(tr)});
 }
@@ -586,7 +586,7 @@ async function renderEvent(){
  let shared=[],events=[],quotes=[],quoteStamp=null,dilutionEvidence=null;
  try{const r=await fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();shared=Array.isArray(d.categories?.event)?d.categories.event:[]}}catch(e){}
  try{const r=await fetch('./event_calendar.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();events=Array.isArray(d.events)?d.events:[]}}catch(e){}
- try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();quotes=Array.isArray(d.rows)?d.rows:[];quoteStamp=d.updated_utc}}catch(e){}
+ try{const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();quotes=Array.isArray(d.rows)?d.rows:[...(Array.isArray(d.nasdaq7)?d.nasdaq7:[]),...(Array.isArray(d.china1)?d.china1:[])].filter((x,i,a)=>a.findIndex(y=>y.ticker===x.ticker)===i).map(x=>({...x,price:x.price??x.price_usd}));quoteStamp=d.updated_utc}}catch(e){}
  const eventStamp=events.map(x=>x.verified_at_utc||x.detected_utc||x.updated_utc).filter(Boolean).sort().at(-1);
  $('eventSourceStatus').textContent='이벤트 일정 원본: event_calendar.json · '+events.length+'건 · 마지막 기록 시각 '+(eventStamp?new Date(eventStamp).toLocaleString('ko-KR'):'미확인')+' · 신규 SEC/뉴스 자동 조회: 미연결 · 실시간 공시 알림 아님';
  try{const r=await fetch('./sec_dilution_evidence.json?t='+Date.now(),{cache:'no-store'});if(r.ok)dilutionEvidence=await r.json()}catch(e){}
@@ -843,7 +843,7 @@ async function showOverviewDetail(index){
  try{
   const [wr,qr]=await Promise.all([fetch('./watchlist.json?t='+Date.now(),{cache:'no-store'}),fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'})]);
   if(!wr.ok||!qr.ok)throw Error('data unavailable');
-  const w=await wr.json(),d=await qr.json(),quotes=Array.isArray(d.rows)?d.rows:[],byTicker=new Map(quotes.map(x=>[x.ticker,x]));
+  const w=await wr.json(),d=await qr.json(),quotes=Array.isArray(d.rows)?d.rows:[...(Array.isArray(d.nasdaq7)?d.nasdaq7:[]),...(Array.isArray(d.china1)?d.china1:[])].filter((x,i,a)=>a.findIndex(y=>y.ticker===x.ticker)===i).map(x=>({...x,price:x.price??x.price_usd})),byTicker=new Map(quotes.map(x=>[x.ticker,x]));
   const all=[...new Set([...(w.categories?.nas||[]),...(w.categories?.china||[])])];
   const category=$('rankCategory')?.value||'nas',rankSymbols=new Set(w.categories?.[category]||[]);
   const eligible=quotes.filter(x=>rankSymbols.has(x.ticker)&&x.minute_volume!==null&&Number.isFinite(Number(x.minute_volume)));
