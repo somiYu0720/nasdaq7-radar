@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T19:14:15.400113+00:00",
-  "source_updated_utc": "2026-11-04T19:14:15.297787+00:00",
+  "generated_utc": "2026-11-04T19:15:09.112738+00:00",
+  "source_updated_utc": "2026-11-04T19:15:08.983010+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -592,6 +592,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "EZGO",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "3.62",
+      "bar_time": "2026-11-04T19:05:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -664,7 +678,7 @@
     {
       "ticker": "IONQ",
       "signal": "REVIEW",
-      "rvol5": "1.27",
+      "rvol5": "1.42",
       "bar_time": "2026-11-04T19:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -762,7 +776,7 @@
     {
       "ticker": "OKLO",
       "signal": "REVIEW",
-      "rvol5": "1.13",
+      "rvol5": "1.11",
       "bar_time": "2026-11-04T19:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1042,7 +1056,7 @@
     {
       "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "1.12",
+      "rvol5": "1.15",
       "bar_time": "2026-11-04T19:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1070,6 +1084,22 @@
   ],
   "china1": [],
   "china_candidates": [
+    {
+      "ticker": "EZGO",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "3.62",
+      "bar_time": "2026-11-04T19:05:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
     {
       "ticker": "PLAG",
       "signal": "REVIEW",
@@ -1144,14 +1174,6 @@
     },
     {
       "ticker": "DXF",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "EZGO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
