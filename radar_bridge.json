@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T23:04:05.265404+00:00",
-  "source_updated_utc": "2026-11-04T23:04:05.118917+00:00",
+  "generated_utc": "2026-11-04T23:05:08.497823+00:00",
+  "source_updated_utc": "2026-11-04T23:05:08.347757+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -483,7 +483,7 @@
       "ticker": "CLRO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:02:00+09:00",
+      "bar_time": "2026-11-05T08:04:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -516,6 +516,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "DUO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:04:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -606,6 +620,34 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "KTTA",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:04:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "LABT",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:05:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "LYCA",
       "signal": "조회 실패",
       "rvol5": null,
@@ -637,7 +679,7 @@
       "ticker": "OKLO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:04:00+09:00",
+      "bar_time": "2026-11-05T08:05:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -656,20 +698,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T07:59:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -763,7 +791,7 @@
       "ticker": "SMMT",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:01:00+09:00",
+      "bar_time": "2026-11-05T08:05:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -889,10 +917,10 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "EZGO",
+      "ticker": "DUO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:00:00+09:00",
+      "bar_time": "2026-11-05T08:04:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -905,10 +933,10 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "PLAG",
+      "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T07:59:00+09:00",
+      "bar_time": "2026-11-05T08:00:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -953,7 +981,7 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "DUO",
+      "ticker": "DXF",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -961,7 +989,7 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "DXF",
+      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -1028,6 +1056,8 @@
     "IAM",
     "IONQ",
     "IPHX",
+    "KTTA",
+    "LABT",
     "LYCA",
     "OCGN",
     "OKLO",
