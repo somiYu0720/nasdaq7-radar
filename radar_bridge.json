@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T15:54:02.667143+00:00",
-  "source_updated_utc": "2026-11-04T15:54:02.547693+00:00",
+  "generated_utc": "2026-11-04T15:55:07.759533+00:00",
+  "source_updated_utc": "2026-11-04T15:55:07.341084+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -104,7 +104,7 @@
     {
       "ticker": "ARQT",
       "signal": "REVIEW",
-      "rvol5": "0.77",
+      "rvol5": "0.76",
       "bar_time": "2026-11-04T15:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -496,7 +496,7 @@
     {
       "ticker": "BCRX",
       "signal": "REVIEW",
-      "rvol5": "1.55",
+      "rvol5": "0.92",
       "bar_time": "2026-11-04T15:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -606,20 +606,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "DUO",
-      "signal": "REVIEW",
-      "rvol5": "0.07",
-      "bar_time": "2026-11-04T15:10:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": "0.15",
@@ -706,7 +692,7 @@
     {
       "ticker": "IONQ",
       "signal": "REVIEW",
-      "rvol5": "1.18",
+      "rvol5": "1.2",
       "bar_time": "2026-11-04T15:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -888,7 +874,7 @@
     {
       "ticker": "QUBT",
       "signal": "REVIEW",
-      "rvol5": "0.81",
+      "rvol5": "0.8",
       "bar_time": "2026-11-04T15:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -902,7 +888,7 @@
     {
       "ticker": "QURE",
       "signal": "REVIEW",
-      "rvol5": "0.63",
+      "rvol5": "0.64",
       "bar_time": "2026-11-04T15:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -930,7 +916,7 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "1.69",
+      "rvol5": "2.2",
       "bar_time": "2026-11-04T15:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1014,7 +1000,7 @@
     {
       "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "2.25",
+      "rvol5": "2.24",
       "bar_time": "2026-11-04T15:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1126,7 +1112,7 @@
     {
       "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "1.97",
+      "rvol5": "0.92",
       "bar_time": "2026-11-04T15:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1159,22 +1145,6 @@
       "signal": "REVIEW",
       "rvol5": "3.41",
       "bar_time": "2026-11-04T15:15:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "DUO",
-      "signal": "REVIEW",
-      "rvol5": "0.07",
-      "bar_time": "2026-11-04T15:10:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -1221,7 +1191,7 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "1.69",
+      "rvol5": "2.2",
       "bar_time": "2026-11-04T15:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1268,6 +1238,14 @@
     },
     {
       "ticker": "CREG",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DUO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
