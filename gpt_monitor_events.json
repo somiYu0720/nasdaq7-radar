@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-03T21:27:53Z",
+  "updated_utc": "2026-11-04T13:25:00Z",
   "events": [
-    {
-      "id": "NASDAQ7_CLOSE_NUWE_PEDIATRIC_AQUADEX_STUDY_20261027T120000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "nas",
-      "ticker": "NUWE",
-      "category": "급등 진행_임상근거 발표_거래량 50배이상",
-      "detected_utc": "2026-10-27T20:26:51Z",
-      "summary": "2026-10-27 08:00 EDT 회사 공식 보도자료: Aquadex ULTRA-Peds 소아 다기관 관찰연구(91명, 7개 병원) 발표. 치료 기간 생존 87%, 시술 중단 없이 완료 86.5%; FDA 라벨 5kg 이상 확대를 뒷받침하기 위한 자료이지 허가 승인 아님. StockAnalysis 10/27 정규장 종가 $5.41(+74.69%), 거래량 21,183,157주, 직전 5거래일 평균 47,957.8주 대비 약 441.7배. 이미 급등 진행 분류; 5~15분 연속 가속·저점 방어 미확인. 최신 SEC float/O/S/공급은 별도 2차 검증 대상.",
-      "source_url": "https://www.stocktitan.net/news/NUWE/nuwellis-announces-acceptance-of-multicenter-pediatric-aquadex-study-zniw0i0by0sz.html",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7_CLOSE_CRML_EUROPEAN_LITHIUM_SCHEME_EFFECTIVE_20261027T123300Z",
       "task": "NASDAQ 7.0 장마감 종합보고",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-03 15:59 ET 표시 5분봉 상대거래량 7.46배, EARLY_PROVISIONAL. 수집 2026-11-03 21:27:53 UTC. 5분 거래량 비교 기준 및 가격/저점 방어 미확인, 지연 자료. SEC/공급 검증 별도 미완료. 1차 위험 감점 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7.0조기포착사전공시일정-CENN-LS450_DELIVERIES_REVENUE-20261103",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CENN",
+      "category": "신규_실물인도_매출발생_8K",
+      "detected_utc": "2026-11-04T13:25:00Z",
+      "summary": "2026-11-03 SEC Form 8-K Item 8.01: Cenntro Inc. announced LS450 electric truck deliveries in the U.S. under governmental incentive programs, generating more than US$2.44 million total revenue. Revenue recognition period and further orders unverified. Phase 1 event signal only; no dilution/listing risk penalty. Phase 2 separate: 2026-10 ATM up to US$100m is potential supply, actual sales unknown; latest float and immediately saleable supply unverified. Not investment advice.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1707919/000114036126041719/ef20084695_8k.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
