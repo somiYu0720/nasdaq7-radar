@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T13:37:25.327566+00:00",
-  "source_updated_utc": "2026-11-04T13:37:24.999857+00:00",
+  "generated_utc": "2026-11-04T13:38:21.565693+00:00",
+  "source_updated_utc": "2026-11-04T13:38:21.481597+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -63,7 +63,7 @@
       "ticker": "ARM",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T22:37:00+09:00",
+      "bar_time": "2026-11-04T22:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -550,6 +550,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T22:38:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -581,7 +595,7 @@
       "ticker": "GERN",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T22:37:00+09:00",
+      "bar_time": "2026-11-04T22:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -609,7 +623,7 @@
       "ticker": "IONQ",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T22:36:00+09:00",
+      "bar_time": "2026-11-04T22:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -637,7 +651,7 @@
       "ticker": "KTTA",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T22:33:00+09:00",
+      "bar_time": "2026-11-04T22:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -693,7 +707,7 @@
       "ticker": "OKLO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T22:37:00+09:00",
+      "bar_time": "2026-11-04T22:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -718,10 +732,24 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "QBTS",
+      "ticker": "POLA",
       "signal": "REVIEW",
       "rvol5": null,
       "bar_time": "2026-11-04T22:37:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "QBTS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T22:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -777,7 +805,7 @@
       "ticker": "RGTI",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T22:37:00+09:00",
+      "bar_time": "2026-11-04T22:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -847,7 +875,7 @@
       "ticker": "SMR",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T22:37:00+09:00",
+      "bar_time": "2026-11-04T22:38:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -928,20 +956,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "UUUU",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-04T22:32:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "WQEY",
       "signal": "조회 실패",
       "rvol5": null,
@@ -958,6 +972,22 @@
   ],
   "china1": [],
   "china_candidates": [
+    {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T22:38:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
     {
       "ticker": "RETO",
       "signal": "REVIEW",
@@ -1016,14 +1046,6 @@
     },
     {
       "ticker": "DXF",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "EZGO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -1099,6 +1121,7 @@
     "OCGN",
     "OKLO",
     "PAXG",
+    "POLA",
     "QBTS",
     "QUBT",
     "QURE",
@@ -1113,7 +1136,6 @@
     "TCXB",
     "TRBG",
     "TRXB",
-    "UUUU",
     "WQEY"
   ]
 }
