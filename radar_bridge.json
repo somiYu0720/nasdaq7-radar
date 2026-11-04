@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T16:26:19.813047+00:00",
-  "source_updated_utc": "2026-11-04T16:26:19.720331+00:00",
+  "generated_utc": "2026-11-04T16:29:21.395965+00:00",
+  "source_updated_utc": "2026-11-04T16:29:21.252948+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -816,6 +816,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": "1.08",
+      "bar_time": "2026-11-04T16:20:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "POLA",
       "signal": "REVIEW",
       "rvol5": "0.65",
@@ -887,9 +901,9 @@
     },
     {
       "ticker": "REED",
-      "signal": "REVIEW",
-      "rvol5": "0.42",
-      "bar_time": "2026-11-04T16:15:00+00:00",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "7.92",
+      "bar_time": "2026-11-04T16:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -986,7 +1000,7 @@
     {
       "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "0.95",
+      "rvol5": "0.94",
       "bar_time": "2026-11-04T16:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1000,8 +1014,8 @@
     {
       "ticker": "STAK",
       "signal": "REVIEW",
-      "rvol5": "0.47",
-      "bar_time": "2026-11-04T16:15:00+00:00",
+      "rvol5": "0.12",
+      "bar_time": "2026-11-04T16:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -1098,7 +1112,7 @@
     {
       "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "0.62",
+      "rvol5": "0.61",
       "bar_time": "2026-11-04T16:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1147,6 +1161,22 @@
       "signal": "REVIEW",
       "rvol5": "0.48",
       "bar_time": "2026-11-04T15:45:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": "1.08",
+      "bar_time": "2026-11-04T16:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -1224,14 +1254,6 @@
     },
     {
       "ticker": "DUO",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
