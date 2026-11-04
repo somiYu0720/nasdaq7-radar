@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T19:26:50.537347+00:00",
-  "source_updated_utc": "2026-11-04T19:26:50.414178+00:00",
+  "generated_utc": "2026-11-04T19:27:50.245720+00:00",
+  "source_updated_utc": "2026-11-04T19:27:50.126431+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -762,7 +762,7 @@
     {
       "ticker": "OKLO",
       "signal": "REVIEW",
-      "rvol5": "1.92",
+      "rvol5": "1.9",
       "bar_time": "2026-11-04T19:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -782,20 +782,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "0.21",
-      "bar_time": "2026-11-04T18:40:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -944,7 +930,7 @@
     {
       "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "0.94",
+      "rvol5": "0.95",
       "bar_time": "2026-11-04T19:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1028,7 +1014,7 @@
     {
       "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "1.81",
+      "rvol5": "1.82",
       "bar_time": "2026-11-04T19:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1061,22 +1047,6 @@
       "signal": "REVIEW",
       "rvol5": "1.15",
       "bar_time": "2026-11-04T19:15:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "0.21",
-      "bar_time": "2026-11-04T18:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -1146,6 +1116,14 @@
     },
     {
       "ticker": "DXF",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
