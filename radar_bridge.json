@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T16:36:26.463313+00:00",
-  "source_updated_utc": "2026-11-04T16:36:26.186357+00:00",
+  "generated_utc": "2026-11-04T16:38:02.081304+00:00",
+  "source_updated_utc": "2026-11-04T16:38:01.987661+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -48,7 +48,7 @@
     {
       "ticker": "AIOT",
       "signal": "REVIEW",
-      "rvol5": "0.4",
+      "rvol5": "0.63",
       "bar_time": "2026-11-04T16:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -606,20 +606,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "EZGO",
-      "signal": "REVIEW",
-      "rvol5": "5.57",
-      "bar_time": "2026-11-04T15:55:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -734,7 +720,7 @@
     {
       "ticker": "LABT",
       "signal": "REVIEW",
-      "rvol5": "0.29",
+      "rvol5": "1.91",
       "bar_time": "2026-11-04T16:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -818,7 +804,7 @@
     {
       "ticker": "PLAG",
       "signal": "REVIEW",
-      "rvol5": "1.86",
+      "rvol5": "1.8",
       "bar_time": "2026-11-04T16:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -832,8 +818,8 @@
     {
       "ticker": "POLA",
       "signal": "REVIEW",
-      "rvol5": "0.98",
-      "bar_time": "2026-11-04T16:25:00+00:00",
+      "rvol5": "0.03",
+      "bar_time": "2026-11-04T16:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -846,7 +832,7 @@
     {
       "ticker": "PRSO",
       "signal": "REVIEW",
-      "rvol5": "0.02",
+      "rvol5": "0.09",
       "bar_time": "2026-11-04T16:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1157,25 +1143,9 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "EZGO",
-      "signal": "REVIEW",
-      "rvol5": "5.57",
-      "bar_time": "2026-11-04T15:55:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "PLAG",
       "signal": "REVIEW",
-      "rvol5": "1.86",
+      "rvol5": "1.8",
       "bar_time": "2026-11-04T16:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1254,6 +1224,14 @@
     },
     {
       "ticker": "DUO",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "EZGO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
