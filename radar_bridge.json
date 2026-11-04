@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T16:14:08.975810+00:00",
-  "source_updated_utc": "2026-11-04T16:14:08.856141+00:00",
+  "generated_utc": "2026-11-04T16:15:59.960922+00:00",
+  "source_updated_utc": "2026-11-04T16:15:59.867729+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -592,6 +592,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "DTSS",
+      "signal": "REVIEW",
+      "rvol5": "3.41",
+      "bar_time": "2026-11-04T15:15:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": "0.48",
@@ -706,7 +720,7 @@
     {
       "ticker": "KTTA",
       "signal": "REVIEW",
-      "rvol5": "0.72",
+      "rvol5": "0.71",
       "bar_time": "2026-11-04T16:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -776,7 +790,7 @@
     {
       "ticker": "OKLO",
       "signal": "REVIEW",
-      "rvol5": "1.35",
+      "rvol5": "1.34",
       "bar_time": "2026-11-04T16:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -986,7 +1000,7 @@
     {
       "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "0.75",
+      "rvol5": "0.76",
       "bar_time": "2026-11-04T16:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1098,7 +1112,7 @@
     {
       "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "0.73",
+      "rvol5": "1.57",
       "bar_time": "2026-11-04T16:05:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1126,6 +1140,22 @@
   ],
   "china1": [],
   "china_candidates": [
+    {
+      "ticker": "DTSS",
+      "signal": "REVIEW",
+      "rvol5": "3.41",
+      "bar_time": "2026-11-04T15:15:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
     {
       "ticker": "EZGO",
       "signal": "REVIEW",
@@ -1208,14 +1238,6 @@
     },
     {
       "ticker": "CREG",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "DTSS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
