@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T02:32:31.425928+00:00",
-  "source_updated_utc": "2026-11-04T02:32:31.295687+00:00",
+  "generated_utc": "2026-11-04T02:33:24.929668+00:00",
+  "source_updated_utc": "2026-11-04T02:33:24.860251+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T11:33:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -735,10 +749,10 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "EZGO",
+      "ticker": "BAOS",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T11:32:00+09:00",
+      "bar_time": "2026-11-04T11:33:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -751,10 +765,18 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
+      "ticker": "EZGO",
+      "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": null,
+      "bar_time": "2026-11-04T11:32:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
       "china_verified": false,
       "classification": "PENDING"
     },
