@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T01:08:44.316444+00:00",
-  "source_updated_utc": "2026-11-04T01:08:44.218941+00:00",
+  "generated_utc": "2026-11-04T01:09:43.705234+00:00",
+  "source_updated_utc": "2026-11-04T01:09:43.601464+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -508,6 +508,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T10:09:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -586,34 +600,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-04T10:04:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "REED",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-04T10:03:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -765,10 +751,10 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "PLAG",
+      "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T10:04:00+09:00",
+      "bar_time": "2026-11-04T10:09:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -821,7 +807,7 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "EZGO",
+      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -887,7 +873,6 @@
     "IPHX",
     "LYCA",
     "PAXG",
-    "REED",
     "RTSN",
     "RZAI",
     "SCAT",
