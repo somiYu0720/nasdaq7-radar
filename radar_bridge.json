@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T16:42:54.881902+00:00",
-  "source_updated_utc": "2026-11-04T16:42:54.659389+00:00",
+  "generated_utc": "2026-11-04T16:44:47.740060+00:00",
+  "source_updated_utc": "2026-11-04T16:44:47.590815+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -594,8 +594,8 @@
     {
       "ticker": "DXF",
       "signal": "REVIEW",
-      "rvol5": "0.1",
-      "bar_time": "2026-11-04T16:05:00+00:00",
+      "rvol5": "0.38",
+      "bar_time": "2026-11-04T16:10:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -802,20 +802,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "1.25",
-      "bar_time": "2026-11-04T16:20:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "POLA",
       "signal": "REVIEW",
       "rvol5": "0.1",
@@ -888,7 +874,7 @@
     {
       "ticker": "REED",
       "signal": "REVIEW",
-      "rvol5": "0.03",
+      "rvol5": "0.05",
       "bar_time": "2026-11-04T16:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -986,7 +972,7 @@
     {
       "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "1.42",
+      "rvol5": "1.43",
       "bar_time": "2026-11-04T16:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1129,24 +1115,8 @@
     {
       "ticker": "DXF",
       "signal": "REVIEW",
-      "rvol5": "0.1",
-      "bar_time": "2026-11-04T16:05:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "1.25",
-      "bar_time": "2026-11-04T16:20:00+00:00",
+      "rvol5": "0.38",
+      "bar_time": "2026-11-04T16:10:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -1232,6 +1202,14 @@
     },
     {
       "ticker": "EZGO",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
