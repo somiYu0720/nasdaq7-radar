@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T23:35:50.474317+00:00",
-  "source_updated_utc": "2026-11-04T23:35:50.333633+00:00",
+  "generated_utc": "2026-11-04T23:37:00.589484+00:00",
+  "source_updated_utc": "2026-11-04T23:37:00.508741+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -54,6 +54,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "ARM",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:37:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -508,6 +522,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:37:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -536,6 +564,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "GERN",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:37:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "IAM",
       "signal": "조회 실패",
       "rvol5": null,
@@ -544,6 +586,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "IONQ",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:36:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -572,6 +628,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "OKLO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:37:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -651,7 +721,7 @@
       "ticker": "SMR",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:34:00+09:00",
+      "bar_time": "2026-11-05T08:36:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -763,6 +833,22 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:37:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -811,14 +897,6 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "EZGO",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -848,6 +926,7 @@
     "AETR",
     "AIOK",
     "AMRO",
+    "ARM",
     "ASYS",
     "ATCX",
     "ATEC",
@@ -882,9 +961,12 @@
     "DAVI",
     "FCDH",
     "FLSC",
+    "GERN",
     "IAM",
+    "IONQ",
     "IPHX",
     "LYCA",
+    "OKLO",
     "PAXG",
     "RGTI",
     "RTSN",
