@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-04T17:17:39Z",
+  "updated_utc": "2026-11-04T18:06:02Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-BRAI-AFTERHOURS_REIGNITION-20261027T232835Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "BRAI",
-      "category": "급등진행_시간외재점화_1차잠정_가격이상움직임",
-      "detected_utc": "2026-10-27T23:28:35Z",
-      "summary": "2026-10-28 KST 08:14:06 GitHub Toss 수집본 $4.45(표시 1분봉 거래량 1,830주)에서 08:28:35 $4.8107(표시 1분봉 47,580주)로 약 +8.11%, 약 14분 간격 비연속 관측. 08:26:58 표시 1분봉 거래량 90,487주로 일시적 거래 집중 관측(08:14 표본 대비 약 49.45배; 정규 RVOL 또는 연속 분봉 가속 아님). 10/27 미국 정규장 종가 $3.31 대비 08:28 KST 관측값 약 +45.34%로 이미 급등 진행/시간외 재점화 분류, 급등 전 아님. 토스 수집 status=partial, 캔들 완결·지속 매수·저점 방어·OBV·독립 실시간 시세 교차검증 미확인. 10/27 정규장 급등 및 대량거래는 기존 별도 기록과 중복하지 않고 시간외 신규 가격 관측만 기록. 2차 SEC·float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·즉시 매도 가능한 공급 미확인; 위험으로 1차 감점/삭제 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/7534d1410c04b00dfcee06281dd95ce37c9df278/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-YMT-ADS_RATIO_10FOR1_NOV16-20261027T103508Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-04T17:43:58Z",
       "summary": "2026-11-05 02:44 KST 표시 Toss partial 수집본 CENN $0.1612, 표시 1분봉 거래량 23,704주. 이전 02:17 KST 보고 $0.1547/1,447주 대비 가격 약 +4.20%, 비연속 분봉 거래량 표본 약 16.38배. 연속 5~15분 가속/RVOL 아님. 표시 bar_time 02:44 KST가 수집 02:43:58보다 2초 앞서 캔들 완결 미확인. 저점 방어·SEC·float/O/S·공급 유형 미확인. 1차 희석 위험 감점 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7.0조기포착사전공시일정-AQMS-SHARP_DROP_VOLUME_ACCEL-20261104T174000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "AQMS",
+      "category": "1차_급락대량거래_LABT형_반등관찰",
+      "detected_utc": "2026-11-04T17:42:08Z",
+      "summary": "2026-11-05 02:40 KST 50-symbol discovery batch: AQMS $1.1789, price -20.88% over 13m, 5m volume 31,004 shares, 5m RVOL 5.10x, 10m RVOL 2.95x, 5m acceleration 6.29x. FREE_DELAY_POSSIBLE; previous-session baseline provisional. Sharp-drop/high-volume LABT-type signal; bottom defense/rebound unconfirmed. Phase 1 ranks independently without dilution/listing-risk penalty. SEC/news/float/O/S, ATM/ELOC/Resale/PIPE/warrants/converts, actual immediately saleable shares and A/B/C/D supply type unverified; no trade recommendation.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
     }
   ]
