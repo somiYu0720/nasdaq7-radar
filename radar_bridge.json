@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T23:12:10.957870+00:00",
-  "source_updated_utc": "2026-11-04T23:12:10.789468+00:00",
+  "generated_utc": "2026-11-04T23:13:08.328978+00:00",
+  "source_updated_utc": "2026-11-04T23:13:08.178127+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -63,7 +63,7 @@
       "ticker": "ARM",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:11:00+09:00",
+      "bar_time": "2026-11-05T08:12:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -606,6 +606,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "LUCD",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:12:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "LYCA",
       "signal": "조회 실패",
       "rvol5": null,
@@ -620,10 +634,24 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "OCGN",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:13:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "OKLO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:11:00+09:00",
+      "bar_time": "2026-11-05T08:12:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -665,7 +693,7 @@
       "ticker": "QBTS",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:10:00+09:00",
+      "bar_time": "2026-11-05T08:13:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -763,7 +791,7 @@
       "ticker": "SMR",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:11:00+09:00",
+      "bar_time": "2026-11-05T08:13:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -838,20 +866,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "UUUU",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T08:07:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -1006,7 +1020,9 @@
     "IAM",
     "IONQ",
     "IPHX",
+    "LUCD",
     "LYCA",
+    "OCGN",
     "OKLO",
     "PAXG",
     "POLA",
@@ -1023,7 +1039,6 @@
     "TCXB",
     "TRBG",
     "TRXB",
-    "UUUU",
     "WQEY"
   ]
 }
