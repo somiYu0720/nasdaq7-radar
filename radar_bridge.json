@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T02:06:06.023549+00:00",
-  "source_updated_utc": "2026-11-04T02:06:05.894868+00:00",
+  "generated_utc": "2026-11-04T02:07:32.054737+00:00",
+  "source_updated_utc": "2026-11-04T02:07:31.944090+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -424,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T11:07:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "BBCI",
       "signal": "조회 실패",
       "rvol5": null,
@@ -511,7 +525,7 @@
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T11:05:00+09:00",
+      "bar_time": "2026-11-04T11:07:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -572,20 +586,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "LABT",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-04T11:00:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -763,10 +763,26 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T11:07:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "EZGO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-04T11:05:00+09:00",
+      "bar_time": "2026-11-04T11:07:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -791,14 +807,6 @@
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
       "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
       "china_verified": false,
       "classification": "PENDING"
     },
@@ -900,7 +908,6 @@
     "FLSC",
     "IAM",
     "IPHX",
-    "LABT",
     "LYCA",
     "PAXG",
     "RTSN",
