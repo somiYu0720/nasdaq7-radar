@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T03:41:59.230001+00:00",
-  "source_updated_utc": "2026-11-04T03:41:59.132516+00:00",
+  "generated_utc": "2026-11-04T03:42:50.317672+00:00",
+  "source_updated_utc": "2026-11-04T03:42:50.077560+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -508,6 +508,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T12:42:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -610,6 +624,20 @@
       "signal": "REVIEW",
       "rvol5": null,
       "bar_time": "2026-11-04T12:39:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "REED",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T12:42:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -763,6 +791,22 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "EZGO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T12:42:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "PLAG",
       "signal": "REVIEW",
       "rvol5": null,
@@ -820,14 +864,6 @@
     },
     {
       "ticker": "DXF",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "EZGO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -895,6 +931,7 @@
     "LABT",
     "LYCA",
     "PAXG",
+    "REED",
     "RTSN",
     "RZAI",
     "SCAT",
