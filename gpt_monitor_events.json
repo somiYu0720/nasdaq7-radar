@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-04T16:40:25Z",
+  "updated_utc": "2026-11-04T17:17:39Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-YYAI-BESTLIFE_BALANCE_DUE-20261014_FILING_000149315226047025",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china",
-      "ticker": "YYAI",
-      "category": "M&A 후속·10/28 잔금 지급기한·홍콩 자회사 연관·뉴스 이벤트 관찰",
-      "detected_utc": "2026-10-27T22:59:14Z",
-      "summary": "미국 법인 AiRWA(YYAI)의 홍콩 Best Life 97% 지분 인수 관련 2026-10-28 미국 현지 잔금 지급기한(7/30 종결 후 90일). 7/30 SEC 8-K에서 총 기본 대가 $50m, 종결 때 $30m 지급 및 $20m 90일 내 지급 약정 확인. 10/14 SEC 8-K/A Exhibit 99.2에서 그 뒤 $13m 추가 지급, 당시 미지급 잔금 $7m 확인. 10/28 기한 자체는 SEC 재무주석에 명시. 10/28까지 잔금 지급 완료 여부·연장·변경은 아직 미확인; $20m 전액 미지급으로 표현하면 오류. 미국 등록 회사이나 홍콩 사업 자회사 보유로 중국계 연관 관찰. 1차 뉴스·이벤트 신호로만 분류, 시세·분봉·RVOL 미확인으로 거래량 순위 미산정. 2차 공급 A/B/C/D·float/O/S·ATM/PIPE/워런트/즉시 매도 공급 미확인; 인수대금 지급은 신규 주식 발행 증거가 아님. 1차 순위 위험 감점 없음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1674440/000149315226047025/ex99-2.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-MBOT-FIRST_OBL_CUSTOMER_ORDER-20261027T123000Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-04T15:43:00Z",
       "summary": "10m RVOL 4.67x, 15m RVOL 3.87x, 5m RVOL 1.37x, 15m price -0.44%, 10m volume 41,083. Warrant ticker, not common shares. Free delayed possible; SEC/news unverified. 1st-stage volume watch provisional.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-NWGL-ONE_MIN_VOLUME_SAMPLE-20261104T171739Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china",
+      "ticker": "NWGL",
+      "category": "급락후반등관찰_비연속분봉거래량집중_1차잠정",
+      "detected_utc": "2026-11-04T17:17:39Z",
+      "summary": "2026-11-05 02:17 KST 전후 GitHub Toss partial 수집본 NWGL $0.0545, 표시 1분봉 거래량 66,148주(표시 bar_time 02:18 KST로 수집시각보다 앞서 캔들 완결 미확인). 앞선 00:49 KST 관찰 표본 12,634주 대비 약 5.24배이나 비연속 분봉 표본 비교이며 정식 RVOL·연속 5~15분 가속 아님. 급락 후 거래량 집중 관찰로 분류. 가격 저점 방어·상승 전환·SEC/float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·실제 즉시 공급·A/B/C/D 미확인. 2차 위험은 1차 포착 순위 감점에 미반영.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
