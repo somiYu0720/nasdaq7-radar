@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T16:07:09.975560+00:00",
-  "source_updated_utc": "2026-11-04T16:07:09.762884+00:00",
+  "generated_utc": "2026-11-04T16:07:59.634597+00:00",
+  "source_updated_utc": "2026-11-04T16:07:59.514619+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -104,7 +104,7 @@
     {
       "ticker": "ARQT",
       "signal": "REVIEW",
-      "rvol5": "1.04",
+      "rvol5": "1.05",
       "bar_time": "2026-11-04T16:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -586,6 +586,34 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "DTSS",
+      "signal": "REVIEW",
+      "rvol5": "3.41",
+      "bar_time": "2026-11-04T15:15:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "DUO",
+      "signal": "REVIEW",
+      "rvol5": "0.07",
+      "bar_time": "2026-11-04T15:10:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -1098,7 +1126,7 @@
     {
       "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "0.48",
+      "rvol5": "1.0",
       "bar_time": "2026-11-04T16:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1126,6 +1154,38 @@
   ],
   "china1": [],
   "china_candidates": [
+    {
+      "ticker": "DTSS",
+      "signal": "REVIEW",
+      "rvol5": "3.41",
+      "bar_time": "2026-11-04T15:15:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DUO",
+      "signal": "REVIEW",
+      "rvol5": "0.07",
+      "bar_time": "2026-11-04T15:10:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
     {
       "ticker": "EZGO",
       "signal": "REVIEW",
@@ -1208,22 +1268,6 @@
     },
     {
       "ticker": "CREG",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "DTSS",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "DUO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
