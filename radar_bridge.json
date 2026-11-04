@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T17:09:07.334504+00:00",
-  "source_updated_utc": "2026-11-04T17:09:07.173433+00:00",
+  "generated_utc": "2026-11-04T17:10:08.886600+00:00",
+  "source_updated_utc": "2026-11-04T17:10:08.708535+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -104,7 +104,7 @@
     {
       "ticker": "ARQT",
       "signal": "EARLY_PROVISIONAL",
-      "rvol5": "3.11",
+      "rvol5": "3.12",
       "bar_time": "2026-11-04T17:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -678,7 +678,7 @@
     {
       "ticker": "IONQ",
       "signal": "REVIEW",
-      "rvol5": "0.12",
+      "rvol5": "1.09",
       "bar_time": "2026-11-04T17:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -874,7 +874,7 @@
     {
       "ticker": "REED",
       "signal": "REVIEW",
-      "rvol5": "0.12",
+      "rvol5": "0.14",
       "bar_time": "2026-11-04T17:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -972,7 +972,7 @@
     {
       "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "1.0",
+      "rvol5": "1.01",
       "bar_time": "2026-11-04T17:00:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1006,20 +1006,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "TAOP",
-      "signal": "REVIEW",
-      "rvol5": "2.45",
-      "bar_time": "2026-11-04T14:55:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -1145,22 +1131,6 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "TAOP",
-      "signal": "REVIEW",
-      "rvol5": "2.45",
-      "bar_time": "2026-11-04T14:55:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -1210,6 +1180,14 @@
     },
     {
       "ticker": "PLAG",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "TAOP",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
