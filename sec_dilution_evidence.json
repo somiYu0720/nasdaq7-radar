@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-04T13:32:34.434288+00:00",
+  "checked_utc": "2026-11-04T20:13:05.460397+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -445,14 +445,27 @@
       "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "OCGN": {
-      "status": "NOT_VERIFIED",
-      "evidence": [],
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1372299/000162828026069835/ocgn-20260930.htm",
+          "form": "10-Q",
+          "excerpt": "shares of common stock at a purchase price of $ 1.00 per share and accompanying warrant. The warrants have an exercise price of $ 1.50 per share, became exercisable immediately upon issuance, and will expire two years following the date of issuance. The warrants are callable by"
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1372299/000162828026069835/ocgn-20260930.htm",
+          "form": "10-Q",
+          "excerpt": "and other current liabilities 12,683 14,733 Operating lease obligations 846 858 Convertible notes 83,117 — Derivative liability 17,146 — Current portion of long term debt 35 1,250 Total current liabilities 118,901 23,043 Non-current liabilities Operating l"
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
-      "supply_review_candidate": null,
-      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "QURE": {
       "status": "EVIDENCE_FOUND",
