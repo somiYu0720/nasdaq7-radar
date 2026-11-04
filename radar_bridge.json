@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T17:33:52.567743+00:00",
-  "source_updated_utc": "2026-11-04T17:33:52.417534+00:00",
+  "generated_utc": "2026-11-04T17:34:58.381022+00:00",
+  "source_updated_utc": "2026-11-04T17:34:58.300146+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -592,20 +592,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "0.08",
-      "bar_time": "2026-11-04T16:25:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "FCDH",
       "signal": "검토",
       "rvol5": null,
@@ -776,7 +762,7 @@
     {
       "ticker": "OKLO",
       "signal": "REVIEW",
-      "rvol5": "1.03",
+      "rvol5": "1.01",
       "bar_time": "2026-11-04T17:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1113,22 +1099,6 @@
   "china1": [],
   "china_candidates": [
     {
-      "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "0.08",
-      "bar_time": "2026-11-04T16:25:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "PLAG",
       "signal": "REVIEW",
       "rvol5": "0.36",
@@ -1194,6 +1164,14 @@
     },
     {
       "ticker": "DUO",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DXF",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
