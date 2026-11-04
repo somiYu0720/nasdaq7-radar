@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T03:22:41.737787+00:00",
-  "source_updated_utc": "2026-11-04T03:22:41.600691+00:00",
+  "generated_utc": "2026-11-04T03:25:50.161822+00:00",
+  "source_updated_utc": "2026-11-04T03:25:50.009941+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -564,6 +564,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "LABT",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T12:23:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "LYCA",
       "signal": "조회 실패",
       "rvol5": null,
@@ -586,6 +600,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T12:23:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -735,6 +763,22 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-04T12:23:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -784,14 +828,6 @@
     },
     {
       "ticker": "EZGO",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -856,6 +892,7 @@
     "FLSC",
     "IAM",
     "IPHX",
+    "LABT",
     "LYCA",
     "PAXG",
     "RTSN",
