@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-11-04T11:59:56.111158+00:00",
+  "updated_utc": "2026-11-04T14:15:46.754474+00:00",
   "source": "toss_live.json snapshots; noncontinuous",
   "records": {
     "cn1-LHSW-sales-contract-20261019T160700Z": {
@@ -5893,6 +5893,24 @@
       "ticker": "STAK",
       "radar": "NASDAQ 7.0",
       "detected_utc": "2026-11-03T21:27:53Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7.0조기포착사전공시일정-CENN-LS450_DELIVERIES_REVENUE-20261103": {
+      "ticker": "CENN",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-11-04T13:25:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ECX-Q3_2026_RESULTS_6K-20261104T120300Z": {
+      "ticker": "ECX",
+      "radar": "china",
+      "detected_utc": "2026-11-04T14:06:28Z",
       "entry_price_usd": null,
       "entry_time_utc": null,
       "status": "NO_ENTRY_PRICE",
