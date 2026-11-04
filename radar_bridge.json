@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-04T23:48:48.772614+00:00",
-  "source_updated_utc": "2026-11-04T23:48:48.406928+00:00",
+  "generated_utc": "2026-11-04T23:49:57.943181+00:00",
+  "source_updated_utc": "2026-11-04T23:49:57.847234+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -63,7 +63,7 @@
       "ticker": "ARM",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:48:00+09:00",
+      "bar_time": "2026-11-05T08:49:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -480,6 +480,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "CLRO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T08:49:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "CTY",
       "signal": "조회 실패",
       "rvol5": null,
@@ -516,20 +530,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "EZGO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T08:47:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -581,7 +581,7 @@
       "ticker": "IONQ",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:48:00+09:00",
+      "bar_time": "2026-11-05T08:49:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -833,7 +833,7 @@
       "ticker": "UUUU",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T08:47:00+09:00",
+      "bar_time": "2026-11-05T08:49:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -860,22 +860,6 @@
   ],
   "china1": [],
   "china_candidates": [
-    {
-      "ticker": "EZGO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T08:47:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
     {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
@@ -918,6 +902,14 @@
     },
     {
       "ticker": "DXF",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "EZGO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
@@ -984,6 +976,7 @@
     "BBCI",
     "BMMX",
     "CHWM",
+    "CLRO",
     "CTY",
     "CYTK",
     "DAVI",
