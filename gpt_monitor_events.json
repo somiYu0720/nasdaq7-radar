@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-05T17:38:26Z",
+  "updated_utc": "2026-11-05T17:49:23.889653+00:00",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-ACMR-Q3_2026_FINAL_RESULTS_GUIDANCE_SEC8K-20261105T124300Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china",
-      "ticker": "ACMR",
-      "category": "실적확정_가이던스상향_중국사업연계별도관찰",
-      "detected_utc": "2026-11-05T14:34:23Z",
-      "summary": "2026-11-05 SEC 8-K(07:43 EST 접수) 및 EX-99.1: ACM Research 2026 Q3 매출 $367.7m(+36.6% YoY), 출하 $343.5m(+30.6%), FY2026 매출 가이던스 $1.24b~$1.28b로 상향(종전 $1.125b~$1.175b). GAAP 순이익 $1.5m; 비현금 단기투자 평가손실 $39.1m. 10/28 예비실적과 별개 최종 실적·연간 가이던스 신규 이벤트. 미국 법인으로 중국 사업 연계 별도 관찰, 일반 중국계 ADR 아님. 최신 가격·RVOL·분봉 가속 미확인, 1차 순위 미산정. 2차 float/O/S/즉시 매도 가능 공급 A/B/C/D 미확인, 위험 감점 없음.",
-      "source_url": "https://www.stocktitan.net/sec-filings/ACMR/8-k-acm-research-inc-reports-material-event-de3849f1fe32.html",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-ZLAB-Q3_2026_RESULTS_REPORTED-20261105T2038KST",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china",
-      "ticker": "ZLAB",
-      "category": "실적발표_신규결과_급등전이벤트관찰",
-      "detected_utc": "2026-11-05T12:36:43Z",
-      "summary": "2026-11-05 20:38 KST 국내 금융매체가 Zai Lab 2026년 3분기 실적 발표를 보도: 총매출 약 $108.208m(전년 대비 -6.8%), 순손실 약 $46.14m. 기존 10/21 실적발표 일정 기록과 별개인 실제 실적 수치 보도. 회사 공식 실적 발표문 및 당일 SEC 8-K 원문 미확인으로 PROVISIONAL. 최신 분봉·RVOL·가격 가속 미확인, 1차 포착 순위 미산정. PIPE 및 즉시 매도 가능 공급 A/B/C/D 별도 SEC 검증 필요, 위험으로 1차 감점하지 않음.",
-      "source_url": "https://m.datatooza.com/article/20261105203829792752ef3dcad8_80",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-GSUN-1FOR10_SHARE_CONSOLIDATION_VOTE-20261020_FILING_000121390026111081",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5498,6 +5476,28 @@
       "category": "1차_거래량가속_급등전관찰_잠정",
       "detected_utc": "2026-11-05T16:52:00Z",
       "summary": "2026-11-05 16:56:41 UTC rotating 50-stock discovery batch: 15m RVOL 5.36x, 10m RVOL 3.38x, 5m RVOL 0.93x; 15m price change +6.89%, 5m volume 7,651 shares. Prior 30-minute same-session baseline, free-data delay possible. EARLY_PRE provisional signal; SEC, float/O/S and immediate supply not verified. Phase-2 risks do not alter phase-1 ranking.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7.0조기포착사전공시일정-JRSH-VOLUME_EARLY_20261105T174800Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "JRSH",
+      "category": "1차_거래량가속_잠정",
+      "detected_utc": "2026-11-05T17:48:00+00:00",
+      "summary": "Rotating 50-symbol batch updated 2026-11-05T17:49:23.889653+00:00; JRSH EARLY_PRE, 5m RVOL 4.55x, 10m RVOL 2.7x, 15m RVOL 1.87x, 5m acceleration 5.31x, 15m price change 0.77%, 5m volume 31708. Free delayed data possible. SEC, float/O/S and immediate sellable supply unverified. No risk-based phase-1 penalty.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7.0조기포착사전공시일정-AIOT-VOLUME_EARLY_20261105T174800Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "AIOT",
+      "category": "1차_거래량가속_잠정",
+      "detected_utc": "2026-11-05T17:48:00+00:00",
+      "summary": "Rotating 50-symbol batch updated 2026-11-05T17:49:23.889653+00:00; AIOT EARLY_PRE, 5m RVOL 0.19x, 10m RVOL 3.42x, 15m RVOL 2.55x, 5m acceleration 0.03x, 15m price change -1.15%, 5m volume 3500. Free delayed data possible. SEC, float/O/S and immediate sellable supply unverified. No risk-based phase-1 penalty.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
     }
