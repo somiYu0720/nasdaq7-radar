@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-11-05T17:57:50.506372+00:00",
+  "updated_utc": "2026-11-05T18:51:55.227577+00:00",
   "source": "toss_live.json snapshots; noncontinuous",
   "records": {
     "cn1-LHSW-sales-contract-20261019T160700Z": {
@@ -6091,6 +6091,51 @@
       "ticker": "DAIC",
       "radar": "nasdaq7",
       "detected_utc": "2026-11-05T16:52:00Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7.0조기포착사전공시일정-JRSH-VOLUME_EARLY_20261105T174800Z": {
+      "ticker": "JRSH",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-11-05T17:48:00+00:00",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7.0조기포착사전공시일정-AIOT-VOLUME_EARLY_20261105T174800Z": {
+      "ticker": "AIOT",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-11-05T17:48:00+00:00",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-ELPW-M&A_CONTRACT-20261105T110100Z": {
+      "ticker": "ELPW",
+      "radar": "china1",
+      "detected_utc": "2026-11-05T18:50:25Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-PASW-PATENT_ACQUISITION-20261105_DATE_ONLY": {
+      "ticker": "PASW",
+      "radar": "china1",
+      "detected_utc": "2026-11-05T18:50:25Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시-NTES-D30_EARNINGS_DATE-20261105_DATE_ONLY": {
+      "ticker": "NTES",
+      "radar": "china1",
+      "detected_utc": "2026-11-05T18:50:25Z",
       "entry_price_usd": null,
       "entry_time_utc": null,
       "status": "NO_ENTRY_PRICE",
