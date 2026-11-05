@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T03:34:59.502745+00:00",
-  "source_updated_utc": "2026-11-05T03:34:59.391236+00:00",
+  "generated_utc": "2026-11-05T03:36:16.548857+00:00",
+  "source_updated_utc": "2026-11-05T03:36:16.332383+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -40,6 +40,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "ARM",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T12:35:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -410,6 +424,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "IONQ",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T12:36:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "IPHX",
       "signal": "PRE 후보",
       "rvol5": null,
@@ -553,7 +581,7 @@
       "ticker": "OKLO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T12:34:00+09:00",
+      "bar_time": "2026-11-05T12:36:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -634,24 +662,10 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "RETO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T12:30:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "RGTI",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T12:32:00+09:00",
+      "bar_time": "2026-11-05T12:36:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -791,7 +805,7 @@
       "ticker": "SMR",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T12:34:00+09:00",
+      "bar_time": "2026-11-05T12:36:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -827,22 +841,6 @@
       "daily_rvol": 0.05,
       "change_pct": -1.48,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "RETO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T12:30:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -907,6 +905,14 @@
       "classification": "PENDING"
     },
     {
+      "ticker": "RETO",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "TAOP",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -919,6 +925,7 @@
     "ACCV",
     "AIOK",
     "AMRO",
+    "ARM",
     "ASPE",
     "AZR",
     "BBCI",
@@ -944,6 +951,7 @@
     "GLV",
     "GUNN",
     "IAM",
+    "IONQ",
     "IPHX",
     "LYCA",
     "MYND",
