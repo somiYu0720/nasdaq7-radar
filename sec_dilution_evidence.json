@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-05T13:38:26.722472+00:00",
+  "checked_utc": "2026-11-05T20:10:14.725002+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -1489,6 +1489,16 @@
       "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
       "supply_review_candidate": "D",
       "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
+    },
+    "FLYE": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "GSUN": {
       "status": "SEC_SUBMISSIONS_FETCHED",
