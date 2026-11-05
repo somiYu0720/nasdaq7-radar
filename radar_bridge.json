@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T13:55:41.973371+00:00",
-  "source_updated_utc": "2026-11-05T13:55:41.881465+00:00",
+  "generated_utc": "2026-11-05T13:56:43.587614+00:00",
+  "source_updated_utc": "2026-11-05T13:56:43.484542+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -49,7 +49,7 @@
       "ticker": "ARM",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T22:55:00+09:00",
+      "bar_time": "2026-11-05T22:56:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -194,6 +194,20 @@
       "daily_rvol": 2.19,
       "change_pct": 0.0,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "CLRO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T22:56:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -455,7 +469,7 @@
       "ticker": "IONQ",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T22:55:00+09:00",
+      "bar_time": "2026-11-05T22:56:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -483,7 +497,7 @@
       "ticker": "LABT",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T22:55:00+09:00",
+      "bar_time": "2026-11-05T22:56:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -609,7 +623,7 @@
       "ticker": "OKLO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T22:54:00+09:00",
+      "bar_time": "2026-11-05T22:56:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -662,20 +676,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "QBTS",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T22:55:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "QUBT",
       "signal": "REVIEW",
       "rvol5": null,
@@ -705,20 +705,6 @@
     },
     {
       "ticker": "RETO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T22:54:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "RGTI",
       "signal": "REVIEW",
       "rvol5": null,
       "bar_time": "2026-11-05T22:54:00+09:00",
@@ -858,6 +844,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "SMR",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T22:56:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "SVA",
       "signal": "조회 실패",
       "rvol5": null,
@@ -866,20 +866,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "UUUU",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T22:55:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -1000,6 +986,7 @@
     "CASK",
     "CHWM",
     "CIK",
+    "CLRO",
     "COE",
     "CTY",
     "DAVI",
@@ -1032,10 +1019,8 @@
     "OZ",
     "PAXG",
     "PTIV",
-    "QBTS",
     "QUBT",
     "QURE",
-    "RGTI",
     "RTSN",
     "RZAI",
     "SCAT",
@@ -1045,7 +1030,7 @@
     "SCCG",
     "SIM",
     "SMMT",
-    "SVA",
-    "UUUU"
+    "SMR",
+    "SVA"
   ]
 }
