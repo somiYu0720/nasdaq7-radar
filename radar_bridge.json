@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T03:29:10.102385+00:00",
-  "source_updated_utc": "2026-11-05T03:29:09.991545+00:00",
+  "generated_utc": "2026-11-05T03:30:09.099151+00:00",
+  "source_updated_utc": "2026-11-05T03:30:08.920307+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -49,7 +49,7 @@
       "ticker": "ARM",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T12:29:00+09:00",
+      "bar_time": "2026-11-05T12:30:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -441,7 +441,7 @@
       "ticker": "IONQ",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T12:29:00+09:00",
+      "bar_time": "2026-11-05T12:30:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -595,7 +595,7 @@
       "ticker": "OKLO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T12:27:00+09:00",
+      "bar_time": "2026-11-05T12:30:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -690,10 +690,24 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "RETO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T12:30:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "RGTI",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T12:29:00+09:00",
+      "bar_time": "2026-11-05T12:30:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -819,7 +833,7 @@
       "ticker": "SMR",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T12:29:00+09:00",
+      "bar_time": "2026-11-05T12:30:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -893,6 +907,22 @@
       "classification": "PENDING"
     },
     {
+      "ticker": "RETO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T12:30:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "CHNR",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -934,14 +964,6 @@
     },
     {
       "ticker": "PLAG",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "RETO",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
