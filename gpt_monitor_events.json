@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-05T12:36:43Z",
+  "updated_utc": "2026-11-05T14:34:23Z",
   "events": [
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-ACMR-Q3_2026_FINAL_RESULTS_GUIDANCE_SEC8K-20261105T124300Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china",
+      "ticker": "ACMR",
+      "category": "실적확정_가이던스상향_중국사업연계별도관찰",
+      "detected_utc": "2026-11-05T14:34:23Z",
+      "summary": "2026-11-05 SEC 8-K(07:43 EST 접수) 및 EX-99.1: ACM Research 2026 Q3 매출 $367.7m(+36.6% YoY), 출하 $343.5m(+30.6%), FY2026 매출 가이던스 $1.24b~$1.28b로 상향(종전 $1.125b~$1.175b). GAAP 순이익 $1.5m; 비현금 단기투자 평가손실 $39.1m. 10/28 예비실적과 별개 최종 실적·연간 가이던스 신규 이벤트. 미국 법인으로 중국 사업 연계 별도 관찰, 일반 중국계 ADR 아님. 최신 가격·RVOL·분봉 가속 미확인, 1차 순위 미산정. 2차 float/O/S/즉시 매도 가능 공급 A/B/C/D 미확인, 위험 감점 없음.",
+      "source_url": "https://www.stocktitan.net/sec-filings/ACMR/8-k-acm-research-inc-reports-material-event-de3849f1fe32.html",
+      "verification": "VERIFIED"
+    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-ZLAB-Q3_2026_RESULTS_REPORTED-20261105T2038KST",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5487,17 +5498,6 @@
       "category": "1차_급락대량거래_반등관찰_PROVISIONAL",
       "detected_utc": "2026-11-04T20:40:37.733593+00:00",
       "summary": "2026-11-05 05:40 KST rotating 50-stock batch: MTEK observed $0.3109, 15m price change -7.3%, 5m volume 28709, 5m RVOL 24.56x, 10m RVOL 31.3x, 15m RVOL 28.95x, 5m acceleration 0.65x. Baseline TODAY_PRIOR_30M; FREE_DELAY_POSSIBLE, not verified real-time. Phase 1 independent ranking without dilution/listing penalty. Rebound/bottom defense unverified. Phase 2 SEC/float/O/S/potential vs immediate supply and A/B/C/D unverified; no buy recommendation.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7.0조기포착사전공시일정-ANGI-VOLUME_SIGNAL-20261104T204000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "ANGI",
-      "category": "1차_거래량선행_급등전관찰_PROVISIONAL",
-      "detected_utc": "2026-11-04T20:40:37.733593+00:00",
-      "summary": "2026-11-05 05:40 KST rotating 50-stock batch: ANGI observed $6.91, 15m price change -1.75%, 5m volume 79641, 5m RVOL 3.32x, 10m RVOL 2.24x, 15m RVOL 2.04x, 5m acceleration 2.84x. Baseline TODAY_PRIOR_30M; FREE_DELAY_POSSIBLE, not verified real-time. Phase 1 independent ranking without dilution/listing penalty. Rebound/bottom defense unverified. Phase 2 SEC/float/O/S/potential vs immediate supply and A/B/C/D unverified; no buy recommendation.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
     }
