@@ -1,17 +1,15 @@
 {
-  "checked_utc": "2026-11-05T02:11:55.530730+00:00",
+  "checked_utc": "2026-11-05T02:13:11.073721+00:00",
   "checked": 37,
-  "success": 9,
+  "success": 10,
   "failed": {
     "ARCI": "insufficient completed bars",
-    "REED": "insufficient positive-volume baseline",
     "DTSS": "insufficient positive-volume baseline",
     "DUO": "insufficient positive-volume baseline",
     "TAOP": "insufficient positive-volume baseline",
     "BAOS": "insufficient positive-volume baseline",
     "CREG": "'volume'",
-    "CHNR": "insufficient completed bars",
-    "DXF": "insufficient positive-volume baseline"
+    "CHNR": "insufficient completed bars"
   },
   "mode": "unofficial delayed/incomplete minute data",
   "fallback": "Toss recent quotes; no RVOL or breakout score"
