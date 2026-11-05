@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T17:28:57.371902+00:00",
-  "source_updated_utc": "2026-11-05T17:28:57.215302+00:00",
+  "generated_utc": "2026-11-05T17:29:58.317167+00:00",
+  "source_updated_utc": "2026-11-05T17:29:58.218337+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -748,7 +748,7 @@
     {
       "ticker": "OKLO",
       "signal": "REVIEW",
-      "rvol5": "0.5",
+      "rvol5": "0.51",
       "bar_time": "2026-11-05T17:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -788,9 +788,23 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": "0.05",
+      "bar_time": "2026-11-05T17:20:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "POLA",
       "signal": "EARLY_PROVISIONAL",
-      "rvol5": "10.93",
+      "rvol5": "9.66",
       "bar_time": "2026-11-05T17:10:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -860,7 +874,7 @@
     {
       "ticker": "QURE",
       "signal": "REVIEW",
-      "rvol5": "0.88",
+      "rvol5": "0.87",
       "bar_time": "2026-11-05T17:20:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1133,6 +1147,22 @@
       "classification": "PENDING"
     },
     {
+      "ticker": "PLAG",
+      "signal": "REVIEW",
+      "rvol5": "0.05",
+      "bar_time": "2026-11-05T17:20:00+00:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "RETO",
       "signal": "REVIEW",
       "rvol5": "0.48",
@@ -1174,14 +1204,6 @@
     },
     {
       "ticker": "DTSS",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
