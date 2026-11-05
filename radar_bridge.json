@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T03:13:48.024839+00:00",
-  "source_updated_utc": "2026-11-05T03:13:47.898253+00:00",
+  "generated_utc": "2026-11-05T03:14:49.068743+00:00",
+  "source_updated_utc": "2026-11-05T03:14:48.935022+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -46,6 +46,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "ARM",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T12:14:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "ASPE",
       "signal": "조회 실패",
       "rvol5": null,
@@ -68,20 +82,6 @@
       "daily_rvol": 0.15,
       "change_pct": -2.41,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "BAOS",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T12:09:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -424,20 +424,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "IONQ",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T12:13:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "IPHX",
       "signal": "PRE 후보",
       "rvol5": null,
@@ -578,20 +564,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "OKLO",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T12:13:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "OZ",
       "signal": "검토",
       "rvol5": null,
@@ -651,21 +623,7 @@
       "ticker": "QUBT",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T12:13:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "RGTI",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T12:12:00+09:00",
+      "bar_time": "2026-11-05T12:14:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -788,20 +746,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "SMR",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T12:13:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "SVA",
       "signal": "조회 실패",
       "rvol5": null,
@@ -814,40 +758,10 @@
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
       "price_currency": "USD"
-    },
-    {
-      "ticker": "UUUU",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T12:09:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
     }
   ],
   "china1": [],
   "china_candidates": [
-    {
-      "ticker": "BAOS",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T12:09:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
     {
       "ticker": "DXF",
       "signal": "검토",
@@ -861,6 +775,14 @@
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
       "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "BAOS",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
       "china_verified": false,
       "classification": "PENDING"
     },
@@ -933,6 +855,7 @@
     "ACCV",
     "AIOK",
     "AMRO",
+    "ARM",
     "ASPE",
     "AZR",
     "BBCI",
@@ -958,7 +881,6 @@
     "GLV",
     "GUNN",
     "IAM",
-    "IONQ",
     "IPHX",
     "LABT",
     "LYCA",
@@ -969,13 +891,11 @@
     "NORD",
     "NRO",
     "NSTR",
-    "OKLO",
     "OZ",
     "PAXG",
     "PTIV",
     "QBTS",
     "QUBT",
-    "RGTI",
     "RTSN",
     "RZAI",
     "SCAT",
@@ -984,8 +904,6 @@
     "SCCF",
     "SCCG",
     "SIM",
-    "SMR",
-    "SVA",
-    "UUUU"
+    "SVA"
   ]
 }
