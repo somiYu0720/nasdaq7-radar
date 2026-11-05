@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T16:42:56.632955+00:00",
-  "source_updated_utc": "2026-11-05T16:42:56.496960+00:00",
+  "generated_utc": "2026-11-05T16:44:02.616476+00:00",
+  "source_updated_utc": "2026-11-05T16:44:02.382773+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -230,7 +230,7 @@
     {
       "ticker": "CLRO",
       "signal": "REVIEW",
-      "rvol5": "1.23",
+      "rvol5": "1.15",
       "bar_time": "2026-11-05T16:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -312,20 +312,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "DTSS",
-      "signal": "REVIEW",
-      "rvol5": "0.15",
-      "bar_time": "2026-11-05T15:50:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "DUO",
       "signal": "REVIEW",
       "rvol5": "0.84",
@@ -342,7 +328,7 @@
     {
       "ticker": "DXF",
       "signal": "REVIEW",
-      "rvol5": "0.38",
+      "rvol5": "0.42",
       "bar_time": "2026-11-05T15:35:00+00:00",
       "daily_date": "2026-11-04",
       "daily_rvol": 0.05,
@@ -566,7 +552,7 @@
     {
       "ticker": "IONQ",
       "signal": "REVIEW",
-      "rvol5": "0.18",
+      "rvol5": "0.17",
       "bar_time": "2026-11-05T16:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -803,8 +789,8 @@
     },
     {
       "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "2.27",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "3.53",
       "bar_time": "2026-11-05T16:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -818,7 +804,7 @@
     {
       "ticker": "POLA",
       "signal": "REVIEW",
-      "rvol5": "1.43",
+      "rvol5": "1.53",
       "bar_time": "2026-11-05T16:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -902,7 +888,7 @@
     {
       "ticker": "REED",
       "signal": "REVIEW",
-      "rvol5": "0.25",
+      "rvol5": "0.57",
       "bar_time": "2026-11-05T15:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1070,7 +1056,7 @@
     {
       "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "1.17",
+      "rvol5": "0.35",
       "bar_time": "2026-11-05T16:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1112,7 +1098,7 @@
     {
       "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "0.96",
+      "rvol5": "0.97",
       "bar_time": "2026-11-05T16:35:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1126,22 +1112,6 @@
   ],
   "china1": [],
   "china_candidates": [
-    {
-      "ticker": "DTSS",
-      "signal": "REVIEW",
-      "rvol5": "0.15",
-      "bar_time": "2026-11-05T15:50:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
     {
       "ticker": "DUO",
       "signal": "REVIEW",
@@ -1161,7 +1131,7 @@
     {
       "ticker": "DXF",
       "signal": "REVIEW",
-      "rvol5": "0.38",
+      "rvol5": "0.42",
       "bar_time": "2026-11-05T15:35:00+00:00",
       "daily_date": "2026-11-04",
       "daily_rvol": 0.05,
@@ -1192,8 +1162,8 @@
     },
     {
       "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "2.27",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "3.53",
       "bar_time": "2026-11-05T16:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1240,6 +1210,14 @@
     },
     {
       "ticker": "CREG",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "DTSS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
