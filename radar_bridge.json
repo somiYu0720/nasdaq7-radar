@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T02:16:51.496891+00:00",
-  "source_updated_utc": "2026-11-05T02:16:51.399232+00:00",
+  "generated_utc": "2026-11-05T02:17:54.030986+00:00",
+  "source_updated_utc": "2026-11-05T02:17:53.917475+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -50,6 +50,20 @@
       "signal": "REVIEW",
       "rvol5": null,
       "bar_time": "2026-11-05T11:16:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "ARQT",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T11:17:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -438,20 +452,6 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "IONQ",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T11:16:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "IPHX",
       "signal": "PRE 후보",
       "rvol5": null,
@@ -581,7 +581,7 @@
       "ticker": "OKLO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T11:16:00+09:00",
+      "bar_time": "2026-11-05T11:17:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -638,20 +638,6 @@
       "signal": "REVIEW",
       "rvol5": null,
       "bar_time": "2026-11-05T11:15:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "RGTI",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T11:16:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -791,7 +777,7 @@
       "ticker": "SMR",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T11:16:00+09:00",
+      "bar_time": "2026-11-05T11:17:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -810,20 +796,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "UUUU",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "bar_time": "2026-11-05T11:12:00+09:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -926,6 +898,7 @@
     "AIOK",
     "AMRO",
     "ARM",
+    "ARQT",
     "ASPE",
     "AZR",
     "BBCI",
@@ -952,7 +925,6 @@
     "GLV",
     "GUNN",
     "IAM",
-    "IONQ",
     "IPHX",
     "LYCA",
     "MYND",
@@ -967,7 +939,6 @@
     "PAXG",
     "PTIV",
     "QBTS",
-    "RGTI",
     "RTSN",
     "RZAI",
     "SCAT",
@@ -978,7 +949,6 @@
     "SIM",
     "SMMT",
     "SMR",
-    "SVA",
-    "UUUU"
+    "SVA"
   ]
 }
