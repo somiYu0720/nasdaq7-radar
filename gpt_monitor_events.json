@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-05T15:47:34.200006+00:00",
+  "updated_utc": "2026-11-05T17:38:26Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-HCM-SOVLEPLENIB_FDA_ORPHAN_AIHA-20261105",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china",
-      "ticker": "HCM",
-      "category": "FDA_희귀의약품지정_신규이벤트",
-      "detected_utc": "2026-11-05T14:44:56Z",
-      "summary": "2026-11-05 HUTCHMED SEC 6-K 첨부 보도자료: sovleplenib 미국 FDA 자가면역용혈성빈혈(AIHA) 희귀의약품 지정. 2026년 10월 ITP 지정과 별개의 두 번째 적응증. 허가 또는 임상 성공을 뜻하지 않음. 거래량 가속·주가 반응 미확인; 1차 순위 미산정. Float/O/S 및 즉시 매도 공급 A/B/C/D 미확인.",
-      "source_url": "https://www.stocktitan.net/sec-filings/HCM/6-k-hutchmed-china-ltd-current-report-foreign-issuer-81496cd60706.html",
-      "verification": "VERIFIED"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-ACMR-Q3_2026_FINAL_RESULTS_GUIDANCE_SEC8K-20261105T124300Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5498,6 +5487,17 @@
       "category": "1차_거래량가속_하락중관찰_잠정",
       "detected_utc": "2026-11-05T15:41:00Z",
       "summary": "Rotating 50-stock batch at 2026-11-05 15:47:34 UTC: CLRB 5m RVOL 3.07x, 10m RVOL 2.80x, 15m RVOL 3.17x; 5m acceleration 1.22x; 15m price change -4.67%; 5m volume 22,092 shares. Previous-session provisional baseline, free-data delay possible. Falling price with elevated volume; rebound not confirmed. SEC/float/O/S/supply unverified; no phase-1 risk penalty.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7.0조기포착사전공시일정-DAIC-VOLUME_RVOL5_20261105T165200Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "DAIC",
+      "category": "1차_거래량가속_급등전관찰_잠정",
+      "detected_utc": "2026-11-05T16:52:00Z",
+      "summary": "2026-11-05 16:56:41 UTC rotating 50-stock discovery batch: 15m RVOL 5.36x, 10m RVOL 3.38x, 5m RVOL 0.93x; 15m price change +6.89%, 5m volume 7,651 shares. Prior 30-minute same-session baseline, free-data delay possible. EARLY_PRE provisional signal; SEC, float/O/S and immediate supply not verified. Phase-2 risks do not alter phase-1 ranking.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
     }
