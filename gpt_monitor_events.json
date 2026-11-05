@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-04T20:40:37.733593+00:00",
+  "updated_utc": "2026-11-05T12:36:43Z",
   "events": [
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-ZLAB-Q3_2026_RESULTS_REPORTED-20261105T2038KST",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china",
+      "ticker": "ZLAB",
+      "category": "실적발표_신규결과_급등전이벤트관찰",
+      "detected_utc": "2026-11-05T12:36:43Z",
+      "summary": "2026-11-05 20:38 KST 국내 금융매체가 Zai Lab 2026년 3분기 실적 발표를 보도: 총매출 약 $108.208m(전년 대비 -6.8%), 순손실 약 $46.14m. 기존 10/21 실적발표 일정 기록과 별개인 실제 실적 수치 보도. 회사 공식 실적 발표문 및 당일 SEC 8-K 원문 미확인으로 PROVISIONAL. 최신 분봉·RVOL·가격 가속 미확인, 1차 포착 순위 미산정. PIPE 및 즉시 매도 가능 공급 A/B/C/D 별도 SEC 검증 필요, 위험으로 1차 감점하지 않음.",
+      "source_url": "https://m.datatooza.com/article/20261105203829792752ef3dcad8_80",
+      "verification": "PROVISIONAL"
+    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-GSUN-1FOR10_SHARE_CONSOLIDATION_VOTE-20261020_FILING_000121390026111081",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5487,17 +5498,6 @@
       "category": "1차_거래량선행_급등전관찰_PROVISIONAL",
       "detected_utc": "2026-11-04T20:40:37.733593+00:00",
       "summary": "2026-11-05 05:40 KST rotating 50-stock batch: ANGI observed $6.91, 15m price change -1.75%, 5m volume 79641, 5m RVOL 3.32x, 10m RVOL 2.24x, 15m RVOL 2.04x, 5m acceleration 2.84x. Baseline TODAY_PRIOR_30M; FREE_DELAY_POSSIBLE, not verified real-time. Phase 1 independent ranking without dilution/listing penalty. Rebound/bottom defense unverified. Phase 2 SEC/float/O/S/potential vs immediate supply and A/B/C/D unverified; no buy recommendation.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7.0조기포착사전공시일정-RGEN-VOLUME_SIGNAL-20261104T204000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "RGEN",
-      "category": "1차_거래량선행_급등전관찰_PROVISIONAL",
-      "detected_utc": "2026-11-04T20:40:37.733593+00:00",
-      "summary": "2026-11-05 05:40 KST rotating 50-stock batch: RGEN observed $179.47, 15m price change -0.29%, 5m volume 12216, 5m RVOL 1.53x, 10m RVOL 1.58x, 15m RVOL 3.75x, 5m acceleration 0.94x. Baseline TODAY_PRIOR_30M; FREE_DELAY_POSSIBLE, not verified real-time. Phase 1 independent ranking without dilution/listing penalty. Rebound/bottom defense unverified. Phase 2 SEC/float/O/S/potential vs immediate supply and A/B/C/D unverified; no buy recommendation.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
     }
