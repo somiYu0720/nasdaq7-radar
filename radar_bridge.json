@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T12:40:51.869510+00:00",
-  "source_updated_utc": "2026-11-05T12:40:51.779761+00:00",
+  "generated_utc": "2026-11-05T12:41:50.697441+00:00",
+  "source_updated_utc": "2026-11-05T12:41:50.606798+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -595,7 +595,7 @@
       "ticker": "OKLO",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T21:40:00+09:00",
+      "bar_time": "2026-11-05T21:41:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -844,6 +844,20 @@
       "price_currency": "USD"
     },
     {
+      "ticker": "SMR",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T21:41:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
       "ticker": "SVA",
       "signal": "조회 실패",
       "rvol5": null,
@@ -852,6 +866,20 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "UUUU",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T21:41:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -1009,6 +1037,8 @@
     "SCCG",
     "SIM",
     "SMMT",
-    "SVA"
+    "SMR",
+    "SVA",
+    "UUUU"
   ]
 }
