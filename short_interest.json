@@ -2,7 +2,7 @@
   "source": "FINRA Reg SHO consolidated NMS daily short sale volume",
   "source_url": "https://cdn.finra.org/equity/regsho/daily/CNMSshvol20261104.txt",
   "as_of": "2026-11-04",
-  "updated_utc": "2026-11-05T00:04:54.247493+00:00",
+  "updated_utc": "2026-11-05T02:30:55.624013+00:00",
   "note": "Short volume is NOT short interest, short float, or evidence of a squeeze. Includes only FINRA-reporting facilities.",
   "tickers": {
     "AARD": {
@@ -19,6 +19,16 @@
       "short_volume_pct": 45.56,
       "short_volume": 2774610,
       "reported_volume": 6090093,
+      "short_volume_date": "2026-11-04",
+      "short_volume_source": "https://cdn.finra.org/equity/regsho/daily/CNMSshvol20261104.txt",
+      "short_float_pct": null,
+      "days_to_cover": null,
+      "short_interest_status": "NOT_AVAILABLE_FROM_DAILY_VOLUME"
+    },
+    "AEHL": {
+      "short_volume_pct": 38.97,
+      "short_volume": 4865,
+      "reported_volume": 12485,
       "short_volume_date": "2026-11-04",
       "short_volume_source": "https://cdn.finra.org/equity/regsho/daily/CNMSshvol20261104.txt",
       "short_float_pct": null,
