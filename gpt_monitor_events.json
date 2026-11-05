@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-05T14:44:56Z",
+  "updated_utc": "2026-11-05T15:47:34.200006+00:00",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-XNET-Q3_2026_EARNINGS_DATE_ANNOUNCED-20261105",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china",
-      "ticker": "XNET",
-      "category": "D+7_실적발표일정_신규공지",
-      "detected_utc": "2026-11-05T14:44:56Z",
-      "summary": "Xunlei가 2026-11-05 공식 보도자료에서 2026-11-12 미국 개장 전 2026 Q3 실적 발표, 미국 동부시간 07:00 컨퍼런스콜 예고. 11월 5일 기준 D+7 확정 일정. 실적 내용·주가·거래량 가속 미확인, 1차 순위 미산정. SEC 공급 유형 미확인.",
-      "source_url": "https://www.stocktitan.net/news/XNET/xunlei-limited-schedules-2026-unaudited-third-quarter-earnings-j072inexewry.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-HCM-SOVLEPLENIB_FDA_ORPHAN_AIHA-20261105",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5498,6 +5487,17 @@
       "category": "1차_거래량가속_급등전관찰_잠정",
       "detected_utc": "2026-11-04T18:42:00Z",
       "summary": "2026-11-05 03:42 KST rotating 50-stock discovery batch: 5m RVOL 3.30x, 10m RVOL 1.95x, 5m acceleration 5.59x, 5m volume 54252 shares, 15m price change +0.20%. Prior 30-minute same-session baseline; free-data delay possible. Preliminary early-pre breakout volume signal, not a confirmed rally. SEC, news, float/O/S and immediate supply unverified. Phase 2 risk does not change phase 1 rank.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7.0조기포착사전공시일정-CLRB-VOLUME_RVOL3_20261105T154100Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CLRB",
+      "category": "1차_거래량가속_하락중관찰_잠정",
+      "detected_utc": "2026-11-05T15:41:00Z",
+      "summary": "Rotating 50-stock batch at 2026-11-05 15:47:34 UTC: CLRB 5m RVOL 3.07x, 10m RVOL 2.80x, 15m RVOL 3.17x; 5m acceleration 1.22x; 15m price change -4.67%; 5m volume 22,092 shares. Previous-session provisional baseline, free-data delay possible. Falling price with elevated volume; rebound not confirmed. SEC/float/O/S/supply unverified; no phase-1 risk penalty.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
     }
