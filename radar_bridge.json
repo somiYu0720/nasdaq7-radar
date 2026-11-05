@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T18:33:53.916663+00:00",
-  "source_updated_utc": "2026-11-05T18:33:53.792826+00:00",
+  "generated_utc": "2026-11-05T18:34:59.304320+00:00",
+  "source_updated_utc": "2026-11-05T18:34:59.130482+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -538,7 +538,7 @@
     {
       "ticker": "IONQ",
       "signal": "REVIEW",
-      "rvol5": "1.02",
+      "rvol5": "1.01",
       "bar_time": "2026-11-05T18:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -734,7 +734,7 @@
     {
       "ticker": "OKLO",
       "signal": "REVIEW",
-      "rvol5": "0.91",
+      "rvol5": "0.89",
       "bar_time": "2026-11-05T18:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -768,20 +768,6 @@
       "daily_rvol": null,
       "change_pct": null,
       "source": "daily",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "0.51",
-      "bar_time": "2026-11-05T18:00:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -1000,7 +986,7 @@
     {
       "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "1.88",
+      "rvol5": "1.86",
       "bar_time": "2026-11-05T18:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1042,7 +1028,7 @@
     {
       "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "0.77",
+      "rvol5": "0.78",
       "bar_time": "2026-11-05T18:25:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1089,22 +1075,6 @@
       "classification": "PENDING"
     },
     {
-      "ticker": "PLAG",
-      "signal": "REVIEW",
-      "rvol5": "0.51",
-      "bar_time": "2026-11-05T18:00:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
       "ticker": "BAOS",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
@@ -1138,6 +1108,14 @@
     },
     {
       "ticker": "EZGO",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": null,
+      "bar_time": null,
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
+      "ticker": "PLAG",
       "signal": "DATA_UNAVAILABLE",
       "rvol5": null,
       "bar_time": null,
