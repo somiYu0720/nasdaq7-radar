@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T16:53:06.751981+00:00",
-  "source_updated_utc": "2026-11-05T16:53:06.626461+00:00",
+  "generated_utc": "2026-11-05T16:54:09.842647+00:00",
+  "source_updated_utc": "2026-11-05T16:54:09.724633+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -76,7 +76,7 @@
     {
       "ticker": "ARQT",
       "signal": "REVIEW",
-      "rvol5": "0.7",
+      "rvol5": "0.71",
       "bar_time": "2026-11-05T16:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -327,13 +327,13 @@
     },
     {
       "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "0.38",
-      "bar_time": "2026-11-05T15:35:00+00:00",
+      "signal": "검토",
+      "rvol5": null,
+      "bar_time": null,
       "daily_date": "2026-11-04",
       "daily_rvol": 0.05,
       "change_pct": -1.48,
-      "source": "intraday",
+      "source": "daily",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -748,7 +748,7 @@
     {
       "ticker": "OKLO",
       "signal": "REVIEW",
-      "rvol5": "0.63",
+      "rvol5": "0.67",
       "bar_time": "2026-11-05T16:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -804,7 +804,7 @@
     {
       "ticker": "POLA",
       "signal": "REVIEW",
-      "rvol5": "1.43",
+      "rvol5": "1.53",
       "bar_time": "2026-11-05T16:30:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -886,23 +886,9 @@
       "price_currency": "USD"
     },
     {
-      "ticker": "REED",
-      "signal": "REVIEW",
-      "rvol5": "0.57",
-      "bar_time": "2026-11-05T15:40:00+00:00",
-      "daily_date": null,
-      "daily_rvol": null,
-      "change_pct": null,
-      "source": "intraday",
-      "risk_review": "NOT_CHECKED",
-      "sec_review": "NOT_CHECKED",
-      "stage": "1_PROVISIONAL",
-      "price_currency": "USD"
-    },
-    {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.4",
+      "rvol5": "0.78",
       "bar_time": "2026-11-05T16:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1042,7 +1028,7 @@
     {
       "ticker": "SMMT",
       "signal": "REVIEW",
-      "rvol5": "1.09",
+      "rvol5": "1.08",
       "bar_time": "2026-11-05T16:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1056,7 +1042,7 @@
     {
       "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "1.18",
+      "rvol5": "0.35",
       "bar_time": "2026-11-05T16:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1098,7 +1084,7 @@
     {
       "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "0.74",
+      "rvol5": "0.75",
       "bar_time": "2026-11-05T16:45:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1130,13 +1116,13 @@
     },
     {
       "ticker": "DXF",
-      "signal": "REVIEW",
-      "rvol5": "0.38",
-      "bar_time": "2026-11-05T15:35:00+00:00",
+      "signal": "검토",
+      "rvol5": null,
+      "bar_time": null,
       "daily_date": "2026-11-04",
       "daily_rvol": 0.05,
       "change_pct": -1.48,
-      "source": "intraday",
+      "source": "daily",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -1179,7 +1165,7 @@
     {
       "ticker": "RETO",
       "signal": "REVIEW",
-      "rvol5": "0.4",
+      "rvol5": "0.78",
       "bar_time": "2026-11-05T16:40:00+00:00",
       "daily_date": null,
       "daily_rvol": null,
@@ -1293,7 +1279,6 @@
     "QBTS",
     "QUBT",
     "QURE",
-    "REED",
     "RGTI",
     "RTSN",
     "RZAI",
