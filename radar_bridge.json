@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T02:09:21.725948+00:00",
-  "source_updated_utc": "2026-11-05T02:09:21.585522+00:00",
+  "generated_utc": "2026-11-05T02:10:22.028003+00:00",
+  "source_updated_utc": "2026-11-05T02:10:21.869111+00:00",
   "data_mode": "mixed daily and cached intraday; not real-time",
   "nasdaq7": [
     {
@@ -49,7 +49,7 @@
       "ticker": "ARM",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T11:09:00+09:00",
+      "bar_time": "2026-11-05T11:10:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -82,6 +82,20 @@
       "daily_rvol": 0.15,
       "change_pct": -2.41,
       "source": "daily",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD"
+    },
+    {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T11:10:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
       "risk_review": "NOT_CHECKED",
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
@@ -427,7 +441,7 @@
       "ticker": "IONQ",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T11:09:00+09:00",
+      "bar_time": "2026-11-05T11:10:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -777,7 +791,7 @@
       "ticker": "SMR",
       "signal": "REVIEW",
       "rvol5": null,
-      "bar_time": "2026-11-05T11:09:00+09:00",
+      "bar_time": "2026-11-05T11:10:00+09:00",
       "daily_date": null,
       "daily_rvol": null,
       "change_pct": null,
@@ -819,6 +833,22 @@
   "china1": [],
   "china_candidates": [
     {
+      "ticker": "BAOS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "bar_time": "2026-11-05T11:10:00+09:00",
+      "daily_date": null,
+      "daily_rvol": null,
+      "change_pct": null,
+      "source": "intraday",
+      "risk_review": "NOT_CHECKED",
+      "sec_review": "NOT_CHECKED",
+      "stage": "1_PROVISIONAL",
+      "price_currency": "USD",
+      "china_verified": false,
+      "classification": "PENDING"
+    },
+    {
       "ticker": "DXF",
       "signal": "검토",
       "rvol5": null,
@@ -831,14 +861,6 @@
       "sec_review": "NOT_CHECKED",
       "stage": "1_PROVISIONAL",
       "price_currency": "USD",
-      "china_verified": false,
-      "classification": "PENDING"
-    },
-    {
-      "ticker": "BAOS",
-      "signal": "DATA_UNAVAILABLE",
-      "rvol5": null,
-      "bar_time": null,
       "china_verified": false,
       "classification": "PENDING"
     },
