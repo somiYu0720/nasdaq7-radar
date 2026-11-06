@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'toss_live.json'
+      - 'refresh_watchlist_5m.py'
   schedule:
     - cron: '*/5 12-23 * * 1-5'
 permissions:
