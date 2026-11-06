@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-05T21:58:36.499678+00:00",
+  "checked_utc": "2026-11-06T07:31:17.436333+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -1084,7 +1084,12 @@
           "excerpt": " of such pre-funded warrants) held by or issuable to the parties thereto (the “ Resale Registration Statemen t”), and New Corxel will use its commercially reasonable efforts to have the Resale Registration Statement declared effective as soon as reasonably pr"
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2112457/999999999526001687/xslEFFECTX01/primary_doc.xml",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
@@ -1092,7 +1097,12 @@
     "ANL": {
       "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1944552/999999999526002965/xslEFFECTX01/primary_doc.xml",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
@@ -1100,7 +1110,12 @@
     "ANTX": {
       "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1880438/999999999526001256/xslEFFECTX01/primary_doc.xml",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
@@ -1243,6 +1258,14 @@
           "excerpt": "rsedes the information contained therein. On November 8, 2022 we entered into a sales agreement (the “Sales Agreement”) with Cowen and Company, LLC (the “Agent”), as amended on May 15, 2023 and September 11, 2023, which was assigned to TD Securities (USA)"
         }
       ],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
+    "CIIT": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
@@ -1453,21 +1476,6 @@
           "source_url": "https://www.sec.gov/Archives/edgar/data/2004024/000121390026091339/ea0298467-f1_lianhe.htm",
           "form": "F-1",
           "excerpt": "w-on offering by an issuer in an overseas market, including issuance of shares, convertible notes and other similar securities, shall be subject to filing requirement within three business days after the completion of the offering. Therefore, in the opinio"
-        }
-      ],
-      "errors": [],
-      "supply_type": null,
-      "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
-    },
-    "LITE": {
-      "status": "EVIDENCE_FOUND",
-      "evidence": [
-        {
-          "category": "CONVERTIBLE",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526442758/d163169d8k.htm",
-          "form": "8-K",
-          "excerpt": "preferred stock, par value $0.001 per share, of Lumentum designated as Series A Convertible Preferred Stock (the “ Lumentum Series A Preferred Stock ” and, together with the Lumentum Common Stock, the “ Lumentum Capital Stock ”) that is issued and outstanding i"
         }
       ],
       "errors": [],
