@@ -52,8 +52,11 @@ def main():
     rows=[]; errors={}
     # Parallelize independent requests so one slow/blocked Yahoo symbol cannot
     # stall the entire five-minute refresh while Toss continues uploading.
+    # Yahoo checks are limited to the legacy priority lane. Toss covers the
+    # full registered universe; querying 160+ Yahoo charts can stall Actions.
+    yahoo_symbols=list(dict.fromkeys(str(t).upper() for t in watchlist.get("tickers",[])+china.get("candidates",[])))
     with ThreadPoolExecutor(max_workers=16) as pool:
-        futures={pool.submit(get,ticker):ticker for ticker in symbols}
+        futures={pool.submit(get,ticker):ticker for ticker in yahoo_symbols}
         for future in as_completed(futures):
             ticker=futures[future]
             try: rows.append(future.result())
@@ -71,7 +74,7 @@ def main():
         for lane in ("nasdaq7","china1","china","rows"):
             for item in toss.get(lane,[]):
                 ticker=str(item.get("ticker","")).upper()
-                raw=item.get("quote_time") or item.get("collected_utc")
+                raw=item.get("bar_time") or item.get("quote_time") or item.get("collected_utc")
                 try:
                     stamp=dt.datetime.fromisoformat(str(raw).replace("Z","+00:00"))
                     if stamp.tzinfo is None: continue
@@ -91,7 +94,9 @@ def main():
     rows=[x for x in rows if x.get("freshness")=="FRESH"]
     if not rows: raise SystemExit("No fresh Yahoo bars or Toss quotes; existing signals preserved")
     data={"updated_utc":report["checked_utc"],"rows":rows,
-          "caveat":"Watchlist only, not full market; bars may be delayed; no SEC review"}
+          "history":previous.get("history",[]),
+          "radar":previous.get("radar","NASDAQ 7.0"),
+          "caveat":"Watchlist only, not full market; Toss 1m volume is not RVOL; no SEC review"}
     (ROOT/"data.json").write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
     print(f"Updated {len(rows)}/{len(symbols)} watchlist symbols")
 if __name__=="__main__": main()
