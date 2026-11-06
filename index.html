@@ -1042,14 +1042,14 @@ function normalizeToss(d){
  for(const x of combined){
   if(!x||typeof x.ticker!=='string')continue;
   const ticker=x.ticker.trim().toUpperCase();
-  const barMs=Date.parse(x.candle_time||x.quote_time||'');
+  const barMs=Date.parse(x.bar_time||x.candle_time||x.quote_time||'');
   const fresh=Number.isFinite(barMs)&&barMs<=Date.now()+120000&&Date.now()-barMs<=600000;
   const price=Number(x.price_usd),vol=Number(x.minute_volume);
   const row={...x,ticker,price:Number.isFinite(price)?price:null,
    minute_volume:fresh&&x.minute_volume!=null&&Number.isFinite(vol)?vol:null,
-   raw_minute_volume:x.minute_volume,bar_time:x.candle_time||null,stale_volume:!fresh};
+   raw_minute_volume:x.minute_volume,bar_time:x.bar_time||x.candle_time||x.quote_time||null,stale_volume:!fresh};
   const prev=byTicker.get(ticker);
-  if(!prev||Date.parse(row.candle_time||'')>Date.parse(prev.candle_time||''))byTicker.set(ticker,row);
+  if(!prev||Date.parse(row.bar_time||'')>Date.parse(prev.bar_time||''))byTicker.set(ticker,row);
  }
  return {...d,rows:[...byTicker.values()]};
 }
