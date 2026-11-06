@@ -684,6 +684,7 @@ function marketIsRegularSession(){
  const m=Number(get('hour'))*60+Number(get('minute'));
  return !['Sat','Sun'].includes(get('weekday'))&&m>=570&&m<960;
 }
+const LARGE_CAP_RANK_EXCLUSIONS=new Set(['ARM','IONQ','SMR','OKLO','MRVL','ALAB','SMMT','LITE','CYTK','RDNT','SGRY','ARQT','HCM','ZLAB','QURE','UUUU']);
 async function renderRanks(){
  await Promise.all([loadSharedSecEvidence(),loadSecRankSnapshot(),loadAtmStatuses()]);
  const cat=$('rankCategory').value,body=$('rankRows');body.replaceChildren();delete $('rankStatus').dataset.closeSnapshot;
@@ -692,7 +693,7 @@ async function renderRanks(){
   const qr=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});
   if(!wr.ok||!qr.ok)throw Error('data missing');
   const w=await wr.json(),d=await qr.json(),stamp=String(d.updated_utc||'');
-  const symbols=new Set([...(w.categories?.[cat]||[]),...(watchCategories[cat]||[])]);
+  const symbols=new Set([...(w.categories?.[cat]||[]),...(watchCategories[cat]||[])].filter(t=>!LARGE_CAP_RANK_EXCLUSIONS.has(String(t).toUpperCase())));
   const liveRows=Array.isArray(d.rows)?d.rows:[...(Array.isArray(d.nasdaq7)?d.nasdaq7:[]),...(Array.isArray(d.china1)?d.china1:[])].map(x=>({...x,price:x.price??x.price_usd,bar_time:x.bar_time??x.candle_time}));
   const all=liveRows.filter(x=>{const t=Date.parse(x.bar_time||x.quote_time||'');const collected=Date.parse(x.collected_utc||stamp);return symbols.has(x.ticker)&&x.minute_volume!==null&&x.minute_volume!==undefined&&Number.isFinite(rankNum(x.minute_volume))&&Number.isFinite(t)&&Number.isFinite(collected)&&Date.now()-t<=5*60000&&t-Date.now()<=120000&&Math.abs(Date.parse(stamp)-collected)<=5*60000;});
   // Preserve the last valid ranked table for this browser when the feed has no usable rows.
