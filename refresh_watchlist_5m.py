@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Refresh minute-bar candidates; never replace previous data if all requests fail."""
 import datetime as dt, json, urllib.parse, urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 HEADERS={"User-Agent":"Mozilla/5.0"}
 def get(ticker):
     url="https://query1.finance.yahoo.com/v8/finance/chart/"+urllib.parse.quote(ticker)+"?interval=5m&range=5d"
-    with urllib.request.urlopen(urllib.request.Request(url,headers=HEADERS),timeout=18) as resp:
+    with urllib.request.urlopen(urllib.request.Request(url,headers=HEADERS),timeout=7) as resp:
         chart=json.load(resp)["chart"]["result"][0]
     stamps=chart.get("timestamp") or []
     q=chart["indicators"]["quote"][0]
@@ -40,9 +41,14 @@ def main():
     china=json.loads((ROOT/"china_verified_tickers.json").read_text(encoding="utf-8"))
     symbols=list(dict.fromkeys(str(t).upper() for t in watchlist["tickers"]+china.get("candidates",[])))
     rows=[]; errors={}
-    for ticker in symbols:
-        try: rows.append(get(ticker))
-        except Exception as e: errors[ticker]=str(e)[:150]
+    # Parallelize independent requests so one slow/blocked Yahoo symbol cannot
+    # stall the entire five-minute refresh while Toss continues uploading.
+    with ThreadPoolExecutor(max_workers=16) as pool:
+        futures={pool.submit(get,ticker):ticker for ticker in symbols}
+        for future in as_completed(futures):
+            ticker=futures[future]
+            try: rows.append(future.result())
+            except Exception as e: errors[ticker]=str(e)[:150]
     report={"checked_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"checked":len(symbols),
             "success":len(rows),"failed":errors,"mode":"unofficial delayed/incomplete minute data"}
     (ROOT/"minute_feed_status.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
