@@ -878,8 +878,13 @@ $('discoveryRefresh').onclick=renderDiscovery;renderDiscovery();setInterval(rend
 
 async function updateCombinedStatus(){
  const status=$('status');if(!status)return;
- const radarStamp=snapshot?.updated_utc||null;
+ let radarStamp=snapshot?.updated_utc||null;
  try{
+  // Prefer the current committed radar snapshot, not the old Pages-deployed copy.
+  try{
+   const rr=await fetch('https://raw.githubusercontent.com/somiYu0720/nasdaq7-radar/main/data.json?t='+Date.now(),{cache:'no-store'});
+   if(rr.ok){const latest=await rr.json();if(latest.updated_utc)radarStamp=latest.updated_utc;}
+  }catch(e){/* keep the Pages snapshot as an explicitly dated fallback */}
   const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
   const d=await r.json(),liveStamp=d.updated_utc||null;
   const age=stamp=>stamp&&Number.isFinite(new Date(stamp).getTime())?Math.max(0,Math.floor((Date.now()-new Date(stamp).getTime())/60000)):null;
