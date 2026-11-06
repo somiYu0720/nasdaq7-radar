@@ -46,10 +46,10 @@ def main():
     report={"checked_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"checked":len(symbols),
             "success":len(rows),"failed":errors,"mode":"unofficial delayed/incomplete minute data"}
     (ROOT/"minute_feed_status.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
-    # If Yahoo is unavailable, use only genuinely recent Toss candles.
+    # Merge fresh Toss quotes even when some Yahoo bars are available.
+    # Quotes are NOT completed candles; never infer RVOL from a single quote.
     # Never fabricate relative volume or an early-breakout signal.
-    if not rows or all(x.get("freshness")!="FRESH" for x in rows):
-        rows=[x for x in rows if x.get("freshness")=="FRESH"]
+    if True:
         toss_path=ROOT/"toss_live.json"
         toss=json.loads(toss_path.read_text(encoding="utf-8")) if toss_path.exists() else {}
         now=dt.datetime.now(dt.timezone.utc)
@@ -62,14 +62,18 @@ def main():
                     if stamp.tzinfo is None: continue
                     age=(now-stamp.astimezone(dt.timezone.utc)).total_seconds()/60
                     if ticker in symbols and 0<=age<=15 and not any(x["ticker"]==ticker for x in rows):
+                        volume=item.get("minute_volume")
+                        price=item.get("price_usd")
                         rows.append({"ticker":ticker,"signal":"REVIEW","rvol5":None,
+                                     "price_usd":price,"minute_volume":volume,
                                      "bar_time":stamp.isoformat(),"bar_age_minutes":round(age,1),
                                      "freshness":"FRESH","source":"Toss quote fallback; RVOL unavailable",
                                      "fetched_utc":now.isoformat()})
                 except (ValueError,TypeError,AttributeError): pass
-        report["fallback"]="Toss recent quotes; no RVOL or breakout score"
+        report["fallback"]="Toss recent quotes include price and 1m volume; RVOL unavailable without baseline"
         report["success"]=len(rows)
         (ROOT/"minute_feed_status.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
+    rows=[x for x in rows if x.get("freshness")=="FRESH"]
     if not rows: raise SystemExit("No fresh Yahoo bars or Toss quotes; existing signals preserved")
     data={"updated_utc":report["checked_utc"],"rows":rows,
           "caveat":"Watchlist only, not full market; bars may be delayed; no SEC review"}
