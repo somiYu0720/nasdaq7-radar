@@ -28,11 +28,15 @@ def main():
          "data_mode":"mixed daily and cached intraday; not real-time",
          "nasdaq7":[],"china1":[],"china_candidates":[],"china_unverified":[]}
     for t,v in sorted(entries.items()):
+        if t=="LITE": continue
         intra=v["intraday"] or {}
         day=v["daily"] or {}
         signal=intra.get("signal") or day.get("status") or "REVIEW"
         item={"ticker":t,"signal":signal,"rvol5":intra.get("rvol5"),
-              "bar_time":intra.get("bar_time"),"daily_date":day.get("date"),
+              "bar_time":intra.get("bar_time"),"price_usd":intra.get("price_usd"),
+              "minute_volume":intra.get("minute_volume"),
+              "freshness":intra.get("freshness"),"bar_age_minutes":intra.get("bar_age_minutes"),
+              "daily_date":day.get("date"),
               "daily_rvol":day.get("rvol"),"change_pct":day.get("change"),
               "source":"intraday" if intra else "daily",
               "risk_review":"NOT_CHECKED","sec_review":"NOT_CHECKED",
@@ -44,7 +48,7 @@ def main():
             out["china_candidates"].append(dict(item,china_verified=False,classification="PENDING"))
         else:
             out["china_unverified"].append(t)
-    for t in sorted(candidates-set(entries)):
+    for t in sorted(candidates-set(entries)-{"LITE"}):
         out["china_candidates"].append({"ticker":t,"signal":"DATA_UNAVAILABLE","rvol5":None,"bar_time":None,"china_verified":False,"classification":"PENDING"})
     (ROOT/"radar_bridge.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     print(f"NASDAQ7 {len(out['nasdaq7'])}; verified China1 {len(out['china1'])}; unverified {len(out['china_unverified'])}")
