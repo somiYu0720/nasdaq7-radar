@@ -39,7 +39,16 @@ def main():
     previous=json.loads((ROOT/"data.json").read_text(encoding="utf-8"))
     watchlist=json.loads((ROOT/"priority_watchlist.json").read_text(encoding="utf-8"))
     china=json.loads((ROOT/"china_verified_tickers.json").read_text(encoding="utf-8"))
-    symbols=list(dict.fromkeys(str(t).upper() for t in watchlist["tickers"]+china.get("candidates",[])))
+    # The shared dashboard watchlist is authoritative; the legacy priority list
+    # remains additive so newly registered symbols are not silently omitted.
+    shared_path=ROOT/"watchlist.json"
+    shared=json.loads(shared_path.read_text(encoding="utf-8")) if shared_path.exists() else {}
+    categories=shared.get("categories",{})
+    lanes=("nas","china","volume","oversold","event","funding","reignite","favorite")
+    registered=[t for lane in lanes for t in categories.get(lane,[]) if isinstance(t,str)]
+    symbols=list(dict.fromkeys(str(t).strip().upper() for t in
+        watchlist.get("tickers",[])+china.get("candidates",[])+registered
+        if isinstance(t,str) and t.strip()))
     rows=[]; errors={}
     # Parallelize independent requests so one slow/blocked Yahoo symbol cannot
     # stall the entire five-minute refresh while Toss continues uploading.
