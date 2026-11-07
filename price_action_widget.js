@@ -9,6 +9,8 @@ function save(v){try{localStorage.setItem(KEY,JSON.stringify(v))}catch(_){}}
 function classify(a){
  if(a.length<5)return "데이터 부족 · 연속 관측 5개 이상 필요";
  const t=a.slice(-5),l=t.map(x=>x.low),h=t.map(x=>x.high),c=t.map(x=>x.close);
+ const gaps=t.slice(1).map((x,i)=>(Date.parse(x.bar)-Date.parse(t[i].bar))/60000);
+ if(gaps.some(g=>!Number.isFinite(g)||g<0.5||g>1.5))return "데이터 부족 · 연속 1분봉 필요";
  if(t.some(x=>[x.low,x.high,x.close].some(v=>v===null)))return "데이터 부족";
  const lowsUp=l.slice(1).every((v,i)=>v>=l[i]);
  const range1=Math.max(...h.slice(0,3))-Math.min(...l.slice(0,3));
