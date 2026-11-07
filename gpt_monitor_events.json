@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-05T20:37:37.290037+00:00",
+  "updated_utc": "2026-11-07T03:56:32Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-HCM-SAVOLITINIB_EXPERT_WEBCAST_NOV05-20261027T000000Z",
-      "task": "중국계1.0뉴스사전공시일정감시",
-      "radar": "china1.0",
-      "ticker": "HCM",
-      "category": "D+30_11월5일_임상3상후속_전문가웹캐스트_사전이벤트",
-      "detected_utc": "2026-10-28T05:12:05Z",
-      "summary": "HUTCHMED 2026-10-26 20:00 EDT 공식 발표: 2026-11-05 16:30 HKT(한국 17:30) Citigroup 공동 Expert Insights 온라인 행사. SANOVO 및 SAFFRON 3상 결과, savolitinib 개발 현황과 글로벌 규제 전망 논의 예정. 추가 임상 결과 발표 보장되지 않으며 이벤트 일정만 검증됨.",
-      "source_url": "https://rss.globenewswire.com/news-release/2026/10/27/3388651/0/en/save-the-date-hutchmed-to-host-expert-insights-event-on-recent-savolitinib-clinical-data-in-non-small-cell-lung-cancer.html",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-BTAI-FDA_PDUFA_20261114-20260401T065825ET",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5500,6 +5489,17 @@
       "summary": "BDMD 급등진행 잠정 신호. 5분 상대거래량 7.27배, 10분 5.08배, 15분 3.72배, 5분 가속 2.51배, 15분 가격변화 11.46%, 관측가격 $0.1595. 무료 데이터 지연 가능; SEC 및 공급 검증 미완료.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-POM-NASDAQ_BID_COMPLIANCE_REGAINED-20261106T212100Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1.0",
+      "ticker": "POM",
+      "category": "상장유지_최저주가요건회복_11월12일청문회취소",
+      "detected_utc": "2026-11-07T03:56:32Z",
+      "summary": "2026-11-06 16:21 ET SEC 6-K: POMDOCTOR는 11월5일 나스닥으로부터 $1 최저입찰가 요건 회복 통보를 받았으며 11월12일 예정 청문회 취소, 상장 거래 지속을 발표. 1차 뉴스/이벤트 신호만 포착; 거래량 2/3/5/10/30/50배 가속, 연속분봉, 저점방어, 현재가 및 급등전/진행/반등/재점화 가격분류 미확인. 2차 별도: 11월4일 6-K에서 33,185,841주 채무전환 신주 발행 공시, Regulation S 미등록 주식으로 미국 내 즉시 재판매 가능 물량은 미확인; 잠재희석과 즉시매도공급 구분, B형 제한/대기 요소 잠정, 최신 float/O/S/기타 ATM/ELOC/Resale/PIPE/워런트/전환 및 최종 A/B/C/D 미확인. 11월2일 공시된 시가총액 관련 상장요건 미충족은 별도이며 완전한 상장위험 해소를 뜻하지 않음. 2차 위험으로 1차 후보 감점/삭제/재정렬 없음. VERIFIED는 11월6일 SEC 공시 내용에 한정.",
+      "source_url": "https://www.stocktitan.net/sec-filings/POM/6-k-pomdoctor-ltd-current-report-foreign-issuer-d7951234f4b5.html",
+      "verification": "VERIFIED"
     }
   ]
 }
