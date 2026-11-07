@@ -809,7 +809,7 @@ async function renderRanks(){
   });
   // Off-session fallback: show persisted regular-session observation, not alphabetic placeholders.
   let closeSnapshotLabel='';
-  if(rows.length===0 && !isUsRegularSession() && (cat==='nas'||cat==='china')){
+  if(rows.length===0 && !marketIsRegularSession() && (cat==='nas'||cat==='china')){
     try{
       const closeResponse=await fetch('./last_close_top10.json?t='+Date.now(),{cache:'no-store'});
       if(closeResponse.ok){
