@@ -889,8 +889,12 @@ async function updateCombinedStatus(){
   const d=await r.json(),liveStamp=d.updated_utc||null;
   const age=stamp=>stamp&&Number.isFinite(new Date(stamp).getTime())?Math.max(0,Math.floor((Date.now()-new Date(stamp).getTime())/60000)):null;
   const ra=age(radarStamp),la=age(liveStamp);
-  const a=la===null?'토스 미확인':la<=10?'토스 수집 '+la+'분 전':'토스 지연 '+la+'분';
-  const b=ra===null?'레이더 갱신 미확인':ra<=30?'레이더 데이터 '+ra+'분 전':'레이더 데이터 '+ra+'분 전 (갱신 지연)';
+  const nyParts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
+  const ny=t=>nyParts.find(p=>p.type===t)?.value||'';
+  const nyMin=Number(ny('hour'))*60+Number(ny('minute'));
+  const sessionOpen=!['Sat','Sun'].includes(ny('weekday'))&&nyMin>=240&&nyMin<1200;
+  const a=la===null?'토스 미확인':la<=10?'토스 수집 '+la+'분 전':sessionOpen?'토스 지연 '+la+'분':'토스 마지막 수집 '+la+'분 전 (장외)';
+  const b=ra===null?'레이더 갱신 미확인':ra<=30?'레이더 데이터 '+ra+'분 전':sessionOpen?'레이더 데이터 '+ra+'분 전 (갱신 지연)':'레이더 마지막 갱신 '+ra+'분 전 (장외)';
   status.textContent=a+' · '+b;
   status.className='pill '+(la!==null&&la<=10?'good':'warn');
   status.title='토스 수집 시각과 레이더 데이터 갱신 시각을 각각 표시합니다. 누적 포착 기록은 별도 alert_history.json에 저장됩니다.';
