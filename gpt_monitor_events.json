@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-08T02:54:54Z",
+  "updated_utc": "2026-11-08T03:39:59Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-ZBAO-NEXSYS_MA_30D_EXPECTED_CLOSE-20260928T121517Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china",
-      "ticker": "ZBAO",
-      "category": "D+0_강력M&A_9월28일계약_30일이내인수종결예상_10월28일후속확인",
-      "detected_utc": "2026-10-28T08:20:15Z",
-      "summary": "2026-09-28 SEC 6-K(접수 08:15:17 EDT) 및 EX-99.1/99.2 확인: 중국계 Zhibao Technology(ZBAO)가 말레이시아 신설법인 NEXSYS TECH 지분 100% 인수 확정계약 체결. 계약상 서명일로부터 30일 이내(2026-10-28 전후) 종결 예상, 실사·승인 등 조건 충족 필요하며 실제 종결 완료 공시는 이번 점검에서 확인되지 않음. 대가: 종결 시 현금 $1 + 2026-10-01~2028-12-31 27개월간 감사 순이익 성과에 따라 Class A 신주로 최대 $7.5m 지급(확정 현금매입 또는 즉시 신주발행 아님). NEXSYS는 운영 실적 없는 신설법인이며 26MW는 잠정 협력 시설 용량, 확정 가동/매출 아님. 1차 뉴스·M&A D+30 일정 관찰, 거래량 2/3/5/10/30/50배 가속·연속 5~15분봉·저점방어·현재가 미확인으로 급등전/진행/급락후반등/재점화 가격 분류 및 포착 순위 미산정. 2차 공급 별도: 성과 연동 신주 발행 및 기존 전환증권/워런트·PIPE 이력으로 D형 복합형 요소 잠정; 최신 O/S/float·ATM/ELOC/Resale·행사/등록 효력·실제 즉시 매도 가능 주식수 미확인. 2026-10-08 SEC 6-K는 1:50 병합 조정 거래 10/12 예정 기재. 희석·상장 위험은 1차 순위 배제/감점/재정렬에 사용하지 않음. VERIFIED는 SEC 계약·종결 예상 기간 및 조건에만 적용, 실제 종결·매출 발생 의미 아님.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1966750/000121390026103756/ea030683701ex99-1.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-ARTV-ALLONK_STOP_STRATEGIC_ALTERNATIVES-20261027T113000Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -266,17 +255,6 @@
       "verification": "PROVISIONAL"
     },
     {
-      "id": "NASDAQ7_EARLY_SCHEDULE-BEAT-ALIGNACS_TCT_RESULTS_PRESENTATION-20261028T083100EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "BEAT",
-      "category": "D+4_20261101_임상파일럿결과_TCT발표_사전일정",
-      "detected_utc": "2026-10-28T14:10:14Z",
-      "summary": "2026-10-28 08:31 EDT 회사 보도자료 배포(StockTitan 게재): HeartBeam의 ALIGN-ACS 급성관상동맥증후군 평가 3D ECG 파일럿 연구 결과를 TCT 2026에서 11/1 13:20 PDT(한국 11/2 05:20 KST) 발표 예정. 기존 8월 회사 발표의 10/31~11/3 학회 기간보다 구체화된 정확한 발표 일정 신규 확인. 임상 결과 수치/성공/FDA 승인 미발표·미확인; 심장마비 평가 적응증은 FDA 허가받지 않음. 1차 사전 임상 이벤트 관찰, 거래량 가속 2/3/5/10/30/50배 및 저점방어·현재가 실시간 검증 미확인으로 급등전 확정 TOP10 순위 미산정. 2차 8/11 O/S 56,349,171주, 6/30 워런트 6,545,785주(SEC 10-Q), 8/14 최대 $25m ATM(SEC 8-K) 확인. 실제 발행·즉시 매도 가능 공급 미확인, D형 복합 잠정. SEC 당일 발표 원문 미대조로 일정 이벤트 PROVISIONAL, 위험은 1차 순위 감점/제외 없음.",
-      "source_url": "https://www.stocktitan.net/news/BEAT/heart-beam-to-present-results-of-align-acs-study-for-heart-attack-knhu0dbantte.html",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "중국계1.0뉴스사전공시일정감시-AXNX-MINUTE_VOLUME_SHARP_PULLBACK-20261028T140832Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
       "radar": "china1",
@@ -296,6 +274,17 @@
       "detected_utc": "2026-10-28T14:09:17Z",
       "summary": "2026-10-28 22:29 KST 기존 중국계 1.0 포착기 기록 $0.2239에서 23:08:05 KST 토스 수집기 스냅샷 $0.17545로 약 -21.64% 하락(약 39분 간격 비연속 스냅샷 비교). 최신 23:09 종료시각 표시 진행 중 분봉 거래량 11,748주, O $0.1761 / L $0.17545. 앞선 거래량 급증·재점화 관찰 뒤 후속 급락으로, 신규 호재가 아닌 위험과 무관하게 1차 급락후 반등 관찰로 유지. 2/3/5/10/30/50배 정규 RVOL, 완결된 연속 5~15분봉, 저점방어 및 반등 미확인; 비공식 수집 스냅샷으로 독립 체결 검증 전 PROVISIONAL. 2차 기존 $100m ATM 공시 이력은 1차 감점/제외 사유 아님, 현재 실제 매도 가능 물량·최신 float/O/S·A/B/C/D 유형 미확인.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7_EARLY_SCHEDULE-BEAT-ALIGNACS_TCT_RESULTS_PRESENTATION-20261028T083100EDT",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "BEAT",
+      "category": "D+4_20261101_임상파일럿결과_TCT발표_사전일정",
+      "detected_utc": "2026-10-28T14:10:14Z",
+      "summary": "2026-10-28 08:31 EDT 회사 보도자료 배포(StockTitan 게재): HeartBeam의 ALIGN-ACS 급성관상동맥증후군 평가 3D ECG 파일럿 연구 결과를 TCT 2026에서 11/1 13:20 PDT(한국 11/2 05:20 KST) 발표 예정. 기존 8월 회사 발표의 10/31~11/3 학회 기간보다 구체화된 정확한 발표 일정 신규 확인. 임상 결과 수치/성공/FDA 승인 미발표·미확인; 심장마비 평가 적응증은 FDA 허가받지 않음. 1차 사전 임상 이벤트 관찰, 거래량 가속 2/3/5/10/30/50배 및 저점방어·현재가 실시간 검증 미확인으로 급등전 확정 TOP10 순위 미산정. 2차 8/11 O/S 56,349,171주, 6/30 워런트 6,545,785주(SEC 10-Q), 8/14 최대 $25m ATM(SEC 8-K) 확인. 실제 발행·즉시 매도 가능 공급 미확인, D형 복합 잠정. SEC 당일 발표 원문 미대조로 일정 이벤트 PROVISIONAL, 위험은 1차 순위 감점/제외 없음.",
+      "source_url": "https://www.stocktitan.net/news/BEAT/heart-beam-to-present-results-of-align-acs-study-for-heart-attack-knhu0dbantte.html",
       "verification": "PROVISIONAL"
     },
     {
@@ -453,6 +442,17 @@
       "verification": "PROVISIONAL"
     },
     {
+      "id": "NASDAQ7조기포착사전공시-LABT-RVOL5_ACCEL-20261028T184700Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LABT",
+      "category": "1차_5분상대거래량8.44배_재점화관찰_PROVISIONAL",
+      "detected_utc": "2026-10-28T18:47:27+00:00",
+      "summary": "2026-10-28 14:47 EDT(2026-10-29 03:47 KST) GitHub data.json 저장본에서 LABT 5분 상대거래량 지표 rvol5=8.44, EARLY_PROVISIONAL, history alert_sent=false 확인. 기존 gpt_monitor_events.json에 LABT 동일 포착 기록 없어 신규 1차 재점화 관찰. 지표 산식·원시 5분봉·공식 RVOL·연속 5~15분 가속·동시 가격상승·저점방어는 독립 검증 미완료. 별도 토스 partial 저장본에서 LABT 2026-10-29 03:54 KST 지연 표시가 $0.28505/표시 1분봉 거래량 318주로 관측되나 14:47 EDT 거래량 신호와 비동시 자료이므로 동시 상승 근거로 사용하지 않음. 2차 SEC 2026-08-17 424B3(6/30 10-Q 첨부): 8/3 O/S 2,369,688주, 6/30 Series C 전환우선주 잔여 497,157주 및 워런트 30,076주, 가격연동 전환 구조 확인(D형 잠재 공급 요소). 최신 float/O/S·ATM/ELOC/PIPE/Resale 효력·현재 전환잔량·실제 즉시 매도 가능한 공급량은 미확인. 잠재 희석과 실제 공급 분리, 위험에 따른 1차 감점·배제·순위 변경 없음. 실시간 시세나 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
       "id": "중국계1.0급등전신호-MASK-CUMULATIVE_4_FOR_1_SPLIT-20261028T155500Z",
       "task": "중국계 1.0 급등 전 신호",
       "radar": "china1",
@@ -483,17 +483,6 @@
       "detected_utc": "2026-10-28T19:05:08Z",
       "summary": "GitHub 토스 비연속 관측 2026-10-29 02:52:25 KST MKDW $0.16505/표시 분봉 4,827주 → 02:59:29 $0.1691/35,839주 → 03:29:38 $0.1800/1,987주 → 03:59:56 $0.18005/603주. 02:52 관측가 대비 마지막 저장가 약 +9.09%, 이전 급락 후 가격 회복 잠정 관찰. 37~67분 간격 비연속 스냅샷이므로 5~15분 연속 가속·실제 저점/저점 방어·정규 RVOL 미확인. 앞선 10/28 23:08 재점화 후 급락 기록의 별도 후속 반등 관측, 상승 추세 확정 아님. 2차 과거 ATM 관련 기록 존재하나 최신 SEC 원문/현재 float/O/S·잠재 희석·실제 즉시 매도 가능 공급·A/B/C/D 최종 유형 미확인. 공급 위험은 1차 순위에 미반영. 매수 적합성 별도.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/8229f17ac22bcb2ea69804c1e1225d485426840e/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-LABT-RVOL5_ACCEL-20261028T184700Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "LABT",
-      "category": "1차_5분상대거래량8.44배_재점화관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T18:47:27+00:00",
-      "summary": "2026-10-28 14:47 EDT(2026-10-29 03:47 KST) GitHub data.json 저장본에서 LABT 5분 상대거래량 지표 rvol5=8.44, EARLY_PROVISIONAL, history alert_sent=false 확인. 기존 gpt_monitor_events.json에 LABT 동일 포착 기록 없어 신규 1차 재점화 관찰. 지표 산식·원시 5분봉·공식 RVOL·연속 5~15분 가속·동시 가격상승·저점방어는 독립 검증 미완료. 별도 토스 partial 저장본에서 LABT 2026-10-29 03:54 KST 지연 표시가 $0.28505/표시 1분봉 거래량 318주로 관측되나 14:47 EDT 거래량 신호와 비동시 자료이므로 동시 상승 근거로 사용하지 않음. 2차 SEC 2026-08-17 424B3(6/30 10-Q 첨부): 8/3 O/S 2,369,688주, 6/30 Series C 전환우선주 잔여 497,157주 및 워런트 30,076주, 가격연동 전환 구조 확인(D형 잠재 공급 요소). 최신 float/O/S·ATM/ELOC/PIPE/Resale 효력·현재 전환잔량·실제 즉시 매도 가능한 공급량은 미확인. 잠재 희석과 실제 공급 분리, 위험에 따른 1차 감점·배제·순위 변경 없음. 실시간 시세나 매수 신호 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     },
     {
@@ -1630,6 +1619,17 @@
       "verification": "PROVISIONAL"
     },
     {
+      "id": "중국계1.0급등전신호-MKDW-POST_DROP_INTRADAY_PRICE_RECOVERY_SAMPLED-20261029T193327Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "MKDW",
+      "category": "1차_급락후반등_가격회복_비연속토스표본_PROVISIONAL",
+      "detected_utc": "2026-10-29T19:33:27Z",
+      "summary": "2026-10-29 미국 정규장(한국 10/30) GitHub Toss 부분수집 비연속 관측: MKDW 00:15:25 KST $0.1538(표시 분봉 거래량 155주) → 04:06:58 $0.1751(3,986주) → 04:33:27 $0.1868(04:34 표시 진행중 분봉 275주). 00:15 관측 저점 대비 +21.46%, 04:06 관측 대비 약 26분 +6.68% 가격 회복. 10/28 기등록 반등 기록과 구분되는 10/29 미국장 후속 가격 신호. 분봉 비연속/진행 중, RVOL 2/3/5/10/30/50배·연속 5~15분 가속·저점 방어·반등 지속 및 외부 시세 교차확인 미완료. 1차 급락 후 반등 관찰로 잠정 포착, 급등 전 확정 또는 매수 신호 아님. 2차 최신 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인으로 A/B/C/D 최종 판정 보류; 위험을 1차 감점/삭제/재정렬에 사용하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
+      "verification": "PROVISIONAL"
+    },
+    {
       "id": "중국계1.0급등전신호-CENN-POST_REBOUND_LOW_RETEST_SAMPLED-20261029T192611Z",
       "task": "중국계 1.0 급등 전 신호",
       "radar": "china1",
@@ -1660,17 +1660,6 @@
       "detected_utc": "2026-10-29T19:46:55Z",
       "summary": "GitHub data.json 2026-10-29 19:46:55 UTC 저장본: GCDT 19:35 UTC 5분봉 rvol5=5.39, EARLY_PROVISIONAL. 직전 거래량 양수인 완료 5분봉 12개 평균 대비 지표(동시간대 조정 아님). 04:38:10 KST 토스 별도 가격 표본 $0.12705, 분봉과 관측 시점 불일치. 과거 급락 종목으로 급락 후 반등 관찰 분류하되 반등 확정 아님. 연속 5~15분 가속·저점방어·상승률·SEC 공급 A/B/C/D 미확인; 위험에 의한 1차 순위 변경 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0급등전신호-MKDW-POST_DROP_INTRADAY_PRICE_RECOVERY_SAMPLED-20261029T193327Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "MKDW",
-      "category": "1차_급락후반등_가격회복_비연속토스표본_PROVISIONAL",
-      "detected_utc": "2026-10-29T19:33:27Z",
-      "summary": "2026-10-29 미국 정규장(한국 10/30) GitHub Toss 부분수집 비연속 관측: MKDW 00:15:25 KST $0.1538(표시 분봉 거래량 155주) → 04:06:58 $0.1751(3,986주) → 04:33:27 $0.1868(04:34 표시 진행중 분봉 275주). 00:15 관측 저점 대비 +21.46%, 04:06 관측 대비 약 26분 +6.68% 가격 회복. 10/28 기등록 반등 기록과 구분되는 10/29 미국장 후속 가격 신호. 분봉 비연속/진행 중, RVOL 2/3/5/10/30/50배·연속 5~15분 가속·저점 방어·반등 지속 및 외부 시세 교차확인 미완료. 1차 급락 후 반등 관찰로 잠정 포착, 급등 전 확정 또는 매수 신호 아님. 2차 최신 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인으로 A/B/C/D 최종 판정 보류; 위험을 1차 감점/삭제/재정렬에 사용하지 않음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
       "verification": "PROVISIONAL"
     },
     {
@@ -2224,6 +2213,17 @@
       "verification": "PROVISIONAL"
     },
     {
+      "id": "NASDAQ7조기포착사전공시-AGIO-PDUFA_EXTENSION_FEB01_2027-20261030T110000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "AGIO",
+      "category": "1차_FDA_PDUFA일정변경_규제심사3개월연장",
+      "detected_utc": "2026-10-30T11:13:43Z",
+      "summary": "[2026-10-30 07:00 EDT Agios 회사 공식 보도자료, 기존 2026-11-01 PDUFA 일정의 신규 변경 결과] 겸상적혈구병(sickle cell disease) mitapivat sNDA FDA PDUFA 목표일이 2026-11-01에서 2027-02-01로 3개월 연장. FDA가 10/28 추가 안전성/REMS 관련 제출자료를 major amendment로 분류했다고 회사 발표. 승인/거절 확정 아님; 기존 11/01 결정 예정 이벤트는 무효화되어 새 날짜 우선 적용. 1차 뉴스·FDA 일정변경 이벤트 독립 포착, 호재 단정 금지, 위험 감점 없음. 10/30 최신 가격·거래량 2/3/5/10/30/50배·5~15분 가속·저점방어·급등 전/진행/급락 후 반등/재점화 분류 미확인. 2차 2026-06-30 SEC 10-Q 기준 O/S 59,604,830주(현재 아님); 최신 float/O/S·ATM/ELOC/PIPE/Resale·워런트/전환·상장 위험·잠재 희석/즉시 매도가능 공급 미확인, A/B/C/D 최종 판정 보류. FDA 원문/당일 SEC 8-K 대조 미완료로 PROVISIONAL. 매수 신호 아님.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392151/31990/en/agios-announces-new-pdufa-goal-date-of-february-1-2027-for-mitapivat-sickle-cell-disease-snda-company-is-launch-ready-and-in-labeling-discussions-with-fda.html",
+      "verification": "PROVISIONAL"
+    },
+    {
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
       "radar": "china1",
       "detected_utc": "2026-10-30T11:13:45Z",
@@ -2255,17 +2255,6 @@
       "category": "1차_해외사업거점설립_드론배치예정_11월비행일정",
       "summary": "[2026-10-30 06:13 EDT EHang 공식 GlobeNewswire 발표] EHang(EH)은 태국 해외 지역 허브 설립을 발표. 태국 EH216-S 유인수송형 무인 eVTOL 초기 25대 배치 계획(배치 완료 아님), 기존 GD4.0 드론 약 1,200대 운용 및 1만대 이상 확대 계획. 스리랑카·베트남 11월 검증 비행, 말레이시아 11월 시연, 태국 12월 시연 계획은 규제/준비 조건부로 확정 매출·판매계약 아님. 1차 뉴스/해외확장·사전일정 신호만 포착, 최신 가격·거래량 2/3/5/10/30/50배·5~15분 가속·저점 방어 및 가격기반 급등전/진행/급락후반등/재점화 분류 미확인. 2차 최신 SEC 6-K·float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환 및 잠재 희석/즉시 매도 가능 공급 미확인, A/B/C/D 보류. 위험은 1차 감점·순위변경·삭제에 사용하지 않음. SEC 원문 미대조 PROVISIONAL, 매수 신호 아님.",
       "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392099/0/en/ehang-establishes-overseas-regional-hub-in-thailand-to-support-international-evtol-deployment-across-southeast-asia-and-other-emerging-markets.html"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-AGIO-PDUFA_EXTENSION_FEB01_2027-20261030T110000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "AGIO",
-      "category": "1차_FDA_PDUFA일정변경_규제심사3개월연장",
-      "detected_utc": "2026-10-30T11:13:43Z",
-      "summary": "[2026-10-30 07:00 EDT Agios 회사 공식 보도자료, 기존 2026-11-01 PDUFA 일정의 신규 변경 결과] 겸상적혈구병(sickle cell disease) mitapivat sNDA FDA PDUFA 목표일이 2026-11-01에서 2027-02-01로 3개월 연장. FDA가 10/28 추가 안전성/REMS 관련 제출자료를 major amendment로 분류했다고 회사 발표. 승인/거절 확정 아님; 기존 11/01 결정 예정 이벤트는 무효화되어 새 날짜 우선 적용. 1차 뉴스·FDA 일정변경 이벤트 독립 포착, 호재 단정 금지, 위험 감점 없음. 10/30 최신 가격·거래량 2/3/5/10/30/50배·5~15분 가속·저점방어·급등 전/진행/급락 후 반등/재점화 분류 미확인. 2차 2026-06-30 SEC 10-Q 기준 O/S 59,604,830주(현재 아님); 최신 float/O/S·ATM/ELOC/PIPE/Resale·워런트/전환·상장 위험·잠재 희석/즉시 매도가능 공급 미확인, A/B/C/D 최종 판정 보류. FDA 원문/당일 SEC 8-K 대조 미완료로 PROVISIONAL. 매수 신호 아님.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/30/3392151/31990/en/agios-announces-new-pdufa-goal-date-of-february-1-2027-for-mitapivat-sickle-cell-disease-snda-company-is-launch-ready-and-in-labeling-discussions-with-fda.html",
-      "verification": "PROVISIONAL"
     },
     {
       "id": "중국계1.0급등전신호-AXG-POST_SPLIT_PREMARKET_FURTHER_DROP_SAMPLED-20261030T112439Z",
@@ -2521,6 +2510,28 @@
       "verification": "PROVISIONAL"
     },
     {
+      "id": "중국계1.0급등전신호-BDAI-JU_FU_ACQUISITION_SECOND_CLOSING_6K-20261030T130000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "BDAI",
+      "category": "1차_MA_기존인수2차종결완료_SEC6K_확정이벤트",
+      "detected_utc": "2026-10-30T16:51:40Z",
+      "summary": "[2026-10-31 01:52 KST 점검, 2026-10-30 09:00 EDT SEC 6-K] Biddance AI Systems(BDAI)가 2026-10-29 Ju Fu Limited 인수 2차 종결 완료, 잔여 주식 전량 이전으로 Ju Fu 100% 자회사화. 1차 신규 M&A 종결 확정 뉴스 신호(기존 8/3 SPA·8월 1차 종결과 구분); 호재/이벤트만으로 독립 포착하며 위험을 감점·후순위·삭제에 사용하지 않음. 2차 SEC 원문상 종결 대가 현금 $5m 지급 및 Class A 4,000,000주 발행 확인, 최대 $3m 성과조건부 후불 현금 대가 가능. 신주에는 lock-up/leak-out/매도대금 제한 등 조건이 있어 잠재 공급은 B형 제한/대기 요소이나 실제 즉시 매도 가능한 수량은 미확인. 다른 ATM/ELOC/Resale/PIPE/워런트/전환 경로, 최신 Float/O/S, 최종 A/B/C/D는 미확인/보류. 2026-10-31 01:15:51 KST $2.20→01:48:24 KST $2.39(+8.64%) 비연속 토스 표본은 별도 잠정 가격 신호이며, 공식 거래량 가속·저점방어·급등 전 여부는 미확인. 매수 신호 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1742341/000121390026114093/ea0309251-6k_biddance.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-BDAI-POST_DROP_PRICE_RECOVERY_SAMPLED-20261030T164824Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "BDAI",
+      "category": "1차_가격이상_급락후가격회복_비연속토스표본_PROVISIONAL",
+      "detected_utc": "2026-10-30T16:51:40Z",
+      "summary": "[2026-10-31 01:52 KST 점검, GitHub Toss 비연속 표본] BDAI 2026-10-31 00:27:33 KST $2.515(표시 1분봉 200주)→01:15:51 $2.20(표시 1분봉 4주) 약 -12.52% 급락, 이후 01:48:24 $2.39(표시 1분봉 29주)로 +8.64% 가격 회복. 마지막 표시 봉 O/L $2.33 H/C $2.39. 분봉 거래량이 매우 적고 비연속이므로 2/3/5/10/30/50배 공식 RVOL·5~15분 가속·저점 방어·추세 반전 확정 불가. 1차 '급락 후 반등 관찰'로만 포착, 현재 실시간 시세 아님. 2026-10-30 SEC 6-K상 Ju Fu 인수 종결은 별도 VERIFIED 이벤트로 등록. 2차 신주 4m 발행·매각 제한 조항 존재하나 실제 즉시 매도 가능한 수량/최신 Float·O/S·ATM/ELOC/Resale/PIPE/워런트/전환 및 A/B/C/D 최종 분류 미확인. 위험으로 1차 감점·순위변경·삭제 없음. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
       "id": "NASDAQ7조기포착사전공시-PTHS-MERGER_CASTLE_CREEK_SIGNED-20261030T131700Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
       "radar": "nasdaq7",
@@ -2551,28 +2562,6 @@
       "detected_utc": "2026-10-30T16:52:19Z",
       "summary": "[2026-10-30 12:45 EDT 저장 5분봉, GitHub data.json 16:51:40 UTC 갱신] 관심종목 LUCD 5분 상대거래량 rvol5=2.48, 포착기 REVIEW. 직전 거래량 양수인 완료 5분봉 12개 평균 대비 자체 지표로 동시간대 보정·거래소 원시자료 대조는 아님. 기존 10/28 5.95배·10/29 4.60배 기록과 다른 10/30 분봉 신규 이상거래이며 '재점화 관찰'로 유지하되 재상승 확정 아님. GitHub Toss 2026-10-31 01:50:41 KST 비연속 가격 표본 $0.4187, 표시 1분봉 거래량 1,601주; 12:45 EDT 5분봉과 동시 시세 아님. 연속 5~15분 가속·저점방어·급등 전/진행/반등 가격기반 분류 미확인. 2차 최신 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환·상장 위험, 잠재 희석·즉시 매도 가능 공급 및 A/B/C/D 판정 미확인. 위험에 따른 1차 감점·재정렬·삭제 없음. 공식 시세 미대조로 PROVISIONAL, 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0급등전신호-BDAI-JU_FU_ACQUISITION_SECOND_CLOSING_6K-20261030T130000Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "BDAI",
-      "category": "1차_MA_기존인수2차종결완료_SEC6K_확정이벤트",
-      "detected_utc": "2026-10-30T16:51:40Z",
-      "summary": "[2026-10-31 01:52 KST 점검, 2026-10-30 09:00 EDT SEC 6-K] Biddance AI Systems(BDAI)가 2026-10-29 Ju Fu Limited 인수 2차 종결 완료, 잔여 주식 전량 이전으로 Ju Fu 100% 자회사화. 1차 신규 M&A 종결 확정 뉴스 신호(기존 8/3 SPA·8월 1차 종결과 구분); 호재/이벤트만으로 독립 포착하며 위험을 감점·후순위·삭제에 사용하지 않음. 2차 SEC 원문상 종결 대가 현금 $5m 지급 및 Class A 4,000,000주 발행 확인, 최대 $3m 성과조건부 후불 현금 대가 가능. 신주에는 lock-up/leak-out/매도대금 제한 등 조건이 있어 잠재 공급은 B형 제한/대기 요소이나 실제 즉시 매도 가능한 수량은 미확인. 다른 ATM/ELOC/Resale/PIPE/워런트/전환 경로, 최신 Float/O/S, 최종 A/B/C/D는 미확인/보류. 2026-10-31 01:15:51 KST $2.20→01:48:24 KST $2.39(+8.64%) 비연속 토스 표본은 별도 잠정 가격 신호이며, 공식 거래량 가속·저점방어·급등 전 여부는 미확인. 매수 신호 아님.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1742341/000121390026114093/ea0309251-6k_biddance.htm",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "중국계1.0급등전신호-BDAI-POST_DROP_PRICE_RECOVERY_SAMPLED-20261030T164824Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "BDAI",
-      "category": "1차_가격이상_급락후가격회복_비연속토스표본_PROVISIONAL",
-      "detected_utc": "2026-10-30T16:51:40Z",
-      "summary": "[2026-10-31 01:52 KST 점검, GitHub Toss 비연속 표본] BDAI 2026-10-31 00:27:33 KST $2.515(표시 1분봉 200주)→01:15:51 $2.20(표시 1분봉 4주) 약 -12.52% 급락, 이후 01:48:24 $2.39(표시 1분봉 29주)로 +8.64% 가격 회복. 마지막 표시 봉 O/L $2.33 H/C $2.39. 분봉 거래량이 매우 적고 비연속이므로 2/3/5/10/30/50배 공식 RVOL·5~15분 가속·저점 방어·추세 반전 확정 불가. 1차 '급락 후 반등 관찰'로만 포착, 현재 실시간 시세 아님. 2026-10-30 SEC 6-K상 Ju Fu 인수 종결은 별도 VERIFIED 이벤트로 등록. 2차 신주 4m 발행·매각 제한 조항 존재하나 실제 즉시 매도 가능한 수량/최신 Float·O/S·ATM/ELOC/Resale/PIPE/워런트/전환 및 A/B/C/D 최종 분류 미확인. 위험으로 1차 감점·순위변경·삭제 없음. 매수 신호 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     },
     {
@@ -5194,28 +5183,6 @@
       "verification": "VERIFIED"
     },
     {
-      "id": "중국계1.0급등전신호-AIIO-ONE_MIN_VOLUME_SAMPLE-20261104T161000Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china",
-      "ticker": "AIIO",
-      "category": "1차잠정_표시1분봉대량거래_급등전여부미확인",
-      "detected_utc": "2026-11-04T16:10:37Z",
-      "summary": "2026-11-05 01:10 KST 표시 Toss 1분봉 AIIO $0.5031, 거래량 59,323주. 이전 00:46 KST 비연속 표본 $0.5221/1,207주 대비 가격 약 -3.64%, 분봉 표본 거래량 약 49.15배이나 서로 다른 비연속 분봉 비교이며 공식 RVOL 또는 5~15분 연속 가속이 아님. 대량거래와 가격 약세 동시 관찰로 LABT형 급락 관찰을 배제하지 않음. 수집 partial, 독립 시세·연속 분봉·저점방어·뉴스·SEC·float/O/S·즉시매도가능공급 미확인. 1차 위험 감점 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0급등전신호-KXIN-ONE_MIN_VOLUME_SAMPLE-20261104T160800Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china",
-      "ticker": "KXIN",
-      "category": "1차잠정_표시1분봉대량거래_가격변동미확인",
-      "detected_utc": "2026-11-04T16:10:37Z",
-      "summary": "2026-11-05 01:08 KST 표시 Toss 1분봉 KXIN $2.21, 거래량 44,869주. 이전 00:49 KST 비연속 표본 $2.25/200주 대비 가격 약 -1.78%, 표시 분봉 거래량 표본 간 약 224.35배이나 공식 RVOL·연속 분봉 가속이 아님. 수집 partial, 독립 시세·연속 분봉·저점 방어·뉴스·SEC·float/O/S·실제 즉시매도공급 미확인. 1차 희석/상장 위험 감점 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "NASDAQ7.0조기포착사전공시일정-TTRX-VOLUME_ACCEL_20261104T154200Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
       "radar": "nasdaq7",
@@ -5238,6 +5205,28 @@
       "verification": "PROVISIONAL"
     },
     {
+      "id": "중국계1.0급등전신호-AIIO-ONE_MIN_VOLUME_SAMPLE-20261104T161000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china",
+      "ticker": "AIIO",
+      "category": "1차잠정_표시1분봉대량거래_급등전여부미확인",
+      "detected_utc": "2026-11-04T16:10:37Z",
+      "summary": "2026-11-05 01:10 KST 표시 Toss 1분봉 AIIO $0.5031, 거래량 59,323주. 이전 00:46 KST 비연속 표본 $0.5221/1,207주 대비 가격 약 -3.64%, 분봉 표본 거래량 약 49.15배이나 서로 다른 비연속 분봉 비교이며 공식 RVOL 또는 5~15분 연속 가속이 아님. 대량거래와 가격 약세 동시 관찰로 LABT형 급락 관찰을 배제하지 않음. 수집 partial, 독립 시세·연속 분봉·저점방어·뉴스·SEC·float/O/S·즉시매도가능공급 미확인. 1차 위험 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-KXIN-ONE_MIN_VOLUME_SAMPLE-20261104T160800Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china",
+      "ticker": "KXIN",
+      "category": "1차잠정_표시1분봉대량거래_가격변동미확인",
+      "detected_utc": "2026-11-04T16:10:37Z",
+      "summary": "2026-11-05 01:08 KST 표시 Toss 1분봉 KXIN $2.21, 거래량 44,869주. 이전 00:49 KST 비연속 표본 $2.25/200주 대비 가격 약 -1.78%, 표시 분봉 거래량 표본 간 약 224.35배이나 공식 RVOL·연속 분봉 가속이 아님. 수집 partial, 독립 시세·연속 분봉·저점 방어·뉴스·SEC·float/O/S·실제 즉시매도공급 미확인. 1차 희석/상장 위험 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
       "id": "중국계1.0급등전신호-NWGL-ONE_MIN_VOLUME_SAMPLE-20261104T171739Z",
       "task": "중국계 1.0 급등 전 신호",
       "radar": "china",
@@ -5245,17 +5234,6 @@
       "category": "급락후반등관찰_비연속분봉거래량집중_1차잠정",
       "detected_utc": "2026-11-04T17:17:39Z",
       "summary": "2026-11-05 02:17 KST 전후 GitHub Toss partial 수집본 NWGL $0.0545, 표시 1분봉 거래량 66,148주(표시 bar_time 02:18 KST로 수집시각보다 앞서 캔들 완결 미확인). 앞선 00:49 KST 관찰 표본 12,634주 대비 약 5.24배이나 비연속 분봉 표본 비교이며 정식 RVOL·연속 5~15분 가속 아님. 급락 후 거래량 집중 관찰로 분류. 가격 저점 방어·상승 전환·SEC/float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·실제 즉시 공급·A/B/C/D 미확인. 2차 위험은 1차 포착 순위 감점에 미반영.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0급등전신호-CENN-ONE_MIN_VOLUME_SAMPLE-20261104T174400Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china",
-      "ticker": "CENN",
-      "category": "급락후반등관찰_비연속분봉거래량집중_1차잠정",
-      "detected_utc": "2026-11-04T17:43:58Z",
-      "summary": "2026-11-05 02:44 KST 표시 Toss partial 수집본 CENN $0.1612, 표시 1분봉 거래량 23,704주. 이전 02:17 KST 보고 $0.1547/1,447주 대비 가격 약 +4.20%, 비연속 분봉 거래량 표본 약 16.38배. 연속 5~15분 가속/RVOL 아님. 표시 bar_time 02:44 KST가 수집 02:43:58보다 2초 앞서 캔들 완결 미확인. 저점 방어·SEC·float/O/S·공급 유형 미확인. 1차 희석 위험 감점 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     },
@@ -5268,6 +5246,17 @@
       "detected_utc": "2026-11-04T17:42:08Z",
       "summary": "2026-11-05 02:40 KST 50-symbol discovery batch: AQMS $1.1789, price -20.88% over 13m, 5m volume 31,004 shares, 5m RVOL 5.10x, 10m RVOL 2.95x, 5m acceleration 6.29x. FREE_DELAY_POSSIBLE; previous-session baseline provisional. Sharp-drop/high-volume LABT-type signal; bottom defense/rebound unconfirmed. Phase 1 ranks independently without dilution/listing-risk penalty. SEC/news/float/O/S, ATM/ELOC/Resale/PIPE/warrants/converts, actual immediately saleable shares and A/B/C/D supply type unverified; no trade recommendation.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-CENN-ONE_MIN_VOLUME_SAMPLE-20261104T174400Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china",
+      "ticker": "CENN",
+      "category": "급락후반등관찰_비연속분봉거래량집중_1차잠정",
+      "detected_utc": "2026-11-04T17:43:58Z",
+      "summary": "2026-11-05 02:44 KST 표시 Toss partial 수집본 CENN $0.1612, 표시 1분봉 거래량 23,704주. 이전 02:17 KST 보고 $0.1547/1,447주 대비 가격 약 +4.20%, 비연속 분봉 거래량 표본 약 16.38배. 연속 5~15분 가속/RVOL 아님. 표시 bar_time 02:44 KST가 수집 02:43:58보다 2초 앞서 캔들 완결 미확인. 저점 방어·SEC·float/O/S·공급 유형 미확인. 1차 희석 위험 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     },
     {
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-08T02:54:54Z",
       "summary": "2026-11-06 09:00 ET 회사 공식 발표: SITC 2026 3건 포스터의 신규 임상·바이오마커 자료 공개. 국소 전립선암 PrTK05 2상에서 T세포 활성화 신호 보고(소규모 분석), NSCLC 2a상 46명 분석에서 24개월 생존 23명(50%) 등 발표. 기존 10/29 포스터 채택 및 11/6~7 발표 일정 기록과 구분되는 실제 자료 발표 이벤트. 발표 사실 VERIFIED이며 FDA 승인·임상 성공 확정 의미 아님. 최신 가격·거래량 가속·분봉·저점 방어 미확인, 1차 NEWS 관찰만 등록하고 TOP10 순위 미산정. 최신 float/O/S, 잠재 희석·즉시 매도 공급 및 A/B/C/D 미확인; 2차 위험으로 1차 감점·삭제 없음.",
       "source_url": "https://www.globenewswire.com/de/news-release/2026/11/06/3397542/0/en/candel-therapeutics-presents-sitc-2026-data-highlighting-systemic-immune-activation-and-survival-outcomes-across-clinical-stage-portfolio.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-NTCL-REGISTERED_DIRECT_CLOSED_ALLOTMENT_RIGHTS-20261106T222500Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china",
+      "ticker": "NTCL",
+      "category": "NEWS_등록직접공모종결_30일추가매수권_20261106",
+      "detected_utc": "2026-11-08T03:39:59Z",
+      "summary": "2026-11-06 17:25 ET 제출 SEC 6-K 확인: NetClass Technology(NTCL)는 11월5일 계약한 등록직접공모를 11월6일 종결해 총 약 $1.2m 조달. 보통주 675,000주 및 PFW 기초 2,325,000주, PFW는 제출일 현재 전량 행사됨. 투자자는 종결 후 30일 이내 추가 최대 3,000,000주/추가 PFW 매수권을 보유(행사 완료 아님). 1차는 신규 자본 이벤트 뉴스 관찰만, 희석으로 배제·감점 없음. 현재 시세·연속 1분봉·RVOL 2/3/5/10/30/50배·저점방어·가격 단계 미확인, TOP10 미산정. 2차 공급은 등록 공모로 이미 발행/행사된 300만 주와 아직 행사되지 않은 추가 매수권 최대 300만 주를 구분. 등록증권이라 C형 즉시형 공급 가능성 및 D형 복합형 요소 잠정, 실제 보유자 매도·float·최신 O/S·다른 ATM/ELOC/PIPE/Resale 및 제한 조건 미확인. VERIFIED는 SEC 6-K 기재 계약·종결·증권 수량 사실에 한정.",
+      "source_url": "https://www.sec.gov/edgar/search/#/q=NTCL&dateRange=custom&startdt=2026-11-06&enddt=2026-11-06",
       "verification": "VERIFIED"
     }
   ]
