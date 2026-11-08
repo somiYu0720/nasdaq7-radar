@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-11-08T11:49:32.610532+00:00",
+  "updated_utc": "2026-11-08T12:38:02.666110+00:00",
   "source": "toss_live.json snapshots; noncontinuous",
   "records": {
     "cn1-LHSW-sales-contract-20261019T160700Z": {
@@ -6298,6 +6298,15 @@
       "ticker": "PYPD",
       "radar": "NASDAQ 7.0",
       "detected_utc": "2026-11-08T10:33:22Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시-MSLE-BASECAMP_ENDPOINT_CHANGE-20261106_DATE_ONLY": {
+      "ticker": "MSLE",
+      "radar": "NASDAQ 7.0",
+      "detected_utc": "2026-11-08T12:22:09Z",
       "entry_price_usd": null,
       "entry_time_utc": null,
       "status": "NO_ENTRY_PRICE",
