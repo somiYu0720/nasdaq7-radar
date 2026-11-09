@@ -92,28 +92,7 @@ def main():
         report["success"]=len(rows)
         (ROOT/"minute_feed_status.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
     rows=[x for x in rows if x.get("freshness")=="FRESH"]
-    # Preserve prior symbols as explicitly stale reference rows, never as live signals.
-    # A partial provider outage must not silently erase the previous watchlist snapshot.
-    fresh_tickers={x["ticker"] for x in rows}
-    retained=[]
-    for item in previous.get("rows",[]):
-        if not isinstance(item,dict): continue
-        ticker=str(item.get("ticker","")).strip().upper()
-        if ticker in symbols and ticker not in fresh_tickers:
-            stale=dict(item)
-            stale.update(ticker=ticker,signal="DATA_UNAVAILABLE",
-                         freshness="STALE",rvol5=None,
-                         bar_age_minutes=None,
-                         source="previous snapshot; stale reference only")
-            retained.append(stale)
-    report["fresh_count"]=len(rows)
-    report["retained_stale_count"]=len(retained)
-    report["uncovered_count"]=max(0,len(symbols)-len(rows)-len(retained))
-    (ROOT/"minute_feed_status.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
-    if not rows:
-        print("No fresh bars or quotes; preserving existing data.json without advancing its timestamp")
-        return
-    rows.extend(retained)
+    if not rows: raise SystemExit("No fresh Yahoo bars or Toss quotes; existing signals preserved")
     data={"updated_utc":report["checked_utc"],"rows":rows,
           "history":previous.get("history",[]),
           "radar":previous.get("radar","NASDAQ 7.0"),
