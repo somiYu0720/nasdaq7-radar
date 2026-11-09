@@ -818,16 +818,17 @@ async function renderRanks(){
   const nyMinute=Number(nyPart('hour'))*60+Number(nyPart('minute'));
   const marketOpen=!['Sat','Sun'].includes(nyPart('weekday'))&&nyMinute>=570&&nyMinute<960;
   const ageKnown=lag!==null&&Number.isFinite(lag);
-  const state=!stamp?'수집 시각 없음':!marketOpen?(validFeed?'장외 · 토스 최신 분봉 기반 잠정 순위':'장외 · 과거 기록 (실시간 아님)'):ageKnown&&lag>10?'장중 · 수집 지연':'장중 · 최근 수집';
+  const coverage= symbols.size?all.length/symbols.size:0;
+  const state=!stamp?'수집 시각 없음':coverage<0.1?'분봉 부족 · 실시간 순위 신뢰 불가':!marketOpen?(validFeed?'장외 · 토스 최근 분봉 기반 잠정 순위':'장외 · 과거 기록 (실시간 아님)'):ageKnown&&lag>10?'장중 · 수집 지연':'장중 · 최근 수집';
   const sourceState=d.status==='partial'?' · 일부 수집 실패':'';
   $('rankStatus').textContent=state+' · 마지막 업로드: '+(stamp&&Number.isFinite(Date.parse(stamp))?new Date(stamp).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'미확인')+' · 유효 분봉 '+all.length+'/'+symbols.size+' · 오래된 봉 '+staleCount+' · 미수집 '+missingCount+sourceState+' · 과거 기록은 실시간 신호 아님';
   
+  if(coverage<0.1){$('rankAlerts').textContent='분봉 커버리지 10% 미만: 신규 TOP10 판정 보류 · 기존 순위는 참고용';$('ovNew').textContent='—';}
   $('rankStatus').title='오래된 분봉(실시간 순위 제외): '+(staleDetails.length?staleDetails.join(', '):'없음')+' · 봉이 없는 이유는 거래 부재 또는 데이터 공급 지연일 수 있으며 미확인';
   const missingSymbols=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t));
   $('staleDetailsBody').textContent='오래된 분봉 ('+staleDetails.length+'종목):\n'+(staleDetails.join(' · ')||'없음')+'\n\n미수집 ('+missingSymbols.length+'종목):\n'+(missingSymbols.join(', ')||'없음')+'\n\n원인: 거래 부재 또는 데이터 제공 지연 가능성 · 미확인';
   const recent=changed?alerts:prev.alerts||[];
-  $('ovNew').textContent=recent.length;
-  $('rankAlerts').textContent=recent.length?'🆕 신규 TOP 10: '+recent.join(', '):'신규 진입 없음 · 가격 변화는 직전 수집 대비';
+  if(coverage>=0.1){$('ovNew').textContent=recent.length;$('rankAlerts').textContent=recent.length?'🆕 신규 TOP 10: '+recent.join(', '):'신규 진입 없음 · 가격 변화는 직전 수집 대비';}
  }catch(e){$('rankStatus').textContent='순위 데이터 연결 확인 필요'}
 }
 $('atmOnly').onchange=renderRanks;$('rankCategory').onchange=renderRanks;$('rankRefresh').onclick=renderRanks;
