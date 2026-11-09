@@ -1,15 +1,6 @@
 name: Deploy radar website to GitHub Pages
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'index.html'
-      - 'watchlist.json'
-      - 'data.json'
-      - 'toss_live.json'
-      - 'radar_bridge.json'
-      - '.github/workflows/pages-deploy.yml'
 permissions:
   contents: read
   pages: write
