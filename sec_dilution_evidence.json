@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-09T10:12:23.275861+00:00",
+  "checked_utc": "2026-11-09T20:12:06.027688+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -21,7 +21,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "LABT": {
       "status": "EVIDENCE_FOUND",
@@ -84,7 +86,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "PRSO": {
       "status": "EVIDENCE_FOUND",
@@ -153,7 +157,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "STAK": {
       "status": "EVIDENCE_FOUND",
@@ -180,7 +186,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "LUCD": {
       "status": "EVIDENCE_FOUND",
@@ -207,7 +215,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "ARBB": {
       "status": "NOT_VERIFIED",
@@ -215,7 +225,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "POLA": {
       "status": "EVIDENCE_FOUND",
@@ -236,7 +248,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "REED": {
       "status": "EVIDENCE_FOUND",
@@ -251,7 +265,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "CLRO": {
       "status": "EVIDENCE_FOUND",
@@ -302,7 +318,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "GCDT": {
       "status": "NOT_VERIFIED",
@@ -310,7 +328,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "AIOT": {
       "status": "EVIDENCE_FOUND",
@@ -320,18 +340,14 @@
           "source_url": "https://www.sec.gov/Archives/edgar/data/1774170/000162828026055222/aiot-20260630.htm",
           "form": "10-Q",
           "excerpt": "ll and used to redeem all the then-outstanding shares of the Company’s Series A convertible preferred stock (“Series A Preferred Stock”) and for general corporate purposes. On October 31, 2025, the Company and RMB entered into a first amendment and restatement "
-        },
-        {
-          "category": "WARRANT",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/1774170/000149315226035236/formdef14a.htm",
-          "form": "DEF 14A",
-          "excerpt": " (a) 1,807,285 outstanding time-based stock options and (b) 130,275 outstanding warrants, with exercise prices equal to the closing price of our common stock on the applicable grant date, (ii) 2,369,239 outstanding stock appreciation rights (“SARs”) assumed in co"
         }
       ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "KTTA": {
       "status": "EVIDENCE_FOUND",
@@ -364,7 +380,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "SMMT": {
       "status": "EVIDENCE_FOUND",
@@ -409,7 +427,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "OCGN": {
       "status": "EVIDENCE_FOUND",
@@ -430,7 +450,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "QURE": {
       "status": "EVIDENCE_FOUND",
@@ -445,7 +467,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "BCRX": {
       "status": "EVIDENCE_FOUND",
@@ -466,7 +490,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "GERN": {
       "status": "EVIDENCE_FOUND",
@@ -481,7 +507,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "B",
+      "supply_review_reason": "자금조달·등록 관련 문구 확인; 효력·발행·매도 가능 시점 미확인"
     },
     "ARQT": {
       "status": "EVIDENCE_FOUND",
@@ -526,7 +554,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "CYTK": {
       "status": "EVIDENCE_FOUND",
@@ -553,7 +583,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "ARM": {
       "status": "EVIDENCE_FOUND",
@@ -568,7 +600,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "B",
+      "supply_review_reason": "자금조달·등록 관련 문구 확인; 효력·발행·매도 가능 시점 미확인"
     },
     "UUUU": {
       "status": "EVIDENCE_FOUND",
@@ -613,7 +647,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "IONQ": {
       "status": "EVIDENCE_FOUND",
@@ -658,7 +694,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "SMR": {
       "status": "EVIDENCE_FOUND",
@@ -691,7 +729,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "OKLO": {
       "status": "EVIDENCE_FOUND",
@@ -730,7 +770,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "QUBT": {
       "status": "EVIDENCE_FOUND",
@@ -751,7 +793,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "QBTS": {
       "status": "NOT_VERIFIED",
@@ -759,7 +803,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "RGTI": {
       "status": "EVIDENCE_FOUND",
@@ -774,7 +820,67 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "B",
+      "supply_review_reason": "자금조달·등록 관련 문구 확인; 효력·발행·매도 가능 시점 미확인"
+    },
+    "ISPC": {
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1558569/000121390026099770/ea0298075-02.htm",
+          "form": "DEF 14A",
+          "excerpt": "ock will increase proportionately to reflect the ratio for the Reverse Split, that the market price of our common stock will not decrease to its pre -split level, that our market capitalization will be equal to the market capitalization before the Rever"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1558569/000121390026099770/ea0298075-02.htm",
+          "form": "DEF 14A",
+          "excerpt": "asers for no additional consideration (the “Top -Up Shares”), and the number of Warrant Shares issuable upon exercise of the Pre -Funded Warrants will be proportionately increased. These adjustments apply successively to each qualifying dilutive issuance during the applicable "
+        },
+        {
+          "category": "CONVERTIBLE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1558569/000121390026099770/ea0298075-02.htm",
+          "form": "DEF 14A",
+          "excerpt": "west VWAP (the “20% Floor”). The Future Financing may include convertible debt, convertible preferred stock, warrants or other convertible or equity -linked securities and may include interest, original issue discount, fees, pricing resets, most -favored-nation"
+        }
+      ],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
+    },
+    "CHGA": {
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ELOC",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026114381/ea0309957-8k_change.htm",
+          "form": "8-K",
+          "excerpt": "aq Listing Rule 5635(d), of the Company’s common stock pursuant to that certain Equity Purchase Agreement, dated July 22, 2026 as amended by that certain First Amendment thereto dated August 21, 2026 and further amended by that certain Second Amendment dated Septem"
+        },
+        {
+          "category": "ELOC",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026110727/ea0308737-8k_change.htm",
+          "form": "8-K",
+          "excerpt": "sions with respect to a recent note issuance and recent sale of shares under an equity purchase agreement. In consideration of the October 2026 Waivers, the Company issued pre-funded warrants to each of Dune and FirstFire (collectively, the “Waiver Pre-Funded Warra"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026110727/ea0308737-8k_change.htm",
+          "form": "8-K",
+          "excerpt": "0.0001 per share of Common Stock at any time until all of the Waiver Pre-Funded Warrants are exercised in full; provided, however, that until the Company has obtained stockholder approval for issuance of the Waiver Pre-Funded Warrant Shares, the Company shall n"
+        }
+      ],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "DTSS": {
       "status": "NOT_VERIFIED",
@@ -782,7 +888,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "DUO": {
       "status": "EVIDENCE_FOUND",
@@ -809,7 +917,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "TAOP": {
       "status": "EVIDENCE_FOUND",
@@ -824,7 +934,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "BAOS": {
       "status": "NOT_VERIFIED",
@@ -832,7 +944,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "CREG": {
       "status": "EVIDENCE_FOUND",
@@ -865,7 +979,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "CHNR": {
       "status": "EVIDENCE_FOUND",
@@ -886,7 +1002,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "PLAG": {
       "status": "EVIDENCE_FOUND",
@@ -913,7 +1031,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "EZGO": {
       "status": "EVIDENCE_FOUND",
@@ -928,7 +1048,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "B",
+      "supply_review_reason": "자금조달·등록 관련 문구 확인; 효력·발행·매도 가능 시점 미확인"
     },
     "RETO": {
       "status": "EVIDENCE_FOUND",
@@ -985,7 +1107,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "DXF": {
       "status": "EVIDENCE_FOUND",
@@ -1006,7 +1130,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "AARD": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1014,7 +1140,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "ABOS": {
       "status": "EVIDENCE_FOUND",
@@ -1035,7 +1163,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "AGIO": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1043,7 +1173,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "AIIO": {
       "status": "EVIDENCE_FOUND",
@@ -1058,7 +1190,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "ALAB": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1066,7 +1200,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "AMAN": {
       "status": "EVIDENCE_FOUND",
@@ -1087,7 +1223,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "ANL": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1095,7 +1233,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "ANTX": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1103,7 +1243,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "AURE": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1111,7 +1253,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "AXNX": {
       "status": "EVIDENCE_FOUND",
@@ -1126,7 +1270,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "B",
+      "supply_review_reason": "자금조달·등록 관련 문구 확인; 효력·발행·매도 가능 시점 미확인"
     },
     "BBIO": {
       "status": "EVIDENCE_FOUND",
@@ -1141,7 +1287,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "B",
+      "supply_review_reason": "자금조달·등록 관련 문구 확인; 효력·발행·매도 가능 시점 미확인"
     },
     "BCTX": {
       "status": "EVIDENCE_FOUND",
@@ -1162,7 +1310,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "BDAI": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1170,7 +1320,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "BOLT": {
       "status": "EVIDENCE_FOUND",
@@ -1197,7 +1349,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "BTAI": {
       "status": "NOT_IN_SEC_SNAPSHOT",
@@ -1205,7 +1359,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "BUUU": {
       "status": "EVIDENCE_FOUND",
@@ -1220,7 +1376,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "CAPR": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1228,7 +1386,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "CHRS": {
       "status": "EVIDENCE_FOUND",
@@ -1267,7 +1427,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "CIIT": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1275,7 +1437,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "CLDI": {
       "status": "EVIDENCE_FOUND",
@@ -1302,7 +1466,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "CLIK": {
       "status": "EVIDENCE_FOUND",
@@ -1317,7 +1483,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "CNSY": {
       "status": "EVIDENCE_FOUND",
@@ -1332,7 +1500,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "COGT": {
       "status": "EVIDENCE_FOUND",
@@ -1359,7 +1529,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "CPIX": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1367,7 +1539,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "CRML": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1375,7 +1549,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "CTOR": {
       "status": "EVIDENCE_FOUND",
@@ -1390,7 +1566,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "DAVI": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1398,7 +1576,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "DFNS": {
       "status": "EVIDENCE_FOUND",
@@ -1455,11 +1635,19 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "DTIL": {
       "status": "EVIDENCE_FOUND",
       "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1357874/000162828026071867/dtil-20261109.htm",
+          "form": "8-K",
+          "excerpt": "equivalents, continued fiscal and operating discipline, and availability of its at-the-market facility will provide sufficient cash runway into the fourth quarter of 2029. Based on its expected cash runway, the Company projects it is sufficiently capita"
+        },
         {
           "category": "WARRANT",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1357874/000162828026071304/dtil-20261105.htm",
@@ -1494,7 +1682,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "FFR": {
       "status": "EVIDENCE_FOUND",
@@ -1533,7 +1723,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "FLYE": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1541,7 +1733,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "GSUN": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1549,7 +1743,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "HCM": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1557,7 +1753,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "HOWL": {
       "status": "EVIDENCE_FOUND",
@@ -1578,7 +1776,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "IMRX": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1586,11 +1786,19 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "INO": {
       "status": "EVIDENCE_FOUND",
       "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1055726/000119312526452658/d192373d8k.htm",
+          "form": "8-K",
+          "excerpt": "he Securities Act of 1933, as amended (the “ Securities Act ”). Each Pre-Funded Warrant will have an initial exercise price per share of $0.001, subject to certain adjustments. The Pre-Funded Warrants may be exercised at any time until exercised in full. A holder (together wit"
+        },
         {
           "category": "ATM",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1055726/000119312526451932/d141720d424b5.htm",
@@ -1631,7 +1839,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "KYMR": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1639,7 +1849,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "LHSW": {
       "status": "EVIDENCE_FOUND",
@@ -1672,7 +1884,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "MACI": {
       "status": "EVIDENCE_FOUND",
@@ -1693,7 +1907,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "MRVL": {
       "status": "EVIDENCE_FOUND",
@@ -1708,7 +1924,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "MSGY": {
       "status": "EVIDENCE_FOUND",
@@ -1747,7 +1965,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "NRXP": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1755,7 +1975,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "PYPD": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1763,7 +1985,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "RDNT": {
       "status": "EVIDENCE_FOUND",
@@ -1778,7 +2002,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "B",
+      "supply_review_reason": "자금조달·등록 관련 문구 확인; 효력·발행·매도 가능 시점 미확인"
     },
     "RENT": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1786,7 +2012,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "RFAI": {
       "status": "EVIDENCE_FOUND",
@@ -1807,7 +2035,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "SEED": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1815,7 +2045,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "SGRY": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1823,7 +2055,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "SHFS": {
       "status": "EVIDENCE_FOUND",
@@ -1844,7 +2078,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "SJ": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -1852,7 +2088,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "SNTI": {
       "status": "EVIDENCE_FOUND",
@@ -1879,7 +2117,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "SRTM": {
       "status": "EVIDENCE_FOUND",
@@ -1954,7 +2194,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "SVRA": {
       "status": "EVIDENCE_FOUND",
@@ -1969,7 +2211,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "SXTC": {
       "status": "EVIDENCE_FOUND",
@@ -1996,7 +2240,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": "D",
+      "supply_review_reason": "워런트·전환·ELOC 문구 검토 필요; 행사 조건·리셋·현재 유효성 미확인"
     },
     "WRD": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -2004,7 +2250,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "XNCR": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -2012,7 +2260,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "YI": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -2020,7 +2270,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     },
     "ZLAB": {
       "status": "SEC_SUBMISSIONS_FETCHED",
@@ -2028,7 +2280,9 @@
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
-      "classification_level": "KEYWORD_ONLY"
+      "classification_level": "REVIEW_CANDIDATE_NOT_VERIFIED",
+      "supply_review_candidate": null,
+      "supply_review_reason": "공시 원문에서 해당 키워드 미검출; 위험 없음 의미 아님"
     }
   }
 }
