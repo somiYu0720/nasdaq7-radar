@@ -807,36 +807,7 @@ async function renderRanks(){
     tr.addEventListener('click',()=>{const open=detail.classList.toggle('rank-detail-open');tr.setAttribute('aria-expanded',String(open))});
    }
   });
-  // Off-session fallback: show persisted regular-session observation, not alphabetic placeholders.
-  let closeSnapshotLabel='';
-  if(rows.length===0 && !marketIsRegularSession() && (cat==='nas'||cat==='china')){
-    try{
-      const closeResponse=await fetch('./last_close_top10.json?t='+Date.now(),{cache:'no-store'});
-      if(closeResponse.ok){
-        const closeData=await closeResponse.json();
-        const seen=new Set();
-        const closeRows=(closeData.categories?.[cat]||[]).filter(x=>{
-          const ticker=String(x.ticker||'').toUpperCase();
-          if(!symbols.has(ticker)||LARGE_CAP_RANK_EXCLUSIONS.has(ticker)||seen.has(ticker)||!Number.isFinite(Number(x.score)))return false;
-          seen.add(ticker);return true;
-        }).slice(0,10);
-        if(closeRows.length){
-          closeSnapshotLabel=' · 마지막 정규장 관측 순위 (종가 확정 아님): '+new Date(closeData.updated_utc).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'});
-          closeRows.forEach((x,i)=>{
-            const tr=document.createElement('tr');
-            [String(i+1),x.ticker,cat==='nas'?'NASDAQ':'중국계',
-             '장마감 관측 기록',Number(x.minute_volume).toLocaleString('ko-KR'),
-             Number.isFinite(Number(x.pct))?Number(x.pct).toFixed(2)+'%':'미확인',
-             Number.isFinite(Number(x.accel))?Number(x.accel).toFixed(2)+'배':'미확인',
-             String(x.score),'과거 관측',rankEventLabel(x.ticker),secRiskLabel(x.ticker)].forEach(v=>textCell(tr,v));
-            tr.title='과거 정규장 관측 점수 · 현재 실시간 순위 또는 공식 종가 아님';
-            body.append(tr);
-          });
-        }
-      }
-    }catch(e){console.warn('Last regular-session snapshot unavailable',e)}
-  }
-  if(rows.length<10 && !closeSnapshotLabel){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));textCell(tr,rankEventLabel(ticker));textCell(tr,secRiskLabel(ticker));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인','SEC 미조회','희석 미판정'].forEach(v=>textCell(tr,v));body.append(tr)}}
+  if(rows.length<10){const missing=[...symbols].filter(t=>!rows.some(x=>x.ticker===t)).sort();for(const ticker of missing.slice(0,10-rows.length)){const tr=document.createElement('tr');[String(body.children.length+1),ticker,({nas:'NASDAQ',china:'중국계',event:'이벤트',oversold:'과매도',reignite:'재점화',volume:'거래량',funding:'공급검증',favorite:'관심'})[cat]||cat,'수집 대기','미확인','미확인','미확인','미산정','미확인'].forEach(v=>textCell(tr,v));textCell(tr,rankEventLabel(ticker));textCell(tr,secRiskLabel(ticker));tr.title='순위가 아닌 등록 종목 대기 표시 · 1분 거래량 미수집';body.append(tr)}while(body.children.length<10){const tr=document.createElement('tr');[String(body.children.length+1),'—','대기','등록 종목 없음','미확인','미확인','미확인','미산정','미확인','SEC 미조회','희석 미판정'].forEach(v=>textCell(tr,v));body.append(tr)}}
   if(stamp&&prev.stamp!==stamp){rankStore[cat]={stamp,history:hist,minuteBars,ranks:rows.map(x=>x.ticker),changes,alerts};try{localStorage.setItem(RANK_KEY,JSON.stringify(rankStore))}catch(e){}}
   const lag=stamp?Math.round((Date.now()-new Date(stamp).getTime())/60000):null;
   const watchedRows=liveRows.filter(x=>symbols.has(x.ticker));const staleCount=watchedRows.filter(x=>x.stale_volume).length;const missingCount=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t)).length;
@@ -851,7 +822,6 @@ async function renderRanks(){
   const sourceState=d.status==='partial'?' · 일부 수집 실패':'';
   $('rankStatus').textContent=state+' · 마지막 업로드: '+(stamp&&Number.isFinite(Date.parse(stamp))?new Date(stamp).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'미확인')+' · 유효 분봉 '+all.length+'/'+symbols.size+' · 오래된 봉 '+staleCount+' · 미수집 '+missingCount+sourceState+' · 과거 기록은 실시간 신호 아님';
   
-  if(closeSnapshotLabel)$('rankStatus').textContent+=closeSnapshotLabel;
   $('rankStatus').title='오래된 분봉(실시간 순위 제외): '+(staleDetails.length?staleDetails.join(', '):'없음')+' · 봉이 없는 이유는 거래 부재 또는 데이터 공급 지연일 수 있으며 미확인';
   const missingSymbols=[...symbols].filter(t=>!watchedRows.some(x=>x.ticker===t));
   $('staleDetailsBody').textContent='오래된 분봉 ('+staleDetails.length+'종목):\n'+(staleDetails.join(' · ')||'없음')+'\n\n미수집 ('+missingSymbols.length+'종목):\n'+(missingSymbols.join(', ')||'없음')+'\n\n원인: 거래 부재 또는 데이터 제공 지연 가능성 · 미확인';
@@ -919,12 +889,8 @@ async function updateCombinedStatus(){
   const d=await r.json(),liveStamp=d.updated_utc||null;
   const age=stamp=>stamp&&Number.isFinite(new Date(stamp).getTime())?Math.max(0,Math.floor((Date.now()-new Date(stamp).getTime())/60000)):null;
   const ra=age(radarStamp),la=age(liveStamp);
-  const nyParts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
-  const ny=t=>nyParts.find(p=>p.type===t)?.value||'';
-  const nyMin=Number(ny('hour'))*60+Number(ny('minute'));
-  const sessionOpen=!['Sat','Sun'].includes(ny('weekday'))&&nyMin>=240&&nyMin<1200;
-  const a=la===null?'토스 미확인':la<=10?'토스 수집 '+la+'분 전':sessionOpen?'토스 지연 '+la+'분':'토스 마지막 수집 '+la+'분 전 (장외)';
-  const b=ra===null?'레이더 갱신 미확인':ra<=30?'레이더 데이터 '+ra+'분 전':sessionOpen?'레이더 데이터 '+ra+'분 전 (갱신 지연)':'레이더 마지막 갱신 '+ra+'분 전 (장외)';
+  const a=la===null?'토스 미확인':la<=10?'토스 수집 '+la+'분 전':'토스 지연 '+la+'분';
+  const b=ra===null?'레이더 갱신 미확인':ra<=30?'레이더 데이터 '+ra+'분 전':'레이더 데이터 '+ra+'분 전 (갱신 지연)';
   status.textContent=a+' · '+b;
   status.className='pill '+(la!==null&&la<=10?'good':'warn');
   status.title='토스 수집 시각과 레이더 데이터 갱신 시각을 각각 표시합니다. 누적 포착 기록은 별도 alert_history.json에 저장됩니다.';
@@ -1128,4 +1094,4 @@ async function fetchToss(...args){
  window.addEventListener('focus',()=>refreshAll(false));
  setInterval(()=>{if(!document.hidden)refreshAll(false)},60000);
 })();
-</script><script src="./radar_analysis_widget.js" defer></script><script src="./price_action_widget.js" defer></script></body></html>
+</script><script src="./radar_analysis_widget.js" defer></script></body></html>
