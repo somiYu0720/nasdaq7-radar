@@ -878,7 +878,11 @@ $('discoveryRefresh').onclick=renderDiscovery;renderDiscovery();setInterval(rend
 
 async function updateCombinedStatus(){
  const status=$('status');if(!status)return;
- const radarStamp=snapshot?.updated_utc||null;
+ let radarStamp=snapshot?.updated_utc||null;
+ try{
+  const radarResponse=await fetch('./data.json?t='+Date.now(),{cache:'no-store'});
+  if(radarResponse.ok){const radarData=await radarResponse.json();if(Array.isArray(radarData.rows)){radarStamp=radarData.updated_utc||radarStamp;if(!snapshot||Date.parse(radarStamp)>Date.parse(snapshot.updated_utc||0)){snapshot=radarData;render();}}}
+ }catch(e){/* Keep last known snapshot, never invent a fresh timestamp. */}
  try{
   const r=await fetchToss('./toss_live.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
   const d=await r.json(),liveStamp=d.updated_utc||null;
