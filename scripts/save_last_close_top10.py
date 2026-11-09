@@ -9,8 +9,6 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT=Path(__file__).resolve().parents[1]
-# Keep the close snapshot consistent with the dashboard small-cap exclusion policy.
-LARGE_CAP_EXCLUSIONS={"ARM","IONQ","SMR","OKLO","MRVL","ALAB","SMMT","LITE","CYTK","RDNT","SGRY","ARQT","HCM","ZLAB","QURE","UUUU"}
 LIVE=ROOT/"toss_live.json"
 WATCH=ROOT/"watchlist.json"
 OUT=ROOT/"last_close_top10.json"
@@ -60,7 +58,7 @@ def main():
         symbols=set(watch.get("categories",{}).get(cat,[]))
         entries=[]
         for x in source:
-            if not isinstance(x,dict) or x.get("ticker") not in symbols or x.get("ticker") in LARGE_CAP_EXCLUSIONS: continue
+            if not isinstance(x,dict) or x.get("ticker") not in symbols: continue
             bar=parse(x.get("bar_time") or x.get("candle_time"))
             if not bar or abs((stamp-bar).total_seconds())>900: continue
             try:
@@ -76,8 +74,6 @@ def main():
             speed=0 if accel is None or volume<1000 or old["v"]<1000 else min(35,max(0,round(15*math.log2(max(1,accel)))))
             movement=0 if pct is None else (20 if 0<=pct<=5 else 10 if 5<pct<=12 else 8 if pct>=-3 else 0)
             entries.append({"ticker":x["ticker"],"price":price,"minute_volume":volume,"bar_time":x.get("bar_time") or x.get("candle_time"),"score":base+speed+movement,"accel":accel,"pct":pct})
-        # Deduplicate overlapping lane entries before selecting ten unique symbols.
-        entries=list({x["ticker"]:x for x in sorted(entries,key=lambda x:(-x["score"],-x["minute_volume"],x["ticker"]))}.values())
         entries.sort(key=lambda x:(-x["score"],-x["minute_volume"],x["ticker"]))
         if entries: result["categories"][cat]=entries[:10]
         elif prior.get("categories",{}).get(cat): result["categories"][cat]=prior["categories"][cat]
