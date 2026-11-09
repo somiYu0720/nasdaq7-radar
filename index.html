@@ -889,10 +889,12 @@ async function updateCombinedStatus(){
   const age=stamp=>stamp&&Number.isFinite(new Date(stamp).getTime())?Math.max(0,Math.floor((Date.now()-new Date(stamp).getTime())/60000)):null;
   const ra=age(radarStamp),la=age(liveStamp);
   const a=la===null?'토스 미확인':la<=10?'토스 수집 '+la+'분 전':'토스 지연 '+la+'분';
-  const b=ra===null?'레이더 기록 미확인':ra<=10?'레이더 기록 '+ra+'분 전':'레이더 기록 '+ra+'분 전 (토스 수집과 별도)';
+  const delta=radarStamp&&liveStamp?Math.round((Date.parse(radarStamp)-Date.parse(liveStamp))/60000):null;
+  const aligned=delta!==null&&Math.abs(delta)<=5;
+  const b=ra===null?'레이더 계산 미확인':aligned?'레이더 동기화 완료 · 계산 '+ra+'분 전':'레이더 계산 '+ra+'분 전 · 수집과 '+(delta===null?'시차 미확인':Math.abs(delta)+'분 차이');
   status.textContent=a+' · '+b;
-  status.className='pill '+(la!==null&&la<=10?'good':'warn');
-  status.title='토스 최신 분봉과 기존 data.json 기반 레이더 기록은 별개입니다. 오래된 기록을 실시간 레이더 지연이나 현재 포착 신호로 해석하지 마세요.';
+  status.className='pill '+(la!==null&&la<=10&&aligned?'good':'warn');
+  status.title='토스 수집 시각과 레이더 계산 시각을 비교합니다. 동기화는 5분 이내 시차를 의미하며 수집 실패 종목의 복구를 뜻하지 않습니다.';
  }catch(e){status.textContent='토스 확인 실패 · 레이더 '+(radarStamp?new Date(radarStamp).toLocaleTimeString('ko-KR',{timeZone:'Asia/Seoul'}):'미확인');status.className='pill warn'}
 }
 setInterval(updateCombinedStatus,60000);
