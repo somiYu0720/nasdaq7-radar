@@ -1078,8 +1078,13 @@ async function fetchToss(...args){
  if(isLive){
   try{
    const url='https://raw.githubusercontent.com/somiYu0720/nasdaq7-radar/main/toss_live.json?t='+Date.now();
-   response=await fetch(url,options);
-   if(!response.ok)throw Error('raw '+response.status);
+   for(let attempt=0;attempt<3;attempt++){
+    try{
+     response=await fetch(url,{...options,cache:'no-store'});
+     if(!response.ok)throw Error('raw '+response.status);
+     break;
+    }catch(e){if(attempt===2)throw e;await new Promise(resolve=>setTimeout(resolve,350*(attempt+1)));}
+   }
   }catch(e){response=await fetch(...args)}
  }else response=await fetch(...args);
  const readJson=response.json.bind(response);
