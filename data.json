@@ -1,17 +1,41 @@
 {
-  "updated_utc": "2026-11-10T19:39:46.884333+00:00",
+  "updated_utc": "2026-11-10T19:40:51.971886+00:00",
   "rows": [
     {
-      "ticker": "BCRX",
+      "ticker": "QURE",
       "signal": "REVIEW",
-      "rvol5": "0.54",
+      "rvol5": "1.08",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.526986+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.731931+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
+    },
+    {
+      "ticker": "LUCD",
+      "signal": "REVIEW",
+      "rvol5": "0.14",
+      "baseline_quality": "STANDARD",
+      "bar_time": "2026-11-10T19:25:00+00:00",
+      "bar_age_minutes": 10.9,
+      "freshness": "FRESH",
+      "fetched_utc": "2026-11-10T19:40:51.737186+00:00",
+      "source": "Yahoo unofficial 5m",
+      "baseline": "11 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
+    },
+    {
+      "ticker": "KTTA",
+      "signal": "REVIEW",
+      "rvol5": "0.92",
+      "baseline_quality": "STANDARD",
+      "bar_time": "2026-11-10T19:30:00+00:00",
+      "bar_age_minutes": 5.9,
+      "freshness": "FRESH",
+      "fetched_utc": "2026-11-10T19:40:51.742197+00:00",
+      "source": "Yahoo unofficial 5m",
+      "baseline": "10 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
     {
       "ticker": "LABT",
@@ -19,9 +43,9 @@
       "rvol5": "0.26",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.537930+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.743827+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
@@ -31,93 +55,9 @@
       "rvol5": "1.0",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.540064+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "STAK",
-      "signal": "REVIEW",
-      "rvol5": "0.16",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.548521+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "SMMT",
-      "signal": "REVIEW",
-      "rvol5": "1.66",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.553508+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "OCGN",
-      "signal": "REVIEW",
-      "rvol5": "0.66",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.564079+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "KTTA",
-      "signal": "REVIEW",
-      "rvol5": "0.92",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.571490+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "10 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "PRSO",
-      "signal": "REVIEW",
-      "rvol5": "0.05",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:25:00+00:00",
-      "bar_age_minutes": 9.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.577425+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "8 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "LUCD",
-      "signal": "REVIEW",
-      "rvol5": "0.14",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:25:00+00:00",
-      "bar_age_minutes": 9.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.585883+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "11 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "QURE",
-      "signal": "REVIEW",
-      "rvol5": "1.08",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.587588+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.745693+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
@@ -127,33 +67,69 @@
       "rvol5": "0.12",
       "baseline_quality": "LIMITED",
       "bar_time": "2026-11-10T19:25:00+00:00",
-      "bar_age_minutes": 9.8,
+      "bar_age_minutes": 10.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.589266+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.750368+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "5 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
     {
-      "ticker": "CLRO",
+      "ticker": "OCGN",
       "signal": "REVIEW",
-      "rvol5": "1.37",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:20:00+00:00",
-      "bar_age_minutes": 14.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.621166+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "7 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "ARQT",
-      "signal": "REVIEW",
-      "rvol5": "0.68",
+      "rvol5": "0.66",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.647503+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.752657+00:00",
+      "source": "Yahoo unofficial 5m",
+      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
+    },
+    {
+      "ticker": "BCRX",
+      "signal": "REVIEW",
+      "rvol5": "0.54",
+      "baseline_quality": "STANDARD",
+      "bar_time": "2026-11-10T19:30:00+00:00",
+      "bar_age_minutes": 5.9,
+      "freshness": "FRESH",
+      "fetched_utc": "2026-11-10T19:40:51.754770+00:00",
+      "source": "Yahoo unofficial 5m",
+      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
+    },
+    {
+      "ticker": "PRSO",
+      "signal": "REVIEW",
+      "rvol5": "0.05",
+      "baseline_quality": "STANDARD",
+      "bar_time": "2026-11-10T19:25:00+00:00",
+      "bar_age_minutes": 10.9,
+      "freshness": "FRESH",
+      "fetched_utc": "2026-11-10T19:40:51.762866+00:00",
+      "source": "Yahoo unofficial 5m",
+      "baseline": "8 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
+    },
+    {
+      "ticker": "SMMT",
+      "signal": "REVIEW",
+      "rvol5": "1.66",
+      "baseline_quality": "STANDARD",
+      "bar_time": "2026-11-10T19:30:00+00:00",
+      "bar_age_minutes": 5.9,
+      "freshness": "FRESH",
+      "fetched_utc": "2026-11-10T19:40:51.768418+00:00",
+      "source": "Yahoo unofficial 5m",
+      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
+    },
+    {
+      "ticker": "STAK",
+      "signal": "REVIEW",
+      "rvol5": "0.16",
+      "baseline_quality": "STANDARD",
+      "bar_time": "2026-11-10T19:30:00+00:00",
+      "bar_age_minutes": 5.9,
+      "freshness": "FRESH",
+      "fetched_utc": "2026-11-10T19:40:51.769965+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
@@ -163,33 +139,21 @@
       "rvol5": "0.36",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.651607+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.818235+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
     {
-      "ticker": "OKLO",
+      "ticker": "ARQT",
       "signal": "REVIEW",
-      "rvol5": "1.12",
+      "rvol5": "0.68",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.690995+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "CYTK",
-      "signal": "EARLY_PROVISIONAL",
-      "rvol5": "6.79",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.693911+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.825373+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
@@ -199,33 +163,21 @@
       "rvol5": "0.4",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.696894+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.828175+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
     {
-      "ticker": "RGTI",
+      "ticker": "UUUU",
       "signal": "REVIEW",
-      "rvol5": "1.14",
+      "rvol5": "0.6",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.724912+00:00",
-      "source": "Yahoo unofficial 5m",
-      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
-    },
-    {
-      "ticker": "SMR",
-      "signal": "REVIEW",
-      "rvol5": "0.45",
-      "baseline_quality": "STANDARD",
-      "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.729767+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.830137+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
@@ -235,33 +187,57 @@
       "rvol5": "0.97",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.731379+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.837347+00:00",
+      "source": "Yahoo unofficial 5m",
+      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
+    },
+    {
+      "ticker": "CYTK",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "6.79",
+      "baseline_quality": "STANDARD",
+      "bar_time": "2026-11-10T19:30:00+00:00",
+      "bar_age_minutes": 5.9,
+      "freshness": "FRESH",
+      "fetched_utc": "2026-11-10T19:40:51.841306+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
     {
       "ticker": "IONQ",
       "signal": "REVIEW",
-      "rvol5": "0.78",
+      "rvol5": "0.79",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.745557+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.848599+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
     {
-      "ticker": "UUUU",
+      "ticker": "SMR",
       "signal": "REVIEW",
-      "rvol5": "0.61",
+      "rvol5": "0.45",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.758932+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.851175+00:00",
+      "source": "Yahoo unofficial 5m",
+      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
+    },
+    {
+      "ticker": "RGTI",
+      "signal": "REVIEW",
+      "rvol5": "1.14",
+      "baseline_quality": "STANDARD",
+      "bar_time": "2026-11-10T19:30:00+00:00",
+      "bar_age_minutes": 5.9,
+      "freshness": "FRESH",
+      "fetched_utc": "2026-11-10T19:40:51.858902+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
@@ -271,9 +247,21 @@
       "rvol5": "0.68",
       "baseline_quality": "STANDARD",
       "bar_time": "2026-11-10T19:30:00+00:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.790488+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.877236+00:00",
+      "source": "Yahoo unofficial 5m",
+      "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
+    },
+    {
+      "ticker": "OKLO",
+      "signal": "REVIEW",
+      "rvol5": "1.1",
+      "baseline_quality": "STANDARD",
+      "bar_time": "2026-11-10T19:30:00+00:00",
+      "bar_age_minutes": 5.9,
+      "freshness": "FRESH",
+      "fetched_utc": "2026-11-10T19:40:51.878460+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
@@ -283,9 +271,9 @@
       "rvol5": "1.28",
       "baseline_quality": "LIMITED",
       "bar_time": "2026-11-10T19:25:00+00:00",
-      "bar_age_minutes": 9.8,
+      "bar_age_minutes": 10.9,
       "freshness": "FRESH",
-      "fetched_utc": "2026-11-10T19:39:46.859194+00:00",
+      "fetched_utc": "2026-11-10T19:40:51.927400+00:00",
       "source": "Yahoo unofficial 5m",
       "baseline": "5 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted"
     },
@@ -293,13 +281,13 @@
       "ticker": "INO",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 1.45,
-      "minute_volume": 8709.0,
-      "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "price_usd": 1.46,
+      "minute_volume": 94474.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "PYPD",
@@ -308,22 +296,22 @@
       "price_usd": 6.15,
       "minute_volume": 2107.0,
       "bar_time": "2026-11-11T04:35:00+09:00",
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 5.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CHRS",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.642,
-      "minute_volume": 300.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 0.64165,
+      "minute_volume": 400.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "NRXP",
@@ -332,10 +320,10 @@
       "price_usd": 2.33,
       "minute_volume": 105.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "SVRA",
@@ -344,154 +332,154 @@
       "price_usd": 4.86,
       "minute_volume": 4220.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CAPR",
       "signal": "REVIEW",
       "rvol5": null,
       "price_usd": 9.16,
-      "minute_volume": 3130.0,
+      "minute_volume": 3407.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "BKYI",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 2.42,
-      "minute_volume": 73.0,
-      "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "price_usd": 2.435,
+      "minute_volume": 35.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "LX",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.62275,
-      "minute_volume": 247.0,
-      "bar_time": "2026-11-11T04:34:00+09:00",
-      "bar_age_minutes": 5.8,
+      "price_usd": 0.6227,
+      "minute_volume": 100.0,
+      "bar_time": "2026-11-11T04:39:00+09:00",
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "VREX",
       "signal": "REVIEW",
       "rvol5": null,
       "price_usd": 18.455,
-      "minute_volume": 10.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "minute_volume": 89.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "NMRA",
       "signal": "REVIEW",
       "rvol5": null,
       "price_usd": 0.46425,
-      "minute_volume": 107.0,
+      "minute_volume": 207.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "LZ",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 4.64,
-      "minute_volume": 1854.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 4.645,
+      "minute_volume": 2813.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "XNCR",
       "signal": "REVIEW",
       "rvol5": null,
       "price_usd": 39.23,
-      "minute_volume": 630.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "minute_volume": 574.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "SGRY",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 26.6,
-      "minute_volume": 2677.0,
-      "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "price_usd": 26.61,
+      "minute_volume": 1973.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CRML",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 5.7018,
-      "minute_volume": 1141.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 5.705,
+      "minute_volume": 3178.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "RCT",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.0305,
-      "minute_volume": 23911.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 0.0309,
+      "minute_volume": 1148.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CPIX",
       "signal": "REVIEW",
       "rvol5": null,
       "price_usd": 5.32,
-      "minute_volume": 1278.0,
-      "bar_time": "2026-11-11T04:36:00+09:00",
-      "bar_age_minutes": 3.8,
+      "minute_volume": 802.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "SHFS",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.0182,
-      "minute_volume": 28748.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 0.0181,
+      "minute_volume": 60291.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "SRTM",
@@ -500,10 +488,10 @@
       "price_usd": 0.1653,
       "minute_volume": 301.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "BRAI",
@@ -512,10 +500,10 @@
       "price_usd": 1.7701,
       "minute_volume": 814.0,
       "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 2.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "DAVI",
@@ -524,10 +512,10 @@
       "price_usd": 1.62,
       "minute_volume": 2.0,
       "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 2.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "RENT",
@@ -536,22 +524,22 @@
       "price_usd": 2.16,
       "minute_volume": 10.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "RDNT",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 78.7,
-      "minute_volume": 448.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 78.49,
+      "minute_volume": 1648.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "SNTI",
@@ -560,106 +548,94 @@
       "price_usd": 0.1412,
       "minute_volume": 401.0,
       "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 2.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "ABOS",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.23475,
-      "minute_volume": 1638.0,
-      "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "price_usd": 0.23465,
+      "minute_volume": 184.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "AARD",
       "signal": "REVIEW",
       "rvol5": null,
       "price_usd": 1.39,
-      "minute_volume": 37.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "minute_volume": 308.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "EFOI",
       "signal": "REVIEW",
       "rvol5": null,
       "price_usd": 4.85,
-      "minute_volume": 15.0,
+      "minute_volume": 20.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "CTOR",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 0.5517,
-      "minute_volume": 60.0,
-      "bar_time": "2026-11-11T04:34:00+09:00",
-      "bar_age_minutes": 5.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "BURU",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.1999,
-      "minute_volume": 246.0,
-      "bar_time": "2026-11-11T04:35:00+09:00",
-      "bar_age_minutes": 4.8,
+      "price_usd": 0.2,
+      "minute_volume": 809.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "RBNE",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.1224,
-      "minute_volume": 3446.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 0.1223,
+      "minute_volume": 6229.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CRIS",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.578,
-      "minute_volume": 762.0,
-      "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "price_usd": 0.5781,
+      "minute_volume": 2700.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CENN",
       "signal": "REVIEW",
       "rvol5": null,
       "price_usd": 0.12665,
-      "minute_volume": 577.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "minute_volume": 178.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "KPRX",
@@ -668,22 +644,22 @@
       "price_usd": 1.36,
       "minute_volume": 1.0,
       "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 2.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "NCPL",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 2.1927,
-      "minute_volume": 1056.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 2.1959,
+      "minute_volume": 3424.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "DKI",
@@ -692,10 +668,10 @@
       "price_usd": 1.4655,
       "minute_volume": 1.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "WKHS",
@@ -704,58 +680,82 @@
       "price_usd": 3.16,
       "minute_volume": 201.0,
       "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 2.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
+    },
+    {
+      "ticker": "HUBC",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "price_usd": 0.0738,
+      "minute_volume": 851.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
+      "freshness": "FRESH",
+      "source": "Toss quote fallback; RVOL unavailable",
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CPRI",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 21.47,
-      "minute_volume": 3436.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 21.48,
+      "minute_volume": 2098.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "PARA",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.0708,
-      "minute_volume": 32247.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 0.073,
+      "minute_volume": 11029.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "WHLR",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.3313,
-      "minute_volume": 276.0,
-      "bar_time": "2026-11-11T04:36:00+09:00",
-      "bar_age_minutes": 3.8,
+      "price_usd": 0.33195,
+      "minute_volume": 55.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "TTRX",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 9.72,
-      "minute_volume": 52.0,
-      "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "price_usd": 9.67,
+      "minute_volume": 80.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
+    },
+    {
+      "ticker": "NCEL",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "price_usd": 2.69,
+      "minute_volume": 23.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
+      "freshness": "FRESH",
+      "source": "Toss quote fallback; RVOL unavailable",
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "YDKG",
@@ -764,34 +764,10 @@
       "price_usd": 0.989925,
       "minute_volume": 300.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "KYMR",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 137.74,
-      "minute_volume": 5296.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "ALAB",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 212.42,
-      "minute_volume": 1281.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "FLYE",
@@ -800,34 +776,34 @@
       "price_usd": 2.325,
       "minute_volume": 10.0,
       "bar_time": "2026-11-11T04:36:00+09:00",
-      "bar_age_minutes": 3.8,
+      "bar_age_minutes": 4.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "DTIL",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 9.42,
-      "minute_volume": 531.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 9.43,
+      "minute_volume": 1200.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "DFNS",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 2.05,
-      "minute_volume": 214.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 2.055,
+      "minute_volume": 313.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "HOWL",
@@ -836,58 +812,46 @@
       "price_usd": 0.9805,
       "minute_volume": 1.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "IMRX",
       "signal": "REVIEW",
       "rvol5": null,
       "price_usd": 3.72,
-      "minute_volume": 105.0,
-      "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "minute_volume": 122.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CNSY",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.6412,
-      "minute_volume": 3717.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 0.6375,
+      "minute_volume": 2463.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "VIVK",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.2978,
-      "minute_volume": 286.0,
-      "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "price_usd": 0.2965,
+      "minute_volume": 4499.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "DBGI",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 0.1559,
-      "minute_volume": 6619.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "PCT",
@@ -896,10 +860,10 @@
       "price_usd": 2.155,
       "minute_volume": 1877.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "TGE",
@@ -908,10 +872,10 @@
       "price_usd": 0.2791,
       "minute_volume": 733.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "HPAI",
@@ -920,34 +884,10 @@
       "price_usd": 0.3196,
       "minute_volume": 513.0,
       "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 2.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "SATL",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 3.835,
-      "minute_volume": 4243.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "QTEX",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 1.02,
-      "minute_volume": 752.0,
-      "bar_time": "2026-11-11T04:35:00+09:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CMPX",
@@ -956,34 +896,34 @@
       "price_usd": 0.8424,
       "minute_volume": 1079.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
-      "ticker": "KPTI",
+      "ticker": "RAYA",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 0.0188,
-      "minute_volume": 16155.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 0.62,
+      "minute_volume": 870.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
-      "ticker": "ZURA",
+      "ticker": "AUUD",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 1.415,
-      "minute_volume": 2705.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 0.2489,
+      "minute_volume": 2501.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "BDMD",
@@ -992,10 +932,10 @@
       "price_usd": 0.09205,
       "minute_volume": 1786.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "OSTX",
@@ -1004,10 +944,22 @@
       "price_usd": 0.89005,
       "minute_volume": 186.0,
       "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 2.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
+    },
+    {
+      "ticker": "CISS",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "price_usd": 2.03,
+      "minute_volume": 344.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
+      "freshness": "FRESH",
+      "source": "Toss quote fallback; RVOL unavailable",
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "MWC",
@@ -1016,10 +968,10 @@
       "price_usd": 1.2926,
       "minute_volume": 3.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "NIVF",
@@ -1028,10 +980,10 @@
       "price_usd": 0.3011,
       "minute_volume": 1749.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "LNKS",
@@ -1040,22 +992,10 @@
       "price_usd": 0.8837,
       "minute_volume": 50.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "PLCE",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 0.1836,
-      "minute_volume": 430.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "FGL",
@@ -1064,46 +1004,22 @@
       "price_usd": 1.08,
       "minute_volume": 3445.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CTMX",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 1.99,
-      "minute_volume": 6041.0,
-      "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "price_usd": 2.0,
+      "minute_volume": 2322.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "RZAI",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 2.36,
-      "minute_volume": 518.0,
-      "bar_time": "2026-11-11T04:35:00+09:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "AXG",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 1.05,
-      "minute_volume": 1437.0,
-      "bar_time": "2026-11-11T04:36:00+09:00",
-      "bar_age_minutes": 3.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "YMAT",
@@ -1112,22 +1028,34 @@
       "price_usd": 1.09,
       "minute_volume": 547.0,
       "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 2.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
+    },
+    {
+      "ticker": "TROO",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "price_usd": 1.98,
+      "minute_volume": 283.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
+      "freshness": "FRESH",
+      "source": "Toss quote fallback; RVOL unavailable",
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "SXTC",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 2.93,
-      "minute_volume": 3009.0,
-      "bar_time": "2026-11-11T04:36:00+09:00",
-      "bar_age_minutes": 3.8,
+      "price_usd": 2.9,
+      "minute_volume": 11.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "MASK",
@@ -1136,10 +1064,10 @@
       "price_usd": 1.97,
       "minute_volume": 5.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "HLP",
@@ -1148,22 +1076,22 @@
       "price_usd": 3.745,
       "minute_volume": 331.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
-      "ticker": "NWGL",
+      "ticker": "AIXI",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 2.49,
-      "minute_volume": 2118.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 2.09,
+      "minute_volume": 4307.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "BUUU",
@@ -1172,10 +1100,10 @@
       "price_usd": 4.34,
       "minute_volume": 2000.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "LHSW",
@@ -1184,10 +1112,10 @@
       "price_usd": 3.32,
       "minute_volume": 2.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "MKDW",
@@ -1196,10 +1124,10 @@
       "price_usd": 0.1366,
       "minute_volume": 700.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "AIIO",
@@ -1208,34 +1136,10 @@
       "price_usd": 6.27,
       "minute_volume": 105.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "SGLY",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 0.548,
-      "minute_volume": 3568.0,
-      "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "JFIN",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 1.435,
-      "minute_volume": 13.0,
-      "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "HUHU",
@@ -1244,34 +1148,22 @@
       "price_usd": 0.3699,
       "minute_volume": 7498.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "WFF",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 1.275,
-      "minute_volume": 2521.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 1.2797,
+      "minute_volume": 801.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
-    },
-    {
-      "ticker": "KXIN",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 2.79,
-      "minute_volume": 755.0,
-      "bar_time": "2026-11-11T04:35:00+09:00",
-      "bar_age_minutes": 4.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "FTFT",
@@ -1280,10 +1172,10 @@
       "price_usd": 3.5,
       "minute_volume": 10.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "CBAT",
@@ -1292,10 +1184,22 @@
       "price_usd": 0.9511,
       "minute_volume": 185.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
+    },
+    {
+      "ticker": "CHSN",
+      "signal": "REVIEW",
+      "rvol5": null,
+      "price_usd": 2.62,
+      "minute_volume": 225.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
+      "freshness": "FRESH",
+      "source": "Toss quote fallback; RVOL unavailable",
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "ZLAB",
@@ -1304,10 +1208,10 @@
       "price_usd": 26.26,
       "minute_volume": 2785.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "HCM",
@@ -1316,22 +1220,22 @@
       "price_usd": 15.32,
       "minute_volume": 38.0,
       "bar_time": "2026-11-11T04:38:00+09:00",
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 2.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
-      "ticker": "WRD",
+      "ticker": "ANL",
       "signal": "REVIEW",
       "rvol5": null,
-      "price_usd": 4.255,
-      "minute_volume": 493.0,
-      "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "price_usd": 10.01,
+      "minute_volume": 100.0,
+      "bar_time": "2026-11-11T04:40:00+09:00",
+      "bar_age_minutes": 0.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "SDA",
@@ -1340,10 +1244,10 @@
       "price_usd": 0.3578,
       "minute_volume": 8766.0,
       "bar_time": "2026-11-11T04:39:00+09:00",
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 1.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     },
     {
       "ticker": "PASW",
@@ -1352,10 +1256,10 @@
       "price_usd": 1.18,
       "minute_volume": 59.0,
       "bar_time": "2026-11-11T04:37:00+09:00",
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.9,
       "freshness": "FRESH",
       "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-10T19:39:46.884872+00:00"
+      "fetched_utc": "2026-11-10T19:40:51.972412+00:00"
     }
   ],
   "history": [
