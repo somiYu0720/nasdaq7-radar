@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-10T20:34:13.082101+00:00",
   "events": [
     {
-      "id": "NASDAQ7조기포착사전공시-ELPW-ANNUAL_DISTRIBUTION_AGREEMENT_6K-20261028_DATE_ONLY",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "ELPW",
-      "category": "NEWS_신규상업계약_2550만달러_6K_VERIFIED",
-      "detected_utc": "2026-10-28T11:28:30.365Z",
-      "summary": "2026-10-28 SEC 6-K EX-99.1: Elong Power 홍콩 자회사가 1년간 총 US$25.5m 규모의 스마트 소비자 전자제품 유통 협력 계약 체결, 서명일부터 효력, 첫 물량 약 US$0.84m 납품 완료. VERIFIED는 회사가 SEC에 제출한 계약 체결·최초 납품 발표에 한정; 총 계약금액 전액 현금 수령·매출 인식·수익성 확보를 뜻하지 않음. 1차 뉴스/계약 이벤트 포착, 실시간 가격·거래량 2/3/5/10/30/50배·저점방어·5~15분 가속 미확인, 급등전/진행/반등/재점화 확정 순위 미산정. 2차 별도: 2026-09-10 424B3에서 워런트 행사에 따른 Class A 최대 2,583,496주 재판매 등록, 2026-09-04 EFFECT 이력; D형 복합 공급 요소 잠정, 최신 O/S·float·잔여 워런트·실제 즉시 매도 가능 물량 미확인. 희석·상장 위험으로 1차 감점/삭제 없음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226048796/ex99-1.htm",
-      "verification": "VERIFIED"
-    },
-    {
       "id": "NASDAQ7조기포착사전공시-BKYI-GOVERNMENT_SECURITY_DEPLOYMENT-20261028T040000EDT",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
       "radar": "NASDAQ 7.0",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-10 장마감 전 순환 50종목 배치 잠정 신호. 5분 1.31배, 10분 3.82배, 15분 2.75배, 15분 가격변화 -2.98%, 관측가격 $0.8208. 기준 TODAY_PRIOR_30M, 무료 시세 지연 가능. 확정 종가·전체 시장 순위·SEC·float/O/S·즉시 매도 가능 공급 미확인. 희석 위험은 1차 순위에 미반영.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|JDZG|OFFERING_CLOSED|2026-11-10T17:30:00-05:00",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1.0",
+      "ticker": "JDZG",
+      "category": "OFFERING_CLOSED",
+      "detected_utc": "2026-11-11T01:20:07Z",
+      "summary": "Univest Securities announced on Nov 10, 2026 17:30 ET that JIADE LIMITED's approximately $1.2M registered direct offering closed; 6,666,666 Class A shares or pre-funded warrants in lieu at $0.18/share. Actual share/warrant allocation and resale availability not independently established.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3400345/0/en/univest-securities-llc-announces-closing-of-1-2-million-registered-direct-offering-for-its-client-jiade-limited-nasdaq-jdzg.html",
+      "verification": "VERIFIED"
     }
   ]
 }
