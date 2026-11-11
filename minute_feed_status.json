@@ -1,16 +1,16 @@
 {
-  "checked_utc": "2026-11-11T01:06:30.644170+00:00",
+  "checked_utc": "2026-11-11T01:08:01.369098+00:00",
   "checked": 206,
-  "success": 74,
+  "success": 80,
   "failed": {
     "ARCI": "insufficient completed bars",
-    "GCDT": "volume field unavailable",
     "ARBB": "insufficient positive-volume baseline",
+    "GCDT": "volume field unavailable",
     "DTSS": "insufficient positive-volume baseline",
     "DUO": "insufficient positive-volume baseline",
+    "CREG": "volume field unavailable",
     "TAOP": "insufficient positive-volume baseline",
-    "CHNR": "insufficient positive-volume baseline",
-    "CREG": "volume field unavailable"
+    "CHNR": "insufficient positive-volume baseline"
   },
   "mode": "unofficial delayed/incomplete minute data",
   "fallback": "Toss recent quotes include price and 1m volume; RVOL unavailable without baseline"
