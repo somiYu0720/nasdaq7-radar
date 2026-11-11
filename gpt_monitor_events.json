@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-11T03:56:48Z",
+  "updated_utc": "2026-11-11T07:47:16Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-GPUS-NEWMARK_DEBT_FINANCING_ADVISOR-20261028T063000EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ 7.0",
-      "ticker": "GPUS",
-      "category": "WATCHLIST_NYSE_AMERICAN_AI데이터센터_부채조달자문계약_잠정",
-      "detected_utc": "2026-10-28T11:28:30.365Z",
-      "summary": "2026-10-28 06:30 EDT Hyperscale Data(NYSE American: GPUS; NASDAQ 상장 종목 아님) 회사 발표: 미시간 AI 데이터센터 장기 부채조달을 추진하기 위해 Newmark를 잠재 대주 탐색 자문사로 선임. 자문사 선임은 확정 대출/조달 완료가 아님. 기존 20MW/10년 데이터센터 서비스 계약과 2026년 12월 최초 10MW 가동 예상은 후속 일정이며 가동·매출 실현 미확인. 기존 NASDAQ 7.0 수동 추적 관심종목으로만 기록하고 중국계 1.0과 통합하지 않음. 1차 뉴스/재점화 관찰, 가격·거래량 2/3/5/10/30/50배·5~15분 가속 미확인으로 순위 미산정. 2차 최신 float/O/S·ATM·워런트·실제 즉시 매도 가능 공급·A/B/C/D 미확인. SEC 당일 검증 전 PROVISIONAL, 1차 위험 감점 없음.",
-      "source_url": "https://www.prnewswire.com/news-releases/hyperscale-data-engages-newmark-to-arrange-non-dilutive-long-term-debt-financing-for-the-michigan-ai-data-center-302921651.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_조기포착사전공시_VBIO_PRECLINICAL_SAFETY_20261028T114500Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-10 16:05 EST NextCure 공식 실적 발표: Avere Therapeutics 합병 관련 S-4가 11/6 SEC 효력 발생했다고 회사 발표, 12/9 09:00 ET 주주 특별총회 표결 예정. 거래 종결은 아직 아님. 합병 지원 약 $820m 조달 약정은 기존 $320m 및 추가 $500m(이 중 약 $266m은 Avere 전환채 상계 포함), 현금 전액 유입이나 현재 유통주식 공급이 아님. 1차 뉴스·M&A 사전일정 관찰, 거래량 RVOL/가격/저점방어 미확인으로 가격 기반 순위 미산정. 2차 회사 9/30 현금성자산 $8.7m 및 기존 ATM 통한 3분기 $1.2m 순유입 언급; 신규 합병 PIPE/전환 관련 잠재 공급 D형 잠정, 실제 즉시 매도 가능 물량 및 최신 float/O/S, resale 등록/락업·ATM 잔여한도 미확인. SEC S-4 원문 직접 대조 전 PROVISIONAL. 위험으로 1차 순위 감점 없음.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3400211/0/en/nextcure-provides-business-update-and-reports-third-quarter-2026-financial-results.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|LICN|REGISTERED_DIRECT_OFFERING_PRICED|2026-11-10T08:00:00-05:00",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1.0",
+      "ticker": "LICN",
+      "category": "REGISTERED_DIRECT_OFFERING_PRICED",
+      "detected_utc": "2026-11-11T07:47:16Z",
+      "summary": "Lichen International announced Nov 10 2026 08:00 ET registered direct offering agreements: 17.5m units at $0.20, approximately $3.5m gross. Each unit includes 1 Class A share or PFW plus warrant for 4.72 shares; warrant exercise $0.20, exercisable on issuance, one-year expiry. Expected close Nov 11 subject to conditions; actual closing, PFW allocation, warrant exercises and immediately resellable supply unconfirmed. News/event 1st-stage signal only; no price-volume ranking or risk-based exclusion. Company press release verified; SEC final supplement not independently checked.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399449/0/en/lichen-international-limited-announces-pricing-of-3-5-million-registered-direct-offering.html",
+      "verification": "VERIFIED"
     }
   ]
 }
