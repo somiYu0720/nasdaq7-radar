@@ -2,28 +2,6 @@
   "updated_utc": "2026-11-11T09:14:10Z",
   "events": [
     {
-      "id": "NASDAQ7_조기포착사전공시_AXGN_Q3_GUIDANCE_20261028T110200Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ7",
-      "ticker": "AXGN",
-      "category": "실적급증_연간매출가이던스상향_11월9일임상후속_20261028",
-      "detected_utc": "2026-10-28T12:20:40Z",
-      "summary": "2026-10-28 07:02 EDT Axogen 2026Q3 실적 발표 및 당일 SEC 8-K에 첨부된 EX-99.1 대조: 매출 $75.8m(+26.2% YoY), GAAP 순이익 $2.3m(전년 $0.7m), 조정 EBITDA $13.4m(전년 $9.2m), 2026 매출 가이던스 최소 $290m(+29%)로 상향. 2026-11-09 09:00 EDT 전립선 시장개발 관련 임상 결과 설명 투자자 콜 예정, 효능/승인 확정 의미 아님. 1차 강력 실적·뉴스 이벤트 관찰; 2/3/5/10/30/50배 거래량 가속·분봉·저점방어 미확인으로 급등 전 TOP10 확정 아님. 2차 이미 발행 완료된 5,646,500주 공모로 순조달 $225m, 9/30 O/S 59,724,524주(6/30 53,656,293주); 최신 float/ATM/ELOC/PIPE/Resale/워런트/전환 및 실제 즉시 매도 가능한 신규 공급 미확인, A/B/C/D 판정 보류. 공급 위험으로 1차 감점/삭제 없음. VERIFIED는 8-K에 기재된 발표 수치와 예정 콜 사실에 한정.",
-      "source_url": "https://www.stocktitan.net/sec-filings/AXGN/8-k-axogen-inc-reports-material-event-404720be8b4b.html",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "NASDAQ7_조기포착사전공시_HIVE_SIGNED_129M_DEBT_20261027_DATEONLY",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "NASDAQ7",
-      "ticker": "HIVE",
-      "category": "확정계약_129M_AI_GPU_프로젝트부채조달_20261027",
-      "detected_utc": "2026-10-28T12:20:40Z",
-      "summary": "HIVE 2026-10-27 공식 발표(10/28 재전송): 자회사 BUZZ Alpha Cloud가 기관대주와 약 $129m 3년 만기 연 9% 고정금리 Loan and Security Agreement 체결, 약 $165m NVIDIA GB200 GPU 클러스터 구매자금 중 약 80% 조달. 2026-06-18 발표된 Cohere 3년 계약 관련 GPU 인도는 2026Q4 말 예상이며 실제 설치/매출 발생 미확인. 이번 대출 자체는 HIVE 보통주 발행을 수반하지 않는다는 회사 설명, 다만 기존 0% 전환사채 약 $245m 발행 이력은 별도 2차 위험. SEC 원문 독립 대조 전으로 PROVISIONAL. 1차 확정 계약 뉴스 관찰; 거래량 가속·연속분봉·현재가·저점방어 미확인으로 포착 강도 순위 미산정. 2차 기존 전환채 D형 요소 잠정, 최신 float/O/S/ATM/ELOC/Resale/PIPE·전환조건·즉시매도 가능 공급 미확인; 위험 감점 없음.",
-      "source_url": "https://www.hivedigitaltechnologies.com/news/hives-buzz-hpc-secures-approximately-129-million-at-90-fixed-rate-financing-at-80-loan-to-cost-to-expand-sovereign-ai-infrastructure/",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "NASDAQ7_조기포착사전공시_PATK_COMPETING_MA_OFFER_20261028T100300Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
       "radar": "NASDAQ7",
@@ -5500,6 +5478,28 @@
       "summary": "SEC 6-K dated Nov 10 confirms Nov 9 shareholder meeting approved 100-for-1 consolidation of Class A/B shares and amended articles. Intended effective date Nov 19, 2026; effectiveness not yet verified. This is a separate corporate event from Nov 10 offering pricing. 1st-stage news/event flag only; dilution and listing risks assessed separately, no alteration of capture rankings. Offering closing, immediately resellable shares, float and warrant exercise unconfirmed.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1876766/000118518526005265/licn6k111026.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1.0",
+      "ticker": "CAAS",
+      "detected_utc": "2026-11-11T16:16:05Z",
+      "source_url": "https://www.prnewswire.com/news-releases/china-automotive-systems-reports-record-third-quarter-2026-eps-sales-board-approves-5-million-share-repurchase-program-302935730.html",
+      "verification": "PROVISIONAL",
+      "id": "중국계1.0뉴스사전공시일정감시_CAAS_EPS_UNIT_SALES_20261111T110000Z",
+      "category": "earnings_operational_update",
+      "summary": "2026-11-11 06:00 ET 회사 발표: Q3 전동식 조향장치 판매량 567,314대, 전년동기 대비 +40.1%; 잠정 미감사 수치. SEC 원문 미검증."
+    },
+    {
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1.0",
+      "ticker": "CAAS",
+      "detected_utc": "2026-11-11T16:16:05Z",
+      "source_url": "https://www.prnewswire.com/news-releases/china-automotive-systems-reports-record-third-quarter-2026-eps-sales-board-approves-5-million-share-repurchase-program-302935730.html",
+      "verification": "PROVISIONAL",
+      "id": "중국계1.0뉴스사전공시일정감시_CAAS_BUYBACK_AUTHORIZATION_20261111T110000Z",
+      "category": "share_repurchase_authorization",
+      "summary": "2026-11-11 06:00 ET 회사 발표: 이사회 최대 500만 달러 자사주 매입 승인, 주당 5.50달러 이하, 2027-11-10까지; 실제 매입 여부 미확인. SEC 원문 미검증."
     }
   ]
 }
