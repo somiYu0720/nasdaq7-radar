@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-12T19:40:16Z",
+  "updated_utc": "2026-11-12T21:08:54.603991+00:00",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-AXNX-POST_CRASH_PRICE_REBOUND-20261029T012006KST",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "AXNX",
-      "category": "1차_급락후반등_가격회복관찰",
-      "detected_utc": "2026-10-28T16:21:31Z",
-      "summary": "2026-10-29 토스 GitHub 비연속 관측: AXNX 00:16:04 KST $0.7766/표시 1분봉 934주 → 01:03:56 $0.80755/1,786주 → 01:20:06 $0.85/4,763주. 00:16 대비 약 +9.45% 가격 회복, 01:20 표시 분봉 O $0.833/H $0.85/L $0.833. 10/28 대량거래 후 추가급락 기존 기록과 구별되는 후속 반등 관찰. 저점방어 지속·연속 분봉·공식 RVOL·상승추세 확정 미확인. 2차 10/13 SEC 6-K의 기존 발행주식 재판매 등록 제출기한 2027-03-31 연장 확인, B형 대기 요소 잠정이나 기존 F-3 효력/면제 경로/실제 즉시 매도 가능 물량 및 최신 float/O/S 미확인; 위험으로 1차 감점 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/45dd4e849c8a6e91b79d368016b61adbe52a323f/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-POM-POST_REBOUND_SHARP_RETRACE-20261029T012059KST",
       "task": "중국계 1.0 급등 전 신호",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-12T19:40:16Z",
       "summary": "2026-11-12 08:00 ET 발행사 발표: 자회사 Jiangsu HUHU가 중국 CNIPA로부터 고순도 가스 처리 장비 관련 실용신안 2건에 대한 등록허가 통지를 받음. 매출·대형 계약·최종 등록증 발급 여부는 미확인. 1차 뉴스 이벤트 관찰이며 거래량/가격/분봉 미확인. 2차 float/O/S·희석·즉시 매도 가능 공급·A/B/C/D 미확인. SEC 원문 미대조.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401542/0/en/huhutech-receives-notices-of-grant-for-two-new-utility-model-patents-for-gas-handling-equipment.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BCRX-5M_RVOL7P99-20261112T205500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "BCRX",
+      "category": "1차_거래량가속_급등전관찰_PROVISIONAL",
+      "detected_utc": "2026-11-12T21:08:54.603991+00:00",
+      "summary": "2026-11-12 20:55 UTC Yahoo 비공식 5분봉 기반 레이더 계산 상대거래량 7.99배, EARLY_PROVISIONAL. 비교기준은 직전 12개 완료 5분봉 중 양의 거래량 12개 평균이며 시간대 보정 없음. 06:08 KST 조회 당시 봉 지연 약 13분, 가격 동반상승·연속 5~15분 가속·저점방어·공식 RVOL 미확인. 1차 신호만 기록, 희석 위험으로 감점 없음. 2차 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석 및 실제 즉시 매도 가능 공급, A/B/C/D 미검증. 매수 권고 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
