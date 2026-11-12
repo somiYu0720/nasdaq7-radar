@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-12T11:08:28Z",
+  "updated_utc": "2026-11-12T11:51:35Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-AXNX-MINUTE_VOLUME_SHARP_PULLBACK-20261028T140832Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "AXNX",
-      "category": "1차_급등진행_대량거래_급락후반등관찰",
-      "detected_utc": "2026-10-28T14:09:17Z",
-      "summary": "2026-10-28 23:08:32 KST 토스 수집기 GitHub 스냅샷: AXNX 가격 $1.00, 23:09 종료시각으로 표시된 진행 중 1분봉 O/H $1.21, L/C $1.00, 표시 분봉 거래량 667,368주. 봉 내부 고가 대비 저가 약 -17.36%로 급등 진행 중 급격한 되밀림·LABT형 대량거래 잠정 관찰. 10/27 전체 일별 거래량 114,944주보다 해당 표시 분봉 거래량이 약 5.81배 크지만 서로 다른 시간구간 비교이므로 공식 RVOL·2/3/5/10/30/50배 분봉 가속으로 단정 불가. 가격·분봉 데이터는 비공식 수집 스냅샷이고 독립 원시체결 검증 전, 실제 봉 확정·저점방어·재상승 미확인. 1차 포착은 위험 감점/제외 없음. 2차 10/13 SEC 6-K의 과거 발행주식 재판매 등록 제출기한 2027-03-31 연장 및 10/22 병합 이력은 기존 별도 기록, B형 재판매 대기 요소 잠정이나 최신 float/O/S·ATM/ELOC/PIPE/워런트/실제 즉시 매도 가능 공급 미확인. 오늘 새 호재·SEC 공시 발견을 의미하지 않음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-MKDW-POST_REIGNITION_PRICE_DROP-20261028T140805Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-12T11:08:28Z",
       "summary": "2026-11-12 06:00 ET 발행사 발표: 기존 2025-09 체결된 480만 달러 로봇 재판매 계약의 1만 대 납품을 2026-10 완료했다고 발표. 신규 주문이나 신규 계약이 아님. 대금 회수/순이익/SEC 원문 미확인. 분봉/즉시 매도 공급 유형 미확인.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401327/0/en/nexpu-completes-deliveries-under-us-4-8-million-robot-resale-contract.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시일정-RMTI-Q3_RESULTS-20261112T110000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "RMTI",
+      "category": "1차_신규실적발표_이벤트관찰",
+      "detected_utc": "2026-11-12T11:51:35Z",
+      "summary": "2026-11-12 06:00 EST 회사 배포 2026년 3분기 실적: 매출 $19.1m 전년 대비 +20%, 매출총이익 전년 대비 +37%, 순손실 $2.324m. 11/3 발표 Vantive 혈액투석 사업 인수 계획(결합 매출 연 $400m~$450m 전망)은 기존 이벤트로 별도 신규 M&A 체결 아님. 실적 발표 자체를 1차 이벤트 관찰로 기록. 당일 분봉·가격·거래량 가속·저점방어 미확인, 급등 전 신호 확정 아님. SEC 원문과 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트·전환·실제 즉시 매도 가능 공급 미대조, A/B/C/D 미판정. 1차 위험 감점/제외 없음.",
+      "source_url": "https://markets.financialcontent.com/stocks/article/bizwire-2026-11-12-rockwell-medical-announces-third-quarter-2026-results",
       "verification": "PROVISIONAL"
     }
   ]
