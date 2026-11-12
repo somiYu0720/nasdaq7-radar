@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-12T21:08:54.603991+00:00",
+  "updated_utc": "2026-11-12T22:54:44Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-POM-POST_REBOUND_SHARP_RETRACE-20261029T012059KST",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "POM",
-      "category": "1차_급락후반등_반등재하락_LABT형후속",
-      "detected_utc": "2026-10-28T16:21:31Z",
-      "summary": "기존 POM 급락 후 반등 기록의 새 후속 변화: 토스 GitHub 비연속 관측 2026-10-29 00:16:25 KST $2.10/표시 1분봉 40,089주 → 01:04:40 $1.91/22,878주 → 01:20:59 $1.80/29,377주. 00:16 대비 약 -14.29% 되밀림, 10/28 23:24 관측 $1.77 대비는 약 +1.69%. 앞선 반등 지속 실패 가능성 감시이며 반등 확정·실제 저점 방어·RVOL·연속 분봉 미확인. 기존 10/19 ADR 종료·10대1 병합 공시는 신규 뉴스 아님. 최신 float/O/S·잠재 희석·즉시 매도 가능 공급 및 A/B/C/D 미판정. 위험은 1차 순위에 감점/제외 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/45dd4e849c8a6e91b79d368016b61adbe52a323f/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-AXG-MINUTE_VOLUME_ACCEL_PULLBACK-20261028T163349Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-12T21:08:54.603991+00:00",
       "summary": "2026-11-12 20:55 UTC Yahoo 비공식 5분봉 기반 레이더 계산 상대거래량 7.99배, EARLY_PROVISIONAL. 비교기준은 직전 12개 완료 5분봉 중 양의 거래량 12개 평균이며 시간대 보정 없음. 06:08 KST 조회 당시 봉 지연 약 13분, 가격 동반상승·연속 5~15분 가속·저점방어·공식 RVOL 미확인. 1차 신호만 기록, 희석 위험으로 감점 없음. 2차 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석 및 실제 즉시 매도 가능 공급, A/B/C/D 미검증. 매수 권고 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시일정-SHFS-ONE_MIN_VOLUME_SPIKE-20261112T225300Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "SHFS",
+      "category": "1차_대량거래_가격이상관찰",
+      "detected_utc": "2026-11-12T22:53:00Z",
+      "summary": "2026-11-13 07:53 KST 토스 표시 1분봉 SHFS 5,279,447주, 표시 가격 $0.0371, 해당 봉 저가 $0.0348/고가 $0.0372. 단일 분봉 관측으로 2/3/5/10/30/50배 상대거래량 가속, 연속 저점 방어, 급등 전 여부는 미확인. 수집 PARTIAL. SEC 공급·희석·상장 위험은 2차 별도 미확인, 1차 감점/제외 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
     }
   ]
