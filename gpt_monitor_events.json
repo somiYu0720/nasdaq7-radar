@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-12T00:29:36Z",
+  "updated_utc": "2026-11-12T05:35:43Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-ITOC-NASDAQ_BID_COMPLIANCE_REGAINED-20261028T080000EDT",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china",
-      "ticker": "ITOC",
-      "category": "NEWS_LISTING_NASDAQ_MINIMUM_BID_COMPLIANCE_REGAINED",
-      "detected_utc": "2026-10-28T12:39:26Z",
-      "summary": "2026-10-28 08:00 EDT 회사 공식 발표: Nasdaq의 2026-10-20 서면 통지로 최저입찰가 $1 요건 회복(10/6~10/19 10거래일 충족) 및 해당 위반사항 종료 확인. 10/6 16대1 주식병합 이후 충족. 이는 상장요건 중 최저입찰가 항목 회복이며 모든 상장요건 영구 충족 보장 아님. 회사 발표 원문 확인, 당일 SEC/Nasdaq 원문 미대조로 PROVISIONAL. 1차 뉴스 이벤트 포착, 거래량 가속/분봉/저점방어/급등전 단계 미확인. 2차 과거 PIPE 및 6개월 락업 이력 있으나 최신 float/O/S, 실제 즉시 매도 가능 공급, A/B/C/D 최종 판정 미확인. 1차 위험 감점 없음.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/28/3390138/0/en/itonic-holdings-ltd-regains-compliance-with-nasdaq-minimum-bid-price-requirement.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-ADAG-PHASE1_FIRST_PATIENT_DOSED-20261028T070000EDT",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5500,6 +5489,17 @@
       "summary": "Rallybio 2026-11-11 08:15 EST 회사 정정 발표: Avenzo Therapeutics 합병 관련 1대2 주식병합 효력 예정 시각을 2026-11-20 00:01 EST에서 16:01 EST로 정정. 병합 조정 거래는 2026-11-23 시작 예정. 합병 종결 및 티커 AVZO 변경은 조건 충족 필요; 확정 종결 아님. 1차 포착 순위 감점/배제 없음.",
       "source_url": "https://investors.rallybio.com/news-releases/news-release-details/correction-press-release-announcing-reverse-stock-split-rallybio/",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시_NXXT_NASDAQ_SUSPENSION_DATE_UPDATE_20261111T205000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "NXXT",
+      "category": "LISTING_SUSPENSION_SCHEDULE_UPDATE",
+      "detected_utc": "2026-11-12T05:35:43Z",
+      "summary": "NextNRG 2026-11-11 15:50 ET 공식 보도자료: Nasdaq Hearings Panel 상장폐지 결정에 따른 Nasdaq 거래정지 예정일을 2026-11-12 정규장 개장으로 안내(전일 발표는 11/11 예정). OTC NXXT 거래는 11/12경 예상이며 확정 체결/호가 아님. 재심 신청은 거래정지를 유예하지 않음. 1차 거래량·가격 포착 순위에는 상장 위험을 감점/제외 사유로 사용하지 않으며 본 건은 별도 이벤트/2차 위험 경고. 최신 SEC 정정 원문, 거래정지 실제 집행, float/O/S 및 공급 A/B/C/D 미확인.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/11/3401107/0/en/nextnrg-announces-nasdaq-delisting-determination-trading-to-be-suspended-at-market-open-on-november-12-2026.html",
+      "verification": "PROVISIONAL"
     }
   ]
 }
