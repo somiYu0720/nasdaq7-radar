@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-12T19:32:51Z",
+  "updated_utc": "2026-11-12T19:40:16Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-AXNX-POST_CRASH_CONTINUATION-20261028T152842Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "AXNX",
-      "category": "1차_급락후추가급락_LABT형_후속관찰",
-      "detected_utc": "2026-10-28T15:29:47Z",
-      "summary": "10/28 23:08:32 KST 토스 저장 AXNX $1.00, 당시 표시 진행 중 1분봉 667,368주 이후 10/29 00:28:42 KST $0.7787로 비연속 스냅샷 간 약 -22.13% 추가 하락. 최신 표시 분봉 거래량 7,058주, O $0.789/H $0.7929/L $0.7787/C $0.7787. 기존 급락 이벤트의 후속 하락이며 새로운 공시·호재 아님. 비공식 수집 가격과 미확정 분봉으로 PROVISIONAL, 공식 RVOL 2/3/5/10/30/50배, 연속 분봉, 저점방어·반등 미확인. 1차 급락후 반등 관찰 유지, 위험 감점/삭제 없음. 2차 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·잠재 희석·즉시 매도 가능 공급 미확인, A/B/C/D 미분류. 손익비·매수 판단 별도.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0급등전신호-CANG-VOLUME_FIRST_PRICE_LAG-20261029T011241KST",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "CANG",
-      "category": "1차_거래량선행_가격지연_재점화관찰",
-      "detected_utc": "2026-10-28T16:21:31Z",
-      "summary": "중국계 1.0 토스 GitHub 비연속 수집본: 2026-10-28 23:24:55 KST CANG $1.24/표시 1분봉 55주, 10/29 00:10:47 $1.27/5,607주, 00:59:48 $1.255/16,409주, 01:12:41 $1.27/8,500주. 최초와 최종 관측가 +2.42%, 분봉 표시 거래량 증가와 가격 제한적 반응으로 거래량 선행·재점화 관찰 후보. 서로 다른 비연속 분봉 비교이므로 공식 RVOL 2/3/5/10/30/50배 가속 미확인; 지속 저점방어·호재 원인 미확인. CANG는 NYSE 거래 중국계 종목. 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·실제 즉시 매도 가능 공급 및 A/B/C/D 미판정. 1차 위험 감점 없음, 매수 권고 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/45dd4e849c8a6e91b79d368016b61adbe52a323f/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-AXNX-POST_CRASH_PRICE_REBOUND-20261029T012006KST",
       "task": "중국계 1.0 급등 전 신호",
@@ -5499,6 +5477,28 @@
       "detected_utc": "2026-11-12T19:32:51Z",
       "summary": "2026-11-12 07:30 ET CorMedix Q3 2026 earnings release reported revenue $54.5m and net loss $14.7m; adjusted EBITDA $3.1m. Secondary report checked; SEC original not independently verified. 1m volume acceleration and float/supply unverified; event watch only.",
       "source_url": "https://www.quantisnow.com/insight/cormedix-therapeutics-reports-third-quarter-2026-financial-results-and-provides-6786214",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-WETH-DIVIDEND_PAYMENT_UPDATE-20261112T143000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "WETH",
+      "category": "1차_배당지급진행_이벤트관찰",
+      "detected_utc": "2026-11-12T19:40:16Z",
+      "summary": "2026-11-12 09:30 ET 발행사 발표: 기존 특별현금배당의 2026-08-17 기준일 유지. 직접 등록 주주에게는 10월 말부터 지급 시작, DTC/증권사 명의 보유분은 새 지급대행사 선임 및 행정·지급 절차 진행 중이며 완료일 미확정. 신규 배당 선언이나 전원 지급 완료가 아님. 1차 뉴스 이벤트만 관찰; 거래량/가격/분봉 미확인. 2차 float/O/S·희석·실제 즉시 매도 가능 공급·A/B/C/D 미확인. SEC 원문 미대조.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401748/0/en/wetouch-technology-inc-provides-further-update-on-special-cash-dividend-distribution.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-HUHU-PATENT_GRANT_NOTICES-20261112T130000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "HUHU",
+      "category": "1차_특허등록통지_이벤트관찰",
+      "detected_utc": "2026-11-12T19:40:16Z",
+      "summary": "2026-11-12 08:00 ET 발행사 발표: 자회사 Jiangsu HUHU가 중국 CNIPA로부터 고순도 가스 처리 장비 관련 실용신안 2건에 대한 등록허가 통지를 받음. 매출·대형 계약·최종 등록증 발급 여부는 미확인. 1차 뉴스 이벤트 관찰이며 거래량/가격/분봉 미확인. 2차 float/O/S·희석·즉시 매도 가능 공급·A/B/C/D 미확인. SEC 원문 미대조.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401542/0/en/huhutech-receives-notices-of-grant-for-two-new-utility-model-patents-for-gas-handling-equipment.html",
       "verification": "PROVISIONAL"
     }
   ]
