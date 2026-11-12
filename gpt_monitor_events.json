@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-12T18:06:32Z",
+  "updated_utc": "2026-11-12T19:32:51Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-POM-POST_CRASH_REBOUND-20261028T152444Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "중국계 1.0",
-      "ticker": "POM",
-      "category": "1차_급락후반등_가격반등관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T15:24:51Z",
-      "summary": "GitHub 토스 비연속 수집본: 2026-10-28 23:24:52 KST POM $1.77(표시 1분봉 57,317주) → 2026-10-29 00:16:25 KST $2.10(40,089주, 저점 관측값 대비 +18.64%) → 00:24:44 KST $1.99(62,020주, 23:24 대비 +12.43%, 00:16 대비 -5.24%). 기존 10/28 23:08~23:24 급락·대량거래 LABT형 포착 이후 새로 관측된 가격 반등으로 별도 후속 포착. 연속 분봉·실제 장중 최저가·RVOL 2/3/5/10/30/50배·지속 저점 방어·뉴스 원인 미확인. 10/19 기존 SEC 6-K의 ADS 종료·10대1 주식병합은 신규 공시 아님. 최신 float/O/S·ATM/Resale/전환·즉시 매도 가능 공급량·A/B/C/D 유형 미확인. 희석·상장 위험은 1차 신호 순위에 반영하지 않음. 매수 권고 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-AXNX-POST_CRASH_CONTINUATION-20261028T152842Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-12T18:06:32Z",
       "summary": "Taiwan-based APWC announced Q3 2026 revenue $161.7m (+26% YoY), EPS $0.03, and operating cash outflow $5.9m. Taiwan-based issuer; China 1.0 eligibility requires separate review. Price/volume signals unverified.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401678/18489/en/apwc-announces-financial-results-for-the-third-quarter-of-2026.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-CRMD-Q3_2026_EARNINGS-20261112T073000EST",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CRMD",
+      "category": "earnings_event",
+      "detected_utc": "2026-11-12T19:32:51Z",
+      "summary": "2026-11-12 07:30 ET CorMedix Q3 2026 earnings release reported revenue $54.5m and net loss $14.7m; adjusted EBITDA $3.1m. Secondary report checked; SEC original not independently verified. 1m volume acceleration and float/supply unverified; event watch only.",
+      "source_url": "https://www.quantisnow.com/insight/cormedix-therapeutics-reports-third-quarter-2026-financial-results-and-provides-6786214",
       "verification": "PROVISIONAL"
     }
   ]
