@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-11T23:19:02Z",
+  "updated_utc": "2026-11-12T00:29:36Z",
   "events": [
-    {
-      "id": "CHINA1_NEWS_SCHEDULE_BILI_EGM_APPROVAL_20261028T120000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china",
-      "ticker": "BILI",
-      "category": "NEWS_20261028_주총표결결과_승인완료_텐센트2억달러자사주매입_전환채동시종결예정",
-      "detected_utc": "2026-10-28T12:36:32Z",
-      "summary": "Bilibili 2026-10-28 08:00 EDT 공식 회사 발표: 당일 임시주총에서 Tencent 계열사와의 계약 및 Class Z 보통주 13,591,090주(ADS 포함) US$200m 매입안을 이해관계 없는 주주가 승인. Tencent의 2031년 만기 전환사채 US$200m 인수와 주식매입은 상호 조건부 동시종결, 회사는 11월 초 종결 예상. 기존 9/25 SEC 공시에 있던 10/28 표결 예정과 구분되는 신규 표결 결과이며 실제 종결 완료는 미확인. 1차 뉴스·기업행동 후속 이벤트만 포착, 거래량 2/3/5/10/30/50배·분봉·저점방어 미확인으로 급등 전 TOP10 순위 미산정. 2차 잠재 희석은 전환사채, 실제 즉시 매도 가능한 주식수 미확인, D형 전환 요소 잠정; 최신 float/O/S·ATM/ELOC/PIPE/Resale/워런트 미확인. SEC/HKEX 당일 표결 결과 원문 독립 대조 전이므로 PROVISIONAL, 회사 공식 발표 사실에 한정. 위험은 1차 감점/삭제 없음.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/28/3390101/0/en/bilibili-inc-announces-results-of-extraordinary-general-meeting.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-ITOC-NASDAQ_BID_COMPLIANCE_REGAINED-20261028T080000EDT",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-11 04:00 ET UCL reported unaudited Q3 revenue $21.4m (+1.1% YoY), net loss $0.3m vs $9.3m net income, daily active users 431245 (+22.4%). Event signal only; no validated intraday acceleration or rank. SEC and supply assessment pending.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/11/3400493/0/en/ucloudlink-group-inc-announces-unaudited-third-quarter-2026-financial-results.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시_RLYB_MERGER_REVERSE_SPLIT_TIME_CORRECTION_20261111T131500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "RLYB",
+      "category": "M_AND_A_REVERSE_SPLIT_SCHEDULE_CORRECTION",
+      "detected_utc": "2026-11-12T00:29:36Z",
+      "summary": "Rallybio 2026-11-11 08:15 EST 회사 정정 발표: Avenzo Therapeutics 합병 관련 1대2 주식병합 효력 예정 시각을 2026-11-20 00:01 EST에서 16:01 EST로 정정. 병합 조정 거래는 2026-11-23 시작 예정. 합병 종결 및 티커 AVZO 변경은 조건 충족 필요; 확정 종결 아님. 1차 포착 순위 감점/배제 없음.",
+      "source_url": "https://investors.rallybio.com/news-releases/news-release-details/correction-press-release-announcing-reverse-stock-split-rallybio/",
+      "verification": "VERIFIED"
     }
   ]
 }
