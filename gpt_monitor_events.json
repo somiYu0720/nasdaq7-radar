@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-12T11:51:35Z",
+  "updated_utc": "2026-11-12T12:31:51Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-MKDW-POST_REIGNITION_PRICE_DROP-20261028T140805Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "MKDW",
-      "category": "1차_재점화후재급락_급락후반등관찰",
-      "detected_utc": "2026-10-28T14:09:17Z",
-      "summary": "2026-10-28 22:29 KST 기존 중국계 1.0 포착기 기록 $0.2239에서 23:08:05 KST 토스 수집기 스냅샷 $0.17545로 약 -21.64% 하락(약 39분 간격 비연속 스냅샷 비교). 최신 23:09 종료시각 표시 진행 중 분봉 거래량 11,748주, O $0.1761 / L $0.17545. 앞선 거래량 급증·재점화 관찰 뒤 후속 급락으로, 신규 호재가 아닌 위험과 무관하게 1차 급락후 반등 관찰로 유지. 2/3/5/10/30/50배 정규 RVOL, 완결된 연속 5~15분봉, 저점방어 및 반등 미확인; 비공식 수집 스냅샷으로 독립 체결 검증 전 PROVISIONAL. 2차 기존 $100m ATM 공시 이력은 1차 감점/제외 사유 아님, 현재 실제 매도 가능 물량·최신 float/O/S·A/B/C/D 유형 미확인.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_EARLY_SCHEDULE-BEAT-ALIGNACS_TCT_RESULTS_PRESENTATION-20261028T083100EDT",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-12T11:51:35Z",
       "summary": "2026-11-12 06:00 EST 회사 배포 2026년 3분기 실적: 매출 $19.1m 전년 대비 +20%, 매출총이익 전년 대비 +37%, 순손실 $2.324m. 11/3 발표 Vantive 혈액투석 사업 인수 계획(결합 매출 연 $400m~$450m 전망)은 기존 이벤트로 별도 신규 M&A 체결 아님. 실적 발표 자체를 1차 이벤트 관찰로 기록. 당일 분봉·가격·거래량 가속·저점방어 미확인, 급등 전 신호 확정 아님. SEC 원문과 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트·전환·실제 즉시 매도 가능 공급 미대조, A/B/C/D 미판정. 1차 위험 감점/제외 없음.",
       "source_url": "https://markets.financialcontent.com/stocks/article/bizwire-2026-11-12-rockwell-medical-announces-third-quarter-2026-results",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시일정-VWAV-NONBINDING_LOI_EPSERVICE-20261112T060000ET",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "VWAV",
+      "category": "M&A_NONBINDING_LOI",
+      "detected_utc": "2026-11-12T12:31:51Z",
+      "summary": "2026-11-12 06:00 ET 발행사 발표: 우크라이나 무인시스템 기업 EPSERVICE 지분 51%를 보유한 MMC의 해당 지분 인수를 추진하는 구속력 없는 의향서(LOI) 체결. 확정 인수 계약·종결·매출 계약 아님. SEC 원문, 인수가격·조건, 당일 분봉·거래량 가속, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능 공급 미확인. 1차 이벤트 관찰만; 희석 위험으로 감점 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401342/0/en/visionwave-holdings-signs-non-binding-letter-of-intent-to-acquire-controlling-interest-in-ukrainian-unmanned-systems-technology-company-epservice.html",
       "verification": "PROVISIONAL"
     }
   ]
