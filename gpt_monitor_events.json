@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-12T12:31:51Z",
+  "updated_utc": "2026-11-12T16:18:57Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-POM-LABT_VOLUME_CRASH-20261028T140832Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "POM",
-      "category": "1차_급락대량거래_LABT형_급락후반등관찰",
-      "detected_utc": "2026-10-28T14:24:52Z",
-      "summary": "2026-10-28 토스 수집기 GitHub 과거 커밋 비교: 23:08:32 KST POM 가격 $2.10, 표시 1분봉 거래량 334,189주(봉 고가 $2.20); 23:14:51 $1.95, 표시 분봉 125,065주; 23:21:40 $1.81, 표시 분봉 156,090주; 23:24:52 $1.77, 표시 분봉 57,317주. 23:08→23:24 비연속 스냅샷 가격 약 -15.71%, 23:08 표시 봉 고가 $2.20 대비 -19.55%. 급락과 대량거래 동시 관측으로 LABT형 1차 급락 후 반등 관찰 잠정 신규 신호. 수집된 분봉은 진행 중 봉일 수 있고, 표시 거래량은 각기 다른 분봉으로 공식 RVOL·2/3/5/10/30/50배 가속을 의미하지 않음. 저점 방어·반등·뉴스 원인 미확인. 2차 SEC 2026-10-19 6-K의 ADR 종료·10대1 주식병합(10/21 예정) 및 2026-10-02 6-K의 9/2 기준 O/S 27,802,964주(병합 전) 확인. 최신 병합 후 O/S·float, ATM/ELOC/Resale/PIPE/워런트·전환 및 실제 즉시 매도 가능 공급량 미확인, A/B/C/D 미판정. 위험은 1차 순위에 감점·제외 없음. 비공식 토스 수집 스냅샷으로 원시 체결 독립 검증 전 PROVISIONAL.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_EARLY_SCHEDULE-RCT-CRASH_HIGH_MINUTE_VOLUME-20261028T145735Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-12T13:15:13Z",
       "summary": "2026-11-12 05:28 ET Aurora Mobile Q3 2026 results: revenue RMB106.5m (+17% YoY), net income RMB4.5m vs RMB0.7m, EngageLab revenue +124%; 2026 full-year revenue guidance CUT from RMB450m-480m to RMB405m-415m due to weaker financial risk management demand. Distinct earnings event from separately logged 05:30 ET buyback approval. Price/volume signals, SEC cross-check and supply A/B/C/D unverified; no 1st-stage risk penalty.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401314/0/en/aurora-mobile-limited-announces-third-quarter-2026-unaudited-financial-results.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-ZTG-NASDAQ_MINIMUM_BID_NOTICE-20261112T083000ET",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china",
+      "ticker": "ZTG",
+      "category": "NASDAQ_MINIMUM_BID_NOTICE",
+      "detected_utc": "2026-11-12T16:18:57Z",
+      "summary": "2026-11-12 08:30 ET 발행사 발표: 11월 11일 Nasdaq로부터 31거래일 연속 종가 $1 미만에 따른 최저호가 요건 미충족 통지 수령. 2027-05-10까지 180일 개선기간; 기간 중 10거래일 연속 $1 이상 종가 시 요건 회복 가능. 즉시 상장폐지 아님. 이는 2차 상장위험 참고 공시로만 분리하고 1차 포착 감점·배제·순위조정에 미사용. SEC 원문 및 시세·분봉·공급 A/B/C/D 미확인.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401606/0/en/zenta-group-company-limited-announces-receipt-of-nasdaq-notice.html",
       "verification": "PROVISIONAL"
     }
   ]
