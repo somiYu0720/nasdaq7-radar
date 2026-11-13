@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-13T10:45:57Z",
   "events": [
     {
-      "id": "중국계1.0급등전신호-AIIO-PRICE_RECOVERY_VOLUME_REIGNITION-20261028T171653Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "AIIO",
-      "category": "1차_급등전_가격회복_거래량동반_재점화관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T17:17:27Z",
-      "summary": "GitHub 토스 비연속 저장 스냅샷: 2026-10-29 01:17:23 KST AIIO $0.68/표시 1분봉 182주, 01:34:42 $0.71/6,213주, 01:49:09 $0.7051/14,290주, 02:16:53 $0.733/16,420주. 01:17 대비 가격 약 +7.79%, 01:49 대비 +3.96%이며 단일 관측 분봉 거래량이 증가하여 급등 전·재점화 잠정 관찰. 비연속 분봉 비교로 공식 RVOL 2/3/5/10/30/50배·5~15분 연속 가속·저점 방어 미확인. 2차 SEC 2026-10-13 424B3: 기존 F-1 등록서에 따른 최대 22,343,750 Class B 보통주 재판매 가능 구조 기재, 등록 효력·보유자 잔여량·실제 즉시 매도 가능 공급 및 최신 float/O/S는 추가 검증 필요. C형 재판매 경로 검토, 최종 유형 미판정. 과거 10/26 주총 승인/병합 공시는 신규 이벤트 아님. 위험은 1차 감점하지 않음. 매수 권고 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/4c55e914f4d8da5f444d08f218eeff91d60f94a7/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "중국계1.0급등전신호-TAOP-LOW_LIQUIDITY_PRICE_JUMP-20261028T175211Z",
       "task": "중국계 1.0 급등 전 신호",
       "radar": "china1",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-13T10:45:57Z",
       "summary": "2026-11-13 03:00 EST 회사 보도자료: UP Fintech Holding Limited는 2026년 3분기 실적을 11월 24일 미국 장 개장 전에 발표하며 08:00 EST 실적 컨퍼런스콜 예정. 1차 뉴스·확정 일정 신호만 포착하며 주가/거래량 2·3·5·10·30·50배 가속, 저점방어, 급락, 재점화, 가격단계 및 순위는 미확인. 2차 SEC 원문·float/O/S·ATM/ELOC/PIPE/Resale·워런트·전환·상장 위험 및 A/B/C/D 공급유형 미검증. 위험을 1차 감점에 사용하지 않음. SEC 미검증으로 PROVISIONAL.",
       "source_url": "https://www.stocktitan.net/news/TIGR/up-fintech-holding-limited-to-report-third-quarter-2026-financial-2frqxo932eta.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-HDL-Q3_2026_EARNINGS_DATE-20261113T100000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "HDL",
+      "category": "1차_실적발표확정일정_가격단계미확인",
+      "detected_utc": "2026-11-13T11:45:20Z",
+      "summary": "발행사 2026-11-13 05:00 ET 보도자료: Super Hi International Holding Ltd. (NASDAQ: HDL)는 2026년 3분기 미감사 실적을 11월 25일 미국 장 개장 전에 발표하고 07:00 ET 컨퍼런스콜 예정. 중국 외식 브랜드 운영사. 1차 일정 이벤트만 확인, 가격·분봉·거래량 가속·저점방어·재점화 및 순위 미확인. SEC 원문·float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 위험·A/B/C/D 공급 유형 미검증. 1차 순위에 희석 위험 반영하지 않음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3402425/0/en/super-hi-to-report-third-quarter-2026-financial-results-on-wednesday-november-25-2026.html",
       "verification": "PROVISIONAL"
     }
   ]
