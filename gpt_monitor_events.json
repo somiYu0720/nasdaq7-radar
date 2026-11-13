@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-13T10:45:57Z",
+  "updated_utc": "2026-11-13T15:29:48Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-TAOP-LOW_LIQUIDITY_PRICE_JUMP-20261028T175211Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "TAOP",
-      "category": "1차_가격이상_저유동성_급등진행관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T17:55:02Z",
-      "summary": "2026-10-29 02:18:42 KST 토스 수집 비연속 저장가 $0.3217(표시 1분봉 거래량 2주) → 02:52:11 KST $0.3499(표시 1분봉 거래량 130주), 약 +8.77% 가격 이상 움직임. 거래량은 극히 적어 가격 신호의 신뢰도 낮고 매수세 지속/공식 RVOL 2·3·5·10·30·50배/연속 5~15분 가속/저점 방어는 미확인. 1차 가격 이상 신호만 포착하고 위험 감점·삭제 없음. 2차 SEC 2026-07-15 6-K/424B5: Streeterville Capital에 원금 $3.195m 전환사채 발행, 10일 최저 VWAP의 80% 등을 적용하는 상환주식 전환 조건, 최대 2,970,440주 등록 구조 확인(D형 전환·가격연동 요소). 실제 현재 전환·매도 가능 물량, 최신 float/O/S·잔여 전환액 미확인. 2026-10-14 6-K는 나스닥 $1 미만 통지 및 2027-04-12 시정기한 공시로 기존 위험이며 이번 신규 호재 아님. 비공식 부분 수집값 기반 PROVISIONAL, 매수 적합성 판단 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/9b221dc2f447caa797b2fd46761c74e9ea1cdf0c/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_조기포착사전공시_PRSO_RVOL5_20261028T180100Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-13T11:45:20Z",
       "summary": "발행사 2026-11-13 05:00 ET 보도자료: Super Hi International Holding Ltd. (NASDAQ: HDL)는 2026년 3분기 미감사 실적을 11월 25일 미국 장 개장 전에 발표하고 07:00 ET 컨퍼런스콜 예정. 중국 외식 브랜드 운영사. 1차 일정 이벤트만 확인, 가격·분봉·거래량 가속·저점방어·재점화 및 순위 미확인. SEC 원문·float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 위험·A/B/C/D 공급 유형 미검증. 1차 순위에 희석 위험 반영하지 않음.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3402425/0/en/super-hi-to-report-third-quarter-2026-financial-results-on-wednesday-november-25-2026.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-LABT-RVOL5_4P76-20261113T152000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LABT",
+      "category": "1차_5분상대거래량_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-11-13T15:20:00Z",
+      "summary": "2026-11-13 15:20 UTC 표시 5분봉: GitHub data.json Yahoo 비공식 5분 상대거래량 rvol5=4.76배, EARLY_PROVISIONAL, STANDARD 기준(직전 완료 12개 양수거래량 5분봉 평균; 동일 시간대 보정 없음). LABT형 급락·대량거래 동시 가능성 감시 대상으로 유지. 급락 동시성, 연속 분봉 가속, 저점 방어, 반등 및 매수 적합성은 미확인. SEC·Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 위험 및 A/B/C/D 공급 유형 미검증; 공급 위험을 1차 순위에 반영하지 않음. 비공식 부분 수집값으로 PROVISIONAL.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
