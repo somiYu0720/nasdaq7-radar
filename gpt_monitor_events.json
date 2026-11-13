@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-13T17:41:31Z",
+  "updated_utc": "2026-11-13T23:23:00Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-LABT-RVOL5_ACCEL-20261028T184700Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "LABT",
-      "category": "1차_5분상대거래량8.44배_재점화관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T18:47:27+00:00",
-      "summary": "2026-10-28 14:47 EDT(2026-10-29 03:47 KST) GitHub data.json 저장본에서 LABT 5분 상대거래량 지표 rvol5=8.44, EARLY_PROVISIONAL, history alert_sent=false 확인. 기존 gpt_monitor_events.json에 LABT 동일 포착 기록 없어 신규 1차 재점화 관찰. 지표 산식·원시 5분봉·공식 RVOL·연속 5~15분 가속·동시 가격상승·저점방어는 독립 검증 미완료. 별도 토스 partial 저장본에서 LABT 2026-10-29 03:54 KST 지연 표시가 $0.28505/표시 1분봉 거래량 318주로 관측되나 14:47 EDT 거래량 신호와 비동시 자료이므로 동시 상승 근거로 사용하지 않음. 2차 SEC 2026-08-17 424B3(6/30 10-Q 첨부): 8/3 O/S 2,369,688주, 6/30 Series C 전환우선주 잔여 497,157주 및 워런트 30,076주, 가격연동 전환 구조 확인(D형 잠재 공급 요소). 최신 float/O/S·ATM/ELOC/PIPE/Resale 효력·현재 전환잔량·실제 즉시 매도 가능한 공급량은 미확인. 잠재 희석과 실제 공급 분리, 위험에 따른 1차 감점·배제·순위 변경 없음. 실시간 시세나 매수 신호 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-MASK-CUMULATIVE_4_FOR_1_SPLIT-20261028T155500Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-13T13:30:00Z",
       "summary": "2026-11-13 08:30 EST 회사 보도자료: Kandi Technologies Group (NASDAQ: KNDI) 2026년 3분기 미감사 실적 11월 18일 미국 장 개장 전 발표 예정, 08:00 EST 컨퍼런스콜. 일정 발표만 확인, 실적 개선·상승 확정 아님. 거래량 2/3/5/10/30/50배, 분봉·저점방어·주가단계 미확인. SEC 원문·float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·상장위험·즉시 매도 가능 공급·A/B/C/D 미검증. 1차 희석 감점 없음.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3402571/0/en/kandi-technologies-to-report-third-quarter-2026-financial-results-on-wednesday-november-18-2026.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시_CTNT_Q3_EARNINGS_2026-11-13T22:05:00Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1.0",
+      "ticker": "CTNT",
+      "category": "earnings",
+      "detected_utc": "2026-11-13T23:23:00Z",
+      "summary": "2026 Q3 revenue $3.558M (+883% YoY), operating loss $0.822M, net loss $2.548M. Growth mainly from acquired Super International trading business; SEC filing and price/volume not checked.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3402994/0/en/cheetah-net-supply-chain-service-inc-announces-third-quarter-2026-results-and-provides-corporate-update.html",
       "verification": "PROVISIONAL"
     }
   ]
