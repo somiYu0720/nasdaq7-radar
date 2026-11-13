@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-13T06:22:24Z",
+  "updated_utc": "2026-11-13T10:45:57Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-CENN-INTRAHOUR_VOLUME_SPIKE_RETRACE-20261028T171557Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "CENN",
-      "category": "1차_급등진행후되밀림_대량거래_가격이상_PROVISIONAL",
-      "detected_utc": "2026-10-28T17:17:27Z",
-      "summary": "GitHub 토스 비연속 저장 스냅샷: 2026-10-29 01:44:49 KST CENN $2.11/표시 1분봉 13,127주, 01:49:58 $2.12/48,475주, 02:00:59 $2.37/4,538주(01:49 대비 +11.79%), 02:15:57 $2.105/173주(02:00 대비 -11.18%). 단시간 급등 진행 후 되밀림이 관측된 1차 가격·거래량 이상 신호. 비연속 스냅샷이고 표시 분봉은 확정 원시 분봉이 아니므로 공식 RVOL 2/3/5/10/30/50배, 연속 가속·저점 방어·재상승은 미확인. 2차 SEC 2026-10-13 424B5와 10-15 8-K: 최대 $100m ATM 및 S-3 효력 확인, C형 공급 경로 존재. 실제 매도 여부·현재 잔여한도·즉시 매도 가능 공급·최신 float/O/S 미확인. 공급 위험은 1차 순위에 미반영. 과거 공시 신규 이벤트로 중복 등록하지 않음. 매수 권고 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/4c55e914f4d8da5f444d08f218eeff91d60f94a7/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-AIIO-PRICE_RECOVERY_VOLUME_REIGNITION-20261028T171653Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-13T06:22:24Z",
       "summary": "GitHub data.json 2026-11-13 06:22:24 UTC 수집본: 미국 2026-11-12 15:59 EST 표시 분봉 5분 상대거래량 rvol5=4.88배, EARLY_PROVISIONAL. 과거 미국장 마감 직전 분봉의 지연 관찰이며 현재 시세나 11/13 신규 거래 신호 아님. 지표 산식·원시 분봉·가격 상승·저점 방어·5~15분 연속 가속 및 급등 전/재점화 상태는 독립 검증 미완료. 2차 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석과 실제 즉시 매도 가능 공급 및 A/B/C/D 유형 미확인. 공급 위험으로 1차 신호 감점·삭제하지 않음. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-TIGR-Q3_2026_EARNINGS_DATE-20261113T080000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "TIGR",
+      "category": "1차_신규실적발표일정_급등단계미확인",
+      "detected_utc": "2026-11-13T10:45:57Z",
+      "summary": "2026-11-13 03:00 EST 회사 보도자료: UP Fintech Holding Limited는 2026년 3분기 실적을 11월 24일 미국 장 개장 전에 발표하며 08:00 EST 실적 컨퍼런스콜 예정. 1차 뉴스·확정 일정 신호만 포착하며 주가/거래량 2·3·5·10·30·50배 가속, 저점방어, 급락, 재점화, 가격단계 및 순위는 미확인. 2차 SEC 원문·float/O/S·ATM/ELOC/PIPE/Resale·워런트·전환·상장 위험 및 A/B/C/D 공급유형 미검증. 위험을 1차 감점에 사용하지 않음. SEC 미검증으로 PROVISIONAL.",
+      "source_url": "https://www.stocktitan.net/news/TIGR/up-fintech-holding-limited-to-report-third-quarter-2026-financial-2frqxo932eta.html",
       "verification": "PROVISIONAL"
     }
   ]
