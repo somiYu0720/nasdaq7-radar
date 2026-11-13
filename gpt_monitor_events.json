@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-13T15:47:15Z",
+  "updated_utc": "2026-11-13T17:41:31Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-CENN-POST_SPIKE_FURTHER_DROP-20261028T180300Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "CENN",
-      "category": "1차_급등후재급락_후속저점이탈_급락후반등관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T18:18:04Z",
-      "summary": "GitHub 토스 부분 수집 비연속 가격 관측: 2026-10-29 02:00:59 KST CENN $2.37(기존 포착 기록) → 02:15:57 $2.105(기존 포착 기록) → 03:03:00 $1.7855(이번 저장 수집본, 표시 분봉 거래량 1,540주). 02:00 대비 약 -24.66%, 02:15 대비 약 -15.18% 추가 하락. 앞서 등록된 급등·되밀림 이벤트와 구별되는 후속 하락 관측으로 급락 후 반등 관찰 유지. 원시 연속 분봉, 실제 장중 고저가, 공식 RVOL 2/3/5/10/30/50배, 저점 방어·반등·직접적 뉴스 원인 미확인. 기존 2026-10-13 SEC 424B5에 최대 $100m ATM 판매 가능 경로 명시(C형 공급 경로 존재), 10/09 공시 기준 O/S 17,585,452주이나 현재 O/S·float, 실제 ATM 매도/잔여한도 및 즉시 매도 가능 물량은 미확인. 잠재 희석과 실제 공급 분리, 위험으로 1차 포착 감점·삭제 없음. SEC 과거 공시를 신규 호재로 재등록하지 않음. PROVISIONAL, 지연/부분 수집값이며 실시간 시세·매수 신호 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/3d1bea3dcf4d07d09f8abb97e291b92ad2ffd0be/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-LABT-RVOL5_ACCEL-20261028T184700Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-13T15:46:49Z",
       "summary": "2026-11-13 15:35 UTC 표시 5분봉에서 Yahoo 비공식 5분 상대거래량 5.66배. 기준은 직전 12개 완료봉 중 양의 거래량 4개만 사용하여 LIMITED 품질. 2/3/5배 잠정 관찰 신호이며 가격 상승·저점 방어·SEC 이벤트는 미검증. 투자 적합성 및 희석과 무관한 1차 신호.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-KNDI-Q3_EARNINGS_SCHEDULE-20261113T083000ET",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "KNDI",
+      "category": "1차_실적발표일정_가격단계미확인",
+      "detected_utc": "2026-11-13T13:30:00Z",
+      "summary": "2026-11-13 08:30 EST 회사 보도자료: Kandi Technologies Group (NASDAQ: KNDI) 2026년 3분기 미감사 실적 11월 18일 미국 장 개장 전 발표 예정, 08:00 EST 컨퍼런스콜. 일정 발표만 확인, 실적 개선·상승 확정 아님. 거래량 2/3/5/10/30/50배, 분봉·저점방어·주가단계 미확인. SEC 원문·float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·상장위험·즉시 매도 가능 공급·A/B/C/D 미검증. 1차 희석 감점 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3402571/0/en/kandi-technologies-to-report-third-quarter-2026-financial-results-on-wednesday-november-18-2026.html",
       "verification": "PROVISIONAL"
     }
   ]
