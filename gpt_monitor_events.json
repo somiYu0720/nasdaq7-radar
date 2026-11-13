@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-13T15:29:48Z",
+  "updated_utc": "2026-11-13T15:47:15Z",
   "events": [
-    {
-      "id": "NASDAQ7_조기포착사전공시_PRSO_RVOL5_20261028T180100Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "PRSO",
-      "category": "1차_5분상대거래량8.82배_급등전재점화관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T18:13:11Z",
-      "summary": "2026-10-28 14:01 EDT(한국 10/29 03:01) GitHub 공개 data.json 14:02 EDT 갱신본에서 PRSO 5분 상대거래량 지표 rvol5=8.82, EARLY_PROVISIONAL 표기. 1차 거래량 가속 신호로 새로 관찰하되 지표 산식·원시 5분봉·공식 RVOL 독립 검증 전이므로 PROVISIONAL. 토스 별도 03:03 KST 수집본은 PRSO 마지막 체결 표시가 02:49 KST $0.4317로 약 14분 지연, 당시 가격 상승률/저점방어/연속 5~15분 가속 미확인. 급등 전·재점화 관찰 잠정이며 확정 TOP10 순위나 실시간 매수 신호 아님. 2026-10-26 SEC 8-K에서 NantCapital 약 $10m 사모발행 계약과 10/28 예상 종결 일정은 기존 별도 이벤트로 등록되어 중복 뉴스 추가 안 함; 실제 종결은 미확인. 2차 SEC: 보통주 3,271,355주, PFW 16,593,563주, 워런트 최대 19,864,918주 계약상 잠재 공급 D형 복합 요소, 즉시 매도 가능한 실제 물량·최신 float/O/S·등록 효력/잔여 ATM/ELOC 미확인. 위험은 1차 포착 순위에 감점·배제 미적용, 손익비·매수 적합성 별도.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-CENN-POST_SPIKE_FURTHER_DROP-20261028T180300Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5498,6 +5487,17 @@
       "category": "1차_5분상대거래량_급락후반등관찰_PROVISIONAL",
       "detected_utc": "2026-11-13T15:20:00Z",
       "summary": "2026-11-13 15:20 UTC 표시 5분봉: GitHub data.json Yahoo 비공식 5분 상대거래량 rvol5=4.76배, EARLY_PROVISIONAL, STANDARD 기준(직전 완료 12개 양수거래량 5분봉 평균; 동일 시간대 보정 없음). LABT형 급락·대량거래 동시 가능성 감시 대상으로 유지. 급락 동시성, 연속 분봉 가속, 저점 방어, 반등 및 매수 적합성은 미확인. SEC·Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 위험 및 A/B/C/D 공급 유형 미검증; 공급 위험을 1차 순위에 반영하지 않음. 비공식 부분 수집값으로 PROVISIONAL.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0급등전신호-PLAG-RVOL5_5P66-20261113T153500Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "PLAG",
+      "category": "1차_5분상대거래량5.66배_급등전관찰",
+      "detected_utc": "2026-11-13T15:46:49Z",
+      "summary": "2026-11-13 15:35 UTC 표시 5분봉에서 Yahoo 비공식 5분 상대거래량 5.66배. 기준은 직전 12개 완료봉 중 양의 거래량 4개만 사용하여 LIMITED 품질. 2/3/5배 잠정 관찰 신호이며 가격 상승·저점 방어·SEC 이벤트는 미검증. 투자 적합성 및 희석과 무관한 1차 신호.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
