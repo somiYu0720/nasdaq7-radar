@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-14T01:27:54.845906+00:00",
+  "checked_utc": "2026-11-14T10:31:54.454833+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -889,7 +889,12 @@
           "excerpt": "d in the future. Up to 139,488 Common shares may be issued with the exercise of warrants at a per share exercise price of $24.00 issued to the investors and up to 9,300 Common shares may be issued with the exercise of warrants at a per share exercise price of $17.60 issue"
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/793628/000155335025000219/chnr_6k.htm",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
@@ -1664,7 +1669,12 @@
           "excerpt": "arrant”). The public offering price of the Units is $1.44 per Unit. Each of the Warrants will have an exercise price of $1.66 per Class A Ordinary Share and will be exercisable beginning on the date of the issuance and expire six months from the date of issuance. The se"
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2004024/999999999526002835/xslEFFECTX01/primary_doc.xml",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
