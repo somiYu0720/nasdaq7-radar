@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-15T06:39:38.537138+00:00",
+  "checked_utc": "2026-11-15T16:23:56.332720+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -1080,7 +1080,12 @@
     "ANL": {
       "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
-      "errors": [],
+      "errors": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1944552/999999999526002965/xslEFFECTX01/primary_doc.xml",
+          "reason": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
