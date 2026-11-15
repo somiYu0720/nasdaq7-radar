@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-15T16:46:19Z",
+  "updated_utc": "2026-11-15T17:43:56Z",
   "events": [
+    {
+      "id": "NASDAQ7조기포착사전공시-SMMT-FDA_CRL_HARMONI-20261115T070000EST",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "SMMT",
+      "category": "1차_FDA_심사결과_승인거절_20261115",
+      "detected_utc": "2026-11-15T17:43:56Z",
+      "summary": "2026-11-15 회사 공식 보도자료에서 FDA가 ivonescimab+백금계 화학요법의 HARMONi 기반 BLA에 Complete Response Letter(CRL)를 발행했다고 확인. 현재 제출 형태로 승인 불가. 주요 사유는 전체생존기간(OS)의 통계적으로 유의한 개선 미입증이며 무진행생존기간(PFS) 개선만으로 긍정적 위험편익이 입증되지 않았다는 판단. 기존 11/14 PDUFA 일정 기록과 별개로 실제 심사 결과 신규 이벤트. 회사 공식 발표 검증, SEC 원문 후속 공시와 최신 가격/거래량·연속분봉·float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·실제 즉시 매도 가능 공급 및 A/B/C/D 미확인. 위험을 1차 포착 순위 감점에 사용하지 않음. 매수 추천 아님.",
+      "source_url": "https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Provides-Update-Regarding-Ivonescimab-Biologics-License-Application/default.aspx",
+      "verification": "VERIFIED"
+    },
     {
       "id": "NASDAQ7조기포착사전공시-AYTU-FY2027Q1_EARNINGS_SCHEDULE-20261110T211500Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5488,17 +5499,6 @@
       "detected_utc": "2026-11-13T15:20:00Z",
       "summary": "2026-11-13 15:20 UTC 표시 5분봉: GitHub data.json Yahoo 비공식 5분 상대거래량 rvol5=4.76배, EARLY_PROVISIONAL, STANDARD 기준(직전 완료 12개 양수거래량 5분봉 평균; 동일 시간대 보정 없음). LABT형 급락·대량거래 동시 가능성 감시 대상으로 유지. 급락 동시성, 연속 분봉 가속, 저점 방어, 반등 및 매수 적합성은 미확인. SEC·Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 위험 및 A/B/C/D 공급 유형 미검증; 공급 위험을 1차 순위에 반영하지 않음. 비공식 부분 수집값으로 PROVISIONAL.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-KNDI-Q3_2026_EARNINGS_DATE-20261113T133000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "KNDI",
-      "category": "1차_실적발표확정일정_가격단계미확인",
-      "detected_utc": "2026-11-15T07:53:07Z",
-      "summary": "발행사 2026-11-13 08:30 ET 보도자료: Kandi Technologies (NASDAQ: KNDI)는 2026-11-18 미국 장 개장 전 2026년 3분기 미감사 실적 발표, 당일 08:00 ET 실적 컨퍼런스콜 예정. 신규 일정 뉴스 신호만 확인. 최신 시세·2/3/5/10/30/50배 거래량 가속·급락/저점방어/재점화 및 가격 단계 미확인; 1차 신호 순위 산정 불가. 2차 SEC 원문, float/O/S, ATM/ELOC/Resale/PIPE, 워런트/전환, 상장 위험 및 A/B/C/D 공급 유형 미검증. 공급 위험으로 1차 감점/삭제/재정렬 없음. SEC 미검증 PROVISIONAL.",
-      "source_url": "https://www.globenewswire.com/de/news-release/2026/11/13/3402571/0/en/kandi-technologies-to-report-third-quarter-2026-financial-results-on-wednesday-november-18-2026.html",
       "verification": "PROVISIONAL"
     }
   ]
