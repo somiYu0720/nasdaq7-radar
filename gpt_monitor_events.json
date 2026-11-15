@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-15T07:53:07Z",
+  "updated_utc": "2026-11-15T10:26:46Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-GPUS-RVOL5_4P15-20261113T205900Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "GPUS",
-      "category": "1차_거래량가속_급등_전_관찰_PROVISIONAL",
-      "detected_utc": "2026-11-14T06:02:43Z",
-      "summary": "GitHub data.json 2026-11-14 06:02:43 UTC 수집본에 미국 2026-11-13 15:59 EST 분봉 기준 내부 5분 상대거래량 지표 4.15배 기록. 1차 거래량 신호로 급등 전 관찰. 토요일 한국시간 조회한 전일 미국장 종료 직전 자료이며 현재 실시간 신호 아님. 산식·원시 연속분봉·가격변동·저점방어·뉴스 원인 미확인. 2차 최신 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능한 실제 공급 미검증, A/B/C/D 미판정. 위험은 1차 순위에 미반영, 매수 추천 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-PRSO-RVOL5_2P83-20261113T205900Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-15T07:53:07Z",
       "summary": "발행사 2026-11-13 08:30 ET 보도자료: Kandi Technologies (NASDAQ: KNDI)는 2026-11-18 미국 장 개장 전 2026년 3분기 미감사 실적 발표, 당일 08:00 ET 실적 컨퍼런스콜 예정. 신규 일정 뉴스 신호만 확인. 최신 시세·2/3/5/10/30/50배 거래량 가속·급락/저점방어/재점화 및 가격 단계 미확인; 1차 신호 순위 산정 불가. 2차 SEC 원문, float/O/S, ATM/ELOC/Resale/PIPE, 워런트/전환, 상장 위험 및 A/B/C/D 공급 유형 미검증. 공급 위험으로 1차 감점/삭제/재정렬 없음. SEC 미검증 PROVISIONAL.",
       "source_url": "https://www.globenewswire.com/de/news-release/2026/11/13/3402571/0/en/kandi-technologies-to-report-third-quarter-2026-financial-results-on-wednesday-november-18-2026.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-MKDW-REVERSE_SPLIT_1FOR20-20261113T213000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "MKDW",
+      "category": "기업이벤트_주식병합_2차위험별도",
+      "detected_utc": "2026-11-15T10:26:46Z",
+      "summary": "2026-11-13 16:30 ET 회사 보도자료: MKDW 1대20 주식병합을 2026-11-18 09:00 ET 발효 예정으로 발표. 11/12 O/S 36,354,390주에서 약 1,817,720주로 조정 예정. 워런트 수량/행사가 비례 조정. 기업 발표 확인, SEC 원문 미대조(PROVISIONAL). 1차 거래량·가격 포착 신호가 아니므로 1차 순위 부여하지 않음. 2차 공급 A/B/C/D 및 즉시매도가능 공급 미검증.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3402974/0/en/mkdwell-tech-inc-announces-one-for-twenty-reverse-share-split-as-part-of-nasdaq-compliance-initiative.html",
       "verification": "PROVISIONAL"
     }
   ]
