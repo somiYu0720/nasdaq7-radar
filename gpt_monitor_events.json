@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-15T17:43:56Z",
+  "updated_utc": "2026-11-15T21:23:13Z",
   "events": [
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|ZBAO|FY2026_RESULTS_RELEASE|2026-11-13T06:00:00-05:00",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "ZBAO",
+      "category": "1차_실적발표_20261113",
+      "detected_utc": "2026-11-15T21:23:13Z",
+      "summary": "2026-11-13 06:00 EST 회사 보도자료: FY2026 매출 RMB 319.9m(+16% YoY), 영업이익 RMB 9.2m 흑자 전환, 순손실 RMB 2.9m(-95.3%). FY2026 20-F 제출 발표. 2026-09-28 NEXSYS 인수 계약은 미종결, 2026-08-17 BTC 대가 PIPE는 과거 자본거래로 구분. 회사 발표 검증; SEC 원문 대조 및 최신 거래량/가격, float/O/S, 즉시 매도 가능 공급 A/B/C/D 미확인. 희석 위험은 1차 순위에 반영하지 않음.",
+      "source_url": "https://www.nasdaq.com/press-release/zhibao-technology-inc-reports-fiscal-year-2026-financial-results-and-files-annual",
+      "verification": "VERIFIED"
+    },
     {
       "id": "NASDAQ7조기포착사전공시-SMMT-FDA_CRL_HARMONI-20261115T070000EST",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5488,17 +5499,6 @@
       "detected_utc": "2026-11-13T11:45:20Z",
       "summary": "발행사 2026-11-13 05:00 ET 보도자료: Super Hi International Holding Ltd. (NASDAQ: HDL)는 2026년 3분기 미감사 실적을 11월 25일 미국 장 개장 전에 발표하고 07:00 ET 컨퍼런스콜 예정. 중국 외식 브랜드 운영사. 1차 일정 이벤트만 확인, 가격·분봉·거래량 가속·저점방어·재점화 및 순위 미확인. SEC 원문·float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 위험·A/B/C/D 공급 유형 미검증. 1차 순위에 희석 위험 반영하지 않음.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3402425/0/en/super-hi-to-report-third-quarter-2026-financial-results-on-wednesday-november-25-2026.html",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-LABT-RVOL5_4P76-20261113T152000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "LABT",
-      "category": "1차_5분상대거래량_급락후반등관찰_PROVISIONAL",
-      "detected_utc": "2026-11-13T15:20:00Z",
-      "summary": "2026-11-13 15:20 UTC 표시 5분봉: GitHub data.json Yahoo 비공식 5분 상대거래량 rvol5=4.76배, EARLY_PROVISIONAL, STANDARD 기준(직전 완료 12개 양수거래량 5분봉 평균; 동일 시간대 보정 없음). LABT형 급락·대량거래 동시 가능성 감시 대상으로 유지. 급락 동시성, 연속 분봉 가속, 저점 방어, 반등 및 매수 적합성은 미확인. SEC·Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 위험 및 A/B/C/D 공급 유형 미검증; 공급 위험을 1차 순위에 반영하지 않음. 비공식 부분 수집값으로 PROVISIONAL.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
