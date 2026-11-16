@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-16T16:25:12Z",
+  "updated_utc": "2026-11-16T16:30:38Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-AYTU-FY2027Q1_EARNINGS_SCHEDULE-20261110T211500Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "AYTU",
-      "category": "1차_사전실적일정_20261116_PROVISIONAL",
-      "detected_utc": "2026-11-15T16:46:19Z",
-      "summary": "2026-11-10 16:15 EST 발표된 회사 보도자료에 따르면 AYTU는 2026-11-16 미국 장마감 후 FY2027 1분기 실적 발표, 16:30 EST 컨퍼런스콜 예정. 일정은 회사 발표 기준 확인, 실제 실적 수치 및 주가 반응은 미발표/미확인. 현재 5~15분 연속 분봉·2/3/5/10/30/50배 거래량 가속·저점 방어 미확인. SEC 원문 및 최신 float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환, 즉시 매도 가능한 공급량 미검증. A/B/C/D 공급 판정 보류. 위험은 1차 포착 순위에 반영하지 않음. 매수 추천 아님.",
-      "source_url": "https://www.stocktitan.net/news/AYTU/aytu-bio-pharma-to-report-fiscal-2027-first-quarter-operational-and-4n2io3asbt2l.html",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-PRSO-RVOL5_2P83-20261113T205900Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "PRSO",
-      "category": "1차_거래량가속_거래량_선행_관찰_PROVISIONAL",
-      "detected_utc": "2026-11-14T06:02:43Z",
-      "summary": "GitHub data.json 2026-11-14 06:02:43 UTC 수집본에 미국 2026-11-13 15:59 EST 분봉 기준 내부 5분 상대거래량 지표 2.83배 기록. 1차 거래량 신호로 거래량 선행 관찰. 토요일 한국시간 조회한 전일 미국장 종료 직전 자료이며 현재 실시간 신호 아님. 산식·원시 연속분봉·가격변동·저점방어·뉴스 원인 미확인. 2차 최신 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능한 실제 공급 미검증, A/B/C/D 미판정. 위험은 1차 순위에 미반영, 매수 추천 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-MASK-CUMULATIVE_4_FOR_1_SPLIT-20261028T155500Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5500,6 +5478,28 @@
       "summary": "2026-11-16 16:24:22 UTC GitHub data.json 수집본에서 QURE의 16:10 UTC 기준 5분 상대거래량 지표 RVOL5=4.97배, EARLY_PROVISIONAL, FRESH 기록. 기준은 직전 완료된 양의 거래량 5분봉 12개 평균이며 시간대 보정되지 않음. 거래량 가속 신호만으로 1차 잠정 포착; 가격 변동·저점 방어·연속 1분봉·뉴스 촉매 미확인, 실제 급등 전 단계 확정 아님. SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장위험, 잠재 희석 및 즉시 매도가능 공급과 A/B/C/D 유형 미검증. 위험을 1차 포착 순위에 반영하지 않음. 매수 추천 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|HELP|PHASE3_APPROACH_POSITIVE_TOPLINE|2026-11-16",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "HELP",
+      "category": "1차_임상3상_긍정톱라인_급락후반등관찰",
+      "detected_utc": "2026-11-16T16:30:38Z",
+      "summary": "2026-11-16 회사 SEC 6-K 첨부 발표: HLP003 주요우울장애 보조치료 Phase 3 APPROACH 6주 MADRS 위약대비 -7.6점(p<0.0001), 12주 -7.0점(p<0.0001)으로 긍정 톱라인 확인. 임상 성공 신호와 주가 방향은 별개이며 외부 보도에서 안전성 우려 및 주가 하락 언급; 거래량 가속·반등은 미확인. 기존 발표 예정 일정과 구별되는 실제 결과 발표. 1차 이벤트 포착만 기록; 2차 SEC 공급 A/B/C/D 및 매매 적합성 별도.",
+      "source_url": "https://jp.advfn.com/exchanges/NASDAQ/HELP/share-news/99714837/form-6-k-report-of-foreign-issuer-rules-13a-16",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|CMND|CMND100_PARTC_FULL_ENROLLMENT|2026-11-16",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CMND",
+      "category": "1차_임상1상2a상_등록완료_이벤트관찰",
+      "detected_utc": "2026-11-16T16:30:38Z",
+      "summary": "2026-11-16 SEC 6-K 및 회사 발표: CMND-100 알코올사용장애 Phase I/IIa 시험 Part C 환자 등록 완료. 임상 진행 이정표이며 유효성 결과·FDA 승인 아님. 가격·거래량·저점 방어·재점화 미확인. 1차 이벤트 신호로만 기록; 잠재 희석과 즉시 매도 가능 공급 및 A/B/C/D 2차 미검증.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1892500/000121390026120178/ea0312399-6k_clearmind.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
