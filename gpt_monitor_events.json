@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-15T23:07:52Z",
   "events": [
     {
-      "id": "NASDAQ7조기포착사전공시|KYNB|Q3_2026_EARNINGS_SCHEDULE|2026-11-13",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "KYNB",
-      "category": "1차_사전실적일정_20261116",
-      "detected_utc": "2026-11-15T23:07:52Z",
-      "summary": "2026-11-13 회사 보도자료: Kyntra Bio는 2026-11-16 미국 장마감 후 2026년 3분기 실적을 발표하고 17:00 ET 실적 설명회를 개최할 예정. 발표 일정 신호만 확인; 실적 결과·현재 가격·거래량 가속·연속 분봉 미확인. SEC 원문, float/O/S 및 ATM/ELOC/Resale/PIPE/워런트/전환과 실제 매도 가능 공급 A/B/C/D 미검증. 1차 포착에 공급 위험 감점 미적용.",
-      "source_url": "https://www.stocktitan.net/news/KYNB/kyntra-bio-to-report-third-quarter-2026-financial-0z84g2slbjy6.html",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "NASDAQ7조기포착사전공시|OMER|Q3_2026_EARNINGS_SCHEDULE|2026-11-11",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
       "radar": "nasdaq7",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-13T06:22:24Z",
       "summary": "GitHub data.json 2026-11-13 06:22:24 UTC 수집본: 미국 2026-11-12 15:59 EST 표시 분봉 5분 상대거래량 rvol5=4.88배, EARLY_PROVISIONAL. 과거 미국장 마감 직전 분봉의 지연 관찰이며 현재 시세나 11/13 신규 거래 신호 아님. 지표 산식·원시 분봉·가격 상승·저점 방어·5~15분 연속 가속 및 급등 전/재점화 상태는 독립 검증 미완료. 2차 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석과 실제 즉시 매도 가능 공급 및 A/B/C/D 유형 미확인. 공급 위험으로 1차 신호 감점·삭제하지 않음. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|HELP|PHASE3_APPROACH_TOPLINE_SCHEDULE|2026-11-15T12:00:00-05:00",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "HELP",
+      "category": "1차_임상3상_결과발표예정_이벤트관찰",
+      "detected_utc": "2026-11-15T17:00:00Z",
+      "summary": "2026-11-15 12:00 ET 회사 발표: HLP003 우울증 보조치료 Phase 3 APPROACH 시험 톱라인 결과를 2026-11-16 08:00 미국 동부시간 웹캐스트에서 발표 예정. 발표 일정은 회사 공식 보도자료로 확인, 임상 결과의 성공/실패 및 주가 반응은 아직 미확인. 거래량 2~50배 가속·가격·저점방어·분봉 미확인. 2차 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환·상장위험 및 A/B/C/D 즉시매도가능공급 미검증. 1차 포착 순위에 희석위험 반영하지 않음. 매수 추천 아님.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/15/3403114/0/en/helus-pharma-to-present-topline-results-from-phase-3-approach-study-evaluating-hlp003-as-adjunctive-treatment-in-major-depressive-disorder-on-november-16-2026.html",
       "verification": "PROVISIONAL"
     }
   ]
