@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-16T19:57:17Z",
+  "updated_utc": "2026-11-16T22:14:46Z",
   "events": [
-    {
-      "id": "NASDAQ7_1550_CRASH-MWYN-NONBINDING_AI_CAMPUS_MOU-20261028T150000Z",
-      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
-      "radar": "nasdaq7",
-      "ticker": "MWYN",
-      "category": "1차_뉴스_AI데이터센터_MOU_급락후반등관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T20:04:31Z",
-      "summary": "2026-10-28 11:00 EDT 회사 발표: Grenada National Resort와 태양광+AI 데이터센터 캠퍼스 검토 비구속 MOU, 약 $500m은 사업계획 추정 규모일 뿐 확정 투자·수주·매출 아님. StockTitan 15:24 EDT 지연 보드 -27%, 누적 RVOL 8.1배, 240만 주. 1차 뉴스+급락대량거래 신호 독립 포착. 2차 과거 SEC 10-K 계속기업 불확실성 언급; 최신 O/S·float·ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 미판정. SEC에 당일 MOU 첨부 검증 전 PROVISIONAL. 위험 감점·삭제 없음.",
-      "source_url": "https://www.stocktitan.net/news/MWYN/marwynn-holdings-signs-non-binding-mou-with-grenada-national-resort-8bs8i9knbphj.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_1550_CRASH-NXXT-REVERSE_SPLIT_1FOR10-20261028T120000Z",
       "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-16T14:30:00Z",
       "summary": "2026-11-16 09:30 EST 회사 공식 발표(미감사): 2026년 1~9월 매출 $43.55m 전년 대비 +9.0%, 순이익 $8.54m +16.4%, 9/30 현금 $170.12m. 현금 증가에는 9월 사모발행 약 $38.8m 조달금 포함. 로봇 관련 기존 협력 일부 실제 공급/기술통합 단계라고 회사 설명. 주주가치 제고 방안은 검토 중으로 확정 아님. 1차 실적 이벤트만 포착, 2차 사모발행 유통가능 시점/float/O/S/잠재희석·실제 즉시 매도 가능 공급 A/B/C/D 미확인. 거래량 가속·주가 반응 미확인.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/16/3403678/0/en/wetouch-technology-inc-reports-third-quarter-fiscal-year-2026-results-nine-month-revenue-grows-9-0-to-43-55-million-and-net-income-rises-16-4-to-8-54-million.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-HKPD-NASDAQ_BID_COMPLIANCE_REGAINED-20261116T114000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "HKPD",
+      "category": "1차_상장요건회복_공식발표_VERIFIED",
+      "detected_utc": "2026-11-16T11:40:00Z",
+      "summary": "Cellyan Biotechnology (HKPD) 2026-11-16 06:40 EST 회사 공식 발표: 11/13 나스닥으로부터 최저주가 $1 규정 준수 회복 통지. 10/26~11/12 14거래일 종가 $1 이상으로 해당 문제 종결. 10/21 발표한 1:20 병합과 구분. 1차 뉴스 이벤트 독립 포착이며 희석/상장위험 감점 없음. 거래량 2~50배 가속, 가격 움직임, 저점 방어 및 재점화 미확인. 2차 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 미판정. 상장요건 회복은 매수 신호 아님.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/16/3403316/0/en/cellyan-biotechnology-co-ltd-regains-compliance-with-nasdaq-minimum-bid-price-requirement.html",
       "verification": "VERIFIED"
     }
   ]
