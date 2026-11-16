@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-15T22:52:24.579664+00:00",
+  "checked_utc": "2026-11-16T06:37:11.358988+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -1293,16 +1293,14 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "CLIK": {
-      "status": "EVIDENCE_FOUND",
-      "evidence": [
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
+      "errors": [
         {
-          "category": "ELOC",
           "source_url": "https://www.sec.gov/Archives/edgar/data/2020027/000149315226042774/form6-k.htm",
-          "form": "6-K",
-          "excerpt": "K On September 14, 2026, Click Holdings Limited (the “Company”) entered into an Equity Purchase Agreement, effective as of September 14, 2026 (the “Purchase Agreement”), with Crom Structured Opportunities Fund I, LP (the “Investor”). Unless otherwise defined herein"
+          "reason": "HTTP Error 503: Service Unavailable"
         }
       ],
-      "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
