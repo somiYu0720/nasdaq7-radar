@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-16T19:55:35Z",
+  "updated_utc": "2026-11-16T19:57:17Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-CENN-POST_DROP_PRICE_RECOVERY-20261028T192343Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "CENN",
-      "category": "1차_급락후반등관찰_후속가격회복_PROVISIONAL",
-      "detected_utc": "2026-10-28T19:51:47Z",
-      "summary": "2026-10-29 03:03 KST 기존 저장 관측 CENN $1.7855(앞선 급락 포착)에서 04:23:43 KST 토스 부분 수집 저장가 $2.0700(표시 분봉 거래량 2,012주)로 약 +15.93% 후속 가격 회복. 앞서 기록된 02:00 $2.37→03:03 $1.7855 급락과 구분되는 신규 급락 후 반등 관찰. 비연속 지연가능 스냅샷이므로 실제 장중 저점·연속 5~15분 가속·공식 RVOL 2/3/5/10/30/50배·저점 방어 지속·상승 전환 확정 미확인. 2026-10-15 SEC 8-K에 최대 $100m ATM 판매 계약과 10-13 424B5 등록 경로 존재(2차 C형 판매 경로), 실제 발행/매도 수량, 잔여한도, 현재 float/O/S, 즉시 매도 가능 공급량 미확인. 잠재 공급과 실제 매도 공급을 분리하며 위험으로 1차 포착 감점·배제·순위 변경 없음. 새로운 10/28 회사 호재 공시 확인 안 됨. 매수 신호 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7_1550_CRASH-BCAX-CRASH_RVOL28-20261028T192400Z",
-      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
-      "radar": "nasdaq7",
-      "ticker": "BCAX",
-      "category": "1차_급락_거래량28배_급락후반등관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T20:04:31Z",
-      "summary": "StockTitan 공개 2026-10-28 15:24 EDT 15분 지연 보드 BCAX -45%, 당일 누적 상대거래량 28배(20거래일 동일 시각 기준), 약 1,240만 주. 강한 급락+대량거래 1차 독립 포착. 새 SEC/회사 호재 원인 확인되지 않음. 5~15분 연속 가속·저점방어·매도 소진 미확인. 최신 float/O/S/ATM/ELOC/PIPE/Resale/워런트/전환·실제 즉시 매도 가능 공급 미확인. 2차 A/B/C/D 미판정; 위험은 1차 순위 감점하지 않음. 스냅샷은 15:50 가격이 아니며 매수 신호 아님.",
-      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_1550_CRASH-MWYN-NONBINDING_AI_CAMPUS_MOU-20261028T150000Z",
       "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
@@ -5500,6 +5478,28 @@
       "summary": "2026-11-16 19:35 UTC 저장 5분봉 기반 비공식 RVOL5 2.27배. 직전 12개 완료 5분봉 중 양수 거래량 7개 평균 대비, 시간대 보정 없음. 가격 상승/급락 동시 여부, 연속 5~15분 가속, 저점 방어 미확인. 1차 거래량 이상 신호로 잠정 관찰, 2차 SEC float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장위험 및 실제 즉시 매도 가능 공급과 잠재 희석, A/B/C/D 유형 미확인. 공급 위험으로 1차 순위 감점·제외 없음. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-FNGR-CHINA_BUSINESS_STRATEGIC_REVIEW-20261116T140000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "FNGR",
+      "category": "1차_뉴스_MA_전략적검토",
+      "detected_utc": "2026-11-16T14:00:00Z",
+      "summary": "2026-11-16 09:00 EST 회사 공식 보도자료: 중국 사업 전체의 전략적 대안 검토 착수, 잠재 매각 포함. 캐나다 Alberta 전력/HPC 사업 집중, 자사주 매입 가능성도 검토. 매각 계약·거래 종결·자사주 매입 승인/집행은 아직 확정되지 않음. 기존 10/29 BlueFlare 비구속적 사업결합 제안과 구분되는 신규 이사회 검토 이벤트. 거래량 가속·가격 반응 미확인. 2차 float/O/S/ATM/전환/워런트/즉시 공급 및 A/B/C/D 미검증. 위험은 1차 포착 순위에 반영하지 않음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/16/3403566/0/en/fingermotion-board-initiates-strategic-review-of-china-business-and-potential-sales-process-to-focus-on-alberta-power-and-compute-program.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-WETH-Q3_2026_RESULTS-20261116T143000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "WETH",
+      "category": "1차_실적_성장_뉴스",
+      "detected_utc": "2026-11-16T14:30:00Z",
+      "summary": "2026-11-16 09:30 EST 회사 공식 발표(미감사): 2026년 1~9월 매출 $43.55m 전년 대비 +9.0%, 순이익 $8.54m +16.4%, 9/30 현금 $170.12m. 현금 증가에는 9월 사모발행 약 $38.8m 조달금 포함. 로봇 관련 기존 협력 일부 실제 공급/기술통합 단계라고 회사 설명. 주주가치 제고 방안은 검토 중으로 확정 아님. 1차 실적 이벤트만 포착, 2차 사모발행 유통가능 시점/float/O/S/잠재희석·실제 즉시 매도 가능 공급 A/B/C/D 미확인. 거래량 가속·주가 반응 미확인.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/16/3403678/0/en/wetouch-technology-inc-reports-third-quarter-fiscal-year-2026-results-nine-month-revenue-grows-9-0-to-43-55-million-and-net-income-rises-16-4-to-8-54-million.html",
+      "verification": "VERIFIED"
     }
   ]
 }
