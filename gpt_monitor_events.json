@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-16T16:30:38Z",
+  "updated_utc": "2026-11-16T17:25:34Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-MASK-CUMULATIVE_4_FOR_1_SPLIT-20261028T155500Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "MASK",
-      "category": "1차_사전공시_병합비율변경_20261030예정",
-      "detected_utc": "2026-10-28T19:05:08Z",
-      "summary": "2026-10-28 11:55 EDT 회사 공식 보도자료에서 기존 10/23 발표의 2:1 주식병합에 추가 2:1 병합을 승인하여 누적 4:1로 변경한다고 발표. 미국 10/30 정규장 개장부터 병합 조정 거래 예정, 티커 MASK 유지. 발표 기준 Class A 발행주식 약 5,230,209→1,307,553주, Class B 23,200→5,800주(단주 올림 전). 기존 2:1 일정의 실질적 변경이므로 신규 사전공시로 포착. 실제 병합 완료·SEC 6-K 반영은 미확인. 2차 기존 10/23 SEC 6-K의 약 $5m 미등록 사모발행은 종결/대금수령/실제 매도가능 물량 미확인(B형 대기 요소), 기존 전환/워런트 D형 요소는 최신 재검증 필요. 최신 float와 실제 즉시 매도 가능 공급 미확인. 1차 이벤트 순위에 위험 감점 없음. 병합 자체는 호재나 기업가치 증가 확정 아님. SEC 후속 확인 전 PROVISIONAL.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/28/3390537/0/en/3-e-network-technology-group-limited-announces-further-share-consolidation-resulting-in-a-cumulative-4-for-1-ratio.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-NWGL-SAMPLED_MINUTE_VOLUME_REIGNITION-20261028T184735Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-16 SEC 6-K 및 회사 발표: CMND-100 알코올사용장애 Phase I/IIa 시험 Part C 환자 등록 완료. 임상 진행 이정표이며 유효성 결과·FDA 승인 아님. 가격·거래량·저점 방어·재점화 미확인. 1차 이벤트 신호로만 기록; 잠재 희석과 즉시 매도 가능 공급 및 A/B/C/D 2차 미검증.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1892500/000121390026120178/ea0312399-6k_clearmind.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-STAK-RVOL5_3P90-20261116T171500Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "STAK",
+      "category": "1차_급등전_5분상대거래량3.90배_PROVISIONAL",
+      "detected_utc": "2026-11-16T17:25:34.702712Z",
+      "summary": "GitHub data.json 2026-11-16 17:25:34 UTC 수집본에서 STAK 17:15 UTC 표시 5분봉 rvol5=3.90, EARLY_PROVISIONAL. 직전 12개 양수 거래량 5분봉 대비 비공식 상대거래량이며 동일 시간대 조정 RVOL이 아님. 가격 상승률·연속 5~15분 가속·저점방어·뉴스 인과관계 미확인. 급등 전 거래량 이상 잠정 포착이며 매수 권고 아님. 2차 최신 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환/상장위험 및 실제 즉시 매도 가능 공급 미검증; A/B/C/D 판정 보류. 위험으로 1차 순위 감점/삭제 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
