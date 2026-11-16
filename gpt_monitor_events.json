@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-16T17:28:18Z",
+  "updated_utc": "2026-11-16T18:31:34.759162+00:00",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-MKDW-POST_CRASH_PRICE_RECOVERY-20261028T182938Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "MKDW",
-      "category": "1차_급락후반등_가격회복_후속관찰",
-      "detected_utc": "2026-10-28T19:05:08Z",
-      "summary": "GitHub 토스 비연속 관측 2026-10-29 02:52:25 KST MKDW $0.16505/표시 분봉 4,827주 → 02:59:29 $0.1691/35,839주 → 03:29:38 $0.1800/1,987주 → 03:59:56 $0.18005/603주. 02:52 관측가 대비 마지막 저장가 약 +9.09%, 이전 급락 후 가격 회복 잠정 관찰. 37~67분 간격 비연속 스냅샷이므로 5~15분 연속 가속·실제 저점/저점 방어·정규 RVOL 미확인. 앞선 10/28 23:08 재점화 후 급락 기록의 별도 후속 반등 관측, 상승 추세 확정 아님. 2차 과거 ATM 관련 기록 존재하나 최신 SEC 원문/현재 float/O/S·잠재 희석·실제 즉시 매도 가능 공급·A/B/C/D 최종 유형 미확인. 공급 위험은 1차 순위에 미반영. 매수 적합성 별도.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/8229f17ac22bcb2ea69804c1e1225d485426840e/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-ELPW-ANNUAL_DISTRIBUTION_AGREEMENT_6K-20261028_DATE_ONLY",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "ELPW",
-      "category": "1차_뉴스_신규상업계약_2550만달러_SEC6K_VERIFIED",
-      "detected_utc": "2026-10-28T19:15:27.613Z",
-      "summary": "2026-10-28 Elong Power Holding Limited SEC 6-K EX-99.1 확인: 홍콩 자회사 Elong Power (Hong Kong) Holding Limited가 1년 총 US$25.5m 스마트 소비자 전자제품 유통 협력 계약 체결(서명일부터 효력, 이의 없으면 자동 갱신) 및 약 US$0.84m 첫 물량 납품 완료 발표. 계약 체결·납품 발표만 VERIFIED이며 US$25.5m 전액 매출 인식·현금수령·이익 확정은 아님. NASDAQ 7.0에 이미 별도 기록된 동일 기업 이벤트를 중국계 1.0 독립 레이더에 분리 등록하며, 전체 신규 뉴스 2건으로 중복 집계하지 않음. 1차 뉴스 신호만 평가, 최신 거래량 2/3/5/10/30/50배 가속·5~15분 가속·가격·저점방어·급등 단계 미확인. 2차 SEC 2026-09-10 424B3: 기존 워런트 행사 관련 Class A 최대 2,583,496주 재판매 등록 및 2026-09-03 EFFECT 이력; 잠재 희석 D형 워런트·재판매 요소, 실제 현재 행사/매도 가능한 물량과 최신 float/O/S는 미확인. 1차 위험 감점/배제/순위 조정 없음. 매매 적합성·손익비 별도.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226048796/ex99-1.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-SSTI-INTRADAY_RVOL5_ACCEL-20261028T191800Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5498,6 +5476,28 @@
       "category": "1차_거래량2배_급등전관찰_PROVISIONAL",
       "detected_utc": "2026-11-16T17:28:18Z",
       "summary": "2026-11-16 17:28:18 UTC GitHub data.json 저장본의 QUBT 17:20 UTC 표시 5분봉 RVOL5=2.03, REVIEW. 직전 최대 12개 양수 거래량 5분봉 대비 비공식 비시간대보정 상대거래량. 가격 변동·연속 가속·저점 방어·급등 여부 미확인. SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능 공급 A/B/C/D 미검증. 1차 순위는 공급 위험과 독립이며 매수 권고 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|ISPC|RVOL5_4P15|20261116T182000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "ISPC",
+      "category": "1차_거래량2배이상_급등전관찰_PROVISIONAL",
+      "detected_utc": "2026-11-16T18:31:34.759162+00:00",
+      "summary": "2026-11-16 18:20 UTC 표시 5분봉 ISPC 비공식 RVOL5=4.15배. 직전 최대 12개 양수 거래량 5분봉 평균 대비 수치이며 시간대 보정 없음. 가격 상승/하락, 연속 5~15분 가속, 저점 방어, 뉴스 인과관계 미확인. 급등 전 여부는 잠정 관찰이며 급등 확정 아님. 2차 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장위험, 잠재 희석과 실제 즉시 공급 A/B/C/D 미검증. 1차 순위는 공급 위험과 무관하며 매수 권고 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|GERN|RVOL5_1P82|20261116T182500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "GERN",
+      "category": "1차_거래량2배이상_급등전관찰_PROVISIONAL",
+      "detected_utc": "2026-11-16T18:31:34.759162+00:00",
+      "summary": "2026-11-16 18:20 UTC 표시 5분봉 GERN 비공식 RVOL5=1.82배. 직전 최대 12개 양수 거래량 5분봉 평균 대비 수치이며 시간대 보정 없음. 가격 상승/하락, 연속 5~15분 가속, 저점 방어, 뉴스 인과관계 미확인. 급등 전 여부는 잠정 관찰이며 급등 확정 아님. 2차 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장위험, 잠재 희석과 실제 즉시 공급 A/B/C/D 미검증. 1차 순위는 공급 위험과 무관하며 매수 권고 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
