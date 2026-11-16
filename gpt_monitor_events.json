@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-16T17:25:34Z",
+  "updated_utc": "2026-11-16T17:28:18Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-NWGL-SAMPLED_MINUTE_VOLUME_REIGNITION-20261028T184735Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "NWGL",
-      "category": "1차_재점화_표시분봉거래량급증_가격지연",
-      "detected_utc": "2026-10-28T19:05:08Z",
-      "summary": "GitHub 토스 부분 수집 스냅샷 2026-10-29 03:46:13 KST NWGL $0.0877/표시 1분봉 8,139주 → 03:47:35 KST $0.0877/47,635주(서로 다른 표시 분봉 약 5.85배), 03:53:04 $0.0878/6,134주. 03:31:35 $0.0865/16,746주 대비 03:53 저장가 약 +1.50%. 새 분봉 대량거래 관측이나 가격 상승은 제한적이고 거래량 지속도 미확인. 비공식 비연속 수집값으로 공식 RVOL/2·3·5·10·30·50배 정규 가속·연속 5~15분 저점 방어 미확인. 기존 10/27 재점화 기록과 다른 10/28 미국장 장중 관측 신호. 2차 기존 10/02 SEC 424B5 최대 $200m ATM 판매 경로 및 과거 재판매 등록 이력 확인 필요(C형 판매 가능 경로 요소), 실제 ATM 매도 여부/잔여량/현재 즉시 매도 가능 공급 및 최신 float/O/S 미확인. 위험은 1차 감점/배제 없음. 매수 권고 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/056fbb79a31ec745a383cd0bfe042ea4be3ab63c/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-MKDW-POST_CRASH_PRICE_RECOVERY-20261028T182938Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5498,6 +5487,17 @@
       "category": "1차_급등전_5분상대거래량3.90배_PROVISIONAL",
       "detected_utc": "2026-11-16T17:25:34.702712Z",
       "summary": "GitHub data.json 2026-11-16 17:25:34 UTC 수집본에서 STAK 17:15 UTC 표시 5분봉 rvol5=3.90, EARLY_PROVISIONAL. 직전 12개 양수 거래량 5분봉 대비 비공식 상대거래량이며 동일 시간대 조정 RVOL이 아님. 가격 상승률·연속 5~15분 가속·저점방어·뉴스 인과관계 미확인. 급등 전 거래량 이상 잠정 포착이며 매수 권고 아님. 2차 최신 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환/상장위험 및 실제 즉시 매도 가능 공급 미검증; A/B/C/D 판정 보류. 위험으로 1차 순위 감점/삭제 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|QUBT|RVOL5_2P03|20261116T172000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "QUBT",
+      "category": "1차_거래량2배_급등전관찰_PROVISIONAL",
+      "detected_utc": "2026-11-16T17:28:18Z",
+      "summary": "2026-11-16 17:28:18 UTC GitHub data.json 저장본의 QUBT 17:20 UTC 표시 5분봉 RVOL5=2.03, REVIEW. 직전 최대 12개 양수 거래량 5분봉 대비 비공식 비시간대보정 상대거래량. 가격 변동·연속 가속·저점 방어·급등 여부 미확인. SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능 공급 A/B/C/D 미검증. 1차 순위는 공급 위험과 독립이며 매수 권고 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
