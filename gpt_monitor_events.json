@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-16T18:31:34.759162+00:00",
+  "updated_utc": "2026-11-16T18:34:11Z",
   "events": [
     {
       "id": "NASDAQ7조기포착사전공시-SSTI-INTRADAY_RVOL5_ACCEL-20261028T191800Z",
@@ -5489,6 +5489,17 @@
       "summary": "2026-11-16 18:20 UTC 표시 5분봉 ISPC 비공식 RVOL5=4.15배. 직전 최대 12개 양수 거래량 5분봉 평균 대비 수치이며 시간대 보정 없음. 가격 상승/하락, 연속 5~15분 가속, 저점 방어, 뉴스 인과관계 미확인. 급등 전 여부는 잠정 관찰이며 급등 확정 아님. 2차 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장위험, 잠재 희석과 실제 즉시 공급 A/B/C/D 미검증. 1차 순위는 공급 위험과 무관하며 매수 권고 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|ZTG|ATM_AGREEMENT|20261116T093000ET",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "ZTG",
+      "category": "신규공식발표_ATM계약_2차공급위험",
+      "detected_utc": "2026-11-16T14:30:00Z",
+      "summary": "2026-11-16 09:30 ET 회사 공식 발표: E.F. Hutton과 최대 미화 6,465,812달러 규모 Class A 보통주 ATM 매각 계약 체결. 2026-11-16자 투자설명서 보충서류 및 기존 F-3(333-299071) 기반. 계약 한도는 잠재 공급이며 실제 매각 주식 수·시점·잔여 한도·즉시 매도 가능한 수량은 미확인. 회사는 매각 의무 없음. 1차 거래량·가격 포착 순위에서 희석 위험 감점/배제 금지; 2차 공급 위험으로만 분리. 1차 시세·RVOL·분봉 미확인. A/B/C/D 최종 공급 유형은 매각 실행 확인 전 보류.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/16/3403675/0/en/zenta-group-company-limited-announces-at-the-market-offering-of-class-a-ordinary-shares-for-up-to-6-465-812.html",
+      "verification": "VERIFIED"
     }
   ]
 }
