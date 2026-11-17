@@ -1,39 +1,6 @@
 {
-  "updated_utc": "2026-11-17T13:22:41Z",
+  "updated_utc": "2026-11-17T14:53:39Z",
   "events": [
-    {
-      "id": "NASDAQ7_CLOSE_FTFT_UNUSUAL_VOLUME_PRICE_20261028T195000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "china1",
-      "ticker": "FTFT",
-      "category": "1차_급등진행_거래량급증_PROVISIONAL",
-      "detected_utc": "2026-10-28T20:31:54Z",
-      "summary": "StockTitan 2026-10-28 15:50 EDT 15분 지연 보드 FTFT 상대거래량 335배, 누적 약 1470만주, +52% 표시. 회사 신규 호재/인과관계와 정규장 최종 종가·5~15분 가속은 미확인. 1차 급등 진행 포착, 위험 감점 없음. 2차 SEC 과거 자금조달·워런트 등 최신 재검증 필요, float/O/S·ATM/ELOC/PIPE/Resale·실제 즉시 매도 가능 공급 및 A/B/C/D 미확정.",
-      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7_CLOSE_JDZG_CRASH_VOLUME_20261028T195000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "china1",
-      "ticker": "JDZG",
-      "category": "1차_대량거래동반급락_반등관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T20:31:54Z",
-      "summary": "StockTitan 2026-10-28 15:50 EDT 지연 보드 JDZG -75%, 상대거래량 2.9배, 누적 240만주. 급락과 대량거래 동시 신호로 LABT형 1차 포착 유지. 급락 원인, 실제 저점방어, 연속 5~15분 가속 및 최종 종가 미확인. 2차 SEC 최신 float/O/S·희석·실제 즉시 매도 가능 공급·A/B/C/D 미확정. 위험 감점·삭제 없음.",
-      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7_CLOSE_PLCE_CRASH_VOLUME_20261028T195000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "nasdaq7",
-      "ticker": "PLCE",
-      "category": "1차_급락대량거래_반등관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T20:31:54Z",
-      "summary": "StockTitan 2026-10-28 15:50 EDT 지연 보드 PLCE -53%, 상대거래량 30배, 누적 약 570만주. LABT형 급락+대량거래 1차 신호, 저점 방어·반등 확인 전. 하락 원인과 최종 종가, 원시 분봉, SEC 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인. 위험은 1차 순위 감점하지 않음.",
-      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_CLOSE_KPTI_UNUSUAL_VOLUME_PRICE_20261028T195000Z",
       "task": "NASDAQ 7.0 장마감 종합보고",
@@ -5499,6 +5466,39 @@
       "detected_utc": "2026-11-17T13:22:41Z",
       "summary": "2026-11-17 08:00 ET Adagene와 City of Hope가 MSS 전이성 대장암 환자 대상 ivonescimab+muzastotug(ADG126) 병용 임상 1상 개시 발표. 최대 36명 계획. 임상 성공/주가 및 거래량 신호는 미확인. 1차 뉴스 포착이며 SEC 공급 2차 별도.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404510/0/en/adagene-and-city-of-hope-open-clinical-trial-to-test-new-therapy-for-patients-with-hard-to-treat-colorectal-cancer.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-LOBO-AI_SISAAS_LAUNCH-20261117T142500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "LOBO",
+      "category": "AI플랫폼_출시",
+      "detected_utc": "2026-11-17T14:53:39Z",
+      "summary": "2026-11-17 09:25 ET 회사 발표: AI 기반 노인돌봄 SISaaS 초기 플랫폼 출시, AI API 서비스 7/28 출시 이후 누적 매출 300만 달러 초과 주장. 실시간 가격·거래량 미확인, SEC 공급 별도.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404760/0/en/lobo-launches-ai-powered-sisaas-platform-for-community-and-home-based-senior-care.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-YAAS-YOUXIN_CLOUD6_LAUNCH-20261117T123000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "YAAS",
+      "category": "AI플랫폼_출시",
+      "detected_utc": "2026-11-17T14:53:39Z",
+      "summary": "2026-11-17 07:30 ET 회사 발표: Youxin Cloud 6.0 및 기업용 AI 에이전트 플랫폼 Youxin AIP 출시. 실제 신규 계약·매출, 가격·거래량 반응 미확인. SEC 공급 별도.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404480/0/en/youxin-technology-launches-youxin-cloud-6-0-and-youxin-aip-enabling-natural-language-driven-development-of-enterprise-applications-and-ai-agents.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-LOT-GEELY_FINANCING_INTENT-20261117T141500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "LOT",
+      "category": "자금조달_의향_기업발표",
+      "detected_utc": "2026-11-17T14:53:39Z",
+      "summary": "2026-11-17 09:15 ET 회사 발표: Geely가 향후 6개월 최대 RMB 5억 부채 조달 지원 의향 표명. 최종 계약 및 실제 자금 유입 없음. 1차 뉴스 신호만 기록, 희석/공급 위험으로 순위 감점 금지. SEC 공급 별도.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404739/0/en/lotus-tech-announces-geely-s-intention-to-facilitate-up-to-rmb500-million-in-financing.html",
       "verification": "VERIFIED"
     }
   ]
