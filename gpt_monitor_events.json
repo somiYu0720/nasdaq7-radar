@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-17T14:53:39Z",
+  "updated_utc": "2026-11-17T16:20:10.914263+00:00",
   "events": [
-    {
-      "id": "NASDAQ7_CLOSE_BEAT_ALIGN_ACS_RESULTS_SCHEDULE_20261028T123100Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "nasdaq7",
-      "ticker": "BEAT",
-      "category": "1차_사전임상데이터발표일정_PROVISIONAL",
-      "detected_utc": "2026-10-28T20:31:54Z",
-      "summary": "HeartBeam 2026-10-28 08:31 EDT 공식 발표: ALIGN-ACS 심장마비 평가용 3D ECG 파일럿 연구 결과를 2026-11-01 13:20 PDT TCT 학회에서 발표 예정. 연구 결과는 아직 공개되지 않았고 해당 적응증 FDA 허가가 완료된 것도 아님. StockTitan 15:50 EDT 지연 보드 BEAT +32%, RVOL 4.4배, 약 500만주. 2차 SEC 2026-08-14 8-K/424B5 최대 $25m ATM 판매 경로(C형 가능), 실제 판매잔량·현재 float/O/S·즉시 매도 가능 공급 미확인. 발표일정은 공식 회사 보도자료 확인, 당일 SEC 별도 공시 미확인으로 PROVISIONAL.",
-      "source_url": "https://ir.heartbeam.com/news-events/press-releases/detail/134/heartbeam-to-present-results-of-align-acs-study-for-heart",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_CLOSE_PODC_STRATEGIC_INTEREST_SPECIAL_COMMITTEE_20261028T150000Z",
       "task": "NASDAQ 7.0 장마감 종합보고",
@@ -5498,6 +5487,17 @@
       "category": "1차_5분상대거래량4.08배_급등전미확정_PROVISIONAL",
       "detected_utc": "2026-11-17T15:18:06.935180+00:00",
       "summary": "2026-11-17 15:00 UTC 5분봉 기준 공개 포착기 data.json의 PLAG rvol5=4.08, EARLY_PROVISIONAL, FRESH. 기준은 직전 완료 5분봉의 양수 거래량 12개 평균으로 시간대 보정되지 않은 비공식 Yahoo 지표. 연속 5~15분 가속·가격 방향·저점방어·급등 전 여부 미확인. 2차 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능 공급 미확인, A/B/C/D 보류. 공급 위험은 1차 순위에 반영하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-KTTA-RVOL5-20261117T161000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "KTTA",
+      "category": "1차_거래량가속_급등전관찰",
+      "detected_utc": "2026-11-17T16:20:10.914263+00:00",
+      "summary": "2026-11-17 16:10 UTC 완료 5분봉의 Yahoo 비공식 상대거래량 6.31배(직전 완료 5분봉 양수 거래량 9개 기준, 시간대 미보정). 레이더 저장 2026-11-17T16:20:10.914263+00:00. 5~15분 연속 가속, 가격 방향, 저점 방어 및 실시간 시세 미확인. 1차 거래량 신호만이며 SEC 및 공급 위험 검증 전.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
