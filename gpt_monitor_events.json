@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-17T17:23:46Z",
+  "updated_utc": "2026-11-17T19:06:19.078240+00:00",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-BIDU-Q3_2026_EARNINGS_SCHEDULE_6K-20261027_DATE_ONLY",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "BIDU",
-      "category": "1차_D30_실적발표사전일정_SEC6K_VERIFIED",
-      "detected_utc": "2026-10-28T20:48:50Z",
-      "summary": "Baidu 2026-10-27 회사 IR 공식 발표 및 6-K 공시: 2026-11-16 미국장 개장 전 2026년 3분기 실적 발표 예정, 07:30 EST(한국시간 11/16 21:30) 컨퍼런스콜. 이번 시점 D+18 일정, 실제 실적 수치와 주가 영향 미발표. 1차 뉴스·사전일정 포착만 유지, 거래량 2/3/5/10/30/50배·5~15분 가속·저점방어·재점화 미확인으로 가격 순위 산정 보류. 2차 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·잠재 희석 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 보류. 위험으로 1차 감점 없음.",
-      "source_url": "https://baidu.gcs-web.com/news-releases/news-release-details/baidu-report-third-quarter-2026-financial-results-november-16",
-      "verification": "VERIFIED"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-AXTI-Q3_EARNINGS_SCHEDULE-20261001_DATE_ONLY",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5498,6 +5487,17 @@
       "category": "1차_거래량가속_PROVISIONAL",
       "detected_utc": "2026-11-17T17:22:49Z",
       "summary": "미국 2026-11-17 17:15 UTC 표시 5분봉, 비공식 Yahoo 5분 상대거래량 3.89배. 최근 완료 봉의 양수 거래량 기준 평균 대비; 시간대 보정 없음. 가격 방향·연속 가속·SEC 및 공급 A/B/C/D 미확인. 1차 포착만, 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-LABT-RVOL5-20261117T190000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LABT",
+      "category": "1차_급락후반등관찰_거래량가속_PROVISIONAL",
+      "detected_utc": "2026-11-17T19:06:19.078240+00:00",
+      "summary": "2026-11-17 19:00 UTC 표시 비공식 Yahoo 완료 5분봉의 상대거래량 63.03배. 직전 양수 거래량 12개 5분봉 평균 기준이며 시간대 보정 없음. 급락 후 반등 관찰 대상, 가격 방향·연속 가속·저점 방어 미확인. SEC 공급 A/B/C/D 미확인, 1차 순위에 위험 미반영. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
