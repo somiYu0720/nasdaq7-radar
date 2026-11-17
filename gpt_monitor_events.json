@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-17T11:19:34Z",
+  "updated_utc": "2026-11-17T13:22:41Z",
   "events": [
-    {
-      "id": "NASDAQ7_CLOSE_CHSN_UNUSUAL_VOLUME_PRICE_20261028T195000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "china1",
-      "ticker": "CHSN",
-      "category": "1차_급등진행_극단거래량_PROVISIONAL",
-      "detected_utc": "2026-10-28T20:31:54Z",
-      "summary": "StockTitan 2026-10-28 15:50 EDT 15분 지연 장마감 직전 보드: CHSN 누적 상대거래량 2004배(직전 20거래일 동일시각 대비), 약 7200만주, 전일 대비 +30% 표시. 10/27 SEC 6-K에서 100:1 병합 승인 사실 확인, 병합 효력 발생일 미확정. 거래량 수치는 5~15분 연속 가속 또는 16:00 확정 종가가 아님. 급등 진행 1차 포착, 희석 위험 감점 없음. 2차 기존 ATM 판매 경로 존재(C형 경로 가능), 최신 float/O/S·실제 발행/매도 잔량 미확인.",
-      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_CLOSE_FTFT_UNUSUAL_VOLUME_PRICE_20261028T195000Z",
       "task": "NASDAQ 7.0 장마감 종합보고",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-17T11:19:34Z",
       "summary": "2026-11-17 04:56 ET 회사 발표: Burning Rock Biotech 2026-12-22 10:30 중국 현지시간 상하이 사무실에서 연례 주주총회 개최 예정. 의안·주가·거래량 반응 미확인. 1차 포착 순위와 독립; SEC 공급 별도 미검증.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404359/0/en/burning-rock-announces-2026-annual-general-meeting-to-be-held-on-december-22-2026.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-ADAG-PHASE1_TRIAL_LAUNCH-20261117T130000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "ADAG",
+      "category": "임상1상_개시_기업발표",
+      "detected_utc": "2026-11-17T13:22:41Z",
+      "summary": "2026-11-17 08:00 ET Adagene와 City of Hope가 MSS 전이성 대장암 환자 대상 ivonescimab+muzastotug(ADG126) 병용 임상 1상 개시 발표. 최대 36명 계획. 임상 성공/주가 및 거래량 신호는 미확인. 1차 뉴스 포착이며 SEC 공급 2차 별도.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404510/0/en/adagene-and-city-of-hope-open-clinical-trial-to-test-new-therapy-for-patients-with-hard-to-treat-colorectal-cancer.html",
       "verification": "VERIFIED"
     }
   ]
