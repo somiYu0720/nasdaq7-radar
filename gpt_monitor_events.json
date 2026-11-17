@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-17T09:13:56Z",
+  "updated_utc": "2026-11-17T11:19:34Z",
   "events": [
-    {
-      "id": "NASDAQ7_CLOSE_CHSN_SHAREHOLDER_APPROVAL_100FOR1_20261027_DATE_ONLY",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "china1",
-      "ticker": "CHSN",
-      "category": "1차_공시_주주총회100대1병합승인_VERIFIED",
-      "detected_utc": "2026-10-28T20:31:54Z",
-      "summary": "SEC 2026-10-27 6-K: Chanson International의 10/26 임시주총에서 자본감소·재편과 Class A/B 각 100:1 주식병합안 승인. 병합 효력은 자본감소·재편 효력 발생 10 clear days 후 또는 나스닥이 승인한 더 늦은 날로 조건부; 10/28 병합 완료로 오인 금지. 1차 뉴스/사전공시 신호로 독립 포착, 공급 위험은 감점 없음. 2차 2026-01-07 424B5 최대 $219.375m ATM 등록 경로(C형 가능) 확인; 최신 float/O/S, 실제 ATM 판매잔량·즉시 매도 가능 공급 미확인.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1825349/000118518526005015/chsn6k102726.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7_CLOSE_CHSN_UNUSUAL_VOLUME_PRICE_20261028T195000Z",
       "task": "NASDAQ 7.0 장마감 종합보고",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-17T09:13:56Z",
       "summary": "2026-11-17 04:00 ET 발표: 2026년 1~9월 총보험료 RMB 6,711.8m(전년 6,001.0m), 첫해 보험료 RMB 4,202.2m(전년 3,787.8m). 주가·거래량 반응 미확인. SEC 공급 별도 미검증.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404320/0/en/huize-holding-limited-announces-select-operating-metrics-for-the-first-nine-months-of-2026.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-BNR-AGM_NOTICE-20261117T095600Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "BNR",
+      "category": "주주총회_일정",
+      "detected_utc": "2026-11-17T11:19:34Z",
+      "summary": "2026-11-17 04:56 ET 회사 발표: Burning Rock Biotech 2026-12-22 10:30 중국 현지시간 상하이 사무실에서 연례 주주총회 개최 예정. 의안·주가·거래량 반응 미확인. 1차 포착 순위와 독립; SEC 공급 별도 미검증.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404359/0/en/burning-rock-announces-2026-annual-general-meeting-to-be-held-on-december-22-2026.html",
       "verification": "VERIFIED"
     }
   ]
