@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-17T14:53:39Z",
   "events": [
     {
-      "id": "NASDAQ7_CLOSE_KPTI_UNUSUAL_VOLUME_PRICE_20261028T195000Z",
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "nasdaq7",
-      "ticker": "KPTI",
-      "category": "1차_급등진행_거래량급증_PROVISIONAL",
-      "detected_utc": "2026-10-28T20:31:54Z",
-      "summary": "StockTitan 2026-10-28 15:50 EDT 지연 보드 KPTI +70%, 상대거래량 34배, 누적 약 4210만주. 뉴스 촉매와 16:00 최종 종가, 원시 분봉 5~15분 가속 독립 미검증. 급등 진행 포착, 위험 감점 없음. 2차 SEC 최신 float/O/S·ATM/ELOC/PIPE/Resale/워런트/전환·즉시 매도 가능 공급·A/B/C/D 미확인.",
-      "source_url": "https://www.stocktitan.net/rankings/stock-movers-today/",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "NASDAQ7_CLOSE_BEAT_ALIGN_ACS_RESULTS_SCHEDULE_20261028T123100Z",
       "task": "NASDAQ 7.0 장마감 종합보고",
       "radar": "nasdaq7",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-17 09:15 ET 회사 발표: Geely가 향후 6개월 최대 RMB 5억 부채 조달 지원 의향 표명. 최종 계약 및 실제 자금 유입 없음. 1차 뉴스 신호만 기록, 희석/공급 위험으로 순위 감점 금지. SEC 공급 별도.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404739/0/en/lotus-tech-announces-geely-s-intention-to-facilitate-up-to-rmb500-million-in-financing.html",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-PLAG-RVOL5-20261117T150000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "PLAG",
+      "category": "1차_5분상대거래량4.08배_급등전미확정_PROVISIONAL",
+      "detected_utc": "2026-11-17T15:18:06.935180+00:00",
+      "summary": "2026-11-17 15:00 UTC 5분봉 기준 공개 포착기 data.json의 PLAG rvol5=4.08, EARLY_PROVISIONAL, FRESH. 기준은 직전 완료 5분봉의 양수 거래량 12개 평균으로 시간대 보정되지 않은 비공식 Yahoo 지표. 연속 5~15분 가속·가격 방향·저점방어·급등 전 여부 미확인. 2차 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능 공급 미확인, A/B/C/D 보류. 공급 위험은 1차 순위에 반영하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
