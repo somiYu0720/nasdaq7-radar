@@ -40,7 +40,7 @@ async function showChinaCoverage(){
   const captured=new Set((live.china1||[]).map(x=>x.ticker));
   const failures=diag.failures||{};
   let panel=document.getElementById('chinaCoverageDetail');
-  if(!panel){panel=document.createElement('details');panel.id='chinaCoverageDetail';panel.className='secondary';$('tables').appendChild(panel);}
+  if(!panel){panel=document.createElement('details');panel.id='chinaCoverageDetail';panel.className='secondary';$('tables').insertAdjacentElement('afterend',panel);}
   const stale=registered.filter(t=>!captured.has(t)&&failures[t]==='STALE_OR_MARKET_CLOSED');
   const http=registered.filter(t=>!captured.has(t)&&String(failures[t]||'').startsWith('HTTP_'));
   const other=registered.filter(t=>!captured.has(t)&&!stale.includes(t)&&!http.includes(t));
