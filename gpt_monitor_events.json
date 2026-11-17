@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-17T08:34:37Z",
+  "updated_utc": "2026-11-17T09:13:56Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시|KTTA|PAS004_PHASE1_DATA_PHASE2_IND|20261116T130022Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "KTTA",
-      "category": "1차_임상결과_2상IND승인_VERIFIED",
-      "detected_utc": "2026-11-17T08:34:37Z",
-      "summary": "SEC 2026-11-16 08:00:22 EST 접수 8-K(11/13 발표): PAS-004 1/1b상 NF1 관련 피부 신경섬유종 평가가능 15명 전원 표적 병변 표면적 감소, 중앙값 최대 41%; 2상 계획 용량군 46%. FDA가 PAS-004-201 2상 IND 진행 허용. 이는 2상 성공 또는 신약 승인 아님. 거래량·가격 가속 및 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트·전환·즉시매도가능공급/A/B/C/D 미확인. 위험요인으로 1차 신호 감점 없음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1841330/000121390026120147/ea031227901ex99-1.htm",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "중국계1.0급등전신호-NAMI-PRICE_DROP_VOLUME_WATCH-20261028T192301Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "NAMI",
-      "category": "1차_가격급락_표시분봉거래량_급락후반등관찰_PROVISIONAL",
-      "detected_utc": "2026-10-28T20:31:23.220Z",
-      "summary": "2026-10-29 KST 토스 비연속 저장 관측 03:19:20 $1.65(표시 1분봉 30주) → 04:23:01 $1.55(표시 1분봉 6,801주), 약 -6.06%/약 64분. 최신 표시 분봉은 $1.53~$1.55 구간; 1분 6,801주가 과거 표본보다 크지만 서로 다른 시점·낮은 기준 분봉이므로 공식 RVOL/2·3·5·10·30·50배 가속 또는 지속적 대량거래 확정 아님. 가격 하락 관측만으로 LABT형 확정·저점방어·반등 확정 아님. 마지막 수집 04:24 KST로 이번 점검 시 1시간 이상 지연. 최신 SEC float/O/S·잠재 희석·즉시 매도 공급·A/B/C/D 미확인. 2026-10-28 신규 호재·공시 확인 안 됨. 위험 감점 없이 1차 잠정 관찰, 매수 신호 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7_CLOSE_CHSN_SHAREHOLDER_APPROVAL_100FOR1_20261027_DATE_ONLY",
       "task": "NASDAQ 7.0 장마감 종합보고",
@@ -5500,6 +5478,28 @@
       "summary": "2026-11-16 15:59 EST 표시 5분봉 기준 자체 상대거래량 4.26배. GitHub data.json 2026-11-16T22:43:46+00:00 저장본. 가격 방향·연속 가속·시장 전체 스캔 미확인. SEC 공급 2차 검증 별도.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-FLX-EARNINGS_DATE-20261117T090000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "FLX",
+      "category": "D+7_실적예정",
+      "detected_utc": "2026-11-17T09:13:56Z",
+      "summary": "2026-11-17 04:00 ET 회사 발표: 2026-11-24 미국 장전 3분기 미감사 실적 발표 예정. 07:00 ET 컨퍼런스콜. 실적 수치 및 거래량 신호 미확인. 1차 포착 순위와 독립.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404321/0/en/bingex-limited-to-report-third-quarter-2026-results-on-november-24-2026.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-HUIZ-OPERATING_METRICS-20261117T090000Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "HUIZ",
+      "category": "기업실적지표",
+      "detected_utc": "2026-11-17T09:13:56Z",
+      "summary": "2026-11-17 04:00 ET 발표: 2026년 1~9월 총보험료 RMB 6,711.8m(전년 6,001.0m), 첫해 보험료 RMB 4,202.2m(전년 3,787.8m). 주가·거래량 반응 미확인. SEC 공급 별도 미검증.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/17/3404320/0/en/huize-holding-limited-announces-select-operating-metrics-for-the-first-nine-months-of-2026.html",
+      "verification": "VERIFIED"
     }
   ]
 }
