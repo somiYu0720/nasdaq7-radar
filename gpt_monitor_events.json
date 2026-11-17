@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-16T22:43:46+00:00",
+  "updated_utc": "2026-11-17T08:34:37Z",
   "events": [
+    {
+      "id": "NASDAQ7조기포착사전공시|KTTA|PAS004_PHASE1_DATA_PHASE2_IND|20261116T130022Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "KTTA",
+      "category": "1차_임상결과_2상IND승인_VERIFIED",
+      "detected_utc": "2026-11-17T08:34:37Z",
+      "summary": "SEC 2026-11-16 08:00:22 EST 접수 8-K(11/13 발표): PAS-004 1/1b상 NF1 관련 피부 신경섬유종 평가가능 15명 전원 표적 병변 표면적 감소, 중앙값 최대 41%; 2상 계획 용량군 46%. FDA가 PAS-004-201 2상 IND 진행 허용. 이는 2상 성공 또는 신약 승인 아님. 거래량·가격 가속 및 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트·전환·즉시매도가능공급/A/B/C/D 미확인. 위험요인으로 1차 신호 감점 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1841330/000121390026120147/ea031227901ex99-1.htm",
+      "verification": "VERIFIED"
+    },
     {
       "id": "중국계1.0급등전신호-NAMI-PRICE_DROP_VOLUME_WATCH-20261028T192301Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5487,17 +5498,6 @@
       "category": "1차_거래량가속_PROVISIONAL",
       "detected_utc": "2026-11-16T22:43:46+00:00",
       "summary": "2026-11-16 15:59 EST 표시 5분봉 기준 자체 상대거래량 4.26배. GitHub data.json 2026-11-16T22:43:46+00:00 저장본. 가격 방향·연속 가속·시장 전체 스캔 미확인. SEC 공급 2차 검증 별도.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-CLRO-RVOL5-20261116T205900Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "CLRO",
-      "category": "1차_거래량가속_PROVISIONAL",
-      "detected_utc": "2026-11-16T22:43:46+00:00",
-      "summary": "2026-11-16 15:59 EST 표시 5분봉 기준 자체 상대거래량 2.04배. GitHub data.json 2026-11-16T22:43:46+00:00 저장본. 가격 방향·연속 가속·시장 전체 스캔 미확인. SEC 공급 2차 검증 별도.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
