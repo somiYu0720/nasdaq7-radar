@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-18T07:11:04Z",
+  "updated_utc": "2026-11-18T12:17:56Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-ACMR-Q3_2026_PRELIM_REVENUE_SEC8K-20261028T121300Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "ACMR",
-      "category": "1차_중국사업연계_3분기예비실적성장_8K_VERIFIED",
-      "detected_utc": "2026-10-28T22:40:35Z",
-      "summary": "미국 델라웨어 법인 ACM Research(ACMR)의 중국 ACM Shanghai 사업 연계 별도 관찰(일반 중국계 ADR 아님). 2026-10-28 SEC 8-K 및 EX-99.1 확인: 2026년 3분기 연결 매출 예비 전망 $360m~$365m, 전년 동기 대비 +34~36%; 출하액 예비 전망 $335m~$340m, +27~29%. 아직 미감사 예비치로 최종 확정 실적이 아님. 11/05 08:00 ET(한국 22:00) 실적·연간 전망 발표 예정(D+7). 중국 ACM Shanghai 지분율 2026-06-30 기준 73.2%, 그룹 매출 대부분 기여. 1차 뉴스/실적강도 신호 포착, 가격·거래량 2/3/5/10/30/50배 가속 및 5~15분 연속 분봉, 저점방어, 급등 전 여부 미확인; 위험 감점·삭제 없음. 2차 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석 및 실제 즉시 매도 가능 공급 미확인; A/B/C/D 최종 미분류.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1680062/000162828026067734/a1028_acmrq32026prelimreva.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-ACMR-FIRST_310MM_PANEL_TOOL_SHIPMENT-20261028T103000Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-17 15:59 EST 표시 5분봉 자체 상대거래량 rvol5=3.69배. 2026-11-18 07:06 UTC 갱신된 data.json에서 EARLY_PROVISIONAL. 과거 봉을 지연 조회한 결과로 현재 급등 전 신호나 연속 가속을 의미하지 않음. 가격 방향·저점 방어·SEC·float/O/S·A/B/C/D 공급 유형 미확인. 2차 위험으로 1차 신호를 감점하지 않음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|WBUY|WETRIP_CHATGPT_APP_LAUNCH|2026-11-18T04:30:00-05:00",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "WBUY",
+      "category": "1차_신규사업_제품출시_뉴스이벤트",
+      "detected_utc": "2026-11-18T12:17:56Z",
+      "summary": "2026-11-18 04:30 EST 회사 공식 보도자료: WEBUY GLOBAL LTD.(WBUY)는 중국 여행상품 탐색 및 맞춤형 여행 제안 요청을 위한 WeTrip 앱의 ChatGPT 출시를 발표. 발표 사실만 확인했으며 실제 이용자·매출 기여, 최신 거래량 가속·가격 방향·저점 방어는 미확인. 중국 관련 사업 이벤트로 1차 포착하며 2차 SEC·희석·실제 매도 가능 공급 A/B/C/D는 미확인. 1차 순위에 위험 감점 없음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/18/3405433/0/en/webuy-global-ltd-launches-wetrip-app-on-chatgpt-for-china-travel.html",
+      "verification": "VERIFIED"
     }
   ]
 }
