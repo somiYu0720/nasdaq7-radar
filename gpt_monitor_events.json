@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-17T19:22:16.942554Z",
+  "updated_utc": "2026-11-18T05:12:26Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-LUCD-RVOL5-20261028T195900Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "LUCD",
-      "category": "1차_급등전_거래량5분상대지표5.95배_PROVISIONAL",
-      "detected_utc": "2026-10-28T21:00:28+00:00",
-      "summary": "2026-10-28 15:59 EDT(2026-10-29 04:59 KST) 공개 포착기 data.json: LUCD EARLY_PROVISIONAL, 5분 상대거래량 내부 지표 rvol5=5.95. 데이터 저장 2026-10-28 21:00:28 UTC. 공식 RVOL 산식, 원시 5분봉 연속 가속, 가격·저점방어·급등 전 확정 여부 미확인. 2차: 과거 2026-04-24 보통주 공모 완료 및 10월 상장기준 미달 공시 이력 존재, 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·현재 즉시 매도 가능 공급 미확인, A/B/C/D 보류. 위험 감점 없이 1차 후보 유지.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-PRSO-RVOL5-20261028T195900Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-17T19:22:16.942554Z",
       "summary": "2026-11-17 19:15 UTC 완료 5분봉 기준 비공식 Yahoo 상대거래량 5.09배, 직전 양수 거래량 12개 5분봉 평균 대비. 시간대 보정 없음. 가격 방향·연속 가속·저점 방어 미확인. SEC 공급 유형 A/B/C/D 미확인. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시-AZI-CONVERTIBLE_INITIAL_CLOSE-20261118T024500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "AZI",
+      "category": "신규_자금조달_전환사채_초기종결",
+      "detected_utc": "2026-11-18T05:12:26Z",
+      "summary": "회사 2026-11-17 21:45 ET 발표: 11/17 선순위 담보 전환사채 원금 $12.75m 초기 종결. 최대 $17.25m 추가 발행은 미확정 조건부. 초기 전환가 $0.5232, 변동 전환가 및 초기 floor $0.10464(조정 가능). 최초 대금 $12.24m 중 현금 약 $1.65m, 기존 선급약속어음 상계 약 $2.85m, 제한 계좌 약 $7.74m. 회사 발표 확인, SEC 6-K·증권신고서 원문 및 실제 즉시 유통 가능 공급은 별도 미검증. 1차 포착 신호·순위에는 공급 위험 미반영; 가격·거래량 미확인.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/18/3405348/0/en/autozi-internet-technology-global-ltd-announces-closing-of-12-75-million-senior-secured-convertible-notes-offering.html",
       "verification": "PROVISIONAL"
     }
   ]
