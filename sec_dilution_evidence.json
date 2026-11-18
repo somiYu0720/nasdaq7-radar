@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-18T11:48:55.014939+00:00",
+  "checked_utc": "2026-11-18T20:36:40.109826+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -1067,6 +1067,27 @@
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
+    "ACRV": {
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1781174/000119312526463828/d185923ds3.htm",
+          "form": "S-3",
+          "excerpt": "s relating to our common stock; • directly to agents or other purchasers; • in “at the market offerings” within the meaning of Rule 415(a)(4) of the Securities Act, to or through a market maker or into an existing trading market, on an exchange or other"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1781174/000119312526463828/d185923ds3.htm",
+          "form": "S-3",
+          "excerpt": "incipal amount of debt securities that may be purchased upon exercise of a debt warrant and the exercise price for the warrants, which may be payable in cash, securities or other property; • the date, if any, on and after which the warrants and the related debt se"
+        }
+      ],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
     "AGIO": {
       "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
@@ -1135,6 +1156,14 @@
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
+    "APRE": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
     "AURE": {
       "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
@@ -1195,6 +1224,14 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "BDAI": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
+    "BHVN": {
       "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
@@ -1393,6 +1430,22 @@
       "classification_level": "KEYWORD_ONLY"
     },
     "CRML": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
+    "CRVO": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
+    "CTMX": {
       "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
@@ -1616,7 +1669,23 @@
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
+    "HUMA": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
     "IMRX": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
+    "INBX": {
       "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
       "errors": [],
@@ -1738,9 +1807,81 @@
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
+    "PMVP": {
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1699382/000119312526378838/d113784d8k.htm",
+          "form": "8-K",
+          "excerpt": "combined offering price per share of Common Stock and accompanying Common Stock Warrant less the $0.00001 exercise price of each Pre-Funded Warrant. The offering is expected to close on September 2, 2026, subject to customary closing conditions. Each Pre-Funded Warrant has "
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1699382/000119312526378780/d95425d424b5.htm",
+          "form": "424B5",
+          "excerpt": "ing a Smaller Reporting Company We are a “smaller reporting company,” meaning that the market value of our shares held by non-affiliates plus the proposed aggregate amount of gross proceeds to us as a result of this offering is less than $700.0 million "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1699382/000119312526378780/d95425d424b5.htm",
+          "form": "424B5",
+          "excerpt": "on the 60th calendar day thereafter, we may require the holders of common stock warrants to exercise up to 50% of their common stock warrants for cash, or the Mandatory Exercise. Any common stock warrant which has not been exercised pursuant to the Mandatory E"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1699382/000119312526377000/d172117d424b3.htm",
+          "form": "424B3",
+          "excerpt": " from time to time under the terms of an Open Market Sale Agreement SM , or the sales agreement, dated October 4, 2021, with Jefferies LLC, or Jefferies. In accordance with the terms of the sales agreement, under the ATM Prospectus Supplement, we could of"
+        }
+      ],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
     "PYPD": {
       "status": "SEC_SUBMISSIONS_FETCHED",
       "evidence": [],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
+    "PYXS": {
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1782223/000143774926031767/pyxs20261001_8k.htm",
+          "form": "8-K",
+          "excerpt": "s equal to the combined public offering price per Share and accompanying Common Warrant less the $0.001 exercise price of each Pre-Funded Warrant. The Shares (or Pre-Funded Warrants) and the accompanying Common Warrants could only be purchased together in the Offering, bu"
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1782223/000143774926031667/pyxs20260930_424b5.htm",
+          "form": "424B5",
+          "excerpt": "se be financially beneficial for them to do so, and there can be no assurance that the market price of our common stock will exceed the exercise price of the common warrants at any time during their term. In addition, we will be required to continue to "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1782223/000143774926031667/pyxs20260930_424b5.htm",
+          "form": "424B5",
+          "excerpt": "f common stock issuable upon exercise of the pre-funded warrants and the common warrants. The exercise price of each common warrant equals $3.50 per share. The common warrants will not be exercisable unless and until (i) our stockholders approve an amendment to "
+        },
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1782223/000143774926031480/pyxs20260909_424b5.htm",
+          "form": "424B5",
+          "excerpt": "se be financially beneficial for them to do so, and there can be no assurance that the market price of our common stock will exceed the exercise price of the common warrants at any time during their term. In addition, we will be required to continue to "
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1782223/000143774926031480/pyxs20260909_424b5.htm",
+          "form": "424B5",
+          "excerpt": "f common stock issuable upon exercise of the pre-funded warrants and the common warrants. The exercise price of each common warrant equals $ per share. The common warrants will not be exercisable unless and until (i) our stockholders approve an amendment to our "
+        }
+      ],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
