@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-18T13:08:50Z",
+  "updated_utc": "2026-11-18T14:12:47Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-WB-Q3_2026_EARNINGS_DATE_SEC6K-20261028T113400Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "WB",
-      "category": "1차_D30_11월17일_3분기실적발표일정_SEC6K_VERIFIED",
-      "detected_utc": "2026-10-28T22:40:35Z",
-      "summary": "Weibo(WB) 2026-10-28 SEC 6-K EX-99.1 검증: 2026-11-17 3분기 미감사 실적을 홍콩 장 마감 후 미국장 개장 전 발표 예정(D+19); 당일 19:00 HKT(한국 20:00) 실적 컨퍼런스콜. 실적 내용·호재 여부는 아직 미발표. 중국계 대형주 D+30 일정 관찰, 소형주 급등 전 확정 후보로 취급하지 않음. 거래량 2/3/5/10/30/50배·5~15분 가속·저점방어·현재가 미확인으로 가격 순위 산정 보류. 2차 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환·잠재 희석 및 실제 즉시 매도 가능 공급 미확인; A/B/C/D 보류. 위험 감점 없음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1595761/000110465926119361/tm2628436d1_ex99-1.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-EMAT-ULVAC57_DELIVERY_POHANG_8K-20261028T123500Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-18 22:08 KST Toss 1분봉: INLF $0.4464, 해당 분 거래량 959,021주, 저가 $0.4200 고가 $0.4488. 앞선 13:29 KST 자료 $0.3525와 비교 시 약 +26.6%이나 동일 시점·연속 분봉 비교가 아니므로 급등 전이 아닌 가격 변동 관찰. RVOL 2/3/5/10/30/50배 가속·저점방어·실제 반등 및 뉴스 원인 미확인. SEC 원문 미검증, 2차 float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·즉시 매도 공급 및 A/B/C/D 미확인. 공급 위험은 1차 평가에 미반영.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시-WETH-ROBOTICS_25M_FRAMEWORK-20261118T134500Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "WETH",
+      "category": "NEWS_CONTRACT_FRAMEWORK",
+      "detected_utc": "2026-11-18T14:12:47Z",
+      "summary": "2026-11-18 08:45 ET 회사 공식 발표: WeTouch Technology(WETH)는 Anhui Changxin Huitong과 로봇용 통합 터치스크린 시스템 공급에 관한 총 2,500만 달러 규모의 조달 기본계약(framework agreement)을 발표. 후속 개별 발주에 따라 수량·일정이 결정되며 2,500만 달러는 확정 주문·인식 매출·보장 매출이 아님. 최대주주가 자기자금으로 최소 100만 달러 주식 장내 매입 계획을 알렸으나 실제 매입 완료 미확인, 회사 자사주 매입이 아님. 1차 신규 사업·계약 뉴스 포착이며 가격 방향·RVOL 2~50배 가속·저점 방어 미확인. 2차 SEC/float/O/S 및 즉시 매도 가능 공급 A/B/C/D 미확인. 2차 위험은 1차 포착 순위에 미반영.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/18/3405658/0/en/wetouch-technology-announces-25-million-supply-agreement-for-integrated-touchscreen-systems-advancing-its-expansion-across-robotics-and-smart-device-supply-chains.html",
+      "verification": "VERIFIED"
     }
   ]
 }
