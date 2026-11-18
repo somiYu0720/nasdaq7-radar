@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-18T16:46:27Z",
+  "updated_utc": "2026-11-18T16:58:00Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-COHU-Q3_2026_EARNINGS_BOOKINGS126_SEC8K-20261028T200700Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "COHU",
-      "category": "1차_실적급증_수주126퍼센트_SEC8K_VERIFIED",
-      "detected_utc": "2026-10-29T01:44:19Z",
-      "summary": "2026-10-28 16:07 EDT SEC 접수 8-K(0001437749-26-033788) EX-99.1 발행사 IR 공시 원문 대조: Cohu 2026 회계 3분기 매출 $173.0m(+37% YoY), GAAP 순이익 $12.1m(전년 -$4.1m), 수주 bookings +126% YoY(시스템 +318%, 반복성 +36%), 2026년 HPC 매출 전망 약 $120m로 상향, 4분기 매출 가이던스 $178m±$7m. 수주 증가율은 거래량 증가율이 아니며 수주/파이프라인을 확정 매출로 해석하지 않음. 1차 실적 급증·수주 강도 이벤트로만 관찰; 2/3/5/10/30/50배 거래량 가속, 5~15분 연속 분봉, 주가·저점방어·급등 전/진행 여부는 미확인. 2차 2025년 발행 2031 만기 전환사채 관련 D형 잠재 요소는 있으나 최신 잔액·행사/전환 여부·Float/O/S·ATM/ELOC/PIPE/Resale/워런트와 실제 즉시 매도 가능 공급은 미확인, 최종 A/B/C/D 판정 보류. 2차 위험은 1차 포착 순위 감점·삭제에 사용하지 않음.",
-      "source_url": "https://ir.cohu.com/node/20036/html",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-NNBR-Q3_2026_EARNINGS_GUIDANCE_SEC8K-20261028T211700Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-18 08:00 ET 회사 공식 발표: ZJK가 XPO MSA 참여 기업에 AI 고밀도 광학 연결용 정밀 구조·액체냉각 부품의 첫 엔지니어링 샘플을 2026년 10월 말 납품. 공동 호환성 시험 진행 중이며 상용 공급계약·매출 확정 아님. 가격/거래량 가속 및 SEC 공급 유형 미확인.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/18/3405583/0/en/zjk-delivers-first-batch-of-xpo-msa-engineering-samples-for-next-gen-ai-liquid-cooled-optics.html",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호|CHSN|ONE_MIN_VOLUME_PRICE_DISCREPANCY|2026-11-18T16:58:00Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "CHSN",
+      "category": "1차_급락_대량거래_시세불일치_검증대기",
+      "detected_utc": "2026-11-18T16:58:00Z",
+      "summary": "Toss partial 1분봉 2026-11-19 01:58 KST CHSN $0.1156 / 1,487,677주 표시. 이전 관찰 $0.5134 대비 -77.5%이나 공개 일별 시세와 불일치해 가격 신뢰성 검증 필요. 급락·대량거래 동시 포착으로 유지하며 5분 RVOL 미확인. SEC 및 즉시 매도 공급 A/B/C/D 미검증. 매수 신호 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
