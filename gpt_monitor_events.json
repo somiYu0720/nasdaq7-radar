@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-18T16:58:00Z",
+  "updated_utc": "2026-11-18T17:05:35Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-NNBR-Q3_2026_EARNINGS_GUIDANCE_SEC8K-20261028T211700Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "NNBR",
-      "category": "1차_실적성장_가이던스상향_20261028_SEC8K_VERIFIED",
-      "detected_utc": "2026-10-29T02:47:48.711Z",
-      "summary": "2026-10-28 17:17 EDT 접수 SEC 8-K(0000918541-26-000118) EX-99.1: NNBR Q3 매출 $131.1m(+26.2% YoY), 조정 EBITDA $18.5m(+49.7% YoY), GAAP 순손실 $4.6m(전년 $6.7m), GAAP 영업손실 $3.3m(전년 $2.2m). 2026 매출 가이던스 $480m~$500m, 조정 EBITDA $64m~$68m, 신규 수주 $110m~$130m로 상향. 매출 성장에는 원재료 가격 전가와 환율 효과 포함, 수주/파이프라인은 확정 매출 아님. 1차 뉴스·실적 신호만 포착, 거래량 2/3/5/10/30/50배 가속·5~15분 분봉·주가/저점방어·급등 전 여부 미확인으로 거래량 기반 TOP10 산정 보류. 2차 SEC 2026-10-26 424B3: 재판매 대상 총 16,100,000주(기발행 11,275,605주+선납형 워런트 행사 4,824,395주), 10/26 EFFECT 보고. 재판매 등록/효력 C형 공급 활성 가능 요소, 선납형 워런트 D형 요소; 10/07 O/S 93,744,210주. 실제 행사·매도 여부, 잔여 즉시 매도 가능 물량, 최신 float, ATM/ELOC/PIPE/기타 워런트·전환 미확인. 재판매 대상 전량이 실제 시장 매도된 것으로 단정하지 않음. 공급 위험으로 1차 순위 감점/삭제 없음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/918541/000091854126000118/pressrelease2026-q3.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-INBX-MSTS_CHONDRAGON_SECONDARY_ENDPOINT_PRESENTATION-20261013_DATE_ONLY",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-18T16:58:00Z",
       "summary": "Toss partial 1분봉 2026-11-19 01:58 KST CHSN $0.1156 / 1,487,677주 표시. 이전 관찰 $0.5134 대비 -77.5%이나 공개 일별 시세와 불일치해 가격 신뢰성 검증 필요. 급락·대량거래 동시 포착으로 유지하며 5분 RVOL 미확인. SEC 및 즉시 매도 공급 A/B/C/D 미검증. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-PRSO-5M_RVOL_11P10-20261118T165500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "PRSO",
+      "category": "1차_거래량가속_급등전여부미확인",
+      "detected_utc": "2026-11-18T17:05:35Z",
+      "summary": "2026-11-18 16:55 UTC 5분봉 Yahoo 비공식 데이터 상대거래량 11.10배, 기준선 STANDARD(직전 완료 12개 5분봉 중 양수 거래량 9개). 레이더 EARLY_PROVISIONAL. 시각별 기준선 보정 없음. 주가 방향·연속 가속·저점 방어·급등 전/진행·급락 반등·재점화 미확인. 2차 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석과 실제 즉시 매도 가능 공급 A/B/C/D 미확인. 위험으로 1차 순위 변경 없음. 매수 추천 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
