@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-18T17:05:35Z",
+  "updated_utc": "2026-11-18T17:38:42Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-INBX-MSTS_CHONDRAGON_SECONDARY_ENDPOINT_PRESENTATION-20261013_DATE_ONLY",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "INBX",
-      "category": "1차_D1_임상2상_핵심보조지표학회발표예정_공식IR_VERIFIED",
-      "detected_utc": "2026-10-29T02:47:48.711Z",
-      "summary": "Inhibrx 2026-10-13 발행사 공식 발표 검증: 2026-10-29 14:50~15:40 EDT(한국시간 10/30 03:50~04:40) MSTS 연례학회에서 ozekibart(INBRX-109) 연골육종 등록목적 2상 ChonDRAgon 연구의 보조 효능평가변수(secondary efficacy endpoints)를 구두 발표 예정(초록 19, Robin Jones). 기존 2025년 1차 PFS 성공과 별개로 이번 발표의 추가 수치/새로운 효능은 아직 미공개·미검증, FDA 승인 발표가 아님. 1차 D+1 강력 임상 일정 관찰, 가격·거래량 2~50배·분봉 가속·저점방어·급등 전/진행 여부 미확인. 2차 최신 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 잠재 희석·실제 즉시 매도 공급 미확인, A/B/C/D 판정 보류. 위험 감점·1차 순위 재정렬 없음.",
-      "source_url": "https://inhibrx.investorroom.com/2026-10-13-Inhibrx-Announces-Participation-in-Upcoming-Scientific-Conferences",
-      "verification": "VERIFIED"
-    },
     {
       "id": "중국계1.0급등전신호-ECX-Q3_2026_EARNINGS_SCHEDULE-20261021T110000Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5498,6 +5487,17 @@
       "category": "1차_거래량가속_급등전여부미확인",
       "detected_utc": "2026-11-18T17:05:35Z",
       "summary": "2026-11-18 16:55 UTC 5분봉 Yahoo 비공식 데이터 상대거래량 11.10배, 기준선 STANDARD(직전 완료 12개 5분봉 중 양수 거래량 9개). 레이더 EARLY_PROVISIONAL. 시각별 기준선 보정 없음. 주가 방향·연속 가속·저점 방어·급등 전/진행·급락 반등·재점화 미확인. 2차 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석과 실제 즉시 매도 가능 공급 A/B/C/D 미확인. 위험으로 1차 순위 변경 없음. 매수 추천 아님.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-KTTA-RVOL5-20261118T173000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "KTTA",
+      "category": "1차_거래량가속_급등전여부미확인",
+      "detected_utc": "2026-11-18T17:38:42Z",
+      "summary": "2026-11-18 17:30 UTC 완료 5분봉 Yahoo 비공식 자료의 5분 상대거래량 9.12배, 기준선 STANDARD(직전 12개 완료 5분봉 중 양수 거래량 10개), 시간대 보정 없음. EARLY_PROVISIONAL. 가격 방향, 연속 가속, 저점 방어, 급등 전/진행·급락 후 반등·재점화 미확인. 2차 SEC, float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 잠재 희석/즉시 매도 가능 공급 A/B/C/D 미확인. 공급 위험은 1차 순위에 반영하지 않음. 매수 추천 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
