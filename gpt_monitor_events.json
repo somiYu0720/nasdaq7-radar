@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-18T21:05:35Z",
+  "updated_utc": "2026-11-18T21:16:47Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-IOVA-IOVLUN202_PHASE2_POSITIVE_DATA_WEBCAST-20261028T230000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "IOVA",
-      "category": "1차_D0_임상2상_폐암긍정결과설명회_회사공식발표_PROVISIONAL",
-      "detected_utc": "2026-10-29T08:17:46Z",
-      "summary": "2026-10-28 19:00 EDT Iovance 발행사 보도자료: 2026-10-29 08:30 EDT(한국 10/29 21:30) 투자자 웹캐스트에서 IOV-LUN-202 등록목적 2상 코호트의 비편평 전이성 비소세포폐암(mNSCLC) lifileucel TIL 치료 '긍정적 결과'와 정밀의료 전략을 설명할 예정. 보도자료는 구체적인 신규 반응률·생존율 수치를 제공하지 않아 임상 효능 성공/승인 확정으로 단정 금지. 회사 발표 확인, 해당 이벤트 SEC 원문 대조 미완료로 PROVISIONAL. 1차 뉴스·임상 일정 촉매만 평가; 거래량 2/3/5/10/30/50배, 5~15분 가속, 가격·저점방어, 급등 전/진행 여부 미확인. 2차 최신 Float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석 및 실제 즉시 매도 가능한 공급 미확인, A/B/C/D 판정 보류. 위험 감점·1차 순위 재정렬 없음.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/28/3390870/0/en/iovance-biotherapeutics-to-host-webcast-on-positive-data-for-til-therapy-in-metastatic-non-small-cell-lung-cancer-mnsclc-and-broader-precision-medicine-strategy.html",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-SWMR-RATEL_ACQUISITION_SHAREHOLDER_VOTE_NOV02-20261026T160000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "SWMR",
-      "category": "1차_D4_확정인수계약_주주승인투표_11월2일_SEC_DEFM14A_VERIFIED",
-      "detected_utc": "2026-10-29T08:17:46Z",
-      "summary": "2026-10-26 12:00 EDT Swarmer 발행사 발표, 2026-10-06 SEC DEFM14A 및 2026-09-09 SEC 8-K 대조: 우크라이나 Ratel Robotics 지분 100% 인수 계약은 9/9 체결되었으나 종결 미완료. 2026-10-29 08:30 EDT(한국 21:30) 인수 관련 투자자 콜, 2026-11-02 10:00 EST(한국 11/03 00:00) 주총에서 인수 대가 신주 최대 5,487,067주 발행 승인안 표결 예정. 회사는 Ratel의 2026년 우크라이나 정부 계약 8,600만달러 초과, 약 70% 선지급이라고 발표했으나 이는 Ratel의 계약이며 SWMR 인식 매출이나 인수 완료가 아님. 1차 M&A·확정 투표 일정 신호만 평가, 가격·거래량 2~50배·저점방어 미확인. 2차 SEC: 종결 시 1,064,942주+실적 조건부 최대 4,422,125주, 주식 대가 6개월 락업 및 향후 재판매 등록권(잠재 D형/제한형 A 요소); 기존 ELOC 과거 사용 확인하나 최신 가동·잔여·즉시 매도가능 수량, 최신 Float/O/S 및 기타 ATM/PIPE/워런트/전환 미확인, A/B/C/D 최종 보류. 1차 위험 감점·순위변경 없음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2092574/000110465926114040/tm2625952-2_defm14a.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-STRL-Q3_REVENUE127_GUIDANCE_RAISE_SEC8K-20261028T201300Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5500,6 +5478,28 @@
       "summary": "2026-11-18 20:59 UTC 저장된 1분봉 기반 회전배치: 5분 RVOL 5.29배, 5분 가속 3.08배, 15분 가격변화 0.35%. 무료 시세 지연 가능, 전체시장 전수검사 아님. EARLY_PRE는 잠정 신호이며 가격 추세/저점 방어 및 SEC/공급 A/B/C/D 미검증. 희석 위험은 1차 순위 미반영.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|MASK|NASDAQ_BID_COMPLIANCE_REGAINED|20261118T080000-0500",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "MASK",
+      "category": "2차_나스닥상장요건회복_청문취소",
+      "detected_utc": "2026-11-18T13:00:00Z",
+      "summary": "11/18 SEC 6-K Exhibit 99.1 확인: 11/16 Nasdaq 최소호가 요건 준수 회복 통지. 12/08 예정 상장폐지 청문 취소, 나스닥 거래 유지. 기존 10/27 상폐 결정 통지의 후속 해소 이벤트. 1차 가격·거래량 순위에는 상장 위험/해소를 감점·가점하지 않음. 2차 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·즉시 매도 공급 및 A/B/C/D 미확인. 가격·RVOL 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1993097/000118518526005515/maskex99-1.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|TNMG|NASDAQ_EQUITY_COMPLIANCE_REGAINED|20261118",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "TNMG",
+      "category": "2차_나스닥자기자본요건회복_1년감시",
+      "detected_utc": "2026-11-18T00:00:00Z",
+      "summary": "11/18 SEC 6-K 확인: 11/16 Nasdaq 자기자본 최소 $2.5m 요건 준수 회복 통지. 10/30 일본 자회사 매각 완료에 따른 후속 상장 요건 회복. 1년 Mandatory Panel Monitor 적용, 재위반 시 통상 시정기간 없이 상폐 결정 통지 가능(청문 신청 가능). 1차 순위·후보 유지. 2차 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·즉시 매도 공급 및 A/B/C/D 미확인. 거래량·가격 가속 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2013186/000121390026121694/ea0312623-6k_tnl.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
