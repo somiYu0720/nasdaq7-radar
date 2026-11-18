@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-18T15:49:30Z",
+  "updated_utc": "2026-11-18T16:46:27Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-GLUE-NOVARTIS_PHASE2_PSORIATIC_ARTHRITIS_MILESTONE_37_5M-20261028T110000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "GLUE",
-      "category": "1차_확정계약마일스톤_노바티스2상진입_3750만달러_회사발표_PROVISIONAL",
-      "detected_utc": "2026-10-29T01:07:16Z",
-      "summary": "2026-10-28 07:00 EDT Monte Rosa Therapeutics 발행사 보도자료: Novartis가 MRT-6160(DDY391) 건선성관절염 2상 연구를 개시, 첫 환자 방문에 따라 Monte Rosa가 기존 라이선스 계약상 $37.5m 마일스톤 지급받을 예정이라고 발표. 연구 개시/지급 청구 발생 회사 발표이며 현금 실제 수령·FDA 허가·임상 효능 성공 아님. 같은 날 SEC 8-K 직접 대조 미완료로 PROVISIONAL. 1차 강력 계약 이행·임상 이벤트 관찰, 2/3/5/10/30/50배 거래량 가속·가격·저점방어·급등전 여부 미확인. 2차 과거 2026-02-11 SEC S-3ASR에 $100m ATM 등록 확인, 현재 매각 잔여·최신 float/O/S·ELOC/PIPE/Resale/워런트/전환·실제 즉시 매도 가능 공급 미확인; A/B/C/D 최종 판정 보류. 위험 감점 없음.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/28/3390005/0/en/monte-rosa-therapeutics-announces-milestone-achievement-associated-with-second-phase-2-clinical-study-initiation-for-vav1-directed-molecular-glue-degrader-mrt-6160-ddy391.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-COHU-Q3_2026_EARNINGS_BOOKINGS126_SEC8K-20261028T200700Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-18 15:40 UTC 완료 5분봉 Yahoo 비공식 데이터 RVOL 7.41배(이전 12개 완료 5분봉 중 양수 거래량 5개만 기준, LIMITED; 동일 시간대 보정 없음). Toss 1분봉 00:48 KST 가격 $0.4401, 거래량 207주. 5분 가속은 잠정 신호이며 가격 상승/저점 방어/급등 전 단계는 미확인. SEC 및 실제 즉시 매도 가능 공급 미검증. 희석 위험으로 1차 순위 감점하지 않음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "china1_news_filings_ZJK_XPO_engineering_sample_delivery_2026-11-18T08:00:00-05:00",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "ZJK",
+      "category": "AI 인프라·엔지니어링 샘플 납품",
+      "detected_utc": "2026-11-18T16:46:27Z",
+      "summary": "2026-11-18 08:00 ET 회사 공식 발표: ZJK가 XPO MSA 참여 기업에 AI 고밀도 광학 연결용 정밀 구조·액체냉각 부품의 첫 엔지니어링 샘플을 2026년 10월 말 납품. 공동 호환성 시험 진행 중이며 상용 공급계약·매출 확정 아님. 가격/거래량 가속 및 SEC 공급 유형 미확인.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/18/3405583/0/en/zjk-delivers-first-batch-of-xpo-msa-engineering-samples-for-next-gen-ai-liquid-cooled-optics.html",
+      "verification": "VERIFIED"
     }
   ]
 }
