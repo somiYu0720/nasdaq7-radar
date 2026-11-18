@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-18T12:17:56Z",
+  "updated_utc": "2026-11-18T13:08:50Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시-ACMR-FIRST_310MM_PANEL_TOOL_SHIPMENT-20261028T103000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "ACMR",
-      "category": "1차_중국사업연계_신제품최초상업납품_회사발표_PROVISIONAL",
-      "detected_utc": "2026-10-28T22:40:35Z",
-      "summary": "2026-10-28 06:30 EDT 회사 보도자료: ACM Research가 310×310mm Ultra ECP ap-p 패널 수평 전기도금 생산장비를 중국 본토 외 아시아 고객에 첫 출하했다고 발표. 실제 출하 발표이며 계약금액·대금 수령·매출 인식은 미확인. 미국 법인이나 중국 사업 연계 관찰 종목으로만 포함. 해당 제품 납품의 SEC 개별 공시 원문 미대조로 PROVISIONAL. 1차 뉴스 이벤트만 포착, 거래량 가속·분봉·저점방어·급등 전 단계 미확인. 2차 최신 float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인; A/B/C/D 보류, 위험 감점 없음.",
-      "source_url": "https://www.stocktitan.net/news/ACMR/acm-research-announces-shipment-of-its-first-310-310-mm-ultra-ecp-ap-1ijqqf0140kh.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시-WB-Q3_2026_EARNINGS_DATE_SEC6K-20261028T113400Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-18 04:30 EST 회사 공식 보도자료: WEBUY GLOBAL LTD.(WBUY)는 중국 여행상품 탐색 및 맞춤형 여행 제안 요청을 위한 WeTrip 앱의 ChatGPT 출시를 발표. 발표 사실만 확인했으며 실제 이용자·매출 기여, 최신 거래량 가속·가격 방향·저점 방어는 미확인. 중국 관련 사업 이벤트로 1차 포착하며 2차 SEC·희석·실제 매도 가능 공급 A/B/C/D는 미확인. 1차 순위에 위험 감점 없음.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/18/3405433/0/en/webuy-global-ltd-launches-wetrip-app-on-chatgpt-for-china-travel.html",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-INLF-ONE_MINUTE_VOLUME_959021-20261118T130800Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "INLF",
+      "category": "1차_대량거래_가격변동관찰_PROVISIONAL",
+      "detected_utc": "2026-11-18T13:08:00Z",
+      "summary": "2026-11-18 22:08 KST Toss 1분봉: INLF $0.4464, 해당 분 거래량 959,021주, 저가 $0.4200 고가 $0.4488. 앞선 13:29 KST 자료 $0.3525와 비교 시 약 +26.6%이나 동일 시점·연속 분봉 비교가 아니므로 급등 전이 아닌 가격 변동 관찰. RVOL 2/3/5/10/30/50배 가속·저점방어·실제 반등 및 뉴스 원인 미확인. SEC 원문 미검증, 2차 float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·즉시 매도 공급 및 A/B/C/D 미확인. 공급 위험은 1차 평가에 미반영.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
