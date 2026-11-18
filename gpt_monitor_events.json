@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-18T15:10:09Z",
+  "updated_utc": "2026-11-18T15:49:30Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-ADIL-AZR_TICKER_CHANGE_SHAREHOLDER_APPROVAL-20261028T200200Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "ADIL",
-      "category": "1차_기업구조변경_10월29일_AZR티커전환_주주승인_SEC8K_VERIFIED",
-      "detected_utc": "2026-10-29T01:07:16Z",
-      "summary": "2026-10-28 16:02 EDT 회사 발표 및 SEC 8-K(0001213900-26-113337) 확인: Adial Pharmaceuticals가 Azora Therapeutics로 사명 변경, 10/29 미국장 개장부터 ADIL→AZR로 거래 예정(실제 첫 거래 확인 전). 10/28 주총에서 Series A 전환 보통주 12,930,601주, 기존 옵션 행사 최대 1,177,782주, 선납형 워런트 행사 최대 11,780,948주, 마일스톤 관련 워런트 행사 최대 23,561,896주 발행안 승인; 정관상 발행가능주식 1억→5억주 확대. 주주 승인과 실제 발행/행사/즉시 시장매도 가능 공급은 다름. 1차는 티커전환·구조변경 뉴스만 평가하며 거래량 2/3/5/10/30/50배·5~15분 분봉·가격/저점방어/급등전 여부 미확인. 2차 잠재 공급은 우선주 전환·PFW·마일스톤 워런트로 D형 복합 요소, S-3/재판매 등록 효력·잔여·최신 float/O/S·실제 즉시 매도가능 수량 미확인, 최종 A/B/C/D 보류. 희석·상장 위험은 1차 순위 감점·삭제에 사용하지 않음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1513525/000121390026113337/ea0309977-8k_adial.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-GLUE-NOVARTIS_PHASE2_PSORIATIC_ARTHRITIS_MILESTONE_37_5M-20261028T110000Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5500,6 +5489,17 @@
       "summary": "11/18 07:00 EST 회사 발표: 2026년 1~9월 미감사 매출 8,210만 달러(+38.5% YoY), 순이익 560만 달러(전년 동기 630만 달러 손실). 공식 발표 실적이며 향후 성과 보장 아님. 가격/RVOL 및 2차 SEC 공급 A/B/C/D 미확인.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/18/3405526/0/en/kandi-technologies-reports-unaudited-financial-results-for-the-nine-months-ended-september-30-2026.html",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호|DTSS|5M_RVOL_7_41|2026-11-18T15:40:00Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "DTSS",
+      "category": "1차_5분상대거래량가속_급등전여부미확인",
+      "detected_utc": "2026-11-18T15:49:30Z",
+      "summary": "2026-11-18 15:40 UTC 완료 5분봉 Yahoo 비공식 데이터 RVOL 7.41배(이전 12개 완료 5분봉 중 양수 거래량 5개만 기준, LIMITED; 동일 시간대 보정 없음). Toss 1분봉 00:48 KST 가격 $0.4401, 거래량 207주. 5분 가속은 잠정 신호이며 가격 상승/저점 방어/급등 전 단계는 미확인. SEC 및 실제 즉시 매도 가능 공급 미검증. 희석 위험으로 1차 순위 감점하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
