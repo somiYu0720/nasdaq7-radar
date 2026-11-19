@@ -1,39 +1,6 @@
 {
-  "updated_utc": "2026-11-19T15:41:05.691799+00:00",
+  "updated_utc": "2026-11-19T16:48:24Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-PCLA-PREMARKET_VOLUME_PRICE_SPIKE-20261029T075200EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "PCLA",
-      "category": "1차_프리장_거래량가격이상_급등진행_지연스냅샷",
-      "detected_utc": "2026-10-29T12:10:08Z",
-      "summary": "2026-10-29 07:52 EDT 기준 15분 지연 제3자 프리장 스냅샷 PCLA $7.91, 전일 종가 대비 +31.83%, 프리장 거래량 5.17m주. 2026-10-28 정규장 종가 $5.96 및 거래량 약 3,505주와 대비해 활동량 급증이지만 서로 다른 세션 비교로 5분 RVOL 2/3/5/10/30/50배로 판정하지 않음. 급등 진행형, 뉴스 촉매·5~15분 가속·저점방어·현시점 가격 미확인. 2차 최신 Float/O/S·2026년 기존 6-K 발행·ATM/ELOC/Resale/PIPE·워런트/전환·실제 즉시 매도 공급 미확인, A/B/C/D 보류. SEC 직접 대조 미완료로 PROVISIONAL. 위험에 따른 1차 감점/삭제 없음.",
-      "source_url": "https://stocksetups.com/movers/premarket",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-KDK-PREMARKET_PRICE_VOLUME_SURGE-20261029T075200EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "KDK",
-      "category": "1차_프리장_가격거래량이상_급등진행_지연스냅샷",
-      "detected_utc": "2026-10-29T12:10:08Z",
-      "summary": "2026-10-29 07:52 EDT 기준 15분 지연 제3자 프리장 스냅샷 KDK $1.45, 전일 종가 대비 +11.11%, 프리장 거래량 5.91m주. 뉴스 원인·5~15분 가속·동시간대 RVOL 2/3/5/10/30/50배·저점방어·현재가 미확인; 10% 넘는 상승 진행형으로 급등 전 포착 아님. 2차 과거 KDK SEC 10-K에 공개워런트 등 존재하지만 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트 실제 행사 및 즉시 매도 가능 공급 미확인, A/B/C/D 최종 보류. SEC 신규 원문 직접 대조 미완료 PROVISIONAL. 1차 순위 위험 감점 없음.",
-      "source_url": "https://stocksetups.com/movers/premarket",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-DKI-PREMARKET_PRICE_VOLUME_SURGE-20261029T075200EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "DKI",
-      "category": "1차_프리장_가격거래량이상_10퍼센트이하_지연스냅샷",
-      "detected_utc": "2026-10-29T12:10:08Z",
-      "summary": "2026-10-29 07:52 EDT 기준 15분 지연 제3자 프리장 스냅샷 DKI $2.00, 전일 종가 대비 +8.70%, 프리장 거래량 2.75m주. 상승률 10% 이내의 가격·거래량 이상 관찰 후보이나, 5~15분 가속·동시간대 RVOL 2/3/5/10/30/50배·저점방어·최근 뉴스·급등 전인지 여부는 미확인. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·실제 즉시 매도 가능 공급 미확인으로 A/B/C/D 판정 보류. SEC 미대조 PROVISIONAL. 위험으로 1차 감점/제외 없음.",
-      "source_url": "https://stocksetups.com/movers/premarket",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-LITE-MRVL_LITE_ACQUISITION_TALKS_RUMOR-20261028T231000Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5498,6 +5465,39 @@
       "category": "급등 전 관찰_거래량 가속_잠정",
       "detected_utc": "2026-11-19T15:41:05.691799+00:00",
       "summary": "2026-11-19 15:35 UTC 5분봉 RVOL 3.57배, EARLY_PROVISIONAL; Yahoo 비공식 5분 자료, 이전 최대 12개 양수 거래량 봉 대비 비시간대보정 기준. 가격 흐름 및 SEC 검증 미완료.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|LABT|RVOL5|20261119T164000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LABT",
+      "category": "1차_거래량가속_급락후반등관찰_잠정",
+      "detected_utc": "2026-11-19T16:48:24Z",
+      "summary": "2026-11-19 16:40 UTC 비공식 Yahoo 5분봉 RVOL 3.85배. 직전 12개 완료 5분봉 중 양수 거래량 12개 기준이며 시간대 보정 없음. EARLY_PROVISIONAL 표시; 급락 후 반등 여부는 가격 흐름 미확인으로 판정 보류. 연속 가격·뉴스·SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 공급 미확인, A/B/C/D 보류. 1차 위험 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|BAOS|RVOL5|20261119T163500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "BAOS",
+      "category": "1차_거래량가속_기준표본부족_관찰",
+      "detected_utc": "2026-11-19T16:48:24Z",
+      "summary": "2026-11-19 16:35 UTC 비공식 Yahoo 5분봉 RVOL 18.85배. 직전 12개 완료 5분봉 중 양수 거래량 3개 기준이며 시간대 보정 없음. 기준 표본 부족(LIMITED)으로 신호 확정 불가. 연속 가격·뉴스·SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 공급 미확인, A/B/C/D 보류. 1차 위험 감점 없음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|EZGO|RVOL5|20261119T163500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "EZGO",
+      "category": "1차_거래량가속_기준표본부족_관찰",
+      "detected_utc": "2026-11-19T16:48:24Z",
+      "summary": "2026-11-19 16:35 UTC 비공식 Yahoo 5분봉 RVOL 6.07배. 직전 12개 완료 5분봉 중 양수 거래량 4개 기준이며 시간대 보정 없음. 기준 표본 부족(LIMITED)으로 신호 확정 불가. 연속 가격·뉴스·SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 공급 미확인, A/B/C/D 보류. 1차 위험 감점 없음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
