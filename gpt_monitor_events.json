@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-19T18:57:47Z",
+  "updated_utc": "2026-11-19T19:31:06Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-KC-Q3_2026_EARNINGS_SCHEDULE-20261029T072600EDT",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "KC",
-      "category": "1차_D30_실적발표사전일정_20261124_공식IR_SEC미대조_PROVISIONAL",
-      "detected_utc": "2026-10-29T12:23:38Z",
-      "summary": "2026-10-29 07:26 EDT 발행사 공식 IR 발표: Kingsoft Cloud(KC)가 2026-11-24 미국 정규장 개장 전 2026년 3분기 미감사 실적을 발표하고 07:30 EST(한국시간 11/24 21:30)에 실적 컨퍼런스콜을 개최할 예정(D+26). 실적 수치·호재 여부·매수세 미발표. 1차 뉴스·D+30 확정 발표일정 신호로만 신규 관찰; 가격·거래량 2/3/5/10/30/50배 가속·5~15분봉·저점방어·급등 전/진행/반등/재점화 판정 미확인. 2차 SEC 해당 공시 직접 대조 전, 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장위험·잠재 희석·실제 즉시 매도 가능한 공급 미확인으로 A/B/C/D 분류 보류. 2차 위험으로 1차 후보 감점·순위변경·삭제하지 않음. 공식 IR 원문은 확인했으나 SEC/공시 대조 전이므로 PROVISIONAL.",
-      "source_url": "https://ir.ksyun.com/news-releases/news-release-details/kingsoft-cloud-report-third-quarter-2026-financial-results",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-KYMR-KT579_PHASE1_RESULTS-20261029T070000EDT",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-19T18:57:47Z",
       "summary": "2026-11-19 18:50 UTC 비공식 Yahoo 5분봉 RVOL 5.34배, 기준 품질 STANDARD, 레이더 EARLY_PROVISIONAL. 직전 12개 완료 5분봉 중 양수 거래량 10개 기준(동시간대 보정 없음). 가격 흐름·저점방어·뉴스 원문 및 SEC 미검증으로 급등 전/진행/급락 후 반등/재점화 유형 미확인. Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장 위험·잠재 희석 및 즉시 매도 가능 공급 미확인, A/B/C/D 보류. 공급 위험은 1차 포착 순위에 미반영.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|ALDX|EARLY_PRE_RVOL5|20261119T192400Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "ALDX",
+      "category": "1차_급등전_거래량가속_EARLY_PRE",
+      "detected_utc": "2026-11-19T19:24:48.287976+00:00",
+      "summary": "2026-11-19 19:24 UTC 저장 거래봉: ALDX 비공식 무료 수집 5분 RVOL 16.15배, 10분 8.39배, 15분 6.36배, 5분 거래량 152719주, 15분 가격변화 +1.18%, 관찰 가격 $0.6855. TODAY_PRIOR_30M 기준, 무료 시세 지연 가능. 1차 급등 전 잠정 포착만 해당하며 상승 지속·저점방어·뉴스 및 SEC 미검증. 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장위험과 잠재 희석/즉시 매도 공급 및 A/B/C/D 분류 미확인. 2차 위험은 1차 순위에 반영하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
     }
   ]
