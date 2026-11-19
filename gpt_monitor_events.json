@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-19T01:08:41Z",
+  "updated_utc": "2026-11-19T13:48:00Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-FTAI-Q3_2026_REVENUE_GROWTH_500M_ASR_SEC8K-20261029T100000Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "FTAI",
-      "category": "1차_실적성장_매출46퍼센트증가_5억달러자사주매입계획_SEC8K_VERIFIED",
-      "detected_utc": "2026-10-29T11:02:29Z",
-      "summary": "2026-10-29 06:00 EDT FTAI Aviation 3분기 실적·자사주 매입 계획 발표, 동일일 SEC 8-K Exhibit 99.1 발행사 공식 SEC 공시 HTML 직접 대조. 2026 Q3 연결매출 $977.657m vs 2025 Q3 $667.064m(+46.6%), 주주귀속 순이익 $149.064m vs $114.009m(+30.7%), 항공우주 제품 매출 $910.0m(+76% 회사 발표). 2026-10-27 이사회가 기존 자사주매입 승인한도를 $1.0bn으로 확대; $500m 가속 자사주매입(ASR)은 RBC와 체결할 '계획'으로 발표, 2026 Q4 완료 예상이나 체결·완료 확정 아님. 승인 후 기존 $80m 매입 완료. 1차 실적 급증·자사주 매입 발표 뉴스 신호로만 관찰, 현재 거래량 2/3/5/10/30/50배·5~15분 분봉·가격·저점방어·급등전/진행/급락후반등/재점화 미확인. 2차 2026-09-30 O/S 102,448,764주(8-K 첨부 분기 재무표), Float 최신 미확인. 9/30 장기부채 순액 $3.456bn, 다만 이는 잠재 희석이나 즉시 매도 가능 주식 공급과 동일하지 않음. 최신 ATM/ELOC/Resale/PIPE·워런트·전환 및 즉시 매도 가능한 잔여 주식 공급 미확인, A/B/C/D 최종 판정 보류. 1차 순위 위험 감점·삭제·재정렬 없음.",
-      "source_url": "https://ir.ftaiaviation.com/node/13196/html",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-IOVA-IOV_LUN202_PHASE2_UPDATED_RESULTS-20261029T070000EDT",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-18 08:00 EST SEC 6-K: Lanchuang Technology 인수 SPA 체결, 총 $260m 증권대가(종결 시 62.5m주 및 조건부 전환사채 $178.75m), 종결 예정 2026-12-15(조건부), 2027-03-31까지 미종결 시 해지 가능. 1차 M&A 뉴스 신호만 평가, 거래량 가속/가격 단계 미확인. 2차: 종결 전 즉시 매도 공급 확인 없음; 종결 시 발행 예정 주식은 미등록·Reg S 양도 제한, 전환사채는 3개 연간 실적조건 충족 후 전환 가능. 잠재 발행 약 200m주(조건부)이며 현재 즉시 유통물량 아님. Float/O/S 및 전체 A/B/C/D 확정 미확인. 1차 순위 변경 없음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1956166/000149315226052995/form6-k.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0급등전신호-CHSN-ONE_MIN_VOLUME_SPIKE-20261119T134800Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "CHSN",
+      "category": "1차_대량거래_가격이상움직임_급락후반등관찰_PROVISIONAL",
+      "detected_utc": "2026-11-19T13:48:00Z",
+      "summary": "2026-11-19 22:48 KST 토스 저장 1분봉 CHSN $0.0994, 표시 거래량 1,256,250주. 직전 21:49~21:55 KST 표본 $0.0876 대비 약 +13.47%. 서로 다른 시점의 비연속 표본이며 거래량 2/3/5/10/30/50배 가속, 연속 분봉, 저점 방어, 뉴스 및 SEC 공시는 미검증. 1차 대량거래·가격 이상 움직임 잠정 포착. 2차 공급 A/B/C/D 및 즉시 매도 가능 공급 미확인. 위험으로 1차 순위 감점하지 않음.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
     }
   ]
 }
