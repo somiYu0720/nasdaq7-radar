@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-19T19:31:06Z",
+  "updated_utc": "2026-11-19T22:29:19Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-KYMR-KT579_PHASE1_RESULTS-20261029T070000EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "KYMR",
-      "category": "1차_임상1상_KT579_실제결과공개_공식IR_SEC직접미대조_PROVISIONAL",
-      "detected_utc": "2026-10-29T12:33:19Z",
-      "summary": "2026-10-29 07:00 EDT Kymera 발행사 공식 IR에서 KT-579 건강한 지원자 대상 최초 인체 임상 1상 실제 결과 공개(10/28 발표 예고와 별도 후속 이벤트). 반복투여 다중 용량에서 혈중 IRF5 중앙값 분해율 ≥90%, 14일째 자극시험에서 TNFα 88%, IL-12/23p40 87%, IL-1β 94%, IFNβ 98% 억제(회사 발표). 심각하거나 중증 이상반응 및 이상반응으로 인한 중단 없음. 2027년 초 루푸스 환자 대상 1b상 개시 계획, KT-621 아토피 2b상 톱라인 2026년 말 예정. 건강인 1상 표적분해·안전성 신호이며 환자 치료효과·3상 성공·FDA 승인 아님. 회사 공식 발표와 10/29 8-K 재현문서 확인, SEC.gov 원문 직접 대조 미완료로 PROVISIONAL. 1차 이벤트 신호만 포착, 현시점 거래량 2/3/5/10/30/50배·5~15분 가속·저점방어·급등전/진행/반등/재점화 판정 미확인. 2차 2026-09-30 현금·투자자산 $1.6bn 및 분기 순손실 $132m 회사 발표, 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·상장위험·잠재 희석과 실제 즉시 매도 가능 공급 미확인, A/B/C/D 판정 보류. 2차 위험으로 1차 감점·후보 삭제·순위 재정렬 없음.",
-      "source_url": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-third-quarter-2026-financial",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-CLPS-SHARE_BUYBACK_EXTENSION-20261029T083000EDT",
       "task": "중국계 1.0 급등 전 신호",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-19 19:24 UTC 저장 거래봉: ALDX 비공식 무료 수집 5분 RVOL 16.15배, 10분 8.39배, 15분 6.36배, 5분 거래량 152719주, 15분 가격변화 +1.18%, 관찰 가격 $0.6855. TODAY_PRIOR_30M 기준, 무료 시세 지연 가능. 1차 급등 전 잠정 포착만 해당하며 상승 지속·저점방어·뉴스 및 SEC 미검증. 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·상장위험과 잠재 희석/즉시 매도 공급 및 A/B/C/D 분류 미확인. 2차 위험은 1차 순위에 반영하지 않음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/discovery_latest.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|UZX|EGM_ADJOURNED|20261119T143700EST",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "UZX",
+      "category": "1차_주주총회일정변경_2차_병합안건미의결",
+      "detected_utc": "2026-11-19T19:37:00Z",
+      "summary": "2026-11-19 14:37 EST SEC 6-K: Linkage Global 주총에서 연기안(제8호)만 승인, 나머지 안건은 표결하지 않고 11/23 09:30 EST로 연기. 기존 36대1 주식병합 및 향후 2~100대1 병합 안건 승인·시행으로 오인 금지. 1차 뉴스/일정 신호이며 거래량 가속·가격 단계 미확인. 2차 최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·실제 즉시 매도 공급 A/B/C/D 미확인. 위험을 1차 순위에 반영하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1969401/000121390026122192/ea0312574-6k_linkage.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
