@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-19T13:48:00Z",
+  "updated_utc": "2026-11-19T15:41:05.691799+00:00",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-IOVA-IOV_LUN202_PHASE2_UPDATED_RESULTS-20261029T070000EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "IOVA",
-      "category": "1차_임상2상_신규결과_급락_관찰_SEC미대조",
-      "detected_utc": "2026-10-29T12:10:08Z",
-      "summary": "2026-10-29 07:00 EDT 발행사 발표 재배포 자료: IOV-LUN-202 비편평 전이성 비소세포폐암 2상 lifileucel 전체 69명 중 17명 반응, ORR 24.6%(2명은 반응 확인 대기), 이전 39명 기준 25.6%; KRAS wild-type 13/30=43.3%, KRAS 변이 4/35=11.4%, KRAS/HER2 wild-type 및 과거/현재 흡연자 하위군 13/22=59.1%. 선택 하위군은 후향적 탐색으로 대규모 확증 임상 성공이나 FDA 승인 아님. 2026-10-29 07:52 EDT 기준 15분 지연 제3자 프리장 스냅샷: $10.74, 전일종가 대비 -27.58%, 거래량 2.82m주; 앞서 06:21 EDT +14.77%와 방향 반전, 변동성 경고. 급락·대량거래 관찰형, 반등 성공/저점방어는 미확인. 현재가·2/3/5/10/30/50배 RVOL·5~15분봉 미확인. 2차 최신 Float/O/S·ATM/ELOC/PIPE/Resale·워런트/전환·실제 즉시 매도 가능 공급 미확인으로 A/B/C/D 보류. SEC 직접 대조 전 PROVISIONAL. 위험으로 1차 감점/제외 없음.",
-      "source_url": "https://www.stocktitan.net/news/IOVA/iovance-reports-updated-iov-lun-202-results-and-adds-precision-til-urj0ii61jdmu.html",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-NCPL-PREMARKET_GAPUP_REVERSAL-20261029T075200EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "NCPL",
-      "category": "1차_프리장_가격이상_급락후반등관찰_지연스냅샷",
-      "detected_utc": "2026-10-29T12:10:08Z",
-      "summary": "2026-10-29 07:52 EDT 기준 15분 지연 제3자 프리장 스냅샷 NCPL $1.71, 전일 종가 대비 +54.05%, 프리장 거래량 4.64m주. 2026-10-28 정규장 종가 $1.10, 전일 -16.03%, 10/23 -40.36% 하락 이력으로 급락 후 가격 반전 관찰; 저점방어·반등 지속·5~15분 가속 및 2/3/5/10/30/50배 동시간대 RVOL 미확인, 이미 급등 진행으로 '급등 전' 포착 아님. 2차 과거 2026-07 ELOC 최대 $15m·워런트 및 10/20 자금조달 8-K 관련 잠재 공급·전환 D형 요소 점검 필요, 실제 즉시 매도 가능 잔여 물량·최신 Float/O/S·ELOC 사용량·ATM/Resale/PIPE 미확인, A/B/C/D 최종 보류. SEC 원문 직접 대조 미완료로 PROVISIONAL. 위험으로 1차 감점/삭제 없음.",
-      "source_url": "https://stocksetups.com/movers/premarket",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-PCLA-PREMARKET_VOLUME_PRICE_SPIKE-20261029T075200EDT",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5477,28 @@
       "detected_utc": "2026-11-19T13:48:00Z",
       "summary": "2026-11-19 22:48 KST 토스 저장 1분봉 CHSN $0.0994, 표시 거래량 1,256,250주. 직전 21:49~21:55 KST 표본 $0.0876 대비 약 +13.47%. 서로 다른 시점의 비연속 표본이며 거래량 2/3/5/10/30/50배 가속, 연속 분봉, 저점 방어, 뉴스 및 SEC 공시는 미검증. 1차 대량거래·가격 이상 움직임 잠정 포착. 2차 공급 A/B/C/D 및 즉시 매도 가능 공급 미확인. 위험으로 1차 순위 감점하지 않음.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|AIOT|RVOL5|20261119T153500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "AIOT",
+      "category": "급등 전 관찰_거래량 가속_잠정",
+      "detected_utc": "2026-11-19T15:41:05.691799+00:00",
+      "summary": "2026-11-19 15:35 UTC 5분봉 RVOL 3.14배, EARLY_PROVISIONAL; Yahoo 비공식 5분 자료, 이전 최대 12개 양수 거래량 봉 대비 비시간대보정 기준. 가격 흐름 및 SEC 검증 미완료.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|LUCD|RVOL5|20261119T153500Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LUCD",
+      "category": "급등 전 관찰_거래량 가속_잠정",
+      "detected_utc": "2026-11-19T15:41:05.691799+00:00",
+      "summary": "2026-11-19 15:35 UTC 5분봉 RVOL 3.57배, EARLY_PROVISIONAL; Yahoo 비공식 5분 자료, 이전 최대 12개 양수 거래량 봉 대비 비시간대보정 기준. 가격 흐름 및 SEC 검증 미완료.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
   ]
