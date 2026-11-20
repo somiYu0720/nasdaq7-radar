@@ -1,29 +1,82 @@
 {
-  "updated_utc": "2026-11-20T04:45:50.466265+00:00",
+  "updated_utc": "2026-11-20T06:57:27+00:00",
   "rows": [
     {
-      "ticker": "AKAN",
-      "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 3.39,
-      "minute_volume": 14.0,
-      "bar_time": "2026-11-20T13:43:00+09:00",
-      "bar_age_minutes": 2.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-20T04:45:50.466647+00:00"
+      "ticker": "LUCD",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "21.16",
+      "bar_time": "2026-11-19 15:59:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
     },
     {
-      "ticker": "INO",
+      "ticker": "POLA",
       "signal": "REVIEW",
-      "rvol5": null,
-      "price_usd": 1.69,
-      "minute_volume": 78.0,
-      "bar_time": "2026-11-20T13:42:00+09:00",
-      "bar_age_minutes": 3.8,
-      "freshness": "FRESH",
-      "source": "Toss quote fallback; RVOL unavailable",
-      "fetched_utc": "2026-11-20T04:45:50.466647+00:00"
+      "rvol5": "1.28",
+      "bar_time": "2026-11-19 15:59:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
+    },
+    {
+      "ticker": "REED",
+      "signal": "REVIEW",
+      "rvol5": "1.2",
+      "bar_time": "2026-11-19 15:59:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
+    },
+    {
+      "ticker": "LABT",
+      "signal": "REVIEW",
+      "rvol5": "2.89",
+      "bar_time": "2026-11-19 15:59:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
+    },
+    {
+      "ticker": "PRSO",
+      "signal": "REVIEW",
+      "rvol5": "0.34",
+      "bar_time": "2026-11-19 15:55:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
+    },
+    {
+      "ticker": "SPRC",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "4.48",
+      "bar_time": "2026-11-19 15:59:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
+    },
+    {
+      "ticker": "STAK",
+      "signal": "REVIEW",
+      "rvol5": "1.18",
+      "bar_time": "2026-11-19 15:59:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
+    },
+    {
+      "ticker": "GPUS",
+      "signal": "EARLY_PROVISIONAL",
+      "rvol5": "4.43",
+      "bar_time": "2026-11-19 15:59:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
+    },
+    {
+      "ticker": "BDAI",
+      "signal": "REVIEW",
+      "rvol5": "1.26",
+      "bar_time": "2026-11-19 15:59:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
+    },
+    {
+      "ticker": "CLRO",
+      "signal": "REVIEW",
+      "rvol5": "1.15",
+      "bar_time": "2026-11-19 15:59:00-05:00",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
+    },
+    {
+      "ticker": "GCDT",
+      "signal": "DATA_UNAVAILABLE",
+      "rvol5": "",
+      "bar_time": "",
+      "fetched_utc": "2026-11-20T06:57:27+00:00"
     }
   ],
   "history": [
@@ -356,6 +409,5 @@
       "alert_sent": "True"
     }
   ],
-  "radar": "NASDAQ7_WATCHLIST_11",
-  "caveat": "Watchlist only, not full market; Toss 1m volume is not RVOL; no SEC review"
+  "radar": "NASDAQ7_WATCHLIST_11"
 }
