@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-20T16:52:49Z",
+  "updated_utc": "2026-11-20T18:30:22Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-YOUL-POST_DROP_REBOUND_SAMPLED-20261029T142544Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "YOUL",
-      "category": "1차_급락후반등_가격회복_표시분봉거래량증가_PROVISIONAL",
-      "detected_utc": "2026-10-29T15:05:39Z",
-      "summary": "2026-10-29 KST 토스 GitHub 비연속 관측: 기존 급락 후 22:50:17 YOUL $0.2499 → 23:19:50 $0.2566(표시 분봉 28주) → 23:25:44 $0.2698(표시 분봉 10,500주). 23:19:50 대비 +5.14%, 22:50:17 저점 관측 대비 +7.96%; 표본 분봉 거래량은 서로 다른 분봉의 단순 비교로 정규 RVOL 2/3/5/10/30/50배나 연속 가속 확정 아님. 마지막 실제 시세 시각은 23:25:44 KST로 수집 완료 00:05보다 약 40분 전이며 후속 반등 지속/저점 방어 미확인. 1차 위험 감점 없음. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE·워런트·전환·잠재 희석·즉시 매도 공급 미확인, A/B/C/D 보류. 외부 시세/SEC 원문 미대조 PROVISIONAL.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/dc630ac8b91d10b5e5597bf2d82f5c7d831a758e/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-PCSA-FDA_IND_CLEARANCE_VT7208-20261029T080000EDT",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5498,6 +5487,17 @@
       "category": "1차_5분상대거래량_잠정",
       "detected_utc": "2026-11-20T16:35:00Z",
       "summary": "Yahoo 비공식 5분봉 상대거래량 2.39배 (기준 표본 STANDARD); 동일 시간대 보정 없음. 가격 움직임·저점 방어·SEC 공급 검증 미확인.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|GERN|RVOL5|20261120T182000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "GERN",
+      "category": "1차_거래량2배_PROVISIONAL",
+      "detected_utc": "2026-11-20T18:30:22Z",
+      "summary": "2026-11-20 18:20 UTC 표시 5분봉 상대거래량 2.02배. Yahoo 비공식 5분봉, 직전 양수 거래량 12개 봉 평균 기준(동시간대 보정 없음). 가격 방향·연속 가속·저점 방어 미확인. SEC 및 공급 위험 미검증. 매수 신호 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
     }
