@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-11-19T18:40:59.616560+00:00",
+  "updated_utc": "2026-11-20T00:56:28.593221+00:00",
   "source": "toss_live.json snapshots; noncontinuous",
   "records": {
     "cn1-LHSW-sales-contract-20261019T160700Z": {
@@ -7504,6 +7504,33 @@
       "ticker": "EZGO",
       "radar": "nasdaq7",
       "detected_utc": "2026-11-19T16:48:24Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시|QURE|RVOL5|20261119T185000Z": {
+      "ticker": "QURE",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-11-19T18:57:47Z",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "NASDAQ7조기포착사전공시|ALDX|EARLY_PRE_RVOL5|20261119T192400Z": {
+      "ticker": "ALDX",
+      "radar": "nasdaq7",
+      "detected_utc": "2026-11-19T19:24:48.287976+00:00",
+      "entry_price_usd": null,
+      "entry_time_utc": null,
+      "status": "NO_ENTRY_PRICE",
+      "outcomes": {}
+    },
+    "중국계1.0뉴스사전공시일정감시|UZX|EGM_ADJOURNED|20261119T143700EST": {
+      "ticker": "UZX",
+      "radar": "china1",
+      "detected_utc": "2026-11-19T19:37:00Z",
       "entry_price_usd": null,
       "entry_time_utc": null,
       "status": "NO_ENTRY_PRICE",
