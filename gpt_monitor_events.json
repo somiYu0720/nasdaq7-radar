@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-19T22:29:19Z",
+  "updated_utc": "2026-11-20T04:23:24Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-CLPS-SHARE_BUYBACK_EXTENSION-20261029T083000EDT",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "CLPS",
-      "category": "1차_뉴스_자사주매입승인기간연장_공식SEC6K_VERIFIED",
-      "detected_utc": "2026-10-29T13:28:53Z",
-      "summary": "2026-10-29 08:30 EDT CLPS 발행사 발표 및 동일일 SEC 6-K 원문 대조: 2026-02-05 개시한 최대 1,000,000주 자사주 매입 승인기간을 2027-07-03까지 8개월 연장. 2026-10-28까지 실제 240,841주 매입, 잔여 승인 한도 759,159주. 잔여 한도는 매입 의무 또는 확정 체결이 아님. 1차 뉴스/이벤트 신호로 관찰하며 현재 가격·동시간대 거래량 2/3/5/10/30/50배 가속·5~15분봉·저점방어·급등전 여부는 미확인. 2차 최신 Float/O/S, ATM/ELOC/PIPE/Resale/워런트/전환, 잠재 희석 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 최종 보류. 위험으로 1차 후보 감점·순위 변경·삭제하지 않음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1724542/000121390026113575/ea0310088-6k_clps.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "중국계1.0급등전신호-RETO-EIGHT_FOR_ONE_SHARE_CONSOLIDATION-20261029T083000EDT",
       "task": "중국계 1.0 급등 전 신호",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-19T19:37:00Z",
       "summary": "2026-11-19 14:37 EST SEC 6-K: Linkage Global 주총에서 연기안(제8호)만 승인, 나머지 안건은 표결하지 않고 11/23 09:30 EST로 연기. 기존 36대1 주식병합 및 향후 2~100대1 병합 안건 승인·시행으로 오인 금지. 1차 뉴스/일정 신호이며 거래량 가속·가격 단계 미확인. 2차 최신 float/O/S·ATM/ELOC/Resale/PIPE·워런트/전환·실제 즉시 매도 공급 A/B/C/D 미확인. 위험을 1차 순위에 반영하지 않음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1969401/000121390026122192/ea0312574-6k_linkage.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|INLF|SERIES_AB_WARRANT_RESET_AMENDMENT|2026-11-18",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "INLF",
+      "category": "2차_SEC6K_워런트행사가격리셋_공급조건변경",
+      "detected_utc": "2026-11-20T04:23:24Z",
+      "summary": "2026-11-18 서명 SEC 6-K: 11/17 리셋일에 Series B 워런트 행사가격 $0.51/유닛으로 리셋된 뒤 11/18 보유자와 합의해 $0.30/유닛으로 소급 변경. Series B 행사 가능 유닛 7,352,943→12,500,001; 유닛당 Class A 보통주 1주와 Series A 워런트 1개. Series A 워런트 행사가격도 $0.30/주로 변경. Series B 만기 2026-12-21 유지. 잠재 공급 증가 조건은 확인되지만 행사 완료·즉시 매도 가능 주식 수는 미확인. Float/O/S 및 A/B/C/D 최종 공급 구분 미확인. 이 2차 위험 정보는 1차 포착 배제·감점·순위 변경에 사용하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1991592/000121390026121787/ea0312805-6k_inlif.htm",
       "verification": "VERIFIED"
     }
   ]
