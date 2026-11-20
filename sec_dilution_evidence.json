@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-19T11:45:40.296321+00:00",
+  "checked_utc": "2026-11-20T11:46:26.278697+00:00",
   "method": "SEC filing text keyword screening; not legal verification",
   "tickers": {
     "ARCI": {
@@ -859,12 +859,7 @@
     "BAOS": {
       "status": "NOT_VERIFIED",
       "evidence": [],
-      "errors": [
-        {
-          "source_url": "https://www.sec.gov/Archives/edgar/data/1811216/999999999526003018/xslEFFECTX01/primary_doc.xml",
-          "reason": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
@@ -1168,6 +1163,24 @@
     "AXNX": {
       "status": "EVIDENCE_FOUND",
       "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1998560/000121390026122381/ea0312761-f1_axonex.htm",
+          "form": "F-1",
+          "excerpt": "ll a specified number of such Resale Shares at a stipulated price per share; ● “at the market” into an existing market for securities; ● through the writing or settlement of options on the shares; ● a combination of any such methods of sale; and ● any o"
+        },
+        {
+          "category": "WARRANT",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1998560/000121390026122381/ea0312761-f1_axonex.htm",
+          "form": "F-1",
+          "excerpt": " limitation described above). As of the date of this prospectus, the Pre-Funded Warrants have been fully exercised. The Company received approximately $2.5 million in gross proceeds from the August 2026 Offering, before deducting placement agent fees and estimated offering"
+        },
+        {
+          "category": "RESALE",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1998560/000121390026122381/ea0312761-f1_axonex.htm",
+          "form": "F-1",
+          "excerpt": "fined below) on August 11, 2026. The Amendments No. 1 further provide that such resale registration statement may cover the resale of the Class A Ordinary Shares issued by the Company to other investors in one or more separate transactions. On October 7, 2026"
+        },
         {
           "category": "RESALE",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1998560/000121390026108813/ea0308325-6k_axonex.htm",
@@ -1800,6 +1813,14 @@
       "immediately_sellable_supply": null,
       "classification_level": "KEYWORD_ONLY"
     },
+    "PLV": {
+      "status": "NOT_IN_SEC_SNAPSHOT",
+      "evidence": [],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
     "PMVP": {
       "status": "EVIDENCE_FOUND",
       "evidence": [
@@ -1861,18 +1882,6 @@
           "source_url": "https://www.sec.gov/Archives/edgar/data/1782223/000143774926031667/pyxs20260930_424b5.htm",
           "form": "424B5",
           "excerpt": "f common stock issuable upon exercise of the pre-funded warrants and the common warrants. The exercise price of each common warrant equals $3.50 per share. The common warrants will not be exercisable unless and until (i) our stockholders approve an amendment to "
-        },
-        {
-          "category": "ATM",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/1782223/000143774926031480/pyxs20260909_424b5.htm",
-          "form": "424B5",
-          "excerpt": "se be financially beneficial for them to do so, and there can be no assurance that the market price of our common stock will exceed the exercise price of the common warrants at any time during their term. In addition, we will be required to continue to "
-        },
-        {
-          "category": "WARRANT",
-          "source_url": "https://www.sec.gov/Archives/edgar/data/1782223/000143774926031480/pyxs20260909_424b5.htm",
-          "form": "424B5",
-          "excerpt": "f common stock issuable upon exercise of the pre-funded warrants and the common warrants. The exercise price of each common warrant equals $ per share. The common warrants will not be exercisable unless and until (i) our stockholders approve an amendment to our "
         }
       ],
       "errors": [],
@@ -1919,6 +1928,14 @@
           "excerpt": "ublic Shares who have already elected to exercise their redemption rights, such selling stockholders would be required to revoke their prior elections to redeem their shares. As of the date of this proxy statement/prospectus, there have been no discussions an"
         }
       ],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
+    "RILY": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
@@ -2138,6 +2155,29 @@
           "excerpt": "ess release contained a typographical error regarding the exercise price of the Warrants. The correct initial exercise price of the Warrants is $2.75 per Class A ordinary share. A copy of the revised press release is furnished herewith as Exhibit 99.1 and is incorporated herein"
         }
       ],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
+    "TVRD": {
+      "status": "EVIDENCE_FOUND",
+      "evidence": [
+        {
+          "category": "ATM",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1346830/000110465926084627/tm2620743d1_8k.htm",
+          "form": "8-K",
+          "excerpt": ", Tvardi Therapeutics, Inc. (the “ Company ”) entered into a Capital on Demand™ Sales Agreement (the “ Sales Agreement ”) with JonesTrading Institutional Services LLC (“ Jones ”), pursuant to which the Company may offer and sell from time to time, at its "
+        }
+      ],
+      "errors": [],
+      "supply_type": null,
+      "immediately_sellable_supply": null,
+      "classification_level": "KEYWORD_ONLY"
+    },
+    "VNDA": {
+      "status": "SEC_SUBMISSIONS_FETCHED",
+      "evidence": [],
       "errors": [],
       "supply_type": null,
       "immediately_sellable_supply": null,
