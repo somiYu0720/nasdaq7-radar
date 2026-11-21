@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-20T19:38:31.830319+00:00",
+  "updated_utc": "2026-11-21T00:31:37Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-BURU-MINUTE_VOLUME_SAMPLED-20261029T150817Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "BURU",
-      "category": "1차_대량거래_진행중분봉_잠정_PROVISIONAL",
-      "detected_utc": "2026-10-29T15:09:43.766Z",
-      "summary": "GitHub Toss 부분수집 2026-10-30 00:08:17 KST BURU 가격 $0.3253, 00:09 표시 진행중 1분봉 거래량 638,071주, 봉 O/H $0.3297 L $0.3230, quote_time 00:08:17. 00:09 표시 봉은 완료봉이 아니며 거래량은 해당 분봉 표본일 뿐 RVOL 2/3/5/10/30/50배 확정 또는 5~15분 가속이 아님. 비교 가능한 연속 이전 분봉·저점방어·가격 변화율·급등 전/진행 여부 미확인. 포착기 부분수집·외부 시세 미대조 PROVISIONAL. 2차 최신 Float/O/S·ATM/ELOC/Resale/PIPE/워런트/전환·상장위험·잠재 희석 및 실제 즉시 매도 공급 미확인, A/B/C/D 보류. 위험으로 1차 감점·삭제·순위변경 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0_뉴스사전공시일정감시|HSAI|ROBOTAXI_LIDAR_MARKET_SHARE_YOLE_REPORT|2026-10-29T09:00:00-04:00",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-20 19:30 UTC 표시 5분봉 RVOL 2.33배, REVIEW, 기준 STANDARD; 12 positive-volume bars from previous 12 completed five-minute bars; not time-of-day adjusted. Yahoo 비공식 5분봉. 가격 방향·저점방어·급등 단계 미확인. SEC 및 공급 유형 미검증. 매수 적합성 판단 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|MTEN|EGM_1FOR5_APPROVED|20261120T215517Z",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "MTEN",
+      "category": "주총결과_5대1병합승인",
+      "detected_utc": "2026-11-21T00:31:37Z",
+      "summary": "SEC 2026-11-20 16:55 EST 접수 6-K: 11월 20일 중국시간 임시주주총회에서 Class A/B 보통주 5대1 병합 승인. 나스닥 적용은 2026-11-30 전후 예정이며 실제 시행 확정과는 구별. 1차 포착 순위에는 미반영. 최신 유통주식·공급 유형 미검증.",
+      "source_url": "https://www.stocktitan.net/sec-filings/MTEN/6-k-mingteng-international-corp-inc-current-report-foreign-issuer-a44b4504f597.html",
+      "verification": "VERIFIED"
     }
   ]
 }
