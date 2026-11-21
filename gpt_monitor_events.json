@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-21T04:30:00Z",
+  "updated_utc": "2026-11-21T05:06:19Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-NUR-UNUSUAL_VOLUME_PRICE_SAMPLED-20261029T113900EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "NUR",
-      "category": "1차_거래량이상_상승10퍼센트이내_급등전미확인_PROVISIONAL",
-      "detected_utc": "2026-10-29T16:24:26Z",
-      "summary": "2026-10-29 11:39 EDT StockAnalysis NUR 표본 $0.72(+6.87%), 누적 26,842,113주, 전일 22,932주. ChartExchange 별도 스크리너 $0.7063(+4.84%), 3.2m주, 30일 평균 302.7k 대비 10.44배. 거래량 수치 출처간 큰 차이로 데이터 품질 미확인; 10.44배는 일간 누적/평균이며 5~15분 가속 아님. 신규 10/29 발행사 호재 미확인(최근 10/14 통신탑 29개 가동 발표). 상승률 10% 이내 관찰 후보이나 급등 전 확정/저점 방어 미확인. SEC 및 공식 체결 시세 미대조 PROVISIONAL. 2차 과거 ATM 발표 별도 검토, 최신 Float/O/S·즉시 매도 가능 공급·A/B/C/D 보류. 1차 위험 감점·삭제·순위변경 없음.",
-      "source_url": "https://stockanalysis.com/stocks/nur/history/",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-AXG-POST_SPLIT_PRICE_DROP_SAMPLED-20261029T172408Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-21T04:30:00Z",
       "summary": "SEC 2026-10-28 주총 소집자료 확인: GSUN 2026-11-23 09:00 중국시간 Class A 특별총회(차등의결권 변경), 10:00 중국시간 정기주총(10대1 주식병합 제안, 승인 시 2026-12-23 효력 예정). 주총 일정과 제안 사실만 확인됐으며 승인·실제 시행 미확인. 1차 이벤트 관찰, 거래량/가격 신호 미확인. 2차 Float/O/S/공급 A/B/C/D 미확인. 매수 추천 아님.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1826376/000121390026111081/ea030921101ex99-3.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|NTCL|REVERSE_SPLIT_1FOR10_EFFECTIVE_SCHEDULE|20261118",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "NTCL",
+      "category": "1차_공시_10대1병합_거래예정일",
+      "detected_utc": "2026-11-21T05:06:19Z",
+      "summary": "SEC 6-K 첨부 2026-11-18 회사 발표: NTCL 10대1 주식병합, 11월10일 주총 및 이사회 승인, 2026-11-20 나스닥 병합 조정 거래 개시 예정. 공시상 일정·승인 사실 VERIFIED; 실제 거래 개시/체결 별도 미확인. 1차 뉴스 이벤트로 독립 관찰, 거래량 가속·가격 단계 미확인. 2차 float/O/S 및 ATM/ELOC/Resale/PIPE/워런트/전환, 즉시 매도 공급 A/B/C/D 최신 재검증 미완료. 1차 순위 변경 없음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1927578/000110465926130633/tm2629903d1_ex99-1.htm",
       "verification": "VERIFIED"
     }
   ]
