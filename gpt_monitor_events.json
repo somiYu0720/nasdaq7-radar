@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-21T12:19:31Z",
+  "updated_utc": "2026-11-21T12:25:09Z",
   "events": [
-    {
-      "id": "NASDAQ7마감10분전급락TOP10-OPTT-S1A_PRIMARY_OFFERING_WARRANTS-20261029T130300Z",
-      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
-      "radar": "nasdaq7",
-      "ticker": "OPTT",
-      "category": "1차_급락_대량거래_급락후반등관찰_2차공급검증",
-      "detected_utc": "2026-10-29T19:31:36Z",
-      "summary": "10/29 09:03 EDT SEC S-1/A 접수: 주식 최대 9,375,000주 및 동수 워런트, 가정 발행가 주식+워런트 $0.64, 총 $6m 공모 제안. 수정 S-1은 미효력 예비 등록서로 공모 종결·실제 발행 및 매도 확정 아님. 10/29 공개 시세 약 -40.4%, 323만주. 1차 급락 신호 유지; 2차 잠재 공급 D형 요소(워런트·전환), 현재 즉시 매도 가능한 신규 물량 미확인. 10/22 O/S 10,586,732주 공시; 최신 float 및 행사 잔량 대조 필요.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1378140/000149315226049198/forms-1a.htm",
-      "verification": "VERIFIED"
-    },
     {
       "id": "NASDAQ7마감10분전급락TOP10-XRX-DEBT_EXCHANGE_Q3_GUIDANCE_CUT-20261029T103500Z",
       "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
@@ -5500,6 +5489,17 @@
       "summary": "[2026-11-18 공개 6-K 지연 발굴] 2026-11-03 체결 SPA: Class A 최대 500,000,000주 주당 $0.06, 최대 $30m. 최초 170,000,000주 $10.2m 예정, 잔여 최대 330,000,000주는 주주 승인·후속 종결 조건. Class B 12,000,000주 주당 $0.10, 기존 채무 $1.2m 상계 예정. 회사는 2027년 1분기 종결 예상; 실제 종결·발행·즉시 재판매 가능 여부 미확인. 규제상 양도 제한 명시. 1차 뉴스 이벤트 후보는 공급 위험으로 제외·감점·재정렬하지 않음. 거래량 가속/분봉/float/최신 O/S 미확인. 공급 A/B/C/D 확정 분류 보류, 조건부 미래 공급과 즉시 매도 가능 공급 분리.",
       "source_url": "https://uk.advfn.com/stock-market/NASDAQ/GSUN/share-news/Form-6-K-Report-of-foreign-issuer-Rules-13a-16-and-15d-16/99736333",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|SLS|UNDERWRITTEN_OFFERING_CLOSED_FULL_OPTION|20261120",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "SLS",
+      "category": "2차_SEC_공모종결_옵션전량행사_공급확정",
+      "detected_utc": "2026-11-21T12:25:09Z",
+      "summary": "2026-11-20 SELLAS 공식 보도자료: 신주 공모 종결 완료, 기본 11,538,462주와 인수단 옵션 전량 행사 1,730,769주 합계 13,269,231주를 주당 $13에 공모. 총 조달액 $172.5m(비용 차감 전). 종결로 기존 11월18일 공모계약의 조건부 옵션이 실제 발행 공급으로 전환됨. 투자자별 실제 재판매 시각과 유통 물량은 별도 미확인. 1차 임상/거래량 포착 순위는 유지하며 공급 위험으로 감점하지 않음.",
+      "source_url": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Announces-Closing-of-Underwritten-Public-Offering-and-Full-Exercise-of-the-Underwriters-Option-to-Purchase-Additional-Shares/default.aspx",
+      "verification": "VERIFIED"
     }
   ]
 }
