@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-21T04:24:27Z",
+  "updated_utc": "2026-11-21T04:30:00Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-KPRX-KIO401_SENJU_LICENSE_AND_PRICE_DROP-20261029T070000EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "KPRX",
-      "category": "1차_임상자산라이선스_급락대량거래_급락후반등관찰_PROVISIONAL",
-      "detected_utc": "2026-10-29T16:24:26Z",
-      "summary": "2026-10-29 07:00 EDT Kiora 발행사 발표: Senju와 10/23 체결한 KIO-401 아시아 외 독점 라이선스 공개, 선급금 $3.5m, 2027 기술이전 후 추가 지급·조건부 단계별 지급 및 로열티. 일본 CRAO 임상 3상 전체 일차평가변수 p=0.0949(통계적 유의성 미달), 법적 실명 하위군 p=0.0195; 미국 승인이나 3상 성공 확정 아님. 12:10 EDT StockAnalysis 표본 $1.86(-21.19%), 당일 누적 414,459주, 전일 30,278주; ChartExchange 이전 스크리너 $1.89(-19.91%), 155.8k, 30일 평균 15.2k 대비 10.26배. 분봉 5~15분 가속·저점방어·반등 미확인. LABT형 급락/대량거래 관찰에서 제외하지 않음. 8-K 재현본 및 회사 보도 확인, SEC.gov 원문 미대조 PROVISIONAL. 2차 과거 PIPE/PFW/워런트 등 잠재 공급과 실제 즉시 매도 가능 공급 구분, 최신 Float/O/S 및 A/B/C/D 최종 보류. 1차 위험 감점·삭제·순위변경 없음.",
-      "source_url": "https://ir.kiorapharma.com/news-events/news-releases/detail/255/kiora-pharmaceuticals-in-licenses-late-stage-oral-neuroprotective-calpain-inhibitor-for-central-retinal-artery-occlusion-crao-with-planned-expansion-into-naion-asset-completed-phase-3-clinical-trial-in-crao-in-japan",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-NUR-UNUSUAL_VOLUME_PRICE_SAMPLED-20261029T113900EDT",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-21T04:24:27Z",
       "summary": "2026-11-20 08:30 EST Savara 공식 발표: FDA가 MOLBREEVI(molgramostim) BLA의 2026-11-22 PDUFA 목표일까지 결정을 내리지 못한다고 통보. 심사는 계속 중이며 새 결정일은 제시되지 않음. 승인 또는 거절 통지가 아님. 11/20 장전 약 16% 하락 보도; 현재 가격·5분 RVOL·저점방어 미확인. 1차 FDA 일정 이벤트로 독립 포착, 급락후 반등은 관찰 대상으로만 분류. 2차 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 A/B/C/D 공급 유형 미확인. SEC 원문 대조 전이며 회사 공식 발표로 이벤트 사실 확인.",
       "source_url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Informed-That-FDA-Will-Not-Take-Action-on-the-Molgramostim-BLA-for-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP-by-the-PDUFA-Date/default.aspx",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|GSUN|EGM_AGM_1FOR10_PROPOSAL|20261028",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "GSUN",
+      "category": "1차_사전공시_주주총회_병합제안",
+      "detected_utc": "2026-11-21T04:30:00Z",
+      "summary": "SEC 2026-10-28 주총 소집자료 확인: GSUN 2026-11-23 09:00 중국시간 Class A 특별총회(차등의결권 변경), 10:00 중국시간 정기주총(10대1 주식병합 제안, 승인 시 2026-12-23 효력 예정). 주총 일정과 제안 사실만 확인됐으며 승인·실제 시행 미확인. 1차 이벤트 관찰, 거래량/가격 신호 미확인. 2차 Float/O/S/공급 A/B/C/D 미확인. 매수 추천 아님.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1826376/000121390026111081/ea030921101ex99-3.htm",
       "verification": "VERIFIED"
     }
   ]
