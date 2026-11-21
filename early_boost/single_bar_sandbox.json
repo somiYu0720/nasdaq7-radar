@@ -1,0 +1,506 @@
+{
+  "engine": "EARLY_BOOST_SINGLE_BAR_SANDBOX",
+  "source": "toss_live.json",
+  "source_updated_utc": "2026-11-20T23:16:03.750634+00:00",
+  "created_as": "read_only_static_test",
+  "limits": "Volume thresholds are arbitrary exploration bins, not RVOL, not validated breakout predictions; only one bar per ticker",
+  "rvol_available": false,
+  "signal_verified": false,
+  "rows": [
+    {
+      "ticker": "MEDS",
+      "price_usd": 1.8294,
+      "minute_volume": 49990,
+      "close_position_pct": 50,
+      "snapshot_label": "거래량 관찰",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "NIO",
+      "price_usd": 2.47,
+      "minute_volume": 42629,
+      "close_position_pct": null,
+      "snapshot_label": "거래량 관찰",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "PARA",
+      "price_usd": 0.0294,
+      "minute_volume": 23239,
+      "close_position_pct": null,
+      "snapshot_label": "거래량 관찰",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "RBNE",
+      "price_usd": 0.1175,
+      "minute_volume": 16522,
+      "close_position_pct": 19,
+      "snapshot_label": "거래량 관찰",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "BMGL",
+      "price_usd": 0.3547,
+      "minute_volume": 10325,
+      "close_position_pct": 100,
+      "snapshot_label": "거래량 관찰",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "GPUS",
+      "price_usd": 0.1375,
+      "minute_volume": 10222,
+      "close_position_pct": null,
+      "snapshot_label": "거래량 관찰",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "SRTM",
+      "price_usd": 0.0815,
+      "minute_volume": 8292,
+      "close_position_pct": 100,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:11:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "NIVF",
+      "price_usd": 0.0234,
+      "minute_volume": 6910,
+      "close_position_pct": null,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "GMM",
+      "price_usd": 1.37,
+      "minute_volume": 3581,
+      "close_position_pct": 0,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "BDMD",
+      "price_usd": 0.087,
+      "minute_volume": 2683,
+      "close_position_pct": 0,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:11:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "IONQ",
+      "price_usd": 21.8002,
+      "minute_volume": 2653,
+      "close_position_pct": 100,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "BURU",
+      "price_usd": 0.2201,
+      "minute_volume": 2431,
+      "close_position_pct": null,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:12:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "CHRS",
+      "price_usd": 0.3728,
+      "minute_volume": 2250,
+      "close_position_pct": null,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:10:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "AKAN",
+      "price_usd": 4.26,
+      "minute_volume": 1908,
+      "close_position_pct": 0,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "IMCC",
+      "price_usd": 0.505,
+      "minute_volume": 1205,
+      "close_position_pct": null,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:12:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "RAYA",
+      "price_usd": 0.7379,
+      "minute_volume": 1168,
+      "close_position_pct": null,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "FNGR",
+      "price_usd": 0.0311,
+      "minute_volume": 1100,
+      "close_position_pct": null,
+      "snapshot_label": "예비 관찰",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "SMR",
+      "price_usd": 3.43,
+      "minute_volume": 733,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "EOSE",
+      "price_usd": 1.215,
+      "minute_volume": 687,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:12:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "VWAV",
+      "price_usd": 0.1375,
+      "minute_volume": 562,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "PEPG",
+      "price_usd": 3.7839,
+      "minute_volume": 500,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "RUBI",
+      "price_usd": 0.6025,
+      "minute_volume": 301,
+      "close_position_pct": 0,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:11:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "RGTI",
+      "price_usd": 7.45,
+      "minute_volume": 272,
+      "close_position_pct": 100,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "YFOR",
+      "price_usd": 1.05,
+      "minute_volume": 270,
+      "close_position_pct": 0,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:12:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "QBTS",
+      "price_usd": 6.76,
+      "minute_volume": 264,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "BRAI",
+      "price_usd": 1.67,
+      "minute_volume": 245,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:12:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "ARM",
+      "price_usd": 157,
+      "minute_volume": 229,
+      "close_position_pct": 0,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "EDSA",
+      "price_usd": 1.99,
+      "minute_volume": 212,
+      "close_position_pct": 0,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:12:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "LVWR",
+      "price_usd": 0.9537,
+      "minute_volume": 210,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "JAGX",
+      "price_usd": 0.2233,
+      "minute_volume": 192,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "ALAB",
+      "price_usd": 188.03,
+      "minute_volume": 149,
+      "close_position_pct": 0,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "STAK",
+      "price_usd": 1.91,
+      "minute_volume": 136,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "DFNS",
+      "price_usd": 1.21,
+      "minute_volume": 125,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:12:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "CAPR",
+      "price_usd": 7.83,
+      "minute_volume": 100,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "TTRX",
+      "price_usd": 8.0025,
+      "minute_volume": 100,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:12:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "GP",
+      "price_usd": 2.73,
+      "minute_volume": 100,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "INO",
+      "price_usd": 1.79,
+      "minute_volume": 99,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "MRVL",
+      "price_usd": 126.2,
+      "minute_volume": 82,
+      "close_position_pct": 0,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "NCPL",
+      "price_usd": 2.75,
+      "minute_volume": 70,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "XXII",
+      "price_usd": 0.32,
+      "minute_volume": 46,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "OKLO",
+      "price_usd": 20.2,
+      "minute_volume": 36,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "SMX",
+      "price_usd": 2.72,
+      "minute_volume": 29,
+      "close_position_pct": 0,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:12:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "SATL",
+      "price_usd": 2.52,
+      "minute_volume": 25,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:11:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "OMH",
+      "price_usd": 3.65,
+      "minute_volume": 21,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "SMTK",
+      "price_usd": 0.2278,
+      "minute_volume": 20,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:11:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "WHLR",
+      "price_usd": 0.3203,
+      "minute_volume": 10,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "POAS",
+      "price_usd": 2.3,
+      "minute_volume": 10,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "PYPD",
+      "price_usd": 6.19,
+      "minute_volume": 9,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:09:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "ATPC",
+      "price_usd": 1.22,
+      "minute_volume": 9,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:10:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "BHVN",
+      "price_usd": 12.63,
+      "minute_volume": 4,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "GDHG",
+      "price_usd": 0.1195,
+      "minute_volume": 2,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "QUBT",
+      "price_usd": 4.51,
+      "minute_volume": 1,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:14:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "QTEX",
+      "price_usd": 0.9998,
+      "minute_volume": 1,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:13:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "ENGS",
+      "price_usd": 0.3426,
+      "minute_volume": 1,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:15:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    },
+    {
+      "ticker": "QSI",
+      "price_usd": 0.9311,
+      "minute_volume": 1,
+      "close_position_pct": null,
+      "snapshot_label": "정보 부족",
+      "bar_time": "2026-11-21T08:11:00.000+09:00",
+      "sec_status": "NOT_VERIFIED"
+    }
+  ]
+}
