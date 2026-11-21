@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-21T06:08:34Z",
+  "updated_utc": "2026-11-21T06:46:32Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-CENN-POST_DROP_PRICE_RECOVERY-20261029T173505Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "CENN",
-      "category": "1차_급락후가격회복_비연속토스표본_PROVISIONAL",
-      "detected_utc": "2026-10-29T17:38:41Z",
-      "summary": "2026-10-30 KST 토스 GitHub 부분수집 비연속 표본: CENN 01:07:35 $1.7586(표시 분봉 105주) → 02:24:31 $1.8400(5,419주) → 02:35:05 $1.9338(02:36 표시 분봉 300주). 01:07 관측가 대비 +9.96%, 02:24 대비 약 +5.10% 후속 가격 회복. 이전 01:04 $1.77 급락 포착과 구별되는 가격 회복 신호이며 급락 후 반등 관찰 분류. 분봉은 비연속 표본이고 거래량 증가/공식 RVOL 2·3·5·10·30·50배/연속 5~15분 가속/저점 방어 지속/체결 독립 대조는 미확인. 2차 기존 2026-10-13 424B5 및 10-15 8-K의 최대 $100m ATM 판매 경로(C형 검토 요소) 존재하나 실제 매도·즉시 매도 가능 공급량·현재 Float/O/S 및 최종 A/B/C/D 미확인. 2차 위험으로 1차 순위 변경 없음. 매수 신호 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-BUUU-POST_DROP_PRICE_RECOVERY-20261029T173718Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-21T06:08:34Z",
       "summary": "Capricor Therapeutics 2026-11-20 19:55 EST 공식 보도자료: FDA가 Duchenne muscular dystrophy 치료제 deramiocel 재제출 BLA에 Complete Response Letter(CRL)를 발행했다고 발표. 승인되지 않았으며 2026-11-23 08:30 EST 컨퍼런스콜 예정. 1차 FDA 이벤트 포착이며 5분 RVOL, 주가 반응, 저점방어 및 실제 반등 미확인. 급락 후 반등은 관찰 대상일 뿐 확정 아님. 2차 Float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 공급 A/B/C/D 미확인. 공급 위험으로 1차 포착 순위 변경 없음.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/21/3407877/0/en/capricor-therapeutics-provides-regulatory-update-on-deramiocel-bla-for-duchenne-muscular-dystrophy.html",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-APRE-PHASE1_APR1051_INTERIM_RESULTS-20261120T090032EST",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "APRE",
+      "category": "1차_임상1상_중간결과_뉴스이벤트",
+      "detected_utc": "2026-11-21T06:46:32Z",
+      "summary": "[2026-11-20 발표, 2026-11-21 지연 발굴] Aprea APR-1051 WEE1 억제제 임상1상 ACESOT-1051 중간결과: 투여 56명, 반응평가 가능 43명 중 확인 부분반응 1명, 미확인 부분반응 1명, 4개월 이상 안정병변 5명. 2027년 2분기 용량증량·확대등록 완료 예상. 임상 초기 결과로 승인 아님. 가격·RVOL·저점방어 미확인; 공급 위험은 1차 점수에 반영하지 않음. 2차 float/O/S, 잠재희석, 즉시 매도 공급 및 A/B/C/D 유형 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1781983/000110465926130446/tm2630244d1_ex99-1.htm",
       "verification": "VERIFIED"
     }
   ]
