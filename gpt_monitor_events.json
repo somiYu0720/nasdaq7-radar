@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-21T02:31:43Z",
+  "updated_utc": "2026-11-21T04:24:27Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-CETX-PRELIM_FY26Q4_RESULTS_VOLUME_SPIKE-20261029T080000EDT",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "CETX",
-      "category": "1차_잠정실적성장_거래량이상_급등진행_PROVISIONAL",
-      "detected_utc": "2026-10-29T16:24:26Z",
-      "summary": "2026-10-29 08:00 EDT Cemtrex 미감사 잠정 FY2026 Q4 실적 발표: 매출 $22.7m 전년동기대비 +22%, 분기 영업이익 $1.4m, Operating EBITDA $1.9m; 연간 영업손실 $4.8m. 12:06 EDT StockAnalysis 표본 $2.12(+19.77%), 누적 33,350,390주, 전일 14,704주. ChartExchange 별도 시점 스크리너 $2.35(+32.76%), 25.5m주, 30일 평균 40.6k 대비 626.77배. 서로 다른 시점 수치를 혼합하지 않으며 626.77배는 누적/30일 평균이지 5~15분 가속이 아님. 급등 진행 관찰, 저점 방어·급등 전 신호 미확인. 발행사 보도 확인, SEC 원문·최종 감사실적 미대조 PROVISIONAL. 2차 warrant liabilities $2.8m은 잠재 공급 요소이며 실제 즉시 매도 물량 미확인. 최신 Float/O/S·ATM/ELOC/Resale/PIPE/전환 및 A/B/C/D 최종 보류. 1차 위험 감점·삭제·순위변경 없음.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/29/3391206/0/en/cemtrex-reports-preliminary-fourth-quarter-and-fiscal-year-2026-results.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-KPRX-KIO401_SENJU_LICENSE_AND_PRICE_DROP-20261029T070000EDT",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-20 15:59 EST 표시봉의 비공식 5분 상대거래량 2.48배, 레이더 신호 REVIEW. 가격 방향·저점 방어·반등·연속 가속은 미확인. 비교 표본·시간대 보정 미확인. 1차 거래량 관찰이며 SEC/공급 위험은 별도 2차 검증; 매수 추천 아님.",
       "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|SVRA|FDA_PDUFA_NO_ACTION_DATE|20261120T083000EST",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "SVRA",
+      "category": "1차_FDA_결정일연기_급락후반등관찰_이벤트확정",
+      "detected_utc": "2026-11-21T04:24:27Z",
+      "summary": "2026-11-20 08:30 EST Savara 공식 발표: FDA가 MOLBREEVI(molgramostim) BLA의 2026-11-22 PDUFA 목표일까지 결정을 내리지 못한다고 통보. 심사는 계속 중이며 새 결정일은 제시되지 않음. 승인 또는 거절 통지가 아님. 11/20 장전 약 16% 하락 보도; 현재 가격·5분 RVOL·저점방어 미확인. 1차 FDA 일정 이벤트로 독립 포착, 급락후 반등은 관찰 대상으로만 분류. 2차 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 A/B/C/D 공급 유형 미확인. SEC 원문 대조 전이며 회사 공식 발표로 이벤트 사실 확인.",
+      "source_url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Informed-That-FDA-Will-Not-Take-Action-on-the-Molgramostim-BLA-for-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP-by-the-PDUFA-Date/default.aspx",
+      "verification": "VERIFIED"
     }
   ]
 }
