@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-21T06:46:32Z",
+  "updated_utc": "2026-11-21T09:44:36Z",
   "events": [
-    {
-      "id": "중국계1.0급등전신호-BUUU-POST_DROP_PRICE_RECOVERY-20261029T173718Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "BUUU",
-      "category": "1차_급락후가격회복_비연속토스표본_PROVISIONAL",
-      "detected_utc": "2026-10-29T17:38:41Z",
-      "summary": "2026-10-30 KST 기존 00:01:56 토스 관측 $5.33 급락(기등록) 이후 00:14:53 $5.40(표시 분봉 3주) → 02:19:20 $5.50(11주) → 02:37:18 $5.80(02:38 표시 분봉 800주). 기존 급락 관측가 $5.33 대비 +8.82%, 02:19 대비 +5.45% 가격 회복. 1차 급락 후 반등 관찰로 별도 포착, 연속 5~15분 거래량 가속·공식 RVOL 2·3·5·10·30·50배·저점 방어 지속·독립 체결 대조 미확인. 2차 기존 2026-09-03 발표의 Brightray 인수 관련 전환가능 약속어음 및 사모조달·워런트 요소(D형 검토), 현재 조건·잔량·실제 즉시 매도 가능 공급·Float/O/S 및 A/B/C/D 최종 판정 미확인. 2026-10-26 예정 10:1 주식분할 이후 시점끼리만 가격 비교. 2차 위험으로 1차 순위 변경 없음. 매수 신호 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7조기포착사전공시-BURU-PRICE_REVERSAL_SAMPLED-20261029T173756Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-21T06:46:32Z",
       "summary": "[2026-11-20 발표, 2026-11-21 지연 발굴] Aprea APR-1051 WEE1 억제제 임상1상 ACESOT-1051 중간결과: 투여 56명, 반응평가 가능 43명 중 확인 부분반응 1명, 미확인 부분반응 1명, 4개월 이상 안정병변 5명. 2027년 2분기 용량증량·확대등록 완료 예상. 임상 초기 결과로 승인 아님. 가격·RVOL·저점방어 미확인; 공급 위험은 1차 점수에 반영하지 않음. 2차 float/O/S, 잠재희석, 즉시 매도 공급 및 A/B/C/D 유형 미확인.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1781983/000110465926130446/tm2630244d1_ex99-1.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|GSUN|EGM_AGM_RESCHEDULE|20261117",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "GSUN",
+      "category": "사전공시_주주총회일정변경",
+      "detected_utc": "2026-11-21T09:44:36Z",
+      "summary": "SEC 2026-11-17 Form 6-K: GSUN Class A 특별주주총회 및 정기주주총회가 기존 2026-11-23에서 2026-12-21로 연기됨. 기존 11월23일 일정은 무효. 주식병합은 제안 단계이며 승인 및 실제 시행 미확인. 1차 이벤트 신호만 기록하며 거래량 가속 미확인. 2차 공급 A/B/C/D 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1826376/000121390026121491/ea0312659-01.htm",
       "verification": "VERIFIED"
     }
   ]
