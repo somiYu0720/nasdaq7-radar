@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-21T09:44:36Z",
+  "updated_utc": "2026-11-21T10:00:24Z",
   "events": [
-    {
-      "id": "NASDAQ7조기포착사전공시-BURU-PRICE_REVERSAL_SAMPLED-20261029T173756Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "BURU",
-      "category": "1차_급등후가격되돌림_급락후반등관찰_PROVISIONAL",
-      "detected_utc": "2026-10-29T17:40:37Z",
-      "summary": "2026-10-29 미국 정규장 GitHub Toss 부분수집 비연속 관측: 앞서 동일 작업에서 2026-10-30 00:28:17 KST $0.4187 급등 진행 포착 → 02:37:56 KST $0.3556, 약 129분 사이 -15.07% 가격 되돌림. 최신 02:38 표시 진행 중 1분봉 거래량 559,100주(미완료 봉), 봉 O $0.3510 H $0.3589 L $0.3510. Finviz 2026-10-29 13:35 EDT $0.3467 관측도 유사 가격대 확인, 서로 다른 시각·출처 시세이므로 체결 일치/정확한 고저점·저점방어·5~15분 가속·RVOL 2/3/5/10/30/50배 미확인. 급등 후 급락/반등 관찰로 별도 1차 포착하며 기존 상승 신호를 삭제하지 않음. 2026-10-29 상장유지 기준 회복 발표는 기등록 호재로 중복 저장하지 않음. 2차 기존 2026-10-23 424B3 최대 2천만 주 재판매 등록 및 Series B 전환 관련 잠재 공급(C/D 요소 검토), 실제 즉시 매도 가능 잔여량·최신 Float/O/S·A/B/C/D 최종 판정 미확인. 위험 요인으로 1차 후보 감점·순위하락·삭제 없음. 비연속 지연 가능 부분수집 표본이며 매수 신호 아님.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0뉴스사전공시일정감시_STAK_5분상대거래량3배_2026-10-29T18:06:00Z",
       "task": "중국계 1.0 뉴스·사전공시 일정 감시",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-21T09:44:36Z",
       "summary": "SEC 2026-11-17 Form 6-K: GSUN Class A 특별주주총회 및 정기주주총회가 기존 2026-11-23에서 2026-12-21로 연기됨. 기존 11월23일 일정은 무효. 주식병합은 제안 단계이며 승인 및 실제 시행 미확인. 1차 이벤트 신호만 기록하며 거래량 가속 미확인. 2차 공급 A/B/C/D 미확인.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1826376/000121390026121491/ea0312659-01.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|ERAS|PHASE1_ERAS0015_ERAS4001_UPDATE|20261120",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "ERAS",
+      "category": "1차_임상1상_신규데이터_3상계획",
+      "detected_utc": "2026-11-21T10:00:24Z",
+      "summary": "SEC Form 8-K (2026-11-20): Erasca가 RAS 변이 고형암 대상 ERAS-0015 미국 임상 1상 단독요법 업데이트 및 초기 병용 결과, ERAS-4001 미국 임상 1상 초기 단독요법 결과를 발표. ERAS-0015의 췌장암 1차 치료 임상 3상 착수를 2027년 상반기로 앞당길 계획이라고 명시. 임상 3상 개시·효능 확정 아님. 1차 뉴스/임상 이벤트 후보이며 최신 거래량·가격·저점방어 미확인. 2차 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 공급 A/B/C/D 미확인. 1차 순위에 공급 위험 반영하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526469283/eras-20261120.htm",
       "verification": "VERIFIED"
     }
   ]
