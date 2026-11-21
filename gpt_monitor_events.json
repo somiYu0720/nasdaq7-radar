@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-21T15:40:50Z",
+  "updated_utc": "2026-11-21T16:24:35Z",
   "events": [
-    {
-      "id": "NASDAQ7마감10분전급락TOP10-SPRC-RVOL5_3P22-20261029T185400Z",
-      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
-      "radar": "nasdaq7",
-      "ticker": "SPRC",
-      "category": "1차_5분상대거래량3배_급등전미확인",
-      "detected_utc": "2026-10-29T19:31:36Z",
-      "summary": "10/29 14:54 EDT GitHub data.json 저장본 SPRC rvol5=3.22, signal EARLY_PROVISIONAL. 5분 상대거래량 이상 신호지만 연속 5~15분 가속, 가격 방향, 저점방어·반등 미확인. 기존 10/26 워런트 공시와 별개의 10/29 거래량 신호로 포착, 2차 최신 float/O/S·실제 매도 가능 공급 미검증. 위험으로 1차 감점·삭제 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "중국계1.0급등전신호-MKDW-POST_DROP_INTRADAY_PRICE_RECOVERY_SAMPLED-20261029T193327Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-20 SEC 6-K: DDC Enterprise (NYSE American: DDC) Class A 1-for-7.99 reverse split, effective 2026-11-30 00:01 ET, split-adjusted trading expected 2026-11-30. O/S Class A approx 68.17m to 8.53m; Class B excluded. Actual trading start, float, immediately saleable supply unconfirmed. NYSE American listing: confirm china1 scan universe eligibility; not NASDAQ. 1차 가격/거래량 가속 미확인, 병합/상장 위험으로 1차 후보 감점 금지. A/B/C/D 공급 유형 미확정.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1808110/000121390026122713/ea0312997-6k_ddcenter.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시-BKHA-MERGER_CLOSED_VESI_LISTING_EXPECTED-20261120T080000EST",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "BKHA",
+      "category": "1차_MA_합병종결_신규티커VESI_상장예정",
+      "detected_utc": "2026-11-21T16:24:35Z",
+      "summary": "2026-11-20 08:00 EST 회사 공식 발표: Black Hawk Acquisition(BKHA)와 Vesicor 합병이 2026-11-19 종결됨. 통합회사 Vesicor Therapeutics Holdings 주식은 2026-11-23 NASDAQ에서 VESI로 거래 개시 예정(아직 개시 확인 전). 1차 M&A 확정 이벤트 후보로 가격·거래량·저점방어 미확인, 기존 거래량 순위 불변. 2차: 2026-09-22 Meteora 선불 선도거래 최대 1,350,000주 및 관련 자금조달 계약 존재, 실제 종결 후 즉시 매도 가능 수량·float/O/S 미확인. 공급 A/B/C/D 최종 보류.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/20/3407392/0/en/vesicor-therapeutics-and-black-hawk-acquisition-corporation-announce-closing-of-business-combination.html",
+      "verification": "PROVISIONAL"
     }
   ]
 }
