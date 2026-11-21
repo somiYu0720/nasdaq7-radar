@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-21T16:24:35Z",
   "events": [
     {
-      "id": "중국계1.0급등전신호-MKDW-POST_DROP_INTRADAY_PRICE_RECOVERY_SAMPLED-20261029T193327Z",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "MKDW",
-      "category": "1차_급락후반등_가격회복_비연속토스표본_PROVISIONAL",
-      "detected_utc": "2026-10-29T19:33:27Z",
-      "summary": "2026-10-29 미국 정규장(한국 10/30) GitHub Toss 부분수집 비연속 관측: MKDW 00:15:25 KST $0.1538(표시 분봉 거래량 155주) → 04:06:58 $0.1751(3,986주) → 04:33:27 $0.1868(04:34 표시 진행중 분봉 275주). 00:15 관측 저점 대비 +21.46%, 04:06 관측 대비 약 26분 +6.68% 가격 회복. 10/28 기등록 반등 기록과 구분되는 10/29 미국장 후속 가격 신호. 분봉 비연속/진행 중, RVOL 2/3/5/10/30/50배·연속 5~15분 가속·저점 방어·반등 지속 및 외부 시세 교차확인 미완료. 1차 급락 후 반등 관찰로 잠정 포착, 급등 전 확정 또는 매수 신호 아님. 2차 최신 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 실제 즉시 매도 가능 공급 미확인으로 A/B/C/D 최종 판정 보류; 위험을 1차 감점/삭제/재정렬에 사용하지 않음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_history.json",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "중국계1.0급등전신호-CENN-POST_REBOUND_LOW_RETEST_SAMPLED-20261029T192611Z",
       "task": "중국계 1.0 급등 전 신호",
       "radar": "china1",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-21T16:24:35Z",
       "summary": "2026-11-20 08:00 EST 회사 공식 발표: Black Hawk Acquisition(BKHA)와 Vesicor 합병이 2026-11-19 종결됨. 통합회사 Vesicor Therapeutics Holdings 주식은 2026-11-23 NASDAQ에서 VESI로 거래 개시 예정(아직 개시 확인 전). 1차 M&A 확정 이벤트 후보로 가격·거래량·저점방어 미확인, 기존 거래량 순위 불변. 2차: 2026-09-22 Meteora 선불 선도거래 최대 1,350,000주 및 관련 자금조달 계약 존재, 실제 종결 후 즉시 매도 가능 수량·float/O/S 미확인. 공급 A/B/C/D 최종 보류.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/20/3407392/0/en/vesicor-therapeutics-and-black-hawk-acquisition-corporation-announce-closing-of-business-combination.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|NTHI|NEO212_FDA_TYPE_B_MEETING_RESCHEDULED|20261119",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "NTHI",
+      "category": "1차_임상_FDA회의일정변경",
+      "detected_utc": "2026-11-21T19:13:47Z",
+      "summary": "2026-11-19 NeOnc 공식 발표: NEO212 임상 1상 종료 후 FDA Type B 회의가 2026-11-17에서 2026-11-23으로 변경. 임상 2상 설계·환자군·평가변수·용량 및 규제 경로 논의 예정. FDA 승인이나 설계 동의 아님. 기존 1차 거래량 순위 불변, NTHI 분봉/가격/float/O/S/즉시 매도 가능 공급 미확인. 2차 A/B/C/D 공급 유형 판정 보류.",
+      "source_url": "https://investors.neonc.com/news-releases/news-release-details/neonc-technologies-announces-fda-rescheduled-neo212-end-phase-1",
       "verification": "PROVISIONAL"
     }
   ]
