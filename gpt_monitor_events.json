@@ -1,28 +1,6 @@
 {
-  "updated_utc": "2026-11-21T10:00:24Z",
+  "updated_utc": "2026-11-21T11:16:38Z",
   "events": [
-    {
-      "id": "중국계1.0뉴스사전공시일정감시_STAK_5분상대거래량3배_2026-10-29T18:06:00Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "중국계 1.0",
-      "ticker": "STAK",
-      "category": "1차_거래량선행_5분상대거래량3.14배_잠정_PROVISIONAL",
-      "detected_utc": "2026-10-29T18:19:14Z",
-      "summary": "2026-10-29 14:06 EDT(2026-10-30 03:06 KST) GitHub data.json 저장본의 STAK 5분 상대거래량 지표 rvol5=3.14, EARLY_PROVISIONAL. 중국계 1.0에서 독립 1차 거래량 이상 후보로 표시. 03:08:29 KST 별도 Toss 부분수집 가격 $1.55(동시 봉 아님). 연속 5~15분 가속·가격 상승·저점 방어·실제 체결량은 미확인. 2차 SEC/희석/즉시매도가능 공급 미검증이며 1차 순위에 위험 감점 없음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시-BURU-POST_DROP_PRICE_RECOVERY_SAMPLED-20261029T183752Z",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "BURU",
-      "category": "1차_급락후가격회복_재점화관찰_비연속토스표본_PROVISIONAL",
-      "detected_utc": "2026-10-29T18:54:09Z",
-      "summary": "2026-10-29 미국 정규장 GitHub Toss 부분수집 비연속 가격 표본: 앞서 같은 레이더에 기록된 2026-10-30 02:37:56 KST BURU $0.3556(급등 후 되돌림) → 03:37:52 KST $0.4063, 약 60분 관측가 +14.26% 회복. 앞서 00:28:17 KST 관측 $0.4187 대비 -2.96%로 아직 이전 관측 고점 아래. 03:38 표시 진행 중 1분봉 거래량 740,902주(미완료·지연 가능); 연속 5~15분 가속·2/3/5/10/30/50배 RVOL·실제 저점 방어·독립 체결 대조는 미확인. 기존 상승·급락 이벤트와 다른 후속 회복 관측으로 급락 후 반등 관찰/재점화 가능성만 잠정 분류하며 확정 매수 신호가 아님. 2026-10-29 상장유지 기준 회복 발표는 기등록 뉴스로 중복 등록하지 않음. 2차 2026-10-15 S-3/10-22 EFFECT/10-23 424B3 재판매 최대 2천만 주 경로 및 기존 전환 증권 등 C/D형 요소 검토; 실제 즉시 매도 가능 잔여량·최신 Float/O/S·최종 A/B/C/D 미확인. 희석·상장 위험을 1차 감점·삭제·순위변경에 사용하지 않음.",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/toss_live.json",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7마감10분전급락TOP10-LVWR-Q3_GOING_CONCERN_AND_GUIDANCE_WITHDRAWAL-20261029T110000Z",
       "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
@@ -5499,6 +5477,28 @@
       "detected_utc": "2026-11-21T10:00:24Z",
       "summary": "SEC Form 8-K (2026-11-20): Erasca가 RAS 변이 고형암 대상 ERAS-0015 미국 임상 1상 단독요법 업데이트 및 초기 병용 결과, ERAS-4001 미국 임상 1상 초기 단독요법 결과를 발표. ERAS-0015의 췌장암 1차 치료 임상 3상 착수를 2027년 상반기로 앞당길 계획이라고 명시. 임상 3상 개시·효능 확정 아님. 1차 뉴스/임상 이벤트 후보이며 최신 거래량·가격·저점방어 미확인. 2차 float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 공급 A/B/C/D 미확인. 1차 순위에 공급 위험 반영하지 않음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526469283/eras-20261120.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|SLS|PHASE3_REGAL_OS_PRIMARY_MET|20261117",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "SLS",
+      "category": "1차_임상3상_주요평가지표달성_지연발굴",
+      "detected_utc": "2026-11-21T11:16:38Z",
+      "summary": "2026-11-17 SEC 8-K: SELLAS REGAL 임상 3상 AML 환자 126명 시험에서 전체생존기간 1차 평가지표 달성. GPS 중앙생존 24.0개월 대 대조 14.7개월, HR 0.59, p=0.035. 2027년 상반기 BLA 제출 목표이며 FDA 승인 확정 아님. 기존 공시의 지연 발굴이며 사전포착 아님. 1차 뉴스·임상 이벤트만 평가, 가격/분봉/저점방어 미확인. 2차 float/O/S 및 A/B/C/D 공급 유형 미확인; 1차 순위에 공급 위험 반영하지 않음.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926128825/tm2629947d1_8k.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "NASDAQ7조기포착사전공시|SLS|UNDERWRITTEN_OFFERING_PRICED|20261118",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "SLS",
+      "category": "2차_SEC_확정공모계약_공급검증",
+      "detected_utc": "2026-11-21T11:16:38Z",
+      "summary": "2026-11-20 제출 SEC 8-K, 2026-11-18 인수계약: SLS 신주 11,538,462주 주당 $13 공모 확정, 인수단 30일 옵션 최대 1,730,769주 추가. 공모 종료 예정 2026-11-20이나 실제 종결은 이 자료만으로 미확인. 기본 공모 신주 공급은 계약상 확정이나 실제 발행·매도가능 시점 추가 검증 필요; 옵션주는 잠재 공급으로 분리. 1차 임상 포착 순위에는 반영하지 않음. Float/O/S 및 공급 A/B/C/D 확정 유형 판정 보류.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926130331/tm2630303d1_8k.htm",
       "verification": "VERIFIED"
     }
   ]
