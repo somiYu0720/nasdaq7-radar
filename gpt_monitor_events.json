@@ -1,17 +1,6 @@
 {
-  "updated_utc": "2026-11-21T11:16:38Z",
+  "updated_utc": "2026-11-21T12:19:31Z",
   "events": [
-    {
-      "id": "NASDAQ7마감10분전급락TOP10-LVWR-Q3_GOING_CONCERN_AND_GUIDANCE_WITHDRAWAL-20261029T110000Z",
-      "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
-      "radar": "nasdaq7",
-      "ticker": "LVWR",
-      "category": "1차_급락_실적이벤트_급락후반등관찰",
-      "detected_utc": "2026-10-29T19:31:36Z",
-      "summary": "10/29 07:00 EDT 발행사 Q3 실적 발표: 매출 $7.9m(+38% YoY), 순손실 $18.6m, 현금 $39.9m. 회사는 계속기업 불확실성과 2026 영업손실 전망 철회를 공시. 10/29 공개 지연 시세 약 -42.9%, 229만주. 1차 가격 급락 관찰로 포착, 반등/분봉 저점방어 미확인. SEC 원문 및 최신 float/O/S·실제 즉시 매도 공급 미검증, 위험으로 1차 감점/삭제 없음.",
-      "source_url": "https://www.stocktitan.net/news/LVWR/live-wire-group-inc-reports-2026-third-quarter-financial-84e9uxb60077.html",
-      "verification": "PROVISIONAL"
-    },
     {
       "id": "NASDAQ7마감10분전급락TOP10-OPTT-S1A_PRIMARY_OFFERING_WARRANTS-20261029T130300Z",
       "task": "NASDAQ 7.0 마감 10분 전 급락 TOP 10",
@@ -5500,6 +5489,17 @@
       "summary": "2026-11-20 제출 SEC 8-K, 2026-11-18 인수계약: SLS 신주 11,538,462주 주당 $13 공모 확정, 인수단 30일 옵션 최대 1,730,769주 추가. 공모 종료 예정 2026-11-20이나 실제 종결은 이 자료만으로 미확인. 기본 공모 신주 공급은 계약상 확정이나 실제 발행·매도가능 시점 추가 검증 필요; 옵션주는 잠재 공급으로 분리. 1차 임상 포착 순위에는 반영하지 않음. Float/O/S 및 공급 A/B/C/D 확정 유형 판정 보류.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1390478/000110465926130331/tm2630303d1_8k.htm",
       "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계1.0뉴스사전공시일정감시|GSUN|PRIVATE_PLACEMENT_SPA|20261118",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "GSUN",
+      "category": "2차_SEC_사모발행계약_향후공급",
+      "detected_utc": "2026-11-21T12:19:31Z",
+      "summary": "[2026-11-18 공개 6-K 지연 발굴] 2026-11-03 체결 SPA: Class A 최대 500,000,000주 주당 $0.06, 최대 $30m. 최초 170,000,000주 $10.2m 예정, 잔여 최대 330,000,000주는 주주 승인·후속 종결 조건. Class B 12,000,000주 주당 $0.10, 기존 채무 $1.2m 상계 예정. 회사는 2027년 1분기 종결 예상; 실제 종결·발행·즉시 재판매 가능 여부 미확인. 규제상 양도 제한 명시. 1차 뉴스 이벤트 후보는 공급 위험으로 제외·감점·재정렬하지 않음. 거래량 가속/분봉/float/최신 O/S 미확인. 공급 A/B/C/D 확정 분류 보류, 조건부 미래 공급과 즉시 매도 가능 공급 분리.",
+      "source_url": "https://uk.advfn.com/stock-market/NASDAQ/GSUN/share-news/Form-6-K-Report-of-foreign-issuer-Rules-13a-16-and-15d-16/99736333",
+      "verification": "PROVISIONAL"
     }
   ]
 }
