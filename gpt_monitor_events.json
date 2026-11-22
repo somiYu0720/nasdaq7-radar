@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-22T19:25:50Z",
+  "updated_utc": "2026-11-22T22:42:16Z",
   "events": [
+    {
+      "id": "NASDAQ7조기포착사전공시|IVVD|DECLARATION_PHASE3_INTERIM_READOUT_SCHEDULE|20261122T162000EST",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "IVVD",
+      "category": "1차_임상3상_결과발표예정_급등전이벤트관찰",
+      "detected_utc": "2026-11-22T22:42:16Z",
+      "summary": "Invivyd 2026-11-22 16:20 EST 회사 배포 보도자료: DECLARATION 3상 중간분석 결과를 2026-11-23 약 07:00 EST 발표 예정, 08:30 EST 투자자 콜 예정. 발표 일정 확인이며 결과 자체/성공 여부/주가 반응은 미확인. 최신 연속 분봉·RVOL·가격·저점방어 미확인. 1차 이벤트 독립 포착, 공급 위험으로 감점 없음. 2차 SEC/Float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 즉시 매도 가능 공급 미검증, A/B/C/D 판정 보류.",
+      "source_url": "https://finance.yahoo.com/healthcare/articles/invivyd-host-conference-call-announce-212000651.html",
+      "verification": "PROVISIONAL"
+    },
     {
       "id": "NASDAQ7조기포착사전공시|LAB|TREELINE_MERGER_SHAREHOLDER_APPROVAL|20261119T160500EST",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5488,17 +5499,6 @@
       "detected_utc": "2026-11-21T12:25:09Z",
       "summary": "2026-11-20 SELLAS 공식 보도자료: 신주 공모 종결 완료, 기본 11,538,462주와 인수단 옵션 전량 행사 1,730,769주 합계 13,269,231주를 주당 $13에 공모. 총 조달액 $172.5m(비용 차감 전). 종결로 기존 11월18일 공모계약의 조건부 옵션이 실제 발행 공급으로 전환됨. 투자자별 실제 재판매 시각과 유통 물량은 별도 미확인. 1차 임상/거래량 포착 순위는 유지하며 공급 위험으로 감점하지 않음.",
       "source_url": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Announces-Closing-of-Underwritten-Public-Offering-and-Full-Exercise-of-the-Underwriters-Option-to-Purchase-Additional-Shares/default.aspx",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "중국계1.0뉴스사전공시일정감시|CCTG|REVERSE_SPLIT_20_FOR_1_TRADING_SCHEDULE|20261120",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "CCTG",
-      "category": "2차_SEC_병합일정_확정공시",
-      "detected_utc": "2026-11-21T14:39:36Z",
-      "summary": "2026-11-20 SEC 6-K: CCSC Technology 20대1 주식병합, 2026-11-24 나스닥 병합조정 거래 개시 예정. 이사회 2026-11-04 시행 결정, 주주 승인 2026-09-01. 실제 거래 개시 미확인. 최신 float/O/S·실제 매도가능 공급 및 거래량 가속 미확인. 1차 포착 순위는 병합/상장 위험으로 감점·재정렬하지 않음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1931717/000121390026122415/ea0312920-6k_ccsc.htm",
       "verification": "VERIFIED"
     }
   ]
