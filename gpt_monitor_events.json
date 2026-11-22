@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-22T09:28:30Z",
+  "updated_utc": "2026-11-22T19:25:50Z",
   "events": [
+    {
+      "id": "NASDAQ7조기포착사전공시|LAB|TREELINE_MERGER_SHAREHOLDER_APPROVAL|20261119T160500EST",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "LAB",
+      "category": "1차_MA_합병주주승인_종결대기",
+      "detected_utc": "2026-11-22T19:25:50Z",
+      "summary": "2026-11-19 16:05 ET Standard BioTools 공식 발표: 주주들이 Treeline Biosciences 합병 및 Mass Cytometry 사업 매각 관련 모든 안건을 승인. 합병은 2026년 4분기 중 조건부 종결 예상이며 아직 종결 확인 아님. 1차 M&A 뉴스 이벤트로 독립 포착; 신규 연속 분봉·가격·RVOL 미확인으로 기존 거래량 순위 불변. 2차 Float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석과 즉시 매도 가능 공급 미확인; A/B/C/D 판정 보류. 공급 위험을 1차 감점에 사용하지 않음.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/19/3407113/0/en/standard-biotools-stockholders-approve-all-proposals-related-to-merger-with-treeline-biosciences-and-sale-of-mass-cytometry-business.html",
+      "verification": "VERIFIED"
+    },
     {
       "id": "NASDAQ7조기포착사전공시|EVRL|EVERLI_MACI_MERGER_CLOSED|20261120",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5488,17 +5499,6 @@
       "detected_utc": "2026-11-21T14:39:36Z",
       "summary": "2026-11-20 SEC 6-K: CCSC Technology 20대1 주식병합, 2026-11-24 나스닥 병합조정 거래 개시 예정. 이사회 2026-11-04 시행 결정, 주주 승인 2026-09-01. 실제 거래 개시 미확인. 최신 float/O/S·실제 매도가능 공급 및 거래량 가속 미확인. 1차 포착 순위는 병합/상장 위험으로 감점·재정렬하지 않음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1931717/000121390026122415/ea0312920-6k_ccsc.htm",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "중국계1.0뉴스사전공시일정감시|ELOG|PUBLIC_OFFERING_CLOSED|20261120",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "ELOG",
-      "category": "2차_SEC_공모종결_실제신주공급",
-      "detected_utc": "2026-11-21T14:39:36Z",
-      "summary": "2026-11-20 SEC 6-K: Eastern International 2026-11-18 SPA 체결, 보통주 12,499,993주 주당 $0.36 공모(총 약 $4.5m); 2026-11-20 공모 종결 보도자료 첨부. 실제 종결은 회사 발표로 확인, 투자자별 즉시 재판매 가능 시각·최신 float/O/S 미확인. 신규 발행 공급과 잠재 희석 구분, 공급 A/B/C/D 확정 보류. 1차 거래량/뉴스 포착 순위에 공급 위험 반영하지 않음.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2013320/000149315226053521/form6-k.htm",
       "verification": "VERIFIED"
     }
   ]
