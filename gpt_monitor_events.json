@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-23T16:07:00Z",
+  "updated_utc": "2026-11-23T19:41:33Z",
   "events": [
+    {
+      "id": "중국계1.0급등전신호|DTSS|RVOL5_11P52|20261123T193000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "DTSS",
+      "category": "1차_5분거래량11.52배_방향미확인",
+      "detected_utc": "2026-11-23T19:41:33Z",
+      "summary": "2026-11-23 19:30 UTC 표시 5분봉, 비공식 Yahoo 자체 거래량 배수 11.52배. 이전 완료 12개 5분봉 중 양수 거래량 6개 기준(시간대 보정 없음), EARLY_PROVISIONAL. Toss 2026-11-24 04:42 KST 단일 1분봉 저장가격 $0.48, 거래량 35주로 시각이 달라 직접 동시 비교 불가. 연속 가격 방향, 저점 방어, 급락·대량거래 동시 발생 및 재점화 미확인. SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환 및 A/B/C/D 즉시 공급 판정 미완료. 공급 위험은 1차 순위에 미반영.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
     {
       "id": "NASDAQ7조기포착사전공시|AVZO|RLYB_MERGER_CLOSED|20261122",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5489,17 +5500,6 @@
       "summary": "2026-11-23 07:30 EST 발행사 보도자료: Halneuron 항암화학요법 유발 신경병증성 통증 2b상에서 통증 50% 이상 감소 환자 비율 23.3% 대 위약 9.2%, p=0.003으로 1차 평가변수 충족 발표. 승인·상업화 확정 아님. SEC 8-K 제출 보도는 있으나 원문 대조 전.",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/23/3408242/0/en/dogwood-therapeutics-announces-halneuron-meets-primary-endpoint-with-statistically-significant-pain-reduction-vs-placebo-in-phase-2b-study-of-chemotherapy-induced-neuropathic-pain.html",
       "verification": "PROVISIONAL"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시|RSSS|CASH_MERGER_DEFINITIVE_AGREEMENT|20261122",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "RSSS",
-      "category": "1차_MA_현금인수확정계약_종결대기",
-      "detected_utc": "2026-11-23T13:54:19Z",
-      "summary": "2026-11-22 계약, 11-23 SEC 8-K 발표: Research Solutions가 KnowledgeWorks Global에 주당 $3.25 현금 인수되는 확정 합병계약 체결(11-20 종가 대비 51.9% 프리미엄). 2027년 1분기 종결 예상, 주주승인 및 조건 미충족 시 무산 가능; 종결 아님. 1차 M&A 신호 독립 포착, 연속 분봉·거래량 가속 미확인. 2차 float/O/S·잠재희석·즉시 매도가능 공급 미확인, A/B/C/D 보류. 공급 위험으로 1차 순위 변경 없음.",
-      "source_url": "https://www.stocktitan.net/sec-filings/RSSS/8-k-research-solutions-inc-reports-material-event-fcb1c218f1a3.html",
-      "verification": "VERIFIED"
     }
   ]
 }
