@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-23T14:37:54Z",
+  "updated_utc": "2026-11-23T16:07:00Z",
   "events": [
+    {
+      "id": "NASDAQ7조기포착사전공시|AVZO|RLYB_MERGER_CLOSED|20261122",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "AVZO",
+      "category": "1차_M&A_합병종결_신규티커",
+      "detected_utc": "2026-11-23T16:07:00Z",
+      "summary": "Avenzo 2026-11-22 회사 발표: Rallybio(RLYB)와의 합병은 2026-11-20 종결. 합병법인 AVZO로 2026-11-23 거래 개시 예정(실제 체결 미확인). 약 $215m PIPE 종결, 합병·1:2 병합 후 O/S 약 104.2m주(회사 발표). 12/4 AVZO-103 및 12/9 AVZO-023 임상1상 자료 발표 예정. 1차 뉴스·M&A 이벤트로 포착하며 공급 위험을 순위에 반영하지 않음. 2차 SEC/float/유통가능 PIPE 및 A/B/C/D 즉시매도가능 공급 구분 미완료. 11/30 특별 현금배당은 11/20까지 보유한 적격 RLYB 주주 대상이며 11/23 이후 AVZO 매수자는 대상 아님.",
+      "source_url": "https://www.biospace.com/press-releases/avenzo-therapeutics-announces-closing-of-merger-with-rallybio-corporation-and-previously-announced-215-million-concurrent-private-placement",
+      "verification": "PROVISIONAL"
+    },
     {
       "id": "중국계1.0급등전신호|STAK|RVOL5_3P87|20261123T143000Z",
       "task": "중국계 1.0 급등 전 신호",
@@ -5488,17 +5499,6 @@
       "detected_utc": "2026-11-23T13:54:19Z",
       "summary": "2026-11-22 계약, 11-23 SEC 8-K 발표: Research Solutions가 KnowledgeWorks Global에 주당 $3.25 현금 인수되는 확정 합병계약 체결(11-20 종가 대비 51.9% 프리미엄). 2027년 1분기 종결 예상, 주주승인 및 조건 미충족 시 무산 가능; 종결 아님. 1차 M&A 신호 독립 포착, 연속 분봉·거래량 가속 미확인. 2차 float/O/S·잠재희석·즉시 매도가능 공급 미확인, A/B/C/D 보류. 공급 위험으로 1차 순위 변경 없음.",
       "source_url": "https://www.stocktitan.net/sec-filings/RSSS/8-k-research-solutions-inc-reports-material-event-fcb1c218f1a3.html",
-      "verification": "VERIFIED"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시|IPXG|ELROY_AIR_MERGER_THIRD_AMENDMENT|20261122",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "IPXG",
-      "category": "1차_MA_합병계약3차수정_종결대기",
-      "detected_utc": "2026-11-23T13:54:19Z",
-      "summary": "2026-11-22 체결, 11-23 08:02 ET SEC 8-K: IPXG/Elroy Air 기업결합 계약 제3차 수정. Barq Electric 보유 워런트 대가 제외·락업 계약 제출 관련 조항 변경. 합병 종결 확인 아님. 1차 M&A 이벤트 별도 포착, 가격/연속분봉/RVOL 미확인. 2차 워런트·락업·float/O/S·즉시매도가능 공급과 잠재 공급 분리 검증 필요; A/B/C/D 보류, 1차 순위 불변.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2088805/000121390026122915/0001213900-26-122915-index.htm",
       "verification": "VERIFIED"
     }
   ]
