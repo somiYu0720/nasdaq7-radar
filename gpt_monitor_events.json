@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-23T13:54:19Z",
+  "updated_utc": "2026-11-23T14:37:54Z",
   "events": [
+    {
+      "id": "중국계1.0급등전신호|STAK|RVOL5_3P87|20261123T143000Z",
+      "task": "중국계 1.0 급등 전 신호",
+      "radar": "china1",
+      "ticker": "STAK",
+      "category": "1차_5분거래량3.87배_급등전미확정",
+      "detected_utc": "2026-11-23T14:37:54Z",
+      "summary": "2026-11-23 14:30 UTC 표시 5분봉 비공식 Yahoo 거래량을 직전 12개 양수 거래량 5분봉 평균과 비교한 자체 rvol5=3.87배, EARLY_PROVISIONAL. 동시간대 과거일 비교 RVOL 아님. Toss 저장 단일 1분봉 23:35 KST 가격 $2.02, 거래량 2,122주. 상승률, 5~15분 연속 가속, 저점 방어 및 급등 전 여부 미확인. 2차 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환, 실제 즉시 매도 가능 공급 및 A/B/C/D 판정 미완료. 1차 순위에 공급 위험 미반영.",
+      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
+      "verification": "PROVISIONAL"
+    },
     {
       "id": "NASDAQ7조기포착사전공시|PMVP|PYNNACLE_PHASE2_UPDATED_DATA|20261120T103000EST",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5489,17 +5500,6 @@
       "summary": "2026-11-22 체결, 11-23 08:02 ET SEC 8-K: IPXG/Elroy Air 기업결합 계약 제3차 수정. Barq Electric 보유 워런트 대가 제외·락업 계약 제출 관련 조항 변경. 합병 종결 확인 아님. 1차 M&A 이벤트 별도 포착, 가격/연속분봉/RVOL 미확인. 2차 워런트·락업·float/O/S·즉시매도가능 공급과 잠재 공급 분리 검증 필요; A/B/C/D 보류, 1차 순위 불변.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2088805/000121390026122915/0001213900-26-122915-index.htm",
       "verification": "VERIFIED"
-    },
-    {
-      "id": "NASDAQ7조기포착사전공시|ENLV|FDA_RMAT_TYPEB_MEETING_SCHEDULED|20261123T080000EST",
-      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
-      "radar": "nasdaq7",
-      "ticker": "ENLV",
-      "category": "1차_FDA_사전회의확정일정",
-      "detected_utc": "2026-11-23T13:54:19Z",
-      "summary": "2026-11-23 08:00 ET 회사 보도자료: Allocetra 무릎 골관절염 RMAT 관련 FDA Type B 회의 2026-12-08 예정. 이전 1/2a 12개월 64세 이상 반응률 79.2% vs 위약 47.6%(p=0.027), 2b 6개월 결과는 2027년 2분기 말 예상. FDA 승인·BLA 접수 아님. 1차 이벤트 독립 포착; 연속 분봉/RVOL 미확인. 2차 float/O/S, 11월 공모 공급, 실제 즉시 매도 가능 물량 미확인; A/B/C/D 보류, 1차 감점 없음.",
-      "source_url": "https://www.stocktitan.net/news/ENLV/enlivex-to-align-with-fda-on-allocetra-tm-clinical-path-to-potential-0g7krwj83kn7.html",
-      "verification": "PROVISIONAL"
     }
   ]
 }
