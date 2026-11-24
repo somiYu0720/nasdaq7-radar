@@ -1,6 +1,28 @@
 {
-  "updated_utc": "2026-11-23T22:50:24Z",
+  "updated_utc": "2026-11-24T00:28:21Z",
   "events": [
+    {
+      "id": "NASDAQ 7.0 조기포착·사전공시 일정|PHIO|FDA_WRITTEN_GUIDANCE|20261123T070000EST",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "PHIO",
+      "category": "1차_FDA서면지침",
+      "detected_utc": "2026-11-24T00:28:21Z",
+      "summary": "11월 23일 회사 발표: PH-762 FDA 서면 피드백, 비임상 자료는 최종 검토 조건부로 향후 허가 신청 지원 가능하다는 의견. 2027년 1분기 임상 2b 개시 계획. 승인이나 임상 성공 아님. SEC 원문 및 공급 미확인.",
+      "source_url": "https://www.stocktitan.net/news/PHIO/phio-receives-written-guidance-from-fda-supporting-continued-8qoxtdauoia4.html",
+      "verification": "PROVISIONAL"
+    },
+    {
+      "id": "NASDAQ 7.0 조기포착·사전공시 일정|CAPR|CRL_CALL_RESCHEDULE|20261123T114000Z",
+      "task": "NASDAQ 7.0 조기포착·사전공시 일정",
+      "radar": "nasdaq7",
+      "ticker": "CAPR",
+      "category": "1차_급락후관찰_설명회연기",
+      "detected_utc": "2026-11-24T00:28:21Z",
+      "summary": "11월 23일 회사 발표: FDA CRL 대응 설명회 연기, 새 일정 미정. 기존 CRL과 별개 일정 변경. 반등 및 거래량 가속 미확인. SEC 원문 및 공급 미확인.",
+      "source_url": "https://www.quiverquant.com/news/Capricor%2BTherapeutics%2BReschedules%2BConference%2BCall%2BFollowing%2BFDA%2BComplete%2BResponse%2BLetter%2Bfor%2BDeramiocel",
+      "verification": "PROVISIONAL"
+    },
     {
       "id": "NASDAQ 7.0 조기포착·사전공시 일정|PASG|MERGER_REVERSE_SPLIT|20261123T110500EST",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5478,28 +5500,6 @@
       "ticker": "REED",
       "category": "1차_장마감직전_거래량이상_재점화관찰",
       "summary": "미국 2026-10-29 15:59 EDT GitHub data.json 저장본 REED rvol5=8.92, EARLY_PROVISIONAL. 저장된 수집기 상대거래량 지표이며 거래량의 5~15분 연속 가속 또는 최종 종가/방향을 검증한 것은 아님. 1차 거래량 이상 후보 유지. 2차 최신 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장 위험과 실제 즉시 매도 공급 미확인. 위험 감점 없음."
-    },
-    {
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "nasdaq7",
-      "detected_utc": "2026-10-29T20:23:43Z",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL",
-      "id": "NASDAQ7_CLOSE-LUCD-RVOL5_4P60-20261029T195900Z",
-      "ticker": "LUCD",
-      "category": "1차_장마감직전_거래량이상_재점화관찰",
-      "summary": "미국 2026-10-29 15:59 EDT GitHub data.json 저장본 LUCD rvol5=4.60, EARLY_PROVISIONAL. 10/28 기존 기록과 다른 거래일의 새 장마감 직전 신호. 5~15분 연속 가속, 가격 저점 방어와 종가 미확인. 1차 포착에 희석/상장 위험 감점 없음. 2차 최신 float/O/S, 등록 및 실제 즉시 매도 가능 공급 미확인."
-    },
-    {
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "nasdaq7",
-      "detected_utc": "2026-10-29T20:23:43Z",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL",
-      "id": "NASDAQ7_CLOSE-PRSO-RVOL5_3P58-20261029T195900Z",
-      "ticker": "PRSO",
-      "category": "1차_장마감직전_거래량이상_재점화관찰",
-      "summary": "미국 2026-10-29 15:59 EDT GitHub data.json 저장본 PRSO rvol5=3.58, EARLY_PROVISIONAL. 10/26 Nant Capital 약 $10m PIPE 계약 및 10/28 종결 예정은 별도 2차 공급/이벤트 검증 항목; 실제 종결 및 즉시 매도 가능 물량 미확인. 1차 거래량 신호에 위험 감점 없음. 5~15분 연속 가속·종가·저점방어 미확인."
     }
   ]
 }
