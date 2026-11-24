@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-24T00:28:21Z",
+  "updated_utc": "2026-11-24T00:54:43Z",
   "events": [
+    {
+      "id": "중국계 1.0 뉴스·사전공시 일정 감시|YAAS|REVERSE_SPLIT|20261123T163014EST",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "china1",
+      "ticker": "YAAS",
+      "category": "1차_병합일정_SEC검증",
+      "detected_utc": "2026-11-24T00:54:43Z",
+      "summary": "11월 23일 SEC 6-K 확인: 11월 27일 Class A 6대1 병합, 예상 Class A O/S 1,128,226주, Class B 8,945,307주 불변(10월 22일 기준). Float 및 즉시 매도 공급 미확인. 워런트 비례 조정. 거래량 가속 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1964946/000149315226053781/form6-k.htm",
+      "verification": "VERIFIED"
+    },
     {
       "id": "NASDAQ 7.0 조기포착·사전공시 일정|PHIO|FDA_WRITTEN_GUIDANCE|20261123T070000EST",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
@@ -5489,17 +5500,6 @@
       "summary": "2026-10-21 INLF SEC 6-K 확인: 10/20 약 $3.75m 등록공모 종결, 보통주 435,000주 및 PFW 1,908,750주, Series A 워런트 초기 2,343,750주, Series B 워런트 초기 2,343,750유닛, Series C 추가 최대 5,009,193주 조정 구조. 6-K 작성시 PFW 전량 행사 완료. Series C 10거래일 후, A/B 20거래일 후 가격 리셋 및 행사 가능 수량 변동 구조. 2차 D형 복합 공급 구조 확인; 등록 발행과 실제 당일 시장 매도는 별개이며 최신 O/S/float/워런트 행사·즉시 매도 잔량 미확인. 10/29 중국계 1.0 가격 급등 1차 포착에는 감점하지 않음.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1991592/000121390026111362/ea0309124-6k_inlif.htm",
       "verification": "VERIFIED"
-    },
-    {
-      "task": "NASDAQ 7.0 장마감 종합보고",
-      "radar": "nasdaq7",
-      "detected_utc": "2026-10-29T20:23:43Z",
-      "source_url": "https://github.com/somiYu0720/nasdaq7-radar/blob/main/data.json",
-      "verification": "PROVISIONAL",
-      "id": "NASDAQ7_CLOSE-REED-RVOL5_8P92-20261029T195900Z",
-      "ticker": "REED",
-      "category": "1차_장마감직전_거래량이상_재점화관찰",
-      "summary": "미국 2026-10-29 15:59 EDT GitHub data.json 저장본 REED rvol5=8.92, EARLY_PROVISIONAL. 저장된 수집기 상대거래량 지표이며 거래량의 5~15분 연속 가속 또는 최종 종가/방향을 검증한 것은 아님. 1차 거래량 이상 후보 유지. 2차 최신 SEC/float/O/S/ATM/ELOC/Resale/PIPE/워런트/전환/상장 위험과 실제 즉시 매도 공급 미확인. 위험 감점 없음."
     }
   ]
 }
