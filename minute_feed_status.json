@@ -1,18 +1,18 @@
 {
-  "checked_utc": "2026-11-24T01:21:05.926998+00:00",
+  "checked_utc": "2026-11-24T01:24:13.898847+00:00",
   "checked": 338,
-  "success": 78,
+  "success": 74,
   "failed": {
     "GCDT": "volume field unavailable",
+    "KTTA": "insufficient positive-volume baseline",
     "ARCI": "insufficient positive-volume baseline",
     "REED": "insufficient positive-volume baseline",
-    "KTTA": "insufficient positive-volume baseline",
     "CREG": "volume field unavailable",
-    "CHNR": "insufficient positive-volume baseline",
-    "BAOS": "insufficient positive-volume baseline",
+    "RETO": "insufficient positive-volume baseline",
     "EZGO": "insufficient positive-volume baseline",
     "DXF": "insufficient positive-volume baseline",
-    "RETO": "insufficient positive-volume baseline"
+    "BAOS": "insufficient positive-volume baseline",
+    "CHNR": "insufficient positive-volume baseline"
   },
   "mode": "unofficial delayed/incomplete minute data",
   "fallback": "Toss recent quotes include price and 1m volume; RVOL unavailable without baseline"
