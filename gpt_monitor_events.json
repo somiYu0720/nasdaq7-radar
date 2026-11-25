@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-24T05:11:17Z",
   "events": [
     {
-      "id": "중국계1.0뉴스사전공시일정감시-FNGR-NONBINDING_BLUEFLARE_BUSINESS_COMBINATION_TERM_SHEET-20261029T203000Z",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "ticker": "FNGR",
-      "category": "1차_신규M&A사업결합조건서_급등전이벤트관찰_2차공급미검증",
-      "detected_utc": "2026-10-29T21:34:14Z",
-      "summary": "2026-10-29 16:30 EDT 발행사 발표: FingerMotion이 BlueFlare Group Holdings와 잠재적 사업결합에 관한 비구속적 조건서 체결. BlueFlare 주주 및 일부 경영·자문 관계자가 결합회사 완전희석 기준 약 80% 보유 예상, 종결 시 BlueFlare Inc./BFLR로 변경 예정. 확정 합병계약·주주승인·자금조달·규제승인 필요, 종결 미확정. 기존 10/27 GENIUSPark JV와 별개 신규 발표. 최신 가격·분봉·RVOL 및 SEC 원문·실제 즉시매도가능 공급 미검증. 1차 신호는 위험 감점 없이 유지, 2차 잠재희석과 즉시 공급 분리 검증 필요.",
-      "source_url": "https://ir.fingermotion.com/newsroom/press-releases/detail/228/fingermotion-signs-term-sheet-for-business-combination-with-blueflare-group-holdings-to-form-a-north-american-power-first-digital-infrastructure-company",
-      "verification": "PROVISIONAL"
-    },
-    {
       "id": "NASDAQ7_EARLY-NVAX-SANOFI_PHASE3_MILESTONE_125M-20261029T133700Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
       "radar": "nasdaq7",
@@ -5500,6 +5489,17 @@
       "summary": "11월 24일 6-K 공개: 11월 10일 병합 전 1,000,100주 발행, 총 약 40만 달러 조달. 신규 공시이며 실제 매도 여부 미확인.",
       "source_url": "https://www.stocktitan.net/sec-filings/NTCL/6-k-net-class-technology-inc-current-report-foreign-issuer-42b6ad1312db.html",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계 1.0 뉴스·사전공시 일정 감시|CLIK|BUYBACK|2026-11-24",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "CLIK",
+      "category": "BUYBACK",
+      "detected_utc": "2026-11-25T17:40:09Z",
+      "summary": "11월 24일 이사회 최대 150만 달러 자사주 매입 승인. 실제 매입 의무 없음. 11월 25일 지연 시세 자료에서 급락 및 7.5배 거래량 표시. 9월 14일 최대 1억 달러 ELOC 계약 이력, 즉시 매도 가능 공급 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2020027/000149315226053926/form6-k.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
