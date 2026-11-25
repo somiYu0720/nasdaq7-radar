@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-24T05:11:17Z",
   "events": [
     {
-      "ticker": "FOFO",
-      "category": "1차_자금조달_ATM",
-      "id": "중국계 1.0 뉴스·사전공시 일정 감시|FOFO|ATM_AGREEMENT|20261123T161500EST",
-      "summary": "11월 23일 SEC 6-K: 11월 20일 Kingswood와 ATM 계약 체결. 실제 판매량 및 ATM 한도 미확인. Float/O/S, 분봉, 즉시 공급 미확인.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2060083/000121390026123182/ea0313189-6k_hang.htm",
-      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
-      "radar": "china1",
-      "detected_utc": "2026-11-24T05:11:17Z",
-      "verification": "VERIFIED"
-    },
-    {
       "ticker": "YMAT",
       "category": "1차_자금조달_SEC검증",
       "id": "중국계 1.0 뉴스·사전공시 일정 감시|YMAT|PROSPECTUS_SUPPLEMENT|20261123",
@@ -5500,6 +5489,17 @@
       "summary": "2026-10-29 미국 정규장 공개 마감 집계에서 INLF +34.72%, 약 $0.24로 표시. 중국 소재 INLIF Limited의 급등 진행 가격 신호. 최신 거래량 2/3/5/10/30/50배, 분봉, 저점 방어, 상승 원인 미확인. 2026-09-24 과거 실적 발표를 10/29 신규 호재로 오인하지 않음. SEC 최신 ATM/PIPE/float/O/S/즉시 매도 공급 검증 전이므로 PROVISIONAL. 1차 위험 감점 없음.",
       "source_url": "https://www.chartmill.com/news/ADT/Chartmill-57263-Top-US-Stock-Gainers-and-Losers-for-Oct-29-2026",
       "verification": "PROVISIONAL"
+    },
+    {
+      "id": "중국계 1.0 뉴스·사전공시 일정 감시|HXHX|reverse_split|2026-11-24",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "HXHX",
+      "category": "D+7 reverse_split",
+      "detected_utc": "2026-11-25T01:25:20Z",
+      "summary": "18대1 주식병합, 12월 1일 적용 예정",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1936817/000121390026123663/ea031328701ex99-1.htm",
+      "verification": "VERIFIED"
     }
   ]
 }
