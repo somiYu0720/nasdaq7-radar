@@ -1,11 +1,13 @@
 {
-  "checked_utc": "2026-11-27T16:09:24.694970+00:00",
+  "checked_utc": "2026-11-27T16:11:13.355944+00:00",
   "checked": 363,
-  "success": 223,
+  "success": 230,
   "failed": {
-    "GCDT": "volume field unavailable",
     "ARCI": "insufficient completed bars",
+    "REED": "insufficient positive-volume baseline",
+    "GCDT": "volume field unavailable",
     "DUO": "insufficient positive-volume baseline",
+    "BAOS": "insufficient positive-volume baseline",
     "CREG": "insufficient completed bars"
   },
   "mode": "unofficial delayed/incomplete minute data",
