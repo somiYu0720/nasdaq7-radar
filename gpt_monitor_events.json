@@ -2,17 +2,6 @@
   "updated_utc": "2026-11-27T14:40:38Z",
   "events": [
     {
-      "id": "중국계1.0급등전신호-SLGB-NASDAQ_BID_COMPLIANCE_EXTENSION-20261029T1702EDT",
-      "task": "중국계 1.0 급등 전 신호",
-      "radar": "china1",
-      "ticker": "SLGB",
-      "category": "1차_뉴스_나스닥최저주가시정기한180일연장_SEC6K_VERIFIED",
-      "detected_utc": "2026-10-29T22:28:15Z",
-      "summary": "2026-10-29 17:02 EDT 접수 SEC 6-K 원문: 홍콩 소재 Smart Logistics Global Limited(SLGB)는 Nasdaq으로부터 최저주가 $1.00 요건 충족을 위한 추가 180일 시정기간을 2027-04-26까지 승인받음. 2026-10-28 기존 기한 종료 이후 실제 연장 확정이라는 신규 공시로, 2026-05-05 기존 미달 통지와 구분됨. $1 이상 종가 10거래일 연속 유지 필요. 통지 자체는 상장·거래 즉시 영향 없음; 상장요건 완전 회복·주식병합 실행·주가 상승은 확정 아님. 1차 뉴스/이벤트 관찰로 위험 감점·배제·순위 변경 없이 유지. 최신 가격, 거래량 2/3/5/10/30/50배, 5~15분 분봉, 저점 방어 및 급등전/진행/급락후반등/재점화 판정 미확인. 2차 Float/O/S, ATM/ELOC/Resale/PIPE/워런트/전환, 잠재 희석 및 실제 즉시 매도 가능 공급 미확인, A/B/C/D 공급 유형 보류. 매수 신호 아님.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1987189/000121390026113895/ea0310159-6k_smart.htm",
-      "verification": "VERIFIED"
-    },
-    {
       "id": "NASDAQ7_EARLY-SEER-SPECIAL_COMMITTEE_REJECTS_BOTH_MA_OFFERS-20261029T203000Z",
       "task": "NASDAQ 7.0 조기포착·사전공시 일정",
       "radar": "nasdaq7",
@@ -5499,6 +5488,17 @@
       "detected_utc": "2026-11-27T14:40:38Z",
       "summary": "11월 27일 12월 1일 임시주총 모든 안건 철회 발표. 최저호가 요건 회복에 따른 병합안 철회이며 주총 자체는 개최 예정. 분봉 및 공급 미확인.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2002045/000121390026124331/ea031367401ex99-2.htm",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "중국계 1.0 뉴스·사전공시 일정 감시|IFBD|convertible_notes|2026-11-27",
+      "task": "중국계 1.0 뉴스·사전공시 일정 감시",
+      "radar": "중국계 1.0",
+      "ticker": "IFBD",
+      "category": "convertible_notes",
+      "detected_utc": "2026-11-28T00:15:24Z",
+      "summary": "11월 26일 최대 1000만 달러 전환사채 계약, 11월 27일 6-K. 전환가 최근 5거래일 최저 종가의 50%, 하한 $0.50. 실제 발행 및 즉시 매도 가능 공급 미확인.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1815566/000173112226001499/e8094_6k.htm",
       "verification": "VERIFIED"
     }
   ]
